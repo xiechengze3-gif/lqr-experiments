@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-11-05T06:07:31.071110+00:00",
+  "source_hashes": [
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x7-20261102\\RESOURCE_COMPLETE_v1.json",
+      "sha256": "db8a365716e0a616cc6a9f390ccae4a8b2e872e3d34d62d20d07d85a8ee47ed5"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x7-20261102\\DELIVERY_MANIFEST_v1.json",
+      "sha256": "f85ea207278947f804a7cf2cfe0efaadf20d9d64256c1e12b205f6983cf2fc40"
+    },
+    {
+      "path": "C:\\Users\\24375\\Projects\\project2_l4dc\\sections\\02-setting.tex",
+      "sha256": "8543a87d84eb6f14134814014503a967c036e214554079bb00801901c4521dbf"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\configs\\X2_CE_resolved_v2.json",
+      "sha256": "56b432e62fd51edb6fe82b3c3c26373db3b837e9b8faa94df0a339218e226900"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\configs\\X3_CE_resolved_v2.json",
+      "sha256": "99f60251f41ad2e1adcfc9b15f45e67f9d89335699d85fa5ef5f9d208a2ecfa1"
+    }
+  ],
+  "saved_median_source_hashes": {
+    "X2": {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\X2\\report-ce\\all_statistics.csv",
+      "sha256": "8d8581bd74a0d5151c4b5d2363130a643dbbaefd4831ca2dd6858e421bafe28f"
+    },
+    "X7": {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x7-20261102\\summary.csv",
+      "sha256": "b481f68413779581b70ed4b344f91d55d61437f789dce47c912e52650eb6514c"
+    }
+  }
+}

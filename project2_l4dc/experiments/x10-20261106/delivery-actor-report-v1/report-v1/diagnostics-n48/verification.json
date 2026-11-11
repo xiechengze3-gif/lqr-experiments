@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "n": 48,
+  "job": "20422512",
+  "zero_new_transitions": true,
+  "training_primitive_transitions": 64802019328,
+  "endpoint_rows": 640,
+  "stage_rows": 8320,
+  "diagnostic_rows": 16536,
+  "verified_artifacts": 11520,
+  "max_K_continuity_error": 0.0,
+  "max_update_relative_error": 0.0,
+  "source_sha256": "f8f459bb92e08dc5d0c039944b2aed82bf8a808095f6f7ac32f74256f14228b6",
+  "config_sha256": "cf3bc5ff72cf62ff5469008805ddf93a64623d043858074be76e20e9a9c9152b",
+  "seconds": 486.4989633690566,
+  "files": {
+    "endpoints.csv": "884c9842796aa4d0e6535ea0eb201f9cedc73ba4fca95ef7a76b1f8abd4472f8",
+    "diagnostics.csv": "e56b8d617d2d29f8c65db45682d166116e7981f06b5106daa940583edfacb79d",
+    "stages.csv": "ab05412517cf32cc644bd26ddb6b38da2283be6a0e3656474dd88f16c33056b7"
+  }
+}

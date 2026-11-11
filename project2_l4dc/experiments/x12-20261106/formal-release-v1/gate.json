@@ -1,0 +1,76 @@
+{
+  "status": "ALL_PILOT_COST_GATES_PASS",
+  "created_utc": "2026-11-07T00:58:15.591524+00:00",
+  "checks": {
+    "all_fixed_pilot_checks_pass": true,
+    "all_raw_on_E_verified": true,
+    "actual_forecast_under_230": true,
+    "requested_upper_under_300": true,
+    "all_wall_guards_pass": true,
+    "walls_within_medium_24h": true,
+    "account_can_cover_requested": true
+  },
+  "groups": [
+    {
+      "id": "n60-nine-NPG",
+      "n": 60,
+      "algorithm": "NPG",
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "measured_body_seconds": 5209.545610779896,
+      "historical_floor_seconds": 7529.06625613383,
+      "body_seconds": 7529.06625613383,
+      "wall_minutes": 152,
+      "partition": "medium",
+      "requested_SU": 81.06666666666666,
+      "wall_guard_pass": true
+    },
+    {
+      "id": "n60-nine-PI",
+      "n": 60,
+      "algorithm": "PI",
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "measured_body_seconds": 4850.15148030594,
+      "historical_floor_seconds": 7430.451774509534,
+      "body_seconds": 7430.451774509534,
+      "wall_minutes": 150,
+      "partition": "medium",
+      "requested_SU": 80.0,
+      "wall_guard_pass": true
+    }
+  ],
+  "actual_forecast_SU": 144.23877138349658,
+  "requested_upper_SU": 177.9,
+  "pilot_actual_elapsed_SU": 3.1819444444444445,
+  "pilot_requested_upper_SU": 8.75,
+  "model_prep_reserved_SU": 0.08333333333333333,
+  "report_reserved_SU": 8,
+  "N_cal": 2097152,
+  "pilot_audit_sha256": "9d88e705d415c09b2acec59fb502a17536f7826bd33109dfd1227fb59c437550",
+  "calibration_sha256": "9aa8b7038f97010750690eea30455983b2e6462593f504234d3382c92d1620ee",
+  "resource_floor_sha256": "9564f443985a1429aa254602f24db8e776d194dcc81765f9f4bde09e40b6f6e1",
+  "review_sha256": "7abc1d31d3c9afaf1407bf2d7e8777058bb10f374a53f6824b71ac2b29500cbf",
+  "global_concurrency": 64,
+  "paired_paths": 576,
+  "arm_paths": 1152,
+  "primitive_transitions": 193644738560,
+  "raw_delivery_proofs": [
+    {
+      "algorithm": "NPG",
+      "local_path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x12-20261106\\raw-deliveries-v1\\timing-NPG-v1",
+      "receipt_sha256": "45a81c9672e1076868f81a1623e0827e9df99e7b5748e1935e7ba303b8e4fd4f",
+      "verification_sha256": "0537e5a839cacb75be531267833dbe8f56826f471d60e5dd79c894835534c7f0"
+    },
+    {
+      "algorithm": "PI",
+      "local_path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x12-20261106\\raw-deliveries-v1\\timing-PI-v1",
+      "receipt_sha256": "d361197e30d1cacac9914ceda290409e475f1dc0077cd0544db9c05a4cec7106",
+      "verification_sha256": "bffd5e5438d8b77c005aab938f653aaafc95f579be3b39ecd0daa37084823b39"
+    }
+  ],
+  "no_outcome_selection": true,
+  "automatic_retries": 0
+}

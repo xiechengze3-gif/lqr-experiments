@@ -1,0 +1,33 @@
+{
+  "status": "PREPARED_FOR_CLAUDE_REVIEW_NOT_AUTHORIZED_NOT_RUN",
+  "original_wrapper_sha256": "8c4a178e18f001cf3264ccce7bd766612912c4844f2247614075b1c6dd5f6a73",
+  "corrected_wrapper_sha256": "77586c8050a1a1982accf3d9852fa1167491b73bfd59926951259eba4c964cf6",
+  "original_learning_sources": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "actor_paths.py": "f76c28024fc0a70ea626e9f90b1e8a27cb90984aed4f16a4f8437d3c8af60ec4",
+    "formal_driver.py": "caf9496b866215b423528bb42663a84f2c6c76e1b32e561b9a036e0ee8f28f22",
+    "analyze_actor.py": "9352529caf3a46a50691b8cef6d6d0ff93f8fdef9a7eba1946375e95dcb6d76e",
+    "plot_saved_actor.py": "33759f577ab645e67e1ebba53f8b6228c4528d2e635f57da1634dd6243807835",
+    "actor_pilot.py": "8c4a178e18f001cf3264ccce7bd766612912c4844f2247614075b1c6dd5f6a73"
+  },
+  "unchanged_functions": [
+    "save_new",
+    "model",
+    "stage_config"
+  ],
+  "timing_function_identical_except_output_namespace": true,
+  "reference_baseline_manifest_sha256": "86ff9a5c0de6106309f04cf714fc875b92ebe1c2ddfbcdd29741a08de382a011",
+  "reuse_completed_v1_NPG_done_sha256": "f28ec37533c341526d1eda1af17d154b8de3c4e9657ac11e641b9bba78407ee0",
+  "unchanged_ids_seeds_rungs_algorithms": true,
+  "planned_new_equivalence_transitions": 5929952,
+  "reused_completed_NPG_transitions": 5929952,
+  "proposed_additional_requested_SU": 4.166666666666667,
+  "prior_actual_elapsed_SU": 0.015833333333333335,
+  "prior_requested_upper_SU": 4.166666666666667,
+  "proposed_cumulative_pilot_requested_upper_SU": 8.333333333333334,
+  "no_numeric_execution": true,
+  "new_jobs": 0,
+  "SU": 0,
+  "scope": "Compare all saved NPG arrays without resampling; only uncompleted PI replay and two untouched timing tasks after explicit corrected-pilot authorization. Full reference-file preflight before any submission."
+}

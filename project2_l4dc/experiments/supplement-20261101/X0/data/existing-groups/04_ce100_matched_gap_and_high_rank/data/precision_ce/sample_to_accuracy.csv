@@ -1,0 +1,9 @@
+rank,method,first_tested_budget,previous_tested_budget,sustained_tested_budget,right_censored,epsilon
+16,raw,141824,139776,141824,False,0.1
+16,truncated,64000,61952,64000,False,0.1
+32,raw,160256,158208,160256,False,0.1
+32,truncated,113152,111104,113152,False,0.1
+64,raw,184832,182784,184832,False,0.1
+64,truncated,170496,168448,170496,False,0.1
+100,raw,156160,154112,156160,False,0.1
+100,truncated,156160,154112,156160,False,0.1

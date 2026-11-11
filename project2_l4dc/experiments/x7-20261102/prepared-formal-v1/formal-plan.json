@@ -1,0 +1,19 @@
+{
+  "experiment": "X7",
+  "stage": "FORMAL",
+  "tasks": 32,
+  "concurrency": 8,
+  "cpus": 1,
+  "memory_MiB": 2048,
+  "wall_minutes": 3,
+  "requested_bound_SU": 1.6,
+  "prior_requested_SU": 1.0,
+  "reserved_report_SU": 2,
+  "projected_cumulative_requested_SU": 4.6,
+  "cap_requested_SU": 15,
+  "automatic_retries": 0,
+  "measured_case_worst_sum_seconds": 52.88865301012993,
+  "maximum_RSS_KiB": 141180,
+  "formula": "ceil((1.3*sum(case max full-path seconds)+60)/60)",
+  "formal_config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d"
+}

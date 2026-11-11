@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "operation": "saved-table postprocessing only",
+  "normalization": "(J(K)-Jstar)/(J(K0)-Jstar), per instance before aggregation",
+  "input_rows": 96600,
+  "input_trajectories": 2064,
+  "variant_paths": 4152,
+  "aggregate_rows": 4025,
+  "all_NPG_unstable_paths_retained": 228,
+  "failed_output_rows": 8690,
+  "initial_gap_min": 0.2005511147960124,
+  "initial_gap_max": 3.208817836736239,
+  "per_instance_normalization_before_aggregation": true,
+  "saved_relative_gap_maximum_scaled_mismatch": 0.0,
+  "original_absolute_budget_rows_reproduced_exactly": 144,
+  "cohort_threshold_rows": 1038,
+  "per_run_threshold_rows": 24912,
+  "censored_cohort_thresholds": {
+    "absolute": 285,
+    "relative_initial": 355
+  },
+  "targets": [
+    0.1,
+    0.03,
+    0.01
+  ],
+  "cohort_success_requirement": ">=22 of all 24 repeats",
+  "new_learning_runs": 0,
+  "new_training_transitions": 0,
+  "new_control_solves": 0,
+  "original_inputs_unchanged": true,
+  "input_files_sha256": {
+    "all_records.csv": "3bd2370b8c384d5e8195db77c59cddf23e4250ed009a5bca94371ca732ef7418",
+    "system_certificates.json": "128a3980bb8c0f7cb2017176055021ce03f4a28dab4190563c9de0ba6b788863",
+    "fixed_accuracy.csv": "9d6dc5a24ad145b16dc8c1226ae4597325be7e6296abb66f69dd6921c7000579"
+  },
+  "source_sha256": "68ec5fb06d443c84e3525e76a432e9dd2a57b9c3443207c67cc9a2c362cf0740",
+  "config_sha256": "0335a9dc9fc32753e81d053f3b0ee40e2f45554d549f9fbd6120fc1d549274b6",
+  "elapsed_seconds": 54.13304336182773,
+  "provenance": {
+    "job": "20330757",
+    "host": "c263",
+    "cpus": "1",
+    "temp": "/scratch/user/changze/lqr_experiments/tmp/ce-npg-initial-gap-20261028",
+    "cache": "/scratch/user/changze/lqr_experiments/cache/ce-npg-initial-gap-20261028"
+  }
+}

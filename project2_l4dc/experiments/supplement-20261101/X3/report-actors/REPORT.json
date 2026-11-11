@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "scope": "NPG",
+  "experiment": "X3",
+  "endpoints": 1440,
+  "failed_endpoints": 0,
+  "hard_failure_attempts": 0,
+  "unequal_actual_transition_attempts": 0,
+  "full_failure_denominator_per_cell": 32,
+  "padding_transitions": 0,
+  "all_recorded_iterates": 93600,
+  "candidate_policies_independently_checked": 93600,
+  "max_normalized_gap_identity_error": 1.2651951541579535e-14,
+  "source_sha256": "55b04ff16d812ec9b08ef296d0ed392fca9f6ca34f961cfe8f826e12a8358fc6",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "numerical_accuracy_claim": "Relative endpoint comparisons only; no NPG epsilon attainment or theorem-constant certification",
+  "new_training_transitions": 0,
+  "job": "20359906"
+}

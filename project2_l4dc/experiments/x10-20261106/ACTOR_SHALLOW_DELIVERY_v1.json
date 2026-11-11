@@ -1,0 +1,24 @@
+{
+  "status": "SHALLOW_ACTOR_VERIFIED_DELIVERY_PREPARED",
+  "files": {
+    "summary.csv": "01661bb6a63447ee90e775d1f98957f69583e714e216ab67842a18738336f3fc",
+    "summary_merged_nine_rungs.csv": "fe4dde75b9f78f5e56c3bfe37b375d118ad8d89ae2e6ee29163c56dc37bfa281",
+    "endpoints_new_rungs.csv": "4ddeaa9c8ed9d3eb7e32f80cbfcf77a95892b01f00d5ea0e2543edac58082f0c",
+    "ACTOR_REPORT.md": "46c99b16be9e7f8f13dceb245c94d7c465ce82d6f7797b5dd22d6d3a3bcf677e",
+    "transitions_saved_derived.csv": "0a1f827b37ff6a56da1d44b8f0e43570fe08cd9ecf251f0b14c4eaf5810cd39a",
+    "transitions_saved_original_four_recomputed.csv": "e6de27ba9a0a01943ed32c41b2b0b774b23a87fe85b72698fd5ef4403f33a31a",
+    "transitions_saved_original_four_paper.csv": "23458dc5a83aa06b998f188dc697e2788851f4796be53f4a9444a31365a088cb",
+    "failures.csv": "833beccb759a6bd8f3e6c66bb91efd3eba057159079832e812cb86a5b6c4ba69",
+    "failure_counts_by_cell.csv": "5f6c8d8546aa9d50fe01b867cb102435f3325f99263cc5e7870b192fec14a292",
+    "actor_figures/all_dimensions_gap.png": "821c1bc4b21d45d0a5571040ce0ac14db79e78dc18ceae174c5f7552f5b88c0e",
+    "actor_figures/all_dimensions_gap.svg": "cb6b907b7ac847086d533af8f1bb7cb20947618cb3148e1f92b1513ad250e07e",
+    "actor_figures/all_dimensions_relative_gap.png": "214e69ae89e30baa5d5728e22e47de09ce7fc015d2eb2addf3479e474dc3ca3f",
+    "actor_figures/all_dimensions_relative_gap.svg": "93b66fab7b42e2dd9e214b76b58aa9bc1340987bfbb3c4d5cc6358c228596c34",
+    "actor_figures/n72_main_gap.png": "484caf417e5416dd4c790b40a29eefcd9950365b9d1c3b06dc7f81e6fe11dc94",
+    "actor_figures/n72_main_gap.svg": "6a5d4d97178e390af119557a6dcc1e465a9f52e4ba66e3e333b202a90c8ef11c"
+  },
+  "new_summary_rows": 80,
+  "merged_summary_rows": 144,
+  "baseline_prefix_byte_identical": true,
+  "numerical_reanalysis": false
+}

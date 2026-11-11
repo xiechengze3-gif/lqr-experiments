@@ -1,0 +1,28 @@
+{
+  "status": "A2_VERIFIED",
+  "selected_base_36": 1048576,
+  "summary": [
+    {
+      "N": 1048576,
+      "rho_op_median": 0.8440015745026245,
+      "system_seed_medians": [
+        0.887529965904609,
+        0.80047318310064
+      ]
+    },
+    {
+      "N": 2097152,
+      "rho_op_median": 0.5934873435745426,
+      "system_seed_medians": [
+        0.6187106872058765,
+        0.5682639999432086
+      ]
+    }
+  ],
+  "archives_checked": 16,
+  "new_primitive_transitions": 201392672,
+  "source_sha256": "6938fad98cf4b51049608a57d0adf0d2d5d18dee1854ad9ca64e747c7cb0648f",
+  "extension_json_sha256": "18ba927f927cbc7c70a5c73a9c716b7447ffebbe006acbb1e699a09c81526e30",
+  "cost": 9.607500000000002,
+  "requested": 16.500000000000004
+}

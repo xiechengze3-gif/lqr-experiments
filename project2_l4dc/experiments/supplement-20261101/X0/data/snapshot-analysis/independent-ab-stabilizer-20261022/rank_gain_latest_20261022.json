@@ -1,0 +1,30 @@
+{
+  "scope": "Independent unstable A/B; rho(A)=1.05; stability-only K0 without Kstar initialization",
+  "CE_status": "interim common completed formal seed prefix",
+  "CE_sampling_seeds": [600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623],
+  "CE_dimension": 500,
+  "CE_OLS_samples": 1048576,
+  "CE_primitive_transitions": 1048832,
+  "CE_metric": "ratio of median absolute control gaps at identical sample budget; unstable outputs counted as infinite gap",
+  "CE": [
+    {"rank":2,"dense_stable":0,"truncated_stable":24,"dense_gap_median":null,"truncated_gap_median":73.72404638841545,"ratio_of_median_gaps":null},
+    {"rank":4,"dense_stable":24,"truncated_stable":24,"dense_gap_median":1687.6706747596645,"truncated_gap_median":10.003521508462654,"ratio_of_median_gaps":168.70765693180647},
+    {"rank":8,"dense_stable":24,"truncated_stable":24,"dense_gap_median":319.3715685942707,"truncated_gap_median":34.46980901120696,"ratio_of_median_gaps":9.265254950801593},
+    {"rank":32,"dense_stable":24,"truncated_stable":24,"dense_gap_median":17.74968810557516,"truncated_gap_median":1.147569085530904,"ratio_of_median_gaps":15.467206575509621},
+    {"rank":500,"dense_stable":24,"truncated_stable":24,"dense_gap_median":0.05750628266611102,"truncated_gap_median":0.05750628266611102,"ratio_of_median_gaps":1.0}
+  ],
+  "CE_preset_absolute_target": 1.0,
+  "CE_low_rank_endpoints_meeting_preset_target": 0,
+  "CE_sample_saving_factor_at_preset_target": null,
+  "Stein_PI_status": "formal complete; independent performance-gap audit PASS",
+  "Stein_PI_dimensions": [50,100],
+  "Stein_PI_rank": 4,
+  "Stein_PI_samples_per_update": [32768,131072,524288],
+  "Stein_PI_updates": 6,
+  "Stein_PI_independent_systems_per_dimension": 8,
+  "Stein_PI_dense": {"paths":48,"final_stable":0,"final_relative_gap_below_point1":0},
+  "Stein_PI_known_rank": {"paths":48,"final_stable":0,"final_relative_gap_below_point1":0},
+  "Stein_PI_independent_policy_evaluations": 203,
+  "remote_CE_root": "/scratch/user/changze/lqr_experiments/results/ce500-independent-stabilizer-20261022",
+  "remote_Stein_root": "/scratch/user/changze/lqr_experiments/results/stein-independent-stabilizer-20261022"
+}

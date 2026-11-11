@@ -1,0 +1,25 @@
+{
+  "name": "supplement-20261101-p1-p2-report-v27",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-p1-p2-report-v27.tar.gz",
+  "archive_sha256": "77b42c8d94d74fe672dbd69daa9b855835d8c5f7beb77170dcf611b0991561d0",
+  "plan": {
+    "id": "supplement-20261101-p1-p2-report-v27",
+    "stage": "REPORT",
+    "experiment": "X1_X2",
+    "scope": "SAVED_NPG_DECOMPOSITION_AND_POPULATION_REFERENCE",
+    "wall_minutes": 10,
+    "bundles": 1
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "mechanism_p1_p2.py": "dda860682a26430cfe4df723c81079dcddeb8adadf2d55537b6ee3151922a1bd",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "actor_report.py": "55b04ff16d812ec9b08ef296d0ed392fca9f6ca34f961cfe8f826e12a8358fc6",
+    "configs/P1_P2_v1.json": "4efa5596de56ed8bb7755d8a718598cac97e9303ec3633689a9b0c7ab86b2b13",
+    "configs/X1_actor_base2048_v2.json": "611a168228198aa5d6e279b0895fc7a3a494bb4f47042c64ae5854eca3c38c99",
+    "configs/X2_NPG_formal_v1.json": "a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933",
+    "job_plan.json": "69f88a36559f2c06159959baae3fadb107e7fbd018869db15a8153668396d6f9",
+    "slurm/run.sbatch": "0c139f765b8873de2be38360fd0b4608032ed7fa2408904263d1d1f6bf376f07"
+  }
+}

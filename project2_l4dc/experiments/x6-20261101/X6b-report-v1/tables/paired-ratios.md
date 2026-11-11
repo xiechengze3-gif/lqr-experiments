@@ -1,0 +1,70 @@
+# Paired terminal gap ratios
+
+Ratio=g(dense)/g(truncated), taken per pair before the median. Both-stable and failure-inclusive definitions are both retained. Failure-inclusive uses one-sided failures as0/∞,dropping only both-failed pairs. CI=5000 system-cluster bootstrap draws over8 systems with4 seeds each; common draws within(n,algorithm) across all rungs/arms/epsilon/ratio definitions. Empty conditional resamples are reported and excluded from that conditional percentile; no finite cap is substituted for infinity. These are pointwise CIs.
+
+|n|algorithm|rung|definition|D/T stable|pairs/32|median [95%CI]|invalid BS/5000|both failed|
+|---|---|---|---|---|---|---|---|---|
+|24|NPG|1/64|both_stable|32/32|32|4.50938 [4.37188, 4.86214]|0|0|
+|24|NPG|1/64|failure_inclusive|32/32|32|4.50938 [4.37188, 4.86214]|0|0|
+|24|NPG|1/16|both_stable|32/32|32|3.15829 [3.0573, 3.23651]|0|0|
+|24|NPG|1/16|failure_inclusive|32/32|32|3.15829 [3.0573, 3.23651]|0|0|
+|24|NPG|1/4|both_stable|32/32|32|2.84548 [2.70343, 2.97175]|0|0|
+|24|NPG|1/4|failure_inclusive|32/32|32|2.84548 [2.70343, 2.97175]|0|0|
+|24|NPG|1|both_stable|32/32|32|3.97519 [3.64213, 4.40183]|0|0|
+|24|NPG|1|failure_inclusive|32/32|32|3.97519 [3.64213, 4.40183]|0|0|
+|24|PI|1/64|both_stable|0/32|0|NA [NA, NA]|5000|0|
+|24|PI|1/64|failure_inclusive|0/32|32|∞ [∞, ∞]|0|0|
+|24|PI|1/16|both_stable|13/32|13|171.965 [86.8215, 5595.26]|3|0|
+|24|PI|1/16|failure_inclusive|13/32|32|∞ [844.377, ∞]|0|0|
+|24|PI|1/4|both_stable|32/32|32|21.101 [19.9143, 22.2594]|0|0|
+|24|PI|1/4|failure_inclusive|32/32|32|21.101 [19.9143, 22.2594]|0|0|
+|24|PI|1|both_stable|32/32|32|21.6135 [20.0177, 23.1952]|0|0|
+|24|PI|1|failure_inclusive|32/32|32|21.6135 [20.0177, 23.1952]|0|0|
+|36|NPG|1/64|both_stable|32/32|32|6.9204 [6.48653, 7.40556]|0|0|
+|36|NPG|1/64|failure_inclusive|32/32|32|6.9204 [6.48653, 7.40556]|0|0|
+|36|NPG|1/16|both_stable|32/32|32|4.18339 [4.03231, 4.33843]|0|0|
+|36|NPG|1/16|failure_inclusive|32/32|32|4.18339 [4.03231, 4.33843]|0|0|
+|36|NPG|1/4|both_stable|32/32|32|3.93825 [3.80744, 4.1677]|0|0|
+|36|NPG|1/4|failure_inclusive|32/32|32|3.93825 [3.80744, 4.1677]|0|0|
+|36|NPG|1|both_stable|32/32|32|5.67222 [5.56866, 5.90572]|0|0|
+|36|NPG|1|failure_inclusive|32/32|32|5.67222 [5.56866, 5.90572]|0|0|
+|36|PI|1/64|both_stable|0/32|0|NA [NA, NA]|5000|0|
+|36|PI|1/64|failure_inclusive|0/32|32|∞ [∞, ∞]|0|0|
+|36|PI|1/16|both_stable|5/32|5|1115.42 [610.575, 386135]|121|0|
+|36|PI|1/16|failure_inclusive|5/32|32|∞ [∞, ∞]|0|0|
+|36|PI|1/4|both_stable|32/32|32|31.1833 [28.1064, 33.4393]|0|0|
+|36|PI|1/4|failure_inclusive|32/32|32|31.1833 [28.1064, 33.4393]|0|0|
+|36|PI|1|both_stable|32/32|32|29.906 [29.6613, 30.6444]|0|0|
+|36|PI|1|failure_inclusive|32/32|32|29.906 [29.6613, 30.6444]|0|0|
+|48|NPG|1/64|both_stable|32/32|32|8.42533 [8.20784, 8.57864]|0|0|
+|48|NPG|1/64|failure_inclusive|32/32|32|8.42533 [8.20784, 8.57864]|0|0|
+|48|NPG|1/16|both_stable|32/32|32|5.32502 [5.16124, 5.47913]|0|0|
+|48|NPG|1/16|failure_inclusive|32/32|32|5.32502 [5.16124, 5.47913]|0|0|
+|48|NPG|1/4|both_stable|32/32|32|5.02201 [4.85607, 5.2975]|0|0|
+|48|NPG|1/4|failure_inclusive|32/32|32|5.02201 [4.85607, 5.2975]|0|0|
+|48|NPG|1|both_stable|32/32|32|7.89184 [7.72735, 8.07588]|0|0|
+|48|NPG|1|failure_inclusive|32/32|32|7.89184 [7.72735, 8.07588]|0|0|
+|48|PI|1/64|both_stable|0/32|0|NA [NA, NA]|5000|0|
+|48|PI|1/64|failure_inclusive|0/32|32|∞ [∞, ∞]|0|0|
+|48|PI|1/16|both_stable|30/32|30|196.505 [127.653, 404.806]|0|0|
+|48|PI|1/16|failure_inclusive|30/32|32|204.665 [127.653, 595.399]|0|0|
+|48|PI|1/4|both_stable|32/32|32|43.6391 [42.7011, 46.9135]|0|0|
+|48|PI|1/4|failure_inclusive|32/32|32|43.6391 [42.7011, 46.9135]|0|0|
+|48|PI|1|both_stable|32/32|32|44.3077 [40.916, 48.0542]|0|0|
+|48|PI|1|failure_inclusive|32/32|32|44.3077 [40.916, 48.0542]|0|0|
+|72|NPG|1/64|both_stable|32/32|32|13.6604 [13.3687, 13.807]|0|0|
+|72|NPG|1/64|failure_inclusive|32/32|32|13.6604 [13.3687, 13.807]|0|0|
+|72|NPG|1/16|both_stable|32/32|32|7.55539 [7.28441, 7.71607]|0|0|
+|72|NPG|1/16|failure_inclusive|32/32|32|7.55539 [7.28441, 7.71607]|0|0|
+|72|NPG|1/4|both_stable|32/32|32|6.96901 [6.86437, 7.24427]|0|0|
+|72|NPG|1/4|failure_inclusive|32/32|32|6.96901 [6.86437, 7.24427]|0|0|
+|72|NPG|1|both_stable|32/32|32|11.3244 [10.9638, 11.4921]|0|0|
+|72|NPG|1|failure_inclusive|32/32|32|11.3244 [10.9638, 11.4921]|0|0|
+|72|PI|1/64|both_stable|0/32|0|NA [NA, NA]|5000|0|
+|72|PI|1/64|failure_inclusive|0/32|32|∞ [∞, ∞]|0|0|
+|72|PI|1/16|both_stable|10/32|10|29115.1 [3643.58, 483947]|2|0|
+|72|PI|1/16|failure_inclusive|10/32|32|∞ [349325, ∞]|0|0|
+|72|PI|1/4|both_stable|32/32|32|65.8189 [63.6834, 67.1035]|0|0|
+|72|PI|1/4|failure_inclusive|32/32|32|65.8189 [63.6834, 67.1035]|0|0|
+|72|PI|1|both_stable|32/32|32|65.9823 [63.6997, 70.1856]|0|0|
+|72|PI|1|failure_inclusive|32/32|32|65.9823 [63.6997, 70.1856]|0|0|

@@ -1,0 +1,56 @@
+{
+  "available_data_checks_passed": true,
+  "all_four_groups_complete": true,
+  "restored_archived_files_verified": 32,
+  "restored_archived_bytes_verified": 6164961,
+  "input_padding_checks": {
+    "actor_endpoints": 384,
+    "NPG": 192,
+    "PI": 192,
+    "actor_instabilities": 0,
+    "ce_outputs": 768,
+    "ce_instabilities": 0,
+    "main_ce_outputs": 192,
+    "main_ce_total_transitions": 8324
+  },
+  "matched_gap_npg_trajectories": 300,
+  "matched_gap_npg_instabilities": 0,
+  "precision_ce_outputs": 2880,
+  "adaptive_ce_unstable_outputs_retained": 8,
+  "original_or_extracted_files_verified": 66,
+  "same_data_ce_outputs": 1008,
+  "same_blocks_npg_outputs": 96,
+  "same_data_max_normalized_decomposition_residual": 1.919081315638055e-15,
+  "exact_rank_npg_failures": {
+    "dense": {
+      "count": 288,
+      "failed": 163
+    },
+    "truncated": {
+      "count": 288,
+      "failed": 65
+    }
+  },
+  "selected_fullrank_npg_terminal_count": 936,
+  "selected_fullrank_npg_terminal_failures": 0,
+  "flat_npg_modes": [
+    "dense",
+    "k2",
+    "k8"
+  ],
+  "n24_npg_relative_10pct_conditions": 16,
+  "n24_npg_relative_10pct_all_censored": true,
+  "same_data_figure_statistics_independently_verified": 20,
+  "main_rank_scan_stable_cells": 288,
+  "flat_control_cells": 6,
+  "rendered_figure_count": 13,
+  "groups": {
+    "01_input_padding": "READY",
+    "02_same_data_decomposition": "READY",
+    "03_fullrank_rank_scan": "READY",
+    "04_ce100_matched_gap_and_high_rank": "READY"
+  },
+  "missing_historical_files": [],
+  "new_learning_runs": 0,
+  "new_control_solves": 0
+}

@@ -1,0 +1,30 @@
+{
+  "status": "RENDERED_SAVED_CSV_ONLY",
+  "source_csv_sha256": {
+    "posthoc_best_fixed.csv": "7114289f0fe13cc73247cb1a6010bce4495106fe09ac2927a9a238252f194cf1",
+    "spectral_tails.csv": "e14d8452b3ba23e4875391c395b6019b485fad2b4f366cf642affa15a1c05010",
+    "summary.csv": "b481f68413779581b70ed4b344f91d55d61437f789dce47c912e52650eb6514c",
+    "paired_records.csv": "0ac0ea334b3b668dd165f85b8c0de8174ebafaf0b0e35bb5309b6fe289d0293d",
+    "all_records.csv": "dd8982439f9a2e485e948dd9e773b7065b038761a69b213f06da9f31ec37fa08",
+    "adaptive_orders.csv": "43a0a99dc50a3e1cc8032bf29cc8606af0a28ecb86aed357e57140a9f6cb7899",
+    "log_slopes.csv": "d9eb94512c396ab524c2c47db5834234c4f240a93da04125230b72656c10beee",
+    "paired_ratios.csv": "aaa42ddffca223be2e7181ee728343cf7822727dc194b63ff9375b0f61244f8b",
+    "model_certificates.csv": "b23be19ee2030b8eb72b16d87a9b457d9a7990472ae2298aeebd583a2acdc217"
+  },
+  "script_sha256": "cbc4d73e605e26c582e440af587f7d699478a47d0695afdc124c71e0ec284c3e",
+  "matplotlib_version": "3.9.2",
+  "new_scientific_calculations": false,
+  "cache_and_temp": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x7-20261102\\runtime-plot-v1",
+  "figures": {
+    "fixed_orders.png": "7220fd00d616c99916e91c70854e356f02c505e1f9d3b4cafd393b86e00623e5",
+    "fixed_orders.svg": "5b41214cca036cfa7bd892ebe9675faa658f6b06bd078790e72319fdea5f65ea",
+    "adaptive_gaps.png": "5a261d91d21447aab3b72881df6815143cfddd33c4f6af442cdb2325d91b5a56",
+    "adaptive_gaps.svg": "c2909b9aaf81a0758d3170d1798605669a3fdd409e37e9be2f63c959216c2475",
+    "adaptive_orders.png": "0b36bae5bdcd8004c7a4720f7cf90a50d1b48a5077bd015920abaa889c2b03e0",
+    "adaptive_orders.svg": "584c47967d74ef4f8a03047319324949579e806c3ad54acc044803551592cedb",
+    "paired_ratios.png": "6c2eeaa0a52a6570354e6eb14a5c79912c26713d1813c4be34b02529ef9516b2",
+    "paired_ratios.svg": "9219759d816e693a82a0c57cb57d2542b5fccf47587e757f0374456e3f32e95e",
+    "log_slopes.png": "8c33192b4a4922985ad038643deb0dae66956f28952f3cea475f0ea70cbb440a",
+    "log_slopes.svg": "385bd1dbf7fcaedf72758c60c39bd20d1554dd975438ebed1de6435dddec1dbf"
+  }
+}

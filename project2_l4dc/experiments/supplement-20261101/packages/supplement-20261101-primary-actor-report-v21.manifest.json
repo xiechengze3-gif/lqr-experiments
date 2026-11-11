@@ -1,0 +1,22 @@
+{
+  "name": "supplement-20261101-primary-actor-report-v21",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-primary-actor-report-v21.tar.gz",
+  "archive_sha256": "ce8e79d81a42fbfd275259ef7957edb2f879ebb55372bec5a1647008be67d2ca",
+  "plan": {
+    "id": "supplement-20261101-primary-actor-report-v21",
+    "stage": "REPORT",
+    "experiment": "X1_X2",
+    "scope": "PRIMARY_ACTOR_NUMERICAL_AUDIT_AND_REPORT",
+    "wall_minutes": 10,
+    "bundles": 1
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "report_primary_actors.py": "5c04fbddaddd0b53848ed060fd01722ce06f981f91362177e557589fbd3e3e5b",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "actor_report.py": "55b04ff16d812ec9b08ef296d0ed392fca9f6ca34f961cfe8f826e12a8358fc6",
+    "job_plan.json": "8773b690024c92f15d836b2ca399a7bcb28d12a0b1474b91f249e931c124c3e2",
+    "slurm/run.sbatch": "a39edd94c423d563fe0ac251ee6aed40a618cd76b0ec4797be486cc2e66792ba"
+  }
+}

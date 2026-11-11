@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "finalize_actor_report.py",
+      "sha256": "428cb0d965549fd1e42715f650a87977721312abbe9bda52547328a379b4f2a4",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "publish_actor_formal_stage.py",
+      "sha256": "23704a66e5619d61fc8624b69c0944795a24b3e88dd40741621c0e5cd8804609",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "accounting_actor.py",
+      "sha256": "aa774028fcb954155a8d307f57eefb448ccd4718f4da44602ab5c6906f451f46",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "submit_actor_report.py",
+      "sha256": "84f8d02349a0909376ed621f441f7ff0deac742ac05cbe2ce4049e90998aaebc",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "build_actor_report_release.py",
+      "sha256": "dcb06a2cec36653a131141f3e6e81640053d90e74cd43eb345769123b07630aa",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    }
+  ],
+  "numerical_imports": false,
+  "new_jobs": 0,
+  "SU": 0
+}

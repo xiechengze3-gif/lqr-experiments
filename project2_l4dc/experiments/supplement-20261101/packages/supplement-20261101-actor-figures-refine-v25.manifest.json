@@ -1,0 +1,21 @@
+{
+  "name": "supplement-20261101-actor-figures-refine-v25",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-actor-figures-refine-v25.tar.gz",
+  "archive_sha256": "d9caa84ffdc08499741fd099125f72b204d61cf0b1d3624a0d2c77eed6d8b249",
+  "plan": {
+    "id": "supplement-20261101-actor-figures-refine-v25",
+    "stage": "REPORT",
+    "experiment": "X1_X2",
+    "scope": "SAVED_ACTOR_FIGURE_REFINEMENT",
+    "wall_minutes": 5,
+    "bundles": 1
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "refine_actor_figures.py": "9753bd42f8a1c5b59ea3160dd7ca17d53bdf4b86e36f1ff56688f85c91226ed7",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "job_plan.json": "cbb2f9f3b7ef7f5eab71c888ce63600b2db84edbf70721b45ab2a72e6c9fa4dd",
+    "slurm/run.sbatch": "e711e5023692111195c2dea266a55928acbf1937f2d01f709e484b2e0706ae6a"
+  }
+}

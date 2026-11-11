@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "scope": "X3_SAVED_LAST_NPG_ESTIMATOR_MECHANISM",
+  "own_arm_planned_updates": 1440,
+  "own_arm_available_final_updates": 1440,
+  "per_output_rows": 2880,
+  "summary_rows": 630,
+  "bootstrap_effect_rows": 72,
+  "max_recovered_rank_residual": 4.797482543144504e-15,
+  "max_update_reconstruction_residual": 1.560603704732047e-18,
+  "synthetic_recovery_max_error": 1.649441626829303e-14,
+  "source_sha256": "0abdbb45582e00b2149e0a753e503a726f6ccbab2d47002199ff42cebbf7d159",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "config_sha256": "09205402ffb4dcb420d0289197056ec0934477ef353a41841948cf88f208b78d",
+  "proof_sha256": "b01eac026873c699e7ce6edb2dce2dc2c40e11b0d621d343c6f43f6c0766dd31",
+  "endpoint_statistics_sha256": "2daa3d50b9f7b7ec83d52a76c09e801c555ac5b65ec77c6d36add714224fd20c",
+  "new_training_transitions": 0,
+  "new_learning_runs": 0,
+  "job": "20359906",
+  "target_definition": "Z_K=-B^T P_K (A-BK), evaluated at each actual K_(T-1)",
+  "recovery": "S_k=(K_(T-1)-K_T)/eta-R K_(T-1); raw Zhat of truncated arms not saved or recoverable",
+  "limitations": [
+    "Own-arm policies differ across k; see separate common-dense-policy/common-estimate branch",
+    "No top-2 null/redundant-cost identity for full-rank B",
+    "Frobenius errors include finite-H bias, sampling error and truncation; no theorem small-error certification",
+    "Conditional estimator-error summaries always include valid/full counts; failed endpoint gaps remain +inf"
+  ]
+}

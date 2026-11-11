@@ -1,0 +1,20 @@
+{
+  "status": "SCRATCH_IO_V6_FROZEN_NOT_SUBMITTED",
+  "remote_root": "/scratch/user/changze/lqr_experiments/tmp/x12-storage-recovery-20261107-v6",
+  "mdt": 1,
+  "project": 231181,
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x12-20261106\\x12-storage-scratch-v6.tar.gz",
+  "archive_sha256": "c9f6c13868a1fb12a7dedf3ac1fd0eb5b1132e0904dc35352ac6311a9110837e",
+  "files": {
+    "virtual_task_store_v2.py": "73fb86e75df141b4ce89c901f9b450b1cccb71dcb33db2aad8e926addc91250c",
+    "pilot-plan-v4.json": "132033fad2147fa5e5c678144cd885d3d4090a19ed6c933be8960abb9234613b",
+    "CLAUDE_TASK_authorized.md": "331cdbf97f9cec6c923fe5b2e043f036b8ca7f940459215b481d220b9c78048d",
+    "pilot.sbatch": "38e9120eb2a91cc5f78f99aa8ce0ab74338506c00c5ac099f42147041d3bcec9",
+    "pilot_virtual_store_v6.py": "0e13e6a36607197036439c27e30db7a09211b542f08a9a5603b109ea46a5adbd",
+    "submit_scratch_storage_pilot_v6.py": "54880a161d1e14efeee9da2787e40dc25c2fa198bf13469a2045cd6396fbb198"
+  },
+  "manifest_sha256": "cf472283ffbda8835a04fff082f7e5b841ccb24d1dc22db21016d414d6128d3b",
+  "review_sha256": "331cdbf97f9cec6c923fe5b2e043f036b8ca7f940459215b481d220b9c78048d",
+  "requested_SU": 0.08333333333333333,
+  "new_training_transitions": 0
+}

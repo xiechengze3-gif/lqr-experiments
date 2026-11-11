@@ -1,0 +1,99 @@
+{
+  "experiment": "rank-sweep100-pi-20261017",
+  "n": 100,
+  "ranks": [
+    2,
+    8,
+    32,
+    64,
+    100
+  ],
+  "sampling_seed": 761032,
+  "sigma": 2.0,
+  "burn": 256,
+  "solver_rtol": 1e-06,
+  "solver_attempts": [
+    [
+      100,
+      20
+    ],
+    [
+      200,
+      20
+    ]
+  ],
+  "preflight_ranks": [
+    2,
+    100
+  ],
+  "preflight_counts": [
+    32768,
+    131072
+  ],
+  "preflight_seed": 9003,
+  "oracle_updates": 16,
+  "epsilon": 0.09836178768297843,
+  "pilot_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "confirm_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129
+  ],
+  "system_artifact_sha256": {
+    "2": "d1ff0070c9f6cab2cd1a2f47903306d1fd05082816577988ae93c7e63743a268",
+    "8": "03459b915fed4151d52d34efa52c3cc521fb110e803521b7e9bc97ebc28ec8c1",
+    "32": "5cc08614d098dfbb42c7817169b41a89e89cf78187c2b861b117175e33cbd4c7",
+    "64": "6a88e45ccc86064b797b9aff7ddc1ea866579d01c71ff1a259f87101b601600f",
+    "100": "f3e3c519cddb3eca8ff3bca776e17fdf3ba1bc08fe203f7c1380275dfe8d4ead"
+  },
+  "output": "/scratch/user/changze/lqr_experiments/results/rank-sweep100-pi-20261017",
+  "cache": "/scratch/user/changze/lqr_experiments/cache/rank-sweep100-pi-20261017",
+  "temp": "/scratch/user/changze/lqr_experiments/tmp/rank-sweep100-pi-20261017",
+  "local_output": "E:/ChatGPT/Results/LQR_experiments/rank-sweep100-pi-20261017",
+  "preflight_compute_cap_core_hours": 0.5,
+  "note": "Uniform four-update pilot schedule; final protocol frozen before fresh confirmation. Whole-path stability and all burn-in counted.",
+  "batch_schedule": [
+    65536,
+    262144,
+    1048576,
+    2097152
+  ],
+  "data_chunk": 8192,
+  "pi_compute_cap_core_hours": 125,
+  "task_walltime_minutes": 40,
+  "formal_max_concurrency": 30,
+  "required_success_fraction": 0.9
+}

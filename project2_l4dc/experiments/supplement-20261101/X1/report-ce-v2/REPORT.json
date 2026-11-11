@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "scope": "X1_CE_POSTPROCESS_C1_C2_C3",
+  "old_report_unchanged": true,
+  "source_report_sha256": "3cc2910790e41c0b8e182a42bb317a835d54aea14c211ce2735c3263b49fb2f4",
+  "per_output_normalization": true,
+  "outputs": 1728,
+  "unstable_outputs": 15,
+  "source_report": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X1/report-ce/REPORT.json",
+  "artifacts": [
+    "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X1/report-ce-v2/normalized_N4096.png",
+    "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X1/report-ce-v2/normalized_N4096.svg",
+    "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X1/report-ce-v2/normalized_N8192.png",
+    "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X1/report-ce-v2/normalized_N8192.svg",
+    "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X1/report-ce-v2/ce_main_v2.png",
+    "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X1/report-ce-v2/ce_main_v2.svg"
+  ],
+  "new_training_transitions": 0,
+  "new_learning_runs": 0,
+  "source_sha256": "a47faadce193e25e67a6769eef41ba6789daecfb26174478ae515ffc2599aba7",
+  "job": "20359294"
+}

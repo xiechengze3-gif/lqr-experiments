@@ -1,0 +1,32 @@
+{
+  "status": "PUBLISHED_EXACT_BYTES",
+  "counts": {
+    "all_records.csv": 10752,
+    "summary.csv": 336,
+    "paired_ratios.csv": 624,
+    "paired_records.csv": 9984,
+    "adaptive_orders.csv": 96,
+    "posthoc_best_fixed.csv": 24,
+    "log_slopes.csv": 224,
+    "model_certificates.csv": 32,
+    "spectral_tails.csv": 1184
+  },
+  "files": {
+    "posthoc_best_fixed.csv": "7114289f0fe13cc73247cb1a6010bce4495106fe09ac2927a9a238252f194cf1",
+    "spectral_tails.csv": "e14d8452b3ba23e4875391c395b6019b485fad2b4f366cf642affa15a1c05010",
+    "summary.csv": "b481f68413779581b70ed4b344f91d55d61437f789dce47c912e52650eb6514c",
+    "paired_records.csv": "0ac0ea334b3b668dd165f85b8c0de8174ebafaf0b0e35bb5309b6fe289d0293d",
+    "all_records.csv": "dd8982439f9a2e485e948dd9e773b7065b038761a69b213f06da9f31ec37fa08",
+    "adaptive_orders.csv": "43a0a99dc50a3e1cc8032bf29cc8606af0a28ecb86aed357e57140a9f6cb7899",
+    "log_slopes.csv": "d9eb94512c396ab524c2c47db5834234c4f240a93da04125230b72656c10beee",
+    "paired_ratios.csv": "aaa42ddffca223be2e7181ee728343cf7822727dc194b63ff9375b0f61244f8b",
+    "model_certificates.csv": "b23be19ee2030b8eb72b16d87a9b457d9a7990472ae2298aeebd583a2acdc217"
+  },
+  "frozen_sources": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "ce_fullrank.py": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+    "analyze_ce.py": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+    "x7_driver.py": "0a284a28e13b67ee48eaaf82af209afbdcaa6cd1666c6a6916666ddfeb033cbb"
+  },
+  "local_scope": "Hash, CSV coverage and formatting only; no numerical analysis"
+}

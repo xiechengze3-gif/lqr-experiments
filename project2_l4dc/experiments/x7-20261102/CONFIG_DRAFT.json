@@ -1,0 +1,123 @@
+{
+  "experiment": "X7",
+  "stage": "PROTOCOL",
+  "status": "PRE_REGISTERED_BEFORE_ANY_X7_RUN",
+  "date": "2026-11-02",
+  "cap_requested_SU": 15,
+  "independent_of_X6_cap": true,
+  "n_values": [
+    24,
+    48
+  ],
+  "spectra": [
+    "geometric",
+    "polynomial"
+  ],
+  "formal_systems": [
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508
+  ],
+  "formal_seeds": [
+    1801,
+    1802,
+    1803,
+    1804
+  ],
+  "pilot_systems": [
+    9501,
+    9502
+  ],
+  "pilot_seeds": [
+    8101,
+    8102
+  ],
+  "seed_root": 2026110101,
+  "nu": 1,
+  "ce_burn": 512,
+  "ce_chunk": 512,
+  "delta": 0.05,
+  "adaptive_C5": 2.569,
+  "sensitivity_constants": [
+    0.5,
+    1
+  ],
+  "fixed_rank_pool": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48
+  ],
+  "multiplier_grid": [
+    1,
+    4,
+    16,
+    64,
+    256,
+    1024
+  ],
+  "prefix_rule": "N=4*(n+m)*multiplier",
+  "adaptive_split": "||Bhat_first_half-Bhat_second_half||op/2; strict singular>threshold",
+  "best_fixed": "Post-hoc argmin full32 failure-inclusive absolute-gap median over fixed k plus dense(k=n); ties smallest k. Never learner input.",
+  "bootstrap_repetitions": 5000,
+  "bootstrap_seed_tag": 2026110271,
+  "slopes": {
+    "metrics": [
+      "gap",
+      "relative_gap"
+    ],
+    "sets": [
+      "all_six",
+      "last_three"
+    ],
+    "method": "OLS log(full32 failure-inclusive median gap) on log(N); NA if any selected median is nonfinite or nonpositive; common system-cluster bootstrap; no trimming."
+  },
+  "pilot": {
+    "tasks": 4,
+    "trajectories_per_task": 4,
+    "baseline_reference_trajectories_per_task": 1,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 15,
+    "requested_bound_SU": 1,
+    "resource_only": true,
+    "generate_formal_models_only": true,
+    "no_performance_readout": true
+  },
+  "formal_ceiling": {
+    "tasks": 32,
+    "cases_per_task": 4,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "maximum_minutes_per_task": 20,
+    "requested_bound_SU": 10.666666666666666,
+    "no_submission_until_measured_and_explicitly_accepted": true
+  },
+  "report_reserve": {
+    "diagnostics_tasks": 4,
+    "diagnostics_minutes": 20,
+    "summary_minutes": 40,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "requested_bound_SU": 2
+  },
+  "automatic_retries": 0,
+  "no_budget_to_epsilon_on_factor4_grid": true,
+  "local_root": "E:/ChatGPT/Projects/LQR_experiments/project2_l4dc/experiments/x7-20261102",
+  "remote_root": "/scratch/user/changze/lqr_experiments/results/x7-20261102",
+  "remote_cache": "/scratch/user/changze/lqr_experiments/cache/x7-20261102",
+  "remote_tmp": "/scratch/user/changze/lqr_experiments/tmp/x7-20261102",
+  "author_go_task_sha256": "6542a46618bc7f2ba22bc985ca7ec8944266eea3e2b4ad70e09377457b16e58d"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "ALL64_FORMAL_COMPLETED_AND_RAW_VERIFIED_ON_E",
+  "job_ids": [
+    "20425378",
+    "20425379"
+  ],
+  "task_allocations": 64,
+  "paired_paths": 576,
+  "counts": {
+    "REUSED_COMPLETE_V1_SHA_VERIFIED": 296,
+    "RESTART_OR_START_FROM_K0": 280
+  },
+  "training_transitions_by_origin": {
+    "REUSED_COMPLETE_V1_SHA_VERIFIED": 9476201216,
+    "RESTART_OR_START_FROM_K0": 184168537344
+  },
+  "logical_transitions": 193644738560,
+  "actual_formal_SU": 101.11111111111111,
+  "config_sha256": "1daea4cd21d5839297005bd99eab3a97cbee4df228523e253efe5f0822bb3bed",
+  "state_snapshot": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x12-20261106\\delivery-recovery-tasks-v6r1\\STATE-20261107T0601229195200.json",
+  "state_sha256": "fa8cba4b235aa8bab6f03d3c21e9bb94e2891ec610c0bd80c205fa7d9f3c0de0",
+  "reused_archive_sha256": "7a59c0cfa407dccd3bbf69fc014bb4f246ec7e13c5cc586261b307ad3cd64b6d",
+  "no_mid_path_resume": true
+}

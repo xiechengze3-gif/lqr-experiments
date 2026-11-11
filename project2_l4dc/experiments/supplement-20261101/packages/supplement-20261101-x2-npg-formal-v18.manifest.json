@@ -1,0 +1,27 @@
+{
+  "name": "supplement-20261101-x2-npg-formal-v18",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x2-npg-formal-v18.tar.gz",
+  "archive_sha256": "0535d9aabd38e3230aa6c0aef134e44e9c5088253144a92412887552a3aedca0",
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "npg_multi.py": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+    "npg_formal_suite.py": "0dc2089e7961dd0919dccebb60e14e8aa85eecdec7cf6a717ff610649976ef52",
+    "configs/X2_NPG_formal_v1.json": "a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933",
+    "X2/ACCEPTED_NPG.json": "96e833e71ea98d6074ec9a0885b1926fe81866ed48848d60528bad6551c0c00e",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_npg_formal.py": "dec57e2bcdb5a4491188fc66aa8c7bef5904efc50c57212ebe06f0497b15a5d7",
+    "job_plan.json": "83a4324fbc92b0589b865775b3ee7babf566c1b22b6bd2c79d5a27a441acf62c",
+    "slurm/run.sbatch": "657ea53be93ba70e925dbf330b8cca612d15d16893fbb253a38d261fda602bfa"
+  },
+  "plan": {
+    "id": "supplement-20261101-x2-npg-formal-v18",
+    "experiment": "X2",
+    "stage": "FORMAL",
+    "scope": "NPG",
+    "config": "configs/X2_NPG_formal_v1.json",
+    "bundles": 32,
+    "wall_minutes": 18,
+    "partition": "short",
+    "concurrency": 16
+  }
+}

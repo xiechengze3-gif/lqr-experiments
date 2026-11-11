@@ -1,0 +1,46 @@
+{
+  "status": "HISTORICAL_RESOURCE_FLOOR_FROZEN_BEFORE_FORMAL",
+  "rules": [
+    {
+      "algorithm": "NPG",
+      "reference_n": 72,
+      "reference_job": "20416267",
+      "reference_tasks": 32,
+      "reference_primitive_per_paired_task": 2025018368,
+      "maximum_Slurm_elapsed_seconds": 5039,
+      "reference_seconds_per_transition": 2.4883724906538723e-06,
+      "new_n": 60,
+      "new_primitive_per_paired_task": 3025699040,
+      "historical_body_floor_seconds": 7529.06625613383,
+      "use": "max(full9rung_n60_pilot_body, historical_body_floor); no scientific outcome enters this choice"
+    },
+    {
+      "algorithm": "PI",
+      "reference_n": 72,
+      "reference_job": "20416268",
+      "reference_tasks": 32,
+      "reference_primitive_per_paired_task": 2025018368,
+      "maximum_Slurm_elapsed_seconds": 4973,
+      "reference_seconds_per_transition": 2.455780193693532e-06,
+      "new_n": 60,
+      "new_primitive_per_paired_task": 3025699040,
+      "historical_body_floor_seconds": 7430.451774509534,
+      "use": "max(full9rung_n60_pilot_body, historical_body_floor); no scientific outcome enters this choice"
+    }
+  ],
+  "method": "Use worst allocation elapsed per primitive transition from all32 same-engine n72 tasks/algorithm; n72 is larger than n60; retain larger of floor and actual n60 pilot body.",
+  "uncertainty": "A conservative planning floor, not a deterministic throughput guarantee. Full actual n60 pilot remains mandatory.",
+  "wall_guard": "ceil((1.20*effective_body_seconds+30)/60) minutes",
+  "actual_forecast": "32*sum(effective_body)/3600 + all actual pilot allocations + model-prep reserve5/60 + report reserve8",
+  "requested_upper": "8.75 successful pilot requests + model-prep5/60 +32*sum(wall_minutes)/60 +report8; must<=300",
+  "caps": {
+    "actual_forecast_SU": 230,
+    "requested_upper_SU": 300
+  },
+  "formal_observations_used": false,
+  "reference_config_sha256": "cf3bc5ff72cf62ff5469008805ddf93a64623d043858074be76e20e9a9c9152b",
+  "reference_accounting_sha256": "9a0a413a6640cf1ac2c8de89434a6110623d5eaf7422097a80942ab2564a02b4",
+  "calibration_sha256": "9aa8b7038f97010750690eea30455983b2e6462593f504234d3382c92d1620ee",
+  "new_training_transitions": 0,
+  "Grace_SU": 0
+}

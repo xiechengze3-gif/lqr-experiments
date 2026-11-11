@@ -1,0 +1,37 @@
+{
+  "status": "PASS_STATIC_AND_SYNTHETIC_CONTROL_GATES",
+  "synthetic_only_no_experiments": true,
+  "source_checks": [
+    {
+      "file": "audit_actor_pilot.py",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "prepare_actor_formal.py",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "actor_control.py",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "submit_actor_formal.py",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "publish_actor_pilot_done.py",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    }
+  ],
+  "budget_overshoot_rejected": true,
+  "x9_wait_gate": true,
+  "deadline_gate": true,
+  "stale_audit_rejected": true,
+  "new_jobs": 0,
+  "SU": 0
+}

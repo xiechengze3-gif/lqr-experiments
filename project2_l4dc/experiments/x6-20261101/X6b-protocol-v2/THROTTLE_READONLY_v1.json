@@ -1,0 +1,125 @@
+{
+  "status": "READ_ONLY_PROPOSAL_NOT_APPLIED",
+  "source_sha256": "0a570a1a9795a654f18c26bbb1c1bebda9ac0f0b8f654cf7fa5eb56d1661fdfd",
+  "commands": [
+    [
+      "scontrol",
+      "update",
+      "JobId=20365638",
+      "ArrayTaskThrottle=24"
+    ],
+    [
+      "scontrol",
+      "update",
+      "JobId=20365639",
+      "ArrayTaskThrottle=24"
+    ],
+    [
+      "scontrol",
+      "update",
+      "JobId=20365565",
+      "ArrayTaskThrottle=16"
+    ]
+  ],
+  "before": [
+    {
+      "job": "20365638",
+      "fields": {
+        "UserId": [
+          "changze(31181)"
+        ],
+        "Account": [
+          "132685389143"
+        ],
+        "ArrayJobId": [
+          "20365638"
+        ],
+        "ArrayTaskThrottle": [
+          "8"
+        ],
+        "NumCPUs": [
+          "1"
+        ],
+        "TimeLimit": [
+          "02:32:00"
+        ],
+        "Partition": [
+          "medium"
+        ],
+        "MinMemoryNode": [
+          "2G"
+        ],
+        "MinMemoryCPU": [],
+        "NumTasks": [
+          "1"
+        ]
+      }
+    },
+    {
+      "job": "20365639",
+      "fields": {
+        "UserId": [
+          "changze(31181)"
+        ],
+        "Account": [
+          "132685389143"
+        ],
+        "ArrayJobId": [
+          "20365639"
+        ],
+        "ArrayTaskThrottle": [
+          "8"
+        ],
+        "NumCPUs": [
+          "1"
+        ],
+        "TimeLimit": [
+          "02:31:00"
+        ],
+        "Partition": [
+          "medium"
+        ],
+        "MinMemoryNode": [
+          "2G"
+        ],
+        "MinMemoryCPU": [],
+        "NumTasks": [
+          "1"
+        ]
+      }
+    },
+    {
+      "job": "20365565",
+      "fields": {
+        "UserId": [
+          "changze(31181)"
+        ],
+        "Account": [
+          "132685389143"
+        ],
+        "ArrayJobId": [
+          "20365565"
+        ],
+        "ArrayTaskThrottle": [
+          "8"
+        ],
+        "NumCPUs": [
+          "1"
+        ],
+        "TimeLimit": [
+          "01:43:00"
+        ],
+        "Partition": [
+          "short"
+        ],
+        "MinMemoryNode": [
+          "2G"
+        ],
+        "MinMemoryCPU": [],
+        "NumTasks": [
+          "1"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "status": "COMPLETE",
+  "files_verified": 128,
+  "csv_tables": [
+    {
+      "path": "data\\existing-groups\\01_input_padding\\data\\report\\actor_endpoints.csv",
+      "data_rows": 1440,
+      "sha256": "7f284ea85926901b3272c66b8999f2ee02ff90396cde1e93f96fc5d68b2f0a63"
+    },
+    {
+      "path": "data\\existing-groups\\01_input_padding\\data\\report\\ce_all_prefixes.csv",
+      "data_rows": 2088,
+      "sha256": "c98da3f9e322bfbf2088b4b924cecd387f83726f37a834a2e23fd9384bf7d268"
+    },
+    {
+      "path": "data\\existing-groups\\01_input_padding\\data\\report\\e1_ce_redundant_summary.csv",
+      "data_rows": 8,
+      "sha256": "f7b23fede73474d3a87e51ec2d092ce4f87f1946a56ba8c1036bbf4baddea2c8"
+    },
+    {
+      "path": "data\\existing-groups\\01_input_padding\\data\\report\\e1_paired_gap_ratios.csv",
+      "data_rows": 8,
+      "sha256": "cd0cf52392dd1afa2a7f249c401c6867225bed17dbf53f121964cb99ba92eeaf"
+    },
+    {
+      "path": "data\\existing-groups\\01_input_padding\\data\\report\\e1_summary.csv",
+      "data_rows": 16,
+      "sha256": "5843fbaafde5d0b876d2b2687d8c8780ce58bca37ef3c8fc6f396fccc7f19a49"
+    },
+    {
+      "path": "data\\existing-groups\\01_input_padding\\data\\report\\output_coverage.csv",
+      "data_rows": 1560,
+      "sha256": "615dba998f25d312861997e203c7a947f9317d3939b1e19da32369375f758c99"
+    },
+    {
+      "path": "data\\existing-groups\\01_input_padding\\data\\report\\system_tails_certificates.csv",
+      "data_rows": 141,
+      "sha256": "f5efe3cc2605d1415f57d35af488d59fb6583fae6ea21f4bcf65fea107044d63"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\adaptive_rank_by_budget.csv",
+      "data_rows": 1440,
+      "sha256": "cdec51f65a0937759499b5e977c8d140e5b2bb9ce04c10916639b675401e59bd"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\endpoints.csv",
+      "data_rows": 4320,
+      "sha256": "24de8a478240c5cec5eb1a96a0c9732eff73358e0c75449f8283eb83cdf63a79"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\per_seed_attainment.csv",
+      "data_rows": 24,
+      "sha256": "7e64a3981dc070d07f1cc909672d88867172e3bcfa2cb056a77ea533265ea6b3"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\sample_to_accuracy.csv",
+      "data_rows": 12,
+      "sha256": "d78533d7f29e8a2a29860b5410c442407c684d529e854febd64da118155e8f2d"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\success_by_budget.csv",
+      "data_rows": 2160,
+      "sha256": "b0dbe4404cef777dcf5cbaebeba578cff331b6f4a2d4fd1dc6d1d9e42ecc6a95"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\fixed_budget_gaps.csv",
+      "data_rows": 105,
+      "sha256": "0771e117f01396bbc3246fc39121c9418b073bc41ee0f555a22431a291b21c3c"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\initial_systems.csv",
+      "data_rows": 5,
+      "sha256": "aa6a4fcaa455d319fc9a3652f266b4db3bfb62054792141001131ae407fc857c"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\sample_complexity.csv",
+      "data_rows": 20,
+      "sha256": "66213bc3ce373d2fbe8e4f3ddb145ce72043769e162b527be4317fe4bfa0b92a"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\success_by_budget.csv",
+      "data_rows": 420,
+      "sha256": "401a1eaa23cbcdc56dab0651dff80cd3e139f1f36abe062cf3a7fb5ed3d48498"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\npg-all-checkpoints.csv",
+      "data_rows": 13500,
+      "sha256": "f94cedbd6a80b63d32d0c342128794c78871b35d9ef09f5a799624cf5e0bff99"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\sample_complexity.csv",
+      "data_rows": 40,
+      "sha256": "9c52744e2630f9c6f8e2ea3aff202d78e16506f46faa09e8c3ab9cf14c873fbc"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\success_by_budget.csv",
+      "data_rows": 1000,
+      "sha256": "dc8f2bb98b68fa185be75333e68ae0822855026923110a738cc9a7fa710628ef"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\endpoints.csv",
+      "data_rows": 2880,
+      "sha256": "ffd99fb21847d68377ad09a84e45e913740e6a24bba7945300a16c3b017500e8"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\historical_replay_checks.csv",
+      "data_rows": 96,
+      "sha256": "859726f54f69e4af143d3d5c121329507b644e969f3efd141f5be43436d7bfe8"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\per_seed_attainment.csv",
+      "data_rows": 16,
+      "sha256": "d00aa9c49632507c0cab108653b36fd125836a56a7b1b1c21476afb66828b248"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\sample_to_accuracy.csv",
+      "data_rows": 8,
+      "sha256": "073658482d799aea5894f53b393f227622fe717612157d2067339ea0a1448494"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\sources.csv",
+      "data_rows": 8,
+      "sha256": "d5b0fc28a0b28d2940499f090b9a96e7452115d492bf273eb321c2715b656230"
+    },
+    {
+      "path": "data\\existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\success_by_budget.csv",
+      "data_rows": 1440,
+      "sha256": "98b4bb55af2bf31af2d00f7c9921dcd6c7ab9ca3db87c026ea099b0594a6f203"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-confirm\\all_checkpoints.csv",
+      "data_rows": 3300,
+      "sha256": "cb3e6048beb359be633e0c3cc3e3e37f5fc83b587e9f6ff5cc258fdd3a2378c6"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-confirm\\fixed_budget_gaps.csv",
+      "data_rows": 55,
+      "sha256": "8a100e14f86186409d1d1425bdca6430b940defca4349fd702cafdab7969d751"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-confirm\\initial_systems.csv",
+      "data_rows": 5,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-confirm\\rank_normalized_sample_complexity.csv",
+      "data_rows": 40,
+      "sha256": "4c87af449b57aa75691c4f548071ef430e569cb504ebdb4a63ad13eb92334116"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-confirm\\same_accuracy_sample_gain.csv",
+      "data_rows": 20,
+      "sha256": "fbf054f76b8231cbf10146b97176c5de3fab48f82d2e7350bd8bb94210090be1"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-confirm\\sample_complexity.csv",
+      "data_rows": 40,
+      "sha256": "91bc8d328f2bdf64dc94f89e25fcdfc00cf86519390590a832b0d5902ce7786a"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-confirm\\success_by_budget.csv",
+      "data_rows": 440,
+      "sha256": "f01a851b43c2fc718f3c0e9624e65b05e1300ce80fa8cc3d96166b1215243f75"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-pilot\\all_checkpoints.csv",
+      "data_rows": 220,
+      "sha256": "516e0d4ac5a75070fcee52d6f30663b6f8ebc7b846718986b9040ebaac269478"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-pilot\\fixed_budget_gaps.csv",
+      "data_rows": 55,
+      "sha256": "64d4cc4c944910ba2ddc9d3436aa45be62a8034262040b84d60d986dceaebc0d"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-pilot\\initial_systems.csv",
+      "data_rows": 5,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-pilot\\rank_normalized_sample_complexity.csv",
+      "data_rows": 40,
+      "sha256": "990ed3e8af1c2dea55b18e6fed65cfb2d8011a58b64c8be027a6e79727f42aea"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-pilot\\same_accuracy_sample_gain.csv",
+      "data_rows": 20,
+      "sha256": "3c1b0cce02f6d00acb3526fdf9486a8d21aa6715c1853c51d36c7cb3c378ba2f"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-pilot\\sample_complexity.csv",
+      "data_rows": 40,
+      "sha256": "9625d29f1837a425fe78c4155cc277104640a53f4c5b3e8e39415f65c14147dc"
+    },
+    {
+      "path": "data\\original-results\\ce500-common-constants-20261022\\report-pilot\\success_by_budget.csv",
+      "data_rows": 440,
+      "sha256": "ad64936e7d8b2cf06c907956f2721ba906d8dac8d4844021f304f57fc9092404"
+    },
+    {
+      "path": "data\\snapshot-analysis\\ce500-common-constants-20261022\\report-pilot\\all_checkpoints.csv",
+      "data_rows": 220,
+      "sha256": "516e0d4ac5a75070fcee52d6f30663b6f8ebc7b846718986b9040ebaac269478"
+    },
+    {
+      "path": "data\\snapshot-analysis\\ce500-common-constants-20261022\\report-pilot\\fixed_budget_gaps.csv",
+      "data_rows": 55,
+      "sha256": "64d4cc4c944910ba2ddc9d3436aa45be62a8034262040b84d60d986dceaebc0d"
+    },
+    {
+      "path": "data\\snapshot-analysis\\ce500-common-constants-20261022\\report-pilot\\initial_systems.csv",
+      "data_rows": 5,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e"
+    },
+    {
+      "path": "data\\snapshot-analysis\\ce500-common-constants-20261022\\report-pilot\\rank_normalized_sample_complexity.csv",
+      "data_rows": 40,
+      "sha256": "990ed3e8af1c2dea55b18e6fed65cfb2d8011a58b64c8be027a6e79727f42aea"
+    },
+    {
+      "path": "data\\snapshot-analysis\\ce500-common-constants-20261022\\report-pilot\\same_accuracy_sample_gain.csv",
+      "data_rows": 20,
+      "sha256": "3c1b0cce02f6d00acb3526fdf9486a8d21aa6715c1853c51d36c7cb3c378ba2f"
+    },
+    {
+      "path": "data\\snapshot-analysis\\ce500-common-constants-20261022\\report-pilot\\sample_complexity.csv",
+      "data_rows": 40,
+      "sha256": "9625d29f1837a425fe78c4155cc277104640a53f4c5b3e8e39415f65c14147dc"
+    },
+    {
+      "path": "data\\snapshot-analysis\\ce500-common-constants-20261022\\report-pilot\\success_by_budget.csv",
+      "data_rows": 440,
+      "sha256": "ad64936e7d8b2cf06c907956f2721ba906d8dac8d4844021f304f57fc9092404"
+    }
+  ],
+  "old_files_verified_unchanged": 178,
+  "new_SU": 0,
+  "limits": [
+    "Independent-A/B construction is a construction diagnostic, not a completed actor comparison.",
+    "CE500 pilot and confirm remain separate; supplied old code/protocol determine whether their burn and initialization match the new paper-faithful protocol."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "allocated_core_hours": 0.10555555555555556,
+  "own_jobs": [
+    {
+      "job": "20254574",
+      "state": "RUNNING",
+      "elapsed": 380,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    }
+  ],
+  "basis": "current allocated billing=1, one CPU / 2GiB; AMS settlement recorded separately"
+}

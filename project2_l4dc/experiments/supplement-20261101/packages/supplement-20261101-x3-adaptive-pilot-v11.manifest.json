@@ -1,0 +1,20 @@
+{
+  "name": "supplement-20261101-x3-adaptive-pilot-v11",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x3-adaptive-pilot-v11.tar.gz",
+  "archive_sha256": "d1b3a514aef635b86f45d72f5802ed3bcb1a0081e8c5e7cd474646702e7f2391",
+  "plan": {
+    "id": "supplement-20261101-x3-adaptive-pilot-v11",
+    "stage": "PILOT",
+    "experiment": "X3",
+    "scope": "CE_ADAPTIVE_SAME_FIT",
+    "wall_minutes": 5
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "adaptive_pilot.py": "4f0385f2fe19430f24b6b5a18b97b470773d430184ee2c3ada4bf1d19a3b9b5a",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "job_plan.json": "01fcb33482ae1d9111448afe398a15719f0ae9a60a0bada912c12cc566e52ecb",
+    "slurm/run.sbatch": "2ce9baf5efc4e4153e824e50a6a22812a4c16af9c718dc308bbd263507237d34"
+  }
+}

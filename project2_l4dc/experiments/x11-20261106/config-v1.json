@@ -1,0 +1,202 @@
+{
+  "experiment": "X11",
+  "execution": "LOCAL_AUTHOR_APPROVED_X11",
+  "review_sha256": "4463c38f3b55f88818b1a67e137f1d7bff4a571d04f89541642bb40acfefc14c",
+  "cells": [
+    {
+      "n": 24,
+      "m": 16,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 32,
+      "m": 16,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 48,
+      "m": 4,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 48,
+      "m": 6,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 48,
+      "m": 8,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 48,
+      "m": 12,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 48,
+      "m": 16,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 48,
+      "m": 24,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 48,
+      "m": 32,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 64,
+      "m": 16,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    },
+    {
+      "n": 96,
+      "m": 16,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    }
+  ],
+  "systems": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308
+  ],
+  "seeds": [
+    1601,
+    1602,
+    1603,
+    1604
+  ],
+  "workers": 4,
+  "blas_threads": 1,
+  "pilot_cases": [
+    {
+      "n": 48,
+      "m": 48,
+      "system": 9911,
+      "seed": 7711,
+      "prefixes": [
+        2048,
+        8192
+      ]
+    },
+    {
+      "n": 48,
+      "m": 4,
+      "system": 9912,
+      "seed": 7712,
+      "prefixes": [
+        2048,
+        8192
+      ]
+    },
+    {
+      "n": 96,
+      "m": 16,
+      "system": 9913,
+      "seed": 7713,
+      "prefixes": [
+        2048,
+        8192,
+        32768,
+        131072,
+        524288
+      ]
+    }
+  ],
+  "pilot_checks": [
+    "square_model_bitwise",
+    "all_rectangular_shapes_rank_and_certificate",
+    "original_generic_CE_fit_gain_metric_RNG_count_bitwise",
+    "one_BLAS_thread",
+    "peak_working_set_below_2GiB",
+    "available_memory_above_4GiB",
+    "free_disk_above_5GiB"
+  ],
+  "formal_paths": 352,
+  "formal_transitions": 184729600,
+  "sources": {
+    "ce_reference_local.py": "844b26905c5025fff5ab0a401b8bf08eee1b322738b1e10ebabf9f5a8c5641bc",
+    "core.py": "54d311c09077761e14b4ff90b46c91b5f9cd2679426a372da8aa1983d07be968",
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "rectangular.py": "8517471d6e893e964531eca82202b6b98a15c1785183f8c514d233e94ad91955",
+    "s_ce_original.py": "3e9aedc9e91cf1fadb237b43c43286e2be9ee0af6de3e8c6ad1ac89e73289c21"
+  },
+  "driver_sha256": "b0c1ee9d0cd4cf8930f00176739458339e9f4201f50ad8c5c1af571d2a8795b3",
+  "Grace_SU": 0,
+  "retry_limit": 0
+}

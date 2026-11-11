@@ -1,0 +1,18 @@
+{
+  "status": "SAVED_CSV_FIGURES_TABLES_RENDERED",
+  "source_sha256": "af0aec8c4cec8256be6101d6fa6772f1f0053b5ca2dc042a46a2c86067314a86",
+  "frozen_analysis_sha256": "7eafc31a73ab8e3f8924561d4892682e8bf73f57b06b5c321018494792a773bd",
+  "config_sha256": "580561a73a44a652a3e909b10fd60fb68aab7b79c4e900eee7b7f86b5e8a3dcd",
+  "job": "20415797",
+  "files": {
+    "figures/all_rungs_gap.png": "85e9a622753c687aa93d95be4ce1adf292c39676ab7601612d61d271265db47e",
+    "figures/all_rungs_gap.svg": "245c8db6967ce09f28981d2a0f60429e54df5541be4f573d6e20a09c980e571d",
+    "figures/all_rungs_relative_gap.png": "9444a953ec535794a7a43c243ca1a8532bf67494400c158fc9443366ceb2e361",
+    "figures/all_rungs_relative_gap.svg": "37953592fcdaa86c82aa49c583a254b9d9a497b3e7039032abc95dfdfdd7b1d7",
+    "figures/full_rung_gap.png": "f931f81ca5cf430962272c0ad47659ea0243bd59fab2114d528d3df422ecd4f0",
+    "figures/full_rung_gap.svg": "c40a3b5a11b4a0a5dced71b7b616906880c59b55cd364dea8841c920d6477ef0",
+    "SCIENCE_REPORT.md": "cbcdc64c23b87f8b0fe29bdf2cce03d40ddf11a1954605c51fc85362c8b22eaa"
+  },
+  "no_new_training_transitions": true,
+  "plot_gap_denominator": "FULL32_FAILURE_INCLUSIVE"
+}

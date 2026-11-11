@@ -1,0 +1,25 @@
+{
+  "status": "X10a_PROTOCOL_FROZEN_NO_NUMERICS_YET",
+  "created_utc": "2026-11-06T05:26:48.554581+00:00",
+  "review_sha256": "97173f645c72d54497aa5594e7d31bb4e32a26935b81e0adada4b9897b1b474e",
+  "config_sha256": "898e76199d7c0a489907b7c5e2def123be7a3f95db41d580ba6656c4afed7ca8",
+  "protocol_sha256": "0254b68dd6b05ddbfb63ea0bb06ec86e8f5512dac2ae67bd9c5b832ed9ebd6d7",
+  "sources": {
+    "ce-src/analyze_ce.py": "92b02534dfe396bb805cbd78daa4517f1bed549c22e0885ffa41770cd38a92c7",
+    "ce-src/ce_driver.py": "c9e1601ea6e55dfb975b80bcb00563274b8e237fbf602d2d0e1c0e330f93a4e2",
+    "ce-src/ce_reference_local.py": "844b26905c5025fff5ab0a401b8bf08eee1b322738b1e10ebabf9f5a8c5641bc",
+    "ce-src/frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "ce-src/s_ce_original.py": "6650bc8d59d73479a8952096781f8267c7af70b1b5019c667562f666a2622f9d",
+    "ce-src/x8_original.py": "bd4a810d615c4630e27b2e99f98b49dcaff61727343fcdf3852e070536c01af0",
+    "ce-baseline/X1_normalized_statistics.csv": "f7130a51c4cc09bffc11d06c53491080b8a750133a15a2dc3a3d8e05541043e7",
+    "ce-baseline/X6a_sample_cost_derived.csv": "0a11b2f2311baf2c6b91587f70ed6c18b4ae7a10da6af58376dd97b1b862f7ee",
+    "ce-baseline/X8_sample_cost.csv": "5ea1011fdf3b974cbb696511e3e81d3a04a587ea037b9b9550627f3502e6047f",
+    "ce-baseline/x8-source-docs/PROTOCOL.md": "5d4fddfa0fc7b0e7e2ff09fd74d85f15094ea4d5b1d64c19657e7d97746919c8",
+    "ce-baseline/x8-source-docs/PROTOCOL_AMENDMENT.md": "f0f258b05e3aeec39cdee4b96f7ddd8dc3f85e53d5a1196b4df713b0f8503c15",
+    "ce-baseline/x8-source-docs/analysis/analyze_x8.py": "de4ec69737cee465d891ed310fa9a694bba8107a04fae24060b319c29819705e"
+  },
+  "Grace_requested_SU": 0,
+  "Grace_actual_SU": 0,
+  "new_jobs": 0,
+  "source_extraction_proof_sha256": "8e9a280280b0361e5aa170ee8f343b41548c87f1817442af51814e45dc939cb5"
+}

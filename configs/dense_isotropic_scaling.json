@@ -1,0 +1,2581 @@
+{
+  "schema": 2,
+  "profile": "scaling",
+  "tasks": [
+    {
+      "n": 25,
+      "m": 25,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        3200,
+        12800,
+        51200,
+        204800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 25,
+      "m": 25,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        3200,
+        12800,
+        51200,
+        204800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 25,
+      "m": 25,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        3200,
+        12800,
+        51200,
+        204800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 25,
+      "m": 25,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        3200,
+        12800,
+        51200,
+        204800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 25,
+      "m": 25,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        3200,
+        12800,
+        51200,
+        204800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 25,
+      "m": 25,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        3200,
+        12800,
+        51200,
+        204800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 25,
+      "m": 25,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        3200,
+        12800,
+        51200,
+        204800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 25,
+      "m": 25,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        3200,
+        12800,
+        51200,
+        204800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 1,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 1,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 1,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 1,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 1,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 1,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 1,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 1,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 2,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 2,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 2,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 2,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 2,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 2,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 2,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 2,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 8,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 8,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 8,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 8,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 8,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 8,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 8,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 8,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 12,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 12,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 12,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 12,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 12,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 12,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 12,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 12,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 16,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 16,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 16,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 16,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 16,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 16,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 16,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 16,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        6400,
+        25600,
+        102400,
+        409600
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 75,
+      "m": 75,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        9600,
+        38400,
+        153600,
+        614400
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 75,
+      "m": 75,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        9600,
+        38400,
+        153600,
+        614400
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 75,
+      "m": 75,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        9600,
+        38400,
+        153600,
+        614400
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 75,
+      "m": 75,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        9600,
+        38400,
+        153600,
+        614400
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 75,
+      "m": 75,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        9600,
+        38400,
+        153600,
+        614400
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 75,
+      "m": 75,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        9600,
+        38400,
+        153600,
+        614400
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 75,
+      "m": 75,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        9600,
+        38400,
+        153600,
+        614400
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 75,
+      "m": 75,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        9600,
+        38400,
+        153600,
+        614400
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 1,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 1,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 1,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 1,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 1,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 1,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 1,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 1,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 2,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 2,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 2,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 2,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 2,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 2,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 2,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 2,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 8,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 8,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 8,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 8,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 8,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 8,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 8,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 8,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 16,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 16,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 16,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 16,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 16,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 16,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 16,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 16,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 24,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 24,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 24,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 24,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 24,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 24,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 24,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 24,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 32,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 32,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 32,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 32,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 32,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 32,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 32,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 32,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        12800,
+        51200,
+        204800,
+        819200
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 150,
+      "m": 150,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        19200,
+        76800,
+        307200,
+        1228800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 150,
+      "m": 150,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        19200,
+        76800,
+        307200,
+        1228800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 150,
+      "m": 150,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        19200,
+        76800,
+        307200,
+        1228800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 150,
+      "m": 150,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        19200,
+        76800,
+        307200,
+        1228800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 150,
+      "m": 150,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        19200,
+        76800,
+        307200,
+        1228800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 150,
+      "m": 150,
+      "r": 4,
+      "system_seed": 2,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        19200,
+        76800,
+        307200,
+        1228800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 150,
+      "m": 150,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "ce",
+      "budgets": [
+        19200,
+        76800,
+        307200,
+        1228800
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 150,
+      "m": 150,
+      "r": 4,
+      "system_seed": 3,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "critic",
+      "budgets": [
+        19200,
+        76800,
+        307200,
+        1228800
+      ],
+      "stabilizer": "isotropic"
+    }
+  ],
+  "absolute_epsilons": [
+    0.1,
+    0.5,
+    1.0,
+    2.0,
+    5.0
+  ],
+  "target_success": 0.9,
+  "primary_success": "fixed declared output budget; first pointwise crossing is descriptive",
+  "theoretical_targets": {
+    "CE": "r*n/epsilon when m=n",
+    "direct_critic": "r*n^2/epsilon when m=n; not an actor result"
+  },
+  "stabilizer": "isotropic full-rank K0, all singular values=.35; supplied K0 does not identify a rank-r subspace",
+  "phase": "Control after discovering input-subspace information in the initial aligned stabilizer"
+}

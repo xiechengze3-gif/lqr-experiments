@@ -1,0 +1,128 @@
+{
+  "experiment": "rank-sweep100-confirm-20261016",
+  "n": 100,
+  "ranks": [
+    2,
+    8,
+    32,
+    64,
+    100
+  ],
+  "system_seed": 20261017,
+  "sampling_seed": 761032,
+  "b": 1.0,
+  "complement_rotation": 0.45,
+  "complement_perturbation": 0.12,
+  "epsilon_fraction": 0.1,
+  "eta": 0.05,
+  "horizon": 4,
+  "burn": 256,
+  "sigma": 2.0,
+  "schedule_segments": [
+    [
+      16384,
+      8
+    ],
+    [
+      65536,
+      8
+    ],
+    [
+      262144,
+      8
+    ],
+    [
+      1048576,
+      8
+    ],
+    [
+      4194304,
+      8
+    ],
+    [
+      4194304,
+      4
+    ]
+  ],
+  "ce_budgets": [
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    12288,
+    16384,
+    24576,
+    32768,
+    49152,
+    65536
+  ],
+  "oracle_updates": 64,
+  "benchmark_blocks": 131072,
+  "chunk_size": 1024,
+  "pilot_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "confirm_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129
+  ],
+  "required_success_fraction": 0.9,
+  "workers": 4,
+  "blas_threads_per_worker": 1,
+  "output": "/scratch/user/changze/lqr_experiments/results/rank-sweep100-confirm-20261016",
+  "cache": "/scratch/user/changze/lqr_experiments/cache/rank-sweep100-confirm-20261016",
+  "temp": "/scratch/user/changze/lqr_experiments/tmp/rank-sweep100-confirm-20261016",
+  "local_output": "E:/ChatGPT/Results/LQR_experiments/rank-sweep100-confirm-20261016",
+  "compute_budget": {
+    "automatic_retries": 0,
+    "ce_task_max_minutes": 2,
+    "max_concurrent_array_tasks": 60,
+    "paired_npg_task_max_minutes": 50,
+    "benchmark_max_minutes": 10,
+    "max_total_SU": 140,
+    "full_rank_npg_task_max_minutes": 30,
+    "pilot_resume_max_minutes": 15,
+    "full_rank_pilot_resume_max_minutes": 8
+  },
+  "system_artifact_sha256": {
+    "8": "03459b915fed4151d52d34efa52c3cc521fb110e803521b7e9bc97ebc28ec8c1",
+    "64": "6a88e45ccc86064b797b9aff7ddc1ea866579d01c71ff1a259f87101b601600f",
+    "2": "d1ff0070c9f6cab2cd1a2f47903306d1fd05082816577988ae93c7e63743a268",
+    "32": "5cc08614d098dfbb42c7817169b41a89e89cf78187c2b861b117175e33cbd4c7",
+    "100": "f3e3c519cddb3eca8ff3bca776e17fdf3ba1bc08fe203f7c1380275dfe8d4ead"
+  },
+  "prefix_source_output": "/scratch/user/changze/lqr_experiments/results/rank-sweep100-final-20261016"
+}

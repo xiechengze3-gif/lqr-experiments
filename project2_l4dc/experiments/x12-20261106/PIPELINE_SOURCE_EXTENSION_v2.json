@@ -1,0 +1,16 @@
+{
+  "status": "METADATA_SOURCE_EXTENSION_PARSE_CHECK_PASS",
+  "prior_static_audit_sha256": "6fb3f2c8a972cc59b4bc6a866557e0276bbf3c2c6d4e68992e08229658444186",
+  "files": {
+    "prepare_followon_v1.py": "89acff58e532c3504941b7df81207baccfed0378ed8546e2486a15f90ead46c9",
+    "prepare_report_v1.py": "d3299f3c433d25cef8ef8d466df3b518a02999488e77eeca355c25b7400f3133",
+    "accounting_v1.py": "9ad6990d2d9d5d75d341289bdf8485bfe25280962e3e28e275f2e4efd065b6b8",
+    "finalize_report_v1.py": "426436ff8979d56e1f21cf13ddf6a11632abd0cb6f6a07c5c535c27554a31b96",
+    "publish_stage_v1.py": "a47490a8786664c195d71b2410b01df740627afa59de969c1e36764d366eca58",
+    "report_render_v2.py": "e366aa0e12a49d6a4b6f12695e0d9bba75b9b6d8c7327ea8bcfba009bb9df727",
+    "Run-Followon-v1.ps1": "705701dec35df6c2947fc9bca280c34dda1fa7f5171937bc79681a5609febe47"
+  },
+  "new_jobs": 0,
+  "new_training_transitions": 0,
+  "changes": "Add accounting, milestone publication and final E delivery checks; render-v2 clarifies registered PI PSD clipping versus absent gain clipping. Scientific learners/analyzer/cross/plotting primitives unchanged."
+}

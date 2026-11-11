@@ -1,0 +1,25 @@
+{
+  "status": "PASS_SYNTHETIC_PARTITION_AND_BUDGET_GATES",
+  "source_checks": [
+    {
+      "file": "prepare_actor_formal.py",
+      "sha256": "17b2a2b84e6c8c130c55e2e50cd130e0c5ede066ffcc75e6092db5bc8f99dc72",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "submit_actor_formal.py",
+      "sha256": "8d55ec6b40fee7e3c59c4714a774aa49740286530e1d64a22b0587412199748e",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    }
+  ],
+  "actual_metadata_source": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\GRACE_PARTITIONS_V2-20261106T0840453449348.json",
+  "short_120_medium_1440_verified": true,
+  "medium_121min_spill_within_caps": true,
+  "changed_node_pool_rejected": true,
+  "cost_overshoot_still_rejected": true,
+  "synthetic_only_no_experiments": true,
+  "new_jobs": 0,
+  "SU": 0
+}

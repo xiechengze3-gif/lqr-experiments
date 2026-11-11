@@ -1,0 +1,20 @@
+{
+  "status": "CORRECTION_PREPARED_NO_NUMERICAL_RETRY",
+  "missing_import_fixed": "json in portable extraction module",
+  "numerical_function_sources_unchanged": true,
+  "original_model_prefix_function_globals_resolved": true,
+  "original_reference_function_globals_resolved": true,
+  "complete_X8_pilot_reused_by_reference": true,
+  "incomplete_v1_files_preserved": true,
+  "new_jobs": 0,
+  "new_SU": 0,
+  "config_sha256": "0c3181d6f30e15ea714f221cd286a9226d918373e5b19a47475f892593ad58ce",
+  "files": {
+    "ce-src-v2/analyze_ce.py": "f3651489091ddda0b545af4bc8c149d27c2b5dfdfc072fc7d5101d061b3fc3f8",
+    "ce-src-v2/ce_driver.py": "85708c342bd6b4229324e10688681b7be615460adf4fe77404a7f6f31c329465",
+    "ce-src-v2/ce_reference_local.py": "844b26905c5025fff5ab0a401b8bf08eee1b322738b1e10ebabf9f5a8c5641bc",
+    "ce-src-v2/frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "ce-src-v2/s_ce_original.py": "3e9aedc9e91cf1fadb237b43c43286e2be9ee0af6de3e8c6ad1ac89e73289c21",
+    "ce-src-v2/x8_original.py": "bd4a810d615c4630e27b2e99f98b49dcaff61727343fcdf3852e070536c01af0"
+  }
+}

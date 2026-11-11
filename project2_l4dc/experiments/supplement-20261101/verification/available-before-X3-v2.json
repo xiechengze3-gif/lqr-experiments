@@ -1,0 +1,243 @@
+{
+  "status": "PASS_AVAILABLE_WITH_PENDING_X3",
+  "checked_utc": "2026-11-01T09:47:50Z",
+  "old_files_unchanged": 178,
+  "X0_verified_files": 128,
+  "X1_CE_early_delivery_verified_files": 1196,
+  "frozen_auxiliary_packages": [
+    {
+      "name": "supplement-20261101-actor-figures-refine-v25",
+      "archive_sha256": "d9caa84ffdc08499741fd099125f72b204d61cf0b1d3624a0d2c77eed6d8b249"
+    },
+    {
+      "name": "supplement-20261101-ce-figures-refine-v20",
+      "archive_sha256": "824e6935f24540d5a511b7a1c27d50aeb1125c5abb26d840d21e0af2a2044b68"
+    },
+    {
+      "name": "supplement-20261101-ce-refine-v9",
+      "archive_sha256": "93d35f2adbb961dedfc61f14eca56aa946ecc2ea0068a15ab799aaac72138a76"
+    },
+    {
+      "name": "supplement-20261101-ce-suite-report-v16",
+      "archive_sha256": "cd3ca272c385a7a446bb5a49b7040188795166d59bad95319853852a72600e8a"
+    },
+    {
+      "name": "supplement-20261101-npg-resource-v12",
+      "archive_sha256": "e91ad7371c60c963ffa91f63b68edddc30da7d2836a5f808158e5f10db868725"
+    },
+    {
+      "name": "supplement-20261101-p1-p2-report-v27",
+      "archive_sha256": "77b42c8d94d74fe672dbd69daa9b855835d8c5f7beb77170dcf611b0991561d0"
+    },
+    {
+      "name": "supplement-20261101-population-suite-v10",
+      "archive_sha256": "c04f5dc6b33353a409e305c1acd0b7145ec6842e21f0c28881256d901149d115"
+    },
+    {
+      "name": "supplement-20261101-primary-actor-report-v21",
+      "archive_sha256": "ce8e79d81a42fbfd275259ef7957edb2f879ebb55372bec5a1647008be67d2ca"
+    },
+    {
+      "name": "supplement-20261101-x2-ce-formal-v13",
+      "archive_sha256": "1d1ee7593b6309696a7b34efff2ac22ce763c172984782ed81b03bbb27b13cf6"
+    },
+    {
+      "name": "supplement-20261101-x2-npg-formal-v18",
+      "archive_sha256": "0535d9aabd38e3230aa6c0aef134e44e9c5088253144a92412887552a3aedca0"
+    },
+    {
+      "name": "supplement-20261101-x2-npg-n12-pilot-v14",
+      "archive_sha256": "ffd9487fd403c4af31971945cc100b08b2a9d13780b489d2a2d8ef7ef9f10e90"
+    },
+    {
+      "name": "supplement-20261101-x2-npg-n12-pilot-v15",
+      "archive_sha256": "4c0dad12a9ff6e47f78e26d322247848ea19103ae94d8389b47dd9f20d0a7917"
+    },
+    {
+      "name": "supplement-20261101-x2-npg-n24-pilot-v15",
+      "archive_sha256": "3c5251c84f67dd433fc15f99f750bc143e066eda81935e5f53eb7beafff1afce"
+    },
+    {
+      "name": "supplement-20261101-x3-actor-report-v26",
+      "archive_sha256": "56f3b02b9be4e6e658da2a781ec8bd63fdaa28ec81fca67ce3d740740f1094d5"
+    },
+    {
+      "name": "supplement-20261101-x3-actor-report-v28",
+      "archive_sha256": "1c6e54eec6eac91656d3b37f77af2d02bf5aa19cc3170612351da8c65d9d04a3"
+    },
+    {
+      "name": "supplement-20261101-x3-adaptive-pilot-v11",
+      "archive_sha256": "d1b3a514aef635b86f45d72f5802ed3bcb1a0081e8c5e7cd474646702e7f2391"
+    },
+    {
+      "name": "supplement-20261101-x3-ce-formal-v13",
+      "archive_sha256": "cecd5b2e8b0b6cba0975a7c0240310ef3cacf9773a2dccdeb7cf68cba1237a96"
+    },
+    {
+      "name": "supplement-20261101-x3-npg-base2048-pilot-v17",
+      "archive_sha256": "7992fad02a8d0580cea4bef2d8a85f745896f8251ca6bda2e8fd05b68bac929e"
+    },
+    {
+      "name": "supplement-20261101-x3-npg-base512-pilot-v14",
+      "archive_sha256": "a8a4de90a177fd104e3dcabc4d438081b25d4422148e55db4c5ef10be5200ccd"
+    },
+    {
+      "name": "supplement-20261101-x3-npg-base512-pilot-v15",
+      "archive_sha256": "1048524943bcf77197899322aa8a71038f50228a89ecb7c121d997483da1ec77"
+    },
+    {
+      "name": "supplement-20261101-x3-npg-base8192-pilot-v18",
+      "archive_sha256": "c189be48c498b169e6deb6cc79bf3d725e02368aa7077d7f5f6ea5c8ccae9797"
+    },
+    {
+      "name": "supplement-20261101-x3-npg-formal-v18",
+      "archive_sha256": "3d66431059699fa05fdedccf551f366823a5b801f10da702ff9916c7147e8036"
+    },
+    {
+      "name": "supplement-20261101-x3-npg-large-dense-v19",
+      "archive_sha256": "cd1e3f244444b6ac4d8a2587c8c411c8605eefe59d2d72fb8240f9e841be2c36"
+    },
+    {
+      "name": "supplement-20261101-x4-formal-v23",
+      "archive_sha256": "c4e1316b12e6615fb95dc8d4fd35fc3ada0832fce2831de079d700cd69c64ce0"
+    },
+    {
+      "name": "supplement-20261101-x4-pilot-v22",
+      "archive_sha256": "6b11af1214d7f4fe1a90bb6365d9ba97d0e89fa1ce55e83595e670fcec7191cf"
+    },
+    {
+      "name": "supplement-20261101-x4-report-v24",
+      "archive_sha256": "06ca1a72afeccd48579d11ebc4331ffb7ab58ce76cf28040ced37b04e4d494c9"
+    }
+  ],
+  "verified_delivery_archives": [
+    {
+      "manifest": "delivery-ce-completion-resource-v1.json",
+      "files": 7,
+      "archive_sha256": "b11721ce97d9ee4f107173644c678d7da942be3a45e48208d58cb98d4e4c39da"
+    },
+    {
+      "manifest": "delivery-ce-full-formal-raw-v1.json",
+      "files": 1728,
+      "archive_sha256": "24d01203e236a36c6529729d55553de5aad31f3500f1f3c9f79bfb128a95becf"
+    },
+    {
+      "manifest": "delivery-ce-polished-x3-npg-calibration-v1.json",
+      "files": 35,
+      "archive_sha256": "6355b624bd8ee206695147f9e2af4b68bfd22aae66a799681ec2f45a14235d90"
+    },
+    {
+      "manifest": "delivery-ce-reports-npg-primary-pilots-v1.json",
+      "files": 118,
+      "archive_sha256": "baa59062ed3dd1ef9773ff043df59dacc675d83423a7e7117a12cbf341b15097"
+    },
+    {
+      "manifest": "delivery-p1-p2-mechanism-v1.json",
+      "files": 15,
+      "archive_sha256": "b4e48f000ef3b224e35dd7cab2a3ad6254c48a1d0aa7e960607240f4347f4394"
+    },
+    {
+      "manifest": "delivery-primary-actor-raw-v1.json",
+      "files": 2496,
+      "archive_sha256": "c27c21dd6a677749cc291fa9e89527b0d21df61227261b08b03bf010d920ffce"
+    },
+    {
+      "manifest": "delivery-primary-actor-reports-v1.json",
+      "files": 22,
+      "archive_sha256": "cb73cc53a9440d1a04909ef1dbdeced7875e773c908944bf0377781d39c70bda"
+    },
+    {
+      "manifest": "delivery-x1-ce-refined-population-v1.json",
+      "files": 11,
+      "archive_sha256": "64bb7e3c792467733ffa30a365e4bafdcfadda7d4b7582b6dfce91f2ba79530d"
+    },
+    {
+      "manifest": "delivery-x2-x3-ce-pilots-v1.json",
+      "files": 239,
+      "archive_sha256": "c71c01f9045a7e5186a86005436bc59cb04ce977bf5b76bae0dc7725581700cf"
+    },
+    {
+      "manifest": "delivery-x3-adaptive-pilot-v1.json",
+      "files": 49,
+      "archive_sha256": "eadcde5ec71eddea2659dc7fcd09ac2fab2a497776b447026248c68287acbe9c"
+    },
+    {
+      "manifest": "delivery-x3-npg-largest-v1.json",
+      "files": 10,
+      "archive_sha256": "a8421f9b97b830b79dd40583b857d2b442590473c1fea965649536df6641d9de"
+    },
+    {
+      "manifest": "delivery-x4-formal-v1.json",
+      "files": 3,
+      "archive_sha256": "d2ed686e40e67024552fc417096a0d95efb7765708ec974ac78dea7277f13b83"
+    },
+    {
+      "manifest": "delivery-x4-pilot-v1.json",
+      "files": 2,
+      "archive_sha256": "f1c8a0cc2ca8bf435d00474b929c6a97e36a2d9e6c706410c6c931a0de357448"
+    },
+    {
+      "manifest": "delivery-x4-report-actor-polish-v1.json",
+      "files": 15,
+      "archive_sha256": "42c34f9b71791518a5617028691dc443333339e49daf7bf82eb583b704dc963b"
+    }
+  ],
+  "unique_verified_delivery_files": 4748,
+  "unique_verified_delivery_bytes": 1268290744,
+  "actor_checks": [
+    {
+      "experiment": "X1",
+      "endpoints": 1152,
+      "summary_cells": 72,
+      "paired_rows": 576,
+      "failed_endpoints": 193,
+      "hard_failures": 0,
+      "independent_compute_policy_checks": 59952,
+      "local_check": "Saved CSV statistics/ratios/counts/hashes only; no policy evaluations"
+    },
+    {
+      "experiment": "X2",
+      "endpoints": 128,
+      "summary_cells": 8,
+      "paired_rows": 64,
+      "failed_endpoints": 0,
+      "hard_failures": 0,
+      "independent_compute_policy_checks": 30848,
+      "local_check": "Saved CSV statistics/ratios/counts/hashes only; no policy evaluations"
+    }
+  ],
+  "ce_checks": [
+    {
+      "experiment": "X1",
+      "outputs": 1728,
+      "failed_outputs": 15,
+      "fixed_k0_diagnostic_failures": 0,
+      "learning_failures": 15
+    },
+    {
+      "experiment": "X2",
+      "outputs": 9408,
+      "failed_outputs": 1100,
+      "fixed_k0_diagnostic_failures": 0,
+      "learning_failures": 1100
+    },
+    {
+      "experiment": "X3",
+      "outputs": 41472,
+      "failed_outputs": 5747,
+      "fixed_k0_diagnostic_failures": 3456,
+      "learning_failures": 2291
+    }
+  ],
+  "pending": [
+    "X3 actor REPORT unavailable"
+  ],
+  "ledger_snapshot_spent_SU": 72.13388888888898,
+  "ledger_snapshot_requested_bound_SU": 158.91666666666669,
+  "ledger_snapshot_utc": "2026-11-01T09:44:06Z",
+  "new_policy_evaluations": 0,
+  "new_learning_runs": 0,
+  "new_training_transitions": 0,
+  "script_sha256": "8d8afc19edf1282bc61d847abe1285dd2b58244023b8caea0f9064e63f434f48",
+  "limits": "Local check verifies saved data integrity and CSV arithmetic. Independent objective checks were separately performed on Slurm; bootstrap CIs are source-hashed, not independently re-estimated here."
+}

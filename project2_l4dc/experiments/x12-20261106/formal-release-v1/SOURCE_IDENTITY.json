@@ -1,0 +1,16 @@
+{
+  "engine_byte_identical": true,
+  "estimator_byte_identical": true,
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "estimator_sha256": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+  "original_actor_sha256": "f76c28024fc0a70ea626e9f90b1e8a27cb90984aed4f16a4f8437d3c8af60ec4",
+  "actor_sha256": "094cf07bb8b2534b97a34648cab20176304ad9dbdd3ffa25c17cf61a61e1a098",
+  "actor_numerical_source_literal_identity": true,
+  "only_actor_edit": {
+    "old": "/results/x10-20261106/X10b",
+    "new": "/results/x12-20261106",
+    "purpose": "fresh output namespace guard"
+  },
+  "previous_X10b_verified_source": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\prepared-actor-formal-v1",
+  "new_replay_not_needed_by_author_GO": true
+}

@@ -1,0 +1,7 @@
+algorithm,A_family,spectrum,n,r,mode,N,transitions,stage,metric,count,failure_count,stable_count,failure_rate,median,q25,q75,median_definition
+CE,scalar,flat,16,16,k2,65536,65680,,gap,24,0,24,0.0,2.8079302563099233,2.8078912349516525,2.8079712620149833,linear quantile; failed outputs = +inf
+CE,scalar,flat,16,16,k8,65536,65680,,gap,24,0,24,0.0,1.6052192412525912,1.6051557405201349,1.605250140025987,linear quantile; failed outputs = +inf
+CE,scalar,flat,16,16,dense,65536,65680,,gap,24,0,24,0.0,0.0013272609739019003,0.0012668856396205186,0.0013749483449334576,linear quantile; failed outputs = +inf
+NPG,scalar,flat,16,16,k2,131072,25075008,48,gap,24,0,24,0.0,1.2324548795409935,1.223853720556762,1.2467399040393525,linear quantile; failed outputs = +inf
+NPG,scalar,flat,16,16,k8,131072,25075008,48,gap,24,0,24,0.0,0.13273367973518901,0.12772404507936663,0.13825306303183904,linear quantile; failed outputs = +inf
+NPG,scalar,flat,16,16,dense,131072,25075008,48,gap,24,0,24,0.0,0.0427915148019995,0.040663075048467334,0.04471996509549481,linear quantile; failed outputs = +inf

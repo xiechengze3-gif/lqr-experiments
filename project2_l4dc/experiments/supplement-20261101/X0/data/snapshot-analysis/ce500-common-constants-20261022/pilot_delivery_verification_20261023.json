@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-23T19:13:23.824476+00:00",
+  "files": 53,
+  "saved_policy_rows": 220,
+  "unique_policies_independently_audited": 198,
+  "independently_reaggregated_targets": 40,
+  "full_rank_identity_checks": 22,
+  "primary_pilot_same_accuracy_gains": [
+    {
+      "rank": 2,
+      "absolute_target": 0.1,
+      "seeds": 2,
+      "dense_samples": null,
+      "truncated_samples": 262400,
+      "sample_gain": null,
+      "gain_lower_bound": 7.993170731707317,
+      "dense_censoring": "right",
+      "truncated_censoring": "interval"
+    },
+    {
+      "rank": 4,
+      "absolute_target": 0.1,
+      "seeds": 2,
+      "dense_samples": null,
+      "truncated_samples": 262400,
+      "sample_gain": null,
+      "gain_lower_bound": 7.993170731707317,
+      "dense_censoring": "right",
+      "truncated_censoring": "interval"
+    },
+    {
+      "rank": 8,
+      "absolute_target": 0.1,
+      "seeds": 2,
+      "dense_samples": null,
+      "truncated_samples": 131328,
+      "sample_gain": null,
+      "gain_lower_bound": 15.970760233918128,
+      "dense_censoring": "right",
+      "truncated_censoring": "interval"
+    },
+    {
+      "rank": 32,
+      "absolute_target": 0.1,
+      "seeds": 2,
+      "dense_samples": 524544,
+      "truncated_samples": 131328,
+      "sample_gain": 3.9941520467836256,
+      "gain_lower_bound": null,
+      "dense_censoring": "interval",
+      "truncated_censoring": "interval"
+    },
+    {
+      "rank": 500,
+      "absolute_target": 0.1,
+      "seeds": 2,
+      "dense_samples": 524544,
+      "truncated_samples": 524544,
+      "sample_gain": 1.0,
+      "gain_lower_bound": null,
+      "dense_censoring": "interval",
+      "truncated_censoring": "interval"
+    }
+  ],
+  "rank_scaling_observation": "Truncated pilot samples are not proportional to rank; normalized coefficients are not flat.",
+  "formal_status_at_remote_snapshot": "20 running, 130 pending, six audit shards and report dependent",
+  "formal_jobs": {
+    "r2": "20266676",
+    "r4": "20266677",
+    "r8": "20266678",
+    "r32": "20266680",
+    "r500": "20266682",
+    "audits": "20266683",
+    "report": "20266684"
+  },
+  "total_worst_case_SU_bound": 97.09194444444444
+}

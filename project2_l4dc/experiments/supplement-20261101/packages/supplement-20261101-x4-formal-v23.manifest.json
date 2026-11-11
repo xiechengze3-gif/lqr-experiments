@@ -1,0 +1,18 @@
+{
+  "name": "supplement-20261101-x4-formal-v23",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x4-formal-v23.tar.gz",
+  "archive_sha256": "c4e1316b12e6615fb95dc8d4fd35fc3ada0832fce2831de079d700cd69c64ce0",
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "robustness_x4.py": "f47fd1b0fb2c630ca3fd811653c770ca1b1fceb093e9b6a1551ef01139c70323",
+    "x4_formal.py": "f718389edb61802a89ef53d7b3bbd37b3b9207b8ff1a2b61d32c0117b8007197",
+    "configs/X4_v1.json": "55f700cf0365fbded872407ef414490d389336d44fa1e9c39bfac22b743a856d",
+    "X4/ACCEPTED.json": "c675eb3c57e28b8432a302a6d364b1890271b0f066b05a2b15a1b1ee0d6cf28e",
+    "X4/SOURCE_POLICY_MANIFEST.json": "ef02e99fd82b68587c6d9b9f33e25381877c722e9b471d7f9f916fcbe021e8ef",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_x4_formal.py": "208a2624e0b3b55c8115de0e340c16a92ac95531f1a68d655de94c3900e229b1",
+    "slurm/run.sbatch": "96e47040b5c3479b65c45b93db9df1b76fc540a9c9ac2bb6b55a33a2d98cd3f6"
+  },
+  "stage": "FORMAL",
+  "scope": "X4_OFFLINE_DIAGNOSTIC"
+}

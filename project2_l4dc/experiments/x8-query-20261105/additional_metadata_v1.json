@@ -1,0 +1,631 @@
+{
+  "checked_utc": "2026-11-05T05:59:09.149660+00:00",
+  "read_only": true,
+  "studies": [
+    {
+      "id": "ce-npg-arguments-20261028",
+      "file": "report/all_records.csv",
+      "columns": [
+        "algorithm",
+        "n",
+        "r",
+        "A_family",
+        "spectrum",
+        "system",
+        "trial",
+        "task_id",
+        "reused",
+        "mode",
+        "k",
+        "N",
+        "transitions",
+        "budget_factor",
+        "noise_proxy",
+        "threshold",
+        "B_error_op",
+        "A_error_op",
+        "tau2",
+        "bound_shape",
+        "stable",
+        "rho",
+        "gap",
+        "cost",
+        "relative_gap",
+        "redundant_cost",
+        "projected_cost",
+        "decomposition_residual",
+        "P_relative_max",
+        "NPG_containment",
+        "CE_containment",
+        "projected_gap",
+        "stage",
+        "actual_transitions_at_output",
+        "retained_rank",
+        "gram_condition",
+        "failure",
+        "beta"
+      ],
+      "ce_records": 17808,
+      "distinct": {
+        "algorithm": [
+          "CE"
+        ],
+        "n": [
+          "12",
+          "16",
+          "24",
+          "48"
+        ],
+        "r": [
+          "1",
+          "16",
+          "2",
+          "4",
+          "8"
+        ],
+        "A_family": [
+          "dense",
+          "scalar"
+        ],
+        "spectrum": [
+          "exact",
+          "flat",
+          "gapped",
+          "gapped001",
+          "gapped02",
+          "smooth"
+        ],
+        "system": [
+          "101",
+          "102",
+          "103"
+        ],
+        "trial": [
+          "100",
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107"
+        ],
+        "mode": [
+          "adaptive",
+          "dense",
+          "k0",
+          "k1",
+          "k12",
+          "k2",
+          "k3",
+          "k4",
+          "k6",
+          "k8",
+          "truncated"
+        ],
+        "k": [
+          "0",
+          "1",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "2",
+          "24",
+          "3",
+          "4",
+          "48",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "N": [
+          "1024",
+          "12288",
+          "1536",
+          "16384",
+          "192",
+          "2048",
+          "24576",
+          "256",
+          "3072",
+          "384",
+          "4096",
+          "512",
+          "6144",
+          "65536",
+          "768",
+          "96"
+        ],
+        "transitions": [
+          "1168",
+          "12432",
+          "16528",
+          "1680",
+          "2192",
+          "240",
+          "24720",
+          "3216",
+          "336",
+          "400",
+          "4240",
+          "528",
+          "6288",
+          "656",
+          "65680",
+          "912"
+        ]
+      }
+    },
+    {
+      "id": "manuscript-three-groups-20261027",
+      "file": "report/all_records.csv",
+      "columns": [
+        "algorithm",
+        "n",
+        "A_family",
+        "spectrum",
+        "system",
+        "trial",
+        "task_id",
+        "mode",
+        "k",
+        "N",
+        "transitions",
+        "budget_factor",
+        "noise_proxy",
+        "threshold",
+        "B_error_op",
+        "A_error_op",
+        "tau2",
+        "bound_shape",
+        "stable",
+        "rho",
+        "gap",
+        "cost",
+        "relative_gap",
+        "redundant_cost",
+        "projected_cost",
+        "decomposition_residual",
+        "stage",
+        "retained_rank",
+        "gram_condition"
+      ],
+      "ce_records": 10752,
+      "distinct": {
+        "algorithm": [
+          "CE"
+        ],
+        "n": [
+          "12",
+          "16",
+          "24",
+          "48",
+          "96"
+        ],
+        "A_family": [
+          "dense",
+          "scalar"
+        ],
+        "spectrum": [
+          "exact",
+          "gapped",
+          "smooth"
+        ],
+        "system": [
+          "101",
+          "102",
+          "103"
+        ],
+        "trial": [
+          "100",
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107"
+        ],
+        "mode": [
+          "adaptive",
+          "dense",
+          "k0",
+          "k1",
+          "k12",
+          "k2",
+          "k3",
+          "k4",
+          "k6",
+          "k8",
+          "oracle_rank"
+        ],
+        "k": [
+          "0",
+          "1",
+          "10",
+          "11",
+          "12",
+          "15",
+          "16",
+          "2",
+          "24",
+          "3",
+          "4",
+          "48",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "96"
+        ],
+        "N": [
+          "1024",
+          "12288",
+          "1536",
+          "16384",
+          "192",
+          "2048",
+          "24576",
+          "256",
+          "3072",
+          "384",
+          "4096",
+          "49152",
+          "512",
+          "6144",
+          "65536",
+          "768",
+          "96"
+        ],
+        "transitions": [
+          "1168",
+          "12432",
+          "16528",
+          "1680",
+          "2192",
+          "240",
+          "24720",
+          "3216",
+          "336",
+          "400",
+          "4240",
+          "49296",
+          "528",
+          "6288",
+          "656",
+          "65680",
+          "912"
+        ]
+      }
+    },
+    {
+      "id": "ce-npg-initial-gap-20261028",
+      "file": "report/normalized_records.csv",
+      "columns": [
+        "algorithm",
+        "A_family",
+        "spectrum",
+        "n",
+        "r",
+        "mode",
+        "task_id",
+        "system",
+        "trial",
+        "transitions",
+        "N",
+        "stage",
+        "stable",
+        "initial_gap",
+        "absolute_gap",
+        "relative_initial_gap",
+        "failure_inclusive_absolute_gap",
+        "failure_inclusive_relative_gap",
+        "failure",
+        "actual_transitions_at_output"
+      ],
+      "ce_records": 17808,
+      "distinct": {
+        "algorithm": [
+          "CE"
+        ],
+        "n": [
+          "12",
+          "16",
+          "24",
+          "48"
+        ],
+        "r": [
+          "1",
+          "16",
+          "2",
+          "4",
+          "8"
+        ],
+        "A_family": [
+          "dense",
+          "scalar"
+        ],
+        "spectrum": [
+          "exact",
+          "flat",
+          "gapped",
+          "gapped001",
+          "gapped02",
+          "smooth"
+        ],
+        "system": [
+          "101",
+          "102",
+          "103"
+        ],
+        "trial": [
+          "100",
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107"
+        ],
+        "mode": [
+          "adaptive",
+          "dense",
+          "k0",
+          "k1",
+          "k12",
+          "k2",
+          "k3",
+          "k4",
+          "k6",
+          "k8",
+          "truncated"
+        ],
+        "N": [
+          "1024",
+          "12288",
+          "1536",
+          "16384",
+          "192",
+          "2048",
+          "24576",
+          "256",
+          "3072",
+          "384",
+          "4096",
+          "512",
+          "6144",
+          "65536",
+          "768",
+          "96"
+        ],
+        "transitions": [
+          "1168",
+          "12432",
+          "16528",
+          "1680",
+          "2192",
+          "240",
+          "24720",
+          "3216",
+          "336",
+          "400",
+          "4240",
+          "528",
+          "6288",
+          "656",
+          "65680",
+          "912"
+        ]
+      }
+    },
+    {
+      "id": "cross-rank-709f81b14811afb5",
+      "file": "report/endpoints.csv",
+      "columns": [
+        "algorithm",
+        "profile",
+        "method",
+        "n",
+        "r",
+        "seed",
+        "tail",
+        "N",
+        "transitions",
+        "planned_transitions",
+        "gap",
+        "stable",
+        "complete",
+        "solver_ok",
+        "failure",
+        "eligible"
+      ],
+      "ce_records": 504,
+      "distinct": {
+        "algorithm": [
+          "CE"
+        ],
+        "n": [
+          "100",
+          "25",
+          "50",
+          "75"
+        ],
+        "r": [
+          "1",
+          "16",
+          "2",
+          "4",
+          "8"
+        ],
+        "method": [
+          "raw",
+          "truncated"
+        ],
+        "N": [
+          "131072",
+          "2048",
+          "2097152",
+          "32768",
+          "512",
+          "524288",
+          "8192"
+        ],
+        "transitions": [
+          "1024",
+          "131584",
+          "2097664",
+          "2560",
+          "33280",
+          "524800",
+          "8704"
+        ],
+        "seed": [
+          "0",
+          "1"
+        ],
+        "tail": [
+          "0.0",
+          "0.01",
+          "0.1",
+          "0.3"
+        ]
+      }
+    },
+    {
+      "id": "ce500-common-constants-20261022",
+      "initial_system_columns": [
+        "rank",
+        "rho_A",
+        "rho_F0",
+        "B_op",
+        "K0_rank",
+        "K0_op",
+        "P0_op_actual",
+        "F0_max_error",
+        "P0_relative_difference",
+        "Lyapunov_relative_residual",
+        "B_nesting_residual",
+        "system_sha256",
+        "A_array_sha256",
+        "B_array_sha256",
+        "K0_array_sha256",
+        "P0_array_sha256",
+        "initial_gap",
+        "J0",
+        "Jstar",
+        "supplied_p0",
+        "source_system_sha256"
+      ],
+      "initial_system_rows": 5
+    },
+    {
+      "id": "ce500-common-rank-extension-20261023-v2",
+      "initial_system_columns": [
+        "rank",
+        "rho_A",
+        "rho_F0",
+        "F0_max_error",
+        "P0_relative_difference",
+        "supplied_p0",
+        "initial_gap",
+        "Jstar",
+        "system_sha256"
+      ],
+      "initial_system_rows": 3
+    },
+    {
+      "id": "ce500-independent-stabilizer-20261022",
+      "initial_system_columns": [
+        "n",
+        "rank",
+        "seed",
+        "status",
+        "unstable_poles_before_correction",
+        "prior_scale",
+        "pole_scale",
+        "uses_Kstar",
+        "uses_cost_matrices",
+        "gap_matching",
+        "placement_iterations",
+        "placement_warnings",
+        "rho_A",
+        "rho_F0",
+        "K0_rank",
+        "K0_fro",
+        "correction_fro",
+        "initial_gap",
+        "J0",
+        "Jstar",
+        "lyapunov_relative_residual",
+        "finite_H_value_tail",
+        "source_sha256",
+        "A_array_sha256",
+        "B_array_sha256",
+        "system_sha256",
+        "system_file",
+        "A_B_independent_by_construction",
+        "seconds",
+        "rho_K0"
+      ],
+      "initial_system_rows": 5
+    },
+    {
+      "id": "ce500-random-a-20261020",
+      "initial_system_columns": [
+        "rank",
+        "initial_gap",
+        "J0",
+        "Jstar",
+        "rho_K0",
+        "rho_A",
+        "A_rank",
+        "B_rank",
+        "K0_rank",
+        "alpha",
+        "A_operator_norm",
+        "A_smallest_singular_value",
+        "B_operator_norm",
+        "Pstar_op",
+        "Kstar_operator_norm",
+        "Kstar_fro2",
+        "certificate_P_op",
+        "certificate_residual",
+        "zero_policy_certificate_residual",
+        "exploration_covariance_trace",
+        "exploration_covariance_condition"
+      ],
+      "initial_system_rows": 5
+    },
+    {
+      "id": "ce500-equal-modes-20261020",
+      "initial_system_columns": [
+        "rank",
+        "initial_gap",
+        "J0",
+        "Jstar",
+        "rho_K0",
+        "rho_A",
+        "unstable_modes",
+        "B_rank",
+        "K0_rank",
+        "alpha",
+        "Kstar_nonzero_singular_value",
+        "Pstar_op",
+        "certificate_P_op",
+        "analytic_DARE_max_error",
+        "certificate_residual",
+        "exploration_covariance_trace",
+        "exploration_covariance_condition"
+      ],
+      "initial_system_rows": 5
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "experiment": "X4",
+  "n": 12,
+  "m": 12,
+  "r": 2,
+  "null_scale": 0.25,
+  "scales": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "directions": 10,
+  "direction_seed": 2026110401,
+  "bootstrap_seed": 2026110499,
+  "bootstrap_resamples": 2000,
+  "pilot_systems": [
+    9001,
+    9002
+  ],
+  "pilot_trials": [
+    7001
+  ],
+  "formal_systems": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "formal_trials": [
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "CE_prefix": 8192,
+  "NPG_T": 96,
+  "PI_T": 8,
+  "source_selection": "frozen final output only; source failures stay failed"
+}

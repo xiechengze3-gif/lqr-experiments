@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "scope": "SAVED_DATA_ONLY_ZERO_NEW_TRANSITIONS",
+  "job": "20425741",
+  "source_sha256": "0e6e8291c573a6f3a6f491d135d91ddcfef1b7144f125004ad2d6bdb63d14b72",
+  "config_sha256": "1daea4cd21d5839297005bd99eab3a97cbee4df228523e253efe5f0822bb3bed",
+  "endpoint_rows": 1152,
+  "paired_cells": 36,
+  "attainment_cells": 8,
+  "max_gap_decomposition_error": 6.372854521077634e-16,
+  "max_cost_identity_error": 1.3711254354120683e-13,
+  "files": {
+    "endpoints.csv": "1bd6cff2e2a8116a00c2517b5deedc1b665767d62be263c6f268e6411b9ee461",
+    "stages.csv": "26bc63e9e4b90bd252e6ec7b195157c7d032f43371e0222847bc42039973fd48",
+    "diagnostics.csv": "9926bb1d6191766908f8765f83f1713ad764e9c38449e32cf59e714d7e90146e",
+    "summary.csv": "a5fcc7ecc5e68c4723389e6c9672252c57fe11b9443bcf63b5eef8bfce32c5bf",
+    "paired_endpoints.csv": "444a1bbb454e215740909d68c280266eef876b1cf1877cb9f426a6bc94d0d2bf",
+    "attainment.csv": "98a319cab892aacacfd6629de916e42050f9936eb7e8de2758cbbbaafec63e8f",
+    "epsilon_ratios.csv": "230949da1ce36e03b30da11636a6a25a7c13e27ff6559f8fdefe76b0f80ccd26",
+    "stage_summary.csv": "1aea4078724c15545162c0e31eeee0065ac886b1f655579a6164f0b9c2dfc9c1",
+    "diagnostic_summary.csv": "7ad52a7f94d8fd19ee353ef0d898eb9c8a3422c25a4c6fb3a04034aba2eb29a7",
+    "system_summaries.csv": "d9efe349821c92ecdf7dcb06952881cd23ab43d977e733cfd064b665c26c01a4"
+  }
+}

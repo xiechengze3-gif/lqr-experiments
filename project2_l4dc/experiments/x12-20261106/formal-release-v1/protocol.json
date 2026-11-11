@@ -1,0 +1,76 @@
+{
+  "experiment": "X12",
+  "n": 60,
+  "m": 60,
+  "rank": 2,
+  "eta": 0.2,
+  "H": 16,
+  "nu": 1.0,
+  "burn_blocks": 16,
+  "NPG_T": 16,
+  "PI_T": 8,
+  "calibration_systems": [
+    9101,
+    9102
+  ],
+  "calibration_seeds": [
+    9601,
+    9602,
+    9603,
+    9604
+  ],
+  "calibration_grid": [
+    2048,
+    8192,
+    32768,
+    131072,
+    524288,
+    2097152,
+    4194304
+  ],
+  "calibration_rule": "smallest_registered_N_with_median_of_two_system_four_seed_medians_dense_Z_rho_op_le_1",
+  "calibration_grid_provenance": "identical preregistered n48 and n72 high-dimension X6a A1 grid, bracketing new n60; no inserted rung",
+  "rungs": [
+    0.00390625,
+    0.0078125,
+    0.015625,
+    0.03125,
+    0.0625,
+    0.125,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "formal_systems": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308
+  ],
+  "formal_sampling_seeds": [
+    1701,
+    1702,
+    1703,
+    1704
+  ],
+  "timing_system": 9102,
+  "timing_seed": 9801,
+  "actual_cap_SU": 230,
+  "requested_cap_SU": 300,
+  "global_concurrency": 64,
+  "automatic_retries": 0,
+  "pilot_calibration_requested_SU": 2.75,
+  "pilot_timing_requested_SU": 6,
+  "report_reserved_SU": 8,
+  "review_sha256": "4463c38f3b55f88818b1a67e137f1d7bff4a571d04f89541642bb40acfefc14c",
+  "sources": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "actor_paths.py": "094cf07bb8b2534b97a34648cab20176304ad9dbdd3ffa25c17cf61a61e1a098"
+  },
+  "driver_sha256": "3d7e30c752f2403efebe10abbc7fa6d1e6db1960799622f6be755c7e54558685"
+}

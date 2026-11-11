@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "construction_sha256": "d17806d41f9696562a0accebcb874fb9651db2e8e99e4855e90a5ac93b388f32",
+  "systems_checked": 9,
+  "sources_checked": 16,
+  "stable_initializers": 9,
+  "rho_A": 1.05,
+  "maximum_rho_F0": 0.9993074602525591,
+  "initializer_uses_Kstar": false,
+  "initializer_uses_cost_matrices": false,
+  "policy_initialization": "May use the already drawn A/B solely for stabilization; no objective calibration.",
+  "Stein_PI_pilot_paths": 16,
+  "Stein_PI_formal_paths": 96,
+  "CE_formal_paired_datasets": 150,
+  "scheduler_and_actor_task_maps_identical": true
+}

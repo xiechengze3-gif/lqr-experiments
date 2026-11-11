@@ -1,0 +1,30 @@
+{
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\packages\\final-story-postprocessing-20261024.tar.gz",
+  "sha256": "45bc16cc3435abe47599a4c17797c0b9ec452e4f63265ab553e8db227ac218b3",
+  "files": {
+    "scripts/final_story_report_v4.py": "699108c561b8681f67739d16e1fe50ea66526da6c6eee8c32cdf9172111231bb",
+    "scripts/final_story_finalize.py": "1f8eba3ae086d957e588c5ebf66ed54767ecaae4f1fa61b950280ce942592089",
+    "scripts/final_story_robustness.py": "94e5d6027347a8f17ceac3b9edda80024887ac12de631c001d50accc316a1891",
+    "scripts/final_story_accounting.py": "b5fdccddbcdc34617c85e7544576668174af1d5f7e9a97ed75dead636e24ad7d",
+    "scripts/receive_final_story.py": "0669636a0dbfde2e388a6f795e6cdf06662d49e5915a66c94442030ff40f674a",
+    "scripts/final_story_progress.py": "4f253fbd2a9d8d584c77ead166a1f5990f289ca47525bcc1ee322824a9348138",
+    "scripts/final_story_ops_v2.py": "c6dac783eb361655ca7c2470eeeb373f5679a57eb960287c8cb3124efdf3fbd3",
+    "scripts/final_story_ops_v3.py": "cf7774a45151c373bece2d1342065268589975c5490299042c1236fc6a4817d0",
+    "scripts/final_story_report_ops.py": "439e13aba6fe9128d0a11098d9e8c041268d9c2b02d04e0018ccbee38f0b0227",
+    "scripts/final_story_finish_ops.py": "bfb3e4bf572f26766d95cf519f0c497f8e4e3df45bef67fb4a75db2624add028",
+    "slurm/final_story_review.sbatch": "47abf73a9c237f2b0bf9096b4ff52da8f0dc32781f515c1eea8b9f4e8e05e443",
+    "slurm/final_story_finish.sbatch": "8eff56f5b7ac1817293413770d9fd73bea2611657dc887d7f7cac11f72c8a856",
+    "docs/FINAL_STORY_FINDINGS_20261024.md": "0b67c50e6f0e7cf2c485e09dfcbf34580820d7b1e0c599c158775a7ea5e127b5",
+    "docs/FINAL_STORY_EXISTING_COVERAGE_20261024.md": "fae069089cca18fac7fcb8ee1cf3b730e0536c5a7123ebec548bf05871f676b6",
+    "docs/FINAL_STORY_INTERPRETATION_NOTES_20261024.md": "4fac27be9ad50be74a6922b924000c42e640df061d359d14e561fcb72decf8f4",
+    "docs/FINAL_STORY_FIGURE_CAPTIONS_20261024.md": "cf090e2dbb5945671d922a8b9da7f2f80be20a83febaf42d27c30c4d09806783"
+  },
+  "learning_package": "final-story-20261024.tar.gz",
+  "result_verification": {
+    "status": "PASS",
+    "verified_files": 3271,
+    "archive_sha256": "0d338e3f48b4f2e3e895fb3c0ef64d7c15046fd18fd596ad52542c1238ebc6ec",
+    "output": "E:\\ChatGPT\\Results\\LQR_experiments\\final-story-20261024",
+    "report_status": "COMPLETE"
+  }
+}

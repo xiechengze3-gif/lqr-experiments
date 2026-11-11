@@ -1,0 +1,35 @@
+{
+  "status": "AWAITING_X6a_PROTOCOL_ACCEPTED",
+  "checked_utc": "2026-11-02T01:09:30.430089+00:00",
+  "task_sha256": "260f082dea98b4f7df788ada3760e5861fb495246057ba9bc47e032b66e1a4f3",
+  "X6_cumulative_requested_SU": 0,
+  "X6_elapsed_SU": 0,
+  "X6_settled_SU": 0,
+  "static_source_count": 11,
+  "static_AST_and_frozen_hash_check": "PASS",
+  "numerical_validation": "NOT_RUN_REQUIRES_ACCEPTED_RESOURCE_PILOT",
+  "sources": {
+    "accounting.py": "b0322c8a400b9910c15f78e1c63ad428827e418bd4c59f328035a51295a60470",
+    "analyze_saved.py": "6b83073afb46d84887ed8d1b60290718ce758241bbd58737f0025adb87519adb",
+    "build_later_release.py": "c5488c49c7bf75b24da23fd40fc5f5c18335f16fd50ddce740b3ff6c6dcc156c",
+    "build_resource_release.py": "11237f95afd82713591cf507b532de5ca2b42e5f3ecf72765b6f5c800c039e35",
+    "estimation.py": "904ffaa48ba061b5624a051a7ca81b94aed1400df57ab2a7796f2a70ad396dfa",
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "plan_after_resource.py": "e3630e6952077c1381a85b16b757d32d0887bacfe2f2da9e862007c36b9719b6",
+    "plot_saved.py": "325806acf38c1672f3c850abfbe2aec175e24ef1aed23f0975ff61b14c3c2ff6",
+    "prepare_protocol.py": "1aed0b677d0dc4f8980c11143c33b77461da9c8de358c4fd83d397114b598ff8",
+    "remote_ops.py": "a1aa7c5920d939345b01c77d6d919d787eb77a8b48bf4de7f007da8243c8d55a",
+    "verify_saved.py": "822451c486564d53e7cdb9821a7b0cd8a0ab756d4f9c03bfa927345467683b79"
+  },
+  "next_action": "Read latest Claude review. Only explicit X6a PROTOCOL ACCEPTED permits resource pilot.",
+  "draft_sources_outside_protocol_manifest": [
+    "analyze_saved.py",
+    "plot_saved.py",
+    "verify_saved.py",
+    "remote_ops.py",
+    "accounting.py",
+    "plan_after_resource.py",
+    "build_resource_release.py",
+    "build_later_release.py"
+  ]
+}

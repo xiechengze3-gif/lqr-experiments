@@ -1,0 +1,30 @@
+{
+  "status": "REPORT_COMPLETE",
+  "new_paths": 352,
+  "new_cells": 11,
+  "reused_cells": 2,
+  "raw_fit_hash_checks": 1760,
+  "arm_prefix_records": 3520,
+  "failures": 0,
+  "formal_transitions": 184729600,
+  "pilot_transitions": 1084416,
+  "total_new_transitions": 185814016,
+  "formal_wall_seconds": 561.6089999999385,
+  "Grace_SU": 0,
+  "Slurm_job_id": null,
+  "report_sha256": "eda0f2cf0f336a6c65a703e568725a4fe8db8e3691a6b06773829a9126a236f2",
+  "config_sha256": "825a8453a850aafbf8e38801f2544de881fb99eacc892d23fb794a8712cd9247",
+  "visual_qa_sha256": "3d873e2cfb29ec2fc4d5bc5002fcf4201a923059460ab3b02b8472410b007acc",
+  "precision_reconciliation_sha256": "ed22655a26c44584da60c015701b8a9678272249c69c36577886c2d0c0e8302d",
+  "original_files_untouched": true,
+  "files": {
+    "X6a_sample_cost_derived.csv": "9d354dd31ba3562243c277c4938e8c3f149c83b043563718d67018a85f97bae8",
+    "X6a_sample_cost_derived_merged.csv": "fe69590738e4d1c1911034b450e2ad21f1e1b7934f573bfe990c6bb15f025d20",
+    "stability_by_N.csv": "38841135f4c92c239d4ab997a36875e978b61001a001c3ee284eaa30b62fa03c",
+    "paired_gap_ratios_by_N.csv": "daee7b97ef6796f7387a4dba481860efef38208d2702bd73855057203244b666",
+    "censoring_flags.csv": "96622a0fefaf12a0407b0f2b92f5327549a85cb028cef5341c74e64c2cec3981",
+    "failures.csv": "03cbe7b50075ef4f3c14d9a52a4f069c23f9cad66fc53b88b7c78f69b42047f8",
+    "legacy_rounding_audit.csv": "3b174c18f4a8b086cf700f402b539f2ebdc9a2997d6eb83c1d5933e665c200d9"
+  },
+  "review_sha256": "4463c38f3b55f88818b1a67e137f1d7bff4a571d04f89541642bb40acfefc14c"
+}

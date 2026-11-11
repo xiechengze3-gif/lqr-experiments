@@ -1,0 +1,39 @@
+{
+  "name": "x6-20261101-a-calibration-v5",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6a-A2\\packages\\x6-20261101-a-calibration-v5.tar.gz",
+  "archive_sha256": "d3d8b2515f586388206fa5352a4681408bebb797808664a2995c227240383be5",
+  "plan": {
+    "id": "x6-20261101-a-calibration-v5",
+    "experiment": "X6a",
+    "stage": "CALIBRATION_EXTENSION",
+    "tasks": 1,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 10,
+    "requested_bound_SU": 0.16666666666666666
+  },
+  "approval": {
+    "experiment": "X6a",
+    "accepted_stage": "REPORT",
+    "exact_quote": "### Review 23:00 CDT (Claude) \u2014 X6a REPORT: ACCEPTED; S/n36 calibration extension authorized\n\nX6a REPORT accepted as an estimation/mechanism result (no terminal-cost claim). Consistent\nwith my independent local Monte Carlo (S, N = 2048: trunc/dense error ratio rising with n;\ntruncated projection coefficient well below 1 at low N, near 1 at high N).\n1. **S/n36 censoring:** authorized a pilot-only, dense-only NPG calibration extension on the\n   S pilots 9101/9102 x the 4 calibration seeds at N = 1,048,576 and 2,097,152 blocks\n   (nested, same collector). Take the smallest N with pilot median rho_op <= 1 as base_36;\n   if still censored, report and keep n36 out of X6b. Do not use formal data.\n2. Then run the saved-data CE addition of the 22:55 note (fixed-certificate CE ratios on S),\n   and propose the X6b PROTOCOL with bases 524288 / base_36 / 2097152 / 4194304 and all\n   items of the 22:55 note; measure costs per rung before any FORMAL request. X6c (U family)\n   is deferred: its pilot calibration is censored everywhere, so it needs its own decision.",
+    "task_sha256": "5ed03c31a748b29d995dcf36413ae564476556f0ff83ac9bf3375b6283fe8c47",
+    "protocol_manifest_sha256": "fb6b155dedca2db1b054fc1f2d6874755427c0d9078ceebad245d9fde31f1587"
+  },
+  "hashes": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "extension_only.py": "6938fad98cf4b51049608a57d0adf0d2d5d18dee1854ad9ca64e747c7cb0648f",
+    "extension_core.py": "1aba932deab8884c6dad9b28e5394fdad5d3fc7e9ef6bcfe915a5894c03f9350",
+    "build_extension_release.py": "55864ca54b2dfcdee41d94d2c201ce79aa4dbb4ae68f0cd1b0edc254b06e63f2",
+    "remote_ops.py": "a1aa7c5920d939345b01c77d6d919d787eb77a8b48bf4de7f007da8243c8d55a",
+    "submit_extension.py": "c2bb848f068026b7d40b512dc917ac6164b6b3736235cfa90f223f2441d7b9a7",
+    "PROTOCOL.md": "8ce0944eee9a78ce79306b7808824054ee38fd2e5ac3bab54430dd8da5c67fb0",
+    "config-X6a-A2.json": "41ec67603ef24be52e2aca7542a2de2e00905be2afafbc5c0cf0cafae68a419d",
+    "X6a-calibration.csv": "e9146e2e9ea497c7517b6b9404cb00b36709510d92863c02a9de760038521473",
+    "PROTOCOL_SHA256SUMS": "fb6b155dedca2db1b054fc1f2d6874755427c0d9078ceebad245d9fde31f1587",
+    "CLAUDE_TASK_approved.md": "5ed03c31a748b29d995dcf36413ae564476556f0ff83ac9bf3375b6283fe8c47",
+    "approval.json": "617d9bc9db6aebd17ae73cd05cdab1bc1ce570c309fbc36c7130c83503d2002b",
+    "job_plan.json": "48dd74fa0b66f9d8d7e31898ef5689ab87affd25e1615d83aa89668236f6e446",
+    "run.sbatch": "5f9d8ed29d0c20b2a55a12a9e248dc79b1acf05959093c256f99773566228b82"
+  }
+}

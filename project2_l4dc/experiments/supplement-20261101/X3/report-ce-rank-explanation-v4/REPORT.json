@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "scope": "Review03:30 requested adaptive-order explanation",
+  "case_budget_rows": 108,
+  "method_rows": 216,
+  "per_output_rows": 6912,
+  "source_hashes": {
+    "all_records.csv": "7f29b4e9862767b33ca28ca89c9f25111c795a82b1c9ff34fb73d08d121441c8",
+    "system_certificates.csv": "d8f46828b99b940daeea50f342c2dcb9e75f46029d0dfd2ddec20d30c4dbca0b",
+    "fixed_k_envelope.csv": "0111e8ca55474f1a141bb355d46e3a9a16610c88ebf70e38d0ae56edf0def265"
+  },
+  "code_sha256": "6666a77720a23b8c5da0639dc2ed3a46586437f1932de5765dd195b2855ef9c5",
+  "new_training_transitions": 0,
+  "new_learning_runs": 0,
+  "local_provenance": "Standard-library aggregation of delivered Grace files; no new Slurm job",
+  "C5_retuned": false
+}

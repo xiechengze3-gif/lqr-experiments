@@ -1,0 +1,6335 @@
+{
+  "status": "OWN_X9_ACCOUNTING_VERIFIED",
+  "checked_utc": "2026-11-06T05:59:04.090403+00:00",
+  "cap_requested_SU": 50,
+  "cumulative_requested_SU": 47.93333333333334,
+  "Slurm_elapsed_billing_SU": 7.005277777777775,
+  "AMS_settled_walltime_slots_SU": 5.248888888888887,
+  "AMS_displayed_rounded_SU_sum": 5.210000000000003,
+  "AMS_own_settled_rows": 76,
+  "Slurm_allocation_rows": 388,
+  "allocations": [
+    {
+      "job": "20413460_0",
+      "physical_job_id": "20413468",
+      "state": "COMPLETED",
+      "elapsed_seconds": 397,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.11027777777777778
+    },
+    {
+      "job": "20413460_1",
+      "physical_job_id": "20413469",
+      "state": "COMPLETED",
+      "elapsed_seconds": 388,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.10777777777777778
+    },
+    {
+      "job": "20413460_2",
+      "physical_job_id": "20413470",
+      "state": "COMPLETED",
+      "elapsed_seconds": 393,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.10916666666666666
+    },
+    {
+      "job": "20413460_3",
+      "physical_job_id": "20413460",
+      "state": "COMPLETED",
+      "elapsed_seconds": 388,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.10777777777777778
+    },
+    {
+      "job": "20413861_0",
+      "physical_job_id": "20413867",
+      "state": "COMPLETED",
+      "elapsed_seconds": 209,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.058055555555555555
+    },
+    {
+      "job": "20413861_1",
+      "physical_job_id": "20413868",
+      "state": "COMPLETED",
+      "elapsed_seconds": 210,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.058333333333333334
+    },
+    {
+      "job": "20413861_2",
+      "physical_job_id": "20413869",
+      "state": "COMPLETED",
+      "elapsed_seconds": 207,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.0575
+    },
+    {
+      "job": "20413861_3",
+      "physical_job_id": "20413870",
+      "state": "COMPLETED",
+      "elapsed_seconds": 208,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.057777777777777775
+    },
+    {
+      "job": "20413861_4",
+      "physical_job_id": "20413871",
+      "state": "COMPLETED",
+      "elapsed_seconds": 197,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05472222222222222
+    },
+    {
+      "job": "20413861_5",
+      "physical_job_id": "20413872",
+      "state": "COMPLETED",
+      "elapsed_seconds": 196,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05444444444444444
+    },
+    {
+      "job": "20413861_6",
+      "physical_job_id": "20413873",
+      "state": "COMPLETED",
+      "elapsed_seconds": 187,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.051944444444444446
+    },
+    {
+      "job": "20413861_7",
+      "physical_job_id": "20413874",
+      "state": "COMPLETED",
+      "elapsed_seconds": 196,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05444444444444444
+    },
+    {
+      "job": "20413861_8",
+      "physical_job_id": "20413978",
+      "state": "COMPLETED",
+      "elapsed_seconds": 222,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06166666666666667
+    },
+    {
+      "job": "20413861_9",
+      "physical_job_id": "20413986",
+      "state": "COMPLETED",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05638888888888889
+    },
+    {
+      "job": "20413861_10",
+      "physical_job_id": "20413987",
+      "state": "COMPLETED",
+      "elapsed_seconds": 202,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05611111111111111
+    },
+    {
+      "job": "20413861_11",
+      "physical_job_id": "20413988",
+      "state": "COMPLETED",
+      "elapsed_seconds": 186,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.051666666666666666
+    },
+    {
+      "job": "20413861_12",
+      "physical_job_id": "20413989",
+      "state": "COMPLETED",
+      "elapsed_seconds": 187,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.051944444444444446
+    },
+    {
+      "job": "20413861_13",
+      "physical_job_id": "20413990",
+      "state": "COMPLETED",
+      "elapsed_seconds": 186,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.051666666666666666
+    },
+    {
+      "job": "20413861_14",
+      "physical_job_id": "20413991",
+      "state": "COMPLETED",
+      "elapsed_seconds": 170,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04722222222222222
+    },
+    {
+      "job": "20413861_15",
+      "physical_job_id": "20413992",
+      "state": "COMPLETED",
+      "elapsed_seconds": 168,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04666666666666667
+    },
+    {
+      "job": "20413861_16",
+      "physical_job_id": "20414005",
+      "state": "COMPLETED",
+      "elapsed_seconds": 170,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04722222222222222
+    },
+    {
+      "job": "20413861_17",
+      "physical_job_id": "20414006",
+      "state": "COMPLETED",
+      "elapsed_seconds": 159,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04416666666666667
+    },
+    {
+      "job": "20413861_18",
+      "physical_job_id": "20414007",
+      "state": "COMPLETED",
+      "elapsed_seconds": 159,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04416666666666667
+    },
+    {
+      "job": "20413861_19",
+      "physical_job_id": "20414008",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.049166666666666664
+    },
+    {
+      "job": "20413861_20",
+      "physical_job_id": "20414009",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.049166666666666664
+    },
+    {
+      "job": "20413861_21",
+      "physical_job_id": "20414010",
+      "state": "COMPLETED",
+      "elapsed_seconds": 176,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04888888888888889
+    },
+    {
+      "job": "20413861_22",
+      "physical_job_id": "20414011",
+      "state": "COMPLETED",
+      "elapsed_seconds": 179,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04972222222222222
+    },
+    {
+      "job": "20413861_23",
+      "physical_job_id": "20414012",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.049166666666666664
+    },
+    {
+      "job": "20413861_24",
+      "physical_job_id": "20414019",
+      "state": "COMPLETED",
+      "elapsed_seconds": 174,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04833333333333333
+    },
+    {
+      "job": "20413861_25",
+      "physical_job_id": "20414025",
+      "state": "COMPLETED",
+      "elapsed_seconds": 173,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04805555555555555
+    },
+    {
+      "job": "20413861_26",
+      "physical_job_id": "20414026",
+      "state": "COMPLETED",
+      "elapsed_seconds": 173,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04805555555555555
+    },
+    {
+      "job": "20413861_27",
+      "physical_job_id": "20414036",
+      "state": "COMPLETED",
+      "elapsed_seconds": 167,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04638888888888889
+    },
+    {
+      "job": "20413861_28",
+      "physical_job_id": "20414037",
+      "state": "COMPLETED",
+      "elapsed_seconds": 191,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05305555555555556
+    },
+    {
+      "job": "20413861_29",
+      "physical_job_id": "20414038",
+      "state": "COMPLETED",
+      "elapsed_seconds": 193,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05361111111111111
+    },
+    {
+      "job": "20413861_30",
+      "physical_job_id": "20414049",
+      "state": "COMPLETED",
+      "elapsed_seconds": 156,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.043333333333333335
+    },
+    {
+      "job": "20413861_31",
+      "physical_job_id": "20413861",
+      "state": "COMPLETED",
+      "elapsed_seconds": 158,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.04388888888888889
+    },
+    {
+      "job": "20413863_0",
+      "physical_job_id": "20414157",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.08888888888888889
+    },
+    {
+      "job": "20413863_1",
+      "physical_job_id": "20414158",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.08888888888888889
+    },
+    {
+      "job": "20413863_2",
+      "physical_job_id": "20414159",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.08888888888888889
+    },
+    {
+      "job": "20413863_3",
+      "physical_job_id": "20414160",
+      "state": "COMPLETED",
+      "elapsed_seconds": 374,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.10388888888888889
+    },
+    {
+      "job": "20413863_4",
+      "physical_job_id": "20414161",
+      "state": "COMPLETED",
+      "elapsed_seconds": 374,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.10388888888888889
+    },
+    {
+      "job": "20413863_5",
+      "physical_job_id": "20414162",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07833333333333334
+    },
+    {
+      "job": "20413863_6",
+      "physical_job_id": "20414163",
+      "state": "COMPLETED",
+      "elapsed_seconds": 290,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.08055555555555556
+    },
+    {
+      "job": "20413863_7",
+      "physical_job_id": "20414164",
+      "state": "COMPLETED",
+      "elapsed_seconds": 280,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07777777777777778
+    },
+    {
+      "job": "20413863_8",
+      "physical_job_id": "20414284",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06972222222222223
+    },
+    {
+      "job": "20413863_9",
+      "physical_job_id": "20414285",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06916666666666667
+    },
+    {
+      "job": "20413863_10",
+      "physical_job_id": "20414286",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06972222222222223
+    },
+    {
+      "job": "20413863_11",
+      "physical_job_id": "20414289",
+      "state": "COMPLETED",
+      "elapsed_seconds": 228,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06333333333333334
+    },
+    {
+      "job": "20413863_12",
+      "physical_job_id": "20414290",
+      "state": "COMPLETED",
+      "elapsed_seconds": 229,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.0636111111111111
+    },
+    {
+      "job": "20413863_13",
+      "physical_job_id": "20414291",
+      "state": "COMPLETED",
+      "elapsed_seconds": 226,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06277777777777778
+    },
+    {
+      "job": "20413863_14",
+      "physical_job_id": "20414292",
+      "state": "COMPLETED",
+      "elapsed_seconds": 344,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.09555555555555556
+    },
+    {
+      "job": "20413863_15",
+      "physical_job_id": "20414293",
+      "state": "COMPLETED",
+      "elapsed_seconds": 348,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.09666666666666666
+    },
+    {
+      "job": "20413863_16",
+      "physical_job_id": "20414299",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07833333333333334
+    },
+    {
+      "job": "20413863_17",
+      "physical_job_id": "20414301",
+      "state": "COMPLETED",
+      "elapsed_seconds": 268,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07444444444444444
+    },
+    {
+      "job": "20413863_18",
+      "physical_job_id": "20414302",
+      "state": "COMPLETED",
+      "elapsed_seconds": 276,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07666666666666666
+    },
+    {
+      "job": "20413863_19",
+      "physical_job_id": "20414303",
+      "state": "COMPLETED",
+      "elapsed_seconds": 267,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07416666666666667
+    },
+    {
+      "job": "20413863_20",
+      "physical_job_id": "20414304",
+      "state": "COMPLETED",
+      "elapsed_seconds": 267,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07416666666666667
+    },
+    {
+      "job": "20413863_21",
+      "physical_job_id": "20414305",
+      "state": "COMPLETED",
+      "elapsed_seconds": 268,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07444444444444444
+    },
+    {
+      "job": "20413863_22",
+      "physical_job_id": "20414314",
+      "state": "COMPLETED",
+      "elapsed_seconds": 363,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.10083333333333333
+    },
+    {
+      "job": "20413863_23",
+      "physical_job_id": "20414315",
+      "state": "COMPLETED",
+      "elapsed_seconds": 364,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.10111111111111111
+    },
+    {
+      "job": "20413863_24",
+      "physical_job_id": "20414320",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07111111111111111
+    },
+    {
+      "job": "20413863_25",
+      "physical_job_id": "20414321",
+      "state": "COMPLETED",
+      "elapsed_seconds": 259,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07194444444444445
+    },
+    {
+      "job": "20413863_26",
+      "physical_job_id": "20414322",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07111111111111111
+    },
+    {
+      "job": "20413863_27",
+      "physical_job_id": "20414323",
+      "state": "COMPLETED",
+      "elapsed_seconds": 265,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07361111111111111
+    },
+    {
+      "job": "20413863_28",
+      "physical_job_id": "20414324",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07111111111111111
+    },
+    {
+      "job": "20413863_29",
+      "physical_job_id": "20414325",
+      "state": "COMPLETED",
+      "elapsed_seconds": 257,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07138888888888889
+    },
+    {
+      "job": "20413863_30",
+      "physical_job_id": "20414369",
+      "state": "COMPLETED",
+      "elapsed_seconds": 340,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.09444444444444444
+    },
+    {
+      "job": "20413863_31",
+      "physical_job_id": "20413863",
+      "state": "COMPLETED",
+      "elapsed_seconds": 340,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.09444444444444444
+    },
+    {
+      "job": "20413865_0",
+      "physical_job_id": "20414527",
+      "state": "COMPLETED",
+      "elapsed_seconds": 326,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.09055555555555556
+    },
+    {
+      "job": "20413865_1",
+      "physical_job_id": "20414528",
+      "state": "COMPLETED",
+      "elapsed_seconds": 318,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.08833333333333333
+    },
+    {
+      "job": "20413865_2",
+      "physical_job_id": "20414529",
+      "state": "COMPLETED",
+      "elapsed_seconds": 253,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07027777777777777
+    },
+    {
+      "job": "20413865_3",
+      "physical_job_id": "20414530",
+      "state": "COMPLETED",
+      "elapsed_seconds": 259,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07194444444444445
+    },
+    {
+      "job": "20413865_4",
+      "physical_job_id": "20414531",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07
+    },
+    {
+      "job": "20413865_5",
+      "physical_job_id": "20414532",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07
+    },
+    {
+      "job": "20413865_6",
+      "physical_job_id": "20414533",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07
+    },
+    {
+      "job": "20413865_7",
+      "physical_job_id": "20414534",
+      "state": "COMPLETED",
+      "elapsed_seconds": 255,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07083333333333333
+    },
+    {
+      "job": "20413865_8",
+      "physical_job_id": "20414541",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06833333333333333
+    },
+    {
+      "job": "20413865_9",
+      "physical_job_id": "20414542",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06833333333333333
+    },
+    {
+      "job": "20413865_10",
+      "physical_job_id": "20414543",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06833333333333333
+    },
+    {
+      "job": "20413865_11",
+      "physical_job_id": "20414544",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06833333333333333
+    },
+    {
+      "job": "20413865_12",
+      "physical_job_id": "20414545",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06972222222222223
+    },
+    {
+      "job": "20413865_13",
+      "physical_job_id": "20414546",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06833333333333333
+    },
+    {
+      "job": "20413865_14",
+      "physical_job_id": "20414548",
+      "state": "COMPLETED",
+      "elapsed_seconds": 339,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.09416666666666666
+    },
+    {
+      "job": "20413865_15",
+      "physical_job_id": "20414549",
+      "state": "COMPLETED",
+      "elapsed_seconds": 339,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.09416666666666666
+    },
+    {
+      "job": "20413865_16",
+      "physical_job_id": "20414556",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07833333333333334
+    },
+    {
+      "job": "20413865_17",
+      "physical_job_id": "20414557",
+      "state": "COMPLETED",
+      "elapsed_seconds": 248,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06888888888888889
+    },
+    {
+      "job": "20413865_18",
+      "physical_job_id": "20414558",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06833333333333333
+    },
+    {
+      "job": "20413865_19",
+      "physical_job_id": "20414559",
+      "state": "COMPLETED",
+      "elapsed_seconds": 247,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06861111111111111
+    },
+    {
+      "job": "20413865_20",
+      "physical_job_id": "20414560",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06833333333333333
+    },
+    {
+      "job": "20413865_21",
+      "physical_job_id": "20414561",
+      "state": "COMPLETED",
+      "elapsed_seconds": 247,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06861111111111111
+    },
+    {
+      "job": "20413865_22",
+      "physical_job_id": "20414587",
+      "state": "COMPLETED",
+      "elapsed_seconds": 302,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.08388888888888889
+    },
+    {
+      "job": "20413865_23",
+      "physical_job_id": "20414588",
+      "state": "COMPLETED",
+      "elapsed_seconds": 302,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.08388888888888889
+    },
+    {
+      "job": "20413865_24",
+      "physical_job_id": "20414597",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06916666666666667
+    },
+    {
+      "job": "20413865_25",
+      "physical_job_id": "20414598",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06916666666666667
+    },
+    {
+      "job": "20413865_26",
+      "physical_job_id": "20414599",
+      "state": "COMPLETED",
+      "elapsed_seconds": 250,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06944444444444445
+    },
+    {
+      "job": "20413865_27",
+      "physical_job_id": "20414600",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06916666666666667
+    },
+    {
+      "job": "20413865_28",
+      "physical_job_id": "20414601",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.06916666666666667
+    },
+    {
+      "job": "20413865_29",
+      "physical_job_id": "20414602",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07833333333333334
+    },
+    {
+      "job": "20413865_30",
+      "physical_job_id": "20414609",
+      "state": "RUNNING",
+      "elapsed_seconds": 258,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07166666666666667
+    },
+    {
+      "job": "20413865_31",
+      "physical_job_id": "20413865",
+      "state": "RUNNING",
+      "elapsed_seconds": 258,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.07166666666666667
+    },
+    {
+      "job": "20413876_0",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_1",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_2",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_3",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_4",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_5",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_6",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_7",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_8",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_9",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_10",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_11",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_12",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_13",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_14",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_15",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_16",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_17",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_18",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_19",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_20",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_21",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_22",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_23",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_24",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_25",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_26",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_27",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_28",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_29",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_30",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413876_31",
+      "physical_job_id": "20413876",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_0",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_1",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_2",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_3",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_4",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_5",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_6",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_7",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_8",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_9",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_10",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_11",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_12",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_13",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_14",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_15",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_16",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_17",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_18",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_19",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_20",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_21",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_22",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_23",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_24",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_25",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_26",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_27",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_28",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_29",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_30",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413879_31",
+      "physical_job_id": "20413879",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_0",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_1",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_2",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_3",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_4",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_5",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_6",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_7",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_8",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_9",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_10",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_11",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_12",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_13",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_14",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_15",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_16",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_17",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_18",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_19",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_20",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_21",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_22",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_23",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_24",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_25",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_26",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_27",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_28",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_29",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_30",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413881_31",
+      "physical_job_id": "20413881",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_0",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_1",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_2",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_3",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_4",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_5",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_6",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_7",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_8",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_9",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_10",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_11",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_12",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_13",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_14",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_15",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_16",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_17",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_18",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_19",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_20",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_21",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_22",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_23",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_24",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_25",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_26",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_27",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_28",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_29",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_30",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413883_31",
+      "physical_job_id": "20413883",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_0",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_1",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_2",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_3",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_4",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_5",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_6",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_7",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_8",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_9",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_10",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_11",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_12",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_13",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_14",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_15",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_16",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_17",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_18",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_19",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_20",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_21",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_22",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_23",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_24",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_25",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_26",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_27",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_28",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_29",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_30",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413885_31",
+      "physical_job_id": "20413885",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_0",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_1",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_2",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_3",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_4",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_5",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_6",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_7",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_8",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_9",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_10",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_11",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_12",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_13",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_14",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_15",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_16",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_17",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_18",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_19",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_20",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_21",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_22",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_23",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_24",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_25",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_26",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_27",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_28",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_29",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_30",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413887_31",
+      "physical_job_id": "20413887",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_0",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_1",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_2",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_3",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_4",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_5",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_6",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_7",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_8",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_9",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_10",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_11",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_12",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_13",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_14",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_15",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_16",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_17",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_18",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_19",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_20",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_21",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_22",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_23",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_24",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_25",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_26",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_27",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_28",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_29",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_30",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413889_31",
+      "physical_job_id": "20413889",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_0",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_1",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_2",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_3",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_4",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_5",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_6",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_7",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_8",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_9",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_10",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_11",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_12",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_13",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_14",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_15",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_16",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_17",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_18",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_19",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_20",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_21",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_22",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_23",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_24",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_25",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_26",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_27",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_28",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_29",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_30",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413891_31",
+      "physical_job_id": "20413891",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_0",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_1",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_2",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_3",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_4",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_5",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_6",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_7",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_8",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_9",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_10",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_11",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_12",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_13",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_14",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_15",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_16",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_17",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_18",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_19",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_20",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_21",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_22",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_23",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_24",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_25",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_26",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_27",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_28",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_29",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_30",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20413893_31",
+      "physical_job_id": "20413893",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    }
+  ],
+  "steps": [
+    {
+      "job": "20413460_0.batch",
+      "physical_job_id": "20413468.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 397,
+      "cpus": 1,
+      "max_RSS": "130332K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413460_0.extern",
+      "physical_job_id": "20413468.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 397,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413460_1.batch",
+      "physical_job_id": "20413469.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 388,
+      "cpus": 1,
+      "max_RSS": "130104K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413460_1.extern",
+      "physical_job_id": "20413469.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 388,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413460_2.batch",
+      "physical_job_id": "20413470.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 393,
+      "cpus": 1,
+      "max_RSS": "130148K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413460_2.extern",
+      "physical_job_id": "20413470.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 393,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413460_3.batch",
+      "physical_job_id": "20413460.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 388,
+      "cpus": 1,
+      "max_RSS": "130140K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413460_3.extern",
+      "physical_job_id": "20413460.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 388,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_0.batch",
+      "physical_job_id": "20413867.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 209,
+      "cpus": 1,
+      "max_RSS": "132376K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_0.extern",
+      "physical_job_id": "20413867.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 209,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_1.batch",
+      "physical_job_id": "20413868.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 210,
+      "cpus": 1,
+      "max_RSS": "132208K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_1.extern",
+      "physical_job_id": "20413868.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 210,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_2.batch",
+      "physical_job_id": "20413869.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 207,
+      "cpus": 1,
+      "max_RSS": "130504K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_2.extern",
+      "physical_job_id": "20413869.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 207,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_3.batch",
+      "physical_job_id": "20413870.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 208,
+      "cpus": 1,
+      "max_RSS": "130228K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_3.extern",
+      "physical_job_id": "20413870.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 208,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_4.batch",
+      "physical_job_id": "20413871.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 197,
+      "cpus": 1,
+      "max_RSS": "132376K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_4.extern",
+      "physical_job_id": "20413871.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 197,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_5.batch",
+      "physical_job_id": "20413872.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 196,
+      "cpus": 1,
+      "max_RSS": "131060K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_5.extern",
+      "physical_job_id": "20413872.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 196,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_6.batch",
+      "physical_job_id": "20413873.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 187,
+      "cpus": 1,
+      "max_RSS": "130000K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_6.extern",
+      "physical_job_id": "20413873.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 187,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_7.batch",
+      "physical_job_id": "20413874.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 196,
+      "cpus": 1,
+      "max_RSS": "130172K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_7.extern",
+      "physical_job_id": "20413874.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 196,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_8.batch",
+      "physical_job_id": "20413978.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 222,
+      "cpus": 1,
+      "max_RSS": "115608K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_8.extern",
+      "physical_job_id": "20413978.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 222,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_9.batch",
+      "physical_job_id": "20413986.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "117528K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_9.extern",
+      "physical_job_id": "20413986.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_10.batch",
+      "physical_job_id": "20413987.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 202,
+      "cpus": 1,
+      "max_RSS": "115540K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_10.extern",
+      "physical_job_id": "20413987.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 202,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_11.batch",
+      "physical_job_id": "20413988.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 186,
+      "cpus": 1,
+      "max_RSS": "114752K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_11.extern",
+      "physical_job_id": "20413988.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 186,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_12.batch",
+      "physical_job_id": "20413989.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 187,
+      "cpus": 1,
+      "max_RSS": "114720K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_12.extern",
+      "physical_job_id": "20413989.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 187,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_13.batch",
+      "physical_job_id": "20413990.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 186,
+      "cpus": 1,
+      "max_RSS": "114880K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_13.extern",
+      "physical_job_id": "20413990.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 186,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_14.batch",
+      "physical_job_id": "20413991.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 170,
+      "cpus": 1,
+      "max_RSS": "117588K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_14.extern",
+      "physical_job_id": "20413991.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 170,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_15.batch",
+      "physical_job_id": "20413992.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 168,
+      "cpus": 1,
+      "max_RSS": "115560K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_15.extern",
+      "physical_job_id": "20413992.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 168,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_16.batch",
+      "physical_job_id": "20414005.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 170,
+      "cpus": 1,
+      "max_RSS": "115392K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_16.extern",
+      "physical_job_id": "20414005.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 170,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_17.batch",
+      "physical_job_id": "20414006.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 159,
+      "cpus": 1,
+      "max_RSS": "117532K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_17.extern",
+      "physical_job_id": "20414006.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 159,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_18.batch",
+      "physical_job_id": "20414007.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 159,
+      "cpus": 1,
+      "max_RSS": "115704K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_18.extern",
+      "physical_job_id": "20414007.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 159,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_19.batch",
+      "physical_job_id": "20414008.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "115560K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_19.extern",
+      "physical_job_id": "20414008.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_20.batch",
+      "physical_job_id": "20414009.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "117468K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_20.extern",
+      "physical_job_id": "20414009.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_21.batch",
+      "physical_job_id": "20414010.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 176,
+      "cpus": 1,
+      "max_RSS": "115340K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_21.extern",
+      "physical_job_id": "20414010.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 176,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_22.batch",
+      "physical_job_id": "20414011.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 179,
+      "cpus": 1,
+      "max_RSS": "115428K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_22.extern",
+      "physical_job_id": "20414011.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 179,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_23.batch",
+      "physical_job_id": "20414012.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "115588K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_23.extern",
+      "physical_job_id": "20414012.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 177,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_24.batch",
+      "physical_job_id": "20414019.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 174,
+      "cpus": 1,
+      "max_RSS": "115472K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_24.extern",
+      "physical_job_id": "20414019.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 174,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_25.batch",
+      "physical_job_id": "20414025.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 173,
+      "cpus": 1,
+      "max_RSS": "115540K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_25.extern",
+      "physical_job_id": "20414025.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 173,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_26.batch",
+      "physical_job_id": "20414026.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 173,
+      "cpus": 1,
+      "max_RSS": "115432K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_26.extern",
+      "physical_job_id": "20414026.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 173,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_27.batch",
+      "physical_job_id": "20414036.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 167,
+      "cpus": 1,
+      "max_RSS": "111252K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_27.extern",
+      "physical_job_id": "20414036.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 167,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_28.batch",
+      "physical_job_id": "20414037.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 191,
+      "cpus": 1,
+      "max_RSS": "115504K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_28.extern",
+      "physical_job_id": "20414037.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 191,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_29.batch",
+      "physical_job_id": "20414038.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 193,
+      "cpus": 1,
+      "max_RSS": "117584K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_29.extern",
+      "physical_job_id": "20414038.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 193,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_30.batch",
+      "physical_job_id": "20414049.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 156,
+      "cpus": 1,
+      "max_RSS": "115460K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_30.extern",
+      "physical_job_id": "20414049.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 156,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_31.batch",
+      "physical_job_id": "20413861.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 158,
+      "cpus": 1,
+      "max_RSS": "115604K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413861_31.extern",
+      "physical_job_id": "20413861.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 159,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_0.batch",
+      "physical_job_id": "20414157.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "115232K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_0.extern",
+      "physical_job_id": "20414157.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_1.batch",
+      "physical_job_id": "20414158.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "115248K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_1.extern",
+      "physical_job_id": "20414158.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_2.batch",
+      "physical_job_id": "20414159.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "115276K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_2.extern",
+      "physical_job_id": "20414159.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 320,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_3.batch",
+      "physical_job_id": "20414160.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 374,
+      "cpus": 1,
+      "max_RSS": "114856K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_3.extern",
+      "physical_job_id": "20414160.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 374,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_4.batch",
+      "physical_job_id": "20414161.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 374,
+      "cpus": 1,
+      "max_RSS": "116956K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_4.extern",
+      "physical_job_id": "20414161.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 374,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_5.batch",
+      "physical_job_id": "20414162.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "114708K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_5.extern",
+      "physical_job_id": "20414162.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_6.batch",
+      "physical_job_id": "20414163.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 290,
+      "cpus": 1,
+      "max_RSS": "116608K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_6.extern",
+      "physical_job_id": "20414163.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 290,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_7.batch",
+      "physical_job_id": "20414164.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 280,
+      "cpus": 1,
+      "max_RSS": "114M",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_7.extern",
+      "physical_job_id": "20414164.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 280,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_8.batch",
+      "physical_job_id": "20414284.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "114560K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_8.extern",
+      "physical_job_id": "20414284.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_9.batch",
+      "physical_job_id": "20414285.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "114532K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_9.extern",
+      "physical_job_id": "20414285.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_10.batch",
+      "physical_job_id": "20414286.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "114372K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_10.extern",
+      "physical_job_id": "20414286.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_11.batch",
+      "physical_job_id": "20414289.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 228,
+      "cpus": 1,
+      "max_RSS": "117172K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_11.extern",
+      "physical_job_id": "20414289.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 228,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_12.batch",
+      "physical_job_id": "20414290.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 229,
+      "cpus": 1,
+      "max_RSS": "115084K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_12.extern",
+      "physical_job_id": "20414290.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 229,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_13.batch",
+      "physical_job_id": "20414291.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 226,
+      "cpus": 1,
+      "max_RSS": "115040K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_13.extern",
+      "physical_job_id": "20414291.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 226,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_14.batch",
+      "physical_job_id": "20414292.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 344,
+      "cpus": 1,
+      "max_RSS": "116744K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_14.extern",
+      "physical_job_id": "20414292.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 344,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_15.batch",
+      "physical_job_id": "20414293.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 348,
+      "cpus": 1,
+      "max_RSS": "116668K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_15.extern",
+      "physical_job_id": "20414293.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 348,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_16.batch",
+      "physical_job_id": "20414299.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "117140K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_16.extern",
+      "physical_job_id": "20414299.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_17.batch",
+      "physical_job_id": "20414301.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 268,
+      "cpus": 1,
+      "max_RSS": "116968K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_17.extern",
+      "physical_job_id": "20414301.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 268,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_18.batch",
+      "physical_job_id": "20414302.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 276,
+      "cpus": 1,
+      "max_RSS": "115112K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_18.extern",
+      "physical_job_id": "20414302.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 276,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_19.batch",
+      "physical_job_id": "20414303.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 267,
+      "cpus": 1,
+      "max_RSS": "117180K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_19.extern",
+      "physical_job_id": "20414303.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 267,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_20.batch",
+      "physical_job_id": "20414304.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 267,
+      "cpus": 1,
+      "max_RSS": "115040K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_20.extern",
+      "physical_job_id": "20414304.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 267,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_21.batch",
+      "physical_job_id": "20414305.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 268,
+      "cpus": 1,
+      "max_RSS": "115140K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_21.extern",
+      "physical_job_id": "20414305.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 268,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_22.batch",
+      "physical_job_id": "20414314.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 363,
+      "cpus": 1,
+      "max_RSS": "115216K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_22.extern",
+      "physical_job_id": "20414314.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 364,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_23.batch",
+      "physical_job_id": "20414315.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 364,
+      "cpus": 1,
+      "max_RSS": "115196K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_23.extern",
+      "physical_job_id": "20414315.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 364,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_24.batch",
+      "physical_job_id": "20414320.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "116784K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_24.extern",
+      "physical_job_id": "20414320.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_25.batch",
+      "physical_job_id": "20414321.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 259,
+      "cpus": 1,
+      "max_RSS": "114836K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_25.extern",
+      "physical_job_id": "20414321.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 259,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_26.batch",
+      "physical_job_id": "20414322.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "114928K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_26.extern",
+      "physical_job_id": "20414322.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_27.batch",
+      "physical_job_id": "20414323.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 265,
+      "cpus": 1,
+      "max_RSS": "114636K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_27.extern",
+      "physical_job_id": "20414323.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 265,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_28.batch",
+      "physical_job_id": "20414324.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "114820K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_28.extern",
+      "physical_job_id": "20414324.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 256,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_29.batch",
+      "physical_job_id": "20414325.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 257,
+      "cpus": 1,
+      "max_RSS": "114868K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_29.extern",
+      "physical_job_id": "20414325.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 257,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_30.batch",
+      "physical_job_id": "20414369.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 340,
+      "cpus": 1,
+      "max_RSS": "115052K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_30.extern",
+      "physical_job_id": "20414369.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 340,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_31.batch",
+      "physical_job_id": "20413863.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 340,
+      "cpus": 1,
+      "max_RSS": "115172K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413863_31.extern",
+      "physical_job_id": "20413863.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 340,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_0.batch",
+      "physical_job_id": "20414527.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 326,
+      "cpus": 1,
+      "max_RSS": "116836K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_0.extern",
+      "physical_job_id": "20414527.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 326,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_1.batch",
+      "physical_job_id": "20414528.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 318,
+      "cpus": 1,
+      "max_RSS": "116884K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_1.extern",
+      "physical_job_id": "20414528.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 318,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_2.batch",
+      "physical_job_id": "20414529.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 253,
+      "cpus": 1,
+      "max_RSS": "115112K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_2.extern",
+      "physical_job_id": "20414529.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 253,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_3.batch",
+      "physical_job_id": "20414530.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 259,
+      "cpus": 1,
+      "max_RSS": "115060K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_3.extern",
+      "physical_job_id": "20414530.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 259,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_4.batch",
+      "physical_job_id": "20414531.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "115176K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_4.extern",
+      "physical_job_id": "20414531.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_5.batch",
+      "physical_job_id": "20414532.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "114932K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_5.extern",
+      "physical_job_id": "20414532.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_6.batch",
+      "physical_job_id": "20414533.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "115084K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_6.extern",
+      "physical_job_id": "20414533.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 252,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_7.batch",
+      "physical_job_id": "20414534.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 255,
+      "cpus": 1,
+      "max_RSS": "115168K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_7.extern",
+      "physical_job_id": "20414534.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 255,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_8.batch",
+      "physical_job_id": "20414541.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "114976K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_8.extern",
+      "physical_job_id": "20414541.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_9.batch",
+      "physical_job_id": "20414542.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "115240K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_9.extern",
+      "physical_job_id": "20414542.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_10.batch",
+      "physical_job_id": "20414543.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "117144K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_10.extern",
+      "physical_job_id": "20414543.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_11.batch",
+      "physical_job_id": "20414544.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "115012K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_11.extern",
+      "physical_job_id": "20414544.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_12.batch",
+      "physical_job_id": "20414545.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "116992K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_12.extern",
+      "physical_job_id": "20414545.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 251,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_13.batch",
+      "physical_job_id": "20414546.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "115072K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_13.extern",
+      "physical_job_id": "20414546.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_14.batch",
+      "physical_job_id": "20414548.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 339,
+      "cpus": 1,
+      "max_RSS": "114572K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_14.extern",
+      "physical_job_id": "20414548.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 339,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_15.batch",
+      "physical_job_id": "20414549.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 339,
+      "cpus": 1,
+      "max_RSS": "114736K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_15.extern",
+      "physical_job_id": "20414549.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 339,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_16.batch",
+      "physical_job_id": "20414556.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "114892K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_16.extern",
+      "physical_job_id": "20414556.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_17.batch",
+      "physical_job_id": "20414557.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 248,
+      "cpus": 1,
+      "max_RSS": "115120K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_17.extern",
+      "physical_job_id": "20414557.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 248,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_18.batch",
+      "physical_job_id": "20414558.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "117076K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_18.extern",
+      "physical_job_id": "20414558.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_19.batch",
+      "physical_job_id": "20414559.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 247,
+      "cpus": 1,
+      "max_RSS": "112.50M",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_19.extern",
+      "physical_job_id": "20414559.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 247,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_20.batch",
+      "physical_job_id": "20414560.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "117128K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_20.extern",
+      "physical_job_id": "20414560.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 246,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_21.batch",
+      "physical_job_id": "20414561.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 247,
+      "cpus": 1,
+      "max_RSS": "115036K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_21.extern",
+      "physical_job_id": "20414561.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 247,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_22.batch",
+      "physical_job_id": "20414587.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 302,
+      "cpus": 1,
+      "max_RSS": "114836K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_22.extern",
+      "physical_job_id": "20414587.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 302,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_23.batch",
+      "physical_job_id": "20414588.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 302,
+      "cpus": 1,
+      "max_RSS": "116972K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_23.extern",
+      "physical_job_id": "20414588.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 302,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_24.batch",
+      "physical_job_id": "20414597.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "117196K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_24.extern",
+      "physical_job_id": "20414597.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_25.batch",
+      "physical_job_id": "20414598.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "115112K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_25.extern",
+      "physical_job_id": "20414598.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_26.batch",
+      "physical_job_id": "20414599.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 250,
+      "cpus": 1,
+      "max_RSS": "115040K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_26.extern",
+      "physical_job_id": "20414599.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 250,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_27.batch",
+      "physical_job_id": "20414600.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "115136K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_27.extern",
+      "physical_job_id": "20414600.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_28.batch",
+      "physical_job_id": "20414601.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "115132K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_28.extern",
+      "physical_job_id": "20414601.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 249,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_29.batch",
+      "physical_job_id": "20414602.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "115028K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_29.extern",
+      "physical_job_id": "20414602.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 282,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_30.batch",
+      "physical_job_id": "20414609.batch",
+      "state": "RUNNING",
+      "elapsed_seconds": 258,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_30.extern",
+      "physical_job_id": "20414609.extern",
+      "state": "RUNNING",
+      "elapsed_seconds": 258,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_31.batch",
+      "physical_job_id": "20413865.batch",
+      "state": "RUNNING",
+      "elapsed_seconds": 258,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20413865_31.extern",
+      "physical_job_id": "20413865.extern",
+      "state": "RUNNING",
+      "elapsed_seconds": 258,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    }
+  ],
+  "settled_records": [
+    {
+      "job": "20413460",
+      "array_index": "3",
+      "elapsed_seconds": 388,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.11
+    },
+    {
+      "job": "20413468",
+      "array_index": "0",
+      "elapsed_seconds": 397,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.11
+    },
+    {
+      "job": "20413469",
+      "array_index": "1",
+      "elapsed_seconds": 388,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.11
+    },
+    {
+      "job": "20413470",
+      "array_index": "2",
+      "elapsed_seconds": 393,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.11
+    },
+    {
+      "job": "20413861",
+      "array_index": "31",
+      "elapsed_seconds": 158,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.04
+    },
+    {
+      "job": "20413863",
+      "array_index": "31",
+      "elapsed_seconds": 340,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.09
+    },
+    {
+      "job": "20413867",
+      "array_index": "0",
+      "elapsed_seconds": 209,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20413868",
+      "array_index": "1",
+      "elapsed_seconds": 210,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20413869",
+      "array_index": "2",
+      "elapsed_seconds": 207,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20413870",
+      "array_index": "3",
+      "elapsed_seconds": 208,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20413871",
+      "array_index": "4",
+      "elapsed_seconds": 197,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20413872",
+      "array_index": "5",
+      "elapsed_seconds": 196,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20413873",
+      "array_index": "6",
+      "elapsed_seconds": 187,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20413874",
+      "array_index": "7",
+      "elapsed_seconds": 196,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20413978",
+      "array_index": "8",
+      "elapsed_seconds": 222,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20413986",
+      "array_index": "9",
+      "elapsed_seconds": 203,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20413987",
+      "array_index": "10",
+      "elapsed_seconds": 202,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20413988",
+      "array_index": "11",
+      "elapsed_seconds": 186,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20413989",
+      "array_index": "12",
+      "elapsed_seconds": 187,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20413990",
+      "array_index": "13",
+      "elapsed_seconds": 186,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20413991",
+      "array_index": "14",
+      "elapsed_seconds": 170,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20413992",
+      "array_index": "15",
+      "elapsed_seconds": 168,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414005",
+      "array_index": "16",
+      "elapsed_seconds": 170,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414006",
+      "array_index": "17",
+      "elapsed_seconds": 159,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.04
+    },
+    {
+      "job": "20414007",
+      "array_index": "18",
+      "elapsed_seconds": 159,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.04
+    },
+    {
+      "job": "20414008",
+      "array_index": "19",
+      "elapsed_seconds": 177,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414009",
+      "array_index": "20",
+      "elapsed_seconds": 177,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414010",
+      "array_index": "21",
+      "elapsed_seconds": 176,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414011",
+      "array_index": "22",
+      "elapsed_seconds": 179,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414012",
+      "array_index": "23",
+      "elapsed_seconds": 177,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414019",
+      "array_index": "24",
+      "elapsed_seconds": 174,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414025",
+      "array_index": "25",
+      "elapsed_seconds": 173,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414026",
+      "array_index": "26",
+      "elapsed_seconds": 173,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414036",
+      "array_index": "27",
+      "elapsed_seconds": 167,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414037",
+      "array_index": "28",
+      "elapsed_seconds": 191,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414038",
+      "array_index": "29",
+      "elapsed_seconds": 193,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.05
+    },
+    {
+      "job": "20414049",
+      "array_index": "30",
+      "elapsed_seconds": 156,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.04
+    },
+    {
+      "job": "20414157",
+      "array_index": "0",
+      "elapsed_seconds": 320,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.09
+    },
+    {
+      "job": "20414158",
+      "array_index": "1",
+      "elapsed_seconds": 320,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.09
+    },
+    {
+      "job": "20414159",
+      "array_index": "2",
+      "elapsed_seconds": 320,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.09
+    },
+    {
+      "job": "20414160",
+      "array_index": "3",
+      "elapsed_seconds": 374,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.1
+    },
+    {
+      "job": "20414161",
+      "array_index": "4",
+      "elapsed_seconds": 374,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.1
+    },
+    {
+      "job": "20414162",
+      "array_index": "5",
+      "elapsed_seconds": 282,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.08
+    },
+    {
+      "job": "20414163",
+      "array_index": "6",
+      "elapsed_seconds": 290,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.08
+    },
+    {
+      "job": "20414164",
+      "array_index": "7",
+      "elapsed_seconds": 280,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.08
+    },
+    {
+      "job": "20414284",
+      "array_index": "8",
+      "elapsed_seconds": 251,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414285",
+      "array_index": "9",
+      "elapsed_seconds": 249,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414286",
+      "array_index": "10",
+      "elapsed_seconds": 251,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414289",
+      "array_index": "11",
+      "elapsed_seconds": 228,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20414290",
+      "array_index": "12",
+      "elapsed_seconds": 229,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20414291",
+      "array_index": "13",
+      "elapsed_seconds": 226,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.06
+    },
+    {
+      "job": "20414292",
+      "array_index": "14",
+      "elapsed_seconds": 344,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.1
+    },
+    {
+      "job": "20414293",
+      "array_index": "15",
+      "elapsed_seconds": 348,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.1
+    },
+    {
+      "job": "20414299",
+      "array_index": "16",
+      "elapsed_seconds": 282,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.08
+    },
+    {
+      "job": "20414301",
+      "array_index": "17",
+      "elapsed_seconds": 268,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414302",
+      "array_index": "18",
+      "elapsed_seconds": 276,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.08
+    },
+    {
+      "job": "20414303",
+      "array_index": "19",
+      "elapsed_seconds": 267,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414304",
+      "array_index": "20",
+      "elapsed_seconds": 267,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414305",
+      "array_index": "21",
+      "elapsed_seconds": 268,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414314",
+      "array_index": "22",
+      "elapsed_seconds": 363,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.1
+    },
+    {
+      "job": "20414315",
+      "array_index": "23",
+      "elapsed_seconds": 364,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.1
+    },
+    {
+      "job": "20414320",
+      "array_index": "24",
+      "elapsed_seconds": 256,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414321",
+      "array_index": "25",
+      "elapsed_seconds": 259,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414322",
+      "array_index": "26",
+      "elapsed_seconds": 256,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414323",
+      "array_index": "27",
+      "elapsed_seconds": 265,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414324",
+      "array_index": "28",
+      "elapsed_seconds": 256,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414325",
+      "array_index": "29",
+      "elapsed_seconds": 257,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414369",
+      "array_index": "30",
+      "elapsed_seconds": 340,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.09
+    },
+    {
+      "job": "20414527",
+      "array_index": "0",
+      "elapsed_seconds": 326,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.09
+    },
+    {
+      "job": "20414528",
+      "array_index": "1",
+      "elapsed_seconds": 318,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.09
+    },
+    {
+      "job": "20414529",
+      "array_index": "2",
+      "elapsed_seconds": 253,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414530",
+      "array_index": "3",
+      "elapsed_seconds": 259,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414531",
+      "array_index": "4",
+      "elapsed_seconds": 252,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414532",
+      "array_index": "5",
+      "elapsed_seconds": 252,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414533",
+      "array_index": "6",
+      "elapsed_seconds": 252,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    },
+    {
+      "job": "20414534",
+      "array_index": "7",
+      "elapsed_seconds": 255,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.07
+    }
+  ],
+  "unknown_Slurm_billing_jobs": [],
+  "unparsed_own_AMS_rows": [],
+  "account_summary_line": "|132685389143|  2027|        Y|    20000.00|          15640.95|     4359.05|Li, Yan             |",
+  "source_sha256": "86cb1357dbe051e1009f98bb56baf56588553deac51d5e2fa1be9023f8f1275a",
+  "note": "Slurm and AMS are overlapping views, never added. Used & Pending includes reservations; current account balance is not X9 spend. Only own-X9 records retained.",
+  "snapshot_path": "/scratch/user/changze/lqr_experiments/results/x9-20261106/budget/accounting-1793944744091022914.json"
+}

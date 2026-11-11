@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x9-20261106\\finalize_report_delivery.py",
+      "sha256": "1d0f074082a72c41ad562032c43f55b262bd3fe8c194fd299f636c7be6e22460",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\finalize_ce_report.py",
+      "sha256": "a89992a58dc92caef7ca67a8f659160e0a82ba27818968ea05b8b45ab5a0b609",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\render_ce_report.py",
+      "sha256": "5bfab498c104460c15f4505a130a4221fd563239a9c306cc43d2fba3d6b39ad6",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    }
+  ],
+  "numerical_imports": false,
+  "new_jobs": 0,
+  "SU": 0
+}

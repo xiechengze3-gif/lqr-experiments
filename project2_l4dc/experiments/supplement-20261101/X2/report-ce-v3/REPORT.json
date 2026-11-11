@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "scope": "Review03:00 method x N x k failure breakdown",
+  "source_statistics_sha256": "8d8581bd74a0d5151c4b5d2363130a643dbbaefd4831ca2dd6858e421bafe28f",
+  "total_failed": 1100,
+  "total_outputs": 9408,
+  "diagnostic_k0_failed": 0,
+  "learning_failed": 1100,
+  "new_learning_runs": 0,
+  "provenance": "Local Windows standard-library aggregation of delivered Grace CSV; no scientific simulation or invented Slurm ID"
+}

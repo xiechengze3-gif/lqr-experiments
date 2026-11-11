@@ -1,0 +1,10 @@
+{
+  "status": "VISUAL_QA_PASS",
+  "note": "All three final PNGs were actually inspected through their SHA-identical quick-delivery copies. Titles, axes, units and nine transition ticks are readable; legends and failure-count captions do not overlap. Infinite medians are explicit triangles and infinity marks, full32 failure counts are retained at every rung. Absolute and relative panels are correctly distinguished.",
+  "images": {
+    "actor_figures/all_dimensions_gap.png": "821c1bc4b21d45d0a5571040ce0ac14db79e78dc18ceae174c5f7552f5b88c0e",
+    "actor_figures/all_dimensions_relative_gap.png": "214e69ae89e30baa5d5728e22e47de09ce7fc015d2eb2addf3479e474dc3ca3f",
+    "actor_figures/n72_main_gap.png": "484caf417e5416dd4c790b40a29eefcd9950365b9d1c3b06dc7f81e6fe11dc94"
+  },
+  "no_statistics_recomputed": true
+}

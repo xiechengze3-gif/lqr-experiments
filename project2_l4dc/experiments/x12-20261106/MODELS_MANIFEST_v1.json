@@ -1,0 +1,19 @@
+{
+  "status": "NEW_RELEASE_FROZEN_NOT_SUBMITTED",
+  "stage": "models",
+  "name": "x12-20261106-models-v1",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x12-20261106\\x12-20261106-models-v1.tar.gz",
+  "archive_sha256": "04409a701719283e4fac8226f99113f29eac801c7a39d6befbc5fea2c33674af",
+  "source_manifest_sha256": "4839ba5c3087bc9f9f7ae6b38177fe10746d2bffa6fdf10bc8e828dd6996a0b9",
+  "files": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "protocol.json": "2c4ea385999e7017197b6e7e04cb18b3c809942360e59a2665e7bedd3374d5e5",
+    "gate.json": "2abe6a75d40109617c512a4faa15456d706c4a6ea6dadadcd1437d6b0dff6ddf",
+    "model_registry_driver.py": "aa712a8fe8bb22a477af37d208e648fdc19bed40764e6330dc84327e58cb7887",
+    "remote_followon_v1.py": "692affee6572a0e1cbd10a76866ed113bb8bb8d55ce0d12dc16e1adc5513d6fc",
+    "models.sbatch": "a01dfb5ede9801f2730f56b78a304bd393a8e5e077e8154f8a7131c8d57cdd8a",
+    "CLAUDE_TASK_authorized.md": "7abc1d31d3c9afaf1407bf2d7e8777058bb10f374a53f6824b71ac2b29500cbf"
+  },
+  "review_sha256": "7abc1d31d3c9afaf1407bf2d7e8777058bb10f374a53f6824b71ac2b29500cbf"
+}

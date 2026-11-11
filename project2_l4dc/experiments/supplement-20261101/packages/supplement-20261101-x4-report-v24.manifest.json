@@ -1,0 +1,22 @@
+{
+  "name": "supplement-20261101-x4-report-v24",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x4-report-v24.tar.gz",
+  "archive_sha256": "06ca1a72afeccd48579d11ebc4331ffb7ab58ce76cf28040ced37b04e4d494c9",
+  "plan": {
+    "id": "supplement-20261101-x4-report-v24",
+    "stage": "REPORT",
+    "experiment": "X4",
+    "scope": "FIXED_POLICY_DIAGNOSTIC_REPORT",
+    "wall_minutes": 5,
+    "bundles": 1
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "report_x4.py": "8c5b700946acac21f24fbfbc1aa626a24abda2b56b801cc3435b5ed56f00c7d5",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "actor_report.py": "55b04ff16d812ec9b08ef296d0ed392fca9f6ca34f961cfe8f826e12a8358fc6",
+    "job_plan.json": "bb6c917e01e18d2a4b6822e5973780ca02fe9a21e8aab7d19f09c4afe92abaa5",
+    "slurm/run.sbatch": "2170d75313538ccb472c7054508e2dfc0e0359cd434dda50c62541f8a03b05d9"
+  }
+}

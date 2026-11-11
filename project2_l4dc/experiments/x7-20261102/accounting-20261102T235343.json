@@ -1,0 +1,1604 @@
+{
+  "status": "BILLING_VERIFIED",
+  "checked_utc": "2026-11-02T23:53:43.817071+00:00",
+  "cap_requested_SU": 15,
+  "cumulative_requested_SU": 4.6000000000000005,
+  "slurm_elapsed_billing_SU": 0.37277777777777765,
+  "ams_settled_walltime_slots_SU": 0.33666666666666656,
+  "ams_displayed_rounded_SU_sum": 0.27999999999999997,
+  "allocations": [
+    {
+      "job": "20375552_0",
+      "physical_job_id": "20375557",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:05.524",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.017777777777777778
+    },
+    {
+      "job": "20375552_1",
+      "physical_job_id": "20375558",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:05.479",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.017777777777777778
+    },
+    {
+      "job": "20375552_2",
+      "physical_job_id": "20375559",
+      "state": "COMPLETED",
+      "elapsed_seconds": 75,
+      "cpus": 1,
+      "total_CPU": "00:16.583",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.020833333333333332
+    },
+    {
+      "job": "20375552_3",
+      "physical_job_id": "20375552",
+      "state": "COMPLETED",
+      "elapsed_seconds": 79,
+      "cpus": 1,
+      "total_CPU": "00:19.157",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.021944444444444444
+    },
+    {
+      "job": "20375602_0",
+      "physical_job_id": "20375603",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:10.753",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.018055555555555554
+    },
+    {
+      "job": "20375602_1",
+      "physical_job_id": "20375604",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:10.786",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.018055555555555554
+    },
+    {
+      "job": "20375602_2",
+      "physical_job_id": "20375605",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:10.809",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.018055555555555554
+    },
+    {
+      "job": "20375602_3",
+      "physical_job_id": "20375606",
+      "state": "COMPLETED",
+      "elapsed_seconds": 66,
+      "cpus": 1,
+      "total_CPU": "00:11.107",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.018333333333333333
+    },
+    {
+      "job": "20375602_4",
+      "physical_job_id": "20375607",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:09.638",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.017777777777777778
+    },
+    {
+      "job": "20375602_5",
+      "physical_job_id": "20375608",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:09.481",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.017777777777777778
+    },
+    {
+      "job": "20375602_6",
+      "physical_job_id": "20375609",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:09.645",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.017777777777777778
+    },
+    {
+      "job": "20375602_7",
+      "physical_job_id": "20375610",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:09.701",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.017777777777777778
+    },
+    {
+      "job": "20375602_8",
+      "physical_job_id": "20375613",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.764",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_9",
+      "physical_job_id": "20375614",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.740",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_10",
+      "physical_job_id": "20375615",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.768",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_11",
+      "physical_job_id": "20375616",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:08.802",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.0030555555555555557
+    },
+    {
+      "job": "20375602_12",
+      "physical_job_id": "20375617",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.762",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_13",
+      "physical_job_id": "20375618",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:08.770",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.0030555555555555557
+    },
+    {
+      "job": "20375602_14",
+      "physical_job_id": "20375619",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.754",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_15",
+      "physical_job_id": "20375620",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.466",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_16",
+      "physical_job_id": "20375621",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.551",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_17",
+      "physical_job_id": "20375622",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.615",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_18",
+      "physical_job_id": "20375623",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.479",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_19",
+      "physical_job_id": "20375624",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.707",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_20",
+      "physical_job_id": "20375625",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:08.567",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.003611111111111111
+    },
+    {
+      "job": "20375602_21",
+      "physical_job_id": "20375626",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:08.530",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.003611111111111111
+    },
+    {
+      "job": "20375602_22",
+      "physical_job_id": "20375627",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:08.572",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.003611111111111111
+    },
+    {
+      "job": "20375602_23",
+      "physical_job_id": "20375628",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:08.663",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.003611111111111111
+    },
+    {
+      "job": "20375602_24",
+      "physical_job_id": "20375629",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.677",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_25",
+      "physical_job_id": "20375630",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.577",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_26",
+      "physical_job_id": "20375631",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.692",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_27",
+      "physical_job_id": "20375632",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:08.995",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.0030555555555555557
+    },
+    {
+      "job": "20375602_28",
+      "physical_job_id": "20375633",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.652",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_29",
+      "physical_job_id": "20375634",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.377",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_30",
+      "physical_job_id": "20375635",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.523",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375602_31",
+      "physical_job_id": "20375602",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.685",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.002777777777777778
+    },
+    {
+      "job": "20375654_0",
+      "physical_job_id": "20375654",
+      "state": "COMPLETED",
+      "elapsed_seconds": 46,
+      "cpus": 1,
+      "total_CPU": "00:10.977",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.012777777777777779
+    },
+    {
+      "job": "20375656_0",
+      "physical_job_id": "20375656",
+      "state": "COMPLETED",
+      "elapsed_seconds": 36,
+      "cpus": 1,
+      "total_CPU": "00:11.071",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.01
+    },
+    {
+      "job": "20375658_0",
+      "physical_job_id": "20375658",
+      "state": "COMPLETED",
+      "elapsed_seconds": 76,
+      "cpus": 1,
+      "total_CPU": "00:48.995",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.021111111111111112
+    },
+    {
+      "job": "20375665_0",
+      "physical_job_id": "20375665",
+      "state": "COMPLETED",
+      "elapsed_seconds": 74,
+      "cpus": 1,
+      "total_CPU": "00:49.842",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.020555555555555556
+    },
+    {
+      "job": "20375691_0",
+      "physical_job_id": "20375691",
+      "state": "COMPLETED",
+      "elapsed_seconds": 56,
+      "cpus": 1,
+      "total_CPU": "00:36.196",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "effective_billing_cores": 1.0,
+      "elapsed_billing_SU": 0.015555555555555555
+    }
+  ],
+  "steps": [
+    {
+      "job": "20375552_0.batch",
+      "physical_job_id": "20375557.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:05.524",
+      "max_RSS": "135004K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375552_0.extern",
+      "physical_job_id": "20375557.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375552_1.batch",
+      "physical_job_id": "20375558.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:05.479",
+      "max_RSS": "133052K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375552_1.extern",
+      "physical_job_id": "20375558.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375552_2.batch",
+      "physical_job_id": "20375559.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 75,
+      "cpus": 1,
+      "total_CPU": "00:16.583",
+      "max_RSS": "136612K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375552_2.extern",
+      "physical_job_id": "20375559.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 75,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375552_3.batch",
+      "physical_job_id": "20375552.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 79,
+      "cpus": 1,
+      "total_CPU": "00:19.157",
+      "max_RSS": "137212K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375552_3.extern",
+      "physical_job_id": "20375552.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 79,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_0.batch",
+      "physical_job_id": "20375603.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:10.753",
+      "max_RSS": "138736K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_0.extern",
+      "physical_job_id": "20375603.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_1.batch",
+      "physical_job_id": "20375604.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:10.786",
+      "max_RSS": "137456K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_1.extern",
+      "physical_job_id": "20375604.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_2.batch",
+      "physical_job_id": "20375605.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:10.809",
+      "max_RSS": "141408K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_2.extern",
+      "physical_job_id": "20375605.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 65,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_3.batch",
+      "physical_job_id": "20375606.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 66,
+      "cpus": 1,
+      "total_CPU": "00:11.107",
+      "max_RSS": "137664K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_3.extern",
+      "physical_job_id": "20375606.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 66,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_4.batch",
+      "physical_job_id": "20375607.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:09.638",
+      "max_RSS": "142616K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_4.extern",
+      "physical_job_id": "20375607.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_5.batch",
+      "physical_job_id": "20375608.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:09.481",
+      "max_RSS": "138204K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_5.extern",
+      "physical_job_id": "20375608.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_6.batch",
+      "physical_job_id": "20375609.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:09.645",
+      "max_RSS": "136M",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_6.extern",
+      "physical_job_id": "20375609.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_7.batch",
+      "physical_job_id": "20375610.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:09.701",
+      "max_RSS": "143332K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_7.extern",
+      "physical_job_id": "20375610.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 64,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_8.batch",
+      "physical_job_id": "20375613.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.764",
+      "max_RSS": "8368K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_8.extern",
+      "physical_job_id": "20375613.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_9.batch",
+      "physical_job_id": "20375614.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.740",
+      "max_RSS": "8372K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_9.extern",
+      "physical_job_id": "20375614.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_10.batch",
+      "physical_job_id": "20375615.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.768",
+      "max_RSS": "4284K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_10.extern",
+      "physical_job_id": "20375615.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_11.batch",
+      "physical_job_id": "20375616.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:08.802",
+      "max_RSS": "2252K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_11.extern",
+      "physical_job_id": "20375616.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_12.batch",
+      "physical_job_id": "20375617.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.762",
+      "max_RSS": "2244K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_12.extern",
+      "physical_job_id": "20375617.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_13.batch",
+      "physical_job_id": "20375618.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:08.770",
+      "max_RSS": "2248K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_13.extern",
+      "physical_job_id": "20375618.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_14.batch",
+      "physical_job_id": "20375619.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.754",
+      "max_RSS": "4288K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_14.extern",
+      "physical_job_id": "20375619.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_15.batch",
+      "physical_job_id": "20375620.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.466",
+      "max_RSS": "2244K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_15.extern",
+      "physical_job_id": "20375620.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_16.batch",
+      "physical_job_id": "20375621.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.551",
+      "max_RSS": "2244K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_16.extern",
+      "physical_job_id": "20375621.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_17.batch",
+      "physical_job_id": "20375622.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.615",
+      "max_RSS": "8368K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_17.extern",
+      "physical_job_id": "20375622.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_18.batch",
+      "physical_job_id": "20375623.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.479",
+      "max_RSS": "6332K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_18.extern",
+      "physical_job_id": "20375623.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_19.batch",
+      "physical_job_id": "20375624.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.707",
+      "max_RSS": "4284K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_19.extern",
+      "physical_job_id": "20375624.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_20.batch",
+      "physical_job_id": "20375625.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:08.567",
+      "max_RSS": "4288K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_20.extern",
+      "physical_job_id": "20375625.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_21.batch",
+      "physical_job_id": "20375626.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:08.530",
+      "max_RSS": "2240K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_21.extern",
+      "physical_job_id": "20375626.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_22.batch",
+      "physical_job_id": "20375627.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:08.572",
+      "max_RSS": "4276K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_22.extern",
+      "physical_job_id": "20375627.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_23.batch",
+      "physical_job_id": "20375628.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:08.663",
+      "max_RSS": "2244K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_23.extern",
+      "physical_job_id": "20375628.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 13,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_24.batch",
+      "physical_job_id": "20375629.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.677",
+      "max_RSS": "4288K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_24.extern",
+      "physical_job_id": "20375629.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_25.batch",
+      "physical_job_id": "20375630.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.577",
+      "max_RSS": "6640K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_25.extern",
+      "physical_job_id": "20375630.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_26.batch",
+      "physical_job_id": "20375631.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.692",
+      "max_RSS": "4548K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_26.extern",
+      "physical_job_id": "20375631.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_27.batch",
+      "physical_job_id": "20375632.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:08.995",
+      "max_RSS": "2252K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_27.extern",
+      "physical_job_id": "20375632.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_28.batch",
+      "physical_job_id": "20375633.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.652",
+      "max_RSS": "4288K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_28.extern",
+      "physical_job_id": "20375633.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_29.batch",
+      "physical_job_id": "20375634.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.377",
+      "max_RSS": "2240K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_29.extern",
+      "physical_job_id": "20375634.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_30.batch",
+      "physical_job_id": "20375635.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.523",
+      "max_RSS": "6328K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_30.extern",
+      "physical_job_id": "20375635.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_31.batch",
+      "physical_job_id": "20375602.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:08.685",
+      "max_RSS": "2252K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375602_31.extern",
+      "physical_job_id": "20375602.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 10,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375654_0.batch",
+      "physical_job_id": "20375654.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 46,
+      "cpus": 1,
+      "total_CPU": "00:10.977",
+      "max_RSS": "90492K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375654_0.extern",
+      "physical_job_id": "20375654.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 46,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375656_0.batch",
+      "physical_job_id": "20375656.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 36,
+      "cpus": 1,
+      "total_CPU": "00:11.071",
+      "max_RSS": "91792K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375656_0.extern",
+      "physical_job_id": "20375656.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 36,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375658_0.batch",
+      "physical_job_id": "20375658.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 76,
+      "cpus": 1,
+      "total_CPU": "00:48.995",
+      "max_RSS": "94108K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375658_0.extern",
+      "physical_job_id": "20375658.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 76,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375665_0.batch",
+      "physical_job_id": "20375665.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 74,
+      "cpus": 1,
+      "total_CPU": "00:49.842",
+      "max_RSS": "93892K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375665_0.extern",
+      "physical_job_id": "20375665.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 74,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375691_0.batch",
+      "physical_job_id": "20375691.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 56,
+      "cpus": 1,
+      "total_CPU": "00:36.196",
+      "max_RSS": "16200K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20375691_0.extern",
+      "physical_job_id": "20375691.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 56,
+      "cpus": 1,
+      "total_CPU": "00:00:00",
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    }
+  ],
+  "settled_records": [
+    {
+      "job": "20375552",
+      "array_index": "3",
+      "elapsed_seconds": 79,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375557",
+      "array_index": "0",
+      "elapsed_seconds": 64,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375558",
+      "array_index": "1",
+      "elapsed_seconds": 64,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375559",
+      "array_index": "2",
+      "elapsed_seconds": 75,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375602",
+      "array_index": "31",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375603",
+      "array_index": "0",
+      "elapsed_seconds": 65,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375604",
+      "array_index": "1",
+      "elapsed_seconds": 65,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375605",
+      "array_index": "2",
+      "elapsed_seconds": 65,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375606",
+      "array_index": "3",
+      "elapsed_seconds": 66,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375607",
+      "array_index": "4",
+      "elapsed_seconds": 64,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375608",
+      "array_index": "5",
+      "elapsed_seconds": 64,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375609",
+      "array_index": "6",
+      "elapsed_seconds": 64,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375610",
+      "array_index": "7",
+      "elapsed_seconds": 64,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    },
+    {
+      "job": "20375613",
+      "array_index": "8",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375614",
+      "array_index": "9",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375615",
+      "array_index": "10",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375616",
+      "array_index": "11",
+      "elapsed_seconds": 11,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375617",
+      "array_index": "12",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375618",
+      "array_index": "13",
+      "elapsed_seconds": 11,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375619",
+      "array_index": "14",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375620",
+      "array_index": "15",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375621",
+      "array_index": "16",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375622",
+      "array_index": "17",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375623",
+      "array_index": "18",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375624",
+      "array_index": "19",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375625",
+      "array_index": "20",
+      "elapsed_seconds": 13,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375626",
+      "array_index": "21",
+      "elapsed_seconds": 13,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375627",
+      "array_index": "22",
+      "elapsed_seconds": 13,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375628",
+      "array_index": "23",
+      "elapsed_seconds": 13,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375629",
+      "array_index": "24",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375630",
+      "array_index": "25",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375631",
+      "array_index": "26",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375632",
+      "array_index": "27",
+      "elapsed_seconds": 11,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375633",
+      "array_index": "28",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375634",
+      "array_index": "29",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375635",
+      "array_index": "30",
+      "elapsed_seconds": 10,
+      "slots": 1.0,
+      "displayed_used_SU": 0.0
+    },
+    {
+      "job": "20375654",
+      "array_index": "0",
+      "elapsed_seconds": 46,
+      "slots": 1.0,
+      "displayed_used_SU": 0.01
+    },
+    {
+      "job": "20375656",
+      "array_index": "0",
+      "elapsed_seconds": 36,
+      "slots": 1.0,
+      "displayed_used_SU": 0.01
+    },
+    {
+      "job": "20375658",
+      "array_index": "0",
+      "elapsed_seconds": 76,
+      "slots": 1.0,
+      "displayed_used_SU": 0.02
+    }
+  ],
+  "unknown_billing_jobs": [],
+  "account_summary_line": "|132685389143|  2027|        Y|    20000.00|          15578.71|     4421.29|Li, Yan             |",
+  "source_sha256": "cd0b8bc75d385560068c84ec3f5a038df5553273756cd50bbc0fb442948466d1",
+  "note": "Slurm elapsed and AMS settled are separate. Do not add; account balance is not study cost."
+}

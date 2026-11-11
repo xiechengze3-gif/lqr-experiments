@@ -1,0 +1,261 @@
+{
+  "experiment": "X7",
+  "stage": "FORMAL",
+  "status": "FORMAL_FROZEN",
+  "date": "2026-11-02",
+  "cap_requested_SU": 15,
+  "independent_of_X6_cap": true,
+  "n_values": [
+    24,
+    48
+  ],
+  "spectra": [
+    "geometric",
+    "polynomial"
+  ],
+  "formal_systems": [
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508
+  ],
+  "formal_seeds": [
+    1801,
+    1802,
+    1803,
+    1804
+  ],
+  "pilot_systems": [
+    9501,
+    9502
+  ],
+  "pilot_seeds": [
+    8101,
+    8102
+  ],
+  "seed_root": 2026110101,
+  "nu": 1,
+  "ce_burn": 512,
+  "ce_chunk": 512,
+  "delta": 0.05,
+  "adaptive_C5": 2.569,
+  "sensitivity_constants": [
+    0.5,
+    1
+  ],
+  "fixed_rank_pool": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48
+  ],
+  "multiplier_grid": [
+    1,
+    4,
+    16,
+    64,
+    256,
+    1024
+  ],
+  "prefix_rule": "N=4*(n+m)*multiplier",
+  "adaptive_split": "||Bhat_first_half-Bhat_second_half||op/2; strict singular>threshold",
+  "best_fixed": "Post-hoc argmin full32 failure-inclusive absolute-gap median over fixed k plus dense(k=n); ties smallest k. Never learner input.",
+  "bootstrap_repetitions": 5000,
+  "bootstrap_seed_tag": 2026110271,
+  "slopes": {
+    "metrics": [
+      "gap",
+      "relative_gap"
+    ],
+    "sets": [
+      "all_six",
+      "last_three"
+    ],
+    "method": "OLS log(full32 failure-inclusive median gap) on log(N); NA if any selected median is nonfinite or nonpositive; common system-cluster bootstrap; no trimming."
+  },
+  "pilot": {
+    "tasks": 4,
+    "trajectories_per_task": 4,
+    "baseline_reference_trajectories_per_task": 1,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 15,
+    "requested_bound_SU": 1,
+    "resource_only": true,
+    "generate_formal_models_only": true,
+    "no_performance_readout": true
+  },
+  "formal_ceiling": {
+    "tasks": 32,
+    "cases_per_task": 4,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "maximum_minutes_per_task": 20,
+    "requested_bound_SU": 10.666666666666666,
+    "no_submission_until_measured_and_explicitly_accepted": true
+  },
+  "report_reserve": {
+    "diagnostics_tasks": 4,
+    "diagnostics_minutes": 20,
+    "summary_minutes": 40,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "requested_bound_SU": 2
+  },
+  "automatic_retries": 0,
+  "no_budget_to_epsilon_on_factor4_grid": true,
+  "local_root": "E:/ChatGPT/Projects/LQR_experiments/project2_l4dc/experiments/x7-20261102",
+  "remote_root": "/scratch/user/changze/lqr_experiments/results/x7-20261102",
+  "remote_cache": "/scratch/user/changze/lqr_experiments/cache/x7-20261102",
+  "remote_tmp": "/scratch/user/changze/lqr_experiments/tmp/x7-20261102",
+  "author_go_task_sha256": "6542a46618bc7f2ba22bc985ca7ec8944266eea3e2b4ad70e09377457b16e58d",
+  "scientific_sources": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "ce_fullrank.py": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+    "analyze_ce.py": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+    "x7_driver.py": "0a284a28e13b67ee48eaaf82af209afbdcaa6cd1666c6a6916666ddfeb033cbb"
+  },
+  "parent_protocol_config_sha256": "e35d5a95d9be205a2de3a3bdf8be12f15b25ce5599a2c93ad6b64b93d572165f",
+  "resource_complete_sha256": "db8a365716e0a616cc6a9f390ccae4a8b2e872e3d34d62d20d07d85a8ee47ed5",
+  "model_registry": {
+    "n24-geometric-s501": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-geometric/s501/model.npz",
+      "sha256": "6803dedc2e5308db7ad09bb4e96e5f110a41e47c0bede3c5622278b08bf207fc"
+    },
+    "n24-geometric-s502": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-geometric/s502/model.npz",
+      "sha256": "00cb93449510306bf56c84c5336d8f9d3e18452b252fa400336b96ee99afda00"
+    },
+    "n24-geometric-s503": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-geometric/s503/model.npz",
+      "sha256": "439749b1cd471a55b2497a3e14a653c259a61467eebcefc14655e492f2487dc3"
+    },
+    "n24-geometric-s504": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-geometric/s504/model.npz",
+      "sha256": "3b0f12e52545622981faa80c003de8a0f4cca2587d5cc6841eec72f772c70207"
+    },
+    "n24-geometric-s505": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-geometric/s505/model.npz",
+      "sha256": "9346525cfd23ef7fc67eb73e80e111b4228c7bce48578654cb26c5f726f46297"
+    },
+    "n24-geometric-s506": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-geometric/s506/model.npz",
+      "sha256": "3010c9fb866779e30c8dfed64dda49ff21faa9c3c0c3d8c676b34a001e905915"
+    },
+    "n24-geometric-s507": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-geometric/s507/model.npz",
+      "sha256": "5913c565d7cc7d6f09ef28775d0bb90ed049c286e0309c42a3c20f1601a3e3d5"
+    },
+    "n24-geometric-s508": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-geometric/s508/model.npz",
+      "sha256": "dbb0c95ba6e00aa9a64ed1ee5bf599a744423f6ea06e72a72b3965fbcfa4f0d2"
+    },
+    "n24-polynomial-s501": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-polynomial/s501/model.npz",
+      "sha256": "ced58f96f8cd70ea5c34f3f7024c6c61ac218354172c2f17330f47deb4bcd566"
+    },
+    "n24-polynomial-s502": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-polynomial/s502/model.npz",
+      "sha256": "887d93d2a60423fdbf58ea30fdd1f4b24014c83889079630df02ed2eeeed893d"
+    },
+    "n24-polynomial-s503": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-polynomial/s503/model.npz",
+      "sha256": "fbc08b92ad90dd61e555e38976e672115376db36fa2455836ce24cc179f19de6"
+    },
+    "n24-polynomial-s504": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-polynomial/s504/model.npz",
+      "sha256": "aab9f6132912ee2d54fe1e9daef394339a0d08b2405a618d271b9e940d6b28af"
+    },
+    "n24-polynomial-s505": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-polynomial/s505/model.npz",
+      "sha256": "4850fb8f166ff52bb17e4ebb55536fb1d1411ee967ab1984e6a7a905faa20645"
+    },
+    "n24-polynomial-s506": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-polynomial/s506/model.npz",
+      "sha256": "16e3aaf62eb823c1f4084e639348a57d50a924523bc3b173011fae9415ce1e0d"
+    },
+    "n24-polynomial-s507": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-polynomial/s507/model.npz",
+      "sha256": "e6058df5e4ac2f1cc1885b6b3df0379cde3977bf86d0106ca4aa59acee8abc9c"
+    },
+    "n24-polynomial-s508": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n24-polynomial/s508/model.npz",
+      "sha256": "4616846cb2b4e606c536d4d7a6fe824aa88ad73fc47d362c6c2d2be1a961355c"
+    },
+    "n48-geometric-s501": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-geometric/s501/model.npz",
+      "sha256": "fc3ffdb2c49edf9b8ed66a865457b12557f374aa1bc23c6343cbe501a38b266b"
+    },
+    "n48-geometric-s502": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-geometric/s502/model.npz",
+      "sha256": "daa5ebf4ce93464339e151bb07e0fbf7d275bf4df43625443c97486384ace333"
+    },
+    "n48-geometric-s503": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-geometric/s503/model.npz",
+      "sha256": "11267c8540296d31a4a34737a69548f7cb4e7b18a983057a8febf7ee453f2a4e"
+    },
+    "n48-geometric-s504": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-geometric/s504/model.npz",
+      "sha256": "9b56a7fd1771cca09ba6c8cca281bf6ef3ead1480009ee3210b18b0b483fcd1b"
+    },
+    "n48-geometric-s505": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-geometric/s505/model.npz",
+      "sha256": "1a33e73e575d82bc35f5f38b90a3bcb9be6728dfcb2f91705b567e87f5cf7f2e"
+    },
+    "n48-geometric-s506": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-geometric/s506/model.npz",
+      "sha256": "fc308cecefc9493604e8d4f8aa2bf3730c2547389302f22b1adad8b42d7b0505"
+    },
+    "n48-geometric-s507": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-geometric/s507/model.npz",
+      "sha256": "a0055e647a61481000500a7223fbb82b650f569a6e2d8a348fa8b259154057e3"
+    },
+    "n48-geometric-s508": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-geometric/s508/model.npz",
+      "sha256": "ea515bf740b7655c603f873a9bf25f89421ea654eabe0d0b60621e97b198d1bc"
+    },
+    "n48-polynomial-s501": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-polynomial/s501/model.npz",
+      "sha256": "4d80ad17a57a428680494799f09ab2f03321165c9dca41a6b3f418125082ed11"
+    },
+    "n48-polynomial-s502": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-polynomial/s502/model.npz",
+      "sha256": "21678e63a8d39f50e4eb574db11d808227f15d2b137202dd055732fc37150b4b"
+    },
+    "n48-polynomial-s503": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-polynomial/s503/model.npz",
+      "sha256": "b78dc089fb59c58ff4d42f87f94c68b5a431de6f14e87e66764d4765a262c568"
+    },
+    "n48-polynomial-s504": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-polynomial/s504/model.npz",
+      "sha256": "f9ef6f30d96eca1800937eef1a5c1c5dd179f23bc61fb615788aecc1c7df366b"
+    },
+    "n48-polynomial-s505": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-polynomial/s505/model.npz",
+      "sha256": "164bced898135870bb99c668c65d205f9f2706d01b0d60006ef35a8a99d55bdd"
+    },
+    "n48-polynomial-s506": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-polynomial/s506/model.npz",
+      "sha256": "df96687b17dd18a6fd880258812c8f6babdc167be18976fe4c0fdc47e9b5f23f"
+    },
+    "n48-polynomial-s507": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-polynomial/s507/model.npz",
+      "sha256": "cabf0df6874afc7bd4e2a9e1b77e42556f743ed1b92be2281aa643a46501cbbd"
+    },
+    "n48-polynomial-s508": {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/resource-v1/models/n48-polynomial/s508/model.npz",
+      "sha256": "038e767eb1d69c5306c6dcad79cc5aaa6138eefedb8db396cbe79b7c53e802d4"
+    }
+  }
+}

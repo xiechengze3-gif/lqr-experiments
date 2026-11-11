@@ -1,0 +1,35 @@
+{
+  "status": "PASS_METADATA_READER_FIX_ONLY",
+  "old_analysis_sha256": "f3651489091ddda0b545af4bc8c149d27c2b5dfdfc072fc7d5101d061b3fc3f8",
+  "new_analysis_sha256": "6ce0308264898dc47595442457d25ba674d3982cb58ba001dadedc20e6a37730",
+  "changed_lines": [
+    "target = x8_rows if ref['path'].startswith('x8/') else dimension if ref['path'].startswith('dimension/') else redundancy",
+    "target = x8_rows if Path(ref['path']).parts[0] == 'x8' else dimension if Path(ref['path']).parts[0] == 'dimension' else redundancy"
+  ],
+  "other_change": "New output namespace ce-report-v3; empty failed ce-report-v2 preserved.",
+  "statistical_functions_literal_identical": [
+    "write_csv",
+    "q",
+    "cost",
+    "merge_bytes"
+  ],
+  "entire_main_reversible_except_reader_and_output_namespace": true,
+  "verified_record_counts": {
+    "x8": 122880,
+    "dimension": 2432,
+    "redundancy": 768
+  },
+  "frozen_config_sha256": "0c3181d6f30e15ea714f221cd286a9226d918373e5b19a47475f892593ad58ce",
+  "new_training_transitions": 0,
+  "new_jobs": 0,
+  "Grace_SU": 0,
+  "old_results_modified": false,
+  "failed_attempt_statistics_started": false,
+  "files": {
+    "ce-report-src-v3/analyze_ce.py": "6ce0308264898dc47595442457d25ba674d3982cb58ba001dadedc20e6a37730",
+    "render_ce_report_v3.py": "290180bd519c7a01e284053481df943635b86e53fa2cb62b7be0fc58f853c0a7",
+    "finalize_ce_report_v3.py": "325b8f1b1ff85f74531c1de848839b52d231ea10aadaaea0a2bc0fc559c11de3",
+    "Launch-CE-Report-v3.ps1": "2d6fed8aad6c6eb154d070c3002cc16c70f3d3a65e0a304f7760b56d3899dcaa",
+    "Render-CE-v3.ps1": "ddfd5c1610797041991acbd8a43c75d1aaa855ed5945efe1acb2a32cb61891a3"
+  }
+}

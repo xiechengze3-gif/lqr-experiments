@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE_SAVED_DATA_REPORT",
+  "item": "f",
+  "job": "20448783",
+  "config_sha256": "c565732ef7447c5a70d5d9f18fcee048f2278207cfd8e0d59c2739c1613a8637",
+  "new_observation_transitions": 0,
+  "new_summary_rows": 4,
+  "endpoint_rows": 128,
+  "stage_rows": 1664,
+  "files": {
+    "endpoints.csv": "16e6f3d761151a43021669c890812d0940071fd34eaa6c20ac1aed3d31b1624c",
+    "paired_endpoints.csv": "739dee515c7b5e9cd07c74fe1aff86915b836690b31b4c99575463a60faa0efb",
+    "X14f_summary_with_X12_nine_rungs.csv": "fa8b05b65a3a8f30147da29d7e6372eec6d61d52058eafa913ae3e9bae16173e",
+    "failures.csv": "fd81feac94a90dfec70983344eb3e0e716567e2a3c77f99dc5623a05e1d774f4",
+    "stages.csv": "a6bc05ee5a9de082ab24e5fa743eb4564d7a29b4d1d397373dcc855558c10d32",
+    "X14f_transitions_saved_derived.csv": "dfba03dedbbbda82a4f4b0031266ad12b02e2246ed3095fc34e2d4b7e82d2649",
+    "X14f_summary.csv": "259ea0d2d4ce057d1161c9a01e1bf0642da0cc9892b7b3e550d1e644232dd69d"
+  }
+}

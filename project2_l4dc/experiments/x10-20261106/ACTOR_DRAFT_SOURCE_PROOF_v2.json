@@ -1,0 +1,49 @@
+{
+  "status": "DRAFT_RESOURCE_AUTHORIZED_PROTOCOL_NOT_YET_FROZEN",
+  "adaptations": [
+    {
+      "file": "frozen_engine.py",
+      "original_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+      "adapted_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+      "change": "None"
+    },
+    {
+      "file": "estimation.py",
+      "original_sha256": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+      "adapted_sha256": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+      "change": "None"
+    },
+    {
+      "file": "actor_paths.py",
+      "original_sha256": "d32e410a64c78a927c2e4b1f9c5ea929c3942c856f393b77b2ab2479ea33a8dc",
+      "adapted_sha256": "f76c28024fc0a70ea626e9f90b1e8a27cb90984aed4f16a4f8437d3c8af60ec4",
+      "change": "Output namespace and formal experiment descriptor only"
+    },
+    {
+      "file": "formal_driver.py",
+      "original_sha256": "d30fc3dbf703f17ac37ee2ad7573b7e36589057cbb5d76b572e4375975f54b25",
+      "adapted_sha256": "caf9496b866215b423528bb42663a84f2c6c76e1b32e561b9a036e0ee8f28f22",
+      "change": "Output namespace and formal experiment descriptor only"
+    },
+    {
+      "file": "analyze_actor.py",
+      "original_sha256": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469",
+      "adapted_sha256": "9352529caf3a46a50691b8cef6d6d0ff93f8fdef9a7eba1946375e95dcb6d76e",
+      "change": "Output namespace and formal experiment descriptor only"
+    },
+    {
+      "file": "plot_saved_actor.py",
+      "original_sha256": "33759f577ab645e67e1ebba53f8b6228c4528d2e635f57da1634dd6243807835",
+      "adapted_sha256": "33759f577ab645e67e1ebba53f8b6228c4528d2e635f57da1634dd6243807835",
+      "change": "None"
+    }
+  ],
+  "copied_models": 32,
+  "scalar_schedules": 20,
+  "new_formal_paired_paths": 1280,
+  "new_formal_primitive_transitions": 243008280576,
+  "no_new_model_solve": true,
+  "no_new_sampling": true,
+  "no_job": true,
+  "additional_SU": 0
+}

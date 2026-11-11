@@ -1,0 +1,46 @@
+{
+  "status": "WITHIN_PROPOSED_RESOURCE_CAP",
+  "experiment": "X6b",
+  "stage": "PILOT",
+  "jobs": [
+    {
+      "component": "equivalence",
+      "n": null,
+      "wall_minutes": 5,
+      "cpus": 1,
+      "memory_MiB": 2048
+    },
+    {
+      "component": "timing-n24",
+      "n": 24,
+      "wall_minutes": 10,
+      "cpus": 1,
+      "memory_MiB": 2048
+    },
+    {
+      "component": "timing-n36",
+      "n": 36,
+      "wall_minutes": 15,
+      "cpus": 1,
+      "memory_MiB": 2048
+    },
+    {
+      "component": "timing-n48",
+      "n": 48,
+      "wall_minutes": 25,
+      "cpus": 1,
+      "memory_MiB": 2048
+    },
+    {
+      "component": "timing-n72",
+      "n": 72,
+      "wall_minutes": 60,
+      "cpus": 1,
+      "memory_MiB": 2048
+    }
+  ],
+  "requested_bound_SU": 1.9166666666666667,
+  "cap_SU": 4,
+  "formal_submitted": false,
+  "resolved_config_sha256": "cd941a45b7bf5cb6896d7be865500ea7c46f4904241c1fc14455feda35de789a"
+}

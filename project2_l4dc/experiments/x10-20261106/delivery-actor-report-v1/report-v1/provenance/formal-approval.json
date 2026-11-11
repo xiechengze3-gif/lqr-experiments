@@ -1,0 +1,10 @@
+{
+  "experiment": "X10b",
+  "stage": "FORMAL",
+  "review_sha256": "2c35aad9dbee1abc9d1724991885850fde943062215914b1e49c02669cccd8ed",
+  "exact_authorization_quote": "Proceed to FORMAL automatically iff all pilot checks pass",
+  "formal_config_sha256": "cf3bc5ff72cf62ff5469008805ddf93a64623d043858074be76e20e9a9c9152b",
+  "pilot_audit_sha256": "aa168ebc5c14f9043987635e679706e10d9aa54ac7cae97b2d653382e8dd3357",
+  "all_fixed_gates_pass": true,
+  "automatic_retries": 0
+}

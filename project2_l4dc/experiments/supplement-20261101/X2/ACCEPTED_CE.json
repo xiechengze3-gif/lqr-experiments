@@ -1,0 +1,18 @@
+{
+  "experiment": "X2",
+  "scope": "CE_ONLY",
+  "decision": "ACCEPTED",
+  "review_label": "Review 02:25 CDT (Claude)",
+  "task_sha256": "38df4ac83b3f3475d0974f98aa1cd1e5d9aa1adf5df53014cd204050ac3cdbcd",
+  "review_checked_utc": "2026-11-01T07:28:29Z",
+  "config_sha256": "56b432e62fd51edb6fe82b3c3c26373db3b837e9b8faa94df0a339218e226900",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "ce_suite.py": "1ad29095ca75409702915fc3eef124e68f91beb0ee47e5c3c87f5b8586a8476d",
+    "formal_driver.py": "3ed88761dcb3f949b20aef66e8da73ffa7390f68c1530adfb5a7a4cba49b1a61",
+    "configs/X2_CE_resolved_v2.json": "56b432e62fd51edb6fe82b3c3c26373db3b837e9b8faa94df0a339218e226900"
+  },
+  "approval_quote": "X2 protocol v1: ACCEPTED; start the formal array as soon as the n96 pilot timing gives a plan inside the cap.",
+  "resolved_change": "Exact N/d16,64,256 analysis prefixes added before formal; all original sqrt(2) prefixes retained."
+}

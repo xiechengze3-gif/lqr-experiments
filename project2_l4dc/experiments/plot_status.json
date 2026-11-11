@@ -1,0 +1,96 @@
+{
+  "operation": "saved-data postprocessing only; no learning/control solves",
+  "statistics": "Full repeat denominators; failures=+inf; linear median/IQR where used; main plots use complete stable cells with the actual 24/30/2 denominator. High-rank CE uses two systems, not 30 repeats.",
+  "groups": {
+    "02_same_data_decomposition": {
+      "status": "complete",
+      "artifacts": [
+        "02_same_data_decomposition\\plots\\same_data_mechanism.png",
+        "02_same_data_decomposition\\plots\\same_data_mechanism.svg",
+        "02_same_data_decomposition\\plots\\same_data_mechanism.pdf"
+      ],
+      "CE_regression_samples": 3072,
+      "note": "NPG source_mode=dense, stage=1 only; no duplicated source arms"
+    },
+    "03_fullrank_rank_scan": {
+      "status": "complete",
+      "artifacts": [
+        "03_fullrank_rank_scan\\plots\\fullrank_rank_scan_scalar.png",
+        "03_fullrank_rank_scan\\plots\\fullrank_rank_scan_scalar.svg",
+        "03_fullrank_rank_scan\\plots\\fullrank_rank_scan_scalar.pdf",
+        "03_fullrank_rank_scan\\plots\\fullrank_rank_scan_dense.png",
+        "03_fullrank_rank_scan\\plots\\fullrank_rank_scan_dense.svg",
+        "03_fullrank_rank_scan\\plots\\fullrank_rank_scan_dense.pdf",
+        "03_fullrank_rank_scan\\plots\\flat_negative_control_scalar.png",
+        "03_fullrank_rank_scan\\plots\\flat_negative_control_scalar.svg",
+        "03_fullrank_rank_scan\\plots\\flat_negative_control_scalar.pdf",
+        "03_fullrank_rank_scan\\plots\\supplement_adaptive_ce_dense.png",
+        "03_fullrank_rank_scan\\plots\\supplement_adaptive_ce_dense.svg",
+        "03_fullrank_rank_scan\\plots\\supplement_adaptive_ce_dense.pdf",
+        "03_fullrank_rank_scan\\plots\\supplement_adaptive_ce_scalar.png",
+        "03_fullrank_rank_scan\\plots\\supplement_adaptive_ce_scalar.svg",
+        "03_fullrank_rank_scan\\plots\\supplement_adaptive_ce_scalar.pdf"
+      ],
+      "note": "NPG has fixed k only; adaptive CE is an explicitly empirical supplement. Flat NPG uses only the observed k2/k8/dense arms, not a nine-rank scan."
+    },
+    "01_input_padding": {
+      "status": "complete",
+      "artifacts": [
+        "01_input_padding/plots/main_ce_input_padding.png",
+        "01_input_padding/plots/main_ce_input_padding.svg",
+        "01_input_padding/plots/main_ce_input_padding.pdf",
+        "01_input_padding/plots/appendix_input_padding_nominal_burn_actors.png",
+        "01_input_padding/plots/appendix_input_padding_nominal_burn_actors.svg",
+        "01_input_padding/plots/appendix_input_padding_nominal_burn_actors.pdf"
+      ],
+      "CE_E1_outputs": 768,
+      "actor_E1_trajectories": 384,
+      "main_CE_repeat_denominator": 24,
+      "main_CE_regression_N": 8192,
+      "main_CE_total_transitions": 8324,
+      "note": "CE only in main plot; nominal-burn NPG and v4 PI are explicitly appendix variants. All prefixes and complete repeat denominators retained."
+    },
+    "04_ce100_matched_gap_and_high_rank": {
+      "status": "complete",
+      "artifacts": [
+        "04_ce100_matched_gap_and_high_rank/plots/main_matched_ce_learning.png",
+        "04_ce100_matched_gap_and_high_rank/plots/main_matched_ce_learning.svg",
+        "04_ce100_matched_gap_and_high_rank/plots/main_matched_ce_learning.pdf",
+        "04_ce100_matched_gap_and_high_rank/plots/main_ce_accuracy_budgets.png",
+        "04_ce100_matched_gap_and_high_rank/plots/main_ce_accuracy_budgets.svg",
+        "04_ce100_matched_gap_and_high_rank/plots/main_ce_accuracy_budgets.pdf",
+        "04_ce100_matched_gap_and_high_rank/plots/main_high_rank_ce_learning.png",
+        "04_ce100_matched_gap_and_high_rank/plots/main_high_rank_ce_learning.svg",
+        "04_ce100_matched_gap_and_high_rank/plots/main_high_rank_ce_learning.pdf",
+        "04_ce100_matched_gap_and_high_rank/plots/appendix_empirical_adaptive_ce_budgets.png",
+        "04_ce100_matched_gap_and_high_rank/plots/appendix_empirical_adaptive_ce_budgets.svg",
+        "04_ce100_matched_gap_and_high_rank/plots/appendix_empirical_adaptive_ce_budgets.pdf",
+        "04_ce100_matched_gap_and_high_rank/plots/appendix_matched_npg_relative_comparison.png",
+        "04_ce100_matched_gap_and_high_rank/plots/appendix_matched_npg_relative_comparison.svg",
+        "04_ce100_matched_gap_and_high_rank/plots/appendix_matched_npg_relative_comparison.pdf"
+      ],
+      "CE_accuracy_table": "04_ce100_matched_gap_and_high_rank/plots/table_1_ce_accuracy.csv",
+      "matched_CE_sampling_seeds_per_rank": 30,
+      "high_rank_CE_systems_per_rank": 2,
+      "high_rank_CE_saved_prefixes": 180,
+      "precision_outputs": 2880,
+      "empirical_adaptive_outputs": 4320,
+      "empirical_adaptive_failed_outputs_retained": 8,
+      "matched_NPG_saved_stages": 13500,
+      "note": "Main figures/table use CE. NPG and empirical adaptive CE are appendix-only; historical observed accuracy records are retained without a theorem claim."
+    }
+  },
+  "appendix": {
+    "status": "complete",
+    "exact_endpoint_records": 576,
+    "tail_output_records": 8064,
+    "note": "All failure-inclusive cells retained; these are not main-figure survivor statistics."
+  },
+  "runtime_directories": {
+    "MPLCONFIGDIR": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\.runtime\\matplotlib",
+    "XDG_CACHE_HOME": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\.runtime\\cache",
+    "TMP": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\.runtime\\tmp",
+    "TEMP": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\.runtime\\tmp",
+    "TMPDIR": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\.runtime\\tmp"
+  }
+}

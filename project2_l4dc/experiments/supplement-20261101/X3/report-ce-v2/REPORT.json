@@ -1,0 +1,117 @@
+{
+  "status": "COMPLETE",
+  "scope": "SAVED_CSV_FIGURE_REFINEMENT",
+  "source_report_sha256": "50e98ce4ac2f1bf9623899446e912f3ca36c1fe1646a798d4656d87a7dc2e65f",
+  "stable_regions": [
+    {
+      "n": 16,
+      "spectrum": "smooth",
+      "displayed_prefixes": [
+        2030,
+        2870,
+        4058,
+        5738,
+        8114,
+        11474,
+        16226,
+        22947,
+        32451,
+        32768
+      ],
+      "rule": "all32 outputs stable for dense, both adaptive rules and selected fixed-k median envelope"
+    },
+    {
+      "n": 16,
+      "spectrum": "gapped",
+      "displayed_prefixes": [
+        8114,
+        11474,
+        16226,
+        22947,
+        32451,
+        32768
+      ],
+      "rule": "all32 outputs stable for dense, both adaptive rules and selected fixed-k median envelope"
+    },
+    {
+      "n": 16,
+      "spectrum": "flat",
+      "displayed_prefixes": [
+        181,
+        255,
+        360,
+        509,
+        719,
+        1016,
+        1436,
+        2030,
+        2870,
+        4058,
+        5738,
+        8114,
+        11474,
+        16226,
+        22947,
+        32451,
+        32768
+      ],
+      "rule": "all32 outputs stable for dense, both adaptive rules and selected fixed-k median envelope"
+    },
+    {
+      "n": 32,
+      "spectrum": "smooth",
+      "displayed_prefixes": [
+        4078,
+        8155,
+        11532,
+        16308,
+        23062,
+        32614,
+        46123,
+        65227,
+        65536
+      ],
+      "rule": "all32 outputs stable for dense, both adaptive rules and selected fixed-k median envelope"
+    },
+    {
+      "n": 32,
+      "spectrum": "gapped",
+      "displayed_prefixes": [
+        11532,
+        16308,
+        23062,
+        32614,
+        46123
+      ],
+      "rule": "all32 outputs stable for dense, both adaptive rules and selected fixed-k median envelope"
+    },
+    {
+      "n": 32,
+      "spectrum": "flat",
+      "displayed_prefixes": [
+        362,
+        511,
+        722,
+        1021,
+        1443,
+        2040,
+        2884,
+        4078,
+        5767,
+        8155,
+        11532,
+        16308,
+        23062,
+        32614,
+        46123,
+        65227,
+        65536
+      ],
+      "rule": "all32 outputs stable for dense, both adaptive rules and selected fixed-k median envelope"
+    }
+  ],
+  "full_grid_preserved": true,
+  "new_training_transitions": 0,
+  "source_sha256": "7b85786621bde0b5ce5c0ddea371496f0badebd4c08e9704785c59005e3cbfd4",
+  "job": "20359430"
+}

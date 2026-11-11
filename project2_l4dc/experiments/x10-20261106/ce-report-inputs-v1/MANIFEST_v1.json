@@ -1,0 +1,23 @@
+{
+  "status": "SAVED_CE_FAILURE_RECORDS_COPIED_NO_COMPUTE",
+  "files": {
+    "X8_exact_raw.csv": {
+      "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\x8_b_raw.csv",
+      "sha256": "269a7883f77fcdfeb9ea893500686a021fc69733e98eda2db3b99e9d87177a75",
+      "bytes": 257186
+    },
+    "X8_geometric_raw.csv": {
+      "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\x8_c_raw.csv",
+      "sha256": "ff15b7e66dd197c0ca768660226c59161ac4657418519e4ee81c494808ffb350",
+      "bytes": 5484624
+    },
+    "X6a_CE_observations.csv": {
+      "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\CE-addition-v2\\deliveries\\ce-20365253-v7\\X6a\\CE-addition-v1\\observations.csv",
+      "sha256": "a9f37905f002a5b7f337092dbb2bc328b9d569d5161f0b95a99ab71b3d420bca",
+      "bytes": 521008
+    }
+  },
+  "old_results_edited": false,
+  "new_jobs": 0,
+  "SU": 0
+}

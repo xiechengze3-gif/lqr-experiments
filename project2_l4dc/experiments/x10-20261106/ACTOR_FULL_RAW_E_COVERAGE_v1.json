@@ -1,0 +1,20 @@
+{
+  "status": "ALL256_FORMAL_RAW_TASKS_VERIFIED_ON_E",
+  "bundles": 256,
+  "paired_paths": 1280,
+  "arm_paths": 2560,
+  "primitive_transitions": 243008280576,
+  "authoritative_delivery": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\delivery-actor-report-v1",
+  "archive_sha256": "ca40b9bc7466d8bfb14a8caaf05094d1944d1c0b8ce93b5708ea69de4d30a77a",
+  "archive_manifest_sha256": "9fb381a0a93b4eb74f1f39c2ccfedf2b892b1172c35133b3a38edfe90274fe4a",
+  "full_delivery_member_checks": 64314,
+  "prior_incremental_tasks": 122,
+  "incremental_scientific_file_hash_matches": 33174,
+  "remaining_tasks_recovered_by_full_delivery": 134,
+  "failed_incremental_archive_preserved": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\raw-downloads-v2\\x10b-raw-formal-g04-t16-17-18-19-20-21-22-23-v1.tar.gz",
+  "failed_archive_bytes": 0,
+  "no_incremental_repack": true,
+  "no_experiment_rerun": true,
+  "numerical_reanalysis": false,
+  "new_training_transitions": 0
+}

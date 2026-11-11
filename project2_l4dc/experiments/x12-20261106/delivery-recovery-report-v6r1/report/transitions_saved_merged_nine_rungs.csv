@@ -1,0 +1,11 @@
+algorithm,n,N_cal,dense_gap_at_N_cal,truncated_N_to_match,left_censored,right_censored,unbracketed,target_identified,factor,rungs,interpretation
+NPG,24,189475712.0,0.057937461366330066,65522708.43499965,False,False,False,True,2.8917564082071663,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+NPG,36,378946928.0,0.0925312432193773,93828745.18163279,False,False,False,True,4.038708257969753,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+NPG,48,757889376.0,0.1080720608814772,153131939.4579651,False,False,False,True,4.9492573442396814,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+NPG,72,1515774320.0,0.18673888000771233,226558910.94976348,False,False,False,True,6.69042022512239,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+PI,24,189475712.0,0.12374510977589216,8378108.6433208,False,False,False,True,22.615571135026272,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+PI,36,378946928.0,0.19063587505662008,11899258.748268079,False,False,False,True,31.846263369569574,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+PI,48,757889376.0,0.23237394750925244,17369746.01464415,False,False,False,True,43.63272642910471,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+PI,72,1515774320.0,0.4003414909521944,22087259.837916926,False,False,False,True,68.62663504315229,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+NPG,60,757889376.0,0.21296047211320043,133366549.9084147,False,False,False,True,5.682754607661792,9,Descriptive median-curve crossing; no epsilon/probability guarantee
+PI,60,757889376.0,0.453175458267,12965854.687005987,False,False,False,True,58.45271247405967,9,Descriptive median-curve crossing; no epsilon/probability guarantee

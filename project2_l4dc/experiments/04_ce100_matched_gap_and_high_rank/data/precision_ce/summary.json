@@ -1,0 +1,248 @@
+{
+  "status": "COMPLETE",
+  "absolute_epsilon": 0.1,
+  "datasets": 8,
+  "prefix_count": 180,
+  "records": 2880,
+  "unstable_records": 0,
+  "historical_replay_checks": 96,
+  "full_rank_equality_checks": 360,
+  "actual_new_physical_transitions": 4198400,
+  "crossings": [
+    {
+      "rank": 16,
+      "method": "raw",
+      "first_tested_budget": 141824,
+      "previous_tested_budget": 139776,
+      "sustained_tested_budget": 141824,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 16,
+      "method": "truncated",
+      "first_tested_budget": 64000,
+      "previous_tested_budget": 61952,
+      "sustained_tested_budget": 64000,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 32,
+      "method": "raw",
+      "first_tested_budget": 160256,
+      "previous_tested_budget": 158208,
+      "sustained_tested_budget": 160256,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 32,
+      "method": "truncated",
+      "first_tested_budget": 113152,
+      "previous_tested_budget": 111104,
+      "sustained_tested_budget": 113152,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 64,
+      "method": "raw",
+      "first_tested_budget": 184832,
+      "previous_tested_budget": 182784,
+      "sustained_tested_budget": 184832,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 64,
+      "method": "truncated",
+      "first_tested_budget": 170496,
+      "previous_tested_budget": 168448,
+      "sustained_tested_budget": 170496,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 100,
+      "method": "raw",
+      "first_tested_budget": 156160,
+      "previous_tested_budget": 154112,
+      "sustained_tested_budget": 156160,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 100,
+      "method": "truncated",
+      "first_tested_budget": 156160,
+      "previous_tested_budget": 154112,
+      "sustained_tested_budget": 156160,
+      "right_censored": false,
+      "epsilon": 0.1
+    }
+  ],
+  "per_seed_crossings": [
+    {
+      "rank": 16,
+      "method": "raw",
+      "seed": 0,
+      "first_tested_budget": 141824,
+      "previous_tested_budget": 139776,
+      "sustained_tested_budget": 141824,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 16,
+      "method": "raw",
+      "seed": 1,
+      "first_tested_budget": 141824,
+      "previous_tested_budget": 139776,
+      "sustained_tested_budget": 141824,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 16,
+      "method": "truncated",
+      "seed": 0,
+      "first_tested_budget": 61952,
+      "previous_tested_budget": 59904,
+      "sustained_tested_budget": 61952,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 16,
+      "method": "truncated",
+      "seed": 1,
+      "first_tested_budget": 64000,
+      "previous_tested_budget": 61952,
+      "sustained_tested_budget": 64000,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 32,
+      "method": "raw",
+      "seed": 0,
+      "first_tested_budget": 158208,
+      "previous_tested_budget": 156160,
+      "sustained_tested_budget": 158208,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 32,
+      "method": "raw",
+      "seed": 1,
+      "first_tested_budget": 160256,
+      "previous_tested_budget": 158208,
+      "sustained_tested_budget": 160256,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 32,
+      "method": "truncated",
+      "seed": 0,
+      "first_tested_budget": 113152,
+      "previous_tested_budget": 111104,
+      "sustained_tested_budget": 113152,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 32,
+      "method": "truncated",
+      "seed": 1,
+      "first_tested_budget": 113152,
+      "previous_tested_budget": 111104,
+      "sustained_tested_budget": 113152,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 64,
+      "method": "raw",
+      "seed": 0,
+      "first_tested_budget": 174592,
+      "previous_tested_budget": 172544,
+      "sustained_tested_budget": 174592,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 64,
+      "method": "raw",
+      "seed": 1,
+      "first_tested_budget": 184832,
+      "previous_tested_budget": 182784,
+      "sustained_tested_budget": 184832,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 64,
+      "method": "truncated",
+      "seed": 0,
+      "first_tested_budget": 160256,
+      "previous_tested_budget": 158208,
+      "sustained_tested_budget": 160256,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 64,
+      "method": "truncated",
+      "seed": 1,
+      "first_tested_budget": 170496,
+      "previous_tested_budget": 168448,
+      "sustained_tested_budget": 170496,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 100,
+      "method": "raw",
+      "seed": 0,
+      "first_tested_budget": 154112,
+      "previous_tested_budget": 152064,
+      "sustained_tested_budget": 154112,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 100,
+      "method": "raw",
+      "seed": 1,
+      "first_tested_budget": 156160,
+      "previous_tested_budget": 154112,
+      "sustained_tested_budget": 156160,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 100,
+      "method": "truncated",
+      "seed": 0,
+      "first_tested_budget": 154112,
+      "previous_tested_budget": 152064,
+      "sustained_tested_budget": 154112,
+      "right_censored": false,
+      "epsilon": 0.1
+    },
+    {
+      "rank": 100,
+      "method": "truncated",
+      "seed": 1,
+      "first_tested_budget": 156160,
+      "previous_tested_budget": 154112,
+      "sustained_tested_budget": 156160,
+      "right_censored": false,
+      "epsilon": 0.1
+    }
+  ],
+  "slurm_job_id": "20164374"
+}

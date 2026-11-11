@@ -1,0 +1,704 @@
+{
+  "scope": "Saved resource metadata and existing summaries only; no new scientific calculation.",
+  "groups": [
+    {
+      "id": "n24-full-NPG",
+      "tasks": 32,
+      "sum_task_seconds": 8711.252356899902,
+      "max_task_seconds": 295.3294013161212,
+      "median_task_seconds": 276.65709766652435,
+      "raw": [
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-0\\DONE.json",
+          "seconds": 270.03313197009265,
+          "peak_RSS_KiB": null,
+          "job": "20365566",
+          "sha256": "34bc0b2e8340b8bce52971a2878935f8587c17d4669803fe278297d09d56eb5d"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-1\\DONE.json",
+          "seconds": 266.08046712353826,
+          "peak_RSS_KiB": null,
+          "job": "20365567",
+          "sha256": "5bf083ec126b1dc5233bdb2cb8f276f58bd0cec821594812cf4b9f1c297d854e"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-10\\DONE.json",
+          "seconds": 279.72904081083834,
+          "peak_RSS_KiB": null,
+          "job": "20365670",
+          "sha256": "42b60cf4832d0d59802744033044c30a87fbc16245ce44c997d84ae7c62795c3"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-11\\DONE.json",
+          "seconds": 287.2251129411161,
+          "peak_RSS_KiB": null,
+          "job": "20365671",
+          "sha256": "69ccd3a52392f84d856276c9aae59811698b048fc9dab3628b8565490fd03d1f"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-12\\DONE.json",
+          "seconds": 276.08185101114213,
+          "peak_RSS_KiB": null,
+          "job": "20365672",
+          "sha256": "5972389bf327eba7cbdd67eccbee9c6e4839662f038d96e3c260e99cda59e4f6"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-13\\DONE.json",
+          "seconds": 279.597460988909,
+          "peak_RSS_KiB": null,
+          "job": "20365673",
+          "sha256": "48f193c4a08f669e930a0ba87356c60e31db57b56cf31e17600559798093e940"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-14\\DONE.json",
+          "seconds": 280.19623846001923,
+          "peak_RSS_KiB": null,
+          "job": "20365674",
+          "sha256": "b10299334cce08bb7d8dbceda86c633e11493aded7b9f4061cbb357888606e8c"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-15\\DONE.json",
+          "seconds": 272.70002415031195,
+          "peak_RSS_KiB": null,
+          "job": "20365683",
+          "sha256": "7c929379243c96cb2672d4b8359c3fc9f8faaadb49c96fa1107625f602c54722"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-16\\DONE.json",
+          "seconds": 255.4645090121776,
+          "peak_RSS_KiB": null,
+          "job": "20365708",
+          "sha256": "61c8774cda5bbb7b587b0dfcbddf2d1f81bb14f53ce04f660aaa72f3187dc8a5"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-17\\DONE.json",
+          "seconds": 255.96342954412103,
+          "peak_RSS_KiB": null,
+          "job": "20365709",
+          "sha256": "c0a324cd51299a0601f5696b1906fd6af73c3a215473f2c8eeb533026c44ab1a"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-18\\DONE.json",
+          "seconds": 279.6041409224272,
+          "peak_RSS_KiB": null,
+          "job": "20365723",
+          "sha256": "ba3cc147e3cbfd5f845952a7222ac9ee09fb9945f6c0c9796e15d74e65d02927"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-19\\DONE.json",
+          "seconds": 276.6270650476217,
+          "peak_RSS_KiB": null,
+          "job": "20365724",
+          "sha256": "123f10d7bb02442ceb26669df7b4b1d4483912f8ad2cdf9ec2317e22ae7c82b3"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-2\\DONE.json",
+          "seconds": 286.89600070007145,
+          "peak_RSS_KiB": null,
+          "job": "20365568",
+          "sha256": "46333035eba39e8dfd53245b985c02722069b897b9fad40c5f7ec57fd987ad7e"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-20\\DONE.json",
+          "seconds": 278.70619271323085,
+          "peak_RSS_KiB": null,
+          "job": "20365725",
+          "sha256": "8ceda2393d60734b59c10d6b41b9fb36d4a3c6f9cbdcadfc7b0ad159f412b4ec"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-21\\DONE.json",
+          "seconds": 278.1752310246229,
+          "peak_RSS_KiB": null,
+          "job": "20365726",
+          "sha256": "e521519de4da2fa6fb206f4a37c1edfca0c5255d4b289ad58747a8a9c0cfc305"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-22\\DONE.json",
+          "seconds": 276.4536139406264,
+          "peak_RSS_KiB": null,
+          "job": "20365727",
+          "sha256": "983f9a6edc48fe4c8a920e0799510b3745c971e394a42045ffc4964dcfebc261"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-23\\DONE.json",
+          "seconds": 273.07510871626437,
+          "peak_RSS_KiB": null,
+          "job": "20365763",
+          "sha256": "aaad4354094bc9ee42522f27a3d4ecbd57fcb0506a2524ca61e8f822a79f5b8b"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-24\\DONE.json",
+          "seconds": 276.687130285427,
+          "peak_RSS_KiB": null,
+          "job": "20365788",
+          "sha256": "3b5a9c38a5ba3b2e094afd4da4dd511d6afd41283f19aabca7e60751700f21ce"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-25\\DONE.json",
+          "seconds": 258.7077588699758,
+          "peak_RSS_KiB": null,
+          "job": "20365789",
+          "sha256": "039a65cd521e31939f4daeb7503a644628db25fc4fc30f25b038ade95374b441"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-26\\DONE.json",
+          "seconds": 243.57717314176261,
+          "peak_RSS_KiB": null,
+          "job": "20365801",
+          "sha256": "ee3b14c9822935d95eb1ea0692fd77cdd9d9c84fe4a8c77545c78e4a4e6e1d37"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-27\\DONE.json",
+          "seconds": 250.79973257519305,
+          "peak_RSS_KiB": null,
+          "job": "20365802",
+          "sha256": "5dbdb19bb26466d32f831680d8664bb4c5337b77ed0dbf5af962ae2491325bac"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-28\\DONE.json",
+          "seconds": 243.52432797290385,
+          "peak_RSS_KiB": null,
+          "job": "20365803",
+          "sha256": "7869b425458a430c7c6646a25c3ca87dd7e44441e2ca66a44bdaa432f0f0d5ea"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-29\\DONE.json",
+          "seconds": 283.2891380023211,
+          "peak_RSS_KiB": null,
+          "job": "20365804",
+          "sha256": "bce9519f61c45c27f6c5ce9310ae97954145f468cf9ed6fb2123ae3698fcd555"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-3\\DONE.json",
+          "seconds": 288.65662412159145,
+          "peak_RSS_KiB": null,
+          "job": "20365569",
+          "sha256": "78e840e0dc741815a5995fa24eed59c27727f1f781284c6eb94b09b54a3e7e6f"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-30\\DONE.json",
+          "seconds": 283.7653847821057,
+          "peak_RSS_KiB": null,
+          "job": "20365805",
+          "sha256": "7711fdef6f00536dedbf4c5b7b153dfdde78173e68c7bbb6d893ed72de9f32fe"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-31\\DONE.json",
+          "seconds": 230.6801672615111,
+          "peak_RSS_KiB": null,
+          "job": "20365557",
+          "sha256": "91f66ee2462d349efdd2e92e118d84888f292f1032c8bbc4361753629fdb914c"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-4\\DONE.json",
+          "seconds": 287.15057600848377,
+          "peak_RSS_KiB": null,
+          "job": "20365570",
+          "sha256": "04c32c38e8e800e538d2d6b9e566fcead9593232ff9e29af1b2302d670b4c2b6"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-5\\DONE.json",
+          "seconds": 289.0814308281988,
+          "peak_RSS_KiB": null,
+          "job": "20365571",
+          "sha256": "4b0d4d1564fef00899425ac14d7ddafe26823acb370095d5026e0caa629619e3"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-6\\DONE.json",
+          "seconds": 286.7175513096154,
+          "peak_RSS_KiB": null,
+          "job": "20365572",
+          "sha256": "eb2490e99d911ae906bf3f57f876caf134f549ab79e6fda5caba4cadb276f55a"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-7\\DONE.json",
+          "seconds": 295.3294013161212,
+          "peak_RSS_KiB": null,
+          "job": "20365573",
+          "sha256": "4f8dae5874193c5976823304934ccd4d34ee3ce673b122b2379e495612937066"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-8\\DONE.json",
+          "seconds": 261.52546298503876,
+          "peak_RSS_KiB": null,
+          "job": "20365668",
+          "sha256": "21451c56e13ac5fb0aac585822002c339dc4aef14321b09e84ca9916d7101318"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-9\\DONE.json",
+          "seconds": 259.15187836252153,
+          "peak_RSS_KiB": null,
+          "job": "20365669",
+          "sha256": "294e5b3fef1122676d09d86824afc37820ba86ebe330606c60c600c4403dbec0"
+        }
+      ]
+    },
+    {
+      "id": "n24-full-PI",
+      "tasks": 32,
+      "sum_task_seconds": 8730.151901030913,
+      "max_task_seconds": 312.7369976211339,
+      "median_task_seconds": 277.8944731624797,
+      "raw": [
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-0\\DONE.json",
+          "seconds": 288.1543759647757,
+          "peak_RSS_KiB": null,
+          "job": "20365574",
+          "sha256": "e72dadd67527aac3cad32a35b04232cf8531283adf3038c61ccecde781b71bac"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-1\\DONE.json",
+          "seconds": 288.76186199858785,
+          "peak_RSS_KiB": null,
+          "job": "20365575",
+          "sha256": "3444f7a6d83e10720bd9921a580f7d05fbf5fee17d850fe1601372dd3353f79e"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-10\\DONE.json",
+          "seconds": 277.8543643280864,
+          "peak_RSS_KiB": null,
+          "job": "20365677",
+          "sha256": "ccbd53b4761fb31f768d7982dbd4503bed58d76cf621ad2c008749a177281400"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-11\\DONE.json",
+          "seconds": 277.934581996873,
+          "peak_RSS_KiB": null,
+          "job": "20365678",
+          "sha256": "d05b43d5a42fd1bc49cc1b870114023fe854314e21cf95c0fd8017cfd38d90e7"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-12\\DONE.json",
+          "seconds": 276.85437458381057,
+          "peak_RSS_KiB": null,
+          "job": "20365679",
+          "sha256": "fc1c8f1b4beb9150224ca00dda2454eb0daad9f50d05b3e9e8253fcb8c944595"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-13\\DONE.json",
+          "seconds": 276.44586146622896,
+          "peak_RSS_KiB": null,
+          "job": "20365680",
+          "sha256": "0c47675e224497e26638614e02ea9d64d224effb43c819514173ead2f78d3261"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-14\\DONE.json",
+          "seconds": 279.7381993830204,
+          "peak_RSS_KiB": null,
+          "job": "20365681",
+          "sha256": "a1034ac136a4e5400c3666f564a9028ab57eeea8881285cdb5189475fe350e4c"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-15\\DONE.json",
+          "seconds": 279.7980206310749,
+          "peak_RSS_KiB": null,
+          "job": "20365682",
+          "sha256": "de1b088e9e5f66fbf71375f8737e049bb1e675e2987110cb4d843e64a6c6f6de"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-16\\DONE.json",
+          "seconds": 276.53355205617845,
+          "peak_RSS_KiB": null,
+          "job": "20365728",
+          "sha256": "14a36d93a0c5fa16d523709c5283ea91913550a3091b54a9fe8512e6abb51709"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-17\\DONE.json",
+          "seconds": 275.3313215970993,
+          "peak_RSS_KiB": null,
+          "job": "20365729",
+          "sha256": "284f4b51f86673da18809f658d797307cce676acff6d6e01e9fdae722db9605c"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-18\\DONE.json",
+          "seconds": 276.5948308277875,
+          "peak_RSS_KiB": null,
+          "job": "20365730",
+          "sha256": "0b2dec1850c75e63904805ffe7161e0413136b431c19654acd87d4bcb8b23ff9"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-19\\DONE.json",
+          "seconds": 277.25177155062556,
+          "peak_RSS_KiB": null,
+          "job": "20365731",
+          "sha256": "342e7917e1d4de2e6c10b65a49fa64eb17492d99260f4d6c6d0c47959e1fb02e"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-2\\DONE.json",
+          "seconds": 287.9605025779456,
+          "peak_RSS_KiB": null,
+          "job": "20365576",
+          "sha256": "296b7159144120b99c625e3cd8fcaea180ae8885919aa74521bf0a81107f2b3e"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-20\\DONE.json",
+          "seconds": 279.2183180283755,
+          "peak_RSS_KiB": null,
+          "job": "20365732",
+          "sha256": "842dce18be62a35f3622e22ca46a65885fd8807f7efa017da93054a285313885"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-21\\DONE.json",
+          "seconds": 275.5091970190406,
+          "peak_RSS_KiB": null,
+          "job": "20365733",
+          "sha256": "17a5a58971c2ec84fef2704aa953da5cc0990521b712cabe79a2e6f72fd071bd"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-22\\DONE.json",
+          "seconds": 277.6401040032506,
+          "peak_RSS_KiB": null,
+          "job": "20365734",
+          "sha256": "ef6cbcb52835fab419ad685868c6f6f5372680fd0392964ca9f3fe84bb2993a0"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-23\\DONE.json",
+          "seconds": 277.254506977275,
+          "peak_RSS_KiB": null,
+          "job": "20365735",
+          "sha256": "61a58c365162e74c049065f53872e31f0fd5a32ae0877017a2ecdc8e8bc8e490"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-24\\DONE.json",
+          "seconds": 227.81090358644724,
+          "peak_RSS_KiB": null,
+          "job": "20365806",
+          "sha256": "0d38ff0898191d0d34a42bf4d87203585f6496bd9f9302208e7f0934e6aaa04b"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-25\\DONE.json",
+          "seconds": 225.54465660452843,
+          "peak_RSS_KiB": null,
+          "job": "20365807",
+          "sha256": "fca44c2360ba1dac86bfa1bf32685226a73b897b34a96d719dc046a5e9f49127"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-26\\DONE.json",
+          "seconds": 312.7369976211339,
+          "peak_RSS_KiB": null,
+          "job": "20365808",
+          "sha256": "b0fdf2ad72c15a389bd74d781d47c4db51ff9ba169b91fba3c3ef4a5f1dee3ed"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-27\\DONE.json",
+          "seconds": 312.49141695164144,
+          "peak_RSS_KiB": null,
+          "job": "20365809",
+          "sha256": "7d4c4508047ceaa9c0c6a37217c409fc5fe5cfcc450d0f794903b4be7414ca77"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-28\\DONE.json",
+          "seconds": 229.1927065756172,
+          "peak_RSS_KiB": null,
+          "job": "20365810",
+          "sha256": "a8778a62c4a3320222b3e4d7a0e2ad140421e151d6d18e208f024d1260885da2"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-29\\DONE.json",
+          "seconds": 229.6680494491011,
+          "peak_RSS_KiB": null,
+          "job": "20365811",
+          "sha256": "794ad0e0f343edcc1eee74601c4295a162d179360bb43dbbb1c8b2032004b52a"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-3\\DONE.json",
+          "seconds": 286.985582139343,
+          "peak_RSS_KiB": null,
+          "job": "20365577",
+          "sha256": "f173c136e546d7a3a6bec9172bf10725777b1470b4362bffcac9bcbc5ee74d2e"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-30\\DONE.json",
+          "seconds": 227.85444342903793,
+          "peak_RSS_KiB": null,
+          "job": "20365812",
+          "sha256": "e1fb3a584274d26cc38d0ecac4abb8f982ce053248f5120f3aaaf1125155de68"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-31\\DONE.json",
+          "seconds": 227.2002366706729,
+          "peak_RSS_KiB": null,
+          "job": "20365558",
+          "sha256": "d9bbb4a38a1c447fce89a5ee648472c574d1645c17141085a18942fb9c333dad"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-4\\DONE.json",
+          "seconds": 284.4100162871182,
+          "peak_RSS_KiB": null,
+          "job": "20365578",
+          "sha256": "2e75a59729afafcc869bdcd244664fb84009eb7782913de71adae339a1565692"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-5\\DONE.json",
+          "seconds": 285.8085826598108,
+          "peak_RSS_KiB": null,
+          "job": "20365579",
+          "sha256": "ab12ff77e8a3cea36385a429ef5ab89dfbc7f6a4539a0edd9c504dfdfec0f258"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-6\\DONE.json",
+          "seconds": 284.4076414462179,
+          "peak_RSS_KiB": null,
+          "job": "20365580",
+          "sha256": "fa963faa808c280ae9a35d25e09fdce420c44a52003f671a49c10594d9dff701"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-7\\DONE.json",
+          "seconds": 284.9434534627944,
+          "peak_RSS_KiB": null,
+          "job": "20365581",
+          "sha256": "95fe25090f844ec944c10a38b8dee9639ee38ef72714242a1246ebacc91ba5d3"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-8\\DONE.json",
+          "seconds": 283.3523092735559,
+          "peak_RSS_KiB": null,
+          "job": "20365675",
+          "sha256": "c4ad4e1b30ceca2813251958a93de2f5e565409df1d6dee29820944bce1e54de"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-9\\DONE.json",
+          "seconds": 278.9091598838568,
+          "peak_RSS_KiB": null,
+          "job": "20365676",
+          "sha256": "a457b35bc29d3c0b5dc56809010a368d12fd2dc7e2ed2661fd8e85b998ac29f6"
+        }
+      ]
+    },
+    {
+      "id": "n24-low-three",
+      "tasks": 32,
+      "sum_task_seconds": 5710.2631010226905,
+      "max_task_seconds": 191.65633059106767,
+      "median_task_seconds": 177.71921379771084,
+      "raw": [
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-0\\DONE.json",
+          "seconds": 191.65633059106767,
+          "peak_RSS_KiB": null,
+          "job": "20365549",
+          "sha256": "e6a6d27a508484fbe019a734ce3ed4379980c2fad1b345a5f22544f277ba728f"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-1\\DONE.json",
+          "seconds": 185.3922737967223,
+          "peak_RSS_KiB": null,
+          "job": "20365550",
+          "sha256": "c6dc61de20703d48d0a47c00f1ae98c4105e309d685e49cd570256d2d32bb9f1"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-10\\DONE.json",
+          "seconds": 180.81482153385878,
+          "peak_RSS_KiB": null,
+          "job": "20365661",
+          "sha256": "401bd55fb2bdd729da0a5332e9d87ec5c655856351f9b60bc08e87a218bd4114"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-11\\DONE.json",
+          "seconds": 180.2296854928136,
+          "peak_RSS_KiB": null,
+          "job": "20365662",
+          "sha256": "a356ec033a6723e5372a48cae64cdcc7d2f70cecc2ee1c9698a666e306fd7715"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-12\\DONE.json",
+          "seconds": 179.82629803568125,
+          "peak_RSS_KiB": null,
+          "job": "20365663",
+          "sha256": "e93b9c60876baeb9dc64b29d55a33df4a21f2da17a3b384817b896639c059592"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-13\\DONE.json",
+          "seconds": 179.79993301816285,
+          "peak_RSS_KiB": null,
+          "job": "20365664",
+          "sha256": "abac97cce6c6a165048e8ee511cad55f5b55c982135885b9b09c7c0f0ac9aeeb"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-14\\DONE.json",
+          "seconds": 180.116554742679,
+          "peak_RSS_KiB": null,
+          "job": "20365665",
+          "sha256": "7637d69cfcb495c8164b5b0acf1dd4af69369aba97fc84367faa3e08c6c9be6a"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-15\\DONE.json",
+          "seconds": 179.6912133190781,
+          "peak_RSS_KiB": null,
+          "job": "20365666",
+          "sha256": "6f5c4b80b7930ff0ef1655b02887254b2cd6d5afa767cb11919fdefecd4a44bc"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-16\\DONE.json",
+          "seconds": 174.8402695134282,
+          "peak_RSS_KiB": null,
+          "job": "20365686",
+          "sha256": "284d6068658ec19aca96663554f2e1588c1b0633aa75eca4dd155925d5abb4dd"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-17\\DONE.json",
+          "seconds": 174.00370065495372,
+          "peak_RSS_KiB": null,
+          "job": "20365687",
+          "sha256": "2ddc6277975a656b717c214f7ccd218b93e9917decd9453efde268015408c22a"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-18\\DONE.json",
+          "seconds": 173.91752085834742,
+          "peak_RSS_KiB": null,
+          "job": "20365688",
+          "sha256": "7f27bd40c995c5da6ad7891339f0ca8ccc09ac4a1245ae796a4f966aa19ea3c7"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-19\\DONE.json",
+          "seconds": 174.08412789180875,
+          "peak_RSS_KiB": null,
+          "job": "20365689",
+          "sha256": "f10de5cb8586756846d5bb507d120df0ceb5d8419ba638eb89d7d79789bdb77d"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-2\\DONE.json",
+          "seconds": 183.41781293600798,
+          "peak_RSS_KiB": null,
+          "job": "20365551",
+          "sha256": "7a6377734aed17d0d1083df2bba0c762008157a34a1b431aebf08a5267a1fe96"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-20\\DONE.json",
+          "seconds": 173.53903874382377,
+          "peak_RSS_KiB": null,
+          "job": "20365690",
+          "sha256": "386df27a5cc097990f2109d0539dd596c26707cd6cb3d785d1d4fbdeeb4030d9"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-21\\DONE.json",
+          "seconds": 173.51973764412105,
+          "peak_RSS_KiB": null,
+          "job": "20365691",
+          "sha256": "64824152692580eb22306a5b0a15dfdd1dd9c70a97c91cc5db4231b160450503"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-22\\DONE.json",
+          "seconds": 173.53452204726636,
+          "peak_RSS_KiB": null,
+          "job": "20365692",
+          "sha256": "66570388b3ae05c3dfb15938d91772017b3dca0e3c2046ab6bd549f1438b40cf"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-23\\DONE.json",
+          "seconds": 173.3224612530321,
+          "peak_RSS_KiB": null,
+          "job": "20365693",
+          "sha256": "9d9ef4a2447401585ec1beb8b0bc7a388ce2b8a2279bb9a0fecba2d80d653e7b"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-24\\DONE.json",
+          "seconds": 175.83501592464745,
+          "peak_RSS_KiB": null,
+          "job": "20365716",
+          "sha256": "0f55dc730b6bc1289bb4eb8f5c8ba11949cb872a35c510320d19a8d9a879bb15"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-25\\DONE.json",
+          "seconds": 174.9524278268218,
+          "peak_RSS_KiB": null,
+          "job": "20365717",
+          "sha256": "82a75666a57d3d00d7e8113759781bbaa00c070be24f01dd2e239e0db67a0a57"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-26\\DONE.json",
+          "seconds": 173.89022209495306,
+          "peak_RSS_KiB": null,
+          "job": "20365718",
+          "sha256": "8fb6943939d66a3dd1259885c5fb20d7ca0aae224193a1cdc21e23565cdfea50"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-27\\DONE.json",
+          "seconds": 173.96290548332036,
+          "peak_RSS_KiB": null,
+          "job": "20365719",
+          "sha256": "82b57c6d6d1a50f16596223566070d3fbca9489ba391580299fae318fecf74e2"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-28\\DONE.json",
+          "seconds": 174.5759780164808,
+          "peak_RSS_KiB": null,
+          "job": "20365720",
+          "sha256": "3fcfb7f8a1f047ee1e5e21e00d87b5c8b17bb68f1bcab3d2b47e31f4e6533405"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-29\\DONE.json",
+          "seconds": 173.7582154944539,
+          "peak_RSS_KiB": null,
+          "job": "20365721",
+          "sha256": "c51e68769fbe2ca897f7dff9668e6bedc75852f18c19a9b740129f1343609ef9"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-3\\DONE.json",
+          "seconds": 184.75797970592976,
+          "peak_RSS_KiB": null,
+          "job": "20365552",
+          "sha256": "93212b25625d3d8c3b261b4beea39bc0616eb0a4423aed4890a6d8f26c53034d"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-30\\DONE.json",
+          "seconds": 175.04184871725738,
+          "peak_RSS_KiB": null,
+          "job": "20365722",
+          "sha256": "6ffea95514827b29b4bb4065ee1a5f791fb008d169995edac795f2ba10019e7e"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-31\\DONE.json",
+          "seconds": 174.13881785981357,
+          "peak_RSS_KiB": null,
+          "job": "20365548",
+          "sha256": "5e285aefedac6401e2349b82f85b1de074bdd77cebd5e64c677e1c06d3ce9c97"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-4\\DONE.json",
+          "seconds": 184.54450115002692,
+          "peak_RSS_KiB": null,
+          "job": "20365553",
+          "sha256": "4e0d3fd2764fdaff19eab69ed164df5ba72a7ed27b029488b9671c49303979b3"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-5\\DONE.json",
+          "seconds": 184.82222142629325,
+          "peak_RSS_KiB": null,
+          "job": "20365554",
+          "sha256": "ba532ae2cc4621c00d87b65c22b44979c4b6d0d996b626b67e6e2158e691e187"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-6\\DONE.json",
+          "seconds": 184.70042117871344,
+          "peak_RSS_KiB": null,
+          "job": "20365555",
+          "sha256": "73987d0f9db391195fafc07dd340aacb8a71ea09eb9fee5a3067dcc655b7c179"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-7\\DONE.json",
+          "seconds": 184.2300440967083,
+          "peak_RSS_KiB": null,
+          "job": "20365556",
+          "sha256": "e6e3e594e9b69a502e6a8e77a2c35d4412f1fbfd07759e170b63caf724560432"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-8\\DONE.json",
+          "seconds": 179.60341167077422,
+          "peak_RSS_KiB": null,
+          "job": "20365659",
+          "sha256": "3374d565234957d4b1f2ea6f9b60723fdd2a3d9b211b1074ada00cfc62060620"
+        },
+        {
+          "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-9\\DONE.json",
+          "seconds": 179.74278830364347,
+          "peak_RSS_KiB": null,
+          "job": "20365660",
+          "sha256": "a83fc10aaa59f40ba8529cc5652c87aa9d2e37bfeed7f2300daf60c76faff8e5"
+        }
+      ]
+    }
+  ]
+}

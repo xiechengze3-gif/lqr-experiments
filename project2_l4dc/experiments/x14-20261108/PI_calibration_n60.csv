@@ -1,0 +1,4 @@
+family,n,algorithm,smallest_N,status,threshold,censored_above_N,statistic,pilots,X12_N_cal,exceeds_X12_N_cal,Bstar_blocks,Bstar_rho_op_median,Bstar_qualifies
+S,60,PI,524288,QUALIFIED,1.0,,median_of_two_system_seed_medians,"9101,9102",2097152,False,3276800,0.3338087590044415,True
+S,60,PI_raw,524288,QUALIFIED,1.0,,median_of_two_system_seed_medians,"9101,9102",2097152,False,3276800,0.3568844988185447,True
+S,60,NPG,2097152,QUALIFIED,1.0,,median_of_two_system_seed_medians,"9101,9102",2097152,False,3276800,0.7111989099270841,True

@@ -1,0 +1,13 @@
+{
+  "status": "BILLING_VERIFIED",
+  "checked_utc": "2026-11-02T23:44:01.605842+00:00",
+  "cap_requested_SU": 15,
+  "cumulative_requested_SU": 2.6,
+  "slurm_elapsed_billing_SU": 0.29277777777777764,
+  "ams_settled_walltime_slots_SU": 0.07833333333333332,
+  "ams_displayed_rounded_SU_sum": 0.08,
+  "unknown_billing_jobs": [],
+  "account_summary_line": "|132685389143|  2027|        Y|    20000.00|          15577.78|     4422.22|Li, Yan             |",
+  "source_sha256": "cd0b8bc75d385560068c84ec3f5a038df5553273756cd50bbc0fb442948466d1",
+  "note": "Slurm elapsed and AMS settled are separate. Do not add; account balance is not study cost."
+}

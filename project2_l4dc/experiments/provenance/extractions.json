@@ -1,0 +1,408 @@
+[
+  {
+    "target": "02_same_data_decomposition/data/ce_same_data.csv",
+    "rows": 1008,
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\all_records.csv",
+    "source_sha256": "3bd2370b8c384d5e8195db77c59cddf23e4250ed009a5bca94371ca732ef7418",
+    "selection": "CE, exact, n=24, r=2; both A families; every saved prefix/mode",
+    "target_sha256": "92cddbd6b7a92c3ba492ec2ad7cb6cffd3d11ee6b4f7fac28ef346831fbf5e9c"
+  },
+  {
+    "target": "02_same_data_decomposition/data/npg_same_blocks.csv",
+    "rows": 96,
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\same_blocks_diagnostic.csv",
+    "source_sha256": "4a4590e473433bd4fd80e7a78cbeb3d162078ffba6f054bf8b32f355eed21b2c",
+    "selection": "exact, n=24,r=2, stage=1, source_mode=dense; one source per repeat, dense/truncated counterfactuals",
+    "target_sha256": "5f100ca5c0c9c646e4e0d6509a7480767082017583610809131113ade6c6b033"
+  },
+  {
+    "target": "03_fullrank_rank_scan/data/fullrank_all_outputs.csv",
+    "rows": 54264,
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\all_records.csv",
+    "source_sha256": "3bd2370b8c384d5e8195db77c59cddf23e4250ed009a5bca94371ca732ef7418",
+    "selection": "gapped/smooth/flat; all algorithms, A families, k and saved budgets; no survivor selection",
+    "target_sha256": "a0d6497b6ca8d5df4a67ce487058dcdd26c360bbc29245b37542c0b215baaaef"
+  },
+  {
+    "target": "appendix/data/tail_strength_all_outputs.csv",
+    "rows": 8064,
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\all_records.csv",
+    "source_sha256": "3bd2370b8c384d5e8195db77c59cddf23e4250ed009a5bca94371ca732ef7418",
+    "selection": "additional tail-strength negative controls, all saved records",
+    "target_sha256": "937065033879476c5b7d99ad6b21d731943812aa427bb619c7d25f893f7923a9"
+  },
+  {
+    "target": "appendix/data/exact_rank_npg_endpoints.csv",
+    "rows": 576,
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\all_records.csv",
+    "source_sha256": "3bd2370b8c384d5e8195db77c59cddf23e4250ed009a5bca94371ca732ef7418",
+    "selection": "all 576 exact-rank NPG endpoints, including absorbing failure outputs",
+    "target_sha256": "dd85dbced84fd63eae46f8aaefea3aa11b074483c2f438631787279ab75a96f8"
+  },
+  {
+    "target": "provenance/original/local_runs/ce-npg-arguments-20261028/report/endpoint_all_denominators.csv",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\endpoint_all_denominators.csv",
+    "sha256": "640cdf3fa8321d027449304261ad10b3516eba5282c6c2ca663e01255ef6dba1",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/local_runs/ce-npg-arguments-20261028/report/failed_outputs.csv",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\failed_outputs.csv",
+    "sha256": "5ff9de71de51a6ee70856e4cf1f8d9018db2016bdfe5ed977587f7188a085036",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/local_runs/ce-npg-arguments-20261028/report/system_certificates.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\system_certificates.json",
+    "sha256": "128a3980bb8c0f7cb2017176055021ce03f4a28dab4190563c9de0ba6b788863",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/local_runs/ce-npg-arguments-20261028/report/SHA256SUMS",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-arguments-20261028\\report\\SHA256SUMS",
+    "sha256": "464d73dbc0531667049943205a6b7fbabe069239ec06be81f0ca5fcbad3749f6",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/local_runs/ce-npg-initial-gap-20261028/report/attainment_side_by_side.csv",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-initial-gap-20261028\\report\\attainment_side_by_side.csv",
+    "sha256": "8d569532f043b77f946dbcd588603d5d34dd98ca95c6254122db94075971d8ca",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/local_runs/ce-npg-initial-gap-20261028/report/initial_gap_by_task.csv",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\local_runs\\ce-npg-initial-gap-20261028\\report\\initial_gap_by_task.csv",
+    "sha256": "4bf7a9d8d5a349c2d270e4537a1d8c0dd50599fcce17791b424ef86c583f2c9a",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/receipts/ce-npg-arguments-20261028-complete.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\ce-npg-arguments-20261028-complete.json",
+    "sha256": "63fea38573b433b69df544adf98de5d4c9c4494bf84520b18f591443e88018b6",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/receipts/ce-npg-arguments-20261028-delivery-audit.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\ce-npg-arguments-20261028-delivery-audit.json",
+    "sha256": "3599ac37e3871f676f347154a6d5050bfeb64d8a99f599e9b4c6eb159e4e412c",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/receipts/ce-npg-arguments-20261028-local-verification.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\ce-npg-arguments-20261028-local-verification.json",
+    "sha256": "9b5127a31cb1519841022fa79ce8f8fe77e68b6a6be893784fcd73b621a03b86",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/receipts/final-story-20261024-complete.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\final-story-20261024-complete.json",
+    "sha256": "3d3e527ffb944ea22531de60af8816f0053b2a85dc739bdfbb75dd2ab8f37f8c",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/receipts/matched-gap-npg-pi-20261019.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\matched-gap-npg-pi-20261019.json",
+    "sha256": "9c59db0fa9cfb1a87066c4944ac2dd31c7f8b1b3377d7114dea0b9b777a9a111",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/receipts/ce-matched-initial-gap-20261018.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\ce-matched-initial-gap-20261018.json",
+    "sha256": "98e79665ad421a9be0d3a65c869bc9c4e20a2968005ab7b7917f0179996f54ea",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/receipts/ce-precision-zoom.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\ce-precision-zoom.json",
+    "sha256": "25f543015dc385c05e40e8e7b135d69a23838bfdfe44dfb019cf30fec3590c31",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/receipts/ce-adaptive-zoom.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\ce-adaptive-zoom.json",
+    "sha256": "e542d48b8bda6c344488223b0c02c973c7ddda5f9f7d4fc55d97a842d9264da3",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/FINAL_STORY_FINDINGS_20261024.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\FINAL_STORY_FINDINGS_20261024.md",
+    "sha256": "0b67c50e6f0e7cf2c485e09dfcbf34580820d7b1e0c599c158775a7ea5e127b5",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/CE_NPG_ARGUMENT_FINDINGS_20261028.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\CE_NPG_ARGUMENT_FINDINGS_20261028.md",
+    "sha256": "45c3cbeb451b4beb7dc8ad2b7a38fe07028c77ff89a45127e2fb10b0e3c2dc04",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/CE_NPG_INITIAL_GAP_FINDINGS_20261028.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\CE_NPG_INITIAL_GAP_FINDINGS_20261028.md",
+    "sha256": "6c312dfe2b8c0a6040ad12e27c906c2b6d488765bb42f4590e4c31a9e409c12b",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/MATCHED_GAP_NPG_PI_FINDINGS_20261019.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\MATCHED_GAP_NPG_PI_FINDINGS_20261019.md",
+    "sha256": "7dc8aaada7b537e33fe617d6d734e7e9f27cd35bdc5e18a86f4bd1f0507dc17f",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/CE_MATCHED_INITIAL_GAP_FINDINGS_20261018.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\CE_MATCHED_INITIAL_GAP_FINDINGS_20261018.md",
+    "sha256": "40a726258f1f2b1a5f5414448dffa1735f2e6791955a670f305e610f0436d44a",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/CE_PRECISION_ZOOM_FINDINGS.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\CE_PRECISION_ZOOM_FINDINGS.md",
+    "sha256": "6fd265049b36c88b20176d7e0ca44b2a1091d1e595ebbc273017837950e950ba",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/CE_ADAPTIVE_ZOOM_FINDINGS.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\CE_ADAPTIVE_ZOOM_FINDINGS.md",
+    "sha256": "5a849ebb04f6bae7bcc6bf8b295645e502bdb8ae865cc1a7b6105dfa202c5318",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/PROJECT2_K0_A_B_CONSTRUCTION_AUDIT_20261022.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\PROJECT2_K0_A_B_CONSTRUCTION_AUDIT_20261022.md",
+    "sha256": "29074c7b247f23821b9866f3b1cea74200dc2387d2e5f36fa5cab4957247b9cf",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/docs/PROJECT2_EXPERIMENT_FAIRNESS_AUDIT_20261022.md",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\PROJECT2_EXPERIMENT_FAIRNESS_AUDIT_20261022.md",
+    "sha256": "2504a7729e3b5b3b6142c2618ec9d15ce9f09d42f6b4d7a1896fd4d31ee04fa1",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/configs/ce_npg_argument_revision_20261027.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\configs\\ce_npg_argument_revision_20261027.json",
+    "sha256": "054f923dab675df1e7dee1601c92b27e237c67431ee5f8f1dc071e85c7aecd2b",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/configs/ce_matched_initial_gap_20261018.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\configs\\ce_matched_initial_gap_20261018.json",
+    "sha256": "adfe7ac5ab6b8c2717ab55c66490db90f916420598eb3efa163ae0f69627190d",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/configs/matched_gap_npg_pi_v2_20261019.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\configs\\matched_gap_npg_pi_v2_20261019.json",
+    "sha256": "7ecae9607d0c65ee6d2321f00702b0e1d8573d4335830bb6e55853f41d767592",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/configs/ce_adaptive_zoom.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\configs\\ce_adaptive_zoom.json",
+    "sha256": "d692f4ac8d6de84e6957955d48c4561e580c21fcd58d362ee616a1c7663fc230",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/configs/ce_precision_zoom.json",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\configs\\ce_precision_zoom.json",
+    "sha256": "366e8b53945abf3b1d4dedcf3b1c6b5cdc3e46090b320a27f69a0707c4d9617d",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_adaptive_zoom.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_adaptive_zoom.py",
+    "sha256": "423315d78ec8f9a9684a60fc8616b5b98b9b62d0d501f186fe05366d0e01a53d",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/adaptive_rank.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\adaptive_rank.py",
+    "sha256": "16d7ae86202c338ec19e6944e70530d4556b5abaa90940db760b0fd7de07ef6d",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_precision_zoom.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_precision_zoom.py",
+    "sha256": "bfe195a6b412c5b61f6b36d6c732b416d085e419af23d444311fa80a5df1cd45",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_high_rank.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_high_rank.py",
+    "sha256": "6c7803e1254af272b79d17048bd84d3715b22e87ce37506080765a16cfe466d7",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_matched_initial_gap_report.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_matched_initial_gap_report.py",
+    "sha256": "b99ac213dff951a32350e0eb8c232d319c865750cf00aae95727385dd12d1b86",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_matched_initial_gap.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_matched_initial_gap.py",
+    "sha256": "1e72c7bf8e6cd9a8c533cb3c71ad64dee22dc4df44a183ef54dbc406fc1ed239",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/rank_sweep100.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\rank_sweep100.py",
+    "sha256": "c65dd45ec44d99745221b7855e6f34590c18cab92822be9fd9bfcd5af3884a45",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/actuation_redundancy.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\actuation_redundancy.py",
+    "sha256": "929cf98e5e2498ea51d3ccb02404a507349fa35c2d7cb5a918dc5b52625960c1",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/direct_stein_final.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\direct_stein_final.py",
+    "sha256": "486f1012ecc9763fcdf3615d94c83a097acb039c6bc898f3b0cae8916fdeb890",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/npg_batched_collector.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\npg_batched_collector.py",
+    "sha256": "3d192b2e0176269fe5ffcab67c131300d8522cbf3e171f04223e29d537b4d86b",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/plot_matched_gap_final_review.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\plot_matched_gap_final_review.py",
+    "sha256": "787e21ebb9e130085c47a663d36a411b1c78f4f24661037227b9871b60193833",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/matched_gap_npg_pi_report.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\matched_gap_npg_pi_report.py",
+    "sha256": "51f14d5a1ceed08a7b08367d845d81236367b6411c32eacce8ce709b950f8063",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/matched_gap_npg_pi.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\matched_gap_npg_pi.py",
+    "sha256": "74c3ae565b19d54f9b9a19b55c64458fc742af950e58fe2aec940e9ce04de8b3",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/rank_sweep100_pi.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\rank_sweep100_pi.py",
+    "sha256": "c113b5449b8f80f11ee5e7239ed40c9a15f16e937ce3957756ae1c3d1a7d3e42",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/rank_sweep100_pi_data.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\rank_sweep100_pi_data.py",
+    "sha256": "805f9727efa545165400cf81d0532ca8cb506de1d2b98a5ac7a22a25ef96612b",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/full_lstd.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\full_lstd.py",
+    "sha256": "d0f438ff95832ec54452009c3c6cb8a38d74fd05613371dfc767dc87fdf2cfbe",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/full_lstd_precision.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\full_lstd_precision.py",
+    "sha256": "2197e180353fbfe0a37e9ae6290b3128dd18434161d15dbad9d461d9b0f13f4f",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/rank_sweep100_report.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\rank_sweep100_report.py",
+    "sha256": "50a49f0e7416134b601cdea5ab35ea5167bc1239cc20565af98c537a4c8082a3",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/rank_sweep100_pi_report.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\rank_sweep100_pi_report.py",
+    "sha256": "be4c157be2b2f1ba4e41cdc1ee88b1587fea1c5bbbaa8421afcd13eccf593f1a",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/final_story_robustness.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\final_story_robustness.py",
+    "sha256": "94e5d6027347a8f17ceac3b9edda80024887ac12de631c001d50accc316a1891",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/final_story.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\final_story.py",
+    "sha256": "8c98c7890e359b588b0511df60b4ca2849c233fa7db9cdf057890ed258af4c6c",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/project2_overnight.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\project2_overnight.py",
+    "sha256": "ec7d690778e358a7c450171a2740657a842458cef406810145d81ef6293ffc59",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/final_story_report_v4.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\final_story_report_v4.py",
+    "sha256": "699108c561b8681f67739d16e1fe50ea66526da6c6eee8c32cdf9172111231bb",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_npg_initial_gap_postprocess.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_npg_initial_gap_postprocess.py",
+    "sha256": "68ec5fb06d443c84e3525e76a432e9dd2a57b9c3443207c67cc9a2c362cf0740",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_npg_argument_report.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_npg_argument_report.py",
+    "sha256": "df36f17cf71af7993fd719516d5be2cf393ce950941d17173f3d8136aaf02408",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/manuscript_three_groups_report.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\manuscript_three_groups_report.py",
+    "sha256": "08167a1e30e888674f2ff3d817cb9446ea023bde4b9dee86cc804e3775f8a9ca",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/manuscript_three_groups.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\manuscript_three_groups.py",
+    "sha256": "5b48eb7aa31a181de06d21f3f409d71754cefec39f28cf44a71bf3b819104b0d",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_npg_argument_run.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_npg_argument_run.py",
+    "sha256": "af7104507c8b21c193f16454076dbe01c76eb30aeabeea8464b411dab955a09f",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/original/scripts/ce_npg_argument_grid.py",
+    "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\scripts\\ce_npg_argument_grid.py",
+    "sha256": "d0f1ecba19d80682b9539386888f92976b4049915ed06de1a9a14c9c3080ad5c",
+    "selection": "byte-identical archival copy"
+  },
+  {
+    "target": "provenance/paper_snapshot/sections/04-upper.tex",
+    "source": "E:\\ChatGPT\\Temp\\project2_l4dc_round13final_d9716c69\\project\\sections\\04-upper.tex",
+    "sha256": "b3c77ed9c544be705c3f633f40ebb1bf8b0e57ed74afda7357f760540d7dfbc1",
+    "selection": "read-only theory comparison snapshot; not edited"
+  },
+  {
+    "target": "provenance/paper_snapshot/sections/app/C-statistics.tex",
+    "source": "E:\\ChatGPT\\Temp\\project2_l4dc_round13final_d9716c69\\project\\sections\\app\\C-statistics.tex",
+    "sha256": "ad3ecd644ac07bbe598af0e979bbf1321848181d8ea353a4105f20d02e9de9c3",
+    "selection": "read-only theory comparison snapshot; not edited"
+  },
+  {
+    "target": "provenance/paper_snapshot/sections/06-experiments.tex",
+    "source": "E:\\ChatGPT\\Temp\\project2_l4dc_round13final_d9716c69\\project\\sections\\06-experiments.tex",
+    "sha256": "efd17ed8e78b6fb1944b4ce9549463a24ff72278fe10c8f5fcef0c18689395e4",
+    "selection": "read-only theory comparison snapshot; not edited"
+  },
+  {
+    "target": "provenance/paper_snapshot/AGENTS.md",
+    "source": "E:\\ChatGPT\\Temp\\project2_l4dc_round13final_d9716c69\\project\\AGENTS.md",
+    "sha256": "cdcfc5f3261808cd1de1b4573580776ac4e37c91a8cd4092cf44eb9a12e19845",
+    "selection": "read-only theory comparison snapshot; not edited"
+  }
+]

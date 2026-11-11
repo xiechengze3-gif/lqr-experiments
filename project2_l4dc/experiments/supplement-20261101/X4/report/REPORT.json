@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "scope": "OPTIONAL_OFFLINE_DIAGNOSTIC",
+  "outputs": 5760,
+  "source_failed_outputs": 780,
+  "new_instability": 52,
+  "max_normalized_gap_identity_error": 2.9529936288314356e-12,
+  "max_null_constraint_error": 6.592064218448759e-16,
+  "max_operator_norm_error": 4.440892098500626e-16,
+  "source_outputs_sha256": "5ee3d731a4539d535971730621350b627d2b3ff103f6ef8e542b5aa4dac53cd6",
+  "source_sha256": "8c5b700946acac21f24fbfbc1aa626a24abda2b56b801cc3435b5ed56f00c7d5",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "new_training_transitions": 0,
+  "retraining": false,
+  "job": "20359542"
+}

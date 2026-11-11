@@ -1,0 +1,25 @@
+{
+  "rank": 8,
+  "seed": 700,
+  "physical_transitions": 2097408,
+  "seconds_this_invocation": 1597.0631988346577,
+  "phase": "pilot",
+  "identity": {
+    "config_sha256": "ef4f23f5a1e44ca1438a87e2d1f1c0f512337978640992e4b1816990a2057737",
+    "sources": {
+      "scripts/rank_sweep100.py": "c65dd45ec44d99745221b7855e6f34590c18cab92822be9fd9bfcd5af3884a45",
+      "scripts/actuation_redundancy.py": "929cf98e5e2498ea51d3ccb02404a507349fa35c2d7cb5a918dc5b52625960c1",
+      "scripts/npg_batched_collector.py": "3d192b2e0176269fe5ffcab67c131300d8522cbf3e171f04223e29d537b4d86b",
+      "scripts/direct_stein_final.py": "486f1012ecc9763fcdf3615d94c83a097acb039c6bc898f3b0cae8916fdeb890",
+      "dense_scaling.py": "2e846ca15eda11a4e73d7d5cb6ac0d171ae5e7ccd27856273bc5a9d3393ba1d3",
+      "scripts/ce_matched_initial_gap.py": "1e72c7bf8e6cd9a8c533cb3c71ad64dee22dc4df44a183ef54dbc406fc1ed239",
+      "scripts/ce500_matched_gap.py": "d7e5612a34b9b787c3ddf6f92f716df0c542061d86ec2edd74b4492ac3e373b9",
+      "scripts/ce500_common_constants.py": "48ecb94a115cb7e4ab75974321ea957624e72a4a8bc8b22d041f900b22fa0ea8",
+      "scripts/ce500_common_constant_prepare.py": "4627d0338543972b758d1c926ffc6c49ae77a90194b295ee302cacb22057d660",
+      "scripts/ce500_common_constant_report.py": "56e129fd8e5506153f5319777f2f0b3193ca0595499fcb4e66f2a0bc0940ca23",
+      "scripts/common_constant_spectrum_preflight.py": "ba7c453142dc46d070b4f1cf32ae9faf53bc3a2135452757abc31078cdf616c1"
+    },
+    "initialization": "shared_fixed_pole_K0_and_common_P0"
+  },
+  "slurm_job_id": "20254688"
+}

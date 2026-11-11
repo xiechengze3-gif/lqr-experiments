@@ -1,0 +1,185 @@
+{
+  "burn": 128,
+  "tasks": [
+    {
+      "id": 0,
+      "r": 2,
+      "system_seed": 0,
+      "spectrum": "exact",
+      "n": 8,
+      "trial_seed": 0,
+      "m": 8
+    },
+    {
+      "id": 1,
+      "r": 2,
+      "system_seed": 0,
+      "spectrum": "exact",
+      "n": 8,
+      "trial_seed": 1,
+      "m": 8
+    },
+    {
+      "id": 2,
+      "r": 2,
+      "system_seed": 1,
+      "spectrum": "exact",
+      "n": 8,
+      "trial_seed": 0,
+      "m": 8
+    },
+    {
+      "id": 3,
+      "r": 2,
+      "system_seed": 1,
+      "spectrum": "exact",
+      "n": 8,
+      "trial_seed": 1,
+      "m": 8
+    },
+    {
+      "id": 4,
+      "r": 2,
+      "system_seed": 0,
+      "spectrum": "gap",
+      "n": 8,
+      "trial_seed": 0,
+      "m": 8
+    },
+    {
+      "id": 5,
+      "r": 2,
+      "system_seed": 0,
+      "spectrum": "gap",
+      "n": 8,
+      "trial_seed": 1,
+      "m": 8
+    },
+    {
+      "id": 6,
+      "r": 2,
+      "system_seed": 1,
+      "spectrum": "gap",
+      "n": 8,
+      "trial_seed": 0,
+      "m": 8
+    },
+    {
+      "id": 7,
+      "r": 2,
+      "system_seed": 1,
+      "spectrum": "gap",
+      "n": 8,
+      "trial_seed": 1,
+      "m": 8
+    },
+    {
+      "id": 8,
+      "r": 2,
+      "system_seed": 0,
+      "spectrum": "decay",
+      "n": 8,
+      "trial_seed": 0,
+      "m": 8
+    },
+    {
+      "id": 9,
+      "r": 2,
+      "system_seed": 0,
+      "spectrum": "decay",
+      "n": 8,
+      "trial_seed": 1,
+      "m": 8
+    },
+    {
+      "id": 10,
+      "r": 2,
+      "system_seed": 1,
+      "spectrum": "decay",
+      "n": 8,
+      "trial_seed": 0,
+      "m": 8
+    },
+    {
+      "id": 11,
+      "r": 2,
+      "system_seed": 1,
+      "spectrum": "decay",
+      "n": 8,
+      "trial_seed": 1,
+      "m": 8
+    },
+    {
+      "id": 12,
+      "r": 2,
+      "system_seed": 0,
+      "spectrum": "flat",
+      "n": 8,
+      "trial_seed": 0,
+      "m": 8
+    },
+    {
+      "id": 13,
+      "r": 2,
+      "system_seed": 0,
+      "spectrum": "flat",
+      "n": 8,
+      "trial_seed": 1,
+      "m": 8
+    },
+    {
+      "id": 14,
+      "r": 2,
+      "system_seed": 1,
+      "spectrum": "flat",
+      "n": 8,
+      "trial_seed": 0,
+      "m": 8
+    },
+    {
+      "id": 15,
+      "r": 2,
+      "system_seed": 1,
+      "spectrum": "flat",
+      "n": 8,
+      "trial_seed": 1,
+      "m": 8
+    }
+  ],
+  "threshold": "empirical_split_disagreement",
+  "horizon": 16,
+  "alpha": 0.8,
+  "algorithms": [
+    "CE",
+    "LSTD_PI",
+    "NPG"
+  ],
+  "npg_eta": 0.05,
+  "targets": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "schedule": [
+    4096,
+    4096,
+    16384,
+    16384,
+    65536,
+    65536
+  ],
+  "methods": [
+    "dense",
+    "known_rank",
+    "adaptive_0.5",
+    "adaptive_1",
+    "adaptive_2"
+  ],
+  "primary_adaptive_multiplier": 1.0,
+  "solver_rtol": 1E-08,
+  "fixed_budgets": [
+    4096,
+    65536
+  ]
+}

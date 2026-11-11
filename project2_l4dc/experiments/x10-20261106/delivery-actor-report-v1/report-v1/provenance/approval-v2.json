@@ -1,0 +1,12 @@
+{
+  "experiment": "X10b",
+  "stage": "PILOT",
+  "corrected_pilot_explicitly_authorized": true,
+  "review_sha256": "2c35aad9dbee1abc9d1724991885850fde943062215914b1e49c02669cccd8ed",
+  "exact_corrected_authorization_quote": "## X10b corrected pilot AUTHORIZED (06:10 CDT 11/06)",
+  "config_sha256": "ffad569481834049c0d470ee06c02c055b1241a6c062d0ec9daf4ca293f969c7",
+  "original_config_sha256": "7fdd2832b1122b309974c2b24dbebf5f6812df33892ddec1fcc24450271544fe",
+  "additional_requested_upper_SU": 4.166666666666667,
+  "cumulative_pilot_requested_upper_SU": 8.333333333333334,
+  "no_NPG_resampling": true
+}

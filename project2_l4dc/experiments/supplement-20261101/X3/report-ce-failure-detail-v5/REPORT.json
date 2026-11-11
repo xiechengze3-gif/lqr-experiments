@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "source_records_sha256": "7f29b4e9862767b33ca28ca89c9f25111c795a82b1c9ff34fb73d08d121441c8",
+  "source_statistics_sha256": "13b6fbf57e1267c45be36963a974d6341be1016ca6dcaad072d6239909451b1e",
+  "source_code_sha256": "2599c37f361fb1beef4cf00df8b96949494079cddd60ea74e345861db6ea33c9",
+  "full_method_budget_cells": 1296,
+  "selected_order_subgroups": 1554,
+  "variable_order_cells": 119,
+  "total_outputs": 41472,
+  "failed_outputs": 5747,
+  "diagnostic_fixed_k0_failed": 3456,
+  "learning_method_failed": 2291,
+  "correction": "Older all_statistics/v3 adaptive k field was first observed order; use actual per-output histogram and order subgroups here. Gap/failure/stability totals and figures are unchanged.",
+  "category_clarification": "Adaptive outputs selecting k=0 remain learning-method failures, not fixed-k0 diagnostic outputs.",
+  "new_learning_runs": 0,
+  "new_training_transitions": 0,
+  "provenance": "Local standard-library aggregation of existing delivered CSV"
+}

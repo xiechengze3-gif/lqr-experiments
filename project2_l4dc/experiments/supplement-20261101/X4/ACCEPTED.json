@@ -1,0 +1,16 @@
+{
+  "experiment": "X4",
+  "scope": "OFFLINE_FIXED_POLICY_DIAGNOSTIC",
+  "decision": "ACCEPTED",
+  "task_sha256": "c0af744dddf86c489cabb0231cadc3eaafaa71072ceea8f5dc2203674b7a5c0e",
+  "review_label": "Review03:30 CDT",
+  "review_quote": "X4: ACCEPTED (formal + report, upper .17 SU, zero training). Run after X3-NPG is submitted; it is a diagnostic only.",
+  "config_sha256": "55f700cf0365fbded872407ef414490d389336d44fa1e9c39bfac22b743a856d",
+  "source_sha256": "f47fd1b0fb2c630ca3fd811653c770ca1b1fceb093e9b6a1551ef01139c70323",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "source_manifest_sha256": "ef02e99fd82b68587c6d9b9f33e25381877c722e9b471d7f9f916fcbe021e8ef",
+  "X3_NPG_already_submitted_job": 20359471,
+  "formal_request_upper_SU": 0.08333333333333333,
+  "report_request_upper_SU": 0.08333333333333333,
+  "new_training_transitions": 0
+}

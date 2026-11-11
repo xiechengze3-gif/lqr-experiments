@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "scope": "OFFLINE_DIAGNOSTIC",
+  "outputs": 5760,
+  "source_files": 96,
+  "new_training_transitions": 0,
+  "source_failed_outputs": 780,
+  "new_instability": 52,
+  "failed_outputs": 832,
+  "outputs_sha256": "5ee3d731a4539d535971730621350b627d2b3ff103f6ef8e542b5aa4dac53cd6",
+  "config_sha256": "55f700cf0365fbded872407ef414490d389336d44fa1e9c39bfac22b743a856d",
+  "source_sha256": "f47fd1b0fb2c630ca3fd811653c770ca1b1fceb093e9b6a1551ef01139c70323",
+  "frozen_source_manifest_sha256": "ef02e99fd82b68587c6d9b9f33e25381877c722e9b471d7f9f916fcbe021e8ef",
+  "max_gap_identity_error": 2.9529936288314356e-12,
+  "max_null_constraint_error": 6.592064218448759e-16,
+  "max_operator_norm_error": 4.440892098500626e-16,
+  "job": "20359538",
+  "verified_utc": "2026-11-01T08:37:42Z"
+}

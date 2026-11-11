@@ -1,0 +1,28 @@
+{
+  "status": "ORIGINAL_CE_SOURCES_PREPARED_NO_IMPORT_OR_EXECUTION",
+  "files": {
+    "ce_reference_local.py": "844b26905c5025fff5ab0a401b8bf08eee1b322738b1e10ebabf9f5a8c5641bc",
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "s_ce_original.py": "6650bc8d59d73479a8952096781f8267c7af70b1b5019c667562f666a2622f9d",
+    "x8_original.py": "bd4a810d615c4630e27b2e99f98b49dcaff61727343fcdf3852e070536c01af0"
+  },
+  "source_references": [
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\frozen_engine.py",
+      "sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\estimation.py",
+      "sha256": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\run_x8.py",
+      "sha256": "bd4a810d615c4630e27b2e99f98b49dcaff61727343fcdf3852e070536c01af0"
+    }
+  ],
+  "s_function_extractions": "model and ce_prefixes source text exactly identical",
+  "reference_change": "Only Slurm job provenance read replaced with explicit local execution descriptor",
+  "new_simulations": 0,
+  "new_jobs": 0,
+  "Grace_SU": 0
+}

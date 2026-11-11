@@ -1,0 +1,3 @@
+algorithm,n,m,null_scale,spectrum,budget_multiplier,mode,finite_pairs,full_denominator,paired_ratio_median,bootstrap95_low,bootstrap95_high,bootstrap_valid,bootstrap_total,independent_systems,bootstrap_seed,interpretation
+NPG,12,12,0.25,exact,1,k2,32,32,0.7855565964106623,0.6169552500311615,1.574063175944121,2000,2000,8,2026110299,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,24,24,0.25,exact,1,k2,32,32,1.2330944913768134,0.3430150474625047,2.8609356648547832,2000,2000,8,2026110299,finite paired ratios only; full-denominator failures and padding retained separately

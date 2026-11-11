@@ -1,0 +1,37 @@
+{
+  "experiment": "X6a_CE_addition",
+  "version": 1,
+  "ce_budgets": [
+    2048,
+    8192,
+    32768,
+    131072,
+    524288
+  ],
+  "n_values": [
+    24,
+    36,
+    48,
+    72
+  ],
+  "rank": 2,
+  "formal_bundles": 32,
+  "sampling_seeds": [
+    1601,
+    1602,
+    1603,
+    1604
+  ],
+  "X6a_config_sha256": "3f0e7c9decb95e39e3a1c6fd26d1c617f329f41484ca07473f564cc3f1b3ecd2",
+  "X6a_estimator_sha256": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+  "bootstrap_repetitions": 5000,
+  "new_transitions": 0,
+  "request": {
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 30,
+    "SU": 0.5
+  },
+  "both_zero_gap_ratio_convention": 1.0,
+  "automatic_retries": 0
+}

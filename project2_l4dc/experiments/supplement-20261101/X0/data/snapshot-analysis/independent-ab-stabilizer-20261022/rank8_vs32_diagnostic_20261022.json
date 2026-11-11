@@ -1,0 +1,28 @@
+{
+  "sample_seeds": [600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623],
+  "OLS_samples": 1048576,
+  "rank8": {
+    "control_gap_ratio_of_medians": 9.265254950801593,
+    "control_gap_paired_ratio_mean": 9.990847387285763,
+    "control_gap_paired_ratio_median": 9.249107568542382,
+    "control_gap_paired_ratio_range": [3.980572066985826,15.899593035204964],
+    "A_error_fro2_median": 0.8708327149984417,
+    "B_dense_error_fro2_median": 0.059640465254895636,
+    "B_truncated_error_fro2_median": 0.0018785997157817617,
+    "K0_fro": 81.40027907502099,
+    "initial_gap": 591806.2781645029
+  },
+  "rank32": {
+    "control_gap_ratio_of_medians": 15.467206575509621,
+    "control_gap_paired_ratio_mean": 15.410593059553253,
+    "control_gap_paired_ratio_median": 15.441572087176246,
+    "control_gap_paired_ratio_range": [13.4169963134538,16.71222827957342],
+    "A_error_fro2_median": 0.12589695933815648,
+    "B_dense_error_fro2_median": 0.05963756732035705,
+    "B_truncated_error_fro2_median": 0.007364311340623661,
+    "K0_fro": 19.06357591572635,
+    "initial_gap": 61033.97548281595
+  },
+  "finding": "B-estimation denoising benefit is larger for rank8, whereas control-gap benefit is larger for rank32. Ordering persists under mean and median paired ratios. A-estimation error and initial controller vary across ranks; the control ratios do not isolate a pure rank effect. These are fixed-sample error ratios, not matched-accuracy sample ratios.",
+  "source": "/scratch/user/changze/lqr_experiments/results/ce500-independent-stabilizer-20261022/raw"
+}

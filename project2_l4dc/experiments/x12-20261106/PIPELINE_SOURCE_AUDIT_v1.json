@@ -1,0 +1,32 @@
+{
+  "status": "PASS_PREPARED_SOURCES_INTERFACES_NO_NUMERICAL_WORK",
+  "checks": [
+    "All new scientific-task controllers parse as Python; no execution/import of numerical code in this audit.",
+    "All analyzer functions literally match accepted X10b analyzer, including bootstrap, failure handling and inspect; only module output namespace differs.",
+    "Plotting primitives literal identity and UTF-8 infinity marker preserved; failed encoding draft retained separately.",
+    "Paper cross function file byte-identical to accepted reference.",
+    "Kernel/estimator bytes and actor numerical source unchanged; only actor output path guard differs.",
+    "Once-only BEGIN/RESPONSE reservations; ntasks1/oneCPU/2GiB/no-requeue; two independent32-element arrays fit64 global slots after empty-queue preflight.",
+    "Inherited one-thread environment and all remote cache/temp paths remain inside dedicated scratch namespace.",
+    "All four proposed old CSV inputs equal accepted verified X10b delivery bytes;144summary rows. No old data read from remote scratch."
+  ],
+  "files": {
+    "audit_pilot_v1.py": "5cea343241b4c1c6db958a1aa46ac0a58995788d154025b076d01bac25447f20",
+    "prepare_followon_v1.py": "a4ff59cd43cfd00eb854a13f94b475f7f15ae432c95410c83439be3dc36d6103",
+    "remote_followon_v1.py": "692affee6572a0e1cbd10a76866ed113bb8bb8d55ce0d12dc16e1adc5513d6fc",
+    "model_registry_driver.py": "aa712a8fe8bb22a477af37d208e648fdc19bed40764e6330dc84327e58cb7887",
+    "coverage_formal_v1.py": "1d952f76d01da16574c5d73a8da4c70809d24e58bd30de5a31c68996245db7b7",
+    "report_products_v1.py": "256cbb43b6c3ab191a7ce76f43ab726cf97f72346e03866be8522865679286d4",
+    "report_render_v1.py": "55d9257b4573aa879bb9d5a1fdfc7c7f3e9cc7b80be54bdce73719b677411c9c",
+    "transfer_report_v1.py": "3163d22383efff0d9cd5b3b98bda584360f8d2a5b119ae0c4b7c48a0ab9e83d2",
+    "copy_report_provenance_v1.py": "451ca107ae19ab540f180ec3dbd30cd1ffbabb7baac1514edf9bff18def86e20",
+    "submit_report_v1.py": "7c8117dc9a3f5ea91d605e890bf18285a9f5e8ddbb1fec5fcd08a1a3bd2fcb9e",
+    "prepare_report_v1.py": "40ac3c5eac0997f71aca55454432dd59238d61b513acefda68617d39f345ca65",
+    "report_chunks_v1.py": "240989d3bce0f2adcdd69336df9ed63a0f9b9b652819047b048f173adddda973"
+  },
+  "analyzer_sha256": "0e6e8291c573a6f3a6f491d135d91ddcfef1b7144f125004ad2d6bdb63d14b72",
+  "paper_cross_sha256": "d07e548f861e7edf4191c9735015553706d012dfca2077adc7b5d212ea9e5a8e",
+  "formal_not_submitted_by_this_audit": true,
+  "new_training_transitions": 0,
+  "Grace_SU": 0
+}

@@ -1,0 +1,41 @@
+{
+  "name": "x6-20261101-a-formal-v3",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\amendment-A1\\packages\\x6-20261101-a-formal-v3.tar.gz",
+  "archive_sha256": "9a7a40bf31143602d02e5c9ac73fecb91c6d2600fb3aedd01f7cb223c00daa11",
+  "plan": {
+    "id": "x6-20261101-a-formal-v3",
+    "experiment": "X6a",
+    "stage": "FORMAL",
+    "tasks": 40,
+    "concurrency": 32,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 20,
+    "requested_bound_SU": 13.333333333333334
+  },
+  "approval": {
+    "experiment": "X6a",
+    "accepted_stage": "PILOT",
+    "exact_quote": "### Review 21:50 CDT (Claude) \u2014 X6a PILOT: ACCEPTED; X6a FORMAL authorized",
+    "protocol_exact_quote": "### Review 20:20 CDT (Claude) \u2014 X6a PROTOCOL v1: ACCEPTED with one amendment",
+    "task_sha256": "fd1ea51944921f2dc5cc66097b1aff4b6ddc5c759f296b1d2b6fb43e34b256e6",
+    "protocol_manifest_sha256": "037b05ce3114fe395e0a369911069974295f918120e29f62be41fbfbcfc4b070"
+  },
+  "hashes": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "config-X6a-v2.json": "3f0e7c9decb95e39e3a1c6fd26d1c617f329f41484ca07473f564cc3f1b3ecd2",
+    "PROTOCOL_X6a_A1.md": "9ca6a27c6d6effbf96d35e963f626f3bd0e9920f36f4954b825d362bae76eac0",
+    "remote_ops.py": "a1aa7c5920d939345b01c77d6d919d787eb77a8b48bf4de7f007da8243c8d55a",
+    "accounting.py": "3b1b217acc1b28d2fd5808ef9d7316b783a4ce74408d1ab45b76e6dd3f779010",
+    "analyze_saved.py": "0962905f641e9f75eb16f16c47fcfb160c73614234c23cc269db21c9ebaa0cda",
+    "plot_saved.py": "5706de7f3dd0ac85f2ec0a30c7a435ffa6e3ba9e4cbd183885f06d360e89f8e8",
+    "verify_saved.py": "41a29acde337c4aa686f8ef256a9af012e371b857678c3a940a083f3eaf84fe7",
+    "PROTOCOL_SHA256SUMS": "037b05ce3114fe395e0a369911069974295f918120e29f62be41fbfbcfc4b070",
+    "CLAUDE_TASK_approved.md": "fd1ea51944921f2dc5cc66097b1aff4b6ddc5c759f296b1d2b6fb43e34b256e6",
+    "resource_plan.json": "3e1c023d48f142697c7a6649aa07e757e3a4a03de23bd8ff98dbbaa18b77f1a4",
+    "approval.json": "0fc9dacaccd0db04105592ac32267a91eb636ada94d36b493a5452566f7be71f",
+    "job_plan.json": "0ee337992c5568852ec1318c5f25f3042b38cc7a76e267bc309b4242906fea28",
+    "run.sbatch": "eceac38f8d4d01dca775db40a0dcab871246401372cd181c3bb277dc8a81fde0"
+  }
+}

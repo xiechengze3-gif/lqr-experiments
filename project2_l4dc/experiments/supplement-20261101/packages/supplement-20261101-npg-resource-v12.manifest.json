@@ -1,0 +1,21 @@
+{
+  "name": "supplement-20261101-npg-resource-v12",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-npg-resource-v12.tar.gz",
+  "archive_sha256": "e91ad7371c60c963ffa91f63b68edddc30da7d2836a5f808158e5f10db868725",
+  "plan": {
+    "id": "supplement-20261101-npg-resource-v12",
+    "stage": "PILOT",
+    "experiment": "X2_X3",
+    "scope": "NPG_RESOURCE_AND_EQUIVALENCE",
+    "wall_minutes": 10
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "npg_resource_pilot.py": "56a896d9f88434ed77f4fb5d35ac17433e3a0ef0b0770e38075dd815b0f276e9",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "npg_multi.py": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+    "job_plan.json": "431eeaeb7b93701b4b374fc8b46b4b2aa2f83346571310110e8d50ad36fdbc01",
+    "slurm/run.sbatch": "7fb7e711a55a7842fff08f4a0ed516e053fde456026a5641458dff65c91742cb"
+  }
+}

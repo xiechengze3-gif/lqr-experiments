@@ -1,0 +1,21 @@
+{
+  "name": "supplement-20261101-ce-figures-refine-v20",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-ce-figures-refine-v20.tar.gz",
+  "archive_sha256": "824e6935f24540d5a511b7a1c27d50aeb1125c5abb26d840d21e0af2a2044b68",
+  "plan": {
+    "id": "supplement-20261101-ce-figures-refine-v20",
+    "stage": "REPORT",
+    "experiment": "X2_X3",
+    "scope": "SAVED_DATA_FIGURE_REFINEMENT",
+    "wall_minutes": 5,
+    "bundles": 1
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "refine_suite_figures.py": "7b85786621bde0b5ce5c0ddea371496f0badebd4c08e9704785c59005e3cbfd4",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "job_plan.json": "69cf9d7ea0e57febbfd66707a17940b943ced3828a9c2e23ca47e941102fa875",
+    "slurm/run.sbatch": "a0c095d9ce83d9d9ef99a20a52e4f22eaf642932e6c51b5e86acb610d6947cec"
+  }
+}

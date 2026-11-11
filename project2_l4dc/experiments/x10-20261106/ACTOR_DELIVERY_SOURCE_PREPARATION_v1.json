@@ -1,0 +1,12 @@
+{
+  "status": "NEW_IO_HELPERS_PREPARED",
+  "files": {
+    "transfer_actor_report.py": "eb84d7a305eefeb61e9b8907e44123abbc47548b5daa0cf1a9af44ce782104d2",
+    "copy_actor_provenance.py": "54916895241bc4ffd5d98ba7745a502c575e9e9d12129bac29dc24e5b00ba115"
+  },
+  "original_transfer_sha256": "801c01de69efb6afd4800b99f2639ee175935753d67217dd95b387285b140333",
+  "changes": "Only explicit output/archive namespaces, status labels and X10b coverage/product proof names/count.",
+  "numerical_work": 0,
+  "new_jobs": 0,
+  "SU": 0
+}

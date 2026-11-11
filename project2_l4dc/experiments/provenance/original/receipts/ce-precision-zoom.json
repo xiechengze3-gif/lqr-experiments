@@ -1,0 +1,334 @@
+{
+  "state": "COMPLETE_RETRIEVED_SHA256_VERIFIED",
+  "release": "b73def112743b7ae",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\packages\\ce-precision-zoom-b73def112743b7ae.tar.gz",
+  "archive_sha256": "5ccd7681dc5c24a38681130179c4d77a93a0aec182c50523589a6aa115ff611a",
+  "prefix_count": 180,
+  "new_physical_transitions": 4198400,
+  "maximum_reserved_SU": 0.75,
+  "campaign_SU_ceiling": 1.0,
+  "array_job": "20164373",
+  "report_job": "20164374",
+  "grace_account": "132685389143",
+  "fiscal_year": 2027,
+  "remote_result": "/scratch/user/changze/lqr_experiments/results/ce-precision-zoom-b73def112743b7ae",
+  "balance_before_SU": 9404.16,
+  "final_archive_sha256": "39626e027e9d75ddf1b2a1d6b1f145b1a4a5072a29ff46a65b681b0ba4b6ec9a",
+  "retrieved_UTC": "2026-10-16T03:55:02.4819942Z",
+  "jobs": [
+    {
+      "id": "20164373_0",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 84,
+      "cores": 1
+    },
+    {
+      "id": "20164373_1",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 83,
+      "cores": 1
+    },
+    {
+      "id": "20164373_2",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 42,
+      "cores": 1
+    },
+    {
+      "id": "20164373_3",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 41,
+      "cores": 1
+    },
+    {
+      "id": "20164373_4",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 40,
+      "cores": 1
+    },
+    {
+      "id": "20164373_5",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 41,
+      "cores": 1
+    },
+    {
+      "id": "20164373_6",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 42,
+      "cores": 1
+    },
+    {
+      "id": "20164373_7",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 43,
+      "cores": 1
+    },
+    {
+      "id": "20164374",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 20,
+      "cores": 1
+    }
+  ],
+  "summary": {
+    "status": "COMPLETE",
+    "absolute_epsilon": 0.1,
+    "datasets": 8,
+    "prefix_count": 180,
+    "records": 2880,
+    "unstable_records": 0,
+    "historical_replay_checks": 96,
+    "full_rank_equality_checks": 360,
+    "actual_new_physical_transitions": 4198400,
+    "crossings": [
+      {
+        "rank": 16,
+        "method": "raw",
+        "first_tested_budget": 141824,
+        "previous_tested_budget": 139776,
+        "sustained_tested_budget": 141824,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 16,
+        "method": "truncated",
+        "first_tested_budget": 64000,
+        "previous_tested_budget": 61952,
+        "sustained_tested_budget": 64000,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 32,
+        "method": "raw",
+        "first_tested_budget": 160256,
+        "previous_tested_budget": 158208,
+        "sustained_tested_budget": 160256,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 32,
+        "method": "truncated",
+        "first_tested_budget": 113152,
+        "previous_tested_budget": 111104,
+        "sustained_tested_budget": 113152,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 64,
+        "method": "raw",
+        "first_tested_budget": 184832,
+        "previous_tested_budget": 182784,
+        "sustained_tested_budget": 184832,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 64,
+        "method": "truncated",
+        "first_tested_budget": 170496,
+        "previous_tested_budget": 168448,
+        "sustained_tested_budget": 170496,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 100,
+        "method": "raw",
+        "first_tested_budget": 156160,
+        "previous_tested_budget": 154112,
+        "sustained_tested_budget": 156160,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 100,
+        "method": "truncated",
+        "first_tested_budget": 156160,
+        "previous_tested_budget": 154112,
+        "sustained_tested_budget": 156160,
+        "right_censored": false,
+        "epsilon": 0.1
+      }
+    ],
+    "per_seed_crossings": [
+      {
+        "rank": 16,
+        "method": "raw",
+        "seed": 0,
+        "first_tested_budget": 141824,
+        "previous_tested_budget": 139776,
+        "sustained_tested_budget": 141824,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 16,
+        "method": "raw",
+        "seed": 1,
+        "first_tested_budget": 141824,
+        "previous_tested_budget": 139776,
+        "sustained_tested_budget": 141824,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 16,
+        "method": "truncated",
+        "seed": 0,
+        "first_tested_budget": 61952,
+        "previous_tested_budget": 59904,
+        "sustained_tested_budget": 61952,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 16,
+        "method": "truncated",
+        "seed": 1,
+        "first_tested_budget": 64000,
+        "previous_tested_budget": 61952,
+        "sustained_tested_budget": 64000,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 32,
+        "method": "raw",
+        "seed": 0,
+        "first_tested_budget": 158208,
+        "previous_tested_budget": 156160,
+        "sustained_tested_budget": 158208,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 32,
+        "method": "raw",
+        "seed": 1,
+        "first_tested_budget": 160256,
+        "previous_tested_budget": 158208,
+        "sustained_tested_budget": 160256,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 32,
+        "method": "truncated",
+        "seed": 0,
+        "first_tested_budget": 113152,
+        "previous_tested_budget": 111104,
+        "sustained_tested_budget": 113152,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 32,
+        "method": "truncated",
+        "seed": 1,
+        "first_tested_budget": 113152,
+        "previous_tested_budget": 111104,
+        "sustained_tested_budget": 113152,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 64,
+        "method": "raw",
+        "seed": 0,
+        "first_tested_budget": 174592,
+        "previous_tested_budget": 172544,
+        "sustained_tested_budget": 174592,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 64,
+        "method": "raw",
+        "seed": 1,
+        "first_tested_budget": 184832,
+        "previous_tested_budget": 182784,
+        "sustained_tested_budget": 184832,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 64,
+        "method": "truncated",
+        "seed": 0,
+        "first_tested_budget": 160256,
+        "previous_tested_budget": 158208,
+        "sustained_tested_budget": 160256,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 64,
+        "method": "truncated",
+        "seed": 1,
+        "first_tested_budget": 170496,
+        "previous_tested_budget": 168448,
+        "sustained_tested_budget": 170496,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 100,
+        "method": "raw",
+        "seed": 0,
+        "first_tested_budget": 154112,
+        "previous_tested_budget": 152064,
+        "sustained_tested_budget": 154112,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 100,
+        "method": "raw",
+        "seed": 1,
+        "first_tested_budget": 156160,
+        "previous_tested_budget": 154112,
+        "sustained_tested_budget": 156160,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 100,
+        "method": "truncated",
+        "seed": 0,
+        "first_tested_budget": 154112,
+        "previous_tested_budget": 152064,
+        "sustained_tested_budget": 154112,
+        "right_censored": false,
+        "epsilon": 0.1
+      },
+      {
+        "rank": 100,
+        "method": "truncated",
+        "seed": 1,
+        "first_tested_budget": 156160,
+        "previous_tested_budget": 154112,
+        "sustained_tested_budget": 156160,
+        "right_censored": false,
+        "epsilon": 0.1
+      }
+    ],
+    "slurm_job_id": "20164374"
+  },
+  "result_directory": "E:\\ChatGPT\\Results\\LQR_experiments\\grace-ce-precision-zoom-b73def112743b7ae\\results\\ce-precision-zoom-b73def112743b7ae",
+  "accounting_note": "Sum of elapsed times multiplied by allocated CPUs, separate from AMS settlement",
+  "measured_elapsed_core_hours": 0.12111111111111111
+}

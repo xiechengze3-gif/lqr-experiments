@@ -1,0 +1,1559 @@
+{
+  "status": "X10b_OVER_CAP_PROVISIONAL_PLAN_STOP_AND_REPORT",
+  "created_utc": "2026-11-06T05:10:55.928952+00:00",
+  "new_rung_sum": 0.66796875,
+  "cells": [
+    {
+      "n": 24,
+      "algorithm": "NPG",
+      "existing_group": "n24-full-NPG",
+      "old_full_max_seconds": 295.3294013161212,
+      "old_full_sum_seconds": 8711.252356899902,
+      "provisional_body_seconds": 197.27081103537785,
+      "provisional_limit_minutes": 5,
+      "requested_upper_SU": 2.6666666666666665
+    },
+    {
+      "n": 24,
+      "algorithm": "PI",
+      "existing_group": "n24-full-PI",
+      "old_full_max_seconds": 312.7369976211339,
+      "old_full_sum_seconds": 8730.151901030913,
+      "provisional_body_seconds": 208.8985413797418,
+      "provisional_limit_minutes": 5,
+      "requested_upper_SU": 2.6666666666666665
+    },
+    {
+      "n": 36,
+      "algorithm": "NPG",
+      "existing_group": "n36-full-NPG",
+      "old_full_max_seconds": 902.3821824714541,
+      "old_full_sum_seconds": 24701.705048786476,
+      "provisional_body_seconds": 602.7630984477291,
+      "provisional_limit_minutes": 13,
+      "requested_upper_SU": 6.933333333333334
+    },
+    {
+      "n": 36,
+      "algorithm": "PI",
+      "existing_group": "n36-full-PI",
+      "old_full_max_seconds": 819.8540562652051,
+      "old_full_sum_seconds": 24291.46126880683,
+      "provisional_body_seconds": 547.6368891458987,
+      "provisional_limit_minutes": 12,
+      "requested_upper_SU": 6.4
+    },
+    {
+      "n": 48,
+      "algorithm": "NPG",
+      "existing_group": "n48-full-NPG",
+      "old_full_max_seconds": 2357.6995405685157,
+      "old_full_sum_seconds": 67290.75326352753,
+      "provisional_body_seconds": 1574.8696149891257,
+      "provisional_limit_minutes": 32,
+      "requested_upper_SU": 17.066666666666666
+    },
+    {
+      "n": 48,
+      "algorithm": "PI",
+      "existing_group": "n48-full-PI",
+      "old_full_max_seconds": 2307.094692964107,
+      "old_full_sum_seconds": 68449.88178346492,
+      "provisional_body_seconds": 1541.0671581908682,
+      "provisional_limit_minutes": 32,
+      "requested_upper_SU": 17.066666666666666
+    },
+    {
+      "n": 72,
+      "algorithm": "NPG",
+      "existing_group": "n72-full-NPG",
+      "old_full_max_seconds": 7201.402767743915,
+      "old_full_sum_seconds": 208931.56774340384,
+      "provisional_body_seconds": 4810.312005016443,
+      "provisional_limit_minutes": 97,
+      "requested_upper_SU": 51.733333333333334
+    },
+    {
+      "n": 72,
+      "algorithm": "PI",
+      "existing_group": "n72-full-PI",
+      "old_full_max_seconds": 8037.441635146737,
+      "old_full_sum_seconds": 213465.70059002005,
+      "provisional_body_seconds": 5368.759842226922,
+      "provisional_limit_minutes": 108,
+      "requested_upper_SU": 57.6
+    }
+  ],
+  "formal_requested_upper_SU": 162.13333333333333,
+  "cap_SU": 160,
+  "exceeds_cap_before_pilot_report": true,
+  "actual_new_benchmark": false,
+  "new_jobs": 0,
+  "new_SU": 0,
+  "limits": "Extrapolation from saved worst task runtime, not a measured X10 resource result. No extra stage was run.",
+  "proposed_bounded_pilot": {
+    "n72_tasks": 2,
+    "n72_wall_minutes": 120,
+    "equivalence_tasks": 1,
+    "equivalence_wall_minutes": 10,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "requested_upper_SU": 4.166666666666667,
+    "status": "PROPOSAL_ONLY_WAITING_CLAUDE_RESOURCE_DECISION"
+  },
+  "existing_source_hashes": [
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\PROTOCOL.md",
+      "bytes": 1863,
+      "sha256": "5d4fddfa0fc7b0e7e2ff09fd74d85f15094ea4d5b1d64c19657e7d97746919c8"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\PROTOCOL_AMENDMENT.md",
+      "bytes": 1242,
+      "sha256": "f0f258b05e3aeec39cdee4b96f7ddd8dc3f85e53d5a1196b4df713b0f8503c15"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\run_x8.py",
+      "bytes": 3435,
+      "sha256": "bd4a810d615c4630e27b2e99f98b49dcaff61727343fcdf3852e070536c01af0"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\analysis\\analyze_x8.py",
+      "bytes": 4498,
+      "sha256": "de4ec69737cee465d891ed310fa9a694bba8107a04fae24060b319c29819705e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\frozen_engine.py",
+      "bytes": 17414,
+      "sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\actor_paths.py",
+      "bytes": 4397,
+      "sha256": "d32e410a64c78a927c2e4b1f9c5ea929c3942c856f393b77b2ab2479ea33a8dc"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\formal_driver.py",
+      "bytes": 3809,
+      "sha256": "d30fc3dbf703f17ac37ee2ad7573b7e36589057cbb5d76b572e4375975f54b25"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\analyze_actor.py",
+      "bytes": 23035,
+      "sha256": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\engine.py",
+      "bytes": 17414,
+      "sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\refine_ce.py",
+      "bytes": 5799,
+      "sha256": "a47faadce193e25e67a6769eef41ba6789daecfb26174478ae515ffc2599aba7"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\estimation.py",
+      "bytes": 11239,
+      "sha256": "904ffaa48ba061b5624a051a7ca81b94aed1400df57ab2a7796f2a70ad396dfa"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\config-X6a-v1.json",
+      "bytes": 51516,
+      "sha256": "e1f9bdcae339ff1d9000bbbd19c94e128e48e094a0ecf28b28a0f4bfacca60a3"
+    }
+  ],
+  "existing_timing_receipts": [
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-0\\DONE.json",
+      "bytes": 2991,
+      "sha256": "34bc0b2e8340b8bce52971a2878935f8587c17d4669803fe278297d09d56eb5d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-1\\DONE.json",
+      "bytes": 2991,
+      "sha256": "5bf083ec126b1dc5233bdb2cb8f276f58bd0cec821594812cf4b9f1c297d854e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-2\\DONE.json",
+      "bytes": 2991,
+      "sha256": "46333035eba39e8dfd53245b985c02722069b897b9fad40c5f7ec57fd987ad7e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-3\\DONE.json",
+      "bytes": 2991,
+      "sha256": "78e840e0dc741815a5995fa24eed59c27727f1f781284c6eb94b09b54a3e7e6f"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-4\\DONE.json",
+      "bytes": 2995,
+      "sha256": "04c32c38e8e800e538d2d6b9e566fcead9593232ff9e29af1b2302d670b4c2b6"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-5\\DONE.json",
+      "bytes": 2994,
+      "sha256": "4b0d4d1564fef00899425ac14d7ddafe26823acb370095d5026e0caa629619e3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-6\\DONE.json",
+      "bytes": 2994,
+      "sha256": "eb2490e99d911ae906bf3f57f876caf134f549ab79e6fda5caba4cadb276f55a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-7\\DONE.json",
+      "bytes": 2994,
+      "sha256": "4f8dae5874193c5976823304934ccd4d34ee3ce673b122b2379e495612937066"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-8\\DONE.json",
+      "bytes": 2989,
+      "sha256": "21451c56e13ac5fb0aac585822002c339dc4aef14321b09e84ca9916d7101318"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-9\\DONE.json",
+      "bytes": 2989,
+      "sha256": "294e5b3fef1122676d09d86824afc37820ba86ebe330606c60c600c4403dbec0"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-10\\DONE.json",
+      "bytes": 2990,
+      "sha256": "42b60cf4832d0d59802744033044c30a87fbc16245ce44c997d84ae7c62795c3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-11\\DONE.json",
+      "bytes": 2989,
+      "sha256": "69ccd3a52392f84d856276c9aae59811698b048fc9dab3628b8565490fd03d1f"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-12\\DONE.json",
+      "bytes": 2992,
+      "sha256": "5972389bf327eba7cbdd67eccbee9c6e4839662f038d96e3c260e99cda59e4f6"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-13\\DONE.json",
+      "bytes": 2990,
+      "sha256": "48f193c4a08f669e930a0ba87356c60e31db57b56cf31e17600559798093e940"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-14\\DONE.json",
+      "bytes": 2992,
+      "sha256": "b10299334cce08bb7d8dbceda86c633e11493aded7b9f4061cbb357888606e8c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-15\\DONE.json",
+      "bytes": 2992,
+      "sha256": "7c929379243c96cb2672d4b8359c3fc9f8faaadb49c96fa1107625f602c54722"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-16\\DONE.json",
+      "bytes": 2989,
+      "sha256": "61c8774cda5bbb7b587b0dfcbddf2d1f81bb14f53ce04f660aaa72f3187dc8a5"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-17\\DONE.json",
+      "bytes": 2990,
+      "sha256": "c0a324cd51299a0601f5696b1906fd6af73c3a215473f2c8eeb533026c44ab1a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-18\\DONE.json",
+      "bytes": 2989,
+      "sha256": "ba3cc147e3cbfd5f845952a7222ac9ee09fb9945f6c0c9796e15d74e65d02927"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-19\\DONE.json",
+      "bytes": 2989,
+      "sha256": "123f10d7bb02442ceb26669df7b4b1d4483912f8ad2cdf9ec2317e22ae7c82b3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-20\\DONE.json",
+      "bytes": 2996,
+      "sha256": "8ceda2393d60734b59c10d6b41b9fb36d4a3c6f9cbdcadfc7b0ad159f412b4ec"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-21\\DONE.json",
+      "bytes": 2995,
+      "sha256": "e521519de4da2fa6fb206f4a37c1edfca0c5255d4b289ad58747a8a9c0cfc305"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-22\\DONE.json",
+      "bytes": 2995,
+      "sha256": "983f9a6edc48fe4c8a920e0799510b3745c971e394a42045ffc4964dcfebc261"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-23\\DONE.json",
+      "bytes": 2996,
+      "sha256": "aaad4354094bc9ee42522f27a3d4ecbd57fcb0506a2524ca61e8f822a79f5b8b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-24\\DONE.json",
+      "bytes": 2987,
+      "sha256": "3b5a9c38a5ba3b2e094afd4da4dd511d6afd41283f19aabca7e60751700f21ce"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-25\\DONE.json",
+      "bytes": 2988,
+      "sha256": "039a65cd521e31939f4daeb7503a644628db25fc4fc30f25b038ade95374b441"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-26\\DONE.json",
+      "bytes": 2989,
+      "sha256": "ee3b14c9822935d95eb1ea0692fd77cdd9d9c84fe4a8c77545c78e4a4e6e1d37"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-27\\DONE.json",
+      "bytes": 2989,
+      "sha256": "5dbdb19bb26466d32f831680d8664bb4c5337b77ed0dbf5af962ae2491325bac"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-28\\DONE.json",
+      "bytes": 2996,
+      "sha256": "7869b425458a430c7c6646a25c3ca87dd7e44441e2ca66a44bdaa432f0f0d5ea"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-29\\DONE.json",
+      "bytes": 2995,
+      "sha256": "bce9519f61c45c27f6c5ce9310ae97954145f468cf9ed6fb2123ae3698fcd555"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-30\\DONE.json",
+      "bytes": 2995,
+      "sha256": "7711fdef6f00536dedbf4c5b7b153dfdde78173e68c7bbb6d893ed72de9f32fe"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-31\\DONE.json",
+      "bytes": 2995,
+      "sha256": "91f66ee2462d349efdd2e92e118d84888f292f1032c8bbc4361753629fdb914c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-0\\DONE.json",
+      "bytes": 2987,
+      "sha256": "e72dadd67527aac3cad32a35b04232cf8531283adf3038c61ccecde781b71bac"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-1\\DONE.json",
+      "bytes": 2988,
+      "sha256": "3444f7a6d83e10720bd9921a580f7d05fbf5fee17d850fe1601372dd3353f79e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-2\\DONE.json",
+      "bytes": 2987,
+      "sha256": "296b7159144120b99c625e3cd8fcaea180ae8885919aa74521bf0a81107f2b3e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-3\\DONE.json",
+      "bytes": 2986,
+      "sha256": "f173c136e546d7a3a6bec9172bf10725777b1470b4362bffcac9bcbc5ee74d2e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-4\\DONE.json",
+      "bytes": 2991,
+      "sha256": "2e75a59729afafcc869bdcd244664fb84009eb7782913de71adae339a1565692"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-5\\DONE.json",
+      "bytes": 2991,
+      "sha256": "ab12ff77e8a3cea36385a429ef5ab89dfbc7f6a4539a0edd9c504dfdfec0f258"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-6\\DONE.json",
+      "bytes": 2991,
+      "sha256": "fa963faa808c280ae9a35d25e09fdce420c44a52003f671a49c10594d9dff701"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-7\\DONE.json",
+      "bytes": 2991,
+      "sha256": "95fe25090f844ec944c10a38b8dee9639ee38ef72714242a1246ebacc91ba5d3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-8\\DONE.json",
+      "bytes": 2985,
+      "sha256": "c4ad4e1b30ceca2813251958a93de2f5e565409df1d6dee29820944bce1e54de"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-9\\DONE.json",
+      "bytes": 2985,
+      "sha256": "a457b35bc29d3c0b5dc56809010a368d12fd2dc7e2ed2661fd8e85b998ac29f6"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-10\\DONE.json",
+      "bytes": 2986,
+      "sha256": "ccbd53b4761fb31f768d7982dbd4503bed58d76cf621ad2c008749a177281400"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-11\\DONE.json",
+      "bytes": 2985,
+      "sha256": "d05b43d5a42fd1bc49cc1b870114023fe854314e21cf95c0fd8017cfd38d90e7"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-12\\DONE.json",
+      "bytes": 2989,
+      "sha256": "fc1c8f1b4beb9150224ca00dda2454eb0daad9f50d05b3e9e8253fcb8c944595"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-13\\DONE.json",
+      "bytes": 2989,
+      "sha256": "0c47675e224497e26638614e02ea9d64d224effb43c819514173ead2f78d3261"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-14\\DONE.json",
+      "bytes": 2988,
+      "sha256": "a1034ac136a4e5400c3666f564a9028ab57eeea8881285cdb5189475fe350e4c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-15\\DONE.json",
+      "bytes": 2988,
+      "sha256": "de1b088e9e5f66fbf71375f8737e049bb1e675e2987110cb4d843e64a6c6f6de"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-16\\DONE.json",
+      "bytes": 2987,
+      "sha256": "14a36d93a0c5fa16d523709c5283ea91913550a3091b54a9fe8512e6abb51709"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-17\\DONE.json",
+      "bytes": 2986,
+      "sha256": "284f4b51f86673da18809f658d797307cce676acff6d6e01e9fdae722db9605c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-18\\DONE.json",
+      "bytes": 2986,
+      "sha256": "0b2dec1850c75e63904805ffe7161e0413136b431c19654acd87d4bcb8b23ff9"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-19\\DONE.json",
+      "bytes": 2987,
+      "sha256": "342e7917e1d4de2e6c10b65a49fa64eb17492d99260f4d6c6d0c47959e1fb02e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-20\\DONE.json",
+      "bytes": 2992,
+      "sha256": "842dce18be62a35f3622e22ca46a65885fd8807f7efa017da93054a285313885"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-21\\DONE.json",
+      "bytes": 2992,
+      "sha256": "17a5a58971c2ec84fef2704aa953da5cc0990521b712cabe79a2e6f72fd071bd"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-22\\DONE.json",
+      "bytes": 2992,
+      "sha256": "ef6cbcb52835fab419ad685868c6f6f5372680fd0392964ca9f3fe84bb2993a0"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-23\\DONE.json",
+      "bytes": 2991,
+      "sha256": "61a58c365162e74c049065f53872e31f0fd5a32ae0877017a2ecdc8e8bc8e490"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-24\\DONE.json",
+      "bytes": 2986,
+      "sha256": "0d38ff0898191d0d34a42bf4d87203585f6496bd9f9302208e7f0934e6aaa04b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-25\\DONE.json",
+      "bytes": 2986,
+      "sha256": "fca44c2360ba1dac86bfa1bf32685226a73b897b34a96d719dc046a5e9f49127"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-26\\DONE.json",
+      "bytes": 2985,
+      "sha256": "b0fdf2ad72c15a389bd74d781d47c4db51ff9ba169b91fba3c3ef4a5f1dee3ed"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-27\\DONE.json",
+      "bytes": 2986,
+      "sha256": "7d4c4508047ceaa9c0c6a37217c409fc5fe5cfcc450d0f794903b4be7414ca77"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-28\\DONE.json",
+      "bytes": 2992,
+      "sha256": "a8778a62c4a3320222b3e4d7a0e2ad140421e151d6d18e208f024d1260885da2"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-29\\DONE.json",
+      "bytes": 2992,
+      "sha256": "794ad0e0f343edcc1eee74601c4295a162d179360bb43dbbb1c8b2032004b52a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-30\\DONE.json",
+      "bytes": 2993,
+      "sha256": "e1fb3a584274d26cc38d0ecac4abb8f982ce053248f5120f3aaaf1125155de68"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-31\\DONE.json",
+      "bytes": 2992,
+      "sha256": "d9bbb4a38a1c447fce89a5ee648472c574d1645c17141085a18942fb9c333dad"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-0\\DONE.json",
+      "bytes": 3312,
+      "sha256": "db204fc6cfe3c416851386a7cc0ab624c54951de0abc93926084d3bf18e7cc44"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-1\\DONE.json",
+      "bytes": 3312,
+      "sha256": "099ae429448b7e16c8475fda76e3f48d661b750650a7fc7f0efbf35c2afdfa64"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-2\\DONE.json",
+      "bytes": 3312,
+      "sha256": "035b42d1691aea979d0f752cb13b3d4acea7769137b575f65ea139dd996288c1"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-3\\DONE.json",
+      "bytes": 3311,
+      "sha256": "bfaa0bb871dc66962b9ce3fab6223a41efe2b78f9c19ac0823dff9d15560748b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-4\\DONE.json",
+      "bytes": 3323,
+      "sha256": "dd55dd9ba0a6278a9b20b2ad99b2d8eba9f8251bde73558a98088051e06236dc"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-5\\DONE.json",
+      "bytes": 3323,
+      "sha256": "be41e3c5784ac1329f047b17fee99172bf59a8c054b24b439f44efde400df5ed"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-6\\DONE.json",
+      "bytes": 3323,
+      "sha256": "22ff42a8cd010e76497c810768fc9d6208055969a148c4821b7c8d4d3f9cee3e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-7\\DONE.json",
+      "bytes": 3323,
+      "sha256": "65af9c92535673763516e3a218947e1b0c8ad1caa93010a1794fc0566d0cad48"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-8\\DONE.json",
+      "bytes": 3315,
+      "sha256": "98b5e2de6e3d45aef562482060ff3b3bb30d7ae77fa9a81e5220b4b3c5a4bab7"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-9\\DONE.json",
+      "bytes": 3314,
+      "sha256": "e7a17843b4ca66f0df1db18384a9f3752155b7e127822f8a5666a2e8f49d73c4"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-10\\DONE.json",
+      "bytes": 3316,
+      "sha256": "e5c3a99126ade586fbb75fd5b36db35ced1466b4e9931f389b219b549e5ff293"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-11\\DONE.json",
+      "bytes": 3316,
+      "sha256": "1bc83b236be91ad3dbca84e97e3d949a0b2c71c5603657bc0fc4a399ec7a51c6"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-12\\DONE.json",
+      "bytes": 3320,
+      "sha256": "c89a0055fec67ab015740dde3ae527cdd1b287298db4096f72ec6839251574f8"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-13\\DONE.json",
+      "bytes": 3320,
+      "sha256": "539d301eb7e8d663e8a9e5ff510843391885a2e29e69b5f683e185f0457b1607"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-14\\DONE.json",
+      "bytes": 3319,
+      "sha256": "1228e813fb1b0d4e4fbae7c92b29cf8b8460fb7b1452b863389ab4340f58de31"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-15\\DONE.json",
+      "bytes": 3320,
+      "sha256": "a0b5ace27e8d7557df095edb859f493bce96cb6ea8dc9aec4e127474d193d6bf"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-16\\DONE.json",
+      "bytes": 3322,
+      "sha256": "41d7b5974e924a1e0523d1703aa30dd363fde8da6a50999c2e75576f7b310cc8"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-17\\DONE.json",
+      "bytes": 3322,
+      "sha256": "ca16e321ae7d7c5cab5a6a1b9062f269d567ce23d6a8ed85d89c1a846a907312"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-18\\DONE.json",
+      "bytes": 3322,
+      "sha256": "d88ce1cf04a2a2f58e94a6625eca96d814bf0b215371ecdd78cf7423feaf7d22"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-19\\DONE.json",
+      "bytes": 3322,
+      "sha256": "e7337a50e42c56166f468118d12837be4f410685fd51b29c214aac9d06b8a231"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-20\\DONE.json",
+      "bytes": 3321,
+      "sha256": "11f6ce806c87ca2ef7fe77bafdb374b85e072c8046eb09b045bb0448f13bbc85"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-21\\DONE.json",
+      "bytes": 3321,
+      "sha256": "df6a8e73a408b72e42f1a67c50fe6941198331758fb7a59e1948c423856c3c0e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-22\\DONE.json",
+      "bytes": 3320,
+      "sha256": "93cbe8a56447ac6b42759a8765788a6f1b8a53ba46295fb1e697a117cb1d498a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-23\\DONE.json",
+      "bytes": 3321,
+      "sha256": "7e7223d7382bca2f414f5cc9d6667380f1e37130c7d243736c9a018b9eb3ea8d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-24\\DONE.json",
+      "bytes": 3324,
+      "sha256": "251084c4fb24a5e3655f606a9f9b0980bad56faa0d4700456445baa1c21462cf"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-25\\DONE.json",
+      "bytes": 3325,
+      "sha256": "5f0d395f8727d13e4d1e149e7788a0ee8b404fbd0b4cd753969911b719ac692a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-26\\DONE.json",
+      "bytes": 3325,
+      "sha256": "4667fca0a70d333e1a0434c82174347d1985feb51a3748d78c17803f29216b8f"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-27\\DONE.json",
+      "bytes": 3325,
+      "sha256": "218eeaa2b28ab45c25635f91bfe4224641f085a501f49482e86170852954fa51"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-28\\DONE.json",
+      "bytes": 3317,
+      "sha256": "c33e6235483e95f8edc85c78300a963fa2ca37e64be2aad3a9ef3c6a5c0ed83d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-29\\DONE.json",
+      "bytes": 3317,
+      "sha256": "b2db18ab7bd557556d6440e816f1879bf534c97ac765d1661b16b18fe5b2874d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-30\\DONE.json",
+      "bytes": 3317,
+      "sha256": "eaa17ec3d0f9d10664f739246830f355cd3eb4cd33ff0c97e59d46d3f8b4939a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-NPG\\task-31\\DONE.json",
+      "bytes": 3317,
+      "sha256": "0b487a227b3605e9cc96950a871bf99f41b1c5e4b595cc1f435db8b53e215da2"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-0\\DONE.json",
+      "bytes": 3322,
+      "sha256": "64d7eb0f5ffc7b37d9f6b95ae5df5119abd39978996346db3330710bf9fa224b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-1\\DONE.json",
+      "bytes": 3322,
+      "sha256": "038d17dde63d25b45b54634e132b1e2952e1142d68ed598cd44dbf6ef87b8af8"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-2\\DONE.json",
+      "bytes": 3322,
+      "sha256": "55be1a3ea89bfbab326a2c29938f9d29c618fc0b53c97d2d11079298424cfdb4"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-3\\DONE.json",
+      "bytes": 3322,
+      "sha256": "2ac11c8a5508a4970d8f6bed4c2c762b60aa5c2348038705cb8d6e43931efb31"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-4\\DONE.json",
+      "bytes": 3333,
+      "sha256": "bf77b0c871284f9e1fff9e04e56fe56d17ee3ff43d7a986025538ddd8edc5bb1"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-5\\DONE.json",
+      "bytes": 3333,
+      "sha256": "1e086cdfc77a67a859f82d1a156392918fbd9bcb2d90231f3d73249d99a6a155"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-6\\DONE.json",
+      "bytes": 3333,
+      "sha256": "6d0c8a51e75bfde11713cad985a9a5d8ac2ba90bfa973b2480b8eaffab8c9b8c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-7\\DONE.json",
+      "bytes": 3333,
+      "sha256": "eb711939a10525cb2bfa40f3e8aeb5a24188e160b72bfde480667d592ea33b28"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-8\\DONE.json",
+      "bytes": 3325,
+      "sha256": "5dedf695edaf02a83c102729dbee0c46eb7dccb7d70ddfbb69f97defa6b24535"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-9\\DONE.json",
+      "bytes": 3325,
+      "sha256": "2c383ef59d02d38391069c7b4f5fdd2e84ec11b9b9e70c4fafa0c055f6afd64f"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-10\\DONE.json",
+      "bytes": 3326,
+      "sha256": "ab7f607714f14b6876f501103b79fd782bac39429ddb09a338c3982933a7768b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-11\\DONE.json",
+      "bytes": 3326,
+      "sha256": "dce8c080aab3e024a2c2190ee5f1d38c40a4faa855963cf9e8fb5819eb7e26d8"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-12\\DONE.json",
+      "bytes": 3330,
+      "sha256": "715dc301aa17ef359d92fc8de1592919c2de6f0c278aa42df38cdcd46123af87"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-13\\DONE.json",
+      "bytes": 3330,
+      "sha256": "7d6ec0aa58fb5354d5adf3afe869d8656429128a631722a9d7d7e3316536207a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-14\\DONE.json",
+      "bytes": 3330,
+      "sha256": "999e3d132d5e14514d3ba4522e341ce2dbf0fd63ce02b3d14ac4d49065feadb2"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-15\\DONE.json",
+      "bytes": 3329,
+      "sha256": "358cd9b90488cb829532b6d681b3b005d6575c010b84c434170de975d5fd26ba"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-16\\DONE.json",
+      "bytes": 3331,
+      "sha256": "c13ec97e25ea460d5d63bcd9e09547564ca1521e15cb4d1c6bff88b3643eb25d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-17\\DONE.json",
+      "bytes": 3332,
+      "sha256": "bad094941ec61eca09353d6e2e8e48c27cfc3f155c152d696ab22e8abc9b1a4d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-18\\DONE.json",
+      "bytes": 3332,
+      "sha256": "6e20ec7a8c2dce01369f0d8eeb7e527455bbbbe2b966782ee07b3b8769e86ef3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-19\\DONE.json",
+      "bytes": 3332,
+      "sha256": "3fb52509f5753bfd084495863ad0cb80b3c028d48c7df001ff56795823aa709e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-20\\DONE.json",
+      "bytes": 3331,
+      "sha256": "9d680ce189f90048628cab9a03cb08e0ae9cf5948fef4bfee7bf3873bc63dec8"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-21\\DONE.json",
+      "bytes": 3331,
+      "sha256": "3560ab3e8f52325a4ab262da47cfee54ad76d6457939a4d4486d1eb3722dd143"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-22\\DONE.json",
+      "bytes": 3331,
+      "sha256": "5be7b67980ebfd176013f6d8ede00a4071f9477a10f8875329927516124b95bb"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-23\\DONE.json",
+      "bytes": 3331,
+      "sha256": "cb7f8e77c17543dab5912e1a34be2313942a19aef03a01258606d5900b002888"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-24\\DONE.json",
+      "bytes": 3335,
+      "sha256": "42bb818b26dad52dd27c32b560038b9e49f1a3b59fe67c6943e536c5e8c1d9ff"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-25\\DONE.json",
+      "bytes": 3335,
+      "sha256": "36b9c917d0f2b33f09df90286aa2f591bd44236f8cd70ad5c663dfdb57cb4895"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-26\\DONE.json",
+      "bytes": 3335,
+      "sha256": "cd5f76ec8ba8bedbb1188de2822b25549784ec3ea7b3b4a484aab2c8f9e656f2"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-27\\DONE.json",
+      "bytes": 3335,
+      "sha256": "4215932b30c49ac9dcc24347d2105bf149dac109b385a6fbcd6213f689f57c58"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-28\\DONE.json",
+      "bytes": 3326,
+      "sha256": "591dcba8fe508d67bdfbd951b728e52b3cabdf7796b547d9ad594b2067ea549f"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-29\\DONE.json",
+      "bytes": 3327,
+      "sha256": "ae3dbae6a49b3a29e0f114d9b23bfe3c0eec366443c423c0494842a0b95be253"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-30\\DONE.json",
+      "bytes": 3327,
+      "sha256": "3e6b0a1610f7c875d754ebb2cf56f14d79e7378a183d0858a6431f38970466d4"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n36-full-PI\\task-31\\DONE.json",
+      "bytes": 3327,
+      "sha256": "ca5fe2116c8cc0561cc453cddf0ab5de24750d32c1c3700f2d5b9aec539fe521"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-0\\DONE.json",
+      "bytes": 3676,
+      "sha256": "804785419b81517aa5c02b351e6f55382a99414d439697d76f7fdfd8ffe5c5e6"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-1\\DONE.json",
+      "bytes": 3676,
+      "sha256": "0101c2c610610d6e46d0e77692ad257b1b9b45e0530b6076887bd207db95defe"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-2\\DONE.json",
+      "bytes": 3676,
+      "sha256": "c7b4b6bf46d918cae18a9cd03193f0a0124b960c25aa4f056c74e82b3e84d73b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-3\\DONE.json",
+      "bytes": 3676,
+      "sha256": "a8eb930ad8f9bf92ec4293e458a0b135054369e4139640202e71e2e9bfc07935"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-4\\DONE.json",
+      "bytes": 3676,
+      "sha256": "376c0b13415389d0a237638d668b6790307b07ff807900c24ba0e20809fa11d3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-5\\DONE.json",
+      "bytes": 3676,
+      "sha256": "1b7edcb872e3737e6a1c065c63fa4cb9cfd26d43154b598be9a7f5e53621e2b0"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-6\\DONE.json",
+      "bytes": 3676,
+      "sha256": "971b6945587914d3240a7d47b8341cf0d4505e2d830c7538bba21e42ca175902"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-7\\DONE.json",
+      "bytes": 3676,
+      "sha256": "9459dd3be3087d809d66025fc83fe7669168aa319e1dcb17fdd324e54f05c227"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-8\\DONE.json",
+      "bytes": 3672,
+      "sha256": "8c3903535aa1797f64a8b3c6fb8449524e05d5485e71cbaf567b7ac238fa9817"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-9\\DONE.json",
+      "bytes": 3670,
+      "sha256": "f5b132db5978872eb5b3ca665d0a3c799536ebe02fe2470f1b505ef6dc22e737"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-10\\DONE.json",
+      "bytes": 3673,
+      "sha256": "02daf4696561d0296f25ee70747f3f2e79dc93e3a9b549707c2715de701ba007"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-11\\DONE.json",
+      "bytes": 3673,
+      "sha256": "6804db6abc8807bdcab7c1886f7ec2abdecadac5988d7efcdeab70918b2eeeb9"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-12\\DONE.json",
+      "bytes": 3676,
+      "sha256": "73c161f9dcc3d6ccb725559e53af4113da713985d984511c77b247b0266db774"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-13\\DONE.json",
+      "bytes": 3675,
+      "sha256": "2f7bc6a95b5ff26051c057f3d586f3a2522302b088062eb80c872dcc80e0c40b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-14\\DONE.json",
+      "bytes": 3675,
+      "sha256": "47e56ff450f6c00d670a9310581955033eb2632ea55fa5c738235dd85005c49b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-15\\DONE.json",
+      "bytes": 3676,
+      "sha256": "1d26990073f71a55809f8dedb05711cad9d31b6367244aedb92f2767405eef07"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-16\\DONE.json",
+      "bytes": 3677,
+      "sha256": "80a6b181e037a04d72ad54cfbb9d9f0e6b41b2a7bf09d4e893578cecc8fd77fa"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-17\\DONE.json",
+      "bytes": 3676,
+      "sha256": "d5a09c9653d8fd0ae7f3e3d617ab74346389d200350ced83267deaa07831d192"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-18\\DONE.json",
+      "bytes": 3677,
+      "sha256": "29e8fa27daec55086c9441e3ed0f0c82aed52f18b107543964a7f24c7520c3a3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-19\\DONE.json",
+      "bytes": 3677,
+      "sha256": "25c53dcd333b6c39d285c001ba4305b91f6d9a28b056c92cb744db8e3637524c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-20\\DONE.json",
+      "bytes": 3674,
+      "sha256": "aa9f0aae0c72b55e2121cca1250455b1a43144342a2b6c93b402874496ee48ce"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-21\\DONE.json",
+      "bytes": 3673,
+      "sha256": "ee960b04443ffb03dc76da12d97898fa0ea7a2309d52f110948e60825ade5172"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-22\\DONE.json",
+      "bytes": 3674,
+      "sha256": "b31e1a0a0f199f684b05e69429ad1e147deb0eadf81b5fe43eadf5ba0aaf2097"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-23\\DONE.json",
+      "bytes": 3673,
+      "sha256": "29db706f93a5d52db8884b2a5d50aabe3ac422fbc94e4bb5b04341101413dbd2"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-24\\DONE.json",
+      "bytes": 3680,
+      "sha256": "d16a8ab20941577d11d5ee89362aaedc50a7a4e6bccb17018eb075060ac4ea59"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-25\\DONE.json",
+      "bytes": 3680,
+      "sha256": "3cf61e735aa8b01646393af2fc2af1cda9f576008aab9c6fc0baf346cfee0f71"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-26\\DONE.json",
+      "bytes": 3680,
+      "sha256": "cb55e5f2c8808e3f98c982697623a87aa8ebb5c06bacc293afd18af124002939"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-27\\DONE.json",
+      "bytes": 3679,
+      "sha256": "b77203ad487e250224b2d72472eaa0f841a195495c2eb5688d5ce51075582e53"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-28\\DONE.json",
+      "bytes": 3683,
+      "sha256": "025f9e144e6528db7834d6b5e0180bcc91b21030e92ce3f7c1c088ef126f3343"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-29\\DONE.json",
+      "bytes": 3682,
+      "sha256": "2c042b49b636f578691b3b5a404e8786babb155e4e84884daba0d08971997746"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-30\\DONE.json",
+      "bytes": 3682,
+      "sha256": "0e327a170fe40a1b33250d09181ca934c9636e3aade420ddb6697a824fe5fb1a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-NPG\\task-31\\DONE.json",
+      "bytes": 3683,
+      "sha256": "3c3213d1e4a02d4f439d228903f7009a1f1faa29da7a72e86ab1ad1bba8d5de5"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-0\\DONE.json",
+      "bytes": 3672,
+      "sha256": "2db56dc690058b679d5666dca097051374de1051f142bd25ed8fff5870811269"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-1\\DONE.json",
+      "bytes": 3672,
+      "sha256": "b67e548029134ad4dd69642e67cd45efb882365c30ddcb14c9b98b8e95190b07"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-2\\DONE.json",
+      "bytes": 3671,
+      "sha256": "68292195c3f041597c3e5f42e3a57c6481e4a53ceeaef5f574e95e395913909a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-3\\DONE.json",
+      "bytes": 3672,
+      "sha256": "c7f7dbf63c35e6afd2e8dd9348f917f0c00a7cbb3276e730551a6f3cb353ac60"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-4\\DONE.json",
+      "bytes": 3671,
+      "sha256": "9fb79b3d2ea873b4f75fac7d7a11a15c6dadccfaed0bf7a0ab0522afadd6d43e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-5\\DONE.json",
+      "bytes": 3671,
+      "sha256": "bd516faf18ab5db98eb11b3b4fdbaf37a6a07a53f8d8e01f84fa85a8d9899242"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-6\\DONE.json",
+      "bytes": 3672,
+      "sha256": "94b774ae8c8e3abe4dd88373fc3230ff9701118e8dd686d29f9b543809945ba3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-7\\DONE.json",
+      "bytes": 3671,
+      "sha256": "882249020ecb0e44d6e83a35ecb7d3a37e4131591ed3892dbb7d63f3ee1abe7e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-8\\DONE.json",
+      "bytes": 3665,
+      "sha256": "73fbf6e64a336cb59e6ef91c5e561fd76a3cb16962b93ca8ad359e0a580e1252"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-9\\DONE.json",
+      "bytes": 3667,
+      "sha256": "28306cbf109521388d56b9b44e8dd938b89823f0dc637daeda839b738237c2a1"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-10\\DONE.json",
+      "bytes": 3669,
+      "sha256": "31e4ea0d63976a3d5e5c9c87e1421d6c21475ce27a64ae5743e3c4b4c758f1ef"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-11\\DONE.json",
+      "bytes": 3669,
+      "sha256": "9e8583cb6ea15deb6db268a79b084d1a441812c07a4d4f3f04c06c6521b2bf14"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-12\\DONE.json",
+      "bytes": 3671,
+      "sha256": "fc7fe090ade61b8e60058db0c0cf6e0522957294bd44b762a97644e008282e91"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-13\\DONE.json",
+      "bytes": 3672,
+      "sha256": "45cbb1cbed7f24862f7d73181071b6d5edc96199488ea2ca536b57d488d1ffaa"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-14\\DONE.json",
+      "bytes": 3672,
+      "sha256": "120cacdd6258730495905c4bf2b3256526667ed496e29eed07b7be455183c190"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-15\\DONE.json",
+      "bytes": 3672,
+      "sha256": "ed2ed4e20ed1cdda72d576b41abe36232bdebb05678b4ffb87dd9932550320fd"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-16\\DONE.json",
+      "bytes": 3673,
+      "sha256": "86c46aaa0731a4875a0d193ce3e0073ae804abdfc62449e102dc84274bec97f7"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-17\\DONE.json",
+      "bytes": 3673,
+      "sha256": "6d5d8c97c7ccdd5298006fb8930a003822ba5f56ffd4db74ee4f0413d4b5bc8b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-18\\DONE.json",
+      "bytes": 3672,
+      "sha256": "851e0f4cf9591adc505627e2764cbbd6ffe98b053f5c750397f44e10c3a19583"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-19\\DONE.json",
+      "bytes": 3673,
+      "sha256": "61073ec6c797e0993ffcd9584b8188ad9709af104738240d1d690150228fdeca"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-20\\DONE.json",
+      "bytes": 3670,
+      "sha256": "f66c731063d6a516aa51d5bc0392ba1af992c3c1812aa31b7b5e949acea52036"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-21\\DONE.json",
+      "bytes": 3670,
+      "sha256": "e4965838bd1a270e16d81a779d13f9d1c783e38aa992bfa084d3b6592b38017e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-22\\DONE.json",
+      "bytes": 3670,
+      "sha256": "8b292bb0f2e74cd43ff7c9222503c8fccc1e42a548986ed9a565d788364980de"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-23\\DONE.json",
+      "bytes": 3669,
+      "sha256": "41d3c2877016ec9e36f6515366b77892f03fe1b6158049873060dd2bdc576d2b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-24\\DONE.json",
+      "bytes": 3676,
+      "sha256": "bad059f02f3f70c774286c49c246012261cadc1a68f338f1ffa7f43b18e2cf16"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-25\\DONE.json",
+      "bytes": 3675,
+      "sha256": "ccfa01004d5b8714e9d7c42d63b54cb9ac8d1c64b17fb9095cf9a27a8aa10f7b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-26\\DONE.json",
+      "bytes": 3675,
+      "sha256": "d7da1d46715584f377b097a1f6ce2f9b726cebe94a1903d5789dbef63f4a9ccb"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-27\\DONE.json",
+      "bytes": 3675,
+      "sha256": "ab47118496b6a41cfc01998e447fa70b091af0567b743a5c26b70a2607233857"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-28\\DONE.json",
+      "bytes": 3679,
+      "sha256": "b6fdde0189bcd62aa7de32adf34e3dadbf4a8910d1939f31d0f0c1987e94c351"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-29\\DONE.json",
+      "bytes": 3679,
+      "sha256": "2614eac4170959b2be01d544b6cc329af8e7c5b88db0f5a023b585eba76eeb69"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-30\\DONE.json",
+      "bytes": 3679,
+      "sha256": "36dc1fa6df148b44f62ab39c7a96f3a937e0496ba55246386a97c27809cab47b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n48-full-PI\\task-31\\DONE.json",
+      "bytes": 3676,
+      "sha256": "d49a6152ec2eaf2cb2ecadfae70f0ff7d6696f218f853d095c64f64e221dd29c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-0\\DONE.json",
+      "bytes": 4354,
+      "sha256": "79aab60a45b2cebe3c88d430ee726c202f3dad9421b79e8c674d846e50bffa43"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-1\\DONE.json",
+      "bytes": 4353,
+      "sha256": "60501ebf4684b8df25d01337322f391a0c8c56fc223f790a45ea0e53b7e111d2"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-2\\DONE.json",
+      "bytes": 4354,
+      "sha256": "eef0cf650eeb99df207bc3a71216771e990fa50b678d1048f20febb15966e572"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-3\\DONE.json",
+      "bytes": 4353,
+      "sha256": "185bf1460f6ed0c9b54e8d2720d12f0f5896ff4b0e86196fb5409b0c76c00725"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-4\\DONE.json",
+      "bytes": 4345,
+      "sha256": "548c7279df105d202f4b937d56befcb506c3f84572ce4d4fd6419498453bffff"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-5\\DONE.json",
+      "bytes": 4345,
+      "sha256": "9dd8f1fa28de15ff41c263ba2c7967543ca00fbfa4cb113c72b564d6caa0bddf"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-6\\DONE.json",
+      "bytes": 4345,
+      "sha256": "a9edad4d4e555c9a77cd9a5045d8f05dbec372625ea0ae01a720a1c14a793db1"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-7\\DONE.json",
+      "bytes": 4346,
+      "sha256": "c126b82865675bc41403effac27764c48c81dd9c3d26cb0e4c46f7eb1b98891a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-8\\DONE.json",
+      "bytes": 4346,
+      "sha256": "177b1e2c7fe289b199f240fa1839e308e79013e11be6953219f52e8124d979cf"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-9\\DONE.json",
+      "bytes": 4347,
+      "sha256": "966e8ba8335240c06e09fd3a4bb32c2b1a61344c67c17d892daaeb0360efdf0d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-10\\DONE.json",
+      "bytes": 4348,
+      "sha256": "a35d6f51422766ea2c0ab610934bf9660f7ef8b5a6756f1028bfe16ddfb2a564"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-11\\DONE.json",
+      "bytes": 4347,
+      "sha256": "bc83c8b31041af8cbf2f879573a6ac3405fdec942e628695b7fdb4c587bcaba3"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-12\\DONE.json",
+      "bytes": 4358,
+      "sha256": "7aeb446cb514ee6f6c207c32804444063eafaca933ed0dd1fd981c78fa110928"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-13\\DONE.json",
+      "bytes": 4359,
+      "sha256": "da357518b8e8b4cc427537edac7356cf88c5e455323d259f2b814632e0e2a416"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-14\\DONE.json",
+      "bytes": 4358,
+      "sha256": "e6a622d84c35a6252c13957cd72367f01c5fa233da4b687fe98746848abaa5a6"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-15\\DONE.json",
+      "bytes": 4358,
+      "sha256": "c8af6d13d6ca9ca284715ac5eda6fe99506a0dee6a238356fa4a6b641be4bd73"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-16\\DONE.json",
+      "bytes": 4346,
+      "sha256": "f1d21950f0ea5a08315c13f3b2415b22acaabd081ea34ccb1442783f61399c24"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-17\\DONE.json",
+      "bytes": 4346,
+      "sha256": "c6927b7f88b9191fe66c5b6474b7d6191e7be48884d13e9c9140c3c60becec81"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-18\\DONE.json",
+      "bytes": 4346,
+      "sha256": "ffd1c3b93c527165354d65a3c0a5857994e3ebd4a21d25b90a4ea7a732034e32"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-19\\DONE.json",
+      "bytes": 4346,
+      "sha256": "82fa2e5de42f9e35b775f8bcac5a1fab297371c0ad6721600ab51491c91fcb7b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-20\\DONE.json",
+      "bytes": 4358,
+      "sha256": "bccbf032b1b2aa6b35c4731daa0675d9a2ee27a2fb0086576a0d46757667c8bc"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-21\\DONE.json",
+      "bytes": 4358,
+      "sha256": "ba80400ec85d4a457a27ea7b33c3b251e629cd6311bce1a1e89b437d0e23ea3a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-22\\DONE.json",
+      "bytes": 4357,
+      "sha256": "2ee3c2e9b726f1618a048dd73a59bd1ab01f0344831753442dc143bcd1216874"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-23\\DONE.json",
+      "bytes": 4358,
+      "sha256": "bdc344082d198e8f88b5897047e5902226c32a088ec826225d0ba3109f1a488f"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-24\\DONE.json",
+      "bytes": 4357,
+      "sha256": "86d0b8f99491e1b4b19b5956fc0c7d5caef9d90700effe4117509904d5fa2a46"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-25\\DONE.json",
+      "bytes": 4356,
+      "sha256": "fdbd8494838ed3b22ea118780c8d95790fb877f80a56dda9d6ec23caa871a465"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-26\\DONE.json",
+      "bytes": 4355,
+      "sha256": "ec067a66bc0e0b3e4c81de712b5a2caece0f520bec4ee9b38b720d551b5859ee"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-27\\DONE.json",
+      "bytes": 4356,
+      "sha256": "ce8ccc73f2f2e65e89c0ad39d7a99fa180f791fe2b07676cbc670fdb3d6bf39d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-28\\DONE.json",
+      "bytes": 4352,
+      "sha256": "fe78f044eeea2f720dca55e55fee8204291aee33483380307356c17b66ef9122"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-29\\DONE.json",
+      "bytes": 4353,
+      "sha256": "33a7f54397ca1aa770eeea758895b0825362bce06bcac7d95e1ff3dde669ba79"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-30\\DONE.json",
+      "bytes": 4353,
+      "sha256": "407b567001f7aff98c9f9bd92ba9e464d07527ad0ab288cea79394da7bdd087d"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-NPG\\task-31\\DONE.json",
+      "bytes": 4353,
+      "sha256": "ddc5c054989c6f449f5a05514303ae75c5eb784e5e7f1f108b20bd2e0fd1bc47"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-0\\DONE.json",
+      "bytes": 4349,
+      "sha256": "e149e339710a23c9609f905d68132408d40dec6990b966a2f1c9d83e25e33023"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-1\\DONE.json",
+      "bytes": 4349,
+      "sha256": "0a3b99e00d33be6bff9746636c5a895d1dfbf6df574e945d832db5cd15fcfdc9"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-2\\DONE.json",
+      "bytes": 4349,
+      "sha256": "7d4c98112a69aabc942b7e2b801716094db923289d0d69be4afa7aa4c38b0725"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-3\\DONE.json",
+      "bytes": 4348,
+      "sha256": "996a4d223a33caffc41340f9f72d3d6ea9f9aa9aa1effb49469bde0cb6881ca7"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-4\\DONE.json",
+      "bytes": 4341,
+      "sha256": "453279e8a2e1354475121936a24a5f758c7e232dde6ce6b0e2f4932b01903445"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-5\\DONE.json",
+      "bytes": 4341,
+      "sha256": "3828e0b165cf436a50743055502d40fd878c9f4eb043a90a50265b69b456f689"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-6\\DONE.json",
+      "bytes": 4341,
+      "sha256": "e16b8cccad19a695917a39c958cdead9c7a21a5a4dcc5f034705fc925a57fd3a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-7\\DONE.json",
+      "bytes": 4341,
+      "sha256": "7982852f8089e6459c7654b339af5d4f97affa8f8f77ce8ae19933bbdf1c33be"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-8\\DONE.json",
+      "bytes": 4343,
+      "sha256": "5fbf7af2e52bbc1b69f5e795377b819ec6095b01d321edf591d456c227367518"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-9\\DONE.json",
+      "bytes": 4344,
+      "sha256": "0a702085b8a02755577bdbf9015f38f9cba83050a41a53638ccac5bc53f49c46"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-10\\DONE.json",
+      "bytes": 4345,
+      "sha256": "cd5ed20e41adc35efbae45fed1adf0af60c88530f038bee9b3d23832408d2777"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-11\\DONE.json",
+      "bytes": 4344,
+      "sha256": "a2f2cae498196144bd395dcd590ea6e66714d20cc006c80abfdc2e30cbd6dd3e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-12\\DONE.json",
+      "bytes": 4354,
+      "sha256": "e61d8a84d5ed062a7aa0e2834139246cd5609c4a873222db1b44bc3e5b02ce52"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-13\\DONE.json",
+      "bytes": 4354,
+      "sha256": "f96bcf0d07659491721e0c90ed77e0400330b614dd0cec65bab8231a7aedee07"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-14\\DONE.json",
+      "bytes": 4355,
+      "sha256": "98c7831ffe408f112c578ad5989399f54e65e1c5aaa4a432d87db08072d35319"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-15\\DONE.json",
+      "bytes": 4354,
+      "sha256": "27be3f450f6fd9c577493c810202670b42aeef46a191b851dc5f1e300390051b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-16\\DONE.json",
+      "bytes": 4342,
+      "sha256": "0c67ffcc73b7f8b8789f1d496ee86604be24c8d9fc68124932dcd1b8e3eb8e7e"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-17\\DONE.json",
+      "bytes": 4342,
+      "sha256": "a9bbd9dfa8daee046afe0b3f111c841fa4c9aadb3c9a5b9b3ec416c454ca213a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-18\\DONE.json",
+      "bytes": 4341,
+      "sha256": "198859a0e72e4eafd2eb6d323e0d565d167e7a5c970f71a99dc0ae9b265bdc38"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-19\\DONE.json",
+      "bytes": 4342,
+      "sha256": "b263b0784d4e373e8bacac37a2e5f19daa6d9a8b94e3c4ad5ac4a10ffdee51fc"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-20\\DONE.json",
+      "bytes": 4354,
+      "sha256": "441484fbd9c5adcd84e0de744711412ac99307717b4793f3604284c6daad0ea4"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-21\\DONE.json",
+      "bytes": 4354,
+      "sha256": "3c6a4734f40cdbc24128ac68326abb2958f397ec927377c7cdb7ad18cd866fe8"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-22\\DONE.json",
+      "bytes": 4354,
+      "sha256": "e7220775b5ba0ec6b3f478165ea38ea38c801d8c2d1be1a0e1937d3e861f2818"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-23\\DONE.json",
+      "bytes": 4354,
+      "sha256": "ff4e53e81441652eb06ecece50d8e00fdb2233477aac21f9dc335bc31314fbab"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-24\\DONE.json",
+      "bytes": 4352,
+      "sha256": "025507a113b5ba3ac8a3c59635dd074dfefbe46547414e84a02e9fdaa1b8ed2c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-25\\DONE.json",
+      "bytes": 4352,
+      "sha256": "f4380d6640a421ef8b26e11f96c92daf9268e6d8e0489dca45f78d5d5cad0008"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-26\\DONE.json",
+      "bytes": 4352,
+      "sha256": "10e37503a144b22616f98db4b7f586a93395f9eadc1ff5065a669c531c98ce17"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-27\\DONE.json",
+      "bytes": 4352,
+      "sha256": "bb8a99f932d9520d3a30b85047682cef4b2c3671f8b657329d23c020d8aa166a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-28\\DONE.json",
+      "bytes": 4349,
+      "sha256": "4e2a9bd00422a8dec125654b23c42d6323b687f32daf4fd518a95e649fdd226b"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-29\\DONE.json",
+      "bytes": 4349,
+      "sha256": "d915c5099c3c36106293445a574f17d60fc352e0d309d532b0f712dae86f5fee"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-30\\DONE.json",
+      "bytes": 4348,
+      "sha256": "41ddaf1094f134331c67a3dc7d868d6904f82cbde3d7bd6fc50c1527cebdbb11"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n72-full-PI\\task-31\\DONE.json",
+      "bytes": 4349,
+      "sha256": "c4b9b4193ce35819ebee5b56bf25348843bd71cde33abc4672929cb9df3e79bc"
+    }
+  ],
+  "X8_author_local_inventory": {
+    "b": {
+      "source": {
+        "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\x8_b_raw.csv",
+        "bytes": 257186,
+        "sha256": "269a7883f77fcdfeb9ea893500686a021fc69733e98eda2db3b99e9d87177a75"
+      },
+      "rows": 4480,
+      "configs": [
+        "r1",
+        "r16",
+        "r2",
+        "r32",
+        "r4",
+        "r48",
+        "r8"
+      ],
+      "systems": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regression_N": [
+        512,
+        1024,
+        2048,
+        4096,
+        8192,
+        16384,
+        32768,
+        65536,
+        131072,
+        262144
+      ]
+    },
+    "c": {
+      "source": {
+        "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x8-local-20261104\\x8_c_raw.csv",
+        "bytes": 5484624,
+        "sha256": "ff15b7e66dd197c0ca768660226c59161ac4657418519e4ee81c494808ffb350"
+      },
+      "rows": 92160,
+      "configs": [
+        "rho0.3",
+        "rho0.5",
+        "rho0.7",
+        "rho0.8",
+        "rho0.9",
+        "rho0.95"
+      ],
+      "systems": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regression_N": [
+        512,
+        1024,
+        2048,
+        4096,
+        8192,
+        16384,
+        32768,
+        65536,
+        131072,
+        262144
+      ]
+    }
+  },
+  "X10a_geometric_k_eps": {
+    "0.4": {
+      "0.01": 3,
+      "0.005": 3
+    },
+    "0.6": {
+      "0.01": 5,
+      "0.005": 6
+    },
+    "0.75": {
+      "0.01": 10,
+      "0.005": 11
+    },
+    "0.85": {
+      "0.01": 19,
+      "0.005": 21
+    }
+  },
+  "provisional_formal_body_core_hours": 115.88747075354364,
+  "eight_core_formal_allocation_running_hours": 20.266666666666666
+}

@@ -1,0 +1,147 @@
+{
+  "status": "COMPLETE",
+  "datasets": 8,
+  "prefixes": 180,
+  "records": 4320,
+  "adaptive_records": 1440,
+  "historical_replay_checks": 2880,
+  "unstable_records": 8,
+  "adaptive_unstable_records": 8,
+  "first_equals_sustained": true,
+  "crossings": [
+    {
+      "rank": 16,
+      "method": "raw",
+      "first_tested_budget": 141824,
+      "previous_tested_budget": 139776,
+      "sustained_tested_budget": 141824,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": null
+    },
+    {
+      "rank": 16,
+      "method": "truncated",
+      "first_tested_budget": 64000,
+      "previous_tested_budget": 61952,
+      "sustained_tested_budget": 64000,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": null
+    },
+    {
+      "rank": 16,
+      "method": "adaptive",
+      "first_tested_budget": 64000,
+      "previous_tested_budget": 61952,
+      "sustained_tested_budget": 64000,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": [
+        16,
+        16
+      ]
+    },
+    {
+      "rank": 32,
+      "method": "raw",
+      "first_tested_budget": 160256,
+      "previous_tested_budget": 158208,
+      "sustained_tested_budget": 160256,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": null
+    },
+    {
+      "rank": 32,
+      "method": "truncated",
+      "first_tested_budget": 113152,
+      "previous_tested_budget": 111104,
+      "sustained_tested_budget": 113152,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": null
+    },
+    {
+      "rank": 32,
+      "method": "adaptive",
+      "first_tested_budget": 113152,
+      "previous_tested_budget": 111104,
+      "sustained_tested_budget": 113152,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": [
+        32,
+        32
+      ]
+    },
+    {
+      "rank": 64,
+      "method": "raw",
+      "first_tested_budget": 184832,
+      "previous_tested_budget": 182784,
+      "sustained_tested_budget": 184832,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": null
+    },
+    {
+      "rank": 64,
+      "method": "truncated",
+      "first_tested_budget": 170496,
+      "previous_tested_budget": 168448,
+      "sustained_tested_budget": 170496,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": null
+    },
+    {
+      "rank": 64,
+      "method": "adaptive",
+      "first_tested_budget": 170496,
+      "previous_tested_budget": 168448,
+      "sustained_tested_budget": 170496,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": [
+        64,
+        64
+      ]
+    },
+    {
+      "rank": 100,
+      "method": "raw",
+      "first_tested_budget": 156160,
+      "previous_tested_budget": 154112,
+      "sustained_tested_budget": 156160,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": null
+    },
+    {
+      "rank": 100,
+      "method": "truncated",
+      "first_tested_budget": 156160,
+      "previous_tested_budget": 154112,
+      "sustained_tested_budget": 156160,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": null
+    },
+    {
+      "rank": 100,
+      "method": "adaptive",
+      "first_tested_budget": 156160,
+      "previous_tested_budget": 154112,
+      "sustained_tested_budget": 156160,
+      "right_censored": false,
+      "epsilon": 0.1,
+      "retained_ranks_at_first_hit": [
+        100,
+        100
+      ]
+    }
+  ],
+  "new_physical_transitions": 4198400,
+  "slurm_job_id": "20164477"
+}

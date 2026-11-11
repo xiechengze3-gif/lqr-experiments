@@ -1,0 +1,72 @@
+{
+  "experiment": "stein-independent-stabilizer-20261022",
+  "dimensions": [
+    50,
+    100
+  ],
+  "rank": 4,
+  "A_radius": 1.05,
+  "A_rng_namespace": 2026102291,
+  "B_rng_namespace": 2026102292,
+  "data_rng_namespace": 2026102294,
+  "initialization": "stability_only_no_Kstar_no_gap_matching",
+  "pilot_system_seeds": [
+    5001,
+    5002
+  ],
+  "confirm_system_seeds": [
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008
+  ],
+  "methods": [
+    "dense",
+    "known_rank"
+  ],
+  "H": 256,
+  "burn": 512,
+  "sigma": 1.0,
+  "PI": {
+    "updates": 6,
+    "eta": 1.0,
+    "pilot_N": [
+      32768,
+      131072
+    ],
+    "confirm_N": [
+      32768,
+      131072,
+      524288
+    ]
+  },
+  "primary_metric": "g=(J-Jstar)/(J0-Jstar)",
+  "output": "/scratch/user/changze/lqr_experiments/results/stein-independent-stabilizer-20261022",
+  "cache": "/scratch/user/changze/lqr_experiments/cache/stein-independent-stabilizer-20261022",
+  "temp": "/scratch/user/changze/lqr_experiments/tmp/stein-independent-stabilizer-20261022",
+  "resources": {
+    "account": "132685389143",
+    "total_SU_cap": 60,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "maximum_concurrency": 24,
+    "preflight_wall_minutes": 15,
+    "maximum_task_wall_minutes": 60,
+    "report_wall_minutes": 20,
+    "manual_recovery_reserve_SU": 5,
+    "automatic_retries": 0,
+    "excluded_hosts": [
+      "c136",
+      "c294"
+    ]
+  },
+  "construction_output": "/scratch/user/changze/lqr_experiments/results/independent-ab-stabilizer-20261022-v4",
+  "algorithms": [
+    "PI"
+  ],
+  "K0_rng_namespace": 2026102293
+}

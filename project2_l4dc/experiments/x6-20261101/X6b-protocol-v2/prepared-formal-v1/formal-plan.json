@@ -1,0 +1,388 @@
+{
+  "status": "PREPARED_AWAITING_EXPLICIT_FORMAL_ACCEPTANCE",
+  "prior_requested_SU": 19,
+  "formal_requested_SU": 317.8666666666667,
+  "reserved_report_SU": 6.5,
+  "total_requested_with_report_SU": 343.3666666666667,
+  "cap_requested_SU": 400,
+  "groups": [
+    {
+      "id": "n24-low-three",
+      "n": 24,
+      "runs": [
+        {
+          "algorithm": "NPG",
+          "rung": 0.015625,
+          "rung_label": "r0015625"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.015625,
+          "rung_label": "r0015625"
+        },
+        {
+          "algorithm": "NPG",
+          "rung": 0.0625,
+          "rung_label": "r00625"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.0625,
+          "rung_label": "r00625"
+        },
+        {
+          "algorithm": "NPG",
+          "rung": 0.25,
+          "rung_label": "r025"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.25,
+          "rung_label": "r025"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 8,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 352.3082228091397,
+      "requested_bound_SU": 4.266666666666667
+    },
+    {
+      "id": "n24-full-NPG",
+      "n": 24,
+      "runs": [
+        {
+          "algorithm": "NPG",
+          "rung": 1.0,
+          "rung_label": "r1"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 7,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 322.8356345462232,
+      "requested_bound_SU": 3.7333333333333334
+    },
+    {
+      "id": "n24-full-PI",
+      "n": 24,
+      "runs": [
+        {
+          "algorithm": "PI",
+          "rung": 1.0,
+          "rung_label": "r1"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 7,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 304.68739597955687,
+      "requested_bound_SU": 3.7333333333333334
+    },
+    {
+      "id": "n36-low-three",
+      "n": 36,
+      "runs": [
+        {
+          "algorithm": "NPG",
+          "rung": 0.015625,
+          "rung_label": "r0015625"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.015625,
+          "rung_label": "r0015625"
+        },
+        {
+          "algorithm": "NPG",
+          "rung": 0.0625,
+          "rung_label": "r00625"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.0625,
+          "rung_label": "r00625"
+        },
+        {
+          "algorithm": "NPG",
+          "rung": 0.25,
+          "rung_label": "r025"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.25,
+          "rung_label": "r025"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 15,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 669.6450388861749,
+      "requested_bound_SU": 8.0
+    },
+    {
+      "id": "n36-full-NPG",
+      "n": 36,
+      "runs": [
+        {
+          "algorithm": "NPG",
+          "rung": 1.0,
+          "rung_label": "r1"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 18,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 794.3045190303885,
+      "requested_bound_SU": 9.6
+    },
+    {
+      "id": "n36-full-PI",
+      "n": 36,
+      "runs": [
+        {
+          "algorithm": "PI",
+          "rung": 1.0,
+          "rung_label": "r1"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 17,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 776.6697184536406,
+      "requested_bound_SU": 9.066666666666666
+    },
+    {
+      "id": "n48-low-three",
+      "n": 48,
+      "runs": [
+        {
+          "algorithm": "NPG",
+          "rung": 0.015625,
+          "rung_label": "r0015625"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.015625,
+          "rung_label": "r0015625"
+        },
+        {
+          "algorithm": "NPG",
+          "rung": 0.0625,
+          "rung_label": "r00625"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.0625,
+          "rung_label": "r00625"
+        },
+        {
+          "algorithm": "NPG",
+          "rung": 0.25,
+          "rung_label": "r025"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.25,
+          "rung_label": "r025"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 32,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 1448.1386773233369,
+      "requested_bound_SU": 17.066666666666666
+    },
+    {
+      "id": "n48-full-NPG",
+      "n": 48,
+      "runs": [
+        {
+          "algorithm": "NPG",
+          "rung": 1.0,
+          "rung_label": "r1"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 43,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 1972.1977957353556,
+      "requested_bound_SU": 22.933333333333334
+    },
+    {
+      "id": "n48-full-PI",
+      "n": 48,
+      "runs": [
+        {
+          "algorithm": "PI",
+          "rung": 1.0,
+          "rung_label": "r1"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 43,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 1958.0029891582526,
+      "requested_bound_SU": 22.933333333333334
+    },
+    {
+      "id": "n72-low-three",
+      "n": 72,
+      "runs": [
+        {
+          "algorithm": "NPG",
+          "rung": 0.015625,
+          "rung_label": "r0015625"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.015625,
+          "rung_label": "r0015625"
+        },
+        {
+          "algorithm": "NPG",
+          "rung": 0.0625,
+          "rung_label": "r00625"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.0625,
+          "rung_label": "r00625"
+        },
+        {
+          "algorithm": "NPG",
+          "rung": 0.25,
+          "rung_label": "r025"
+        },
+        {
+          "algorithm": "PI",
+          "rung": 0.25,
+          "rung_label": "r025"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 103,
+      "partition": "short",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 4715.190475576333,
+      "requested_bound_SU": 54.93333333333333
+    },
+    {
+      "id": "n72-full-NPG",
+      "n": 72,
+      "runs": [
+        {
+          "algorithm": "NPG",
+          "rung": 1.0,
+          "rung_label": "r1"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 152,
+      "partition": "medium",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 6980.699794467206,
+      "requested_bound_SU": 81.06666666666666
+    },
+    {
+      "id": "n72-full-PI",
+      "n": 72,
+      "runs": [
+        {
+          "algorithm": "PI",
+          "rung": 1.0,
+          "rung_label": "r1"
+        }
+      ],
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 151,
+      "partition": "medium",
+      "concurrency": 8,
+      "forecast_seconds_per_task": 6934.616832882469,
+      "requested_bound_SU": 80.53333333333333
+    }
+  ],
+  "alternatives": [
+    {
+      "n_values": [
+        24,
+        36,
+        48,
+        72
+      ],
+      "formal_requested_SU": 317.8666666666667,
+      "cumulative_with_report_SU": 343.3666666666667,
+      "fits_400": true
+    },
+    {
+      "n_values": [
+        24,
+        36,
+        48
+      ],
+      "formal_requested_SU": 101.33333333333333,
+      "cumulative_with_report_SU": 126.83333333333333,
+      "fits_400": true
+    },
+    {
+      "n_values": [
+        24,
+        36
+      ],
+      "formal_requested_SU": 38.4,
+      "cumulative_with_report_SU": 63.9,
+      "fits_400": true
+    }
+  ],
+  "formal_config_sha256": "6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d",
+  "source_sha256": "3c55838a75276d4814390766597c239133f884130128d16e017509280f6b4531",
+  "scientific_sources": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "actor_paths.py": "d32e410a64c78a927c2e4b1f9c5ea929c3942c856f393b77b2ab2479ea33a8dc",
+    "formal_driver.py": "d30fc3dbf703f17ac37ee2ad7573b7e36589057cbb5d76b572e4375975f54b25",
+    "analyze_actor.py": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469",
+    "plot_saved_actor.py": "33759f577ab645e67e1ebba53f8b6228c4528d2e635f57da1634dd6243807835"
+  },
+  "group_note": "Low3rungs x2alg bundled; full-NPG and full-PI separate. Every path starts freshK0.",
+  "tasks": 384,
+  "paired_paths": 1024,
+  "arms": 2048,
+  "training_primitive_transitions": 483160776704,
+  "proposed_omitted_dimensions": [],
+  "retries": 0,
+  "threads": 1,
+  "resource_only_measurements": true
+}

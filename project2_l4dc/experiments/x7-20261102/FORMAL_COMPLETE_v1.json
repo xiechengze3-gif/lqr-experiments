@@ -1,0 +1,530 @@
+{
+  "status": "COMPLETE_COVERAGE_COUNTS_SOURCES",
+  "counts": {
+    "tasks": 32,
+    "paths": 128,
+    "outputs": 10752,
+    "fit_policy_archives": 768,
+    "primitive_transitions": 37814272
+  },
+  "checked_utc": "2026-11-02T23:43:44.010082+00:00",
+  "config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d",
+  "source_sha256": "fd4ced77727b4f1675e61318b74f02f23275f6e634988e2cae019ba723fa8c29",
+  "job": "20375602",
+  "receipts": [
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n24-geometric/DONE.json",
+      "sha256": "252ce5e3b8c184939bc3bd5657bcaaefe1d3254abf8c341b97b470742a770035"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n24-polynomial/DONE.json",
+      "sha256": "251727b0296792b1cdbb8accfa205781e07959d9d5deb1851d95d43790665ee4"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n48-geometric/DONE.json",
+      "sha256": "179e73f903a314bf2e76cd299e5008f54e324047944e8de5406dc293c396647b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n48-polynomial/DONE.json",
+      "sha256": "aa9105cbf3ae2082b8aefe37441050ccb6367c7de1a0dfc2cca01ff832f8318e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n24-geometric/DONE.json",
+      "sha256": "301e960597b68bfa8af0ded36213d5a635e7c51af3978ec4f5ed0408cb35be96"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n24-polynomial/DONE.json",
+      "sha256": "f44c6a5dcb681cc867e87fbfb757c77b06960ca0747a22cce3a907c9722933b6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n48-geometric/DONE.json",
+      "sha256": "43fce523cc2dd8c2e35a2282468cad6e96a412de7a85d3b440890dcf35231bfd"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n48-polynomial/DONE.json",
+      "sha256": "d37b5af123107d24488d0b1ca8776f3cbf64a9c65c90c3764643e746b1618f43"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n24-geometric/DONE.json",
+      "sha256": "a4b54283afa7f0fd03bb2155b33ff23f3f7b63d672bea65b2dd88052639b6dc9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n24-polynomial/DONE.json",
+      "sha256": "ff15a78d631a69083734d2c68f7d3a4713782dfca4fbf8a163f466ba1b023b81"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n48-geometric/DONE.json",
+      "sha256": "b2d5f1f850c2c371299a218402cbd60f6ddf31c77abc9132bacb1fa24f3bd266"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n48-polynomial/DONE.json",
+      "sha256": "a47526aefb3af97717c940283a2e8014ac958507e9ff8071ba1c0f9f6abaedbc"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n24-geometric/DONE.json",
+      "sha256": "53b0ed0a66ff1b5f860220ef97a1d01d31edf61096af68d43d781472e4768561"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n24-polynomial/DONE.json",
+      "sha256": "68a7e494d2262d88fed72228a75beb702bfcdd4de7e80204b6f53e89641fb31d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n48-geometric/DONE.json",
+      "sha256": "8a87f77673d03d819486f6fd4fd6cc1ef0022856bd33eb7cc06b90f8c7e9b72e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n48-polynomial/DONE.json",
+      "sha256": "3e6ef07e078a8feab4214f60883809c091c2f9e8219e6088b59bc1f7778c62d2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n24-geometric/DONE.json",
+      "sha256": "846e694b88d9cd87e730c3027118d913f6239b7c0b2527fb906728b671110226"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n24-polynomial/DONE.json",
+      "sha256": "3635b10f7d63ab1722805294953a9224dff221ec6541393cb1b3baabed9558f8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n48-geometric/DONE.json",
+      "sha256": "789b1632dadc929cb9cfe866039545d1553cbd33655bc7df5dd299df6637a13a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n48-polynomial/DONE.json",
+      "sha256": "7066893b5fabd9bf0dbed83e0d0dcfabbe675548ecbcf741e1b46e8949bd6664"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n24-geometric/DONE.json",
+      "sha256": "8eddc83b2a24e36bd8e3f948e188d020d1bb9761c2151513dacc55fc38e2f7c0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n24-polynomial/DONE.json",
+      "sha256": "7d439bb65d56ca964c46e862826c7c78b64595a4a4c35e1f98c0fb172693006f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n48-geometric/DONE.json",
+      "sha256": "2f8f311cab4b577ef80300e0222416edc763d1408d7bb0cd862bcceeb0977040"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n48-polynomial/DONE.json",
+      "sha256": "a1dc2155d711fabd51f6340ca6c79d1c7b5be683044165f6b3e02898f5100092"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n24-geometric/DONE.json",
+      "sha256": "529319ba6a443658651d9ae89202cc2d87595059c848d911e5797dcd5122b69d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n24-polynomial/DONE.json",
+      "sha256": "6b4ad2e40c943e0a0b52cf3813f4902315eb1d64f4135003652c6961aa0f4dca"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n48-geometric/DONE.json",
+      "sha256": "a6788514ad1da7445194df58ae1fa4430271412d18ef128d778ee98e32c02e7c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n48-polynomial/DONE.json",
+      "sha256": "d242edbe2bdd5be179ca8126373688ed4af4ab3abfae67b7c6f9afa82838ef52"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n24-geometric/DONE.json",
+      "sha256": "cee2f236daed69df538b5c775627b2bdbad34d9222e7ce3ba3c5a7abfcd712be"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n24-polynomial/DONE.json",
+      "sha256": "6c1cb830cff88aef3d74a7a3a81fb551262321024024168a0347da9412bc3089"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n48-geometric/DONE.json",
+      "sha256": "7cf678a38cafad2e6e1ae88ac109c24b8c1fa304422c1b57ca7c45d6de4b2735"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n48-polynomial/DONE.json",
+      "sha256": "66396779ae29540e8fd79d037637103256dc7c1b1c025e64ee9961977e0dfd53"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n24-geometric/DONE.json",
+      "sha256": "8a54b7cf9a28e4122114b5e7853129339f3f11f22c1a7babb255046eac3e70f0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n24-polynomial/DONE.json",
+      "sha256": "034cffd8f72a56199f9ad31b8e56c1b6680ad370b835f725f1e20711ec66d38c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n48-geometric/DONE.json",
+      "sha256": "07602c949ae81e8e67e526b446f02a56521a2bb5010008da2a59fd64f3faad0f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n48-polynomial/DONE.json",
+      "sha256": "e0e4248a0dbfc15cd07f7867011e6311ac715cbdf113810d59ae936f206ca8b4"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n24-geometric/DONE.json",
+      "sha256": "541cd023233f8e510bdda6141802beafff154629757930f20f25cd60cc0f976a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n24-polynomial/DONE.json",
+      "sha256": "2c8bd28f6a54ae9f31c00dd8cfb48aba78940a3c8ebef4c1cebe3bf3da3299f8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n48-geometric/DONE.json",
+      "sha256": "b6dfed644b9bb0a210f2b49694c7d203cb150ea461c3443177d30a7a6dd5c41d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n48-polynomial/DONE.json",
+      "sha256": "fba7a1054574672c65f14f5c731fcc5b513ca54d883d1adc464371686b7e619a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n24-geometric/DONE.json",
+      "sha256": "203f49538784785dad616a8adb52cf2736822a31c06a3b46c380a577a8feadfe"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n24-polynomial/DONE.json",
+      "sha256": "be47cdb57258d271d793221ed8355948cd6f3c7f67a7a8e9eb8c9209d694e16f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n48-geometric/DONE.json",
+      "sha256": "d66e8be92fee32cec570e0540f583e9ccdebd401148f48b43e785921d2d7f1fa"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n48-polynomial/DONE.json",
+      "sha256": "ac67b7301697b3b120a2ff09ecce5895e3ff8d79c2490ad55b4860247b84fdee"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n24-geometric/DONE.json",
+      "sha256": "e3d0bc7c92570fc6d14cb1ac788310e8b55a8d5bc7735ffd0f69d5a42629c4ae"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n24-polynomial/DONE.json",
+      "sha256": "ad935c5dd214379b0575eeb43d514ccc768a71c1fba169e8e84a6e63008ad39f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n48-geometric/DONE.json",
+      "sha256": "ec691e955a4dc189ffa68402018e293826820930f047c3cae4c17a5e94b086f1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n48-polynomial/DONE.json",
+      "sha256": "b85b14411bf76743a320e664edbf0c21ba2f4b9c5d62f82e4576dbad20c2cf62"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n24-geometric/DONE.json",
+      "sha256": "23bbf696e90cd1f702a71a62faf930bd145e209b6f21e71243ba5aa110c86f72"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n24-polynomial/DONE.json",
+      "sha256": "408b677c18b603fa284dbfebc3456cde60b73fb1001e7e8e276c4ffc8835ee02"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n48-geometric/DONE.json",
+      "sha256": "6736669c7e2724a256e222a52eead52858a123e87147ac8c422f8a0131e8616c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n48-polynomial/DONE.json",
+      "sha256": "11ffba592cc693128baa5bcbd2f8c215e46137e2482c56f60d628229a20a9a01"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n24-geometric/DONE.json",
+      "sha256": "6b97b7bb77f2087372978a83633c5bd059039e553de4d60c15aab492965aeb81"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n24-polynomial/DONE.json",
+      "sha256": "4347966d8ce2f1592615cb3e74ee7cfa107fce8204e896b643460c382d8f92d9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n48-geometric/DONE.json",
+      "sha256": "58642e78437e5d9fd4c9478412572c914a44eb8008bd7ae10b62d1d0216346a1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n48-polynomial/DONE.json",
+      "sha256": "ba7d54cd42217fdfe85f393443da9d7526d09461b8799adaada90af5fcd4d5ad"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n24-geometric/DONE.json",
+      "sha256": "1b53a9c3f70f846f67dde1ba87c5f27c9d4d0f34c4c8bc9a7ef01cd2bddec1aa"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n24-polynomial/DONE.json",
+      "sha256": "e54cf341b2f69018546265e487fec6ebac163470c176f0c18a5d383d52ecb188"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n48-geometric/DONE.json",
+      "sha256": "5c9620031f7ba16714f4898e2b4db08a62c65e250cd62cd74e1abd707d7530f2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n48-polynomial/DONE.json",
+      "sha256": "461b0a0bf58921cf21f0ec3eedea678d34b241953924b7ec6740b8d7c3efecd9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n24-geometric/DONE.json",
+      "sha256": "b6da308496629a126d5f18c0cd34cd7bf409d7f35d02d3484ab5ecc1ad70c0cd"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n24-polynomial/DONE.json",
+      "sha256": "745096f491da96facf391aeecc13e83e60c49089f3fa0ad4be84983d1dfcfc5a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n48-geometric/DONE.json",
+      "sha256": "f16e3e30dce97c8fc18d789577359c2ec489cf9f6a34ba40f7150de9f3d7fc39"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n48-polynomial/DONE.json",
+      "sha256": "2e819c4c669a09158ac1a8512885732047138df7c030c679c17508571650a7b6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n24-geometric/DONE.json",
+      "sha256": "2bdf47143ddfef3ac154f20912b554d21d439283d8a3931cd6e230187aefbc5f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n24-polynomial/DONE.json",
+      "sha256": "c308f3e3d21c741fe2b3dbdf347c41c9cce547b981761282bed9ae84684676f3"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n48-geometric/DONE.json",
+      "sha256": "4393f58753eaa2e4718e00b56c495707e6e4e05fed8c2f6f284af1970b0b2cd5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n48-polynomial/DONE.json",
+      "sha256": "672a22ef894b3e9754356c560d10b42bbc562d9217aee8a152c48d52403980d7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n24-geometric/DONE.json",
+      "sha256": "c132f3c533a0f999db1cb635736df52c74db32a8d62c0a28f31415ea4b0d8403"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n24-polynomial/DONE.json",
+      "sha256": "2d3476d96d4eed0627b62530af8f85f1a15409c0b2561dea8ca00f3b06386ed5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n48-geometric/DONE.json",
+      "sha256": "648335503e244863935fb1e46ead6fc5b66103b97f1d19a112e02857931ac349"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n48-polynomial/DONE.json",
+      "sha256": "217f1c5d0cc1b33f680fd1a7bd62a0fcbc300b0f859c3fa4b3bb36da30b8ea07"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n24-geometric/DONE.json",
+      "sha256": "cba1e4d4ae114077f50d4a8a415639248e000bb474f02b095d92060a1dd63c93"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n24-polynomial/DONE.json",
+      "sha256": "05a819aec932f81025fb955a5f277917080f455f2905644ae5b68d7ae6b7e207"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n48-geometric/DONE.json",
+      "sha256": "729343cf09fc3e4ae74b5030c242179020034c137b9d3e8dd2d499ec3f6af849"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n48-polynomial/DONE.json",
+      "sha256": "87901a0e1351b83aa674f3dd97c300499e1557dac2915a4030e02a2d48ecfe32"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n24-geometric/DONE.json",
+      "sha256": "d92d737304c11d8277ca4d4354e33264fe9500a8fcc95dce3c0c5d26451922bd"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n24-polynomial/DONE.json",
+      "sha256": "28171645f73b5536f9ce55d96399746178dfd613aa8b0f27431f5d98f1e690fc"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n48-geometric/DONE.json",
+      "sha256": "252ab61ac8f6df32e2714e2779cba49ac5fb4be514e78f098f6bdcf159861adc"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n48-polynomial/DONE.json",
+      "sha256": "0fd7a3bbe05af6fdd71088f28dc377d6d556a7920f73764d3aaecb7ab144b465"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n24-geometric/DONE.json",
+      "sha256": "17fb27a00ebd268f278419e66c94b975d6888f083720440cf33720c2a2243ca2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n24-polynomial/DONE.json",
+      "sha256": "1cc865f182307945c1489601264a4bf9a795e4245db9ea1f4e88a3b925cff65e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n48-geometric/DONE.json",
+      "sha256": "07a8c5f875081f150fe50fe7c9cde9178a10405c6c80461283560c0ed8b3c408"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n48-polynomial/DONE.json",
+      "sha256": "855a93b4db02329dd3feebf048f8110fedd2a31d0759530146b0987659543443"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n24-geometric/DONE.json",
+      "sha256": "287b5aab1bdb1e920f3e63e3d347b535a5409a0de732b68e375894e10f972fb4"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n24-polynomial/DONE.json",
+      "sha256": "1ae4d0a7e1d5be8b6f052d5388a748f36c8ef97afc9e8c17f2f781184f22fb9b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n48-geometric/DONE.json",
+      "sha256": "e7d7873e82ac515467b51c949c163dd6b84779f035fbac7957df356c397bfe7b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n48-polynomial/DONE.json",
+      "sha256": "358755a25bfccab6a09f90e21d0afcec7b057bd8f6960ec11bb228152a86b7ba"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n24-geometric/DONE.json",
+      "sha256": "e81bfa854dc77652b6b670282d3c2d81e01b8eaf79935ac47e5f6248be74c67d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n24-polynomial/DONE.json",
+      "sha256": "a664453144e2493c6b014d4d3eae75895d7e73a0ce0612f25e7f8647d8b4ca33"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n48-geometric/DONE.json",
+      "sha256": "78c7866174fb0c07474cd557a62b12bec3c4c485681a262d88c84b37e9f8565d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n48-polynomial/DONE.json",
+      "sha256": "32bde6b46a8fb8ed1ef2385de808fefcafb6c43d47665bfcfa24443d56e88f8b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n24-geometric/DONE.json",
+      "sha256": "2a750ba6370e3c9c03ba2ecbef9572e22e73cd525591de1ab0f669026e7eacea"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n24-polynomial/DONE.json",
+      "sha256": "1ae07f3436e7364aafea2e24ddb728d4042c7e14c5cbb2ea9a7c535eb5350162"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n48-geometric/DONE.json",
+      "sha256": "0da177935fcd3d10d935f32cd0c89fccf142a20b4be337dfc864c1623c42420b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n48-polynomial/DONE.json",
+      "sha256": "42cf61636bfde7b268adf2334d12b96320cd31876bed9dd2a9a67ca36e5eebf0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n24-geometric/DONE.json",
+      "sha256": "9a04f0de735b4e1c65c42f49644aa691888657498a199e190bc8fc72c12e9d4c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n24-polynomial/DONE.json",
+      "sha256": "9ce7c550b93c52351751d3d888a657e52e71eed46b3dfc2f3b85a622a88dc802"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n48-geometric/DONE.json",
+      "sha256": "63af117acbf19a87ffa79d9e257b6f26943640c9336f22630bda7df40059774d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n48-polynomial/DONE.json",
+      "sha256": "8f8dbe994dc790d41cd6ac529d6664759c54d5200e7828c60651e96724c45f21"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n24-geometric/DONE.json",
+      "sha256": "d7f8a824a322bca851351bc571cf909df10ef850ce6f58459aa579884b41ce8c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n24-polynomial/DONE.json",
+      "sha256": "34d8f5cbdb4ab48fb2514d012f19761216f58696b7426798acda789bc2bdee84"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n48-geometric/DONE.json",
+      "sha256": "478724f05e9281bf6f79bb29f13f63e8875f8bf0a5be6fcb2c088be8f7308a37"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n48-polynomial/DONE.json",
+      "sha256": "0cd91ca2bbd56550106b3bf45bf847d4a8decb5ea7ebe5e704cd4d0bac7a093f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n24-geometric/DONE.json",
+      "sha256": "1be68632ec9b9688fae7e085f009dd8a6322e9d9c30e66b6c0f6a1807687667b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n24-polynomial/DONE.json",
+      "sha256": "8192fd65b2c978bd77db6b1dfb7a072927c42ca67fcecc91bc311453f0eb6f19"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n48-geometric/DONE.json",
+      "sha256": "739ed1dc7f26705258caa56b027b7c3eba215a4709be263502663a6107fa3cc6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n48-polynomial/DONE.json",
+      "sha256": "ccd4b400066f65d91a60ba1223d2e36e8513804a5193001d680d84020f024a05"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n24-geometric/DONE.json",
+      "sha256": "16e0bc6cf93b2ef0e165573b8825f0d60ebdc49f025cc4921076c7cc8798dbef"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n24-polynomial/DONE.json",
+      "sha256": "f8f2bc1fe5067d2d373663a44507ee1ab23ffab928557ec03ea88e0594ffae98"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n48-geometric/DONE.json",
+      "sha256": "31da30f50d44d3eb25ae274234f7be94a4dfeb260d99535d62c506a3156ac62d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n48-polynomial/DONE.json",
+      "sha256": "23a7b041870ec8ef2901466993ddef7487bc4e0ef62b603e32aa25e2bc2b3cf1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n24-geometric/DONE.json",
+      "sha256": "08069a8f404860beed41b3e2ce81d3ffe55a0986841099474588d23c9a79ea63"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n24-polynomial/DONE.json",
+      "sha256": "2850e9ba38430716a3d60a5d53a698c6cd8da4d0d39f24549a1b84553baa21ec"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n48-geometric/DONE.json",
+      "sha256": "136ac7a851ddb4f020d5928186d3183c7c4e24120912503b306fabb0ebbc99dc"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n48-polynomial/DONE.json",
+      "sha256": "f495560b4e14c8e1f20029f8caa932a47791dc5b088f4c331ce2188b0648c204"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n24-geometric/DONE.json",
+      "sha256": "4588121176bb532b713ea4584698f53a54bcfcdcec10c48fdc0d0ca6840d796d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n24-polynomial/DONE.json",
+      "sha256": "5a0cb20823d9cb6d931cf1b555b102d6b2e67dd4dfaa0fa15f7dbcdd2d4f2135"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n48-geometric/DONE.json",
+      "sha256": "5796d5931115251ba63eced3425f7c39ef6a5676aed2edf7914fb1068eccb86e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n48-polynomial/DONE.json",
+      "sha256": "8f36edb1bd9575b79bba8f45ecfffa5dd9360868dff89f3726226fc721017618"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n24-geometric/DONE.json",
+      "sha256": "ba3de596049d33f32d53707ec38fe558e94ab6968460561aa011550812857a2e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n24-polynomial/DONE.json",
+      "sha256": "54b2a4083fe7a424293bd3760f62dccb12f268d92fc464d1ea3c3dff6c17df78"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n48-geometric/DONE.json",
+      "sha256": "577caecd669f86dc21b589674d3c36cb91eade576e1c850b034eeb60fe8d6b8b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n48-polynomial/DONE.json",
+      "sha256": "29da3a56a0db61121b1c4a0d612c99d9a23d9abc27ec2d13a782d4eae50172b5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n24-geometric/DONE.json",
+      "sha256": "c12c1fd5580a6e5bf52433e2f5ddbcb1ac9956013d0e1e3a53698e8870c81355"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n24-polynomial/DONE.json",
+      "sha256": "52449f714ccdc9d904cb2d85962f7564576efbcf7e13277c8fe3b007d2fb862c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n48-geometric/DONE.json",
+      "sha256": "6d8c13e002bcf6bbfc5986125aae62ad8732da77ff86543e30e8c57792593a40"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n48-polynomial/DONE.json",
+      "sha256": "f7ae19749cfdc31a5c62efd75284a612c091ae9852e9b95c7d0f63303e506e43"
+    }
+  ],
+  "zero_new_transitions": true,
+  "numerical_checks": "PENDING frozen compute-node REPORT:archive hashes,OLS/policy equivalence,cost identities"
+}

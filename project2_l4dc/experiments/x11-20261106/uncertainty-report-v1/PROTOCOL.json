@@ -1,0 +1,37 @@
+{
+  "status": "POST_HOC_UNCERTAINTY_SUPPLEMENT_PREPARED_BEFORE_THIS_ANALYSIS",
+  "motivation": "Global F8 asks system-level bootstrap CI; accepted X11 point report supplied IQR but omitted bootstrap CI.",
+  "timing_disclosure": "Analysis seed and resampling plan are registered after formal data and original report; never describe as original preregistration.",
+  "unchanged_point_statistic": "median_system(median_seed(dense_gap/truncated_gap))",
+  "repetitions": 5000,
+  "cluster_unit": "system",
+  "systems": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308
+  ],
+  "seeds": [
+    1601,
+    1602,
+    1603,
+    1604
+  ],
+  "resample": "8 whole system clusters with replacement; retain all4 paired seeds within each selected cluster",
+  "rng": "frozen_engine.rng(620,11,n,m); one common index array per cell for every N and both ratio kinds",
+  "interval": "pointwise percentile95%; original q(.025)/q(.975); no simultaneous-probability interpretation",
+  "source_csvs": {
+    "new_records.csv": "1ab7b1babe282122d2739f6371ee63c67788ff1c6c5104c2f91632d668dacba1",
+    "reused_records.csv": "c9bd6dea341578c5241ea0aa69a7a9bdd9ed04db400f1c9da9d0f53656e82597",
+    "paired_gap_ratios_by_N.csv": "daee7b97ef6796f7387a4dba481860efef38208d2702bd73855057203244b666"
+  },
+  "source_sha256": "faea59f92339a3b56271c3919828b30f7db5e52371a28e9c0e4387b4e32cb953",
+  "new_training_transitions": 0,
+  "Grace_SU": 0,
+  "original_files_untouched": true,
+  "primary_costs_figures_and_point_estimates_unchanged": true
+}

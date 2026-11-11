@@ -1,0 +1,24 @@
+{
+  "status": "SHALLOW_CE_VERIFIED_DELIVERY_PREPARED",
+  "files": {
+    "X8_sample_cost.csv": "5dad97dab0a2025349ced1f64b442afd6ec80b5baad79330564c75a26e4c3d36",
+    "X8_sample_cost_merged.csv": "dac550c0390207a89943d838cb44ab18870722e9aeca08efc9f84b27e4a75c62",
+    "X6a_sample_cost_derived.csv": "d5892ec7e3be19b6ebab8415e919dc6c991ef8c37a34f0727079113d8b3b4af7",
+    "X6a_sample_cost_derived_merged.csv": "baa204210bcad918511d24d5c213299a32a87b5d460353cd64d90255464c09b5",
+    "X1_normalized_statistics.csv": "3778af9d10b85f21305d8797e889fd13b963eb267a0159b96ff62dd6699e918d",
+    "X1_normalized_statistics_merged.csv": "8a7adafb1f20185110e393380fe05f0eb56c632ed3156608d15d975701bf80ec",
+    "CE_censoring_flags.csv": "ae75046f5990055ccef719cbf7928ec27363d05ff26748ea6c43eed1ff2b63ad",
+    "CE_failures.csv": "8c6d23b2817b90c002555d65c86c10cd4430e61b5feb67c9658e59fa2ce0ee84",
+    "CE_all_failure_rates_by_prefix.csv": "2d6f4744865a58a1c835e4d87137e92efdb704f7bba2801f470b8788c1c4c030",
+    "CE_plotted_curve_failure_rates.csv": "fb8f352604dd8f9c5ad16c0ce772c4ee53ebdd22622e5d69095188f804db1336",
+    "CE_REPORT.md": "4f8166feb3d50f2e36ccda519ee1187d17cc8bc693f6af464d8ac9dc90be933f",
+    "ce_figures/ce_main_eps_0.005.png": "d7b0ddbf50faf5cfa8f56f0f30a61818b57f204c957970c09880478221810915",
+    "ce_figures/ce_main_eps_0.005.svg": "da4dc510b83b258b8e363b4dc726ff128f73d18a6dce8859deb130c273f0ffff",
+    "ce_figures/ce_main_eps_0.01.png": "a6713eb675cfae2675d39d12d753d9ab556ecfafc042e69cb67a1685f77ecb03",
+    "ce_figures/ce_main_eps_0.01.svg": "efce3561df5c3ed203d79c1286bc9a55a3f0f0b1ee6f7f90130e6078759ce66e"
+  },
+  "baseline_bytes_preserved": true,
+  "source_report_sha256": "e64c8d09d2783bf15b7f04c33b0116221a56fc8c502f00fa4bf4df54051f3c22",
+  "presentation_sha256": "5e59253b34667491cf3f4d8227df4ee77d086ecf9f2a0d3720651dae8c131c43",
+  "numerical_reanalysis": false
+}

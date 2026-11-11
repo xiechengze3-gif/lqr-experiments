@@ -1,0 +1,783 @@
+{
+  "profile": "NPG critic precision audit",
+  "engine_release": "7f5c6de07fb244ab",
+  "actor_tasks": [
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "actor",
+      "stages": 24,
+      "batch_schedule": [
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 50,
+      "m": 50,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "actor",
+      "stages": 24,
+      "batch_schedule": [
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "actor",
+      "stages": 24,
+      "batch_schedule": [
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.0,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "actor",
+      "stages": 24,
+      "batch_schedule": [
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.1,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "actor",
+      "stages": 24,
+      "batch_schedule": [
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144
+      ],
+      "stabilizer": "isotropic"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 4,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "tail": 0.1,
+      "tail_shape": "energy",
+      "horizon": 16,
+      "sigma": 1.0,
+      "mode": "actor",
+      "stages": 24,
+      "batch_schedule": [
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        16384,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        65536,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144,
+        262144
+      ],
+      "stabilizer": "isotropic"
+    }
+  ],
+  "fixed_tasks": [
+    {
+      "actor_task": 0,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 0,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 0,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 0,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 0,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 0,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 0,
+      "policy": "exact128",
+      "policy_seed": 3,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 0,
+      "policy": "exact128",
+      "policy_seed": 3,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 1,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 1,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 1,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 1,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 1,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 1,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 1,
+      "policy": "exact128",
+      "policy_seed": 3,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 1,
+      "policy": "exact128",
+      "policy_seed": 3,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 2,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 2,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 2,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 2,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 2,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 2,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 2,
+      "policy": "exact128",
+      "policy_seed": 3,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 2,
+      "policy": "exact128",
+      "policy_seed": 3,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 3,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 3,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 3,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 3,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 3,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 3,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 3,
+      "policy": "exact128",
+      "policy_seed": 3,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 3,
+      "policy": "exact128",
+      "policy_seed": 3,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 4,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 4,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 4,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 4,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 4,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 4,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 5,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 5,
+      "policy": "initial",
+      "policy_seed": 0,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 5,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 5,
+      "policy": "raw24",
+      "policy_seed": 1,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 5,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 0,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    },
+    {
+      "actor_task": 5,
+      "policy": "truncated24",
+      "policy_seed": 2,
+      "trial_seed": 1,
+      "budgets": [
+        16384,
+        65536,
+        262144,
+        1048576
+      ]
+    }
+  ],
+  "protocol": "Actor is exact replay of existing NPG runs. Frozen policies get independent continuous-data critic prefixes and same-policy one-step counterfactuals. No PG or PI. Exact critics are diagnostics only."
+}

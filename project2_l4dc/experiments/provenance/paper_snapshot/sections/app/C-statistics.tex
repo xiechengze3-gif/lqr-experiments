@@ -1,0 +1,574 @@
+% !TeX root = ../../main.tex
+\section{Single-trajectory statistical guarantees}\label{app:stat}
+
+We prove the statistical guarantees of Theorem~\ref{thm:e2e}, using least
+squares for CE and a fixed-stage Stein bound for NPG.
+First failure combines adaptive stages, and the final count includes
+evaluation, baseline, and burn-in transitions.
+
+Put $\kappa=\sqrt{\chi}$. Before sampling or fixing numbered sample
+constants, use Lemma~\ref{app:lem:cert} with noise $W+\nu^2BB^\top$
+to fix $\bar\sigma^2\ge1$ bounding state and innovation covariances
+at every pulse phase. Also fix the LS threshold $L_{\mathrm{LS},0}$
+and coefficient $L_{\mathrm{LS}}\ge1$, an absolute logarithm constant
+$L_{\log}\ge e$, and a system constant $L_{\mathrm{stat}}\ge1$ dominating
+the Gram and Stein bounds.
+
+\subsection{Least squares}\label{app:ls}
+
+Apply $u_t=-K_0x_t+\xi_t$ with independent
+$\xi_t\sim N(0,\nu^2I_m)$, independent of process noise.
+The counted burn-in is the smallest integer $b_{\mathrm{CE}}\ge1$
+with $\kappa\rho^{b_{\mathrm{CE}}}\|x_0\|\le1$, hence
+$b_{\mathrm{CE}}\lesssim\log(2+\|x_0\|)$.
+
+\begin{lemma}[Least-squares accuracy]\label{app:lem:ls}
+For $0<\delta<1$, collect the preceding experiment with
+$N\ge L_{\mathrm{LS},0}(d+\log(1/\delta))$ regression transitions.
+With probability at least $1-\delta$, its least-squares fit obeys
+\[
+ \max\{\|\widehat A-A\|,\|\widehat B-B\|\}^2
+ \le L_{\mathrm{LS}}\frac{d+\log(1/\delta)}N .
+\]
+\end{lemma}
+\begin{proof}
+\emph{(a) Gaussian design.}
+Fix the observed $x_0$, include burn-in innovations, and define
+on the regression interval
+\[
+ z_t=\begin{bmatrix}x_t\\u_t\end{bmatrix},\qquad
+ V_N=\sum_tz_tz_t^\top,\qquad
+ S_N=\sum_tw_tz_t^\top .
+\]
+Since $b_{\mathrm{CE}}\ge1$, contemporaneous $x_t,\xi_t$ are
+independent and $\operatorname{Cov}(x_t)\succeq W$. The shear
+\[
+ z_t=\begin{bmatrix}I&0\\-K_0&I\end{bmatrix}
+       \begin{bmatrix}x_t\\\xi_t\end{bmatrix}
+\]
+and its inverse have bounded norms, giving uniformly positive
+design covariance bounds. Burn-in bounds the deterministic mean.
+The convolution bound
+$\sum_{j\ge0}\|F_{K_0}^j\|\le\kappa/(1-\rho)$ bounds the complete
+Gaussian stack covariance by $\lesssim1$, including burn-in,
+exploration, and shear.
+
+Thus $(v^\top z_t)_t$ has covariance norm $\lesssim1$ and second
+moment $\lesssim N$ for unit $v\in\RR^d$.
+Diagonalization and Gaussian moment-generating functions give squared
+norm deviations $\lesssim\sqrt{Nu}+u$ with failure $O(e^{-u})$.
+A $1/4$-net of size $\exp(O(d))$, with
+$u\gtrsim d+\log(1/\delta)$, yields
+\[
+ \left\|N^{-1}(V_N-\EE V_N)\right\|
+ \lesssim\sqrt{\frac{d+\log(1/\delta)}N}
+              +\frac{d+\log(1/\delta)}N .
+\]
+The sample threshold gives
+$\lambda_{\min}(V_N)\gtrsim N$ and $\|V_N\|\lesssim N$.
+
+\emph{(b) Martingale noise.}
+Since $z_t$ precedes $w_t$, apply the self-normalized inequality
+\citep{abbasi2011improved} to $S_N^\top v$ for fixed $v\in\RR^n$
+with regularizer $\lambda NI$, where $\lambda>0$ is fixed.
+On the Gram event, the log determinant is $\lesssim d$ and
+$\|V_N^{-1/2}(V_N+\lambda NI)V_N^{-1/2}\|\lesssim1$.
+A sphere net adds $O(n)$ to the logarithm, giving
+$\|S_NV_N^{-1/2}\|^2\lesssim d+\log(1/\delta)$.
+Intersect the two events within failure $\delta$ and use
+$[\widehat A-A,\widehat B-B]=S_NV_N^{-1}$.
+The desired claim then follows.
+\end{proof}
+
+Fix
+\[
+ C_3=\max\{\Lambda_{\mathrm{CE}},\,2C_8/c_2\}.
+\]
+Fix $C_2$ ensuring its sample condition implies
+$N\ge L_{\mathrm{LS},0}(d+\log(1/\delta))$,
+$L_{\mathrm{LS}}(d+\log(1/\delta))/N\le c_1^2$, and
+$\Lambda_{\mathrm{CE}}rL_{\mathrm{LS}}(d+\log(1/\delta))/N\le\eps$.
+Fix $C_4$ satisfying, for $n\ge1$ and $0<\eps<1$,
+\[
+ 1+\frac2{c_2}\log(2+2nw_+p_0/\eps)
+ \le C_4\log(C_4n/\eps).
+\]
+
+\begin{proof}[Proof of Theorem~\ref{thm:e2e}(a)]
+\emph{(a) Accuracy.}
+By Lemma~\ref{app:lem:ls} and the choice of $C_2$, with
+probability at least $1-\delta$,
+\[
+ a=\sqrt{L_{\mathrm{LS}}(d+\log(1/\delta))/N}
+ \le c_1\le e_{\mathrm{loc}}/3 .
+\]
+
+\emph{(b) Transfer.}
+Since $\beta_r\le c_1$, Proposition~\ref{app:prop:ce}
+gives stability, matrix and rank conclusions, and
+\[
+ g(\widehat K)\le\Lambda_{\mathrm{CE}}(ra^2+\tau_r^2)
+ \le\eps+C_3\tau_r^2.
+\]
+The total transition count is $N+b_{\mathrm{CE}}$.
+The desired claim then follows.
+\end{proof}
+
+\subsection{A fixed Stein stage}\label{app:stein}
+
+Condition on a stage-entry history, fixing its state $x_{\mathrm{in}}$
+and stabilizing gain $K$ with $P=P_K\preceq2P_{K_0}$.
+Write $F=F_K$ and choose an integer $H\ge1$ satisfying
+\begin{equation}\label{app:eq:horizon}
+ \kappa\rho^H\sqrt{\bar\sigma^2/w_-}\le\tfrac12.
+\end{equation}
+Every block, including burn-in, begins with an independent pulse
+$\xi_j\sim N(0,\nu^2I_m)$ and continues with $H-1$ nominal
+transitions. Choose the smallest nonnegative burn-in count with
+\begin{equation}\label{app:eq:burn}
+ \kappa^2\rho^{2b_{\mathrm{burn}}H}
+       (\|x_{\mathrm{in}}\|^2+n\bar\sigma^2)\le1.
+\end{equation}
+After burn-in, set $t_j=jH$, use baseline block $0$ and evaluation
+blocks $1,\ldots,N$, and define
+\[
+ \begin{gathered}
+ X_j=x_{t_j},\qquad
+ \mathcal G_j=\sum_{s=1}^H x_{t_j+s}^\top S_Kx_{t_j+s},\qquad
+ \Delta_j=\mathcal G_j-\mathcal G_{j-1},\\
+ Y_j=-\frac{\xi_j\Delta_j}{2\nu^2},\qquad
+ T_j=\frac{(\xi_j\xi_j^\top-\nu^2I_m)\Delta_j}{2\nu^4},\qquad
+ \widehat G=N^{-1}\sum_{j=1}^NT_j .
+ \end{gathered}
+\]
+Set
+\[
+ \widehat Z=\Bigl(\sum_{j=1}^NY_jX_j^\top\Bigr)
+             \Bigl(\sum_{j=1}^NX_jX_j^\top\Bigr)^\dagger,
+\]
+which is \eqref{eq:stein}, with the minimum-norm convention for a
+singular Gram matrix. The return excludes immediate pulse
+cost and ends with nominal cost at the endpoint before the next pulse.
+For the pre-pulse history $\mathcal F_j$, both
+$X_j,\mathcal G_{j-1}$ are measurable.
+The stage counts $(b_{\mathrm{burn}}+N+1)H$ transitions.
+
+\begin{lemma}[Relative state Gram matrix]\label{app:lem:gram}
+Suppose $K$ is stabilizing with $P_K\preceq2P_{K_0}$ and use the
+stage protocol with \eqref{app:eq:horizon}--\eqref{app:eq:burn}.
+If $0<\delta<1$ and $N\ge L_{\mathrm{stat}}(n+\log(1/\delta))$, then,
+given the stage-entry history, with probability at least $1-\delta$,
+\[
+ \tfrac12N\Sigma_H\preceq\sum_{j=1}^NX_jX_j^\top\preceq2N\Sigma_H,
+ \qquad w_-I\preceq\Sigma_H\preceq\bar\sigma^2I .
+\]
+Here $\Sigma_H$ is the stationary block-start covariance.
+\end{lemma}
+\begin{proof}
+\emph{(a) Normalization.}
+The boundary process $X_{j+1}=F^HX_j+\omega_j$ has independent
+Gaussian innovations with covariance $\succeq W$ and stationary
+state covariance $\Sigma_H\preceq\bar\sigma^2I$.
+For $\overline X_j=\Sigma_H^{-1/2}X_j$ and
+$T_H=\Sigma_H^{-1/2}F^H\Sigma_H^{1/2}$, the horizon rule gives
+$\|T_H\|\le1/2$, hence normalized innovation covariance
+$I-T_HT_H^\top\succeq3I/4$.
+Summing lag bounds $2^{-a}$ bounds the stationary stack covariance
+by $O(1)$. This dominates the centered stack from a fixed state
+under the same burn-in protocol.
+The baseline block gives each evaluation covariance $\succeq3I/4$,
+while \eqref{app:eq:burn} gives
+$\sum_j\|\EE\overline X_j\|^2\lesssim1$.
+
+\emph{(b) Concentration.}
+Gaussian diagonalization and linear-form tails give, for
+$g\sim N(0,\mathsf V)$ and fixed $\mu$,
+\[
+ \bigl|\|g+\mu\|^2-\tr\mathsf V-\|\mu\|^2\bigr|
+ \lesssim \|\mathsf V\|_F\sqrt{u}+\|\mathsf V\|u
+                       +\sqrt{\mu^\top\mathsf V\mu\,u}
+\]
+with failure $O(e^{-u})$ \citep{laurent2000adaptive,rudelson2013hanson}.
+
+A fixed-resolution net applied to $(v^\top\overline X_j)_j$ gives
+normalized Gram deviation $\lesssim\sqrt{u/N}+u/N+\sqrt{u}/N$
+for $u\gtrsim n+\log(1/\delta)$.
+By part (a), its expectation lies between $3NI/4$ and
+$NI+\sum_j(\EE\overline X_j)(\EE\overline X_j)^\top=NI+O(1)$.
+The fixed $L_{\mathrm{stat}}$ and undoing normalization give the bounds.
+The desired claim then follows.
+\end{proof}
+
+\begin{lemma}[Stein accuracy]\label{app:lem:stein}
+Suppose $K$ is stabilizing with $P_K\preceq2P_{K_0}$ and use the
+stage protocol with \eqref{app:eq:horizon}--\eqref{app:eq:burn}.
+For $0<\delta<1$, let $\ell=\log(L_{\log}Nd/\delta)$.
+If $N\ge L_{\mathrm{stat}}d\ell^3$, then, given the stage-entry history,
+with probability at least $1-\delta$,
+\[
+ \|[\widehat G-G_K,\widehat Z-Z_K]\|^2
+ \le L_{\mathrm{stat}}\left(\frac{Hnd\ell^3}{N}+\rho^{4H}\right).
+\]
+The relative Gram conclusion of Lemma~\ref{app:lem:gram} holds
+on the same event.
+\end{lemma}
+\begin{proof}
+\emph{(a) Targets and finite-horizon bias.}
+Put $P_H=\sum_{a=0}^{H-1}(F^a)^\top S_KF^a$,
+$G_H=B^\top P_HB$, and $Z_H=-B^\top P_HF$.
+The within-block state expansion gives
+\[
+ \EE[\mathcal G_j\given\mathcal F_j,\xi_j]
+ =X_j^\top F^\top P_HFX_j+2\xi_j^\top B^\top P_HFX_j
+             +\xi_j^\top G_H\xi_j+\gamma_H ,
+\]
+where $\gamma_H$ is independent of $X_j,\xi_j$.
+Since $\mathcal G_{j-1}$ is $\mathcal F_j$-measurable and
+$\EE[\xi_j\given\mathcal F_j]=0$,
+$\EE[\xi_j\xi_j^\top-\nu^2I_m\given\mathcal F_j]=0$, replacing
+$\mathcal G_j$ by $\Delta_j$ leaves both conditional targets unchanged. Vanishing odd
+moments and
+$\EE[(\xi\xi^\top-\nu^2I)(\xi^\top G_H\xi)]=2\nu^4G_H$ give
+\begin{equation}\label{app:eq:targets}
+ \EE[Y_j\given\mathcal F_j]=Z_HX_j,\qquad
+ \EE[T_j\given\mathcal F_j]=G_H.
+\end{equation}
+Since $P-P_H=(F^H)^\top PF^H$,
+\begin{equation}\label{app:eq:bias}
+ \|G_H-G_K\|+\|Z_H-Z_K\|\lesssim\rho^{2H}.
+\end{equation}
+
+\emph{(b) Return second moments.}
+Let $V_a=(F^a)^\top PF^a$. Summation by parts, using
+$V_{a+1}\preceq\rho^2V_a$, gives
+\[
+ \sum_{a\ge0}\rho^{-a}(F^a)^\top S_KF^a\preceq(1+\rho)P .
+\]
+Weighted Cauchy--Schwarz bounds
+$\|S_K^{1/2}\sum_{a\ge0}z^aF^a\|^2\le p(1+\rho)/(1-\rho)$
+for $|z|=1$. Parseval bounds the innovation-to-cost-weighted-state
+map. Every stationary phase covariance is dominated by a system multiple
+of $\sum_aF^a(F^a)^\top$, whose cost-weighted trace is
+$\lesssim\tr P$.
+
+Under the fixed stage-entry history, stack the cost-weighted states of
+the two returns as
+\[
+ y_j=\operatorname{col}\bigl(S_K^{1/2}x_{t_{j-1}+s}\bigr)_{s=1}^{2H},
+ \qquad \mu_y=\EE y_j,\qquad \mathsf V_y=\operatorname{Cov}(y_j),
+\]
+so that $\Delta_j=y_j^\top\mathsf Jy_j$ with
+$\mathsf J=\operatorname{diag}(-I_{Hn},I_{Hn})$. Then
+$\|\mathsf V_y\|\lesssim1$, $\tr\mathsf V_y\lesssim Hn$, and
+$\|\mu_y\|^2\lesssim1$ by Lyapunov energy and
+\eqref{app:eq:burn}. The stationary returns have equal means.
+Under the same pulsed burn-in, the first-boundary covariance deficit
+is $F^{b_{\mathrm{burn}}H}\Sigma_H(F^{b_{\mathrm{burn}}H})^\top$,
+giving
+\[
+ |\EE\Delta_j|\lesssim\kappa^2\rho^{2b_{\mathrm{burn}}H}
+ (\|x_{\mathrm{in}}\|^2+n\bar\sigma^2)\lesssim1 .
+\]
+
+The Gaussian quadratic-form identity gives
+\[
+ \EE\Delta_j^2
+ =2\tr(\mathsf J\mathsf V_y\mathsf J\mathsf V_y)
+  +4\mu_y^\top\mathsf J\mathsf V_y\mathsf J\mu_y+(\EE\Delta_j)^2
+ \lesssim Hn .
+\]
+Write $V_H=Hn$. The same calculation gives
+$\operatorname{Var}(\mathcal G_j)\lesssim V_H$.
+
+\emph{(c) Predictable moments.}
+Write
+$d_j=\EE[\Delta_j\given\mathcal F_j]$,
+$\varsigma_j^2=\operatorname{Var}(\mathcal G_j\given\mathcal F_j)$, and
+$m_j=d_j^2+\varsigma_j^2=\EE[\Delta_j^2\given\mathcal F_j]$,
+where the last equality uses the $\mathcal F_j$-measurability of
+$\mathcal G_{j-1}$.
+Here $d_j$ has Gaussian degree at most two, and
+$\varsigma_j^2$ is a nonnegative constant plus a nonnegative quadratic
+form in $X_j$. Jensen's inequality and the law of total variance give
+$\EE d_j^2,\EE\varsigma_j^2\lesssim V_H$.
+
+For a degree-$k$ Gaussian polynomial $f$,
+$\|f\|_{L^a}\le(a-1)^{k/2}\|f\|_{L^2}$ for $a\ge2$
+\citep{nelson1973free}.
+Applied to $d_j$ and the sum-of-squares representation of
+$\varsigma_j^2$, this gives $\|m_j\|_{L^a}\lesssim a^2V_H$
+by Minkowski. Markov at moment of order $\ell$ and a union bound yield
+\begin{equation}\label{app:eq:mh}
+ \max_{j\le N}m_j\lesssim\ell^2V_H
+\end{equation}
+with the allocated failure probability.
+
+Let $\widetilde Y_j=Y_j-Z_HX_j$ and $D_j^G=T_j-G_H$.
+Conditional H\"older's inequality and degree-two hypercontractivity
+of $\Delta_j$ give, for unit $u,v$,
+\[
+ \begin{split}
+ u^\top\EE[\widetilde Y_j\widetilde Y_j^\top\given\mathcal F_j]u
+       &\lesssim m_j,\\
+ \EE[(u^\top D_j^Gv)^2\given\mathcal F_j]&\lesssim m_j,\qquad
+ \|\EE[(D_j^G)^2\given\mathcal F_j]\|\lesssim m\,m_j .
+ \end{split}
+\]
+The last bound sums over one action index.
+
+\emph{(d) Predictable quadratic variation.}
+Set $\overline M_j=\widetilde Y_j\overline X_j^\top$ using the
+normalization of Lemma~\ref{app:lem:gram}.
+These are martingale differences from $\mathcal F_j$ to
+$\mathcal F_{j+1}$ by \eqref{app:eq:targets}.
+On the moment and upper Gram events, the variations satisfy
+\[
+ v_Z\lesssim N\ell^2V_H\max\{n,m\},\qquad
+ v_G\lesssim Nm\ell^2V_H
+\]
+for $\sum_j\overline M_j$ and $\sum_jD_j^G$, respectively.
+For the first sequence, the conditional matrix products are
+$\|\overline X_j\|^2\EE[\widetilde Y_j\widetilde Y_j^\top\given\mathcal F_j]$
+and
+$\tr\EE[\widetilde Y_j\widetilde Y_j^\top\given\mathcal F_j]\,
+\overline X_j\overline X_j^\top$.
+The normalized Gram trace and norm bound their sums.
+Increment entries have Gaussian degree at most four and
+$L^2$ norms $\lesssim\sqrt{V_H}$ by H\"older.
+Hypercontractivity and $\|M\|\le\|M\|_F$ give, for $a\ge2$,
+\begin{equation}\label{app:eq:tails}
+ \bigl\|\|\overline M_j\|\bigr\|_{L^a}
+      \lesssim\sqrt{mnV_H}\,a^2,\qquad
+ \bigl\|\|D_j^G\|\bigr\|_{L^a}
+      \lesssim m\sqrt{V_H}\,a^2 .
+\end{equation}
+
+\emph{(e) Bounded increments and compensators.}
+For $(U_j,v)=(\overline M_j,v_Z)$ or $(D_j^G,v_G)$, let $A_U$ be the
+deterministic coefficient in \eqref{app:eq:tails}, so that
+$\|\|U_j\|\|_{L^a}\le A_Ua^2$ for all $a\ge2$. Put
+$L_{\mathrm{cut}}=e^2A_U(4\ell)^2$ and
+\[
+ \widetilde U_j
+ =U_j\mathbf1_{\{\|U_j\|\le L_{\mathrm{cut}}\}}
+ -\EE[U_j\mathbf1_{\{\|U_j\|\le L_{\mathrm{cut}}\}}\given\mathcal F_j].
+\]
+These martingale differences have norm $\le2L_{\mathrm{cut}}$
+and conditional second moments dominated by those of $U_j$.
+The $4\ell$th moment in \eqref{app:eq:tails} gives
+\[
+ \Pr(\|U_j\|>L_{\mathrm{cut}})\le e^{-4\ell},\qquad
+ \EE[\|U_j\|\mathbf1_{\{\|U_j\|>L_{\mathrm{cut}}\}}]
+           \le L_{\mathrm{cut}}e^{-3\ell}.
+\]
+A union bound and Markov control observed truncations and conditional
+tail compensators, giving
+$\|\sum_j(U_j-\widetilde U_j)\|\le L_{\mathrm{cut}}$
+outside probability $N(e^{-4\ell}+e^{-3\ell})$.
+
+Matrix Freedman \citep{tropp2011freedman}, with self-adjoint
+dilation for rectangular increments, gives
+\[
+ \left\|\sum_{j=1}^NU_j\right\|
+ \lesssim\sqrt{v\ell}+L_{\mathrm{cut}}\ell
+\]
+on the variation event, outside the allocated exceptional event.
+
+\emph{(f) Reconstruction.}
+Put $\overline\Sigma_N=N^{-1}\sum_j\overline X_j\overline X_j^\top$.
+Regression gives
+\[
+ \widehat Z-Z_H
+ =\left(N^{-1}\sum_j\overline M_j\right)
+    \overline\Sigma_N^{-1}\Sigma_H^{-1/2}.
+\]
+The last factors are bounded by $2$ and $1/\sqrt{w_-}$
+by Lemma~\ref{app:lem:gram}. Substituting variations and cutoffs gives
+\[
+ \begin{split}
+ \|\widehat Z-Z_H\|
+ &\lesssim\sqrt{\frac{V_H\max\{n,m\}}N}\,\ell\sqrt{\ell}
+           +\frac{\sqrt{mnV_H}}N\ell^3,\\
+ \|\widehat G-G_H\|
+ &\lesssim\sqrt{V_H}
+          \left\{\sqrt{\frac mN}\,\ell^{3/2}
+                        +\frac mN\ell^3\right\}.
+ \end{split}
+\]
+Since $N\gtrsim d\ell^3$, the second terms are absorbed.
+Use $\|[E_G,E_Z]\|^2\le\|E_G\|^2+\|E_Z\|^2$,
+$V_H=Hn$, and \eqref{app:eq:bias}, with total failure $\delta$.
+The desired claim then follows.
+\end{proof}
+
+\subsection{Schedule for NPG}\label{app:schedule}
+
+With $c_1,c_2,C_8$ from Appendix~\ref{app:transfer}, set
+\[
+ \bar g_t=nw_+p_0(1-c_2/2)^t,\qquad
+ a_t^2=\min\left\{c_1^2,\frac{c_2\bar g_t}{4C_8r}\right\},
+ \qquad T=\min\{t\ge0\given\bar g_t\le\eps\}.
+\]
+When $T=0$, return $K_0$.
+For $T>0$, choose the smallest nondecreasing integer horizons $H_t$
+satisfying \eqref{app:eq:horizon}, $\kappa^2\rho^{H_t}\le1$, and
+$L_{\mathrm{stat}}\rho^{4H_t}\le a_t^2/2$.
+
+Put $L_{\mathrm{batch}}=2L_{\mathrm{stat}}$ and $L_*=2L_{\log}$.
+Before sampling, choose by deterministic doubling a common $N_*$
+such that, with $\ell_*=\log(L_*N_*Td/\delta)$,
+\[
+ N_*\ge
+ \left\lceil L_{\mathrm{batch}}
+ \left(d\ell_*^3+\frac{H_{T-1}nd\ell_*^3}{a_{T-1}^2}\right)\right\rceil.
+\]
+Use
+\begin{equation}\label{app:eq:batches}
+ N_t=\left\lceil L_{\mathrm{batch}}
+      \left(d\ell_*^3+\frac{H_tnd\ell_*^3}{a_t^2}\right)\right\rceil
+ \le N_* .
+\end{equation}
+For $U_*=d+H_{T-1}nd/a_{T-1}^2$, doubling terminates since
+$N/\log^3N\to\infty$, with
+\[
+ N_*\lesssim U_*\log^3(2U_*Td/\delta).
+\]
+Thus $\ell_*$ grows logarithmically. For $\delta_t=\delta/(2T)$, the
+stage logarithm satisfies
+\[
+ \ell_t=\log(L_{\log}N_td/\delta_t)\le\ell_*,
+\]
+and the batch and horizon rules give
+\[
+ N_t\ge L_{\mathrm{stat}}d\ell_t^3,\qquad
+ L_{\mathrm{stat}}\Bigl(\frac{H_tnd\ell_t^3}{N_t}+\rho^{4H_t}\Bigr)
+ \le a_t^2.
+\]
+Lemma~\ref{app:lem:stein} therefore gives radius $a_t$ with conditional
+failure at most $\delta_t$ on certified histories.
+
+\subsection{Adaptive stages and total burn-in}\label{app:stages}
+
+For the pre-stage history $\mathcal H_t$, let $E_t$ mean
+$\|\widehat Z_t-Z_{K_t}\|\le a_t$ on certified histories, and be
+false otherwise. Then $\mathcal A_t=\bigcap_{s<t}E_s\in\mathcal H_t$.
+Induction using Proposition~\ref{app:prop:npg} certifies $K_t$ on
+$\mathcal A_t$, where Lemma~\ref{app:lem:stein} gives
+$\Pr(E_t^c\given\mathcal H_t)\le\delta_t$.
+The disjoint first-failure events satisfy
+\begin{equation}\label{app:eq:first-failure}
+ \Pr(\mathcal A_t\cap E_t^c)
+ =\EE[\mathbf1_{\mathcal A_t}\Pr(E_t^c\given\mathcal H_t)]
+ \le\delta_t,\qquad
+ \Pr\left(\bigcap_{t<T}E_t\right)\ge1-\sum_{t<T}\delta_t.
+\end{equation}
+
+
+\begin{lemma}[Total burn-in]\label{app:lem:burn}
+Let $T,N_t,H_t$ be positive integers, with deterministic $N_t,H_t$,
+and use \eqref{app:eq:burn} at every stage. Suppose
+$\kappa^2\rho^{H_t}\le1$ for every $t$.
+With probability at least $1-\delta$, on every prefix of the realized
+trajectory whose gains satisfy the stage certificates,
+\[
+ \sum_{t<T}b_{{\mathrm{burn}},t}H_t-\sum_{t<T}H_t
+ \lesssim T\log\frac{2(1+\|x_0\|)n(M+1)}\delta .
+\]
+Here $M=\sum_{t<T}(b_{{\mathrm{burn}},t}+N_t+1)H_t$ is the actual
+transition count.
+\end{lemma}
+\begin{proof}
+\emph{(a) A pathwise state envelope.}
+Full blocks contract by $\kappa\rho^{H_t}\le\rho^{H_t/2}$,
+and length-$a$ partial blocks by $\kappa\rho^{a/2}$.
+Any transition product has at most two partial endpoints, hence
+$\|\Phi(v,u)\|\le\kappa^2\rho^{(v-u)/2}$ on certified prefixes,
+including policy changes.
+
+The noise $\omega_s=w_s+B\xi_s$ when pulsed, and $w_s$ otherwise,
+has bounded conditional covariance.
+Gaussian tails with failure allocation proportional to
+$\delta/(s+1)^2$ give, simultaneously with probability $1-\delta$,
+\[
+ \|\omega_s\|\lesssim\sqrt{n}+
+            \sqrt{\log\frac{O(1)(s+1)^2}\delta}
+\]
+for all $s\ge0$.
+Variation of constants and the summable transition bound yield
+\[
+ \kappa^2(\|x_s\|^2+n\bar\sigma^2)
+ \lesssim \|x_0\|^2+n+\log\frac{O(1)(M+1)}\delta,\qquad s\le M.
+\]
+
+\emph{(b) The integer rule.}
+Minimality and $-\log\rho\ge1/(2\chi)$ give
+\[
+ b_{{\mathrm{burn}},t}H_t
+ \le H_t+\chi\log_+\{\kappa^2(\|x_{{\mathrm{in}},t}\|^2+n\bar\sigma^2)\},
+\]
+where $\log_+z=\max\{\log z,0\}$.
+Insert the state envelope and sum over $t$.
+The desired claim then follows.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:e2e}(b)]
+For $T=0$, $g(K_0)\le\bar g_0\le\eps$ and $M=0$.
+Otherwise proceed as follows.
+
+\emph{(a) Probability and containment.}
+Intersect \eqref{app:eq:first-failure} and Lemma~\ref{app:lem:burn},
+each at failure $\delta/2$.
+With probability $1-\delta$, Proposition~\ref{app:prop:npg}
+gives stability and $P_{K_t}\preceq2P_{K_0}$ for every $t\le T$.
+
+\emph{(b) Gap envelope.}
+Initially $g(K_0)\le J(K_0)\le nw_+p_0=\bar g_0$.
+If $g(K_t)\le\bar g_t+C_3\tau_r^2$, then
+\[
+ \begin{split}
+ g(K_{t+1})
+ &\overset{\mathrm{(a)}}{\le}
+ (1-c_2)\bar g_t+\frac{c_2}{4}\bar g_t+
+            \{(1-c_2)C_3+C_8\}\tau_r^2\\
+ &\overset{\mathrm{(b)}}{\le}\bar g_{t+1}+C_3\tau_r^2.
+ \end{split}
+\]
+Here (a) uses the transfer recursion and the definition of $a_t$,
+and (b) uses $C_3\ge2C_8/c_2$ and $1-3c_2/4\le1-c_2/2$.
+Induction gives the terminal gap. Since $\bar g_{T-1}>\eps$,
+\[
+ T\le1+2\log(nw_+p_0/\eps)/c_2\le C_4\log(C_4n/\eps),
+\]
+also valid for $T=0$.
+
+\emph{(c) Transitions.}
+Geometric summation gives
+\[
+ \sum_{t<T}a_t^{-2}
+ \lesssim T+r\sum_{t<T}\bar g_t^{-1}
+ \lesssim T+r/\eps .
+\]
+Also $a_t^2\gtrsim\min\{1,\eps/r\}$ for $t<T$, giving
+$H_t\lesssim\log(2r/\eps)$.
+Writing $H_*=H_{T-1}$, \eqref{app:eq:batches} yields
+\[
+ \sum_{t<T}H_tN_t
+ \lesssim H_*T(d\ell_*^3+1)
+              +H_*^2nd\ell_*^3(T+r/\eps).
+\]
+Adding baseline and burn-in counts gives
+$M\lesssim M_{\mathrm{det}}+T\log(2M)$, where
+$M_{\mathrm{det}}=\widetilde O_{\sys}(rnd/\eps)$ includes logarithms
+of $1+\|x_0\|$ and $1/\delta$.
+Elementary inversion gives
+$M\lesssim M_{\mathrm{det}}+T\log(2(M_{\mathrm{det}}+T))
+=\widetilde O_{\sys}(rnd/\eps)$.
+The proof is then completed.
+\end{proof}
+
+The dense assertions follow using Proposition~\ref{app:prop:ce}'s
+dense bound for CE, and $r=\min\{n,m\}$ with the dense transfer
+recursion for NPG. Both tail terms vanish.
+
+
+

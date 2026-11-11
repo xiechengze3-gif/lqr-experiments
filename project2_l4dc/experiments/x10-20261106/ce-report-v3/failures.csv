@@ -1,0 +1,9 @@
+config,family,system,seed,N,order,rel_gap,g0,primitive_transitions,part,algorithm,n,m,r,arm,v_star,stable,rho,cost,gap,relative_gap,redundant_cost,null_scale,N_D_over_v_star
+m3,,103,1001,4096,,,,4608,X1,CE,12,3,2,dense,850.5758085666378,False,1.0328478202824882,,inf,inf,,0.25,inf
+m3,,103,1001,4096,,,,4608,X1,CE,12,3,2,truncated,850.5758085666378,False,1.0328263914651763,,inf,inf,,0.25,inf
+m3,,103,1001,8192,,,,8704,X1,CE,12,3,2,dense,850.5758085666378,False,1.0118795142128505,,inf,inf,,0.25,inf
+m3,,103,1001,8192,,,,8704,X1,CE,12,3,2,truncated,850.5758085666378,False,1.0108712185664346,,inf,inf,,0.25,inf
+m5,,103,1004,4096,,,,4608,X1,CE,12,5,2,dense,850.5758085667967,False,1.0099676105874338,,inf,inf,,0.25,inf
+m5,,103,1004,4096,,,,4608,X1,CE,12,5,2,truncated,850.5758085667967,False,1.0078507978281277,,inf,inf,,0.25,inf
+m8,,103,1001,4096,,,,4608,X1,CE,12,8,2,dense,850.5758085668192,False,1.015330288284627,,inf,inf,,0.25,inf
+m8,,103,1001,4096,,,,4608,X1,CE,12,8,2,truncated,850.5758085668192,False,1.0134647475360474,,inf,inf,,0.25,inf

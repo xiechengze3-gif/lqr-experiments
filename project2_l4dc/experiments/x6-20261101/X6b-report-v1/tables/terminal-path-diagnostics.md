@@ -1,0 +1,70 @@
+# Last-update path diagnostics
+
+Targets are computed at each arm own PRE-update policy: NPG target Z, PI target[G,Z]. rho_op=operator error/sigma_2(target); relative error=Frobenius error/target Frobenius norm; projection=<estimate,target>/||target||_F^2. These are not relative errors in RK+Z. Dense PI learner applies PI_clipped, truncated PI applies PI_joint_compressed. Other variants in diagnostic_summary.csv are counterfactual diagnostics on the same arm, not extra learners. Padding is not an update and is NA, never recovery. The stage field is the update number; diagnostic_policy_stage=stage-1. Eligibility is retained over all32 paths, not selected by post-update survival. System mean±SE uses available systems as saved; the projection median is a distinct statistic.
+
+|n|algorithm|rung|arm|update|learner estimate|eligible|rho_op median|relative Frob median|projection median|system projection mean±SE|
+|---|---|---|---|---|---|---|---|---|---|---|
+|24|NPG|1/64|dense|16|NPG_applied|32/32|5.92642|9.18152|0.847985|0.903291 ± 0.0785927|
+|24|NPG|1/64|truncated|16|NPG_applied|32/32|5.64933|4.73863|0.200673|0.29703 ± 0.064823|
+|24|NPG|1/16|dense|16|NPG_applied|32/32|4.49612|6.80849|1.03985|1.0264 ± 0.0576098|
+|24|NPG|1/16|truncated|16|NPG_applied|32/32|3.24996|2.86362|0.360449|0.386464 ± 0.0196612|
+|24|NPG|1/4|dense|16|NPG_applied|32/32|2.54116|3.9409|0.856631|0.908104 ± 0.0377942|
+|24|NPG|1/4|truncated|16|NPG_applied|32/32|1.95407|1.78392|0.48243|0.509323 ± 0.0335578|
+|24|NPG|1|dense|16|NPG_applied|32/32|1.24027|2.02939|0.977691|0.965891 ± 0.0156151|
+|24|NPG|1|truncated|16|NPG_applied|32/32|0.917896|0.908992|0.892922|0.872655 ± 0.0231863|
+|24|PI|1/64|dense|8|PI_clipped|0/32|NA|NA|NA|NA ± NA|
+|24|PI|1/64|truncated|8|PI_joint_compressed|32/32|0.934877|0.962596|0.907203|0.904815 ± 0.0332033|
+|24|PI|1/16|dense|8|PI_clipped|13/32|0.813161|1.44245|0.957014|0.963103 ± 0.00674539|
+|24|PI|1/16|truncated|8|PI_joint_compressed|32/32|0.425101|0.457556|0.978119|0.976697 ± 0.0110565|
+|24|PI|1/4|dense|8|PI_clipped|32/32|0.288574|0.550038|0.995565|0.996146 ± 0.0064979|
+|24|PI|1/4|truncated|8|PI_joint_compressed|32/32|0.206477|0.222721|0.994038|0.994819 ± 0.0066393|
+|24|PI|1|dense|8|PI_clipped|32/32|0.143298|0.274598|1.00019|1.0007 ± 0.00293015|
+|24|PI|1|truncated|8|PI_joint_compressed|32/32|0.100896|0.109616|1.00014|1.00056 ± 0.00294503|
+|36|NPG|1/64|dense|16|NPG_applied|32/32|5.83471|11.015|1.05998|1.11879 ± 0.0843866|
+|36|NPG|1/64|truncated|16|NPG_applied|32/32|5.1432|4.50885|0.188838|0.225899 ± 0.0311127|
+|36|NPG|1/16|dense|16|NPG_applied|32/32|4.39435|8.36907|1.002|0.991401 ± 0.0599257|
+|36|NPG|1/16|truncated|16|NPG_applied|32/32|2.99993|2.73972|0.292058|0.287283 ± 0.0350358|
+|36|NPG|1/4|dense|16|NPG_applied|32/32|2.41703|4.92473|0.968886|0.975801 ± 0.0354039|
+|36|NPG|1/4|truncated|16|NPG_applied|32/32|1.75486|1.7128|0.573864|0.585541 ± 0.0281001|
+|36|NPG|1|dense|16|NPG_applied|32/32|1.24662|2.54022|0.985281|0.980269 ± 0.0105385|
+|36|NPG|1|truncated|16|NPG_applied|32/32|0.950741|0.96312|0.884741|0.880531 ± 0.0137136|
+|36|PI|1/64|dense|8|PI_clipped|0/32|NA|NA|NA|NA ± NA|
+|36|PI|1/64|truncated|8|PI_joint_compressed|32/32|0.968817|1.01032|0.864227|0.879723 ± 0.0228748|
+|36|PI|1/16|dense|8|PI_clipped|10/32|2.12564|2.80847|1.01876|1.01179 ± 0.0449708|
+|36|PI|1/16|truncated|8|PI_joint_compressed|32/32|0.436368|0.473306|0.992402|0.993795 ± 0.00766735|
+|36|PI|1/4|dense|8|PI_clipped|32/32|0.30238|0.67979|1.00224|1.00124 ± 0.00288098|
+|36|PI|1/4|truncated|8|PI_joint_compressed|32/32|0.207884|0.233738|1.00118|0.999234 ± 0.00304951|
+|36|PI|1|dense|8|PI_clipped|32/32|0.149975|0.340696|0.999279|0.999047 ± 0.00133809|
+|36|PI|1|truncated|8|PI_joint_compressed|32/32|0.10424|0.116189|0.999063|0.99891 ± 0.00133721|
+|48|NPG|1/64|dense|16|NPG_applied|32/32|5.83581|13.5004|1.06105|1.06099 ± 0.0432697|
+|48|NPG|1/64|truncated|16|NPG_applied|32/32|4.84556|4.52041|0.184201|0.204609 ± 0.025659|
+|48|NPG|1/16|dense|16|NPG_applied|32/32|4.24465|9.80257|1.01374|1.00267 ± 0.0380049|
+|48|NPG|1/16|truncated|16|NPG_applied|32/32|2.92359|2.69605|0.333135|0.323008 ± 0.0277541|
+|48|NPG|1/4|dense|16|NPG_applied|32/32|2.37397|5.47149|1.02099|1.01415 ± 0.0188719|
+|48|NPG|1/4|truncated|16|NPG_applied|32/32|1.73736|1.71224|0.621222|0.577447 ± 0.0546079|
+|48|NPG|1|dense|16|NPG_applied|32/32|1.1749|2.85266|1.01276|1.01445 ± 0.0147056|
+|48|NPG|1|truncated|16|NPG_applied|32/32|0.900893|0.933363|0.933944|0.924191 ± 0.0180927|
+|48|PI|1/64|dense|8|PI_clipped|0/32|NA|NA|NA|NA ± NA|
+|48|PI|1/64|truncated|8|PI_joint_compressed|32/32|0.870905|0.92782|0.906796|0.901639 ± 0.0268667|
+|48|PI|1/16|dense|8|PI_clipped|31/32|0.72623|1.71542|1.02067|1.01352 ± 0.011024|
+|48|PI|1/16|truncated|8|PI_joint_compressed|32/32|0.396384|0.442824|1.00298|0.998054 ± 0.0113564|
+|48|PI|1/4|dense|8|PI_clipped|32/32|0.28533|0.740047|1.00822|1.00345 ± 0.0043772|
+|48|PI|1/4|truncated|8|PI_joint_compressed|32/32|0.192463|0.216498|1.00703|1.00225 ± 0.00432041|
+|48|PI|1|dense|8|PI_clipped|32/32|0.142743|0.370756|0.997496|0.998824 ± 0.00221525|
+|48|PI|1|truncated|8|PI_joint_compressed|32/32|0.092472|0.105672|0.997365|0.998702 ± 0.00221415|
+|72|NPG|1/64|dense|16|NPG_applied|32/32|5.61515|15.8882|0.981782|1.00949 ± 0.0364578|
+|72|NPG|1/64|truncated|16|NPG_applied|32/32|4.8253|4.40647|0.0891361|0.11505 ± 0.0210817|
+|72|NPG|1/16|dense|16|NPG_applied|32/32|4.24748|11.9133|0.983607|0.971067 ± 0.0190673|
+|72|NPG|1/16|truncated|16|NPG_applied|32/32|2.69518|2.62682|0.229106|0.252025 ± 0.024114|
+|72|NPG|1/4|dense|16|NPG_applied|32/32|2.36894|6.87803|1.00428|1.00491 ± 0.010229|
+|72|NPG|1/4|truncated|16|NPG_applied|32/32|1.69475|1.65871|0.56485|0.553937 ± 0.0239811|
+|72|NPG|1|dense|16|NPG_applied|32/32|1.22482|3.57861|0.99138|0.996006 ± 0.00948949|
+|72|NPG|1|truncated|16|NPG_applied|32/32|0.905587|0.957294|0.892985|0.902907 ± 0.0152623|
+|72|PI|1/64|dense|8|PI_clipped|0/32|NA|NA|NA|NA ± NA|
+|72|PI|1/64|truncated|8|PI_joint_compressed|32/32|0.941691|1.00499|0.901439|0.875195 ± 0.0142127|
+|72|PI|1/16|dense|8|PI_clipped|20/32|1.72935|3.90753|0.994851|0.988064 ± 0.020068|
+|72|PI|1/16|truncated|8|PI_joint_compressed|32/32|0.41642|0.46332|0.99317|0.991616 ± 0.00517808|
+|72|PI|1/4|dense|8|PI_clipped|32/32|0.30572|0.951934|1.00348|0.999624 ± 0.00332434|
+|72|PI|1/4|truncated|8|PI_joint_compressed|32/32|0.201496|0.22936|1.00141|0.998166 ± 0.00338919|
+|72|PI|1|dense|8|PI_clipped|32/32|0.152634|0.479403|1.00123|0.999843 ± 0.00113809|
+|72|PI|1|truncated|8|PI_joint_compressed|32/32|0.0957526|0.112894|1.00104|0.999675 ± 0.00113979|

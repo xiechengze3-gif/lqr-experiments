@@ -1,0 +1,34 @@
+{
+  "status": "REPORT_DELIVERY_COMPLETE",
+  "report_verification": {
+    "status": "COMPLETE",
+    "scope": "SAVED_DATA_ONLY_ZERO_NEW_TRANSITIONS",
+    "job": "20365069",
+    "rows": 12800,
+    "cells": 320,
+    "stein_prefixes": 1920,
+    "ce_prefixes": 1600,
+    "estimates_verified": 3520,
+    "collector_sha256": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "source_sha256": "0962905f641e9f75eb16f16c47fcfb160c73614234c23cc269db21c9ebaa0cda",
+    "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "config_sha256": "3f0e7c9decb95e39e3a1c6fd26d1c617f329f41484ca07473f564cc3f1b3ecd2",
+    "max_actor_PI_processing_difference": 2.2209153191302486e-13,
+    "files": {
+      "system_summaries.csv": "fbfbbdbb25efdcf74e8d24e5dd62263c00ae3d9213c27d585ed3370cef261c2c",
+      "certificates.csv": "e471019b00547d23ebba6d5ff0902d62bd22de1660f2e3069593e9f1382572c1",
+      "summary.csv": "cb06937c6cbcc28263ca11f261d6046cfc3113f1b3cf3562a4d38c55af0a0693",
+      "calibration.csv": "e9146e2e9ea497c7517b6b9404cb00b36709510d92863c02a9de760038521473",
+      "observations.csv": "d3fa44a2818c3501fdce02b208abc266bf497aa788ae260b407e9af877610df6"
+    }
+  },
+  "requested_SU": 16.333333333333336,
+  "elapsed_SU": 9.54277777777778,
+  "settled_SU": 8.408333333333333,
+  "figures_manifest_sha256": "64f8e1520cdb309bad3d4c2810ca70d3fb2869405b83a29283fc3d9c4e5a4b6d",
+  "source_csv_sha256": "cb06937c6cbcc28263ca11f261d6046cfc3113f1b3cf3562a4d38c55af0a0693",
+  "files": {
+    "largest_budget_comparison.csv": "6768f0dd7ecd8a6539b936ae84bbb2778849c7a25d94a6eed25746683e250097",
+    "README.md": "7cf6fdc1a784f51cb90a5a39409e9ba8bd87a682f5cd31f368bbb27783abc2d6"
+  }
+}

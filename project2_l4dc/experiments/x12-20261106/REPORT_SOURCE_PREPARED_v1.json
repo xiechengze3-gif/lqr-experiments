@@ -1,0 +1,22 @@
+{
+  "status": "PRESENTATION_TRANSPORT_SOURCES_PREPARED_NO_JOBS",
+  "render_functions_literal_identical": [
+    "read",
+    "fmt",
+    "cell",
+    "emit"
+  ],
+  "source_sha256": "2271ef0fd13e394f90bae47bdd3f2824475f575ee7cc546dac7adc39b553de2d",
+  "new_render_sha256": "55d9257b4573aa879bb9d5a1fdfc7c7f3e9cc7b80be54bdce73719b677411c9c",
+  "changes": "X12 namespace,5dimensions,n60 report narrative; all plotting primitives unchanged. Transport namespace and coverage/prefix metadata only.",
+  "new_training_transitions": 0,
+  "Grace_SU": 0,
+  "files": {
+    "report_render_v1.py": "55d9257b4573aa879bb9d5a1fdfc7c7f3e9cc7b80be54bdce73719b677411c9c",
+    "transfer_report_v1.py": "3163d22383efff0d9cd5b3b98bda584360f8d2a5b119ae0c4b7c48a0ab9e83d2",
+    "copy_report_provenance_v1.py": "451ca107ae19ab540f180ec3dbd30cd1ffbabb7baac1514edf9bff18def86e20",
+    "report_chunks_v1.py": "240989d3bce0f2adcdd69336df9ed63a0f9b9b652819047b048f173adddda973",
+    "Prepare-ReportChunks-v1.ps1": "568f7095bd02c45b7bbbfb5140056dbbdc3e61ecacd1311a17c83da3ecb1e07b",
+    "Fetch-ReportChunks-v1.ps1": "d1b24ea0d20502866479f7c4ef380cb310a5973a15d6cfc2a33d2ed4735efca9"
+  }
+}

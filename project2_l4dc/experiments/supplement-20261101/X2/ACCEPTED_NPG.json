@@ -1,0 +1,27 @@
+{
+  "experiment": "X2",
+  "scope": "NPG",
+  "decision": "ACCEPTED_CONDITIONS_SATISFIED",
+  "task_sha256": "38df4ac83b3f3475d0974f98aa1cd1e5d9aa1adf5df53014cd204050ac3cdbcd",
+  "review_label": "Review02:25 CDT",
+  "review_quote": "once population T and a dense-qualified base exist for n=12 and n=24 and the measured plan fits the cap, start the formal NPG array without waiting for me",
+  "config_sha256": "a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "multi_source_sha256": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "npg_multi.py": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+    "npg_formal_suite.py": "0dc2089e7961dd0919dccebb60e14e8aa85eecdec7cf6a717ff610649976ef52",
+    "configs/X2_NPG_formal_v1.json": "a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933"
+  },
+  "qualified_base": 2048,
+  "measured_max_dense_seconds": {
+    "n12": 13.524614196270704,
+    "n24": 333.18710216879845
+  },
+  "wall_plan_seconds": 961.4504625491799,
+  "wall_minutes": 18,
+  "formal_request_bound_SU": 9.6,
+  "measured_plan_fits_cap": true,
+  "formal_outputs_used_for_calibration": false
+}

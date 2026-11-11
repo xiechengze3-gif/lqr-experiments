@@ -1,0 +1,28 @@
+{
+  "new_learning_runs": 0,
+  "new_control_solves": 0,
+  "numbers_from_markdown_used_as_data": false,
+  "groups": {
+    "01_input_padding": {
+      "description": "input-padding CE/NPG; PI retained for appendix only",
+      "status": "READY",
+      "missing_verified_files": []
+    },
+    "02_same_data_decomposition": {
+      "description": "shared-data CE and first-step NPG mechanism",
+      "status": "READY",
+      "missing_verified_files": []
+    },
+    "03_fullrank_rank_scan": {
+      "description": "gapped/smooth full-rank k scans and flat negative control",
+      "status": "READY",
+      "missing_verified_files": []
+    },
+    "04_ce100_matched_gap_and_high_rank": {
+      "description": "CE100 matched gap and high-rank CE; NPG supplemental",
+      "status": "READY",
+      "missing_verified_files": []
+    }
+  },
+  "figure_mapping": "proposed only; inspected paper experiments section remains TODO"
+}

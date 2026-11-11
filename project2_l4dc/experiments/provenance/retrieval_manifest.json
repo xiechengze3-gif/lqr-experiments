@@ -1,0 +1,264 @@
+{
+  "source": "E:\\ChatGPT\\Projects\\LQR_experiments\\receipts\\grace-storage-20261025\\manifest.json",
+  "source_sha256": "a18d40cdd6897f7ae3740849f1eb67e791377ad54dd740c8d7db43dfa8c983cb",
+  "files": [
+    {
+      "id": "results/final-story-20261024/report/actor_endpoints.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/final-story-20261024/report/actor_endpoints.csv",
+      "target": "01_input_padding/data/report/actor_endpoints.csv",
+      "size": 351018,
+      "sha256": "7f284ea85926901b3272c66b8999f2ee02ff90396cde1e93f96fc5d68b2f0a63",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/final-story-20261024/report/ce_all_prefixes.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/final-story-20261024/report/ce_all_prefixes.csv",
+      "target": "01_input_padding/data/report/ce_all_prefixes.csv",
+      "size": 429193,
+      "sha256": "c98da3f9e322bfbf2088b4b924cecd387f83726f37a834a2e23fd9384bf7d268",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/final-story-20261024/report/e1_ce_redundant_summary.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/final-story-20261024/report/e1_ce_redundant_summary.csv",
+      "target": "01_input_padding/data/report/e1_ce_redundant_summary.csv",
+      "size": 905,
+      "sha256": "f7b23fede73474d3a87e51ec2d092ce4f87f1946a56ba8c1036bbf4baddea2c8",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/final-story-20261024/report/e1_paired_gap_ratios.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/final-story-20261024/report/e1_paired_gap_ratios.csv",
+      "target": "01_input_padding/data/report/e1_paired_gap_ratios.csv",
+      "size": 345,
+      "sha256": "cd0cf52392dd1afa2a7f249c401c6867225bed17dbf53f121964cb99ba92eeaf",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/final-story-20261024/report/e1_summary.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/final-story-20261024/report/e1_summary.csv",
+      "target": "01_input_padding/data/report/e1_summary.csv",
+      "size": 1704,
+      "sha256": "5843fbaafde5d0b876d2b2687d8c8780ce58bca37ef3c8fc6f396fccc7f19a49",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/final-story-20261024/report/output_coverage.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/final-story-20261024/report/output_coverage.csv",
+      "target": "01_input_padding/data/report/output_coverage.csv",
+      "size": 280439,
+      "sha256": "615dba998f25d312861997e203c7a947f9317d3939b1e19da32369375f758c99",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/final-story-20261024/report/summary.json",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/final-story-20261024/report/summary.json",
+      "target": "01_input_padding/data/report/summary.json",
+      "size": 18805,
+      "sha256": "9ac178b278e31042dbaa20e6c80613daa371d89db6f7c49432b9c25f4e1adcf0",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/final-story-20261024/report/system_tails_certificates.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/final-story-20261024/report/system_tails_certificates.csv",
+      "target": "01_input_padding/data/report/system_tails_certificates.csv",
+      "size": 38797,
+      "sha256": "f5efe3cc2605d1415f57d35af488d59fb6583fae6ea21f4bcf65fea107044d63",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/adaptive_rank_by_budget.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/adaptive_rank_by_budget.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/adaptive_ce/adaptive_rank_by_budget.csv",
+      "size": 88958,
+      "sha256": "cdec51f65a0937759499b5e977c8d140e5b2bb9ce04c10916639b675401e59bd",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/endpoints.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/endpoints.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/adaptive_ce/endpoints.csv",
+      "size": 336219,
+      "sha256": "24de8a478240c5cec5eb1a96a0c9732eff73358e0c75449f8283eb83cdf63a79",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/per_seed_attainment.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/per_seed_attainment.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/adaptive_ce/per_seed_attainment.csv",
+      "size": 1174,
+      "sha256": "7e64a3981dc070d07f1cc909672d88867172e3bcfa2cb056a77ea533265ea6b3",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/sample_to_accuracy.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/sample_to_accuracy.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/adaptive_ce/sample_to_accuracy.csv",
+      "size": 694,
+      "sha256": "d78533d7f29e8a2a29860b5410c442407c684d529e854febd64da118155e8f2d",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/success_by_budget.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/success_by_budget.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/adaptive_ce/success_by_budget.csv",
+      "size": 99425,
+      "sha256": "b0dbe4404cef777dcf5cbaebeba578cff331b6f4a2d4fd1dc6d1d9e42ecc6a95",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/summary.json",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-adaptive-zoom-e17e48ad7af70efd/results/ce-adaptive-zoom-e17e48ad7af70efd/report/summary.json",
+      "target": "04_ce100_matched_gap_and_high_rank/data/adaptive_ce/summary.json",
+      "size": 3688,
+      "sha256": "dc57b64ca1593e1a6af509789c1ea88a58ef0d312ce097561105f9339200dad4",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/endpoints.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/endpoints.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/precision_ce/endpoints.csv",
+      "size": 145054,
+      "sha256": "ffd99fb21847d68377ad09a84e45e913740e6a24bba7945300a16c3b017500e8",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/historical_replay_checks.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/historical_replay_checks.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/precision_ce/historical_replay_checks.csv",
+      "size": 2323,
+      "sha256": "859726f54f69e4af143d3d5c121329507b644e969f3efd141f5be43436d7bfe8",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/per_seed_attainment.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/per_seed_attainment.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/precision_ce/per_seed_attainment.csv",
+      "size": 810,
+      "sha256": "d00aa9c49632507c0cab108653b36fd125836a56a7b1b1c21476afb66828b248",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/sample_to_accuracy.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/sample_to_accuracy.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/precision_ce/sample_to_accuracy.csv",
+      "size": 438,
+      "sha256": "073658482d799aea5894f53b393f227622fe717612157d2067339ea0a1448494",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/sources.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/sources.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/precision_ce/sources.csv",
+      "size": 1385,
+      "sha256": "d5b0fc28a0b28d2940499f090b9a96e7452115d492bf273eb321c2715b656230",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/success_by_budget.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/success_by_budget.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/precision_ce/success_by_budget.csv",
+      "size": 94212,
+      "sha256": "98b4bb55af2bf31af2d00f7c9921dcd6c7ab9ca3db87c026ea099b0594a6f203",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/summary.json",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/grace-ce-precision-zoom-b73def112743b7ae/results/ce-precision-zoom-b73def112743b7ae/report/summary.json",
+      "target": "04_ce100_matched_gap_and_high_rank/data/precision_ce/summary.json",
+      "size": 6052,
+      "sha256": "d8a51a1a5891801bba80574f81902cfa0fac5919a79958ab25f49b4e4cd18c74",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/audit.json",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/audit.json",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_ce/audit.json",
+      "size": 26682,
+      "sha256": "c2b597da970aea0cfe00a04835955de079a5d20ad2a31a90d67b5ba324b4ed5d",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/fixed_budget_gaps.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/fixed_budget_gaps.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_ce/fixed_budget_gaps.csv",
+      "size": 20305,
+      "sha256": "0771e117f01396bbc3246fc39121c9418b073bc41ee0f555a22431a291b21c3c",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/initial_systems.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/initial_systems.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_ce/initial_systems.csv",
+      "size": 1425,
+      "sha256": "aa6a4fcaa455d319fc9a3652f266b4db3bfb62054792141001131ae407fc857c",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/sample_complexity.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/sample_complexity.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_ce/sample_complexity.csv",
+      "size": 2486,
+      "sha256": "66213bc3ce373d2fbe8e4f3ddb145ce72043769e162b527be4317fe4bfa0b92a",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/success_by_budget.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/success_by_budget.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_ce/success_by_budget.csv",
+      "size": 29432,
+      "sha256": "401a1eaa23cbcdc56dab0651dff80cd3e139f1f36abe062cf3a7fb5ed3d48498",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/summary.json",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/historical_CE_reference/report-confirm/summary.json",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_ce/summary.json",
+      "size": 43975,
+      "sha256": "42d962192a618c5839de0551642609ab1524817eb149ff4d88530b55b41c0a21",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/report-confirm/npg-all-checkpoints.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/report-confirm/npg-all-checkpoints.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_npg/npg-all-checkpoints.csv",
+      "size": 3863588,
+      "sha256": "f94cedbd6a80b63d32d0c342128794c78871b35d9ef09f5a799624cf5e0bff99",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/report-confirm/npg-summary.json",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/report-confirm/npg-summary.json",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_npg/npg-summary.json",
+      "size": 25880,
+      "sha256": "a5a53e4facf91ae9c6f902b864808268359e766a2af1c1eb978b9e14323af2b6",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/report-confirm/sample_complexity.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/report-confirm/sample_complexity.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_npg/sample_complexity.csv",
+      "size": 9774,
+      "sha256": "9c52744e2630f9c6f8e2ea3aff202d78e16506f46faa09e8c3ab9cf14c873fbc",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/report-confirm/success_by_budget.csv",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/report-confirm/success_by_budget.csv",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_npg/success_by_budget.csv",
+      "size": 185683,
+      "sha256": "dc8f2bb98b68fa185be75333e68ae0822855026923110a738cc9a7fa710628ef",
+      "available_and_verified": true
+    },
+    {
+      "id": "results/matched-gap-npg-pi-v2-20261019/report-confirm/summary.json",
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/results/matched-gap-npg-pi-v2-20261019/report-confirm/summary.json",
+      "target": "04_ce100_matched_gap_and_high_rank/data/matched_npg/summary.json",
+      "size": 54093,
+      "sha256": "f5b9b9be5d9e01762b2bf3acd51046ac3bba1b3e2ebda540941ec1634faf27a1",
+      "available_and_verified": true
+    }
+  ],
+  "count": 32,
+  "total_bytes": 6164961
+}

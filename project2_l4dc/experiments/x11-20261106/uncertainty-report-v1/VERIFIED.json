@@ -1,0 +1,16 @@
+{
+  "status": "SUPPLEMENT_COMPLETE_POINTS_EXACTLY_PRESERVED",
+  "rows": 130,
+  "bootstrap_repetitions": 5000,
+  "all_draws_valid": true,
+  "post_hoc_uncertainty_plan": true,
+  "new_training_transitions": 0,
+  "Grace_SU": 0,
+  "original_files_untouched": true,
+  "files": {
+    "DRAW_IDENTITIES.json": "4acd43aa2f045e9146e1eae6c99baab03a17d97656004069955c770e12844884",
+    "paired_gap_ratios_by_N_with_CI.csv": "d11bc6348823f3821265916e30b600893a5e7c86c010654144ca654e84290123",
+    "PROTOCOL.json": "7d3b3cac1d84db4c11fbc9603da3f361a8cbf5993c562a24dda28d5c8a700513",
+    "REPORT.md": "86db39996e293d6f9f11d3ba2f5b8355bb4a6683d53e1c3808e85bed94e1ecf4"
+  }
+}

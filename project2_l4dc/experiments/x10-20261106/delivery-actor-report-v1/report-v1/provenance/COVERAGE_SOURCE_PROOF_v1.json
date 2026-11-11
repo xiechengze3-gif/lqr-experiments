@@ -1,0 +1,27 @@
+{
+  "status": "PASS_COVERAGE_ASSERTION_ONLY",
+  "created_utc": "2026-11-06T07:20:09.923910+00:00",
+  "original_path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\actor-draft-v2\\analyze_actor.py",
+  "original_sha256": "9352529caf3a46a50691b8cef6d6d0ff93f8fdef9a7eba1946375e95dcb6d76e",
+  "new_sha256": "f8f459bb92e08dc5d0c039944b2aed82bf8a808095f6f7ac32f74256f14228b6",
+  "literal_reversible_replacement": true,
+  "only_changed_function": "inspect",
+  "changed_assertion_before": "assert len(ends)==4*2*32*2 and len(stages)==4*32*(2*17+2*9)",
+  "changed_assertion_after": "assert len(ends)==len(config['rungs'])*2*32*2 and len(stages)==len(config['rungs'])*32*(2*17+2*9)",
+  "statistics_and_other_functions_byte_identical": [
+    "q",
+    "write_csv",
+    "metrics",
+    "processing",
+    "endpoint",
+    "cast",
+    "read_csv",
+    "paired_ratio",
+    "summarize"
+  ],
+  "expected_endpoints_per_dimension": 640,
+  "expected_stages_per_dimension": 8320,
+  "numerical_work": 0,
+  "new_jobs": 0,
+  "SU": 0
+}

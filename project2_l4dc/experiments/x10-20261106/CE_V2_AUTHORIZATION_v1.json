@@ -1,0 +1,14 @@
+{
+  "status": "CORRECTED_REMAINING_PILOT_AUTHORIZED_BY_CLAUDE",
+  "review_sha256": "df87773e90d06e4ffa5ae4d5c0c9318c8f5ca2e3336e9be142d6b7f42101efb7",
+  "config_sha256": "0c3181d6f30e15ea714f221cd286a9226d918373e5b19a47475f892593ad58ce",
+  "reused_X8_pilot_sha256": "bed83fe2cadbb19d92bdb9b3717bce3d1570452423ba7a3eecaaa4c378eb6e99",
+  "authorized_remaining_cases": [
+    "S n96 system9902 seed7702",
+    "X1 n12 m11 system9903 seed7703"
+  ],
+  "failed_v1_attempt_preserved": true,
+  "numerical_function_sources_unchanged": true,
+  "FORMAL_condition": "Every fixed pilot check passes; then automatically under X10 GO",
+  "Grace_SU": 0
+}

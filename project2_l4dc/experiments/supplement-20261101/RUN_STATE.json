@@ -1,0 +1,182 @@
+{
+  "active_objective": "Execute CLAUDE_TASK.md X0->X1->X2->X3; X4 optional, PROTOCOL/PILOT/FORMAL/REPORT with append-only replies",
+  "cap_SU": 200,
+  "formal_timeout_bypass": false,
+  "old_results_and_tex": "read only; old178-file SHA baseline protected",
+  "latest_review": "05:20 CDT: X3 own-arm last estimator/common-dense offline diagnostic protocol and0.25SU report ACCEPTED; run only after formal array completes",
+  "X0": "ACCEPTED COMPLETE 128 files,0SU",
+  "X1_CE": {
+    "formal_array": 20358790,
+    "report_job": 20358843,
+    "status": "ACCEPTED; C1-C3 complete and delivered in immutable report-ce-v2",
+    "paths": "X1/report-ce, immutable v1",
+    "trajectories": 288,
+    "outputs": 1728,
+    "failed_outputs": 15,
+    "main_N8192_all_stable": true
+  },
+  "X1_actor": {
+    "status": "REPORT DONE / ACCEPTED04:05, full raw2496files includes X2 verified; NPG weak and PI many failures explicitly retained",
+    "formal_array": 20359239,
+    "base": 2048,
+    "eta": 0.009000614546307517,
+    "NPG_T": 96,
+    "PI_T": 8,
+    "H": 32,
+    "burn_blocks": 16,
+    "primitive_transitions_per_arm": 93308928,
+    "pilot_array": 20358851,
+    "pilot_cases": 18,
+    "formal_request_bound_SU": 16,
+    "approval": "X1/ACCEPTED_ACTOR.json",
+    "driver": "formal_actor_driver.py",
+    "hard_failures": 0,
+    "failed_recorded_PI_outputs": 1297,
+    "PI_dense_failed_endpoints": 116,
+    "PI_truncated_failed_endpoints": 77,
+    "NPG_failed_endpoints": 0,
+    "source_and_coverage_verified": true,
+    "report_job": 20359523,
+    "report_folder": "X1/report-actors",
+    "full_null_table_folder": "X1/report-actors-full-tables-v2"
+  },
+  "X2": {
+    "CE_formal_array": 20359302,
+    "CE_status": "REPORT DONE delivered; v1 full grid,v2 clean graphs,v3 diagnostic-separated failures, full raw local hash PASS",
+    "CE_outputs": 9408,
+    "CE_failures": 1100,
+    "NPG_status": "FORMAL/REPORT DONE;128 trajectories,30848 stable outputs; paired NPG CIs include1, mixed effects",
+    "NPG_formal_array": 20359410,
+    "optional_n48": "DEFERRED/ACCEPTED03:30; final remaining87.079722SU below measured nominal92.228SU plus pilot; final budget decision v2"
+  },
+  "X3": {
+    "CE_formal_array": 20359303,
+    "CE_status": "REPORT DONE delivered; v1 full grid,v2 stable-region/order figures,v3 diagnostic-separated failures, full raw local hash PASS",
+    "CE_outputs": 41472,
+    "CE_failures": 5747,
+    "C5": 2.569143010355372,
+    "NPG_base_ladder": "512/2048 NOT_QUALIFIED; 8192 QUALIFIED all12 dense paths",
+    "NPG_large_dense_array": 20359427,
+    "NPG_formal": "FORMAL DONE:32 bundles,288 multi-runs,1440 paths/93600 outputs all stable;609 raw/proof files local hash PASS",
+    "NPG_formal_array": 20359471,
+    "NPG_formal_upper_SU": 120,
+    "NPG_base": 8192,
+    "NPG_actual_M": [
+      88850304,
+      355296768,
+      1421082624
+    ],
+    "CE_adaptive_explanation": "DONE Review03:30 requested saved-data table:108 case/budget rows,216 method rows,6912 per-output rows; report-ce-rank-explanation-v4",
+    "CE_adaptive_metadata_correction": "DONE/ACCEPTED04:05: report-ce-failure-detail-v5, actual-k subgroups; original k field on adaptive aggregate rows was first sample, never use as a fixed order",
+    "NPG_report_package_ready": "v28 completed20359906, source/archive intact; v26 unused/preserved",
+    "NPG_report_protocol": "ACCEPTED05:20; proof X3/ACCEPTED_REPORT_v28.json",
+    "NPG_report_job": 20359906,
+    "NPG_report_status": "REPORT DONE:20359906 COMPLETED120s;39 report/accounting files local hash PASS; latest explicit review05:20 accepts protocol, final REPORT awaiting reviewer verdict",
+    "NPG_result": "36 paired gap CIs:31 below1,5 include1,0 above1; no clear truncation total-gap gain; lower last-estimator Frobenius error does not imply lower endpoint cost"
+  },
+  "current_requested_bound_SU": 159.16666666666669,
+  "ledger_remote": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/budget/ledger.json",
+  "next_actions": [],
+  "latest_review_task_sha256": "121822c59232e1feb8442b06bf5527fb11392ec93e159bab845834498678a1b9",
+  "X4": {
+    "status": "REPORT DONE / ACCEPTED04:05, all raw/report files local verified",
+    "formal_job": 20359538,
+    "outputs": 5760,
+    "inherited_source_failed_outputs": 780,
+    "new_instability": 52,
+    "new_training_transitions": 0,
+    "local_raw_and_proof_verified": true
+  },
+  "mechanism_P1_P2": {
+    "status": "REPORT COMPLETE/ACCEPTED04:35; job20359649 complete150s,15files delivered verified; tables-v2 done",
+    "release": "supplement-20261101-p1-p2-report-v27",
+    "script": "mechanism_p1_p2.py",
+    "output": "analysis-P1-P2-v1",
+    "observed_iterates": 86720,
+    "population_physical_models": 88,
+    "new_training_transitions": 0,
+    "source": "Review04:05 requested, P1/P2 protocol appended for X1/X2",
+    "original_eta_T_unchanged": true
+  },
+  "portable_plot": "exports/csv-reproduction-final-20261101,28PNG/SVG,pending empty,0model evaluations/0training; representative final renders visually inspected",
+  "saved_package_verification": "v2 PASS: old178,X0 128,earlyX1 CE1196,26 frozen packages,14 delivery archives4748unique files; all available actor/CE arithmetic passed; final X3 pending",
+  "last_progress": {
+    "checked_utc": "2026-11-01T11:12:15Z",
+    "spent_SU": 112.88694444444442,
+    "requested_bound_SU": 158.91666666666669,
+    "cap_SU": 200,
+    "X3_array": 20359471,
+    "stored_multi_runs": 288,
+    "expected_multi_runs": 288,
+    "complete_bundles": 32,
+    "expected_bundles": 32,
+    "cohorts": [
+      {
+        "spectrum": "flat",
+        "batch_multiplier": 1,
+        "files": 32,
+        "expected": 32
+      },
+      {
+        "spectrum": "flat",
+        "batch_multiplier": 4,
+        "files": 32,
+        "expected": 32
+      },
+      {
+        "spectrum": "flat",
+        "batch_multiplier": 16,
+        "files": 32,
+        "expected": 32
+      },
+      {
+        "spectrum": "gapped",
+        "batch_multiplier": 1,
+        "files": 32,
+        "expected": 32
+      },
+      {
+        "spectrum": "gapped",
+        "batch_multiplier": 4,
+        "files": 32,
+        "expected": 32
+      },
+      {
+        "spectrum": "gapped",
+        "batch_multiplier": 16,
+        "files": 32,
+        "expected": 32
+      },
+      {
+        "spectrum": "smooth",
+        "batch_multiplier": 1,
+        "files": 32,
+        "expected": 32
+      },
+      {
+        "spectrum": "smooth",
+        "batch_multiplier": 4,
+        "files": 32,
+        "expected": 32
+      },
+      {
+        "spectrum": "smooth",
+        "batch_multiplier": 16,
+        "files": 32,
+        "expected": 32
+      }
+    ],
+    "hard_failure_receipts": [],
+    "queue_states": {},
+    "queue_query_error": "slurm_load_jobs error: Invalid job id specified",
+    "max_observed_effective_billing_cores": 1.0,
+    "note": "Stored-file counts only, no model evaluation, no learner/parameter changes; partial cohorts are not final scientific conclusions",
+    "queue_query_error_explanation": "Completed array no longer appears in squeue; final sacct accounting has no active own-study records"
+  },
+  "status": "COMPLETE_REQUIRED_PHASES_AND_X4",
+  "completed_utc": "2026-11-01T11:25:11Z",
+  "actual_SU": 112.92027777777776,
+  "final_ledger_snapshot": "budget/final-accounting-v1.json",
+  "final_verification": "verification/final-after-X3-v1.json PASS_COMPLETE; old178 unchanged; no pending",
+  "final_review_note": "Check next Claude review for editorial follow-up; final formal/report data and all requested checks complete. No further experiment tonight."
+}

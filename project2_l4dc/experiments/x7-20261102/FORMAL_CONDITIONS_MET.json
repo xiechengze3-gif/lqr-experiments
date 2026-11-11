@@ -1,0 +1,16 @@
+{
+  "status": "CONDITIONAL_FORMAL_ACCEPTANCE_SATISFIED",
+  "checked_utc": "2026-11-02T23:33:45.151594+00:00",
+  "review_sha256": "faafceaef595bfb7d810247eaaad32b79ddbb27406685de4f36b3c79019fab1f",
+  "formal_plan_sha256": "17b93a6a012562fa57c1d14360de66c7268669b8c3bdfcd8669e00a1da7c6b5a",
+  "formal_config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d",
+  "resource_proof_sha256": "db8a365716e0a616cc6a9f390ccae4a8b2e872e3d34d62d20d07d85a8ee47ed5",
+  "formal_requested_SU": 1.6,
+  "allowed_formal_SU": 12,
+  "peak_RSS_KiB": 141180,
+  "memory_request_MiB": 2048,
+  "headroom_fraction": 0.9326801300048828,
+  "projected_cumulative_requested_SU": 4.6,
+  "cap_requested_SU": 15,
+  "no_extra_acceptance_needed": true
+}

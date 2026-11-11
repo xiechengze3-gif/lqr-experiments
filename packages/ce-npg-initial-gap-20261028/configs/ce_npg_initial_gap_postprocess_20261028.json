@@ -1,0 +1,34 @@
+{
+  "name": "ce-npg-initial-gap-20261028",
+  "operation": "postprocess_saved_results_only",
+  "client_date": "2026-10-28",
+  "input_study": "ce-npg-arguments-20261028",
+  "input_files_sha256": {
+    "all_records.csv": "3bd2370b8c384d5e8195db77c59cddf23e4250ed009a5bca94371ca732ef7418",
+    "system_certificates.json": "128a3980bb8c0f7cb2017176055021ce03f4a28dab4190563c9de0ba6b788863",
+    "fixed_accuracy.csv": "9d6dc5a24ad145b16dc8c1226ae4597325be7e6296abb66f69dd6921c7000579"
+  },
+  "normalization": "(J(K)-Jstar)/(J(K0)-Jstar), per instance before aggregation",
+  "zero_initial_gap_rule": "fail explicitly; do not clip the denominator",
+  "absolute_targets": [0.1, 0.03, 0.01],
+  "relative_targets": [0.1, 0.03, 0.01],
+  "cohort_size": 24,
+  "cohort_required_success_count": 22,
+  "budget_rule": "first measured budget with >=22/24 successful outputs, all failures retained",
+  "unattained_budget_rule": "right censored at maximum measured budget; no extrapolation",
+  "NPG_additional_confirmation_points": 4,
+  "failed_output_metric": "positive infinity for failure-inclusive statistics",
+  "new_learning_runs": 0,
+  "new_training_transitions": 0,
+  "evaluate_new_policies": false,
+  "read_raw_learning_trajectories": false,
+  "modify_original_report": false,
+  "compute": {
+    "location": "Grace Slurm compute node",
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 6,
+    "requested_core_hour_cap": 0.1,
+    "automatic_retries": 0
+  }
+}

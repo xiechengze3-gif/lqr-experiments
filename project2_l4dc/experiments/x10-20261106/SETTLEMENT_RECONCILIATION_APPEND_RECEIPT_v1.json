@@ -1,0 +1,15 @@
+{
+  "status": "OWN_SETTLED_CHARGES_RECONCILED_APPEND_ONLY",
+  "review_sha256": "e7b735146fdfbfb461d702dc61eaefa6cc912366aed41e04408d3b96da5f4c5d",
+  "prior_bytes": 386666,
+  "appended_bytes": 2228,
+  "prior_preserved": true,
+  "X9_snapshot_sha256": "84215bfab5c4c062e0ca3db36137dd485f0c5f3b234f33390cc934d46c064359",
+  "X10b_snapshot_sha256": "87cdebe6ff33dfac9ac01bebb888d9e7dee8e85024359790dd229488ac83d21b",
+  "X9_actual_SU": 30.491388888888906,
+  "X10b_actual_SU": 0.015833333333333335,
+  "current_X9_plus_X10b_actual_SU": 30.50722222222224,
+  "CE_Grace_SU": 0,
+  "new_experimental_jobs": 0,
+  "correction_still_requires_authorization": true
+}

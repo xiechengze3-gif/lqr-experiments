@@ -1,0 +1,112 @@
+{
+  "status": "PASS_STATIC_AND_SYNTHETIC_CONTROL_GATES",
+  "checked_utc": "2026-11-06T07:36:18.665388+00:00",
+  "source_checks": [
+    {
+      "file": "audit_actor_pilot.py",
+      "sha256": "c058c4846b6417880036bce83dab1f3f4594a6594911fa33e2a643f57813d4cb",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "prepare_actor_formal.py",
+      "sha256": "98a8cb34ae76a4a0b4c8ad42e56faf559e9ddc20c8659fd552c9af3f98bc08c4",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "actor_control.py",
+      "sha256": "ebb7cc19af24db6419688b1d22e58de5b451e2cadf87cc6aff38189e94b84128",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "submit_actor_formal.py",
+      "sha256": "f9aa12f84fb5f3c703f0fd639a4df94570de72d310d14f3ad4f2a86b70fac3ab",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "publish_actor_pilot_done.py",
+      "sha256": "5356241245190b801718a16ba166166496d43c4e2debb6e1def5f0e9da9e94c5",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "publish_ce_formal_complete.py",
+      "sha256": "52c103be28f64912d35d33262053a9e4b43442e3ced74a45d7d65f54783cec71",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "prepare_actor_report_sources.py",
+      "sha256": "bb2d87132b9d88c93121f28347a741e09f31515c82355a284a498bcf2bfbe053",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "actor_report_products.py",
+      "sha256": "8c3a737b9cc4d3c68456935f6bf4541b567775b96deaa98b7830613a5ea68aaf",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "render_actor_report.py",
+      "sha256": "95c33d208219c55a88d0b75ae6c892dc31ee69f899f5e5c8aafe2acaf959881e",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "publish_actor_coverage_notice.py",
+      "sha256": "e40f3fc943edf51fec4bd51145a915e680d260fc936b2fbf44f0f1c8d71ea7a4",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "audit_actor_formal.py",
+      "sha256": "ea5ff4e1767bf52a75a2e5ce9a6e779d69170720f67f6d69740920102dcfe8f4",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "build_actor_report_release.py",
+      "sha256": "941d039ea688a659079cb9a68fdedad290eae53aaebe1d6b220604f167263b1f",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "submit_actor_report.py",
+      "sha256": "ca2a954d3baa672793161a98a803a1073d65c907951878ac36cb58007ef8ddff",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "transfer_actor_report.py",
+      "sha256": "eb84d7a305eefeb61e9b8907e44123abbc47548b5daa0cf1a9af44ce782104d2",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "copy_actor_provenance.py",
+      "sha256": "54916895241bc4ffd5d98ba7745a502c575e9e9d12129bac29dc24e5b00ba115",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    },
+    {
+      "file": "render_ce_report.py",
+      "sha256": "9430a7ee8629ffc0eba8f8e15865fe84325b284d46f2cd0fbfc5857f027e3b18",
+      "AST": "PASS",
+      "global_dependencies": "PASS"
+    }
+  ],
+  "synthetic_only_no_experiments": true,
+  "budget_overshoot_rejected": true,
+  "wall_guards_rounded_up": true,
+  "frozen_submission_order": true,
+  "x9_wait_gate": true,
+  "deadline_gate": true,
+  "stale_audit_rejected": true,
+  "scientific_modules_imported": false,
+  "new_jobs": 0,
+  "SU": 0
+}

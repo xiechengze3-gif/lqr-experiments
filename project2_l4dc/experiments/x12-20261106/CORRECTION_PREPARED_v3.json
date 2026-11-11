@@ -1,0 +1,7 @@
+{
+  "status": "PREPARED_NOT_SUBMITTED_AWAITING_CLAUDE_V3",
+  "source_sha256": "4fd476e7cad7ae398217e73cb904128078f7b9ab1ff773d12435a5e08abf8a6a",
+  "requested_upper_SU": 2.75,
+  "numerical_changes": 0,
+  "changes": "all8completed checks + current/global/persistent lane reservation; omit satisfied obsolete first8 dependency only; new metadata namespace"
+}

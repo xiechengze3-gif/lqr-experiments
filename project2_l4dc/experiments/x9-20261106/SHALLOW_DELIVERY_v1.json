@@ -1,0 +1,25 @@
+{
+  "status": "SHALLOW_X9_VERIFIED_DELIVERY_PREPARED",
+  "archive_sha256": "e21ca284e00214c84559282497f276e764c947fe3c2a40aec997b1fb122765b2",
+  "summary_rows": 80,
+  "endpoint_rows": 2560,
+  "files": {
+    "endpoints.csv": "fc3f2e1973bedc537f699709afde66ef26862bbc11f5c715ed86f014a4660cea",
+    "failures.csv": "a246a5d57e6e6ab432b21cf16d248d865174f70cedf037e69a3ecdfdf2de4032",
+    "new_paired_endpoints.csv": "0d4bfaea394cb5d4e4155cbb68a4649f4aab0d11a385d9b5fadbe813e1606581",
+    "new_stages.csv": "aa186587593e2f866155b796da059dc9203bc35a655b8c4e03311adc2d417fcc",
+    "summary.csv": "33c01a99353de25968b63953b3b596393a236b8196b53dfe8ab19113858a1aaa",
+    "transitions_saved_derived.csv": "0d7377d529dbb05d6e029b42d29543cd974379af04f65f63c8cda46427c0a1b1",
+    "SCIENCE_REPORT.md": "cbcdc64c23b87f8b0fe29bdf2cce03d40ddf11a1954605c51fc85362c8b22eaa",
+    "figures/all_rungs_gap.png": "035dea0ebeb195473d0fa25d31d723f14d85a6e28b9f8c63896298ac464a1f89",
+    "figures/all_rungs_gap.svg": "6d91d92088ab6f9576dd0279b15c323eb4f94b22cde80ae847dc07000fe04e77",
+    "figures/all_rungs_relative_gap.png": "a15b1b0ef35a8273561a54ab6bc4a8065b04b97b64c6a4b9dbb416fd2147abda",
+    "figures/all_rungs_relative_gap.svg": "5bb8da0340649f98c18ec2f91a8871a7ef304a6ef886aec57683bcbd3b8a0117",
+    "figures/full_rung_gap.png": "5871e2e4540c94821e6b1f1b8475d54aad1ee0594d10f05c623abaafaf33dbd2",
+    "figures/full_rung_gap.svg": "b1ec888159e5d55981a00c26e1b7ae40adc2c1eb46129cca419205de82e57758",
+    "PRESENTATION_v3.json": "08600b29666fad1b07684f82d3608b8891806adc11785c7cf0f5436ae6695837"
+  },
+  "numerical_reanalysis": false,
+  "selected_presentation": "LAYOUT_V3_SAME_FROZEN_CSV",
+  "original_figures_retained_in_complete_delivery": true
+}

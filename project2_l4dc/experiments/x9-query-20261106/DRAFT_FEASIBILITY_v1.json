@@ -1,0 +1,93 @@
+{
+  "status": "X9_DRAFT_ONLY_NO_GO",
+  "scope": "Resource planning arithmetic on saved X6b metadata; no new benchmark.",
+  "n": 24,
+  "retained_order": 2,
+  "original_alpha_grid": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "recommended_same_cost_grid": [
+    0,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "new_nonzero_alphas": 4,
+  "reused_alpha_zero": true,
+  "formal_models_per_alpha": 8,
+  "sampling_seeds_per_model": 4,
+  "rungs": [
+    0.015625,
+    0.0625,
+    0.25,
+    1
+  ],
+  "algorithms": [
+    "NPG",
+    "PI"
+  ],
+  "arms": [
+    "dense",
+    "truncated"
+  ],
+  "paired_paths_new": 1024,
+  "arm_paths_new": 2048,
+  "primitive_transitions_per_alpha": 32212396032,
+  "primitive_transitions_new": 128849584128,
+  "source_plan": {
+    "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\formal-plan.json",
+    "sha256": "93dfa4e3a1403d87e2d273b0fc46ba935030a9e24765dc053a28308e77d0f73c"
+  },
+  "groups_per_nonzero_alpha": [
+    {
+      "id": "n24-low-three",
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 8,
+      "requested_bound_SU": 4.266666666666667
+    },
+    {
+      "id": "n24-full-NPG",
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 7,
+      "requested_bound_SU": 3.7333333333333334
+    },
+    {
+      "id": "n24-full-PI",
+      "tasks": 32,
+      "cpus": 1,
+      "memory_MiB": 2048,
+      "wall_minutes": 7,
+      "requested_bound_SU": 3.7333333333333334
+    }
+  ],
+  "formal_requested_SU_per_alpha": 11.733333333333334,
+  "formal_requested_SU_new": 46.93333333333334,
+  "pilot_requested_SU_proposal": 1,
+  "report_requested_SU_reserve": 2,
+  "total_requested_SU_proposal": 49.93333333333334,
+  "suggested_cap_SU": 50,
+  "saved_actor_bundle_seconds_per_alpha": 23151.667358953506,
+  "saved_actor_bundle_core_hours_per_alpha": 6.431018710820418,
+  "four_alpha_timing_core_hours": 25.724074843281674,
+  "timing_core_hours_are_not_billing": true,
+  "global_concurrency_proposal": 8,
+  "formal_actor_only_hours_at_eight_cores": 3.215509355410209,
+  "formal_requested_allocation_hours_at_eight_cores": 5.866666666666667,
+  "alpha_zero_reuse_saves_requested_SU": 11.733333333333334,
+  "additional_SU_this_query": 0,
+  "limitations": [
+    "Existing n24 timing is evidence, not a measurement of full-rank X9 paths.",
+    "Billing assumes the earlier one effective core for 1 CPU and 2 GiB; recheck before production.",
+    "No current queue or account balance claim.",
+    "GO/protocol/resource and formal gates are still required; no automatic retry or outcome-dependent cut."
+  ]
+}

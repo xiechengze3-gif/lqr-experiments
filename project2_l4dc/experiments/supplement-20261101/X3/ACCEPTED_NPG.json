@@ -1,0 +1,29 @@
+{
+  "experiment": "X3",
+  "scope": "NPG",
+  "decision": "ACCEPTED_CONDITIONS_SATISFIED",
+  "task_sha256": "b4537546b4051d99dc8da921e1e4a10704402bef939bbe7bd82d501d8f6e9a96",
+  "review_label": "Review02:25 and03:00 CDT",
+  "review_quote": "X3-NPG plan: ACCEPTED with the same conditional rule as X1/X2-NPG; X3-NPG formal may start once the measured plan fits",
+  "config_sha256": "09205402ffb4dcb420d0289197056ec0934477ef353a41841948cf88f208b78d",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "multi_source_sha256": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "npg_multi.py": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+    "npg_formal_suite.py": "0dc2089e7961dd0919dccebb60e14e8aa85eecdec7cf6a717ff610649976ef52",
+    "configs/X3_NPG_formal_v1.json": "09205402ffb4dcb420d0289197056ec0934477ef353a41841948cf88f208b78d"
+  },
+  "qualified_base": 8192,
+  "dense_qualification_sha256": "a008651a19c8f9f7456351b09ee6571b6da54232815e268633e1909f1cb27c21",
+  "measured_largest_paths_sha256": "0e26f0ba69787d97a776e40c7eabdd8ab61cae909a1cb6a5e2ea708efdb2e357",
+  "max_largest_dense_seconds": 516.8674969095737,
+  "exact_primitive_count_ratio": 1.312541343127421,
+  "wall_plan_seconds": 13288.994192945702,
+  "wall_minutes": 225,
+  "formal_request_bound_SU": 120.0,
+  "measured_plan_fits_cap": true,
+  "global_bound_after_submission": 158.25,
+  "extra_report_reserve_SU": 2,
+  "formal_outputs_used_for_calibration": false
+}

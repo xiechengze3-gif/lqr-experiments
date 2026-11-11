@@ -1,0 +1,57 @@
+n,r,mode,metric,epsilon,successes_required,denominator,attained,N,total_transitions,successes_at_attainment,max_N,successes_at_max,bootstrap95_low,bootstrap95_high,bootstrap_censored,bootstrap_total,censoring
+12,2,dense,gap,0.1,29,32,False,inf,inf,,24576,22,24661,inf,1865,2000,right-censored beyond tested max; no interpolation
+12,2,dense,gap,0.03,29,32,False,inf,inf,,24576,16,inf,inf,1995,2000,right-censored beyond tested max; no interpolation
+12,2,dense,relative_gap,0.1,29,32,True,24149,24661,30,24576,30,17588,inf,241,2000,first tested prefix
+12,2,dense,relative_gap,0.03,29,32,False,inf,inf,,24576,7,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+12,2,truncated,gap,0.1,29,32,False,inf,inf,,24576,28,3532,inf,1065,2000,right-censored beyond tested max; no interpolation
+12,2,truncated,gap,0.03,29,32,False,inf,inf,,24576,26,9051,inf,1360,2000,right-censored beyond tested max; no interpolation
+12,2,truncated,relative_gap,0.1,29,32,True,4270,4782,30,24576,32,3532,6550,0,2000,first tested prefix
+12,2,truncated,relative_gap,0.03,29,32,True,17076,17588,30,24576,31,12587,24661,20,2000,first tested prefix
+24,1,dense,gap,0.1,29,32,False,inf,inf,,49152,7,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+24,1,dense,gap,0.03,29,32,False,inf,inf,,49152,0,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+24,1,dense,relative_gap,0.1,29,32,False,inf,inf,,49152,19,49358,inf,1949,2000,right-censored beyond tested max; no interpolation
+24,1,dense,relative_gap,0.03,29,32,False,inf,inf,,49152,0,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+24,1,truncated,gap,0.1,29,32,False,inf,inf,,49152,18,34799.10000000001,inf,1930,2000,right-censored beyond tested max; no interpolation
+24,1,truncated,gap,0.03,29,32,False,inf,inf,,49152,15,inf,inf,1991,2000,right-censored beyond tested max; no interpolation
+24,1,truncated,relative_gap,0.1,29,32,False,inf,inf,,49152,25,6619,inf,1558,2000,right-censored beyond tested max; no interpolation
+24,1,truncated,relative_gap,0.03,29,32,False,inf,inf,,49152,21,12725,inf,1727,2000,right-censored beyond tested max; no interpolation
+24,2,dense,gap,0.1,29,32,False,inf,inf,,49152,11,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+24,2,dense,gap,0.03,29,32,False,inf,inf,,49152,0,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+24,2,dense,relative_gap,0.1,29,32,False,inf,inf,,49152,24,35052,inf,1746,2000,right-censored beyond tested max; no interpolation
+24,2,dense,relative_gap,0.03,29,32,False,inf,inf,,49152,1,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+24,2,truncated,gap,0.1,29,32,False,inf,inf,,49152,24,17783,inf,1720,2000,right-censored beyond tested max; no interpolation
+24,2,truncated,gap,0.03,29,32,False,inf,inf,,49152,16,inf,inf,1985,2000,right-censored beyond tested max; no interpolation
+24,2,truncated,relative_gap,0.1,29,32,True,34540,35052,29,49152,30,6619,inf,392,2000,first tested prefix
+24,2,truncated,relative_gap,0.03,29,32,False,inf,inf,,49152,27,17783,inf,1008,2000,right-censored beyond tested max; no interpolation
+24,4,dense,gap,0.1,29,32,False,inf,inf,,49152,24,35052,inf,1797,2000,right-censored beyond tested max; no interpolation
+24,4,dense,gap,0.03,29,32,False,inf,inf,,49152,11,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+24,4,dense,relative_gap,0.1,29,32,True,34540,35052,29,49152,32,24936,49358,0,2000,first tested prefix
+24,4,dense,relative_gap,0.03,29,32,False,inf,inf,,49152,12,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+24,4,truncated,gap,0.1,29,32,True,34540,35052,29,49152,30,4831,inf,522,2000,first tested prefix
+24,4,truncated,gap,0.03,29,32,False,inf,inf,,49152,28,17783,inf,1303,2000,right-censored beyond tested max; no interpolation
+24,4,truncated,relative_gap,0.1,29,32,True,8636,9148,30,49152,32,4831,12725,0,2000,first tested prefix
+24,4,truncated,relative_gap,0.03,29,32,True,24424,24936,30,49152,31,24936,35052,20,2000,first tested prefix
+24,8,dense,gap,0.1,29,32,True,12213,12725,29,49152,32,9148,17783,0,2000,first tested prefix
+24,8,dense,gap,0.03,29,32,True,48846,49358,31,49152,32,35052,49358,0,2000,first tested prefix
+24,8,dense,relative_gap,0.1,29,32,True,8636,9148,30,49152,32,9148,12725,0,2000,first tested prefix
+24,8,dense,relative_gap,0.03,29,32,True,34540,35052,31,49152,32,24936,35052,0,2000,first tested prefix
+24,8,truncated,gap,0.1,29,32,True,4319,4831,31,49152,32,4831,4831,0,2000,first tested prefix
+24,8,truncated,gap,0.03,29,32,True,12213,12725,29,49152,32,12725,17783,0,2000,first tested prefix
+24,8,truncated,relative_gap,0.1,29,32,True,3054,3566,29,49152,32,3566,4831,0,2000,first tested prefix
+24,8,truncated,relative_gap,0.03,29,32,True,12213,12725,30,49152,32,9148,17783,0,2000,first tested prefix
+48,2,dense,gap,0.1,29,32,False,inf,inf,,98304,4,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+48,2,dense,gap,0.03,29,32,False,inf,inf,,98304,0,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+48,2,dense,relative_gap,0.1,29,32,False,inf,inf,,98304,22,98516,inf,1889,2000,right-censored beyond tested max; no interpolation
+48,2,dense,relative_gap,0.03,29,32,False,inf,inf,,98304,0,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+48,2,truncated,gap,0.1,29,32,False,inf,inf,,98304,19,69812,inf,1892,2000,right-censored beyond tested max; no interpolation
+48,2,truncated,gap,0.03,29,32,False,inf,inf,,98304,16,inf,inf,1986,2000,right-censored beyond tested max; no interpolation
+48,2,truncated,relative_gap,0.1,29,32,True,49003,49515,30,98304,32,9176,69812,0,2000,first tested prefix
+48,2,truncated,relative_gap,0.03,29,32,False,inf,inf,,98304,28,25014,inf,1265,2000,right-censored beyond tested max; no interpolation
+96,2,dense,gap,0.1,29,32,False,inf,inf,,196608,0,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+96,2,dense,gap,0.03,29,32,False,inf,inf,,196608,0,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+96,2,dense,relative_gap,0.1,29,32,False,inf,inf,,196608,11,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+96,2,dense,relative_gap,0.03,29,32,False,inf,inf,,196608,0,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+96,2,truncated,gap,0.1,29,32,False,inf,inf,,196608,14,inf,inf,1998,2000,right-censored beyond tested max; no interpolation
+96,2,truncated,gap,0.03,29,32,False,inf,inf,,196608,6,inf,inf,2000,2000,right-censored beyond tested max; no interpolation
+96,2,truncated,relative_gap,0.1,29,32,False,inf,inf,,196608,26,17858,inf,1065,2000,right-censored beyond tested max; no interpolation
+96,2,truncated,relative_gap,0.03,29,32,False,inf,inf,,196608,23,139268,inf,1731,2000,right-censored beyond tested max; no interpolation

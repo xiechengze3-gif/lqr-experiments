@@ -1,0 +1,23 @@
+{
+  "status": "CORRECTED_PILOT_SUBMITTED_EQ_PASS_TIMINGS_RUNNING",
+  "review_sha256": "2c35aad9dbee1abc9d1724991885850fde943062215914b1e49c02669cccd8ed",
+  "prior_bytes": 390755,
+  "appended_bytes": 2381,
+  "prior_preserved": true,
+  "eq_receipt_sha256": "543f0abc7d91b86903f2d0da41f9e166a728e9c4425e5c611e76541c3839418c",
+  "raw_backup": {
+    "status": "VERIFIED_EXTRACTED_COMPLETE_X10B_RAW_SNAPSHOT",
+    "files": 119,
+    "scope": "pilot-initial",
+    "label": "pilot-initial-v1",
+    "archive_sha256": "125a8373a9a7fc4c24dca00fe3185781613e09b3c5c9470be13aa2b7cc6dd872",
+    "archive_bytes": 1024567,
+    "manifest_sha256": "69020297a9841984851c2f222130e23b35767e63a3d71d2d40226137079eb61f",
+    "numerical_reanalysis": false,
+    "original_files_unchanged": true
+  },
+  "accounting_sha256": "4a583ff075d0f2544b48e656447138dfc315dd9a0ec4fe42954ac9548fd6e57d",
+  "formal_submitted": false,
+  "no_NPG_resampling": true,
+  "old_failure_history_preserved": true
+}

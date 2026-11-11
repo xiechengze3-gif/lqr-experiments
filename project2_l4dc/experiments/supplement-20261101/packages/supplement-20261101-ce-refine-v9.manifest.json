@@ -1,0 +1,20 @@
+{
+  "name": "supplement-20261101-ce-refine-v9",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-ce-refine-v9.tar.gz",
+  "archive_sha256": "93d35f2adbb961dedfc61f14eca56aa946ecc2ea0068a15ab799aaac72138a76",
+  "plan": {
+    "id": "supplement-20261101-ce-refine-v9",
+    "stage": "REPORT",
+    "experiment": "X1",
+    "scope": "CE_C1_C2_C3_POSTPROCESS",
+    "wall_minutes": 5
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "refine_ce.py": "a47faadce193e25e67a6769eef41ba6789daecfb26174478ae515ffc2599aba7",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "job_plan.json": "4beaff7056631a03e131900265dc4ef24851dcf801a94ce60a977808caea3756",
+    "slurm/run.sbatch": "759993dc88514f5b88341e6bf61b6416ba4744526d349969066c39ea5b4ce8ee"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS_STREAMED_ARCHIVE_HASHES_AND_AST",
+  "checks": [
+    {
+      "path": "project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\transfers\\x6b-resource-v1.tar.gz",
+      "bytes": 3039015,
+      "sha256": "45aeff592bd5c124d780c1897fa35215f4a897c3bee4f53d7315579901443c5c"
+    },
+    {
+      "path": "project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\packages\\x6-20261101-b-formal-v14.tar.gz",
+      "bytes": 2481906,
+      "sha256": "b6d94b31f87bf7553c805d7577592cd04cbda1f2273937bf2b964696b5a40c33"
+    }
+  ],
+  "accepted_science_unchanged": true,
+  "source_sha256": "ddb0c0e98839d985ad9428eb7e7a72614d280484ff60231bdfeb4d905588d69d",
+  "report_builder_sha256": "92a8f967896f481555992f84084e21e448dc4eaa93349cbac23f651b1904b4f5"
+}

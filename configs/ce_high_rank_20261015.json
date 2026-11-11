@@ -1,0 +1,171 @@
+{
+  "title": "100d CE high-rank absolute precision comparison",
+  "date": "2026-10-15",
+  "n": 100,
+  "ranks": [
+    16,
+    32,
+    64,
+    100
+  ],
+  "absolute_epsilon": 0.1,
+  "system_seeds": [
+    0,
+    1
+  ],
+  "sampling_seed": 0,
+  "budgets": [
+    512,
+    2048,
+    8192,
+    32768,
+    131072,
+    524288,
+    2097152
+  ],
+  "burn": 512,
+  "sigma": 1.0,
+  "methods": [
+    "raw",
+    "truncated"
+  ],
+  "new_tasks": [
+    {
+      "n": 100,
+      "m": 100,
+      "r": 64,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "stabilizer": "isotropic",
+      "tail": 0.0,
+      "tail_shape": "energy"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 64,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "stabilizer": "isotropic",
+      "tail": 0.0,
+      "tail_shape": "energy"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 100,
+      "system_seed": 0,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "stabilizer": "isotropic",
+      "tail": 0.0,
+      "tail_shape": "energy"
+    },
+    {
+      "n": 100,
+      "m": 100,
+      "r": 100,
+      "system_seed": 1,
+      "trial_seed": 0,
+      "family": "coupled_unstable",
+      "stabilizer": "isotropic",
+      "tail": 0.0,
+      "tail_shape": "energy"
+    }
+  ],
+  "reused": [
+    {
+      "source": "E:\\ChatGPT\\Results\\LQR_experiments\\cross-rank-complete-709f81b14811afb5\\cross-rank-709f81b14811afb5\\ce\\raw\\task-009.json",
+      "sha256": "5696047ee07499ffa1f17d296869194a4176ac93bee44cadcad6fd247263bb52",
+      "task": {
+        "n": 100,
+        "m": 100,
+        "r": 16,
+        "system_seed": 0,
+        "trial_seed": 0,
+        "family": "coupled_unstable",
+        "tail": 0.0,
+        "tail_shape": "energy",
+        "stabilizer": "isotropic"
+      },
+      "bundle_path": "reused/r16-s0.json"
+    },
+    {
+      "source": "E:\\ChatGPT\\Results\\LQR_experiments\\cross-rank-complete-709f81b14811afb5\\cross-rank-709f81b14811afb5\\ce\\raw\\task-021.json",
+      "sha256": "2b09c31c02ffae038e3f31c627fff1c0181f2341fae7c2ac4757aae1b207d162",
+      "task": {
+        "n": 100,
+        "m": 100,
+        "r": 16,
+        "system_seed": 1,
+        "trial_seed": 0,
+        "family": "coupled_unstable",
+        "tail": 0.0,
+        "tail_shape": "energy",
+        "stabilizer": "isotropic"
+      },
+      "bundle_path": "reused/r16-s1.json"
+    },
+    {
+      "source": "E:\\ChatGPT\\Results\\LQR_experiments\\grace-aligned-b41df7278218861f\\results\\aligned-b41df7278218861f\\tasks\\task-266\\result.json",
+      "sha256": "8ceab426949ba29cf2d48b85fded12bc6c170e0a1d79b3534f3d30e39b5a1681",
+      "task": {
+        "n": 100,
+        "m": 100,
+        "r": 32,
+        "system_seed": 0,
+        "trial_seed": 0,
+        "family": "coupled_unstable",
+        "stabilizer": "isotropic",
+        "tail": 0.0,
+        "tail_shape": "energy"
+      },
+      "bundle_path": "reused/r32-s0.json"
+    },
+    {
+      "source": "E:\\ChatGPT\\Results\\LQR_experiments\\grace-aligned-b41df7278218861f\\results\\aligned-b41df7278218861f\\tasks\\task-267\\result.json",
+      "sha256": "005eebdf34ffafcee6f39eb9d3788ed7690147b1b749aca7fb1dc9735db2b985",
+      "task": {
+        "n": 100,
+        "m": 100,
+        "r": 32,
+        "system_seed": 1,
+        "trial_seed": 0,
+        "family": "coupled_unstable",
+        "stabilizer": "isotropic",
+        "tail": 0.0,
+        "tail_shape": "energy"
+      },
+      "bundle_path": "reused/r32-s1.json"
+    }
+  ],
+  "generator": "Historical coupled_unstable isotropic 981113 formulas; allow rank=n; skip empty tail division only",
+  "criterion": "All two systems at a declared fixed prefix satisfy absolute J-Jstar <= .1; no cost-adaptive stopping",
+  "new_physical_transitions": 8390656,
+  "resources": {
+    "cores_per_task": 1,
+    "threads": 1,
+    "memory_GiB": 2,
+    "wall_minutes": 5,
+    "production_concurrency": 2,
+    "all_job_elements": 6,
+    "maximum_reserved_SU": 0.5,
+    "campaign_SU_ceiling": 1.0,
+    "automatic_retries": 0,
+    "expected_SU_range": [
+      0.05,
+      0.15
+    ],
+    "performance_basis": "Prior n100 full 2,097,152-prefix CE benchmark: 28.72 seconds, <224MiB peak; same-size collectors/solves"
+  },
+  "scope": "Two systems and the original coarse grid; A/F0/B vary with rank. Full rank must use this same extended generator, not the other nested family.",
+  "sources": {
+    "dense_scaling.py": "2e846ca15eda11a4e73d7d5cb6ac0d171ae5e7ccd27856273bc5a9d3393ba1d3",
+    "scripts/ce_high_rank.py": "6c7803e1254af272b79d17048bd84d3715b22e87ce37506080765a16cfe466d7",
+    "scripts/prepare_ce_high_rank.py": "1f064c744488e2fa009506f51d678adf445422f87e87030b20ac37f03c08698f",
+    "slurm/ce_high_rank.sbatch": "2826a58eb90b77cc9d5ab4cb006d66b9ab7f8654ada7cab8b1db34f6beff2e5d"
+  },
+  "release": "fb68e24f9cb40c74"
+}

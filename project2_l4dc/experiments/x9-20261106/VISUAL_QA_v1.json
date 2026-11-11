@@ -1,0 +1,10 @@
+{
+  "status": "VISUAL_QA_PASS",
+  "note": "Viewed all three layout-v3 PNGs at full resolution: all points and IQR bands, Infinity indicators, labels, legends and per-cell failure counts are readable and unobscured. UTF8 Infinity and multiplication symbols are correct. The frozen summary and original render proof hashes match the complete verified delivery; no statistics were recomputed and original v1 figures are retained.",
+  "images": {
+    "figures/all_rungs_gap.png": "035dea0ebeb195473d0fa25d31d723f14d85a6e28b9f8c63896298ac464a1f89",
+    "figures/all_rungs_relative_gap.png": "a15b1b0ef35a8273561a54ab6bc4a8065b04b97b64c6a4b9dbb416fd2147abda",
+    "figures/full_rung_gap.png": "5871e2e4540c94821e6b1f1b8475d54aad1ee0594d10f05c623abaafaf33dbd2"
+  },
+  "statistics_recomputed": false
+}

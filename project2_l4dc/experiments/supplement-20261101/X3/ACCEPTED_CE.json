@@ -1,0 +1,18 @@
+{
+  "experiment": "X3",
+  "scope": "CE_ONLY",
+  "decision": "ACCEPTED",
+  "review_label": "Review 02:25 CDT (Claude)",
+  "task_sha256": "38df4ac83b3f3475d0974f98aa1cd1e5d9aa1adf5df53014cd204050ac3cdbcd",
+  "review_checked_utc": "2026-11-01T07:28:29Z",
+  "config_sha256": "99f60251f41ad2e1adcfc9b15f45e67f9d89335699d85fa5ef5f9d208a2ecfa1",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "ce_suite.py": "1ad29095ca75409702915fc3eef124e68f91beb0ee47e5c3c87f5b8586a8476d",
+    "formal_driver.py": "3ed88761dcb3f949b20aef66e8da73ffa7390f68c1530adfb5a7a4cba49b1a61",
+    "configs/X3_CE_resolved_v2.json": "99f60251f41ad2e1adcfc9b15f45e67f9d89335699d85fa5ef5f9d208a2ecfa1"
+  },
+  "approval_quote": "X3 protocol v1: ACCEPTED; Once C5 is computed from the pilot, start the formal CE array without waiting for me; publish C5 and the resolved hash.",
+  "resolved_change": "One global C5=2.569143010355372 frozen from pilot dense-fit error; both adaptive variants verified on same captured fits."
+}

@@ -1,0 +1,105 @@
+{
+  "status": "COMPLETE",
+  "scope": "CSV_ONLY_ZERO_SIMULATION",
+  "csv": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\amendment-A1\\deliveries\\report-20365069-v4\\X6a\\reports\\v1\\summary.csv",
+  "csv_sha256": "cb06937c6cbcc28263ca11f261d6046cfc3113f1b3cf3562a4d38c55af0a0693",
+  "source_sha256": "5706de7f3dd0ac85f2ec0a30c7a435ffa6e3ba9e4cbd183885f06d360e89f8e8",
+  "files": [
+    {
+      "path": "NPG-relative_error.png",
+      "sha256": "55d55fd21dfd6647b5fed15d1c3bcc8c74f5000cc913e19405c601cc08662049"
+    },
+    {
+      "path": "NPG-relative_error.svg",
+      "sha256": "b6242ac9cee3c1a91b66f59efe39e2d000fcf2615af0b19bb77518c1dc892748"
+    },
+    {
+      "path": "NPG-paired_error_ratio.png",
+      "sha256": "ce35f859230e2c395dc3f65a89fc5376180a86c0626595864893abd1677e1076"
+    },
+    {
+      "path": "NPG-paired_error_ratio.svg",
+      "sha256": "688ea38f71fcbe04dac0b56a8a2eb1e8cfd9a837cbd08b8c22e8b0fd3c209ac5"
+    },
+    {
+      "path": "NPG-rho_op.png",
+      "sha256": "c6cf6a2f9f901a1924d7779d41aad8497228cb43582a1bc88057ab901f301cb3"
+    },
+    {
+      "path": "NPG-rho_op.svg",
+      "sha256": "7198ddeabc4e7686c009d36deb8b40e9e46e6ab1807b7309ae8ee5d89350d78e"
+    },
+    {
+      "path": "NPG-left_sin_theta.png",
+      "sha256": "d93dbf2ab0cb801dbafb4dcd563ebcdf5efff0069acf6aee79612bdd80d8001b"
+    },
+    {
+      "path": "NPG-left_sin_theta.svg",
+      "sha256": "943f4246a11ab7ab11784e72330bf66f8d351ea7ff727053229239955deb247d"
+    },
+    {
+      "path": "NPG-projection.png",
+      "sha256": "4eb56969cdeba87feae02876a304581f73d7ad29b7ebb798924026ba37ef5859"
+    },
+    {
+      "path": "NPG-projection.svg",
+      "sha256": "1fa140fcc0a2afb1c9918b465e1fa180ee3d9777cf150f2527d2821b810f0b29"
+    },
+    {
+      "path": "PI-relative_error.png",
+      "sha256": "dcb3d8c097c3f8050fe766f1b983b0c6d726cd21feea0ea06e772d9a98f0af7e"
+    },
+    {
+      "path": "PI-relative_error.svg",
+      "sha256": "c56158a6e07919eee7ef2223b95fdfcb516aea3a1cd30a42df1bc33c1439b65d"
+    },
+    {
+      "path": "PI-paired_error_ratio.png",
+      "sha256": "9c3841d59bed3d85f427fc941c6084f4bd7f082eaf6f1972956842d500918c08"
+    },
+    {
+      "path": "PI-paired_error_ratio.svg",
+      "sha256": "7f9dc2730f8488d54f5cc13d72f894ad839ecd059090d014273415df0190b879"
+    },
+    {
+      "path": "PI-rho_op.png",
+      "sha256": "7578f1ceb1e0242d0109c54f5832fcdbe983f8e808b0822902d0728d1d744c86"
+    },
+    {
+      "path": "PI-rho_op.svg",
+      "sha256": "ec689c9021fc4da8c599d8979912b75a3922606793fa47773a7697b3e1a7bb09"
+    },
+    {
+      "path": "PI-left_sin_theta.png",
+      "sha256": "2b0d9db9f0d950f9b5a257d476d9034ad125e7c14f57e21ba0e7fb57b9aa26ef"
+    },
+    {
+      "path": "PI-left_sin_theta.svg",
+      "sha256": "a1f335dd1c5c1417d113888043ad0376f58f8fa09cc10f7bcfec42615ef04b40"
+    },
+    {
+      "path": "PI-projection.png",
+      "sha256": "5a87da98a2736ba5e3a2c26da0f705e9f6abdd2513dcc074db0f54f0b25a6341"
+    },
+    {
+      "path": "PI-projection.svg",
+      "sha256": "c3e04f290631b3010b4c847c2864dd0fbabd33f48c4e375425f77d497c799d70"
+    },
+    {
+      "path": "CE-relative_error.png",
+      "sha256": "afe88ec0986c3a58c82b1f61b796bc8354fef044c99b6d13a4652aa3ca5be872"
+    },
+    {
+      "path": "CE-relative_error.svg",
+      "sha256": "7d433722d928b95edd34f6e2c0e63dbd916e0589fe524fe549a464c66470bf57"
+    },
+    {
+      "path": "CE-paired_error_ratio.png",
+      "sha256": "3e01b3d4c3ff596ddc2fe1f992e64921959d61fe0a190e17a73d3a0fb33d128b"
+    },
+    {
+      "path": "CE-paired_error_ratio.svg",
+      "sha256": "1b1ecc545ffb28ab0a01eeeea9b2b079f32f551238c6adf3b0a997e6e529737c"
+    }
+  ]
+}

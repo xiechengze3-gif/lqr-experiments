@@ -1,0 +1,23 @@
+{
+  "name": "supplement-20261101-x4-pilot-v22",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x4-pilot-v22.tar.gz",
+  "archive_sha256": "6b11af1214d7f4fe1a90bb6365d9ba97d0e89fa1ce55e83595e670fcec7191cf",
+  "plan": {
+    "id": "supplement-20261101-x4-pilot-v22",
+    "stage": "PILOT",
+    "experiment": "X4",
+    "scope": "FIXED_POLICY_PERTURBATION_DIAGNOSTIC",
+    "wall_minutes": 5,
+    "bundles": 1
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "x4_pilot.py": "390072ff11382b4ee70e2a60d35962848d7f1b30f8a06f2bbace4efa79f1dbef",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "robustness_x4.py": "f47fd1b0fb2c630ca3fd811653c770ca1b1fceb093e9b6a1551ef01139c70323",
+    "configs/X4_v1.json": "55f700cf0365fbded872407ef414490d389336d44fa1e9c39bfac22b743a856d",
+    "job_plan.json": "65ce3236aea17472db076e7a6a0c414500b810ddbd9b890ef99403864e0756a8",
+    "slurm/run.sbatch": "087d835498787f43384b93e0c9fbe87e6dcc0ff2dcc2bd1e46f8cb09b85d9dd6"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-11-06T04:08:20.560556+00:00",
+  "authority_sha256": "13f2bc95e06b5358f0f67aa08e3ca5c54d91bd23c16e9ffab7d0460fe767ea1a",
+  "status": "X9_QUERY_COMPLETE_NO_GO_NO_NEW_COMPUTE",
+  "files": [
+    {
+      "path": "deliver_query.py",
+      "bytes": 5462,
+      "sha256": "48554c18003c13f28f898df3d254cef017183f0778f7c14132493dca566513f0"
+    },
+    {
+      "path": "DRAFT_FEASIBILITY_v1.json",
+      "bytes": 2728,
+      "sha256": "330d558103a22f8a84cb6fe34e15c63d5c68c50b84b22fb8784d7c7ea0528720"
+    },
+    {
+      "path": "inspect_saved_x6b.py",
+      "bytes": 4174,
+      "sha256": "57d0543675bede23fc2234bdb2fec3f9f7734a7d870cfc3bcaa548d9d2c60f07"
+    },
+    {
+      "path": "QUERY_DETAILS.md",
+      "bytes": 13888,
+      "sha256": "4c267ffa50d97f03a63d69e30a26a89be44cf949ac3cf59b76fc4239b4bdbbfb"
+    },
+    {
+      "path": "SCOPE.md",
+      "bytes": 447,
+      "sha256": "afee4c70c2fd8e15dbef008ce4fa345351969d056eebb0d8486ed6263ed1c250"
+    },
+    {
+      "path": "SOURCE_HASHES_v1.json",
+      "bytes": 114584,
+      "sha256": "6f83c0b74ffae3c01f7315716fa8783c779344260e81e6d27592d08eed034f65"
+    },
+    {
+      "path": "x6b_n24_timing_metadata_v1.json",
+      "bytes": 39897,
+      "sha256": "608d05d15b77483c2a1e656fc4941fccfa6b7591fb5f44989b4527abd77d005e"
+    },
+    {
+      "path": "x6b_reuse_identity_v1.json",
+      "bytes": 137750,
+      "sha256": "b1e50459a80d4c0e4442649187a36561c809938beb8f30b8263433dc90201d09"
+    }
+  ],
+  "checks": {
+    "scientific_source_hashes_verified": 5,
+    "saved_model_hashes_verified": 8,
+    "saved_paired_path_receipts_verified": 256,
+    "existing_sources_unchanged": true,
+    "new_jobs": 0,
+    "new_primitive_transitions": 0,
+    "new_model_solves": 0,
+    "new_estimator_fits": 0,
+    "moved_files": 0,
+    "deleted_files": 0,
+    "additional_SU": 0
+  }
+}

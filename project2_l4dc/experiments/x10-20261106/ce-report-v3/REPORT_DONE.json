@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETE_NEW_ROWS_BASELINE_BYTES_PRESERVED",
+  "source_sha256": "6ce0308264898dc47595442457d25ba674d3982cb58ba001dadedc20e6a37730",
+  "config_sha256": "0c3181d6f30e15ea714f221cd286a9226d918373e5b19a47475f892593ad58ce",
+  "preservation": {
+    "X8_sample_cost.csv": {
+      "baseline_sha256": "5ea1011fdf3b974cbb696511e3e81d3a04a587ea037b9b9550627f3502e6047f",
+      "baseline_bytes": 5888,
+      "merged_sha256": "dac550c0390207a89943d838cb44ab18870722e9aeca08efc9f84b27e4a75c62",
+      "baseline_prefix_byte_identical": true
+    },
+    "X6a_sample_cost_derived.csv": {
+      "baseline_sha256": "0a11b2f2311baf2c6b91587f70ed6c18b4ae7a10da6af58376dd97b1b862f7ee",
+      "baseline_bytes": 212,
+      "merged_sha256": "baa204210bcad918511d24d5c213299a32a87b5d460353cd64d90255464c09b5",
+      "baseline_prefix_byte_identical": true
+    },
+    "X1_normalized_statistics.csv": {
+      "baseline_sha256": "f7130a51c4cc09bffc11d06c53491080b8a750133a15a2dc3a3d8e05541043e7",
+      "baseline_bytes": 5263,
+      "merged_sha256": "8a7adafb1f20185110e393380fe05f0eb56c632ed3156608d15d975701bf80ec",
+      "baseline_prefix_byte_identical": true
+    }
+  },
+  "new_training_transitions": 0,
+  "Grace_SU": 0,
+  "Slurm_job_id": null,
+  "files": {
+    "censoring_flags.csv": "ae75046f5990055ccef719cbf7928ec27363d05ff26748ea6c43eed1ff2b63ad",
+    "failures.csv": "8c6d23b2817b90c002555d65c86c10cd4430e61b5feb67c9658e59fa2ce0ee84",
+    "merged_X1_normalized_statistics.csv": "8a7adafb1f20185110e393380fe05f0eb56c632ed3156608d15d975701bf80ec",
+    "merged_X6a_sample_cost_derived.csv": "baa204210bcad918511d24d5c213299a32a87b5d460353cd64d90255464c09b5",
+    "merged_X8_sample_cost.csv": "dac550c0390207a89943d838cb44ab18870722e9aeca08efc9f84b27e4a75c62",
+    "new_dimension_records.csv": "641b8d016059854713e5748f8372ca58857fcedca11bc5c5240babd7bddba0dc",
+    "new_normalized_records.csv": "197ba54c26b92f0c8a006c98f50647df4c91e89fc7928a096db78ec00d6f2411",
+    "new_X1_normalized_statistics.csv": "3778af9d10b85f21305d8797e889fd13b963eb267a0159b96ff62dd6699e918d",
+    "new_X6a_sample_cost_derived.csv": "d5892ec7e3be19b6ebab8415e919dc6c991ef8c37a34f0727079113d8b3b4af7",
+    "new_X8_records.csv": "29f640f9fc2375ab117deb5af0a1d5423f08b5225ab2c3a73268b1cb8ed518f3",
+    "new_X8_sample_cost.csv": "5dad97dab0a2025349ced1f64b442afd6ec80b5baad79330564c75a26e4c3d36",
+    "X8_new_medians.csv": "8ce5c737d472211e2cdf59ff9558dd74707ec23f28e21181b95fcb49fa738a70"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "item": "c",
+  "stage": "report",
+  "job": "20450700",
+  "plan_sha256": "60db263dee7445cd6571e359301f972ec32b339c1b6f8d588b78ca31ebf2ffc1",
+  "driver_sha256": "8cd8eadedc378fbb389bb8424038d0f9bf6dfd5f2ad97ea9c6302a50c3399ff6",
+  "files": {
+    "Bstar_observations.csv": "358ed9134d08bd4159d3b8ae3ed056b02ada3f3ae62ca09e0cacce47ec5c707f",
+    "Bstar_system_summaries.csv": "0ea1bf2a090ee7c2cdd60dcd5b5ac7c6888fc40c752efcc0fc8d2a929240a81c",
+    "PI_calibration_n60.csv": "ad8171469e61454f390f8068287c3c15d83d73e2be8284f04cb186cb3c548c3b"
+  },
+  "observation_transitions": 0,
+  "original_PI_rule_report": "20450671",
+  "Bstar_pilot_streams": 8
+}

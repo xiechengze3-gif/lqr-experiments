@@ -1,0 +1,944 @@
+{
+  "status": "COMPLETE",
+  "scope": "NPG",
+  "experiment": "X2",
+  "bundles": 32,
+  "attempted_pair_or_multi_runs": 64,
+  "planned_actor_trajectories": 128,
+  "source_and_coverage_verified": true,
+  "hard_failure_attempts": 0,
+  "unequal_actual_transition_attempts": 0,
+  "assessed_candidates": 30848,
+  "recorded_outputs": 30848,
+  "failed_recorded_outputs": 0,
+  "failed_endpoints": {},
+  "items": [
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s201-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "2369def19f27b6da70ce05f637e4db3cc809ef24a78397e69821de63b858d137",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s201-t1101.npz",
+      "candidate_archive_sha256": "5040bd1a66bbe37085480501eaaf1f811cac861d2ee614dc4cfbd6c2b95d875a",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s201-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "c02c480d34bfe6de5d8c5eb1b80474083b01c76278922a0fff18d49adb098acf",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s201-t1101.npz",
+      "candidate_archive_sha256": "ac0bb898cb7740cdf858a6675ff2207a4887be52cf4d35306b74adb84121d694",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s201-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "7bf97e141a3c86d4dd2ec47dfd8ad1e813516b22aba8569ab521530a8a402ef9",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s201-t1102.npz",
+      "candidate_archive_sha256": "f711a6a6410db34dbaaf50b625e7a4595fabfc011d343615fb8cff0dcd95515f",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s201-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "4769e4607486e92aade56e80d2d1837f4eafa07469390aa7188ded98dfce4d74",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s201-t1102.npz",
+      "candidate_archive_sha256": "161b9ac9b8f33acd8514717439d820bda1ca546a9cc049786bde7de6e535ded4",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s201-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "fc716e1f03b2804ec8d389cc66265a22f47fbd0dc3500829024b58f1a7fd1bed",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s201-t1103.npz",
+      "candidate_archive_sha256": "528f03144dccfc891c7df08a599eb66a5b25a3d7230f3b53c5b6be8d1077ed87",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s201-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "99881cd8c03041e57c072a9c38cc5f15f6028c86a454b4d2a43e081a698fa903",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s201-t1103.npz",
+      "candidate_archive_sha256": "a1eca5b6a02deb236da6cd591e9721987509c3456628d1d8268f68c55f0ef6bf",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s201-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "ff4cee39951412cd2880f8daf378f38e4912be40326be38e38eef6c50be118c0",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s201-t1104.npz",
+      "candidate_archive_sha256": "52af8b5ddf5478e8b8d0f6c0486a7e86abb56339d33b898dcbcb47885cb18bc7",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s201-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "77ed5184663500e5850d44f3875e015b721fb8a955ec01ebf460ae56c7b71094",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s201-t1104.npz",
+      "candidate_archive_sha256": "e545d8c82864ddd890f1c2334af2abec0c2a0a9f1eca902723e89affa1d59e76",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s202-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "028e2890662469d33dc180d7e45c6d0a8176d2df33a404fba7236fdbf7b96a1d",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s202-t1101.npz",
+      "candidate_archive_sha256": "f9c5b49932742f7ffcc9bb79c2a4ca88b75fb34695c762ff1d6566c9489bb8f8",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s202-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "4bab7482bd2bfd63d0175c5a62ba6425275c1e6176b428bcb207b9ff6f6d11b2",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s202-t1101.npz",
+      "candidate_archive_sha256": "96c540542b503b2a3d80612d8f6951a2fb9d6200661e7a6af4be4fb7627e930f",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s202-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "2dadd764f9f999b474b4897d4a027343b212c772e4aff2cc6b1a0c282c0c0056",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s202-t1102.npz",
+      "candidate_archive_sha256": "bba1effc33f09545c63001111fcfeda0e446b65b25cb6fd09f6ff125c971bd7e",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s202-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "5be60a903083bf9c9811ef98832bf205e4c4e77a964e903a2570d5df3928ab92",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s202-t1102.npz",
+      "candidate_archive_sha256": "e21f630a8a78088f41fe7b9a762a7a7e4a04eaa9d1dd47648bc1ec5085cb0c8e",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s202-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "e7651804ccf2d213068e0fa0320b2246dd0306e453b37d97123e1dfe6ddc2ed4",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s202-t1103.npz",
+      "candidate_archive_sha256": "333648504d967c81f4342e1bdf2279752958b8becb5f310f2693c2bda4b9aaeb",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s202-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "bd4fa324b513809be36eb15720004a0ea2611b9c068363f6fedf759baf5d21fe",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s202-t1103.npz",
+      "candidate_archive_sha256": "4f97ab513865648c3f5d5b09ecd5b4af19c58d71151ab09ed9c9b901f3745d3f",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s202-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "a83284bdbb8b43c8e98ca39982b12e2b735ee128c19dac50f6289d2cd63e7820",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s202-t1104.npz",
+      "candidate_archive_sha256": "c43a2fcb9af4948713733e010f0be2863b0a6d44c93ee3b474cff9300691effa",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s202-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "d2bc9a3c6457ffcd01255c1b6e21eb730b38dc3d14da01fbda34da2068ade3d3",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s202-t1104.npz",
+      "candidate_archive_sha256": "776c37196772ebbeb6089994f47b637a8985426b40b98448278f97cf893e85ef",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s203-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "0f27d9db19f22329ca3debf32a7d06944ef3b661b18c9a134884141311412bb5",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s203-t1101.npz",
+      "candidate_archive_sha256": "bff4774f060de76649375cfed05a835a2c67ee31e40993b240e8e8b0df566875",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s203-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "cf58d93530ec89199a71543c2324885504d2e43a620b5202aa479277b7a54ad6",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s203-t1101.npz",
+      "candidate_archive_sha256": "31f7a6fd552fda13026956ed76ec5d9b82177cde67293af788fe8e9497b0998a",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s203-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "186b518a3e66592a8de199ae1e8f74a18de8a1fa066a6ce01858b32a3e06945b",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s203-t1102.npz",
+      "candidate_archive_sha256": "6d237cfc3637a797bccdec6da2084f34bc4b8600ac61170ddc260f059bc7b90e",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s203-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "88d5584a02b58a39305ec2647724f8785698ee44af82595a53bee85e1107de2f",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s203-t1102.npz",
+      "candidate_archive_sha256": "383972b2fc87a616d97e31d5950cf12b32d00cc72ee6c955fde12a4fb7787a4d",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s203-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "4b7e84d4022025bd5d9185ad2739b6cff94d0ee5b6ac556ec53541ad8a1a454f",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s203-t1103.npz",
+      "candidate_archive_sha256": "e9bec51b4d7a6097f15c7e3ca88c274713a3487435ef83b1341d787317ecc234",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s203-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "84a12c9da1c8599790cf3d74d4c151687c538dccffddc360d845e7bd98e519d5",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s203-t1103.npz",
+      "candidate_archive_sha256": "b406a89085258c3351510ec1b70198296a79b2c7df6475071fd17d1096d4d074",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s203-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "2729ee765960f83f606992fadbe06acc394dbe45081086dcff2c5bd384cedc95",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s203-t1104.npz",
+      "candidate_archive_sha256": "a40245bca3dbada93cb6f62ac61deb278fca83c97511df1a7e3bd30b12bd3ea0",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s203-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "d294f353c9d6e84af2e493c7718cef6ff8674bc7bb04c94731944e9fc1c6b29a",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s203-t1104.npz",
+      "candidate_archive_sha256": "4196059aab514987d607e3ddf9d2097768d4007bc672ed252d69ce9f7602a71e",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s204-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "6982e7c20575f5c61de3b14d82ad03c2433640f4818d81680ba0c976e673d902",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s204-t1101.npz",
+      "candidate_archive_sha256": "330fc729a9787e2aecfe295d39c4060154f47bdb485bada4c92af8b9d3625c1f",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s204-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "f5b0226349f05453934c435453e2a9f3bb4361e166154d58bdccb70507aecf81",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s204-t1101.npz",
+      "candidate_archive_sha256": "c74a65871bc576a1c276854589e55e721d2c777a364165adf4739ab3bbfc1d20",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s204-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "b34382a859acaca48bfe569969ad90a7d8e22d6ef247fa8d17c1d19afc812dba",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s204-t1102.npz",
+      "candidate_archive_sha256": "930023790c1173423ac37702f05323fff8a46acd6214fe5a8c6a12a0418166df",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s204-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "949e1dc0c8d7f547501de1f87187641ec2719c566305505b3b18854e7a2354a0",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s204-t1102.npz",
+      "candidate_archive_sha256": "8686730ef1e1ca14dc91711093fe4c60420a328f36795497feecbbcc88217efa",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s204-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "2bcbec512af2b3946601b1be3bf066cf182ac14ff09f6bf6e707195031956c63",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s204-t1103.npz",
+      "candidate_archive_sha256": "43f31430398ae403ba927c9220653351a5e7c935e1051be7f6c14d1de5eecd37",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s204-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "d5d909fb45e6ba29a5601d95410c816df6faab045e566da56b76e785d5c38192",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s204-t1103.npz",
+      "candidate_archive_sha256": "bdb7388152f9ac7223939758074ee1566def34e3598fc6fbd3afe0a72c2be7ba",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s204-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "75d302e1677099d92c8b606296aa6e6ae6545ba14fb91b55c965cfd67569b4f3",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s204-t1104.npz",
+      "candidate_archive_sha256": "5042e68a420c01eab4c7f3ad5b69c3ff6fbada4422383951177afc80c3fc5757",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s204-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "4ba9e0913f2621f7a9081a0ff76a298edb9f6e591e2f4a3b2f6682a92febb9d2",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s204-t1104.npz",
+      "candidate_archive_sha256": "d92adc75f3453e6d1469df9bf064b3e602daeba7cb58c14816e342214b50f1fc",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s205-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "287d60d8d388c5ec5e5fa2e849413afbfeab6aa4e589820e7e81209be1012c72",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s205-t1101.npz",
+      "candidate_archive_sha256": "19dc26479a66e697a5a148f9699b879434c248b2565e25cdf532884bea785e8f",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s205-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "a83d2868afbcb18c7d3022a6bb2e753b027fb7d7d77c6367565dfc84afd5549b",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s205-t1101.npz",
+      "candidate_archive_sha256": "33705d38fa539570891547d9586d7bf28d40de5874fbc66d36a441243dad6550",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s205-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "2bdb8766a57850dcde9d835e08b707742d891af91c61eb81dd64210fcdf7b477",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s205-t1102.npz",
+      "candidate_archive_sha256": "0b92c4b2fca24aee096cdc76230ab1fc01d1736ba6bc7c7347ae5a2a23cd56a4",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s205-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "a6024b7252aabff7be8168047cb4dc7ae62388c93efb53439b7e8cdd952ea7b4",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s205-t1102.npz",
+      "candidate_archive_sha256": "7aedff8a5c42de6615f8bc803780297c26eac0bcfb86c4ee732765eb55ad8987",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s205-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "f3655fa1af7c23dc915d3ee2a75f960f8384ccc1bc1903f955e718937b88ede9",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s205-t1103.npz",
+      "candidate_archive_sha256": "7fd07fb8d9a72d4bf33af9d47fc9f84882f4869d472d8140e9a668aa4c44c2a2",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s205-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "fc381550ce26bc4ed4234e22511375289c5629f43c2075f17394070e62ae9db6",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s205-t1103.npz",
+      "candidate_archive_sha256": "9d39e05aed66685a5cfd0caf05c21170bfb13da182b7f0ebefe82aa526e5f372",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s205-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "ce0cba241f00c912ada190f14a84f6a83a5a431a5111cbf7e94ae75286102711",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s205-t1104.npz",
+      "candidate_archive_sha256": "62cb9fa1ed049cb612e8fb9ac249ad0ba414471af512acac252f2bd431e11e28",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s205-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "c6e32faeadd9d4c7e8d849b679b5f30e012a64a4d19644fdbe81ed0f23ec8a62",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s205-t1104.npz",
+      "candidate_archive_sha256": "15eac189b9575bf28701c043c1ef6be426910f902b621c49431a93796bb86636",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s206-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "ead5bb80dc27314ccadb4e64865af8b145ca801389aa7ed6233e80f624f2d5b6",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s206-t1101.npz",
+      "candidate_archive_sha256": "357779de2d337027021586efd5f183a525a23ed25f0bfbe41b5c85049fd48d78",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s206-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "57186b6c32ec97dc1eee76a529a21e5b1f3819dd78f41d0fadff96aa6c4b7954",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s206-t1101.npz",
+      "candidate_archive_sha256": "a652fdff251f49a3d2e596d38fb23c819537191fdfe45ad4ea69f2aa3035ad03",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s206-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "85736ab941febfd2c26b8193105e719e9eb3bc37030264adaf71e1662d2ab11a",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s206-t1102.npz",
+      "candidate_archive_sha256": "2f732d70ceecec0561dc00b986bedaf84fa9957bad5b705079804a8e23b19960",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s206-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "895172ca82a5cddf40dd253204c3ec063c320c155dd383770c2ed0cbfe2f7a17",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s206-t1102.npz",
+      "candidate_archive_sha256": "845933ddcc85e603d41622a4a79efedcaa02a8250f864558005ddeb7d183b976",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s206-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "975dd7a385249412adb3f7c201783de21b07076caa15fce26fdbb5946e2603df",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s206-t1103.npz",
+      "candidate_archive_sha256": "9fb060fdea04753d681c7b27b7bcb0e0a48bbd66d444513b54b2fb5f38a51423",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s206-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "89a48bb7e37857303201f91fb41abc7e35544d8cd4b7c442fea0a5a9093b02f5",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s206-t1103.npz",
+      "candidate_archive_sha256": "0b94d4d44afafebfccb5eac94d2c0c2db70cfe5a9b61108145bd0dcd26a886d3",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s206-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "69394eb61ff7e95370007a08049fc8552feed0fe7237afcffe22b27088fa13a6",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s206-t1104.npz",
+      "candidate_archive_sha256": "7350ef36be9c948ef1c3060afcc705c38a24f603e31ca0414454335a1b3fa409",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s206-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "ad32cbfb74bbbee6fce244a642448d315e71a1016953bc5226dd4c098005fd0f",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s206-t1104.npz",
+      "candidate_archive_sha256": "9c81bf4b6079eb1dc3cf96d08b11c2628f31164ed397bb2a271c081ef3c700ef",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s207-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "af4af7b915b14573b81e3a3406d652cb81833678f745caac5ab522d67f62d65b",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s207-t1101.npz",
+      "candidate_archive_sha256": "2b4e51a65dac0951779e48c6e597763e56d9d0966eb23ad45c748a3d162101e8",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s207-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "75e0c70df194f8ad8de0db252ff0321232388e4b2cb6a9357e77a8a3a6b35035",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s207-t1101.npz",
+      "candidate_archive_sha256": "2f5c470737744074f697b7ae0c00eea4fbc7b32b9352fd8825fd2b47c5b616b9",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s207-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "476ab3148935d718ce70be9b7f302a227537f83521cecf77c0c1d6819b4b7e00",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s207-t1102.npz",
+      "candidate_archive_sha256": "7d5f6e9d0717da93350e1eac2de37a9696a8a82988c507212ec1cf527096912d",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s207-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "1bc48f4a8d2742be6218b0b3a2a5f4c22902d4ea2ccf953cc1a7b06f2e3bf720",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s207-t1102.npz",
+      "candidate_archive_sha256": "598387e3d5dcafac4ee7eb19b31c482a99b0ffcddc7947ff6ede321b7a2ab921",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s207-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "20df27471a1d6f61db44fc36f9a8dd090a3c3014154aafef9821c73252ee0ac7",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s207-t1103.npz",
+      "candidate_archive_sha256": "48d7fe2ee01c91fe3e59aab9340bdf972cb7f43f0a6e1085e3dbe708d234cb91",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s207-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "6cd6cdbca3ba522382d7f2b7834238e46436ca079a10b420e70b05339c6f2955",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s207-t1103.npz",
+      "candidate_archive_sha256": "23e7041e3fe5ce17be1476d5927038de48fcf16403bac0a886c4391b5ee863d9",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s207-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "1a62a5f80bfdb5578bf42bacf89653cd35827f06e0a396e943f7935d4458c772",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s207-t1104.npz",
+      "candidate_archive_sha256": "f491589c06fcc8fd44a7eb4a0768b4bc45ad366214c5b2e15eb6f011baf683be",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s207-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "5098e65fd9a34c78ffa677b9ac8587bae4b280b20aeda11d12af5d965026670e",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s207-t1104.npz",
+      "candidate_archive_sha256": "fc0db62ddad83e93608c9aaa8fab4e51d382fcfffab568cd6cd5ace99314f4b6",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s208-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "b1e0fd3806ff0c10e89bcda464c53b122f1533133e663c454fe0fe1a97863271",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s208-t1101.npz",
+      "candidate_archive_sha256": "dfea9265b5ac93ad2e0cd2dfeb9c8709f54cfbede2b522f72090dfcbb777d42d",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s208-t1101.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "679d397650c55a82d4027c5d68dd1f29657e1226ca4a9450cea2917555879106",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s208-t1101.npz",
+      "candidate_archive_sha256": "b2e4a5fc03296c8525151ecf4508cc57910b1791faf45965827004afbb804126",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s208-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "02db115133594292dea39ce9981240ca2b1382645c7ed97d5aeafb9769265dc6",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s208-t1102.npz",
+      "candidate_archive_sha256": "67e81161f0120fefe78663b05d694ea93628c8d91081488af525e3893c61a1ad",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s208-t1102.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "fe3faf21704fdd64ad8a4335f6797e47f39dae45bc0a549760ad1086681713b7",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s208-t1102.npz",
+      "candidate_archive_sha256": "89d2ad3a2002007e67e4dad7a9d9cf62626e20ad4c78d2d8ae358043eead0267",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s208-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "266711370a4fcd9e84d803cc07b313758b468154de5f8998fb52ccc9d13bd2e5",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s208-t1103.npz",
+      "candidate_archive_sha256": "765baebdf9f7cadc5c23bbdee2c20bdd5f7b1dead5b72351aea3abf05316504e",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s208-t1103.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "e078ca5cdb6c55a1a262dea8208586feda987235f6f26de179a53fafc6a2b59b",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s208-t1103.npz",
+      "candidate_archive_sha256": "8348820af5f0eb77c0ac4b631c2f8a0d05cc5b5baead19282525057938055d9a",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s208-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "15460c1c8c8a13f2d562c2060f328b7d58b554d8ac5eeed1e645446a8cfa1e9e",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n12-exact-b1-s208-t1104.npz",
+      "candidate_archive_sha256": "5379e8280efd2a1addc378be3bd6e8bec8b473b6abec775219dbbe6941e39c7f",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 33602016,
+      "actual_transitions": {
+        "dense": 33602016,
+        "k2": 33602016
+      }
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s208-t1104.json",
+      "status": "COMPLETE",
+      "error": null,
+      "json_sha256": "e80d442a746b5ef587fab56b7db516e23d1c9e73e2f4849d9ada9f3ec2eee5d5",
+      "candidate_archive": "/scratch/user/changze/lqr_experiments/results/supplement-20261101/X2/formal/NPG/n24-exact-b1-s208-t1104.npz",
+      "candidate_archive_sha256": "ea2487be83c43e95f41d69e6fb8db18e56d95368c349129f6e76bda6a68ebf68",
+      "audit_json_sha256": null,
+      "expected_transitions_per_arm": 542850432,
+      "actual_transitions": {
+        "dense": 542850432,
+        "k2": 542850432
+      }
+    }
+  ],
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "config_sha256": "a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933",
+  "approval": {
+    "experiment": "X2",
+    "scope": "NPG",
+    "decision": "ACCEPTED_CONDITIONS_SATISFIED",
+    "task_sha256": "38df4ac83b3f3475d0974f98aa1cd1e5d9aa1adf5df53014cd204050ac3cdbcd",
+    "review_label": "Review02:25 CDT",
+    "review_quote": "once population T and a dense-qualified base exist for n=12 and n=24 and the measured plan fits the cap, start the formal NPG array without waiting for me",
+    "config_sha256": "a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933",
+    "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "multi_source_sha256": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+    "source_hashes": {
+      "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+      "npg_multi.py": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+      "npg_formal_suite.py": "0dc2089e7961dd0919dccebb60e14e8aa85eecdec7cf6a717ff610649976ef52",
+      "configs/X2_NPG_formal_v1.json": "a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933"
+    },
+    "qualified_base": 2048,
+    "measured_max_dense_seconds": {
+      "n12": 13.524614196270704,
+      "n24": 333.18710216879845
+    },
+    "wall_plan_seconds": 961.4504625491799,
+    "wall_minutes": 18,
+    "formal_request_bound_SU": 9.6,
+    "measured_plan_fits_cap": true,
+    "formal_outputs_used_for_calibration": false
+  },
+  "verified_utc": "2026-11-01T08:13:33Z",
+  "independent_numerical_check": "REPORT_PENDING"
+}

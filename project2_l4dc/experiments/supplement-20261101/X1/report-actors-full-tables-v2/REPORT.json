@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "endpoint_rows": 36,
+  "update_rows": 1908,
+  "trajectories": 1152,
+  "failed_endpoints": 193,
+  "source_hashes": {
+    "endpoint_statistics.csv": "d83e7720d167af1421ad95aa8754d88dd44ca1e4187d4efdf5c7bb1fc6b6d2e0",
+    "paired_bootstrap_effects.csv": "9dda21f65e6a5500fe665782b0eb8ac6e41f6234f9d8495810eb4791a1a229a7",
+    "all_recorded_iterates.csv": "01ce7bae040b55f30aae00f4e34dc966f1aa1e665a4e91334b167ea51ca83aa2"
+  },
+  "code_sha256": "ce7c69eed01d1750c69123de6c08aa3b0f09c747ce03b7d1a80892ab4ffd996e",
+  "new_learning_runs": 0,
+  "provenance": "Local standard-library saved-CSV aggregation"
+}

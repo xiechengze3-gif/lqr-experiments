@@ -1,0 +1,3 @@
+# X12 recovery provenance
+
+The initial formal attempt stopped on the storage quota. That infrastructure failure is separate from policy instability. The complete and SHA-verified 296 paired paths were reused, and the other 280 paired paths restarted from K0 with the same registered seeds and schedules. No path resumed mid-run. The logical training count is 193,644,738,560 primitive transitions: 9,476,201,216 from verified old paths and 184,168,537,344 from the recovery. All Slurm costs from the failed attempt remain in the accounting. The storage-only pilots generated zero training observations.

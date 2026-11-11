@@ -1,0 +1,107 @@
+{
+  "status": "PASS_FORMAL_REPORT_NO_OLD_REMOTE_RESULT_DEPENDENCY",
+  "runtime_sources": {
+    "actor-pilot-release-v2/frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "actor-pilot-release-v2/actor_paths.py": "f76c28024fc0a70ea626e9f90b1e8a27cb90984aed4f16a4f8437d3c8af60ec4",
+    "actor-pilot-release-v2/formal_driver.py": "caf9496b866215b423528bb42663a84f2c6c76e1b32e561b9a036e0ee8f28f22",
+    "actor-pilot-release-v2/analyze_actor.py": "9352529caf3a46a50691b8cef6d6d0ff93f8fdef9a7eba1946375e95dcb6d76e",
+    "actor-report-src-v1/analyze_actor_five_rungs.py": "f8f459bb92e08dc5d0c039944b2aed82bf8a808095f6f7ac32f74256f14228b6",
+    "actor_report_products.py": "8c3a737b9cc4d3c68456935f6bf4541b567775b96deaa98b7830613a5ea68aaf",
+    "copy_actor_provenance.py": "54916895241bc4ffd5d98ba7745a502c575e9e9d12129bac29dc24e5b00ba115",
+    "actor-report-baseline-v1/paper_cross.py": "d07e548f861e7edf4191c9735015553706d012dfca2077adc7b5d212ea9e5a8e",
+    "actor-correction-controls-v2/render_report_v2.py": "2271ef0fd13e394f90bae47bdd3f2824475f575ee7cc546dac7adc39b553de2d",
+    "actor-correction-controls-v2/transfer_report_v2.py": "bc08a3165fe41607421c58b02f6310bed3e2707b674dbac8445d451043327bde"
+  },
+  "packaged_old_inputs": {
+    "baseline/summary.csv": "794eec74aba99e4efa196fb0d6b3bafa397d9bfb62a541e77e9bc18428177f3f",
+    "baseline/endpoints.csv": "2da816e0f1500762d66793217d2a6c6e2f9bf4b165af9c9681fa055ab13af2fd",
+    "baseline/models/n72-s301.npz": "2806127e096bdcf110598bd073187d1bbf9aafe00efb6e5fdff9897e4d312786",
+    "baseline/models/n72-s302.npz": "41a2833fda272d2c1134984f8de13ce970fb1911ed1c6cbbee0cb681dc98a825",
+    "baseline/models/n72-s303.npz": "1139655b6345eef303155d3b920ea315be930422303465c31b64bb04bfccf20e",
+    "baseline/models/n72-s304.npz": "f69fc60f6b9db91e96cbbc56df8e481c29dad27c6f2cc08de2ab6ee075c7ce88",
+    "baseline/models/n72-s305.npz": "ab9de753a9c14d52ac8f7b0484accb475491c5ee365669e90d2d53659c739a54",
+    "baseline/models/n72-s306.npz": "4269cfdeb7d446603ac41c11357c8f8158dfce31b1d4bc1b37ccd0dc5095b908",
+    "baseline/models/n72-s307.npz": "d7ee90515b37577f835e29abc184b7542023f2e284c039f9ae19c3fb8885d6e0",
+    "baseline/models/n72-s308.npz": "b6b0ce4a2e1902a32d8f3c9528a64a1942eb0c01ed650e705e5f2aeb8281c4e9",
+    "baseline/models/n48-s301.npz": "134d3db0494b3c0cbf9a10113fb79da95d3796c12fbe6e7f1c3a749fa0e98f16",
+    "baseline/models/n48-s302.npz": "28ed790bdedb04c0e28f155b54d0304322f1b4372359b841a924b7fb204f58a5",
+    "baseline/models/n48-s303.npz": "dcedc067097df6fdf2c32590d7b94adf5da7a679090ad749e9dd73e7212de8f2",
+    "baseline/models/n48-s304.npz": "bd4b40fd2961e0a77666eb8df9e169ed8cc2cdd3b5652601c9826eecb30735fa",
+    "baseline/models/n48-s305.npz": "7b4e2a2f95c8a16ef85aa197e0881cdb45755081e2bcbdc2ba1305a8d01622b1",
+    "baseline/models/n48-s306.npz": "4f04787daae681a6ccfc59a407e06f531abb87c08ca0b7a9a0bc8f9fba3bad7f",
+    "baseline/models/n48-s307.npz": "008ae2dabdf6afdfbe9ed969cad2fd8b248434a919ce62f763f83c550286e168",
+    "baseline/models/n48-s308.npz": "c0d38ec288438e7538bf722f267bcbbc6321efb0e2b7e6a06ba9e6670b6f0151",
+    "baseline/models/n36-s301.npz": "a1e0b91716f3bbccb68acb841a634e29dcfc31e965a54ac71581c27a43d16953",
+    "baseline/models/n36-s302.npz": "d7f19cd5702b9ecf230d893283d9a200309fc5361e814f6824c62510b330eff9",
+    "baseline/models/n36-s303.npz": "52491567c361fcba00db2a0ab34f0c8f38e09a0b91d4dae151f1e3cf7c587a16",
+    "baseline/models/n36-s304.npz": "49c570481663d7411636eaa06edcca139c12ff786e1d0aaa6f3ab89f2b8a19e6",
+    "baseline/models/n36-s305.npz": "3d325be6816a6fe509e62154034f860cbcaab1d81f421fa64da8c7778a3aa3ab",
+    "baseline/models/n36-s306.npz": "f630c021ceac2dd7ea7eaaf824976d928a7b44f93f3d358e0d67913aa99e6e1b",
+    "baseline/models/n36-s307.npz": "447f2c2b814eea55349cc7834998cd7b5647b41a23fe4e1072c7a0ca7573d6d4",
+    "baseline/models/n36-s308.npz": "6d9ef8d9a751a6d933dfa861413323d035237fb51e273567b559c2225f9a0bb3",
+    "baseline/models/n24-s301.npz": "1d1ebb713a052e81f4d198bb7c21c96761303b1ac56c3c669e887120f13b66cd",
+    "baseline/models/n24-s302.npz": "6bc89f4d1c89333384b4b6d2bdbfe92e494a1a9f208f95f05cc737e606d7a32c",
+    "baseline/models/n24-s303.npz": "a11f872619b81d9c9f8f90db77193e478ec2eaea5f5c90389059ec69a98e7e7e",
+    "baseline/models/n24-s304.npz": "7aec6a961ad511ed872ed32a92ad61c5378628ba8803b34eda9fccda27d7e440",
+    "baseline/models/n24-s305.npz": "a8b4fd80e65fd454519361258a8477fd2db9afdf10d5128fa4fa7dc50e76dbf8",
+    "baseline/models/n24-s306.npz": "5425178173cdeec663d9e655cb50e7920b741b840b6a3591ff36701a6eee2136",
+    "baseline/models/n24-s307.npz": "1eb2745567d505165c3fc69d9af7c3752b54c1cdb08827090d3eff67b1bff128",
+    "baseline/models/n24-s308.npz": "03688ddba13382d94ffb718de224949df10e3f429d70d6f94d7e3dbf5296fe29",
+    "baseline/X6b-formal-config.json": "6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d"
+  },
+  "local_original_report": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-report-v1",
+  "local_original_verification_sha256": "9b1b2925a419afb276494752edfbe17fa10e16abf29a91da1ff694ec71505ced",
+  "old_summary_and_endpoints_original_byte_identity": true,
+  "models": 32,
+  "engine_reachable_functions": [
+    "actor_learner",
+    "assess",
+    "block_starts",
+    "collect",
+    "fit_model",
+    "prepare",
+    "pulse_batch",
+    "require_compute",
+    "rng",
+    "save",
+    "sha",
+    "trunc"
+  ],
+  "unused_legacy_engine_cli_paths_not_referenced_by_call_closure": true,
+  "actual_input_paths": {
+    "formal": [
+      "new release/formal-config.json",
+      "new release/baseline/models/*.npz"
+    ],
+    "diagnostics": [
+      "new release/formal-config.json",
+      "new release/baseline/models/*.npz",
+      "new X10b/formal-v1 raw stages/policies"
+    ],
+    "summarize": [
+      "new X10b/report-v1 dimension diagnostic CSVs"
+    ],
+    "merge": [
+      "new release/baseline/summary.csv",
+      "new release/baseline/endpoints.csv",
+      "new X10b/report-v1/new-rungs CSVs",
+      "new release/paper_cross.py",
+      "new release/report-baseline/X6b_transitions_saved_derived.csv"
+    ],
+    "render": [
+      "new X10b/report-v1 saved CSVs/products receipt"
+    ],
+    "archive_provenance": [
+      "new X10b resource-v1/resource-v2/formal-v1/report-v1/metadata",
+      "new sealed report release"
+    ]
+  },
+  "no_old_remote_X6b_checkpoint_fit_policy_or_record_read": true,
+  "historical_source_model_remote_path_fields_are_provenance_only": true,
+  "nine_rung_merge_uses_original_local_report_bytes": true,
+  "all_old_outcomes_and_failures_reused_without_rebootstrap": true,
+  "raw_copy_policy": "Copy complete pilot roles and completed formal task bundles promptly to E with archive/member SHA256; never delete or move originals.",
+  "numerical_imports": false,
+  "new_jobs": 0,
+  "SU": 0
+}

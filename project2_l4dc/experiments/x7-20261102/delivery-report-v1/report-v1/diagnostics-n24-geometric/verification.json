@@ -1,0 +1,795 @@
+{
+  "status": "COMPLETE",
+  "scope": "SAVED_DATA_ONLY_ZERO_NEW_TRANSITIONS",
+  "n": 24,
+  "spectrum": "geometric",
+  "config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d",
+  "source_sha256": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+  "core_sha256": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "records": 2496,
+  "models": 8,
+  "verified_fit_policy_archives": 192,
+  "physical_training_transitions": 6307840,
+  "max_fit_relative_error": 0.0,
+  "max_policy_relative_error": 0.0,
+  "max_cost_identity_error": 6.158962229108056e-14,
+  "zero_new_transitions": true,
+  "job": "20375654",
+  "seconds": 43.44332228042185,
+  "files": {
+    "records.csv": "9c1be7617bde3d0df11d454ab2971e2f96d2e8bec2a96e3f7e2713d95d3cf982",
+    "models.csv": "37e95c1dda83fb3f95cd1d78fdce2a2890e3aa12e888af88496e906c3ee03ef0",
+    "tails.csv": "6688d11ae3b488a70b01f0beacdf472458d3d5ccc7088f207900f1ab156038f6"
+  },
+  "artifact_digests": [
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n24-geometric/prefix-000000192.npz",
+      "sha256": "b6494d8a91f163a4e8ac918b7b99727f1e38eb19afb6c652fe594b85a888d9dd"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n24-geometric/prefix-000000768.npz",
+      "sha256": "f7f37509203b6e09770b4cde342b18d0806a8be7f363a6c34f30fd0856995361"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n24-geometric/prefix-000003072.npz",
+      "sha256": "4042f8924fb1bc532af118086b71e21764727e8d41a44de9c3795320f71f93fc"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n24-geometric/prefix-000012288.npz",
+      "sha256": "bb87d393a350402f360644ab7930c15cd9af05463cbc92f520dca7ac19148e84"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n24-geometric/prefix-000049152.npz",
+      "sha256": "4ed4a620721b378da3a78a0a719544421a96d7647dded6fc4dc19d29d8dd4f81"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n24-geometric/prefix-000196608.npz",
+      "sha256": "18ed11a41571dfc9d388305d952c97acdeb9e009237abdfcc09a6764edbfcd63"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n24-geometric/prefix-000000192.npz",
+      "sha256": "3120d53614317ae3fb9db692807915c9a623341ed1a51ac77cd4c43e3866f469"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n24-geometric/prefix-000000768.npz",
+      "sha256": "e97210595dbe447facafaba084a15a3f4de5834f4136f00773e71578c4aeea5b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n24-geometric/prefix-000003072.npz",
+      "sha256": "f749eb1b3c6dabe21c9d772d9e74feeee71d6bdf0fa1da4e4596b8838af691fa"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n24-geometric/prefix-000012288.npz",
+      "sha256": "efb20a5f3b28561b070ef862e1297bef89e7db653e3bc60cc82c507dc1311e4f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n24-geometric/prefix-000049152.npz",
+      "sha256": "edbde53f47daf3c3e8015bc4c19e12b783cc378d05297a341fcab77a432177aa"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n24-geometric/prefix-000196608.npz",
+      "sha256": "9abaab86efb7d0d27a559d912bd966dbe85f9b906055b0cc795047edbb32358b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n24-geometric/prefix-000000192.npz",
+      "sha256": "ebda7896642ec032d12a3aef963ed6ae01fb205fc17faad8fd6e8c19571a3317"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n24-geometric/prefix-000000768.npz",
+      "sha256": "bfe518030fbfe617322e38fbb7068d96c90f7aa88ec90e3e2d88b28245601fce"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n24-geometric/prefix-000003072.npz",
+      "sha256": "8ced561f84294a767b0a1063a9d057c88988f310197e68dd0031fa6400f8d4ff"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n24-geometric/prefix-000012288.npz",
+      "sha256": "bb18a8179dfe2ce4150eb932c40c10dec3a9506b3172bc476376ba60c66d76b7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n24-geometric/prefix-000049152.npz",
+      "sha256": "182945332dbf26b2845e15b26a701cd8d61108ac378ccf7c947d6de1bd87ff3b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n24-geometric/prefix-000196608.npz",
+      "sha256": "ddb5f61fd705c892391917a6cba83bd317fa49d90491fe61bd219197af0cf9b5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n24-geometric/prefix-000000192.npz",
+      "sha256": "31678cbf1284b68ceda0aa29b75f7741693949daa169890668dce4c6a55dea80"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n24-geometric/prefix-000000768.npz",
+      "sha256": "747687127bad4a27da2b2acb70efd20ddd57257da1378175b99242f718235b2e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n24-geometric/prefix-000003072.npz",
+      "sha256": "57c0d7ac24f6f092f3fbd43a3bfeb6d9ce5e6d829909d60d990dde8272a2b165"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n24-geometric/prefix-000012288.npz",
+      "sha256": "0c1122342229a135c53cc36c34bbc3f71d758d8eb02a9c14376635f93662aaf8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n24-geometric/prefix-000049152.npz",
+      "sha256": "6f600ea6d93404006e8ae27cbe9f931e472732adc1ae4a630bbf443aaf3e4bb5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n24-geometric/prefix-000196608.npz",
+      "sha256": "004ec3194d7b71986af0d34219a1604899d540aacbc4af65fbe35f4b60889540"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n24-geometric/prefix-000000192.npz",
+      "sha256": "366ccf4de939cb497651471e354281e4967bdbc6ff3c77d13153796ce6f2b300"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n24-geometric/prefix-000000768.npz",
+      "sha256": "a4357bcfa8e051c34ae25c7d489c5e5d25005b8d1b82685f9e203ce40cc01fb6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n24-geometric/prefix-000003072.npz",
+      "sha256": "07c7b3efec7475617ca4f2ecf07440f0e5faf3d92642c14dfa9384ba3a536ba2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n24-geometric/prefix-000012288.npz",
+      "sha256": "01b9917e9e68582db36e11d774e17e65955becfe3c3ef8314b7de5f6f3e0153e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n24-geometric/prefix-000049152.npz",
+      "sha256": "7cdae3752ee3817279c3a080ea11f2562eeec484c1bfc76a656f5e0a20f7a18b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n24-geometric/prefix-000196608.npz",
+      "sha256": "07d996413f7c083a25baceed14fbbd8cf209b6806bfbca69229ffde2dea3f72d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n24-geometric/prefix-000000192.npz",
+      "sha256": "d78242e3104c56d6caf3325b538811043726276b650b1baf987ec35d0f54dbda"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n24-geometric/prefix-000000768.npz",
+      "sha256": "7882f009409ec5bcfee5e5ffbea2f1413a40607e551773fa6387912c9393cf1d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n24-geometric/prefix-000003072.npz",
+      "sha256": "0de163bf6ce873077d642193ed156f4d5bc523411270b742e6259f2d5ee96ca1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n24-geometric/prefix-000012288.npz",
+      "sha256": "ec3114a6a636be97300dcc502160d1ce6d338b3af3f6e99a93411dab22a6d91a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n24-geometric/prefix-000049152.npz",
+      "sha256": "344d6846b1f7c2c934913fc42b9ee2a95a3abf9e6639a1bc6b4d7b5c91837084"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n24-geometric/prefix-000196608.npz",
+      "sha256": "e6125295cbd1972311c32063a4d8c53b2ee1f8b3c454d947092949fd2a240e5e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n24-geometric/prefix-000000192.npz",
+      "sha256": "8f480f8ed113f34c6c415780c6f9ad4f37d1d7ae821592aeef72102b51235a8e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n24-geometric/prefix-000000768.npz",
+      "sha256": "d739a969e4e4805d1cea36b376f15e387e15b45db884818fd10b207be58b9b5b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n24-geometric/prefix-000003072.npz",
+      "sha256": "a57c011c59c63814428640af5f9504a5d4f864e17b08fc2d722d6b46523819d4"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n24-geometric/prefix-000012288.npz",
+      "sha256": "440fe2010a4dd68443bdd9246901690b8b183a98216b69b77641707d76056bac"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n24-geometric/prefix-000049152.npz",
+      "sha256": "9a2849d0810bc5657e867cb0ccc62046d3892532569e8d7ad9ff8652944ed7fb"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n24-geometric/prefix-000196608.npz",
+      "sha256": "1c01f0d93c788629e9b1112d2266eb22632f0c6697b92ac5ede73ff52ba94776"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n24-geometric/prefix-000000192.npz",
+      "sha256": "4a8efd9985ef10752a84df2201f98eba778b9f1240aceacec05c88a249eea1df"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n24-geometric/prefix-000000768.npz",
+      "sha256": "2669398969b226127a13b42596b0cc6efc9a858d6022b477a60141bfc1b9cbb5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n24-geometric/prefix-000003072.npz",
+      "sha256": "0d985b0ed651f61681ae478eb9f191d97a7527a263073d65a83c4ed347807d3d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n24-geometric/prefix-000012288.npz",
+      "sha256": "76ff97b28029be5ff836f8d0bff34c8a1cff4c25c8367d106cf8f23c32c0052f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n24-geometric/prefix-000049152.npz",
+      "sha256": "d5ec48c96cf052cf2440bb5eff968d742c5603e553efbb780a47a81a1d4d8e12"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n24-geometric/prefix-000196608.npz",
+      "sha256": "43573fe5c6733526dfd18b488dafa8144e1f6393011150ba74a33aa61029771e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n24-geometric/prefix-000000192.npz",
+      "sha256": "f9362f83007bbd4b10c3ab275c4b748077fe1a4b4d2730e3dec1e274e3987ba9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n24-geometric/prefix-000000768.npz",
+      "sha256": "909aedb5f62e7cdce169583694d95e1566ed78a604cadcbca4c77072b6c1029e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n24-geometric/prefix-000003072.npz",
+      "sha256": "16f72526042fcff4adde1660be9f539014af7c8ba261a1430ec1b190faba7363"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n24-geometric/prefix-000012288.npz",
+      "sha256": "a07bc46c142f02b427464cf4f823a17c62571745bc39d9566c7b212b0118dfb6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n24-geometric/prefix-000049152.npz",
+      "sha256": "f8cb302934f71a733133b787c3e01ed34f0b8c1793f97342abc325cb286d2769"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n24-geometric/prefix-000196608.npz",
+      "sha256": "c1118b4613ec4a3e73e2dc093efc7507a7f686fddf95b110aa35fbac267afd62"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n24-geometric/prefix-000000192.npz",
+      "sha256": "2a75869db8c5c3c61bd480960e0bc536095592feee8846943a87326b33b56c7a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n24-geometric/prefix-000000768.npz",
+      "sha256": "80e4d2d2e065b3c13ba8f9b243977c160472e8a30b3b0dd69941225edb1db170"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n24-geometric/prefix-000003072.npz",
+      "sha256": "9bd68127adf7dd259df929d7644e3f5375d63a9557f426cd412306ee87926c4c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n24-geometric/prefix-000012288.npz",
+      "sha256": "6ad3a3779add3f83198ad79fb7726be78aa59d8693e690695496e558ae830155"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n24-geometric/prefix-000049152.npz",
+      "sha256": "e03d7619e6cc27e8d9dfdda90a8bbbd5159c2e64eb70c28ad7e6104daaf0a361"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n24-geometric/prefix-000196608.npz",
+      "sha256": "3faf018c423c00e634b4e714cbdb53b14d018ae7ed9bfdfcbd6029393c3fac9f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n24-geometric/prefix-000000192.npz",
+      "sha256": "bf6a2672312131f92b0f39942c0c062e7c5b911cfd33a75c6fc92e4c52ff791b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n24-geometric/prefix-000000768.npz",
+      "sha256": "7e6b1c449e0024016a2cf00a9aa0df6c5181aa2a0c11072ae280d16de5831313"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n24-geometric/prefix-000003072.npz",
+      "sha256": "9eff05567debdf60830a06a83e53c1f9ecc1bcaeedcf93091a2d6f7c12b4231f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n24-geometric/prefix-000012288.npz",
+      "sha256": "a816e3115f06d9045b62eebd47fd13ee67daf904f987a15b0aaa313ec710b77c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n24-geometric/prefix-000049152.npz",
+      "sha256": "66e2d5d75b67485b4414fec486c28986a2c0ace1018e8675c874e983f4748b89"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n24-geometric/prefix-000196608.npz",
+      "sha256": "e22fcba1df2dae976d6ec28673310c60d082f5dc6e63b37f75642b8952dfa40a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n24-geometric/prefix-000000192.npz",
+      "sha256": "6d167a8ff9c7303cd2313c6209d02db6fb4d9fe85170659ad091cb93b482a426"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n24-geometric/prefix-000000768.npz",
+      "sha256": "7649c1a54e39053e515a2ad6bedc6f4c7a1594ae5af0c09465f1c79c1e908208"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n24-geometric/prefix-000003072.npz",
+      "sha256": "2e1fbb5e722c72107576a33e5869e9f3a8b1977156e995be758866f329ad4468"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n24-geometric/prefix-000012288.npz",
+      "sha256": "41eb18070ba6f304969faca3893f0b44b1e1c917bb99dad58709cefa1ae46166"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n24-geometric/prefix-000049152.npz",
+      "sha256": "d4aae1bbb111d721541ad4f81d287ea80270e7c0e8cb25139d16eb0a0d1a441f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n24-geometric/prefix-000196608.npz",
+      "sha256": "541976d683c955008a475e6b02a96a26b4298ec363e4e5b0f446c60a0a8eb56a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n24-geometric/prefix-000000192.npz",
+      "sha256": "910e012ce8bfd1210bb12985865be9fc83cc096bebb61012f46ab9aa5e1ace3e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n24-geometric/prefix-000000768.npz",
+      "sha256": "9f78680045865a7578ceb0555a5a037e3da0b5f86cfa1b56aaa688d255660118"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n24-geometric/prefix-000003072.npz",
+      "sha256": "f3034febf2d32d6252f7b07d2eb17a07f3b2495267c0ee322349da6295084e7e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n24-geometric/prefix-000012288.npz",
+      "sha256": "48cc2b979974caafce9c83c1959ab0460d0737062e59f450e662f01c01e31a51"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n24-geometric/prefix-000049152.npz",
+      "sha256": "f18874bb71943c1e880a39271776f9a9915bac60055bfb2a8e6f0c0f856d4dbe"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n24-geometric/prefix-000196608.npz",
+      "sha256": "ba4ba9f0705bb80c6ae70028a64f6c637d16e22152f2445ae1cd26a0522ac1a0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n24-geometric/prefix-000000192.npz",
+      "sha256": "a4b017fc71276c8da7cc60431fdef293d6ce084396082a3210ba00a384bc5d7c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n24-geometric/prefix-000000768.npz",
+      "sha256": "d70ce8a38f2857b7922cd57ceec9ef05782ca855e9026c4175d65a82be26df01"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n24-geometric/prefix-000003072.npz",
+      "sha256": "dca926bbc53e3eae2c11a5fe70c5f03ea9d7966cbca2110d3086be39cac663a5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n24-geometric/prefix-000012288.npz",
+      "sha256": "065121625f1e41efce449c5ce87136b0ac5f95d0f285e4e747d391b4cf06c069"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n24-geometric/prefix-000049152.npz",
+      "sha256": "8c34021c5a9327fd0e705f867411f79ae6c354f643bd40a64e1ea49d93f5bd95"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n24-geometric/prefix-000196608.npz",
+      "sha256": "73738a7d6f9262711d5ac98401ab7c7cdb16b9699533482d152deaea47fbb73e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n24-geometric/prefix-000000192.npz",
+      "sha256": "fcd93b6f107679492c039b1d40847900c4e776ff3bbef9865d7d87888e4bd189"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n24-geometric/prefix-000000768.npz",
+      "sha256": "966adf56e6e622a3ce2bfbba07c024404e6d6c6b03c016be92c832388c70e068"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n24-geometric/prefix-000003072.npz",
+      "sha256": "10a0093a347fd37cbb4dabc20051f5322dfc93f738821defb7570427d64cef3e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n24-geometric/prefix-000012288.npz",
+      "sha256": "3adc983424bfe1cbbf034fc213991df6832eea070b12d580f13a6a5b1c1c1c57"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n24-geometric/prefix-000049152.npz",
+      "sha256": "9d2269232fee77698563979b93ff9ce49c698dfda2da8c93ba6143a3c5292c81"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n24-geometric/prefix-000196608.npz",
+      "sha256": "68ca1b8f33622e1c48abfbdb24996197836f712dd2eae94684f1bbd4b02a2588"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n24-geometric/prefix-000000192.npz",
+      "sha256": "2180f2aee18e3dd53b2c4080e1a417b94e326a053d007c1b6217a7f2a249aa4a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n24-geometric/prefix-000000768.npz",
+      "sha256": "611993d19115e2670d4e5ea2e7dfeaaddcd0302d044f001e17623472b53c05d3"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n24-geometric/prefix-000003072.npz",
+      "sha256": "9e0a4cad93652c69064dcec52d944af04647d6f3cc0072d14d34e90aeda09766"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n24-geometric/prefix-000012288.npz",
+      "sha256": "a927440cd60557263b289a59cb53dab58103a23c188b0ae1c1581b0e181dcd1b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n24-geometric/prefix-000049152.npz",
+      "sha256": "52e910d8768878a43a5fffd369c9e9dda0c37b695fa5d9e436d273d8c6b5fde2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n24-geometric/prefix-000196608.npz",
+      "sha256": "2ef36872959a8e80105bd9f97386d425260b35e3f6c8218f0cf276841e230027"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n24-geometric/prefix-000000192.npz",
+      "sha256": "79508c13a141d34f00afb4649a5a44cb556876745174bc908280583bc9bd9454"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n24-geometric/prefix-000000768.npz",
+      "sha256": "75614eeffdb98be2210851c5f488b70c7c80c2ce5ad5281cc559b29ac0b2c4d0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n24-geometric/prefix-000003072.npz",
+      "sha256": "e3e84ae6ee94cbb7d3891d022216a9b15fe6ccd366664d4893897c4710bc8127"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n24-geometric/prefix-000012288.npz",
+      "sha256": "feddf044068ebe7c789ad9495a80ae26db2782ee1fea24deb12a495e619f7673"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n24-geometric/prefix-000049152.npz",
+      "sha256": "14ad333b50a2027e8455607c684696db0d3a4fab9beeb6afbb333978a6f4a08a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n24-geometric/prefix-000196608.npz",
+      "sha256": "f1ac749a2773a28ad1937e39259f0be85c66995072a8f3ad2d22d6b1adb1d000"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n24-geometric/prefix-000000192.npz",
+      "sha256": "f86adc3087ee030957d70f0f84a2eb96988ab26193b670a1e523a02227d336b7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n24-geometric/prefix-000000768.npz",
+      "sha256": "b3fc650d97796cb7434a42d963a1556670c92ff035b7b0c3abbbc7c0fa612008"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n24-geometric/prefix-000003072.npz",
+      "sha256": "a9ed51a60bfdb57e33fadf8578a6cc6fb412737c25c1ee2ec0b95812c954ea44"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n24-geometric/prefix-000012288.npz",
+      "sha256": "8b56a250121d31eca0609aa4ff86652c3c8c1fdebe0cb597721578668920e781"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n24-geometric/prefix-000049152.npz",
+      "sha256": "b21157c4032e797eddd3203722173acee5c718025cfc331655680212b4b54770"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n24-geometric/prefix-000196608.npz",
+      "sha256": "15b18b64992834d2a9808b26177e3eaf13dc33c23acf0e0530b09180656f5b22"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n24-geometric/prefix-000000192.npz",
+      "sha256": "d4a933e170abb2c6532f9287c0859d5fa2cee9070a1f39a146a7b533c6ac8100"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n24-geometric/prefix-000000768.npz",
+      "sha256": "48f91085970b55dfd206625c80973273bc97f579dabff84a4135cdc05a2954bb"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n24-geometric/prefix-000003072.npz",
+      "sha256": "a140c1565ab0b9c4f6f10cf167308ab09c09d61a56bfc0bb4c638c72ed5553d3"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n24-geometric/prefix-000012288.npz",
+      "sha256": "c510f5a539a277a2184c425b5aa9a1749cd585bc2bc031a3a54af1a1b368ba8f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n24-geometric/prefix-000049152.npz",
+      "sha256": "0e2ba8ea2c35dbfd5a0f5d1c9726f4e32e5c485657d2a3ca8c092093f5db0c50"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n24-geometric/prefix-000196608.npz",
+      "sha256": "544341763aecdde7c968c28dabad1a23545b9187dc3cf09b4f0271bf04d7b947"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n24-geometric/prefix-000000192.npz",
+      "sha256": "46ba96d00f471d897c3da248023e466a52bf1f5f3aef81cf1a718adcddc6ebcb"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n24-geometric/prefix-000000768.npz",
+      "sha256": "257789f0477ca243859513039f30250404843b75e4af8b63683af38a7b965765"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n24-geometric/prefix-000003072.npz",
+      "sha256": "570665e08cbb16dfb264184bc93e21e53f46e250546ceffc8f160eb1e37dd53b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n24-geometric/prefix-000012288.npz",
+      "sha256": "16602adf798e6799bb9b15ce1591263f38e0da2475008c99e24846f13776266b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n24-geometric/prefix-000049152.npz",
+      "sha256": "c685b2f79cf751d811acb412364b03abc2ab614a44b3d432c07333f268cc336f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n24-geometric/prefix-000196608.npz",
+      "sha256": "607874a11f55a11deb08094c1b263c20e8005d08e17a6914d6cdfe152b29ba47"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n24-geometric/prefix-000000192.npz",
+      "sha256": "270664a81719eb726e81a827f2304a6a2f6f45980a1ce1cef4e501117cf5b461"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n24-geometric/prefix-000000768.npz",
+      "sha256": "b1f666274b9a13ac3a192fadd7bac5f8b712c7bef8bfcdf76d5bd0b861719bc0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n24-geometric/prefix-000003072.npz",
+      "sha256": "f192214f94b0da2244f3f8a4dd92e462304ff38730ba69d16d40a64a1f59f2b7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n24-geometric/prefix-000012288.npz",
+      "sha256": "62b146f7362d882f8331f1f3c5c5889981578312c08fadd3efa39aadcb0b1393"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n24-geometric/prefix-000049152.npz",
+      "sha256": "9f71828fab636c17014f62b3c627c4b87e5d6ecb40abe8f6005a97bae81975d7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n24-geometric/prefix-000196608.npz",
+      "sha256": "6343d6a617bd3ddf9618bb07e81dae295afdebcd705926150cf1a87dce8e2d68"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n24-geometric/prefix-000000192.npz",
+      "sha256": "67c0081c1c83357f638221f17bc6a8200915400917e9bd2ad6e7e03dfa0cbc63"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n24-geometric/prefix-000000768.npz",
+      "sha256": "cf42fc7c76123f19d2186f9b0ee7968facc210987a5437fb4e2fbd00d64adcbf"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n24-geometric/prefix-000003072.npz",
+      "sha256": "3e312d491ad1a5f1c202411d1858415fe780d2647ea9f39510598cacb4ff7a09"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n24-geometric/prefix-000012288.npz",
+      "sha256": "b345e331ae1be757f264986e0432701ef12519cebb989aa844943657ad834112"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n24-geometric/prefix-000049152.npz",
+      "sha256": "39ddc0df9fdea55ef4757a8f8eb230fae7344cdc604ab67f9e3590b3de83d8de"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n24-geometric/prefix-000196608.npz",
+      "sha256": "2ca88dda585f0583fa2822fcd0e0d88e491678c18db8258ef5bf62e68e89d689"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n24-geometric/prefix-000000192.npz",
+      "sha256": "8a19e825b9ae91cc0204401b213afdb13e59b47725e9d5f23122f613545425f7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n24-geometric/prefix-000000768.npz",
+      "sha256": "b2b754eba2b399da281fd4d953b356bf8350c4b37fb798b9aa0b8dffa082a2d6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n24-geometric/prefix-000003072.npz",
+      "sha256": "a19215edb6628513fe3e2365b61790264b13f249aad90c7b2ab6a763b3a70846"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n24-geometric/prefix-000012288.npz",
+      "sha256": "621c85cb19f75f4cb92c263427a689ed0a0dc0f61b27db23210315d6d59dc84d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n24-geometric/prefix-000049152.npz",
+      "sha256": "7b0addc7ff26bd6f37c38e646ff701bba480490ea0e9101d33d58d14b2916a2e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n24-geometric/prefix-000196608.npz",
+      "sha256": "fa7d61f75d088d517136afbf86fa5a2db044d6b07a8eb25be3c3e9753058ee48"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n24-geometric/prefix-000000192.npz",
+      "sha256": "17a267520fa9ec854620447f92fb32cb57235a0934fcb6afe9ebe08ad0c233a9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n24-geometric/prefix-000000768.npz",
+      "sha256": "b6a5e8ceeeb303249640d551320a576cd3c8a92be593c954ac8e5df0aefec93d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n24-geometric/prefix-000003072.npz",
+      "sha256": "3d74e1fd0a0f2ea5e7f3386d1d4991877743b6eda8abbaa30e9d0a4562f5533f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n24-geometric/prefix-000012288.npz",
+      "sha256": "603646a661d2639124dc9d6240ecf66167408db0978b42f2700ed258b950a270"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n24-geometric/prefix-000049152.npz",
+      "sha256": "681e897288009b035e06322b806c105bea13f2f4c3b11cd6899d4e79951f1658"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n24-geometric/prefix-000196608.npz",
+      "sha256": "d189cff98ff948e6a641447f6c43be31a06bb308aa4c4d80faa70ecbd4e2cfc2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n24-geometric/prefix-000000192.npz",
+      "sha256": "600044e7f5297f07a7c6cb4aacb823593ead5d2138ff16405617c7ec8cee4b39"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n24-geometric/prefix-000000768.npz",
+      "sha256": "796b4e97202a4a52b024423dbe04920a809855a3379d45e8f6c388afb8334dff"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n24-geometric/prefix-000003072.npz",
+      "sha256": "af43252b75febb5ba822f129d10105ddb01a1dcac107c88ebbb861e0f7d81ec4"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n24-geometric/prefix-000012288.npz",
+      "sha256": "bfb109307d7f2bb6125363fa2ecc3ebbd808f1b9c2b26fb544cef9eb5f2edca6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n24-geometric/prefix-000049152.npz",
+      "sha256": "f49476b6e306f8bddba6c7dbd890dc718d35cb7000e72f1919bf9b3d27df933e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n24-geometric/prefix-000196608.npz",
+      "sha256": "c5e84cbdcc90cab7a47c7a666b1e1797dbc6d8cf566fb2e51e3ebd2f6952dafc"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n24-geometric/prefix-000000192.npz",
+      "sha256": "a57b3df296bdf1651c1e55332842f3fff486a7719c2cbaa3f557b2649b902b61"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n24-geometric/prefix-000000768.npz",
+      "sha256": "e661dc45ff9f7fa71c5c3b528ab1ba21acf516f4540afdd33a3bae238bb2dc37"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n24-geometric/prefix-000003072.npz",
+      "sha256": "b4e76c11dde41dcbad35d5d2bca64b13fa34153936920f1f252bb4ba34feb6c8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n24-geometric/prefix-000012288.npz",
+      "sha256": "681ba7039f3393754a67b8a2536ef58d1e0f264ae7c48041f4b7ae182a45d9f4"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n24-geometric/prefix-000049152.npz",
+      "sha256": "78d1a746e21a1247d804fb7ed9f6adb6eaf7134402533da26155b6ebc1820a62"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n24-geometric/prefix-000196608.npz",
+      "sha256": "3d8d1d1b892a88fad08d56df3b530abb685a190865b8c979864820180ced3957"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n24-geometric/prefix-000000192.npz",
+      "sha256": "951003838409921a5a4113a4f54bc04f5ef6245df635fa90716b111b965c058c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n24-geometric/prefix-000000768.npz",
+      "sha256": "e0fafd52eb8633c6fe9660ebd4b948d82b27df3ac6bde6022362205a351d35c5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n24-geometric/prefix-000003072.npz",
+      "sha256": "559de9bd3921b6ef0362637c76daaaf606c9aaa5942170071d78dfd9c6f67f00"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n24-geometric/prefix-000012288.npz",
+      "sha256": "b6af036515c502835a020598a564d3554b7a900ad82c83a2180dae52fa372569"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n24-geometric/prefix-000049152.npz",
+      "sha256": "997cded6c33f983eca9f712c0c24898b2238a81229a08cd13f4ec22717010560"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n24-geometric/prefix-000196608.npz",
+      "sha256": "e902acc7ad4c1506cdcef6e206e6b70a21f4ebc2a0e2a48a64638e01e71fe9d4"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n24-geometric/prefix-000000192.npz",
+      "sha256": "50771aecb4ba702a6f36c88bf820481a8756d1b4658a0c19f13f2a1dec840839"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n24-geometric/prefix-000000768.npz",
+      "sha256": "f86568f894be11c2aa9b93aef9834be6e92e114722d09d151f5b6b243c8d48c8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n24-geometric/prefix-000003072.npz",
+      "sha256": "cfbd2108a3e9dadf25c7404a071c8d86eb7b8e36cb37ae5946a0e35668528daa"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n24-geometric/prefix-000012288.npz",
+      "sha256": "e9e1393b1f2797ac91ba346a2dbd6287ec59c638cf1ce63d664d9f1b52d51840"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n24-geometric/prefix-000049152.npz",
+      "sha256": "db798d809ce0d6b862bf6305c069f4086533aade7ea309d78ba5a6508a757f04"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n24-geometric/prefix-000196608.npz",
+      "sha256": "bb9b97b227f0bb7681a95a6ee2b4f662854d7e0e528add73d4f7b817d6d5f957"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n24-geometric/prefix-000000192.npz",
+      "sha256": "95eadec13044fbeba3c1ff54dbd2e21d6208ceebd5ad8318207a9e09e1c1d53f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n24-geometric/prefix-000000768.npz",
+      "sha256": "be7dd621581201bfa90ed1ec3d0a42e06b90e3bb6d8adcb02cb1fa83f8a029fd"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n24-geometric/prefix-000003072.npz",
+      "sha256": "23836c915a06943e0d33baab815e47b37871f41c96e20c617823fd7d8909f663"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n24-geometric/prefix-000012288.npz",
+      "sha256": "89199e81bedcafac34881675e6e73c9c07e8bc4f2bd93d91819f74034ececa56"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n24-geometric/prefix-000049152.npz",
+      "sha256": "fd5e9b85544e85bac6bfd996fe10f083f5225f00dc6529af5300b1769012bb2b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n24-geometric/prefix-000196608.npz",
+      "sha256": "6c6a475cdf0288cfaea85028842287707912a1e5a46aded3458e4fa12b72254c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n24-geometric/prefix-000000192.npz",
+      "sha256": "480e257444417eaa07ac7942823368ba9a035f72498a2b6a2ecd92b435b86169"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n24-geometric/prefix-000000768.npz",
+      "sha256": "4b5b1534c193277e59973c86037d2993f57299d5dd398b3adfc094c28b06d673"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n24-geometric/prefix-000003072.npz",
+      "sha256": "4f1c1e766664071cda616cd2fbc11ae198680081d1afe6cca75b7ae07d39ca59"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n24-geometric/prefix-000012288.npz",
+      "sha256": "cfa08f88db8b54a95bd490c11d818291acfdd1668b94fe68fa0bc2cb5c60b786"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n24-geometric/prefix-000049152.npz",
+      "sha256": "fde64a42e1d589d1eb22523dcfcfa9a30a0595cc733563713d7a7e695067d175"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n24-geometric/prefix-000196608.npz",
+      "sha256": "09849345749e356902919d90f6a1dc7ee0743c6a5ed575c4e6b265ee5a9d3abf"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n24-geometric/prefix-000000192.npz",
+      "sha256": "0173d74b3ac094f267b5a9deb47d0a7dcfabab3b1ab43b1c346a61da1ebb1dc1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n24-geometric/prefix-000000768.npz",
+      "sha256": "ddd2d18c36b8c11783fa0b6005b32953f8b63e1db4a0833c5d3628bbe69e7104"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n24-geometric/prefix-000003072.npz",
+      "sha256": "95d4ed622d25800c43b8c2862e9142b693e4c16bb5a53ceeaf21c91af0ee6427"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n24-geometric/prefix-000012288.npz",
+      "sha256": "05984ad70b8c58ed821da6192484835881f698ad0932c45b79e4b3787b7d9c95"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n24-geometric/prefix-000049152.npz",
+      "sha256": "8036675c88e229e5503f3d4d307a8a94129f7dcec710030dee01258716b081fa"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n24-geometric/prefix-000196608.npz",
+      "sha256": "0bcfe4fb599bfe09c7c0283a0da12dd70c02fb2bd0718a55d12693feb7499f17"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n24-geometric/prefix-000000192.npz",
+      "sha256": "d1ed2b597a30ff570143d18e4464ea222192d9e7fc96b73d74888c10b8a6410a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n24-geometric/prefix-000000768.npz",
+      "sha256": "7b014a33b5e6fc1392ce6973c3d9caf7261d2f0e03153da2cc192e3e64da18d9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n24-geometric/prefix-000003072.npz",
+      "sha256": "9c701c96d82cf6652e70dd2366188f428bd7602cb4893097e1b4f9ef3e2e616c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n24-geometric/prefix-000012288.npz",
+      "sha256": "432241912f74a8cce34c7237650171be2c6eb58a8cd9d93293d5dd9c4afd5ba9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n24-geometric/prefix-000049152.npz",
+      "sha256": "78845d3c51162ee644076d015948bc24adac285a90195472218b013768990279"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n24-geometric/prefix-000196608.npz",
+      "sha256": "07a1ea15e667f99329a8e4e2684c33806b2d89ee7c99851ca69f6aab4b4b3880"
+    }
+  ]
+}

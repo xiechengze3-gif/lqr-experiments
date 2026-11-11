@@ -1,0 +1,12 @@
+{
+  "status": "PASS_TRANSFER_HASHES_COVERAGE_AND_SCALAR_ARITHMETIC",
+  "verified_gains": 1280,
+  "observation_rows": 1280,
+  "ratio_rows": 80,
+  "both_stable_CIs_above_one": 40,
+  "both_stable_CIs_total": 40,
+  "max_cost_gap_discrepancy": 6.966410781572563e-11,
+  "numerical_policy_evaluation_local": false,
+  "new_transitions": 0,
+  "source_sha256": "a10aef06ec2c7c08a9b027d2f57b53f6ec9e8405f81892e9315acf23960a99da"
+}

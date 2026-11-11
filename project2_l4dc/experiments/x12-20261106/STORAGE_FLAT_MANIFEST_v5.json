@@ -1,0 +1,23 @@
+{
+  "status": "STORAGE_FLAT_V5_FROZEN_NOT_SUBMITTED",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x12-20261106\\x12-storage-flat-v5.tar.gz",
+  "archive_sha256": "2a9fdb0862dea1346c676961eb39cd7eb62ef186ae764d4d40e7d28c5dd75a0e",
+  "manifest_sha256": "723e7f530f4f9bf66776e2f80e36d9fad5d63ce3964fe962476a1229dc3bb037",
+  "review_sha256": "9cc693bbe016a23f8e64f848d144293f5d4a6fd41f752ebbd70949d310aab4c4",
+  "remote_root": "/home/changze/lqr-x12-flat-20261107-v5",
+  "files": {
+    "virtual_task_store_v2.py": "73fb86e75df141b4ce89c901f9b450b1cccb71dcb33db2aad8e926addc91250c",
+    "pilot-plan-v4.json": "c139ccf53c458459bdee381dd13bf05c52e696a5988ee42e17f613e52028e024",
+    "CLAUDE_TASK_authorized.md": "9cc693bbe016a23f8e64f848d144293f5d4a6fd41f752ebbd70949d310aab4c4",
+    "pilot.sbatch": "9bd7167efe80c0d78b6974fe186c141fd996887d890362dd806dd007f459d99e",
+    "pilot_virtual_store_v5.py": "5f1e4951b374c9161bc7416ba962bae96a9a87bbc28d645917e07dbb37b59c77",
+    "submit_flat_storage_pilot_v5.py": "4c8f2e1f4f4e3579841f5267370c9e14b0561636e82a292b1e39c8ac33c8f0d6"
+  },
+  "requested_SU": 0.08333333333333333,
+  "new_training_transitions": 0,
+  "existing_cluster_files_unchanged": true,
+  "changes": [
+    "ordinary directory with verified MDT0 placement",
+    "flat filenames, no physical subdirectories"
+  ]
+}

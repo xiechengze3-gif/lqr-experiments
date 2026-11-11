@@ -1,0 +1,16 @@
+{
+  "status": "CSV_ONLY_FIGURES",
+  "source_sha256": "f4281708925a0d3572410fcfef4b38970dc7787789f0f23bc663905e38c75ccf",
+  "inputs": {
+    "summary.csv": "794eec74aba99e4efa196fb0d6b3bafa397d9bfb62a541e77e9bc18428177f3f",
+    "attainment.csv": "275178c1d7879a5865da7d9d54a7a2f35e341c7d0afb5341a175b9e0899c5065"
+  },
+  "figures": {
+    "paired-ratio-vs-dimension.png": "fa5f1ebf83c5a0b37104a73ada5eb625073572bb205a0b20f299eb342c772b38",
+    "paired-ratio-vs-dimension.svg": "643cdda38ce8d97cca784d8ab2ba379c0f41b3c74030b0f3c1370ae2253e9e78",
+    "relative-gap-vs-budget.png": "6e84b8675e2785da71bc93f8b3a0e72ab52e1023958b30704b6091c2260c23db",
+    "relative-gap-vs-budget.svg": "a9f43bf15d6444a44160b815129f6af7ac663634c47655a7df63cbcef7a08e98",
+    "observed-budget-to-epsilon.png": "2cb2928f71cabd495f9691bb29b210265ac51a9481d3f27dc52ba1eb5e544b82",
+    "observed-budget-to-epsilon.svg": "049bee65d56935b950113b62435a09d4c5dbf455658e292e59c4a522a4281c9d"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "supplement-20261101-x3-actor-report-v26",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x3-actor-report-v26.tar.gz",
+  "archive_sha256": "56f3b02b9be4e6e658da2a781ec8bd63fdaa28ec81fca67ce3d740740f1094d5",
+  "plan": {
+    "id": "supplement-20261101-x3-actor-report-v26",
+    "stage": "REPORT",
+    "experiment": "X3",
+    "scope": "NPG_NUMERICAL_AUDIT_AND_ORDER_ENVELOPE",
+    "wall_minutes": 15,
+    "bundles": 1
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "report_x3_actors.py": "627dddffa6aa4760d8097f52e6db47d4d5e240f1ed1e53deb1ebf16a499dd4fc",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "actor_report.py": "55b04ff16d812ec9b08ef296d0ed392fca9f6ca34f961cfe8f826e12a8358fc6",
+    "npg_order_report.py": "ca2fa808f0d7d95e5aefe57308ee34d646b375bc1e2f9a9b70c3c15224d02fe4",
+    "job_plan.json": "3d4f30145ce1c445c52dac30549d2e4e8011bd9d1e5a967ea40331d77bc77163",
+    "slurm/run.sbatch": "fd44073847239fc019e47f8f77b5d1e517f8373861a8ca622d6fae8e314a935e"
+  }
+}

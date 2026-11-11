@@ -1,0 +1,585 @@
+{
+  "archive": "/scratch/user/changze/lqr_experiments/tmp/supplement-20261101/x0-retrieval-v1.tar.gz",
+  "archive_sha256": "24327a088a70e24cb3ed24765d35568c6b6e3f1685d05b84ace29f95a0621cd5",
+  "files": [
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/construction.json",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/construction.json",
+      "size": 14158,
+      "sha256": "d17806d41f9696562a0accebcb874fb9651db2e8e99e4855e90a5ac93b388f32"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/delivery_verification.json",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/delivery_verification.json",
+      "size": 604,
+      "sha256": "856e95e40f25ffda003f94d949b1adfb4bb094b49e593b23ddc71bbe0717b4c8"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/rank8_vs32_diagnostic_20261022.json",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/rank8_vs32_diagnostic_20261022.json",
+      "size": 1605,
+      "sha256": "a671d09c75a38a0dd193169e0e445f22a656b248c0da65d798277bd8d7504655"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/rank_gain_latest_20261022.json",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/rank_gain_latest_20261022.json",
+      "size": 2217,
+      "sha256": "f96224c77d28ac8e1ae4d94efec499cb48e9ad7d43990072e563e99dd0f86c7c"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/verify_delivery.py",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/verify_delivery.py",
+      "size": 4025,
+      "sha256": "9b7e3939cb37cfdd1c1af8eb8e8a5d29e926c57cd4dca2b86fb97a35233c853c"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/after-formal-recovery-20261023.psv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/after-formal-recovery-20261023.psv",
+      "size": 2857,
+      "sha256": "e1853a0db1496114c04bb0b2d4ec5a10c709842e65b616ad68316d95433ade4f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-formal-recovery-20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-formal-recovery-20261023.json",
+      "size": 2001,
+      "sha256": "f0159845ef13131963fd632f523d8d57c06bf4eb481f0905bafa531dc8f25654"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-formal-recovery-20261023.psv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-formal-recovery-20261023.psv",
+      "size": 2580,
+      "sha256": "860f7ad3469546382bb05b7d0a87e141cd1f8d09f332bf0dfc1eef2f7be61863"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-formal.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-formal.json",
+      "size": 2002,
+      "sha256": "4164055de15488a814d31b77b4f4c39f5f925c83ce62505e50dab0129efe4ae5"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-formal.psv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-formal.psv",
+      "size": 2580,
+      "sha256": "486b9eb190a63ca478c5ebb083a403f5a7947794d8f6c1534f64dcfd99f7be66"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-pilot.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-pilot.json",
+      "size": 313,
+      "sha256": "7323818b04586ae9e3d88634c9274a8ad531d7dbba22ecfcc966aa347b5e687f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-pilot.psv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-pilot.psv",
+      "size": 202,
+      "sha256": "c8ec1932346a3edb1f4b11b8ad32ba1151d28d123a64a4f1de1e74e45d2af69f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/analyze_rank_reversal_20261023.py",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/analyze_rank_reversal_20261023.py",
+      "size": 3610,
+      "sha256": "4b731a9ff4d24fd05395338d59b026f0ca96521650205e661d3e653bb833cf97"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/audit-shards/pilot-00.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/audit-shards/pilot-00.json",
+      "size": 15080,
+      "sha256": "8cc52472c6b4d458a5fc9d0bb2d628062810e58ccb639963933fefa7c031c4a0"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/balance-formal-recovery-20261023.txt",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/balance-formal-recovery-20261023.txt",
+      "size": 680,
+      "sha256": "c89e2195b6f06ebeaae22521f9b74da7e28d0143bd98c985f3d3fed0a9680981"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/balance-formal.txt",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/balance-formal.txt",
+      "size": 680,
+      "sha256": "6ca3f506162a48bf7642a1156b71208271b34b5f3cd0ac392250147876209243"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/balance-pilot.txt",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/balance-pilot.txt",
+      "size": 680,
+      "sha256": "14fb3ad4951f4561fcdf42497203b221d550147147ba785c112598252016c39f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/balance-preflight.txt",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/balance-preflight.txt",
+      "size": 680,
+      "sha256": "33ca48f2095b2460b3a25b173b9d21dec0f46acb07bffc97188ae47f9e46861d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/formal_plan.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/formal_plan.json",
+      "size": 3302,
+      "sha256": "6e072a4fdc13b7745e76a7a14c4425137a678cdb3f80b5ccf06ee06029e52dc8"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/formal_submission_verification_20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/formal_submission_verification_20261023.json",
+      "size": 8056,
+      "sha256": "0a5921ebce31beb4fe46798b74170c8b0303bf75ea38a81f62bbae9e9189e1fd"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/logs/pilot_report-20254682_4294967294.out",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/logs/pilot_report-20254682_4294967294.out",
+      "size": 12850,
+      "sha256": "d6b8cd1cad9fca5bd34308a8685975cb1b16669235f9086d98c0f80d99d9eecd"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/pilot-20261023.tar.gz",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/pilot-20261023.tar.gz",
+      "size": 350844,
+      "sha256": "12b94556df6d3e6aa2574f7750ce1c83d0dd6b6c198f1d77b956324eb44a2cf6"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/pilot_delivery_manifest_20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/pilot_delivery_manifest_20261023.json",
+      "size": 5675,
+      "sha256": "3fc6f4ba54a25c92a4092fb92d376cd34af583aac132b0db1604f83f731633d4"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/pilot_delivery_verification_20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/pilot_delivery_verification_20261023.json",
+      "size": 2280,
+      "sha256": "c508f457d1ca5a5e661e1b4c02856fc5dbf2fe12e430f4ae4fe1c27f19119252"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/preflight.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/preflight.json",
+      "size": 9575,
+      "sha256": "19e86ccfb899b20570d00041bc81a98df387dce8a36ade372b9a750fe4132633"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/preflight_delivery_verification.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/preflight_delivery_verification.json",
+      "size": 442,
+      "sha256": "33a073c796e41d21ef9b73caf5ef70ad3ee8d981d6e085e700f2d0cfe1ad4901"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/rank_reversal_analysis_20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/rank_reversal_analysis_20261023.json",
+      "size": 16157,
+      "sha256": "0722cc6d965106f51d00a4ad2284df992a40cbe5990e9769a29990964348662b"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r002-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r002-s0700.json",
+      "size": 18481,
+      "sha256": "4476496a874e6bded7f892a494ae66ff254eec333d50c0318ebbc5cac9c1b3e5"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r002-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r002-s0701.json",
+      "size": 18518,
+      "sha256": "43aaed12774ecdf8b3f9457ade5656e39ac50c1145423d1f5a29687e16a5d959"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r004-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r004-s0700.json",
+      "size": 18533,
+      "sha256": "2e551fc815737c5e1f9948e4decf10963c5a6ba4510f554e1a84306f036e339c"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r004-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r004-s0701.json",
+      "size": 18538,
+      "sha256": "0bca6cb2cc8de537d285a0fe83edd5738cc10ff9a369d483896e0ab354ca214f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r008-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r008-s0700.json",
+      "size": 18571,
+      "sha256": "77a4cf3328e1b57275f6ba98b5ea50e75798c0f612401b99e2c3cfdaa3216d68"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r008-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r008-s0701.json",
+      "size": 18571,
+      "sha256": "ac54b25047b20a8d73cbb87570e06f404870948a4397b2d8398077c01b6a2c43"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r032-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r032-s0700.json",
+      "size": 18642,
+      "sha256": "c1b11964edd736a9154ec29b64141aa7177c479dee2cf6d83f71cfa84ca21e68"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r032-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r032-s0701.json",
+      "size": 18655,
+      "sha256": "5b5de9441678fb95629056eaaa55817cfbbb192359f3e2c3c03ac1ffe3967e71"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r500-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r500-s0700.json",
+      "size": 18673,
+      "sha256": "1d00b29c05269ca1a8446637aeeb9e2dc2140ed51234ba32c8638a86032ae5b1"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r500-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r500-s0701.json",
+      "size": 18695,
+      "sha256": "61294cff35e373eac777b319616484d693875f1dcc4d36a7a6585483ad7ddba3"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/release_verification.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/release_verification.json",
+      "size": 2107,
+      "sha256": "16a8dfb74c06cfafb11191160af6966bcb56207cf889bd7da2d861d588c34b74"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/all_checkpoints.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/all_checkpoints.csv",
+      "size": 63050,
+      "sha256": "516e0d4ac5a75070fcee52d6f30663b6f8ebc7b846718986b9040ebaac269478"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.png",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.png",
+      "size": 149412,
+      "sha256": "3b23eb509f15f40763d76dcda315213766a1a145bff239e1591abada2455ef51"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.svg",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.svg",
+      "size": 142034,
+      "sha256": "7922df9dd25f32bf931367032ea6f968ca46398e78f029efaab7d276f6a90689"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/fixed_budget_gaps.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/fixed_budget_gaps.csv",
+      "size": 4010,
+      "sha256": "64d4cc4c944910ba2ddc9d3436aa45be62a8034262040b84d60d986dceaebc0d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/initial_systems.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/initial_systems.csv",
+      "size": 3393,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/rank_normalized_sample_complexity.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/rank_normalized_sample_complexity.csv",
+      "size": 4267,
+      "sha256": "990ed3e8af1c2dea55b18e6fed65cfb2d8011a58b64c8be027a6e79727f42aea"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.png",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.png",
+      "size": 120304,
+      "sha256": "4ad557808cff4b1933a7eccc65080585113da092f25b94993ccb4627d9fd112d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.svg",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.svg",
+      "size": 77815,
+      "sha256": "004cea19e71605ddace43648ea31d956cc6842a460446a4d017bd9669fbe557d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_sample_gain.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_sample_gain.csv",
+      "size": 1227,
+      "sha256": "3c1b0cce02f6d00acb3526fdf9486a8d21aa6715c1853c51d36c7cb3c378ba2f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/sample_complexity.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/sample_complexity.csv",
+      "size": 2602,
+      "sha256": "9625d29f1837a425fe78c4155cc277104640a53f4c5b3e8e39415f65c14147dc"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/success_by_budget.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/success_by_budget.csv",
+      "size": 12478,
+      "sha256": "ad64936e7d8b2cf06c907956f2721ba906d8dac8d4844021f304f57fc9092404"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/summary.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/summary.json",
+      "size": 53562,
+      "sha256": "5cd5b48b147adebdd4ece2426d802ac42a5826c634ca678f388a31fbdeff3ccf"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/resolved_config.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/resolved_config.json",
+      "size": 3635,
+      "sha256": "070037f6346356c9a683d7b39169a8e322e9f2446fdd9368042e6f24c4f21e21"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/submission-formal.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/submission-formal.json",
+      "size": 3890,
+      "sha256": "5c1629ad687792da1a1b23d45b3d691d79b514f434b07414e3f7f4f8f0d5ff9f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/submission-pilot.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/submission-pilot.json",
+      "size": 305,
+      "sha256": "45daec15d6b87fb8f807f0fb264b9cbda4ed6dda57493ae6816e75aeb000c7fd"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/submission-preflight.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/submission-preflight.json",
+      "size": 201,
+      "sha256": "d4f32330f95f71669e0fb4a115e2c9dee626c4c89ac6f646f7485bc466da5dab"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-000.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-000.json",
+      "size": 1565,
+      "sha256": "71f7dde245492e3e5264886e05dd5ab07c20a73186b2054a5a2f6a471cc00d73"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-001.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-001.json",
+      "size": 1565,
+      "sha256": "d68655fcac6e99703103d45d3baff9ee0522479c1079581d2416b03741989c07"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-002.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-002.json",
+      "size": 1565,
+      "sha256": "90e249b22d7eac6b6cfce85107426129fac2adbabe685ab0ddcc6e5d72521680"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-003.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-003.json",
+      "size": 1565,
+      "sha256": "97219fc5978c071ffce041bb7b1e534b164dd7ab825b9970501bef8b49718e1d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-004.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-004.json",
+      "size": 1565,
+      "sha256": "e69bc6a01160a44f68c92a30a2b5812aa1d1ade4a51a8cb3d8940ca8ff8b554a"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-005.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-005.json",
+      "size": 1564,
+      "sha256": "eb6b3afdfe263da2f5d155a09485555e287052d9a9fea2ec08169fd0a8770f11"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-006.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-006.json",
+      "size": 1566,
+      "sha256": "f99619b9ce70f3c90a4160a7cbb51b14620061e2ddef96e843d6371cc894245b"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-007.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-007.json",
+      "size": 1566,
+      "sha256": "4648eb85e94dbd3968b1533c2c71a681324e86860aa562ae291aa1e055df785d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-008.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-008.json",
+      "size": 1567,
+      "sha256": "88a7ee3375bc7b886b665c9258594629470b34617030423b3904a2cdf2efea48"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-009.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-009.json",
+      "size": 1567,
+      "sha256": "14cb0067f97a84dbc708308896a40d8ef2adc6f19062d03091bc9fa3f7acc4ce"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/verification.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/verification.json",
+      "size": 7897,
+      "sha256": "3a673b4d0e935b3fb509a35312ee4493062a245f9f918ced7be69a3b87e0064c"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/verify_pilot_delivery_20261023.py",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/verify_pilot_delivery_20261023.py",
+      "size": 5667,
+      "sha256": "8be92e90d872f819228dacd9902f9c4e28c8c4bc59361d70a5069bb280316b5a"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/all_checkpoints.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/all_checkpoints.csv",
+      "size": 943639,
+      "sha256": "cb3e6048beb359be633e0c3cc3e3e37f5fc83b587e9f6ff5cc258fdd3a2378c6"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/common_constant_gap_curves.png",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/common_constant_gap_curves.png",
+      "size": 149757,
+      "sha256": "001e31f3f198aa0e7f1b94167b45b24da8ee9cc04bd9b1cfe74fe22fbb17fb5b"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/common_constant_gap_curves.svg",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/common_constant_gap_curves.svg",
+      "size": 148720,
+      "sha256": "c3fcc3884cd7dc65b04f29bb40ab58379ad9b01db60aac712f0a59f51e4e8b49"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/fixed_budget_gaps.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/fixed_budget_gaps.csv",
+      "size": 4118,
+      "sha256": "8a100e14f86186409d1d1425bdca6430b940defca4349fd702cafdab7969d751"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/initial_systems.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/initial_systems.csv",
+      "size": 3393,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/rank_normalized_sample_complexity.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/rank_normalized_sample_complexity.csv",
+      "size": 4347,
+      "sha256": "4c87af449b57aa75691c4f548071ef430e569cb504ebdb4a63ad13eb92334116"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/same_accuracy_rank_scaling.png",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/same_accuracy_rank_scaling.png",
+      "size": 120339,
+      "sha256": "902df4f501c1d525b4caafda28749d5c127d3eb2f373e673d0a121704c8251e4"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/same_accuracy_rank_scaling.svg",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/same_accuracy_rank_scaling.svg",
+      "size": 78544,
+      "sha256": "edbd35a03fc919c0597cb6aa46dffcdafd2e025f54a967120e6637348c286824"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/same_accuracy_sample_gain.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/same_accuracy_sample_gain.csv",
+      "size": 1243,
+      "sha256": "fbf054f76b8231cbf10146b97176c5de3fab48f82d2e7350bd8bb94210090be1"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/sample_complexity.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/sample_complexity.csv",
+      "size": 2692,
+      "sha256": "91bc8d328f2bdf64dc94f89e25fcdfc00cf86519390590a832b0d5902ce7786a"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/success_by_budget.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/success_by_budget.csv",
+      "size": 13479,
+      "sha256": "f01a851b43c2fc718f3c0e9624e65b05e1300ce80fa8cc3d96166b1215243f75"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/summary.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/summary.json",
+      "size": 54101,
+      "sha256": "ec41efd79d0ae3a12f7cd09d16ff202dbe2a8f8a4ca4900739e5a53a88f706dc"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/all_checkpoints.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/all_checkpoints.csv",
+      "size": 63050,
+      "sha256": "516e0d4ac5a75070fcee52d6f30663b6f8ebc7b846718986b9040ebaac269478"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.png",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.png",
+      "size": 149412,
+      "sha256": "3b23eb509f15f40763d76dcda315213766a1a145bff239e1591abada2455ef51"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.svg",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.svg",
+      "size": 142034,
+      "sha256": "7922df9dd25f32bf931367032ea6f968ca46398e78f029efaab7d276f6a90689"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/fixed_budget_gaps.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/fixed_budget_gaps.csv",
+      "size": 4010,
+      "sha256": "64d4cc4c944910ba2ddc9d3436aa45be62a8034262040b84d60d986dceaebc0d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/initial_systems.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/initial_systems.csv",
+      "size": 3393,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/rank_normalized_sample_complexity.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/rank_normalized_sample_complexity.csv",
+      "size": 4267,
+      "sha256": "990ed3e8af1c2dea55b18e6fed65cfb2d8011a58b64c8be027a6e79727f42aea"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.png",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.png",
+      "size": 120304,
+      "sha256": "4ad557808cff4b1933a7eccc65080585113da092f25b94993ccb4627d9fd112d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.svg",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.svg",
+      "size": 77815,
+      "sha256": "004cea19e71605ddace43648ea31d956cc6842a460446a4d017bd9669fbe557d"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/same_accuracy_sample_gain.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/same_accuracy_sample_gain.csv",
+      "size": 1227,
+      "sha256": "3c1b0cce02f6d00acb3526fdf9486a8d21aa6715c1853c51d36c7cb3c378ba2f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/sample_complexity.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/sample_complexity.csv",
+      "size": 2602,
+      "sha256": "9625d29f1837a425fe78c4155cc277104640a53f4c5b3e8e39415f65c14147dc"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/success_by_budget.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/success_by_budget.csv",
+      "size": 12478,
+      "sha256": "ad64936e7d8b2cf06c907956f2721ba906d8dac8d4844021f304f57fc9092404"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/summary.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/summary.json",
+      "size": 53562,
+      "sha256": "5cd5b48b147adebdd4ece2426d802ac42a5826c634ca678f388a31fbdeff3ccf"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/resolved_config.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/resolved_config.json",
+      "size": 3635,
+      "sha256": "070037f6346356c9a683d7b39169a8e322e9f2446fdd9368042e6f24c4f21e21"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/verification.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/verification.json",
+      "size": 7897,
+      "sha256": "3a673b4d0e935b3fb509a35312ee4493062a245f9f918ced7be69a3b87e0064c"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/preflight.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/preflight.json",
+      "size": 9575,
+      "sha256": "19e86ccfb899b20570d00041bc81a98df387dce8a36ade372b9a750fe4132633"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/formal_plan.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/formal_plan.json",
+      "size": 3302,
+      "sha256": "6e072a4fdc13b7745e76a7a14c4425137a678cdb3f80b5ccf06ee06029e52dc8"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/submission-formal.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/submission-formal.json",
+      "size": 3890,
+      "sha256": "5c1629ad687792da1a1b23d45b3d691d79b514f434b07414e3f7f4f8f0d5ff9f"
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/formal_submission_verification_20261023.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/formal_submission_verification_20261023.json",
+      "size": 8056,
+      "sha256": "0a5921ebce31beb4fe46798b74170c8b0303bf75ea38a81f62bbae9e9189e1fd"
+    }
+  ],
+  "bytes": 3520004,
+  "count": 96,
+  "new_jobs": 0
+}

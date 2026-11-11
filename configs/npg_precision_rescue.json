@@ -1,0 +1,22 @@
+{
+  "audit_release": "e7ce4b139191d361",
+  "audit_manifest": "/scratch/user/changze/lqr_experiments/releases/npg-precision-e7ce4b139191d361/configs/npg_precision_audit.json",
+  "tasks": [
+    {
+      "actor_task": 2,
+      "policy": "raw24"
+    },
+    {
+      "actor_task": 2,
+      "policy": "truncated24"
+    },
+    {
+      "actor_task": 3,
+      "policy": "raw24"
+    },
+    {
+      "actor_task": 3,
+      "policy": "truncated24"
+    }
+  ]
+}

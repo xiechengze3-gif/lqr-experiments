@@ -1,0 +1,28 @@
+{
+  "original_config_sha256": "194f34ba2af8bd822396a9ae1e2317219ee5beb2da4f9a54df1d3eb479097d14",
+  "source_bytes_verified": {
+    "actor_paths.py": "094cf07bb8b2534b97a34648cab20176304ad9dbdd3ffa25c17cf61a61e1a098",
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59"
+  },
+  "old_reference": {
+    "members": 14888,
+    "archive_sha256": "7a59c0cfa407dccd3bbf69fc014bb4f246ec7e13c5cc586261b307ad3cd64b6d",
+    "archive_bytes": 1172961280,
+    "source_archive_sha256": "051d016a353fc4c743e9f7aee5ae6f8ddb0d3a17212d13c1fcd8081f65f9b4f2",
+    "home_copy_created": false
+  },
+  "node_storage": {
+    "free_bytes": 1588339732480,
+    "free_files": 156280803
+  },
+  "config_sha256": "1daea4cd21d5839297005bd99eab3a97cbee4df228523e253efe5f0822bb3bed",
+  "new_training_transitions": 0,
+  "report_job": "20425741",
+  "no_mid_path_resume": true,
+  "accepted_transitions": {
+    "REUSED_COMPLETE_V1_SHA_VERIFIED": 9476201216,
+    "RESTART_OR_START_FROM_K0": 184168537344
+  },
+  "no_old_results_edited": true
+}

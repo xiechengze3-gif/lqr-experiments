@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "preflight_job": "20254574",
+  "pilot_jobs": {
+    "pilot": "20254680",
+    "pilot_report": "20254682"
+  },
+  "models": 5,
+  "common_p0_bound": 47,
+  "noiseless_model_max_error": 9.211381657436846e-16,
+  "checkpoint_resume_bitwise": true,
+  "estimated_pilot_request_bound": 5.605555555555555,
+  "formal_pairs_planned": 150,
+  "learning_result_status": "pilot running; no formal rank gain claimed yet"
+}

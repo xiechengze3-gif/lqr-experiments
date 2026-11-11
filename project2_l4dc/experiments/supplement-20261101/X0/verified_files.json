@@ -1,0 +1,904 @@
+{
+  "files": [
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/construction.json",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/construction.json",
+      "size": 14158,
+      "sha256": "d17806d41f9696562a0accebcb874fb9651db2e8e99e4855e90a5ac93b388f32",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/delivery_verification.json",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/delivery_verification.json",
+      "size": 604,
+      "sha256": "856e95e40f25ffda003f94d949b1adfb4bb094b49e593b23ddc71bbe0717b4c8",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/rank8_vs32_diagnostic_20261022.json",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/rank8_vs32_diagnostic_20261022.json",
+      "size": 1605,
+      "sha256": "a671d09c75a38a0dd193169e0e445f22a656b248c0da65d798277bd8d7504655",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/rank_gain_latest_20261022.json",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/rank_gain_latest_20261022.json",
+      "size": 2217,
+      "sha256": "f96224c77d28ac8e1ae4d94efec499cb48e9ad7d43990072e563e99dd0f86c7c",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/independent-ab-stabilizer-20261022/verify_delivery.py",
+      "archive_path": "snapshot-analysis/independent-ab-stabilizer-20261022/verify_delivery.py",
+      "size": 4025,
+      "sha256": "9b7e3939cb37cfdd1c1af8eb8e8a5d29e926c57cd4dca2b86fb97a35233c853c",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/after-formal-recovery-20261023.psv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/after-formal-recovery-20261023.psv",
+      "size": 2857,
+      "sha256": "e1853a0db1496114c04bb0b2d4ec5a10c709842e65b616ad68316d95433ade4f",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-formal-recovery-20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-formal-recovery-20261023.json",
+      "size": 2001,
+      "sha256": "f0159845ef13131963fd632f523d8d57c06bf4eb481f0905bafa531dc8f25654",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-formal-recovery-20261023.psv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-formal-recovery-20261023.psv",
+      "size": 2580,
+      "sha256": "860f7ad3469546382bb05b7d0a87e141cd1f8d09f332bf0dfc1eef2f7be61863",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-formal.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-formal.json",
+      "size": 2002,
+      "sha256": "4164055de15488a814d31b77b4f4c39f5f925c83ce62505e50dab0129efe4ae5",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-formal.psv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-formal.psv",
+      "size": 2580,
+      "sha256": "486b9eb190a63ca478c5ebb083a403f5a7947794d8f6c1534f64dcfd99f7be66",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-pilot.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-pilot.json",
+      "size": 313,
+      "sha256": "7323818b04586ae9e3d88634c9274a8ad531d7dbba22ecfcc966aa347b5e687f",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/accounting/before-pilot.psv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/accounting/before-pilot.psv",
+      "size": 202,
+      "sha256": "c8ec1932346a3edb1f4b11b8ad32ba1151d28d123a64a4f1de1e74e45d2af69f",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/analyze_rank_reversal_20261023.py",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/analyze_rank_reversal_20261023.py",
+      "size": 3610,
+      "sha256": "4b731a9ff4d24fd05395338d59b026f0ca96521650205e661d3e653bb833cf97",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/audit-shards/pilot-00.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/audit-shards/pilot-00.json",
+      "size": 15080,
+      "sha256": "8cc52472c6b4d458a5fc9d0bb2d628062810e58ccb639963933fefa7c031c4a0",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/balance-formal-recovery-20261023.txt",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/balance-formal-recovery-20261023.txt",
+      "size": 680,
+      "sha256": "c89e2195b6f06ebeaae22521f9b74da7e28d0143bd98c985f3d3fed0a9680981",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/balance-formal.txt",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/balance-formal.txt",
+      "size": 680,
+      "sha256": "6ca3f506162a48bf7642a1156b71208271b34b5f3cd0ac392250147876209243",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/balance-pilot.txt",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/balance-pilot.txt",
+      "size": 680,
+      "sha256": "14fb3ad4951f4561fcdf42497203b221d550147147ba785c112598252016c39f",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/balance-preflight.txt",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/balance-preflight.txt",
+      "size": 680,
+      "sha256": "33ca48f2095b2460b3a25b173b9d21dec0f46acb07bffc97188ae47f9e46861d",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/formal_plan.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/formal_plan.json",
+      "size": 3302,
+      "sha256": "6e072a4fdc13b7745e76a7a14c4425137a678cdb3f80b5ccf06ee06029e52dc8",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/formal_submission_verification_20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/formal_submission_verification_20261023.json",
+      "size": 8056,
+      "sha256": "0a5921ebce31beb4fe46798b74170c8b0303bf75ea38a81f62bbae9e9189e1fd",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/logs/pilot_report-20254682_4294967294.out",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/logs/pilot_report-20254682_4294967294.out",
+      "size": 12850,
+      "sha256": "d6b8cd1cad9fca5bd34308a8685975cb1b16669235f9086d98c0f80d99d9eecd",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/pilot-20261023.tar.gz",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/pilot-20261023.tar.gz",
+      "size": 350844,
+      "sha256": "12b94556df6d3e6aa2574f7750ce1c83d0dd6b6c198f1d77b956324eb44a2cf6",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/pilot_delivery_manifest_20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/pilot_delivery_manifest_20261023.json",
+      "size": 5675,
+      "sha256": "3fc6f4ba54a25c92a4092fb92d376cd34af583aac132b0db1604f83f731633d4",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/pilot_delivery_verification_20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/pilot_delivery_verification_20261023.json",
+      "size": 2280,
+      "sha256": "c508f457d1ca5a5e661e1b4c02856fc5dbf2fe12e430f4ae4fe1c27f19119252",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/preflight.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/preflight.json",
+      "size": 9575,
+      "sha256": "19e86ccfb899b20570d00041bc81a98df387dce8a36ade372b9a750fe4132633",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/preflight_delivery_verification.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/preflight_delivery_verification.json",
+      "size": 442,
+      "sha256": "33a073c796e41d21ef9b73caf5ef70ad3ee8d981d6e085e700f2d0cfe1ad4901",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/rank_reversal_analysis_20261023.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/rank_reversal_analysis_20261023.json",
+      "size": 16157,
+      "sha256": "0722cc6d965106f51d00a4ad2284df992a40cbe5990e9769a29990964348662b",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r002-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r002-s0700.json",
+      "size": 18481,
+      "sha256": "4476496a874e6bded7f892a494ae66ff254eec333d50c0318ebbc5cac9c1b3e5",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r002-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r002-s0701.json",
+      "size": 18518,
+      "sha256": "43aaed12774ecdf8b3f9457ade5656e39ac50c1145423d1f5a29687e16a5d959",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r004-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r004-s0700.json",
+      "size": 18533,
+      "sha256": "2e551fc815737c5e1f9948e4decf10963c5a6ba4510f554e1a84306f036e339c",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r004-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r004-s0701.json",
+      "size": 18538,
+      "sha256": "0bca6cb2cc8de537d285a0fe83edd5738cc10ff9a369d483896e0ab354ca214f",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r008-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r008-s0700.json",
+      "size": 18571,
+      "sha256": "77a4cf3328e1b57275f6ba98b5ea50e75798c0f612401b99e2c3cfdaa3216d68",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r008-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r008-s0701.json",
+      "size": 18571,
+      "sha256": "ac54b25047b20a8d73cbb87570e06f404870948a4397b2d8398077c01b6a2c43",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r032-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r032-s0700.json",
+      "size": 18642,
+      "sha256": "c1b11964edd736a9154ec29b64141aa7177c479dee2cf6d83f71cfa84ca21e68",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r032-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r032-s0701.json",
+      "size": 18655,
+      "sha256": "5b5de9441678fb95629056eaaa55817cfbbb192359f3e2c3c03ac1ffe3967e71",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r500-s0700.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r500-s0700.json",
+      "size": 18673,
+      "sha256": "1d00b29c05269ca1a8446637aeeb9e2dc2140ed51234ba32c8638a86032ae5b1",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/raw/ce-r500-s0701.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/raw/ce-r500-s0701.json",
+      "size": 18695,
+      "sha256": "61294cff35e373eac777b319616484d693875f1dcc4d36a7a6585483ad7ddba3",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/release_verification.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/release_verification.json",
+      "size": 2107,
+      "sha256": "16a8dfb74c06cfafb11191160af6966bcb56207cf889bd7da2d861d588c34b74",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/all_checkpoints.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/all_checkpoints.csv",
+      "size": 63050,
+      "sha256": "516e0d4ac5a75070fcee52d6f30663b6f8ebc7b846718986b9040ebaac269478",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.png",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.png",
+      "size": 149412,
+      "sha256": "3b23eb509f15f40763d76dcda315213766a1a145bff239e1591abada2455ef51",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.svg",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.svg",
+      "size": 142034,
+      "sha256": "7922df9dd25f32bf931367032ea6f968ca46398e78f029efaab7d276f6a90689",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/fixed_budget_gaps.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/fixed_budget_gaps.csv",
+      "size": 4010,
+      "sha256": "64d4cc4c944910ba2ddc9d3436aa45be62a8034262040b84d60d986dceaebc0d",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/initial_systems.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/initial_systems.csv",
+      "size": 3393,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/rank_normalized_sample_complexity.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/rank_normalized_sample_complexity.csv",
+      "size": 4267,
+      "sha256": "990ed3e8af1c2dea55b18e6fed65cfb2d8011a58b64c8be027a6e79727f42aea",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.png",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.png",
+      "size": 120304,
+      "sha256": "4ad557808cff4b1933a7eccc65080585113da092f25b94993ccb4627d9fd112d",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.svg",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.svg",
+      "size": 77815,
+      "sha256": "004cea19e71605ddace43648ea31d956cc6842a460446a4d017bd9669fbe557d",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_sample_gain.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/same_accuracy_sample_gain.csv",
+      "size": 1227,
+      "sha256": "3c1b0cce02f6d00acb3526fdf9486a8d21aa6715c1853c51d36c7cb3c378ba2f",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/sample_complexity.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/sample_complexity.csv",
+      "size": 2602,
+      "sha256": "9625d29f1837a425fe78c4155cc277104640a53f4c5b3e8e39415f65c14147dc",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/success_by_budget.csv",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/success_by_budget.csv",
+      "size": 12478,
+      "sha256": "ad64936e7d8b2cf06c907956f2721ba906d8dac8d4844021f304f57fc9092404",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/report-pilot/summary.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/report-pilot/summary.json",
+      "size": 53562,
+      "sha256": "5cd5b48b147adebdd4ece2426d802ac42a5826c634ca678f388a31fbdeff3ccf",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/resolved_config.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/resolved_config.json",
+      "size": 3635,
+      "sha256": "070037f6346356c9a683d7b39169a8e322e9f2446fdd9368042e6f24c4f21e21",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/submission-formal.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/submission-formal.json",
+      "size": 3890,
+      "sha256": "5c1629ad687792da1a1b23d45b3d691d79b514f434b07414e3f7f4f8f0d5ff9f",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/submission-pilot.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/submission-pilot.json",
+      "size": 305,
+      "sha256": "45daec15d6b87fb8f807f0fb264b9cbda4ed6dda57493ae6816e75aeb000c7fd",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/submission-preflight.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/submission-preflight.json",
+      "size": 201,
+      "sha256": "d4f32330f95f71669e0fb4a115e2c9dee626c4c89ac6f646f7485bc466da5dab",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-000.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-000.json",
+      "size": 1565,
+      "sha256": "71f7dde245492e3e5264886e05dd5ab07c20a73186b2054a5a2f6a471cc00d73",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-001.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-001.json",
+      "size": 1565,
+      "sha256": "d68655fcac6e99703103d45d3baff9ee0522479c1079581d2416b03741989c07",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-002.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-002.json",
+      "size": 1565,
+      "sha256": "90e249b22d7eac6b6cfce85107426129fac2adbabe685ab0ddcc6e5d72521680",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-003.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-003.json",
+      "size": 1565,
+      "sha256": "97219fc5978c071ffce041bb7b1e534b164dd7ab825b9970501bef8b49718e1d",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-004.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-004.json",
+      "size": 1565,
+      "sha256": "e69bc6a01160a44f68c92a30a2b5812aa1d1ade4a51a8cb3d8940ca8ff8b554a",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-005.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-005.json",
+      "size": 1564,
+      "sha256": "eb6b3afdfe263da2f5d155a09485555e287052d9a9fea2ec08169fd0a8770f11",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-006.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-006.json",
+      "size": 1566,
+      "sha256": "f99619b9ce70f3c90a4160a7cbb51b14620061e2ddef96e843d6371cc894245b",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-007.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-007.json",
+      "size": 1566,
+      "sha256": "4648eb85e94dbd3968b1533c2c71a681324e86860aa562ae291aa1e055df785d",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-008.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-008.json",
+      "size": 1567,
+      "sha256": "88a7ee3375bc7b886b665c9258594629470b34617030423b3904a2cdf2efea48",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/task_receipts/pilot-009.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/task_receipts/pilot-009.json",
+      "size": 1567,
+      "sha256": "14cb0067f97a84dbc708308896a40d8ef2adc6f19062d03091bc9fa3f7acc4ce",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/verification.json",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/verification.json",
+      "size": 7897,
+      "sha256": "3a673b4d0e935b3fb509a35312ee4493062a245f9f918ced7be69a3b87e0064c",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/local-archives/20261025/snapshot/project/analysis/ce500-common-constants-20261022/verify_pilot_delivery_20261023.py",
+      "archive_path": "snapshot-analysis/ce500-common-constants-20261022/verify_pilot_delivery_20261023.py",
+      "size": 5667,
+      "sha256": "8be92e90d872f819228dacd9902f9c4e28c8c4bc59361d70a5069bb280316b5a",
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/all_checkpoints.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/all_checkpoints.csv",
+      "size": 943639,
+      "sha256": "cb3e6048beb359be633e0c3cc3e3e37f5fc83b587e9f6ff5cc258fdd3a2378c6",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/common_constant_gap_curves.png",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/common_constant_gap_curves.png",
+      "size": 149757,
+      "sha256": "001e31f3f198aa0e7f1b94167b45b24da8ee9cc04bd9b1cfe74fe22fbb17fb5b",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/common_constant_gap_curves.svg",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/common_constant_gap_curves.svg",
+      "size": 148720,
+      "sha256": "c3fcc3884cd7dc65b04f29bb40ab58379ad9b01db60aac712f0a59f51e4e8b49",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/fixed_budget_gaps.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/fixed_budget_gaps.csv",
+      "size": 4118,
+      "sha256": "8a100e14f86186409d1d1425bdca6430b940defca4349fd702cafdab7969d751",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/initial_systems.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/initial_systems.csv",
+      "size": 3393,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/rank_normalized_sample_complexity.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/rank_normalized_sample_complexity.csv",
+      "size": 4347,
+      "sha256": "4c87af449b57aa75691c4f548071ef430e569cb504ebdb4a63ad13eb92334116",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/same_accuracy_rank_scaling.png",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/same_accuracy_rank_scaling.png",
+      "size": 120339,
+      "sha256": "902df4f501c1d525b4caafda28749d5c127d3eb2f373e673d0a121704c8251e4",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/same_accuracy_rank_scaling.svg",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/same_accuracy_rank_scaling.svg",
+      "size": 78544,
+      "sha256": "edbd35a03fc919c0597cb6aa46dffcdafd2e025f54a967120e6637348c286824",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/same_accuracy_sample_gain.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/same_accuracy_sample_gain.csv",
+      "size": 1243,
+      "sha256": "fbf054f76b8231cbf10146b97176c5de3fab48f82d2e7350bd8bb94210090be1",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/sample_complexity.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/sample_complexity.csv",
+      "size": 2692,
+      "sha256": "91bc8d328f2bdf64dc94f89e25fcdfc00cf86519390590a832b0d5902ce7786a",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/success_by_budget.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/success_by_budget.csv",
+      "size": 13479,
+      "sha256": "f01a851b43c2fc718f3c0e9624e65b05e1300ce80fa8cc3d96166b1215243f75",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-confirm/summary.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-confirm/summary.json",
+      "size": 54101,
+      "sha256": "ec41efd79d0ae3a12f7cd09d16ff202dbe2a8f8a4ca4900739e5a53a88f706dc",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/all_checkpoints.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/all_checkpoints.csv",
+      "size": 63050,
+      "sha256": "516e0d4ac5a75070fcee52d6f30663b6f8ebc7b846718986b9040ebaac269478",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.png",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.png",
+      "size": 149412,
+      "sha256": "3b23eb509f15f40763d76dcda315213766a1a145bff239e1591abada2455ef51",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.svg",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/common_constant_gap_curves.svg",
+      "size": 142034,
+      "sha256": "7922df9dd25f32bf931367032ea6f968ca46398e78f029efaab7d276f6a90689",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/fixed_budget_gaps.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/fixed_budget_gaps.csv",
+      "size": 4010,
+      "sha256": "64d4cc4c944910ba2ddc9d3436aa45be62a8034262040b84d60d986dceaebc0d",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/initial_systems.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/initial_systems.csv",
+      "size": 3393,
+      "sha256": "1b92bd2138fdafaa05eb632249dba0288a9e3ad8db19f43b69430c7b0ad3016e",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/rank_normalized_sample_complexity.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/rank_normalized_sample_complexity.csv",
+      "size": 4267,
+      "sha256": "990ed3e8af1c2dea55b18e6fed65cfb2d8011a58b64c8be027a6e79727f42aea",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.png",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.png",
+      "size": 120304,
+      "sha256": "4ad557808cff4b1933a7eccc65080585113da092f25b94993ccb4627d9fd112d",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.svg",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/same_accuracy_rank_scaling.svg",
+      "size": 77815,
+      "sha256": "004cea19e71605ddace43648ea31d956cc6842a460446a4d017bd9669fbe557d",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/same_accuracy_sample_gain.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/same_accuracy_sample_gain.csv",
+      "size": 1227,
+      "sha256": "3c1b0cce02f6d00acb3526fdf9486a8d21aa6715c1853c51d36c7cb3c378ba2f",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/sample_complexity.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/sample_complexity.csv",
+      "size": 2602,
+      "sha256": "9625d29f1837a425fe78c4155cc277104640a53f4c5b3e8e39415f65c14147dc",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/success_by_budget.csv",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/success_by_budget.csv",
+      "size": 12478,
+      "sha256": "ad64936e7d8b2cf06c907956f2721ba906d8dac8d4844021f304f57fc9092404",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/report-pilot/summary.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/report-pilot/summary.json",
+      "size": 53562,
+      "sha256": "5cd5b48b147adebdd4ece2426d802ac42a5826c634ca678f388a31fbdeff3ccf",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/resolved_config.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/resolved_config.json",
+      "size": 3635,
+      "sha256": "070037f6346356c9a683d7b39169a8e322e9f2446fdd9368042e6f24c4f21e21",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/verification.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/verification.json",
+      "size": 7897,
+      "sha256": "3a673b4d0e935b3fb509a35312ee4493062a245f9f918ced7be69a3b87e0064c",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/preflight.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/preflight.json",
+      "size": 9575,
+      "sha256": "19e86ccfb899b20570d00041bc81a98df387dce8a36ade372b9a750fe4132633",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/formal_plan.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/formal_plan.json",
+      "size": 3302,
+      "sha256": "6e072a4fdc13b7745e76a7a14c4425137a678cdb3f80b5ccf06ee06029e52dc8",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/submission-formal.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/submission-formal.json",
+      "size": 3890,
+      "sha256": "5c1629ad687792da1a1b23d45b3d691d79b514f434b07414e3f7f4f8f0d5ff9f",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "remote": "/scratch/user/changze/lqr_experiments/results/ce500-common-constants-20261022/formal_submission_verification_20261023.json",
+      "archive_path": "original-results/ce500-common-constants-20261022/formal_submission_verification_20261023.json",
+      "size": 8056,
+      "sha256": "0a5921ebce31beb4fe46798b74170c8b0303bf75ea38a81f62bbae9e9189e1fd",
+      "historical_20261025_hash_verified": false
+    },
+    {
+      "archive_path": "existing-groups\\01_input_padding\\data\\report\\actor_endpoints.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\01_input_padding\\data\\report\\actor_endpoints.csv",
+      "sha256": "7f284ea85926901b3272c66b8999f2ee02ff90396cde1e93f96fc5d68b2f0a63",
+      "size": 351018,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\01_input_padding\\data\\report\\ce_all_prefixes.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\01_input_padding\\data\\report\\ce_all_prefixes.csv",
+      "sha256": "c98da3f9e322bfbf2088b4b924cecd387f83726f37a834a2e23fd9384bf7d268",
+      "size": 429193,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\01_input_padding\\data\\report\\e1_ce_redundant_summary.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\01_input_padding\\data\\report\\e1_ce_redundant_summary.csv",
+      "sha256": "f7b23fede73474d3a87e51ec2d092ce4f87f1946a56ba8c1036bbf4baddea2c8",
+      "size": 905,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\01_input_padding\\data\\report\\e1_paired_gap_ratios.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\01_input_padding\\data\\report\\e1_paired_gap_ratios.csv",
+      "sha256": "cd0cf52392dd1afa2a7f249c401c6867225bed17dbf53f121964cb99ba92eeaf",
+      "size": 345,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\01_input_padding\\data\\report\\e1_summary.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\01_input_padding\\data\\report\\e1_summary.csv",
+      "sha256": "5843fbaafde5d0b876d2b2687d8c8780ce58bca37ef3c8fc6f396fccc7f19a49",
+      "size": 1704,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\01_input_padding\\data\\report\\output_coverage.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\01_input_padding\\data\\report\\output_coverage.csv",
+      "sha256": "615dba998f25d312861997e203c7a947f9317d3939b1e19da32369375f758c99",
+      "size": 280439,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\01_input_padding\\data\\report\\summary.json",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\01_input_padding\\data\\report\\summary.json",
+      "sha256": "9ac178b278e31042dbaa20e6c80613daa371d89db6f7c49432b9c25f4e1adcf0",
+      "size": 18805,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\01_input_padding\\data\\report\\system_tails_certificates.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\01_input_padding\\data\\report\\system_tails_certificates.csv",
+      "sha256": "f5efe3cc2605d1415f57d35af488d59fb6583fae6ea21f4bcf65fea107044d63",
+      "size": 38797,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\adaptive_rank_by_budget.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\adaptive_rank_by_budget.csv",
+      "sha256": "cdec51f65a0937759499b5e977c8d140e5b2bb9ce04c10916639b675401e59bd",
+      "size": 88958,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\endpoints.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\endpoints.csv",
+      "sha256": "24de8a478240c5cec5eb1a96a0c9732eff73358e0c75449f8283eb83cdf63a79",
+      "size": 336219,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\per_seed_attainment.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\per_seed_attainment.csv",
+      "sha256": "7e64a3981dc070d07f1cc909672d88867172e3bcfa2cb056a77ea533265ea6b3",
+      "size": 1174,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\sample_to_accuracy.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\sample_to_accuracy.csv",
+      "sha256": "d78533d7f29e8a2a29860b5410c442407c684d529e854febd64da118155e8f2d",
+      "size": 694,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\success_by_budget.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\success_by_budget.csv",
+      "sha256": "b0dbe4404cef777dcf5cbaebeba578cff331b6f4a2d4fd1dc6d1d9e42ecc6a95",
+      "size": 99425,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\summary.json",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\adaptive_ce\\summary.json",
+      "sha256": "dc57b64ca1593e1a6af509789c1ea88a58ef0d312ce097561105f9339200dad4",
+      "size": 3688,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\endpoints.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\endpoints.csv",
+      "sha256": "ffd99fb21847d68377ad09a84e45e913740e6a24bba7945300a16c3b017500e8",
+      "size": 145054,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\historical_replay_checks.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\historical_replay_checks.csv",
+      "sha256": "859726f54f69e4af143d3d5c121329507b644e969f3efd141f5be43436d7bfe8",
+      "size": 2323,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\per_seed_attainment.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\per_seed_attainment.csv",
+      "sha256": "d00aa9c49632507c0cab108653b36fd125836a56a7b1b1c21476afb66828b248",
+      "size": 810,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\sample_to_accuracy.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\sample_to_accuracy.csv",
+      "sha256": "073658482d799aea5894f53b393f227622fe717612157d2067339ea0a1448494",
+      "size": 438,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\sources.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\sources.csv",
+      "sha256": "d5b0fc28a0b28d2940499f090b9a96e7452115d492bf273eb321c2715b656230",
+      "size": 1385,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\success_by_budget.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\success_by_budget.csv",
+      "sha256": "98b4bb55af2bf31af2d00f7c9921dcd6c7ab9ca3db87c026ea099b0594a6f203",
+      "size": 94212,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\summary.json",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\precision_ce\\summary.json",
+      "sha256": "d8a51a1a5891801bba80574f81902cfa0fac5919a79958ab25f49b4e4cd18c74",
+      "size": 6052,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\audit.json",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\audit.json",
+      "sha256": "c2b597da970aea0cfe00a04835955de079a5d20ad2a31a90d67b5ba324b4ed5d",
+      "size": 26682,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\fixed_budget_gaps.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\fixed_budget_gaps.csv",
+      "sha256": "0771e117f01396bbc3246fc39121c9418b073bc41ee0f555a22431a291b21c3c",
+      "size": 20305,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\initial_systems.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\initial_systems.csv",
+      "sha256": "aa6a4fcaa455d319fc9a3652f266b4db3bfb62054792141001131ae407fc857c",
+      "size": 1425,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\sample_complexity.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\sample_complexity.csv",
+      "sha256": "66213bc3ce373d2fbe8e4f3ddb145ce72043769e162b527be4317fe4bfa0b92a",
+      "size": 2486,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\success_by_budget.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\success_by_budget.csv",
+      "sha256": "401a1eaa23cbcdc56dab0651dff80cd3e139f1f36abe062cf3a7fb5ed3d48498",
+      "size": 29432,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\summary.json",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_ce\\summary.json",
+      "sha256": "42d962192a618c5839de0551642609ab1524817eb149ff4d88530b55b41c0a21",
+      "size": 43975,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\npg-all-checkpoints.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\npg-all-checkpoints.csv",
+      "sha256": "f94cedbd6a80b63d32d0c342128794c78871b35d9ef09f5a799624cf5e0bff99",
+      "size": 3863588,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\npg-summary.json",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\npg-summary.json",
+      "sha256": "a5a53e4facf91ae9c6f902b864808268359e766a2af1c1eb978b9e14323af2b6",
+      "size": 25880,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\sample_complexity.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\sample_complexity.csv",
+      "sha256": "9c52744e2630f9c6f8e2ea3aff202d78e16506f46faa09e8c3ab9cf14c873fbc",
+      "size": 9774,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\success_by_budget.csv",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\success_by_budget.csv",
+      "sha256": "dc8f2bb98b68fa185be75333e68ae0822855026923110a738cc9a7fa710628ef",
+      "size": 185683,
+      "historical_20261025_hash_verified": true
+    },
+    {
+      "archive_path": "existing-groups\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\summary.json",
+      "source_local": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\04_ce100_matched_gap_and_high_rank\\data\\matched_npg\\summary.json",
+      "sha256": "f5b9b9be5d9e01762b2bf3acd51046ac3bba1b3e2ebda540941ec1634faf27a1",
+      "size": 54093,
+      "historical_20261025_hash_verified": true
+    }
+  ],
+  "count": 128,
+  "source_bundle_count": 96,
+  "new_jobs": 0,
+  "new_SU": 0
+}

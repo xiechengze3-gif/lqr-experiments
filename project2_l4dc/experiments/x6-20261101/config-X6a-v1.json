@@ -1,0 +1,2650 @@
+{
+  "experiment": "X6a",
+  "version": 1,
+  "n_values": [
+    24,
+    36,
+    48,
+    72
+  ],
+  "rank": 2,
+  "blocks": [
+    2048,
+    8192,
+    32768,
+    131072,
+    524288
+  ],
+  "horizon": {
+    "S": 16,
+    "U": 32
+  },
+  "nu": 1.0,
+  "burn_blocks": 16,
+  "ce_burn": 512,
+  "formal_seeds": [
+    1601,
+    1602,
+    1603,
+    1604
+  ],
+  "calibration_seeds": [
+    9601,
+    9602,
+    9603,
+    9604
+  ],
+  "resource_seed": 9701,
+  "formal_systems": {
+    "S": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308
+    ],
+    "U": [
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408
+    ]
+  },
+  "calibration_systems": {
+    "S": [
+      9101,
+      9102
+    ],
+    "U": [
+      9201,
+      9202
+    ]
+  },
+  "formal_U_selection": null,
+  "study_requested_cap_SU": 400,
+  "provisional_X6a_requested_ceiling_SU": 23,
+  "resource_wall_minutes": 15,
+  "resource_cpus": 1,
+  "resource_memory_MiB": 2048,
+  "formal_concurrency": 32,
+  "implicit_retry_count": 0,
+  "resource_tasks": [
+    {
+      "cells": [
+        {
+          "role": "resource",
+          "family": "S",
+          "n": 24,
+          "system": 9102,
+          "seed": 9701
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "role": "resource",
+          "family": "S",
+          "n": 36,
+          "system": 9102,
+          "seed": 9701
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "role": "resource",
+          "family": "S",
+          "n": 48,
+          "system": 9102,
+          "seed": 9701
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "role": "resource",
+          "family": "S",
+          "n": 72,
+          "system": 9102,
+          "seed": 9701
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "role": "resource",
+          "family": "U",
+          "n": 24,
+          "system": 9202,
+          "seed": 9701
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "role": "resource",
+          "family": "U",
+          "n": 36,
+          "system": 9202,
+          "seed": 9701
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "role": "resource",
+          "family": "U",
+          "n": 48,
+          "system": 9202,
+          "seed": 9701
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "role": "resource",
+          "family": "U",
+          "n": 72,
+          "system": 9202,
+          "seed": 9701
+        }
+      ]
+    }
+  ],
+  "formal_tasks": [
+    {
+      "role": "formal",
+      "system_index": 0,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 301,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 301,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 301,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 301,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 401,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 401,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 401,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 401,
+          "seed": 1601
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 0,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 301,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 301,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 301,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 301,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 401,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 401,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 401,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 401,
+          "seed": 1602
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 0,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 301,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 301,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 301,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 301,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 401,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 401,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 401,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 401,
+          "seed": 1603
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 0,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 301,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 301,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 301,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 301,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 401,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 401,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 401,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 401,
+          "seed": 1604
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 1,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 302,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 302,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 302,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 302,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 402,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 402,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 402,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 402,
+          "seed": 1601
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 1,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 302,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 302,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 302,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 302,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 402,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 402,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 402,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 402,
+          "seed": 1602
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 1,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 302,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 302,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 302,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 302,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 402,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 402,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 402,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 402,
+          "seed": 1603
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 1,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 302,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 302,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 302,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 302,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 402,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 402,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 402,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 402,
+          "seed": 1604
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 2,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 303,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 303,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 303,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 303,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 403,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 403,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 403,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 403,
+          "seed": 1601
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 2,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 303,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 303,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 303,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 303,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 403,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 403,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 403,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 403,
+          "seed": 1602
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 2,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 303,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 303,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 303,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 303,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 403,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 403,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 403,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 403,
+          "seed": 1603
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 2,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 303,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 303,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 303,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 303,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 403,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 403,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 403,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 403,
+          "seed": 1604
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 3,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 304,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 304,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 304,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 304,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 404,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 404,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 404,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 404,
+          "seed": 1601
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 3,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 304,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 304,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 304,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 304,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 404,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 404,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 404,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 404,
+          "seed": 1602
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 3,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 304,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 304,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 304,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 304,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 404,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 404,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 404,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 404,
+          "seed": 1603
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 3,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 304,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 304,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 304,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 304,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 404,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 404,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 404,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 404,
+          "seed": 1604
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 4,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 305,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 305,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 305,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 305,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 405,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 405,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 405,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 405,
+          "seed": 1601
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 4,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 305,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 305,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 305,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 305,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 405,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 405,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 405,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 405,
+          "seed": 1602
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 4,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 305,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 305,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 305,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 305,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 405,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 405,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 405,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 405,
+          "seed": 1603
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 4,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 305,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 305,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 305,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 305,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 405,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 405,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 405,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 405,
+          "seed": 1604
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 5,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 306,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 306,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 306,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 306,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 406,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 406,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 406,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 406,
+          "seed": 1601
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 5,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 306,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 306,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 306,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 306,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 406,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 406,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 406,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 406,
+          "seed": 1602
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 5,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 306,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 306,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 306,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 306,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 406,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 406,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 406,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 406,
+          "seed": 1603
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 5,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 306,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 306,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 306,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 306,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 406,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 406,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 406,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 406,
+          "seed": 1604
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 6,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 307,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 307,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 307,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 307,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 407,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 407,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 407,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 407,
+          "seed": 1601
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 6,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 307,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 307,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 307,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 307,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 407,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 407,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 407,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 407,
+          "seed": 1602
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 6,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 307,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 307,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 307,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 307,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 407,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 407,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 407,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 407,
+          "seed": 1603
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 6,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 307,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 307,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 307,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 307,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 407,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 407,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 407,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 407,
+          "seed": 1604
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 7,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 308,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 308,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 308,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 308,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 408,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 408,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 408,
+          "seed": 1601
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 408,
+          "seed": 1601
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 7,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 308,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 308,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 308,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 308,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 408,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 408,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 408,
+          "seed": 1602
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 408,
+          "seed": 1602
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 7,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 308,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 308,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 308,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 308,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 408,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 408,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 408,
+          "seed": 1603
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 408,
+          "seed": 1603
+        }
+      ]
+    },
+    {
+      "role": "formal",
+      "system_index": 7,
+      "cells": [
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 24,
+          "system": 308,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 36,
+          "system": 308,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 48,
+          "system": 308,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "S",
+          "n": 72,
+          "system": 308,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 24,
+          "system": 408,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 36,
+          "system": 408,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 48,
+          "system": 408,
+          "seed": 1604
+        },
+        {
+          "role": "formal",
+          "family": "U",
+          "n": 72,
+          "system": 408,
+          "seed": 1604
+        }
+      ]
+    },
+    {
+      "role": "calibration",
+      "system_index": 0,
+      "cells": [
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 24,
+          "system": 9101,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 36,
+          "system": 9101,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 48,
+          "system": 9101,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 72,
+          "system": 9101,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 24,
+          "system": 9201,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 36,
+          "system": 9201,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 48,
+          "system": 9201,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 72,
+          "system": 9201,
+          "seed": 9601
+        }
+      ]
+    },
+    {
+      "role": "calibration",
+      "system_index": 0,
+      "cells": [
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 24,
+          "system": 9101,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 36,
+          "system": 9101,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 48,
+          "system": 9101,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 72,
+          "system": 9101,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 24,
+          "system": 9201,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 36,
+          "system": 9201,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 48,
+          "system": 9201,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 72,
+          "system": 9201,
+          "seed": 9602
+        }
+      ]
+    },
+    {
+      "role": "calibration",
+      "system_index": 0,
+      "cells": [
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 24,
+          "system": 9101,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 36,
+          "system": 9101,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 48,
+          "system": 9101,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 72,
+          "system": 9101,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 24,
+          "system": 9201,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 36,
+          "system": 9201,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 48,
+          "system": 9201,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 72,
+          "system": 9201,
+          "seed": 9603
+        }
+      ]
+    },
+    {
+      "role": "calibration",
+      "system_index": 0,
+      "cells": [
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 24,
+          "system": 9101,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 36,
+          "system": 9101,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 48,
+          "system": 9101,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 72,
+          "system": 9101,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 24,
+          "system": 9201,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 36,
+          "system": 9201,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 48,
+          "system": 9201,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 72,
+          "system": 9201,
+          "seed": 9604
+        }
+      ]
+    },
+    {
+      "role": "calibration",
+      "system_index": 1,
+      "cells": [
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 24,
+          "system": 9102,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 36,
+          "system": 9102,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 48,
+          "system": 9102,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 72,
+          "system": 9102,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 24,
+          "system": 9202,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 36,
+          "system": 9202,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 48,
+          "system": 9202,
+          "seed": 9601
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 72,
+          "system": 9202,
+          "seed": 9601
+        }
+      ]
+    },
+    {
+      "role": "calibration",
+      "system_index": 1,
+      "cells": [
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 24,
+          "system": 9102,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 36,
+          "system": 9102,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 48,
+          "system": 9102,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 72,
+          "system": 9102,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 24,
+          "system": 9202,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 36,
+          "system": 9202,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 48,
+          "system": 9202,
+          "seed": 9602
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 72,
+          "system": 9202,
+          "seed": 9602
+        }
+      ]
+    },
+    {
+      "role": "calibration",
+      "system_index": 1,
+      "cells": [
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 24,
+          "system": 9102,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 36,
+          "system": 9102,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 48,
+          "system": 9102,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 72,
+          "system": 9102,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 24,
+          "system": 9202,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 36,
+          "system": 9202,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 48,
+          "system": 9202,
+          "seed": 9603
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 72,
+          "system": 9202,
+          "seed": 9603
+        }
+      ]
+    },
+    {
+      "role": "calibration",
+      "system_index": 1,
+      "cells": [
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 24,
+          "system": 9102,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 36,
+          "system": 9102,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 48,
+          "system": 9102,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "S",
+          "n": 72,
+          "system": 9102,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 24,
+          "system": 9202,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 36,
+          "system": 9202,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 48,
+          "system": 9202,
+          "seed": 9604
+        },
+        {
+          "role": "calibration",
+          "family": "U",
+          "n": 72,
+          "system": 9202,
+          "seed": 9604
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "checked_utc": "2026-11-05T05:52:26.484306+00:00",
+  "read_only": true,
+  "studies": [
+    {
+      "id": "supplement-20261101",
+      "exists": true,
+      "csv_files": [
+        "X2/report-ce/all_records.csv",
+        "X2/report-ce/all_statistics.csv",
+        "X2/report-ce/budget_to_epsilon.csv",
+        "X2/report-ce/fixed_budget_ratios.csv",
+        "X2/report-ce/paired_bootstrap_effects.csv",
+        "X2/report-ce/paired_ratios.csv",
+        "X2/report-ce/system_certificates.csv",
+        "X3/report-ce/all_records.csv",
+        "X3/report-ce/all_statistics.csv",
+        "X3/report-ce/fixed_k_envelope.csv",
+        "X3/report-ce/paired_bootstrap_effects.csv",
+        "X3/report-ce/paired_ratios.csv",
+        "X3/report-ce/spectral_tails.csv",
+        "X3/report-ce/system_certificates.csv"
+      ],
+      "records": [
+        {
+          "path": "X2/report-ce/all_records.csv",
+          "bytes": 2623735,
+          "columns": [
+            "experiment",
+            "n",
+            "m",
+            "r",
+            "system",
+            "trial",
+            "spectrum",
+            "null_scale",
+            "algorithm",
+            "mode",
+            "k",
+            "N",
+            "transitions",
+            "noise_proxy",
+            "stable",
+            "rho",
+            "cost",
+            "gap",
+            "relative_gap",
+            "redundant_cost",
+            "assessment_id",
+            "source_json"
+          ],
+          "first": {
+            "n": "12",
+            "m": "12",
+            "r": "2",
+            "system": "201",
+            "trial": "1101",
+            "spectrum": "exact",
+            "mode": "dense",
+            "N": "96",
+            "transitions": "608"
+          }
+        },
+        {
+          "path": "X3/report-ce/all_records.csv",
+          "bytes": 11009775,
+          "columns": [
+            "experiment",
+            "n",
+            "m",
+            "r",
+            "system",
+            "trial",
+            "spectrum",
+            "null_scale",
+            "algorithm",
+            "mode",
+            "k",
+            "N",
+            "transitions",
+            "noise_proxy",
+            "stable",
+            "rho",
+            "cost",
+            "gap",
+            "relative_gap",
+            "assessment_id",
+            "source_json",
+            "failure",
+            "threshold",
+            "redundant_cost"
+          ],
+          "first": {
+            "n": "16",
+            "m": "16",
+            "r": "16",
+            "system": "301",
+            "trial": "1201",
+            "spectrum": "smooth",
+            "mode": "dense",
+            "N": "128",
+            "transitions": "640"
+          }
+        }
+      ],
+      "raw_count_shallow": 0,
+      "raw_example": null
+    },
+    {
+      "id": "x7-20261102",
+      "exists": true,
+      "csv_files": [
+        "report-v1/summary/adaptive_orders.csv",
+        "report-v1/summary/all_records.csv",
+        "report-v1/summary/log_slopes.csv",
+        "report-v1/summary/model_certificates.csv",
+        "report-v1/summary/paired_ratios.csv",
+        "report-v1/summary/paired_records.csv",
+        "report-v1/summary/posthoc_best_fixed.csv",
+        "report-v1/summary/spectral_tails.csv",
+        "report-v1/summary/summary.csv"
+      ],
+      "records": [
+        {
+          "path": "report-v1/summary/all_records.csv",
+          "bytes": 4515458,
+          "columns": [
+            "experiment",
+            "n",
+            "m",
+            "r",
+            "system",
+            "trial",
+            "spectrum",
+            "algorithm",
+            "N",
+            "transitions",
+            "mode",
+            "k",
+            "threshold",
+            "constant",
+            "kind",
+            "label",
+            "noise_proxy",
+            "policy_key",
+            "stable",
+            "rho",
+            "cost",
+            "gap",
+            "relative_gap",
+            "cost_identity_error",
+            "full_denominator",
+            "model_sha256",
+            "tau_k_squared",
+            "beta_k",
+            "unscaled_tradeoff",
+            "tradeoff_label",
+            "smallest_retained_true_sigma",
+            "next_true_sigma"
+          ],
+          "first": {
+            "n": "24",
+            "m": "24",
+            "r": "24",
+            "system": "501",
+            "trial": "1801",
+            "spectrum": "geometric",
+            "N": "192",
+            "transitions": "704",
+            "mode": "dense"
+          }
+        }
+      ],
+      "raw_count_shallow": 0,
+      "raw_example": null
+    },
+    {
+      "id": "ce-npg-arguments-20261028",
+      "exists": true,
+      "csv_files": [
+        "report/NPG_first_and_confirmed_hits.csv",
+        "report/aggregate.csv",
+        "report/all_records.csv",
+        "report/endpoint_all_denominators.csv",
+        "report/failed_outputs.csv",
+        "report/fixed_accuracy.csv",
+        "report/matched_budget_statistics.csv",
+        "report/paired_gap_effects.csv",
+        "report/paired_mechanism.csv",
+        "report/rank_envelopes.csv",
+        "report/same_blocks_diagnostic.csv",
+        "report/sampling_accounting.csv"
+      ],
+      "records": [
+        {
+          "path": "report/all_records.csv",
+          "bytes": 26162954,
+          "columns": [
+            "algorithm",
+            "n",
+            "r",
+            "A_family",
+            "spectrum",
+            "system",
+            "trial",
+            "task_id",
+            "reused",
+            "mode",
+            "k",
+            "N",
+            "transitions",
+            "budget_factor",
+            "noise_proxy",
+            "threshold",
+            "B_error_op",
+            "A_error_op",
+            "tau2",
+            "bound_shape",
+            "stable",
+            "rho",
+            "gap",
+            "cost",
+            "relative_gap",
+            "redundant_cost",
+            "projected_cost",
+            "decomposition_residual",
+            "P_relative_max",
+            "NPG_containment",
+            "CE_containment",
+            "projected_gap",
+            "stage",
+            "actual_transitions_at_output",
+            "retained_rank",
+            "gram_condition",
+            "failure",
+            "beta"
+          ],
+          "first": {
+            "n": "12",
+            "r": "2",
+            "spectrum": "exact",
+            "system": "101",
+            "trial": "100",
+            "mode": "dense",
+            "N": "96",
+            "transitions": "240"
+          }
+        }
+      ],
+      "raw_count_shallow": 3240,
+      "raw_example": "raw/s101-t100-CE-dense-exact-n24-r1-shared.json"
+    },
+    {
+      "id": "manuscript-three-groups-20261027",
+      "exists": true,
+      "csv_files": [
+        "report/aggregate.csv",
+        "report/all_records.csv",
+        "report/approximate_rank_envelopes.csv",
+        "report/exact_dimension_scaling.csv",
+        "report/exact_redundant_mechanism.csv",
+        "report/paired_effects_bootstrap.csv",
+        "report/same_blocks_diagnostic.csv",
+        "report/same_blocks_summary.csv",
+        "report/sampling_accounting.csv"
+      ],
+      "records": [
+        {
+          "path": "report/all_records.csv",
+          "bytes": 5606439,
+          "columns": [
+            "algorithm",
+            "n",
+            "A_family",
+            "spectrum",
+            "system",
+            "trial",
+            "task_id",
+            "mode",
+            "k",
+            "N",
+            "transitions",
+            "budget_factor",
+            "noise_proxy",
+            "threshold",
+            "B_error_op",
+            "A_error_op",
+            "tau2",
+            "bound_shape",
+            "stable",
+            "rho",
+            "gap",
+            "cost",
+            "relative_gap",
+            "redundant_cost",
+            "projected_cost",
+            "decomposition_residual",
+            "stage",
+            "retained_rank",
+            "gram_condition"
+          ],
+          "first": {
+            "n": "12",
+            "spectrum": "exact",
+            "system": "101",
+            "trial": "100",
+            "mode": "dense",
+            "N": "96",
+            "transitions": "240"
+          }
+        }
+      ],
+      "raw_count_shallow": 576,
+      "raw_example": "raw/s101-t100-00.json"
+    },
+    {
+      "id": "ce-npg-initial-gap-20261028",
+      "exists": true,
+      "csv_files": [
+        "report/aggregate_absolute_relative.csv",
+        "report/attainment_absolute_relative.csv",
+        "report/attainment_side_by_side.csv",
+        "report/censored_cohorts.csv",
+        "report/failed_outputs_preserved.csv",
+        "report/initial_gap_by_task.csv",
+        "report/normalized_records.csv",
+        "report/per_run_attainment_and_censoring.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 0,
+      "raw_example": null
+    },
+    {
+      "id": "cross-rank-709f81b14811afb5",
+      "exists": true,
+      "csv_files": [
+        "report/endpoints.csv"
+      ],
+      "records": [
+        {
+          "path": "report/endpoints.csv",
+          "bytes": 98584,
+          "columns": [
+            "algorithm",
+            "profile",
+            "method",
+            "n",
+            "r",
+            "seed",
+            "tail",
+            "N",
+            "transitions",
+            "planned_transitions",
+            "gap",
+            "stable",
+            "complete",
+            "solver_ok",
+            "failure",
+            "eligible"
+          ],
+          "first": {
+            "method": "raw",
+            "n": "50",
+            "r": "1",
+            "seed": "0",
+            "N": "512",
+            "transitions": "1024"
+          }
+        }
+      ],
+      "raw_count_shallow": 36,
+      "raw_example": "ce/raw/task-000.json"
+    },
+    {
+      "id": "ce-high-rank-fb68e24f9cb40c74",
+      "exists": true,
+      "csv_files": [
+        "report/endpoints.csv",
+        "report/sample_to_accuracy.csv",
+        "report/sources.csv",
+        "report/success_by_budget.csv"
+      ],
+      "records": [
+        {
+          "path": "report/endpoints.csv",
+          "bytes": 9279,
+          "columns": [
+            "rank",
+            "seed",
+            "method",
+            "budget",
+            "absolute_gap",
+            "g",
+            "stable",
+            "success",
+            "failure",
+            "origin"
+          ],
+          "first": {
+            "rank": "16",
+            "seed": "0",
+            "method": "raw",
+            "budget": "1024"
+          }
+        }
+      ],
+      "raw_count_shallow": 4,
+      "raw_example": "raw/task-000.json"
+    },
+    {
+      "id": "ce-precision-zoom-b73def112743b7ae",
+      "exists": true,
+      "csv_files": [
+        "report/endpoints.csv",
+        "report/historical_replay_checks.csv",
+        "report/per_seed_attainment.csv",
+        "report/sample_to_accuracy.csv",
+        "report/sources.csv",
+        "report/success_by_budget.csv"
+      ],
+      "records": [
+        {
+          "path": "report/endpoints.csv",
+          "bytes": 145054,
+          "columns": [
+            "rank",
+            "seed",
+            "method",
+            "budget",
+            "absolute_gap",
+            "stable",
+            "success"
+          ],
+          "first": {
+            "rank": "16",
+            "seed": "0",
+            "method": "raw",
+            "budget": "1024"
+          }
+        }
+      ],
+      "raw_count_shallow": 8,
+      "raw_example": "raw/task-000.json"
+    },
+    {
+      "id": "ce-matched-initial-gap-20261018",
+      "exists": true,
+      "csv_files": [
+        "report-confirm/all_checkpoints.csv",
+        "report-confirm/fixed_budget_gaps.csv",
+        "report-confirm/initial_systems.csv",
+        "report-confirm/low_rank_vs_full_rank.csv",
+        "report-confirm/sample_complexity.csv",
+        "report-confirm/success_by_budget.csv",
+        "report-pilot/all_checkpoints.csv",
+        "report-pilot/fixed_budget_gaps.csv",
+        "report-pilot/initial_systems.csv",
+        "report-pilot/low_rank_vs_full_rank.csv",
+        "report-pilot/sample_complexity.csv",
+        "report-pilot/success_by_budget.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 175,
+      "raw_example": "raw/ce-r002-s0000.json"
+    },
+    {
+      "id": "ce500-common-constants-20261022",
+      "exists": true,
+      "csv_files": [
+        "report-confirm/all_checkpoints.csv",
+        "report-confirm/fixed_budget_gaps.csv",
+        "report-confirm/initial_systems.csv",
+        "report-confirm/rank_normalized_sample_complexity.csv",
+        "report-confirm/same_accuracy_sample_gain.csv",
+        "report-confirm/sample_complexity.csv",
+        "report-confirm/success_by_budget.csv",
+        "report-pilot/all_checkpoints.csv",
+        "report-pilot/fixed_budget_gaps.csv",
+        "report-pilot/initial_systems.csv",
+        "report-pilot/rank_normalized_sample_complexity.csv",
+        "report-pilot/same_accuracy_sample_gain.csv",
+        "report-pilot/sample_complexity.csv",
+        "report-pilot/success_by_budget.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 160,
+      "raw_example": "raw/ce-r002-s0700.json"
+    },
+    {
+      "id": "ce500-common-rank-extension-20261023-v2",
+      "exists": true,
+      "csv_files": [
+        "report-confirm/all_checkpoints.csv",
+        "report-confirm/coarse_reference_same_accuracy_sample_gain.csv",
+        "report-confirm/coarse_reference_sample_complexity.csv",
+        "report-confirm/fixed_budget_gaps.csv",
+        "report-confirm/initial_systems.csv",
+        "report-confirm/rank_normalized_sample_complexity.csv",
+        "report-confirm/same_accuracy_sample_gain.csv",
+        "report-confirm/sample_complexity.csv",
+        "report-confirm/success_by_budget.csv",
+        "report-pilot/all_checkpoints.csv",
+        "report-pilot/coarse_reference_same_accuracy_sample_gain.csv",
+        "report-pilot/coarse_reference_sample_complexity.csv",
+        "report-pilot/fixed_budget_gaps.csv",
+        "report-pilot/initial_systems.csv",
+        "report-pilot/rank_normalized_sample_complexity.csv",
+        "report-pilot/same_accuracy_sample_gain.csv",
+        "report-pilot/sample_complexity.csv",
+        "report-pilot/success_by_budget.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 96,
+      "raw_example": "raw/ce-r070-s0700.json"
+    },
+    {
+      "id": "ce500-r300-fine-20261023-v1",
+      "exists": true,
+      "csv_files": [
+        "report-confirm/sample_complexity.csv",
+        "report-confirm/success_by_budget.csv",
+        "report-pilot/sample_complexity.csv",
+        "report-pilot/success_by_budget.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 32,
+      "raw_example": "raw/ce-r300-s0700.json"
+    },
+    {
+      "id": "ce500-zero-init-20261022",
+      "exists": true,
+      "csv_files": [],
+      "records": [],
+      "raw_count_shallow": 0,
+      "raw_example": null
+    },
+    {
+      "id": "ce500-independent-stabilizer-20261022",
+      "exists": true,
+      "csv_files": [
+        "report-confirm/all_checkpoints.csv",
+        "report-confirm/fixed_budget_gaps.csv",
+        "report-confirm/initial_systems.csv",
+        "report-confirm/sample_complexity.csv",
+        "report-confirm/success_by_budget.csv",
+        "report-pilot/all_checkpoints.csv",
+        "report-pilot/fixed_budget_gaps.csv",
+        "report-pilot/initial_systems.csv",
+        "report-pilot/sample_complexity.csv",
+        "report-pilot/success_by_budget.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 160,
+      "raw_example": "raw/ce-r002-s0500.json"
+    },
+    {
+      "id": "ce500-matched-gap-20261019",
+      "exists": true,
+      "csv_files": [
+        "report-confirm/all_checkpoints.csv",
+        "report-confirm/executed_budget_gaps.csv",
+        "report-confirm/executed_budget_success_envelopes.csv",
+        "report-confirm/fixed_budget_gaps.csv",
+        "report-confirm/initial_systems.csv",
+        "report-confirm/low_rank_vs_full_rank.csv",
+        "report-confirm/sample_complexity.csv",
+        "report-confirm/success_by_budget.csv",
+        "report-pilot/all_checkpoints.csv",
+        "report-pilot/fixed_budget_gaps.csv",
+        "report-pilot/initial_systems.csv",
+        "report-pilot/low_rank_vs_full_rank.csv",
+        "report-pilot/sample_complexity.csv",
+        "report-pilot/success_by_budget.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 175,
+      "raw_example": "raw/ce-r002-s0000.json"
+    },
+    {
+      "id": "ce500-random-a-20261020",
+      "exists": true,
+      "csv_files": [
+        "report-confirm/adjacent_gain_ratios.csv",
+        "report-confirm/all_checkpoints.csv",
+        "report-confirm/charged_checkpoints.csv",
+        "report-confirm/executed_adjacent_gain_ratios.csv",
+        "report-confirm/executed_gap_convergence.csv",
+        "report-confirm/executed_low_rank_vs_full_rank.csv",
+        "report-confirm/executed_sample_complexity.csv",
+        "report-confirm/executed_success_by_budget.csv",
+        "report-confirm/fixed_budget_gaps.csv",
+        "report-confirm/initial_systems.csv",
+        "report-confirm/low_rank_vs_full_rank.csv",
+        "report-confirm/policy_spectral_diagnostics.csv",
+        "report-confirm/same_rank_dense_vs_truncated.csv",
+        "report-confirm/sample_complexity.csv",
+        "report-confirm/success_by_budget.csv",
+        "report-pilot/adjacent_gain_ratios.csv",
+        "report-pilot/all_checkpoints.csv",
+        "report-pilot/fixed_budget_gaps.csv",
+        "report-pilot/initial_systems.csv",
+        "report-pilot/low_rank_vs_full_rank.csv",
+        "report-pilot/same_rank_dense_vs_truncated.csv",
+        "report-pilot/sample_complexity.csv",
+        "report-pilot/success_by_budget.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 175,
+      "raw_example": "raw/ce-r002-s0000.json"
+    },
+    {
+      "id": "ce500-equal-modes-20261020",
+      "exists": true,
+      "csv_files": [
+        "report-confirm/adjacent_gain_ratios.csv",
+        "report-confirm/all_checkpoints.csv",
+        "report-confirm/charged_checkpoints.csv",
+        "report-confirm/executed_adjacent_gain_ratios.csv",
+        "report-confirm/executed_gap_convergence.csv",
+        "report-confirm/executed_low_rank_vs_full_rank.csv",
+        "report-confirm/executed_sample_complexity.csv",
+        "report-confirm/executed_success_by_budget.csv",
+        "report-confirm/fixed_budget_gaps.csv",
+        "report-confirm/initial_systems.csv",
+        "report-confirm/low_rank_vs_full_rank.csv",
+        "report-confirm/policy_spectral_diagnostics.csv",
+        "report-confirm/sample_complexity.csv",
+        "report-confirm/success_by_budget.csv",
+        "report-pilot/all_checkpoints.csv",
+        "report-pilot/fixed_budget_gaps.csv",
+        "report-pilot/initial_systems.csv",
+        "report-pilot/low_rank_vs_full_rank.csv",
+        "report-pilot/sample_complexity.csv",
+        "report-pilot/success_by_budget.csv"
+      ],
+      "records": [],
+      "raw_count_shallow": 175,
+      "raw_example": "raw/ce-r002-s0000.json"
+    }
+  ]
+}

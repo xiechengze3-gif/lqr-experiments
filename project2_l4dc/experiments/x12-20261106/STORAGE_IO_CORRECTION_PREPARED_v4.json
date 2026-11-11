@@ -1,0 +1,8 @@
+{
+  "status": "CORRECTED_IO_SOURCE_PREPARED_NOT_RUN",
+  "source_sha256": "fd4e72cde181ea9bfffff4fbe356706550759a705f9390b694dbd33c3c9c363a",
+  "base_source_sha256": "e807979df9c0e97d081966a5e2b45d54a7264c2cb0f26c12442ff729a578d8c5",
+  "changes": "Use verified original disk NPZ bytes as reference, no memfd/fallback/named reference files; create only new output directory on MDT0; measure per-compute-node tmp bounds for all64 cache/report use.",
+  "new_training_transitions": 0,
+  "new_jobs": 0
+}

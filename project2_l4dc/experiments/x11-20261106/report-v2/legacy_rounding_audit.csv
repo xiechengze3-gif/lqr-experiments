@@ -1,0 +1,5 @@
+n,m,arm,full_precision_raw_cross,original_csv_cross,original_input_cross,raw_vs_original_difference,explanation
+16,16,dense,9288.13291685879,9288.13291685879,9288.13291685879,0.0,X10a full-precision saved records reproduce unchanged original row.
+16,16,truncated,2575.0146827103686,2575.0146827103686,2575.0146827103686,0.0,X10a full-precision saved records reproduce unchanged original row.
+48,48,dense,82249.85451744928,82250.15453434255,82250.15453434255,-0.30001689327764325,Old X6a paper CSV uses 5-significant-digit report transcription; new rows use full precision.
+48,48,truncated,8116.886569355464,8116.907038135883,8116.907038135883,-0.020468780418923416,Old X6a paper CSV uses 5-significant-digit report transcription; new rows use full precision.

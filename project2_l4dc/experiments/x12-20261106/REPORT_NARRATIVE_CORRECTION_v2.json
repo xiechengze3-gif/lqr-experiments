@@ -1,0 +1,8 @@
+{
+  "status": "REPORT_NARRATIVE_CORRECTION_ONLY_NOT_DEPLOYED",
+  "old_sha256": "55d9257b4573aa879bb9d5a1fdfc7c7f3e9cc7b80be54bdce73719b677411c9c",
+  "new_sha256": "e366aa0e12a49d6a4b6f12695e0d9bba75b9b6d8c7327ea8bcfba009bb9df727",
+  "correction": "Clarify no gain clipping; registered PI PSD regularization remains. No algorithm/statistic/plot primitive change.",
+  "new_transitions": 0,
+  "new_jobs": 0
+}

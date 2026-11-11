@@ -1,0 +1,151 @@
+{
+  "experiment": "matched-gap-npg-pi-v2-20261019",
+  "n": 100,
+  "ranks": [
+    2,
+    8,
+    32,
+    64,
+    100
+  ],
+  "initial_gap": 1.0,
+  "relative_targets": [
+    0.1,
+    0.05
+  ],
+  "epsilon": 0.1,
+  "sampling_seed": 761032,
+  "sigma": 2.0,
+  "burn": 256,
+  "pilot_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "confirm_seeds": [
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329
+  ],
+  "required_success_fraction": 0.9,
+  "blas_threads_per_worker": 1,
+  "system_artifact_sha256": {
+    "2": "4caf1b23a39e310b43d0148a6ba99caf562c06e6060db9b26824d8e12bc3975e",
+    "8": "29efbb1ed7fb7305824adecc493a069bf04b91fce265dccd4308178f72c3456d",
+    "32": "ce40a712db45a1803edf0d522ff7e6ea9e7f52d905d4cbce96913c70eb00331e",
+    "64": "62c9a578bd3ea2497d5927a7dea5654058ee64e508140a0269c7f734b64c3c5b",
+    "100": "8cbd8fbf7f1315bf733454589854f0ef6838d4fe01edea085e58b366cade1d24"
+  },
+  "ce_source": "/scratch/user/changze/lqr_experiments/results/ce-matched-initial-gap-20261018",
+  "output": "/scratch/user/changze/lqr_experiments/results/matched-gap-npg-pi-v2-20261019",
+  "cache": "/scratch/user/changze/lqr_experiments/cache/matched-gap-npg-pi-v2-20261019",
+  "temp": "/scratch/user/changze/lqr_experiments/tmp/matched-gap-npg-pi-v2-20261019",
+  "local_output": "E:/ChatGPT/Results/LQR_experiments/matched-gap-npg-pi-v2-20261019",
+  "npg": {
+    "eta": 0.05,
+    "horizon": 4,
+    "schedule_segments": [
+      [
+        16384,
+        8
+      ],
+      [
+        65536,
+        8
+      ],
+      [
+        262144,
+        8
+      ],
+      [
+        1048576,
+        8
+      ],
+      [
+        4194304,
+        8
+      ],
+      [
+        4194304,
+        4
+      ]
+    ],
+    "chunk_size": 1024,
+    "oracle_updates": 64
+  },
+  "pi": {
+    "solver_rtol": 1E-06,
+    "solver_attempts": [
+      [
+        100,
+        20
+      ],
+      [
+        200,
+        20
+      ]
+    ],
+    "batch_schedule": [
+      65536,
+      262144,
+      1048576,
+      2097152
+    ],
+    "data_chunk": 65536,
+    "oracle_updates": 16,
+    "memory_verification_schedule": [
+      2097152,
+      65536
+    ]
+  },
+  "resources": {
+    "account": "132685389143",
+    "total_cap_core_hours": 300,
+    "planning_actual_core_hours": [
+      180,
+      240
+    ],
+    "npg_task_wall_minutes": 50,
+    "pi_pilot_task_wall_minutes": 60,
+    "pi_formal_bundle_wall_minutes": 228,
+    "npg_memory_GiB": 2,
+    "pi_memory_GiB": 7,
+    "cpus": 1,
+    "max_concurrency": 30,
+    "automatic_retries": 0,
+    "manual_recovery_cap_core_hours": 10,
+    "initial_worst_case_reserved_core_hours": 287,
+    "current_balance_SU": 8733.89,
+    "balance_checked_date": "2026-10-19"
+  },
+  "ce_audit_output": "/scratch/user/changze/lqr_experiments/results/matched-gap-npg-pi-20261019/ce-identification-audit"
+}

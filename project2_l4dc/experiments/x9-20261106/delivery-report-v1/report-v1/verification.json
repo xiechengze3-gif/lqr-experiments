@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "config_sha256": "580561a73a44a652a3e909b10fd60fb68aab7b79c4e900eee7b7f86b5e8a3dcd",
+  "source_sha256": "7eafc31a73ab8e3f8924561d4892682e8bf73f57b06b5c321018494792a773bd",
+  "summary_rows": 80,
+  "endpoint_rows": 2560,
+  "zero_new_training_transitions": true,
+  "job": "20415797",
+  "alpha_zero_reused_in_full": true,
+  "files": {
+    "summary.csv": "33c01a99353de25968b63953b3b596393a236b8196b53dfe8ab19113858a1aaa",
+    "endpoints.csv": "fc3f2e1973bedc537f699709afde66ef26862bbc11f5c715ed86f014a4660cea",
+    "new_stages.csv": "aa186587593e2f866155b796da059dc9203bc35a655b8c4e03311adc2d417fcc",
+    "new_paired_endpoints.csv": "0d4bfaea394cb5d4e4155cbb68a4649f4aab0d11a385d9b5fadbe813e1606581",
+    "transitions_saved_derived.csv": "0d7377d529dbb05d6e029b42d29543cd974379af04f65f63c8cda46427c0a1b1",
+    "failures.csv": "a246a5d57e6e6ab432b21cf16d248d865174f70cedf037e69a3ecdfdf2de4032"
+  }
+}

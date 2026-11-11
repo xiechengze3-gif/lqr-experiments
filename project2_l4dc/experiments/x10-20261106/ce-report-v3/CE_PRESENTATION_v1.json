@@ -1,0 +1,24 @@
+{
+  "status": "SAVED_CE_CSV_FIGURES_FAILURE_RATES_RENDERED",
+  "source_sha256": "290180bd519c7a01e284053481df943635b86e53fa2cb62b7be0fc58f853c0a7",
+  "report_done_sha256": "e64c8d09d2783bf15b7f04c33b0116221a56fc8c502f00fa4bf4df54051f3c22",
+  "config_sha256": "0c3181d6f30e15ea714f221cd286a9226d918373e5b19a47475f892593ad58ce",
+  "counts": {
+    "new_sample_cost": 32,
+    "new_dimension": 7,
+    "new_normalized": 24,
+    "new_failures": 8
+  },
+  "new_training_transitions": 0,
+  "Grace_SU": 0,
+  "Slurm_job_id": null,
+  "files": {
+    "figures/ce_main_eps_0.01.png": "a6713eb675cfae2675d39d12d753d9ab556ecfafc042e69cb67a1685f77ecb03",
+    "figures/ce_main_eps_0.01.svg": "efce3561df5c3ed203d79c1286bc9a55a3f0f0b1ee6f7f90130e6078759ce66e",
+    "figures/ce_main_eps_0.005.png": "d7b0ddbf50faf5cfa8f56f0f30a61818b57f204c957970c09880478221810915",
+    "figures/ce_main_eps_0.005.svg": "da4dc510b83b258b8e363b4dc726ff128f73d18a6dce8859deb130c273f0ffff",
+    "SCIENCE_REPORT.md": "4f8166feb3d50f2e36ccda519ee1187d17cc8bc693f6af464d8ac9dc90be933f",
+    "all_failure_rates_by_prefix.csv": "2d6f4744865a58a1c835e4d87137e92efdb704f7bba2801f470b8788c1c4c030",
+    "plotted_curve_failure_rates.csv": "fb8f352604dd8f9c5ad16c0ce772c4ee53ebdd22622e5d69095188f804db1336"
+  }
+}

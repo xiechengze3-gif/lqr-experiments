@@ -1,0 +1,260 @@
+{
+  "status": "PASS",
+  "epoch": 1792782703.583343,
+  "jobs": {
+    "r2": {
+      "array_or_job": "20266676",
+      "records": [
+        {
+          "JobId": "20266676",
+          "JobState": "PENDING",
+          "TimeLimit": "00:27:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "(null)",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266690",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:27:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266689",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:27:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266688",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:27:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266687",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:27:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        }
+      ]
+    },
+    "r4": {
+      "array_or_job": "20266677",
+      "records": [
+        {
+          "JobId": "20266677",
+          "JobState": "PENDING",
+          "TimeLimit": "00:34:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "(null)",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266694",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:34:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266693",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:34:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266692",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:34:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266691",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:34:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        }
+      ]
+    },
+    "r8": {
+      "array_or_job": "20266678",
+      "records": [
+        {
+          "JobId": "20266678",
+          "JobState": "PENDING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "(null)",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266698",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266697",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266696",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266695",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        }
+      ]
+    },
+    "r32": {
+      "array_or_job": "20266680",
+      "records": [
+        {
+          "JobId": "20266680",
+          "JobState": "PENDING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "(null)",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266702",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266701",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266700",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266699",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:37:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        }
+      ]
+    },
+    "r500": {
+      "array_or_job": "20266682",
+      "records": [
+        {
+          "JobId": "20266682",
+          "JobState": "PENDING",
+          "TimeLimit": "00:35:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "(null)",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266706",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:35:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266705",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:35:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266704",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:35:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        },
+        {
+          "JobId": "20266703",
+          "JobState": "RUNNING",
+          "TimeLimit": "00:35:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "Dependency": "(null)"
+        }
+      ]
+    },
+    "audits": {
+      "array_or_job": "20266683",
+      "records": [
+        {
+          "JobId": "20266683",
+          "JobState": "PENDING",
+          "TimeLimit": "00:25:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "(null)",
+          "Dependency": "afterok:20266676_*(unfulfilled),afterok:20266677_*(unfulfilled),afterok:20266678_*(unfulfilled),afterok:20266680_*(unfulfilled),afterok:20266682_*(unfulfilled)"
+        }
+      ]
+    },
+    "report": {
+      "array_or_job": "20266684",
+      "records": [
+        {
+          "JobId": "20266684",
+          "JobState": "PENDING",
+          "TimeLimit": "00:20:00",
+          "ReqTRES": "cpu=1,mem=2G,node=1,billing=1",
+          "AllocTRES": "(null)",
+          "Dependency": "afterok:20266683_*(unfulfilled)"
+        }
+      ]
+    }
+  },
+  "science_release_unchanged": true,
+  "post_submission_ledger_note": "Original ledger rejects AllocCPUS=0 on unallocated PENDING jobs; all seven submissions succeeded; resources independently verified from ReqTRES/AllocTRES. No resubmission performed.",
+  "total_worst_case_SU_bound": 97.09194444444444
+}

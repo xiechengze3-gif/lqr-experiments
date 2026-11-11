@@ -1,0 +1,11 @@
+{
+  "status": "ALL_41_ALLOCATIONS_SETTLED",
+  "accounting_file": "accounting-20261103T000843.json",
+  "sha256": "ae6b17daa8b695aeff8c456f4a02a20e2cd12fd8d70f2b253030a8487905c7f0",
+  "checked_utc": "2026-11-03T00:08:43.659495+00:00",
+  "actual_SU": 0.37277777777777765,
+  "requested_bound_SU": 4.6000000000000005,
+  "cap_SU": 15,
+  "prior_delivery_unchanged": true,
+  "note": "Slurm elapsed and AMS settled now agree. They represent the same cost, never add them."
+}

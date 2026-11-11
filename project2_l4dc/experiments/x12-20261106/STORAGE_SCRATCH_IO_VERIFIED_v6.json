@@ -1,0 +1,52 @@
+{
+  "job": "20425346",
+  "allocation_state": "COMPLETED",
+  "elapsed_seconds": 12,
+  "zero_observations": true,
+  "allocation_billing": 1,
+  "actual_SU": 0.0033333333333333335,
+  "files": {
+    "pilot-DONE.json": {
+      "bytes": 164017,
+      "sha256": "2ad8a1a2cdf7fa88b109994657941c58d8b5641561a0ea745ec52d985ed29b32"
+    },
+    "pilot-NPG.tar": {
+      "bytes": 47892480,
+      "sha256": "fd403f1136b7be9af0b7d3f908d2f56692a32d96edd3cf2bd6267d1902491782"
+    },
+    "pilot-NPG.jsonl": {
+      "bytes": 117621,
+      "sha256": "76b58547a73d6a1b5075b4c64c6e492a381d0c8afa12bdfdae53c975b15f09bc"
+    },
+    "pilot-PI.tar": {
+      "bytes": 22456320,
+      "sha256": "7d2dabdc9da3066b7c4ecbe66734c6a4f6e0fc8d2632149d234b0209f70ff61e"
+    },
+    "pilot-PI.jsonl": {
+      "bytes": 60145,
+      "sha256": "d6516a3f6a3f7d838d5913986b60d11d97c400255c76a5a0f68860e3941b12ce"
+    },
+    "storage-io-v6-20425346.out": {
+      "bytes": 1102,
+      "sha256": "848aff6cb3e173c9ba27ed84473a584b42a87d4ea531b1ef6163795b707ad1da"
+    },
+    "submit-BEGIN.json": {
+      "bytes": 14163,
+      "sha256": "c1635e0225962d4ea825a02c6ea38c27800e6adf27e59011cd2c3bee87e73d24"
+    },
+    "submit-RESPONSE.json": {
+      "bytes": 510,
+      "sha256": "6b99c25dd563be653d3782669f2bfa0e6e01269625f51797858e6ed9d197a541"
+    },
+    "submit-DONE.json": {
+      "bytes": 414,
+      "sha256": "afa2e4ff5279a8a9eb426722f78cb6975eb40ed90bb7fbe18e31d4d903c06c34"
+    }
+  },
+  "limits": {
+    "NPG": 8073216,
+    "PI": 3855360
+  },
+  "status": "ACTIVE_IO_PILOT_ARCHIVES_VERIFIED_ON_E",
+  "pilot_done_sha256": "2ad8a1a2cdf7fa88b109994657941c58d8b5641561a0ea745ec52d985ed29b32"
+}

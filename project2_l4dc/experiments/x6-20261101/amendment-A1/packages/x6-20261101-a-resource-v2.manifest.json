@@ -1,0 +1,36 @@
+{
+  "name": "x6-20261101-a-resource-v2",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\amendment-A1\\packages\\x6-20261101-a-resource-v2.tar.gz",
+  "archive_sha256": "0f5649b891275205e2d71d878ed5608760ba32d7c8cca39564301de5df6738f1",
+  "plan": {
+    "id": "x6-20261101-a-resource-v2",
+    "experiment": "X6a",
+    "stage": "PILOT",
+    "tasks": 8,
+    "concurrency": 8,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 15,
+    "requested_bound_SU": 2.0
+  },
+  "approval": {
+    "experiment": "X6a",
+    "accepted_stage": "PROTOCOL",
+    "exact_quote": "### Review 20:20 CDT (Claude) \u2014 X6a PROTOCOL v1: ACCEPTED with one amendment",
+    "task_sha256": "8402806fe587949a60766ecf29e1b0a8743eec7c4651f497df2cb90a6fb5ef51",
+    "protocol_manifest_sha256": "037b05ce3114fe395e0a369911069974295f918120e29f62be41fbfbcfc4b070"
+  },
+  "hashes": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "config-X6a-v2.json": "3f0e7c9decb95e39e3a1c6fd26d1c617f329f41484ca07473f564cc3f1b3ecd2",
+    "PROTOCOL_X6a_A1.md": "9ca6a27c6d6effbf96d35e963f626f3bd0e9920f36f4954b825d362bae76eac0",
+    "remote_ops.py": "a1aa7c5920d939345b01c77d6d919d787eb77a8b48bf4de7f007da8243c8d55a",
+    "accounting.py": "b0322c8a400b9910c15f78e1c63ad428827e418bd4c59f328035a51295a60470",
+    "PROTOCOL_SHA256SUMS": "037b05ce3114fe395e0a369911069974295f918120e29f62be41fbfbcfc4b070",
+    "CLAUDE_TASK_approved.md": "8402806fe587949a60766ecf29e1b0a8743eec7c4651f497df2cb90a6fb5ef51",
+    "approval.json": "8c467a56f71dc990dd6b77924186d921eb065a314ced2f95ca830f3be206a0b1",
+    "job_plan.json": "d05820f1092ff2dbd21f51c4361eea048aac0ff70b7c757d20e5bd63ea2210c1",
+    "run.sbatch": "d9bef08a59acad4334a8bfbc574d599acba32062d143a556c8f3208d2852154e"
+  }
+}

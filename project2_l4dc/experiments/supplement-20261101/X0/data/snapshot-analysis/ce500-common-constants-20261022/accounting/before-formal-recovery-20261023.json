@@ -1,0 +1,90 @@
+{
+  "allocated_core_hours": 4.258611111111111,
+  "own_jobs": [
+    {
+      "job": "20254574",
+      "state": "COMPLETED",
+      "elapsed": 385,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_0",
+      "state": "COMPLETED",
+      "elapsed": 1167,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_1",
+      "state": "COMPLETED",
+      "elapsed": 1167,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_2",
+      "state": "COMPLETED",
+      "elapsed": 1503,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_3",
+      "state": "COMPLETED",
+      "elapsed": 1485,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_4",
+      "state": "COMPLETED",
+      "elapsed": 1621,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_5",
+      "state": "COMPLETED",
+      "elapsed": 1583,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_6",
+      "state": "COMPLETED",
+      "elapsed": 1585,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_7",
+      "state": "COMPLETED",
+      "elapsed": 1656,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_8",
+      "state": "COMPLETED",
+      "elapsed": 1530,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254680_9",
+      "state": "COMPLETED",
+      "elapsed": 1510,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20254682",
+      "state": "FAILED",
+      "elapsed": 139,
+      "cpus": 1,
+      "tres": "billing=1,cpu=1,mem=2G,node=1"
+    }
+  ],
+  "basis": "current allocated billing=1, one CPU / 2GiB; AMS settlement recorded separately"
+}

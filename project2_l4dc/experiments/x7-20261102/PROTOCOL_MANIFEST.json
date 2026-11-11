@@ -1,0 +1,22 @@
+{
+  "status": "PROTOCOL_FROZEN_WAITING_ACCEPTED",
+  "created_utc": "2026-11-02T23:09:19.340250+00:00",
+  "author_go_task_sha256": "6542a46618bc7f2ba22bc985ca7ec8944266eea3e2b4ad70e09377457b16e58d",
+  "config_sha256": "e35d5a95d9be205a2de3a3bdf8be12f15b25ce5599a2c93ad6b64b93d572165f",
+  "manifest_sha256": "5c5eefcebb14430e443cfa4389c081172407fd0571617cea372beb43a0fb995a",
+  "files": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "ce_fullrank.py": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+    "analyze_ce.py": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+    "x7_driver.py": "0a284a28e13b67ee48eaaf82af209afbdcaa6cd1666c6a6916666ddfeb033cbb",
+    "config-protocol-v1.json": "e35d5a95d9be205a2de3a3bdf8be12f15b25ce5599a2c93ad6b64b93d572165f",
+    "PROTOCOL.md": "a1eb76c33628278107adeb0ed17db487486b852dbe341afc99fc4edb4f29fd65",
+    "PROTOCOL_PLAN.md": "fc6b8c090720825fe1d9eeff306aa23b885eb6043b1ab78dac5f76e904eb61b2",
+    "CLAUDE_TASK_GO.md": "6542a46618bc7f2ba22bc985ca7ec8944266eea3e2b4ad70e09377457b16e58d"
+  },
+  "X7_requested_SU": 0,
+  "X7_settled_SU": 0,
+  "planning_upper_SU": 13.666666666666666,
+  "simulations_run": false,
+  "numerical_equivalence": "PENDING_COMPUTE_NODE_PILOT"
+}

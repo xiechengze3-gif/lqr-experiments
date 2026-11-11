@@ -1,0 +1,101 @@
+{
+  "status": "superseded_not_applied",
+  "scientific_release": "rank-multiseed-2a95058c9c562fd9",
+  "scientific_manifest_changed": false,
+  "requires_full_trajectory_thread_equivalence_check": true,
+  "benchmark_job": "20080117",
+  "benchmark_kind": "synthetic_solver_only",
+  "profiles": {
+    "ce": {
+      "cores": 1,
+      "memory_gib": 3,
+      "concurrency": 4
+    },
+    "lspi-32768": {
+      "cores": 2,
+      "memory_gib": 4,
+      "concurrency": 1
+    },
+    "lspi-65536": {
+      "cores": 2,
+      "memory_gib": 4,
+      "concurrency": 1
+    },
+    "lspi-131072": {
+      "cores": 2,
+      "memory_gib": 4,
+      "concurrency": 1
+    },
+    "lspi-262144": {
+      "cores": 2,
+      "memory_gib": 4,
+      "concurrency": 1
+    },
+    "lspi-524288": {
+      "cores": 2,
+      "memory_gib": 8,
+      "concurrency": 1
+    },
+    "lspi-1048576": {
+      "cores": 2,
+      "memory_gib": 12,
+      "concurrency": 1
+    },
+    "lspi-2097152": {
+      "cores": 4,
+      "memory_gib": 24,
+      "concurrency": 1
+    },
+    "lspi-4194304": {
+      "cores": 8,
+      "memory_gib": 48,
+      "concurrency": 1
+    },
+    "lspi-8388608": {
+      "cores": 8,
+      "memory_gib": 64,
+      "concurrency": 1
+    },
+    "lspi-16777216": {
+      "cores": 8,
+      "memory_gib": 128,
+      "concurrency": 1
+    },
+    "npg-131072": {
+      "cores": 1,
+      "memory_gib": 3,
+      "concurrency": 8
+    },
+    "npg-524288": {
+      "cores": 1,
+      "memory_gib": 3,
+      "concurrency": 8
+    },
+    "npg-2097152": {
+      "cores": 1,
+      "memory_gib": 3,
+      "concurrency": 8
+    },
+    "npg-8388608": {
+      "cores": 1,
+      "memory_gib": 3,
+      "concurrency": 8
+    },
+    "npg-33554432": {
+      "cores": 1,
+      "memory_gib": 3,
+      "concurrency": 8
+    }
+  },
+  "reference": {
+    "cores": 1,
+    "memory_gib": 3,
+    "concurrency": 4
+  },
+  "requested_concurrent_cpu_cap": 88,
+  "previous_requested_concurrent_cpu_cap": 128,
+  "billing_caveat": "Memory-equivalent cores can exceed requested CPUs; lower concurrency alone does not lower total SU.",
+  "apply_caveat": "Do not apply by individual production array updates. Existing queue repair requires explicit authorization following automatic approval rejection.",
+  "superseded_by": "receipts/local-migration-20261009.json",
+  "reason": "All old Grace jobs cancelled; LSPI samples must now remain in original coordinates. Old whitened memory/CPU plan is not applicable."
+}

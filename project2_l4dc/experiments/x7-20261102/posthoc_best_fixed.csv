@@ -1,0 +1,25 @@
+n,spectrum,N,transitions,best_fixed_k,best_fixed_mode,best_fixed_median_gap,best_truncated_k,best_truncated_median_gap,includes_dense_in_fixed_set,selection,optimum_identified,truncated_optimum_identified
+24,geometric,192,704,1,k1,0.3373933820078929,1,0.3373933820078929,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,geometric,768,1280,4,k4,0.13430881627963837,4,0.13430881627963837,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,geometric,3072,3584,6,k6,0.041773505378651835,6,0.041773505378651835,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,geometric,12288,12800,8,k8,0.01192338350651739,8,0.01192338350651739,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,geometric,49152,49664,12,k12,0.003564571714305808,12,0.003564571714305808,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,geometric,196608,197120,12,k12,0.0009155344119885283,12,0.0009155344119885283,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,polynomial,192,704,1,k1,0.2918305302724655,1,0.2918305302724655,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,polynomial,768,1280,2,k2,0.1546827116295326,2,0.1546827116295326,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,polynomial,3072,3584,24,dense,0.06651780995100132,16,0.06786678608308233,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,polynomial,12288,12800,24,dense,0.016214536856498273,16,0.022247295940285176,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,polynomial,49152,49664,24,dense,0.004079893121900924,16,0.01121652927249044,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+24,polynomial,196608,197120,24,dense,0.0009948346654642466,16,0.007455619242990471,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,geometric,384,896,1,k1,0.3714974497805551,1,0.3714974497805551,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,geometric,1536,2048,4,k4,0.14869806068099278,4,0.14869806068099278,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,geometric,6144,6656,6,k6,0.047428054601935714,6,0.047428054601935714,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,geometric,24576,25088,8,k8,0.014034421950696867,8,0.014034421950696867,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,geometric,98304,98816,12,k12,0.004480287822401977,12,0.004480287822401977,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,geometric,393216,393728,12,k12,0.0011519975231466652,12,0.0011519975231466652,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,polynomial,384,896,1,k1,0.3302998899721265,1,0.3302998899721265,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,polynomial,1536,2048,3,k3,0.1751746676795774,3,0.1751746676795774,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,polynomial,6144,6656,6,k6,0.08868342946066779,6,0.08868342946066779,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,polynomial,24576,25088,48,dense,0.03400327978095726,32,0.03562029774057175,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,polynomial,98304,98816,48,dense,0.008294182909343951,32,0.011678133710438535,True,POST_HOC group median;not available to learner;ties smaller k,True,True
+48,polynomial,393216,393728,48,dense,0.002072182793620443,32,0.005676723218037724,True,POST_HOC group median;not available to learner;ties smaller k,True,True

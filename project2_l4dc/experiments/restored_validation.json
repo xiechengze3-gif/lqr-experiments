@@ -1,0 +1,388 @@
+{
+  "archived_files_verified": 32,
+  "archived_bytes_verified": 6164961,
+  "input_padding": {
+    "actor_endpoints": 384,
+    "NPG": 192,
+    "PI": 192,
+    "actor_instabilities": 0,
+    "ce_outputs": 768,
+    "ce_instabilities": 0,
+    "main_ce_outputs": 192,
+    "main_ce_total_transitions": 8324
+  },
+  "matched_ce_first_attainment": [
+    {
+      "rank": 2,
+      "method": "dense",
+      "relative_target": 0.1,
+      "transitions": 14592,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 2,
+      "method": "dense",
+      "relative_target": 0.05,
+      "transitions": 28928,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 2,
+      "method": "truncated",
+      "relative_target": 0.1,
+      "transitions": 3328,
+      "successes": 29,
+      "denominator": 30
+    },
+    {
+      "rank": 2,
+      "method": "truncated",
+      "relative_target": 0.05,
+      "transitions": 6400,
+      "successes": 29,
+      "denominator": 30
+    },
+    {
+      "rank": 8,
+      "method": "dense",
+      "relative_target": 0.1,
+      "transitions": 16640,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 8,
+      "method": "dense",
+      "relative_target": 0.05,
+      "transitions": 33024,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 8,
+      "method": "truncated",
+      "relative_target": 0.1,
+      "transitions": 8448,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 8,
+      "method": "truncated",
+      "relative_target": 0.05,
+      "transitions": 14592,
+      "successes": 29,
+      "denominator": 30
+    },
+    {
+      "rank": 32,
+      "method": "dense",
+      "relative_target": 0.1,
+      "transitions": 24832,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 32,
+      "method": "dense",
+      "relative_target": 0.05,
+      "transitions": 49408,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 32,
+      "method": "truncated",
+      "relative_target": 0.1,
+      "transitions": 16640,
+      "successes": 27,
+      "denominator": 30
+    },
+    {
+      "rank": 32,
+      "method": "truncated",
+      "relative_target": 0.05,
+      "transitions": 33024,
+      "successes": 28,
+      "denominator": 30
+    },
+    {
+      "rank": 64,
+      "method": "dense",
+      "relative_target": 0.1,
+      "transitions": 20736,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 64,
+      "method": "dense",
+      "relative_target": 0.05,
+      "transitions": 49408,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 64,
+      "method": "truncated",
+      "relative_target": 0.1,
+      "transitions": 20736,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 64,
+      "method": "truncated",
+      "relative_target": 0.05,
+      "transitions": 49408,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 100,
+      "method": "dense",
+      "relative_target": 0.1,
+      "transitions": 14592,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 100,
+      "method": "dense",
+      "relative_target": 0.05,
+      "transitions": 28928,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 100,
+      "method": "truncated",
+      "relative_target": 0.1,
+      "transitions": 14592,
+      "successes": 30,
+      "denominator": 30
+    },
+    {
+      "rank": 100,
+      "method": "truncated",
+      "relative_target": 0.05,
+      "transitions": 28928,
+      "successes": 30,
+      "denominator": 30
+    }
+  ],
+  "matched_npg": {
+    "stages": 13500,
+    "trajectories": 300,
+    "instabilities": 0,
+    "rank2_endpoint_gap_medians": {
+      "dense": 0.13215756970074466,
+      "truncated": 0.017391795159277024
+    },
+    "rank2_within_system_gap_ratio": 7.598845805762034,
+    "rank2_attainment_appendix_only": [
+      {
+        "rank": 2,
+        "method": "dense",
+        "target": 0.1,
+        "first_transitions": null,
+        "successes": null,
+        "denominator": 30,
+        "max_tested_transitions": 245902512
+      },
+      {
+        "rank": 2,
+        "method": "dense",
+        "target": 0.05,
+        "first_transitions": null,
+        "successes": null,
+        "denominator": 30,
+        "max_tested_transitions": 245902512
+      },
+      {
+        "rank": 2,
+        "method": "truncated",
+        "target": 0.1,
+        "first_transitions": 27794544,
+        "successes": 30,
+        "denominator": 30,
+        "max_tested_transitions": 245902512
+      },
+      {
+        "rank": 2,
+        "method": "truncated",
+        "target": 0.05,
+        "first_transitions": 94905228,
+        "successes": 30,
+        "denominator": 30,
+        "max_tested_transitions": 245902512
+      }
+    ]
+  },
+  "precision_ce": {
+    "outputs": 2880,
+    "unstable_outputs": 0,
+    "system_count_per_cell": 2,
+    "budgets_already_include_burn": 512,
+    "first_attainment": [
+      {
+        "rank": 16,
+        "method": "raw",
+        "first_transitions": 141824,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 16,
+        "method": "truncated",
+        "first_transitions": 64000,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 32,
+        "method": "raw",
+        "first_transitions": 160256,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 32,
+        "method": "truncated",
+        "first_transitions": 113152,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 64,
+        "method": "raw",
+        "first_transitions": 184832,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 64,
+        "method": "truncated",
+        "first_transitions": 170496,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 100,
+        "method": "raw",
+        "first_transitions": 156160,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 100,
+        "method": "truncated",
+        "first_transitions": 156160,
+        "first_successes": 2,
+        "denominator": 2
+      }
+    ]
+  },
+  "adaptive_ce_appendix": {
+    "outputs": 4320,
+    "unstable_outputs": 8,
+    "system_count_per_cell": 2,
+    "budgets_already_include_burn": 512,
+    "first_attainment": [
+      {
+        "rank": 16,
+        "method": "raw",
+        "first_transitions": 141824,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 16,
+        "method": "truncated",
+        "first_transitions": 64000,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 16,
+        "method": "adaptive",
+        "first_transitions": 64000,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 32,
+        "method": "raw",
+        "first_transitions": 160256,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 32,
+        "method": "truncated",
+        "first_transitions": 113152,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 32,
+        "method": "adaptive",
+        "first_transitions": 113152,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 64,
+        "method": "raw",
+        "first_transitions": 184832,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 64,
+        "method": "truncated",
+        "first_transitions": 170496,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 64,
+        "method": "adaptive",
+        "first_transitions": 170496,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 100,
+        "method": "raw",
+        "first_transitions": 156160,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 100,
+        "method": "truncated",
+        "first_transitions": 156160,
+        "first_successes": 2,
+        "denominator": 2
+      },
+      {
+        "rank": 100,
+        "method": "adaptive",
+        "first_transitions": 156160,
+        "first_successes": 2,
+        "denominator": 2
+      }
+    ]
+  },
+  "restored_plot_statistics_independently_verified": {
+    "01_input_padding/plots/main_ce_input_padding_statistics.csv": 16,
+    "01_input_padding/plots/appendix_actor_endpoint_statistics.csv": 48,
+    "04_ce100_matched_gap_and_high_rank/plots/high_rank_ce_all_budget_statistics.csv": 1440,
+    "04_ce100_matched_gap_and_high_rank/plots/appendix_empirical_adaptive_ce_all_budget_statistics.csv": 2160,
+    "04_ce100_matched_gap_and_high_rank/plots/appendix_matched_npg_all_stage_statistics.csv": 900
+  },
+  "ce_table_1_rows_verified": 18
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PREPARED_NOT_SUBMITTED_AWAITING_CLAUDE_V3",
+  "source_sha256": "f6a0af5ad4106d03b66c4652a28609ce39e174bc49792f780d86405d46aabc93",
+  "old_source_sha256": "4fd476e7cad7ae398217e73cb904128078f7b9ab1ff773d12435a5e08abf8a6a",
+  "only_additional_change": "recognize five known X10b report IDs by immutable report chain; verify all256 formal tasks COMPLETED if report exists",
+  "requested_upper_SU": 2.75,
+  "numerical_changes": 0,
+  "new_simulated_transitions": 0
+}

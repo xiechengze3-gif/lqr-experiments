@@ -1,0 +1,20 @@
+{
+  "name": "supplement-20261101-ce-suite-report-v16",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-ce-suite-report-v16.tar.gz",
+  "archive_sha256": "cd3ca272c385a7a446bb5a49b7040188795166d59bad95319853852a72600e8a",
+  "plan": {
+    "id": "supplement-20261101-ce-suite-report-v16",
+    "stage": "REPORT",
+    "experiment": "X2_X3",
+    "scope": "CE_REPORT_AND_INDEPENDENT_AUDIT",
+    "wall_minutes": 20
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "report_ce_suites.py": "683951ef6c2864a11651707a7b785d4ece9b47592e95d9077e4e7550e636b343",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "job_plan.json": "f884f31ad74925360cca62aeb636c713d695b8581d563b9a4df17bfe98b3fa77",
+    "slurm/run.sbatch": "3421a8c2085137c6bf89837c1b37908d367197d6b7feebb2cd2c71aa5a6e4418"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "VISUAL_QA_PASS",
+  "note": "Viewed both target PNGs at full resolution. All three panels, curve labels, finite CI/IQR bands, axes and explicit failure-rate footnotes are legible and unobscured; all points and original negative comparisons are retained. Input/output hashes and exact baseline-byte preservation verified.",
+  "images": {
+    "ce_figures/ce_main_eps_0.005.png": "d7b0ddbf50faf5cfa8f56f0f30a61818b57f204c957970c09880478221810915",
+    "ce_figures/ce_main_eps_0.01.png": "a6713eb675cfae2675d39d12d753d9ab556ecfafc042e69cb67a1685f77ecb03"
+  },
+  "no_statistics_recomputed": true
+}

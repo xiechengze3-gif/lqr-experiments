@@ -1,0 +1,48 @@
+{
+  "status": "MERGED_SAVED_STATISTICS_BASELINE_BYTES_PRESERVED",
+  "config_sha256": "1daea4cd21d5839297005bd99eab3a97cbee4df228523e253efe5f0822bb3bed",
+  "source_sha256": "256cbb43b6c3ab191a7ce76f43ab726cf97f72346e03866be8522865679286d4",
+  "job": "20425741",
+  "new_summary_rows": 36,
+  "baseline_summary_rows": 144,
+  "merged_summary_rows": 180,
+  "new_endpoint_rows": 1152,
+  "baseline_reanalysis": false,
+  "preservation": {
+    "summary": {
+      "baseline_sha256": "fe4dde75b9f78f5e56c3bfe37b375d118ad8d89ae2e6ee29163c56dc37bfa281",
+      "baseline_bytes": 124303,
+      "merged_sha256": "dfa928176031e212dbde19736f6ea915fe2590155d6f2ba166b1ff3e22f0c469",
+      "baseline_prefix_byte_identical": true
+    },
+    "derived": {
+      "baseline_sha256": "0a1f827b37ff6a56da1d44b8f0e43570fe08cd9ecf251f0b14c4eaf5810cd39a",
+      "baseline_bytes": 1498,
+      "merged_sha256": "82869c56fd13d3abd422df961894bd913e5c3e642e8edd0dadec53681f7a47b7",
+      "baseline_prefix_byte_identical": true
+    },
+    "failures": {
+      "baseline_sha256": "833beccb759a6bd8f3e6c66bb91efd3eba057159079832e812cb86a5b6c4ba69",
+      "baseline_bytes": 87545,
+      "merged_sha256": "cf3656bc9a223b2af1f030b2966d28afb7b7ebf9db2a6d7fd00ff0b0d1cd0387",
+      "baseline_prefix_byte_identical": true
+    },
+    "failure_counts": {
+      "baseline_sha256": "5f6c8d8546aa9d50fe01b867cb102435f3325f99263cc5e7870b192fec14a292",
+      "baseline_bytes": 2943,
+      "merged_sha256": "a8785611c70998f19d93d833ef0d74522816d4124a075e3bac859baa415c6584",
+      "baseline_prefix_byte_identical": true
+    }
+  },
+  "new_failures": 224,
+  "no_new_training_transitions": true,
+  "files": {
+    "summary_merged_nine_rungs.csv": "dfa928176031e212dbde19736f6ea915fe2590155d6f2ba166b1ff3e22f0c469",
+    "transitions_saved_derived.csv": "68c3e58a9bc37e870023c10414d88dedfd08c5ae230a233a3f67c51e9f610f3f",
+    "transitions_saved_merged_nine_rungs.csv": "82869c56fd13d3abd422df961894bd913e5c3e642e8edd0dadec53681f7a47b7",
+    "failures_new_n60.csv": "3095e5a1155b530e5e8f1597fdf4b27068a3765f8607850548c16982a2d7190e",
+    "failures.csv": "cf3656bc9a223b2af1f030b2966d28afb7b7ebf9db2a6d7fd00ff0b0d1cd0387",
+    "failure_counts_new_n60.csv": "6abe3192fcc99aa28e992b6fe623f04c2fc9bf88efe1a7da098c44a2981ca851",
+    "failure_counts_by_cell.csv": "a8785611c70998f19d93d833ef0d74522816d4124a075e3bac859baa415c6584"
+  }
+}

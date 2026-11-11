@@ -1,0 +1,19 @@
+{
+  "status": "SAVED_CSV_LAYOUT_ONLY_RENDER_COMPLETE",
+  "summary_sha256": "33c01a99353de25968b63953b3b596393a236b8196b53dfe8ab19113858a1aaa",
+  "original_render_proof_sha256": "b77e3d5d35c78e707a5b42752139dfa20a9abb58c46ba5eee336217e87d32ab2",
+  "source_sha256": "1699d2306e887d85441273a8857d879daca064a3c654a7e0c4a7d57f11c19356",
+  "numerical_statistics_recomputed": false,
+  "new_training_transitions": 0,
+  "Grace_SU": 0,
+  "Slurm_job_id": null,
+  "changes": "Only image geometry, failure-label position and one shared legend outside axes. Original y-values/IQR/failure/Infinity drawing code retained.",
+  "files": {
+    "figures/all_rungs_gap.png": "f2a7f3c48cce65ec2c380a7af495d1c5033965505e9e3a48bc76a18e35cfde4b",
+    "figures/all_rungs_gap.svg": "bae24a9b118c09c142863224805b7fd7599070f8916a828e53a574b4e4183658",
+    "figures/all_rungs_relative_gap.png": "b9111a045d9b3f7252259f41a3cc1f0e29b29f23d64543952ece43adbf9ebab2",
+    "figures/all_rungs_relative_gap.svg": "6f61f85f4be49cb1e407fc91291cf44d0e5da81c5ac0b3cf35590989107ecaae",
+    "figures/full_rung_gap.png": "7683edef8c8e241e8d11723071d84c849c9ea8fe3dcf4fe71185bd2b87ebbb73",
+    "figures/full_rung_gap.svg": "843539d404157f69a91cb6f5397350ae78afb1e78f894df6ae899080d9831978"
+  }
+}

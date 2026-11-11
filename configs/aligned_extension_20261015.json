@@ -1,0 +1,5521 @@
+{
+  "title": "Rank/dimension extension with historical-data reuse",
+  "date": "2026-10-15",
+  "dimensions": [
+    50,
+    100
+  ],
+  "ranks": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "primary_target": 0.1,
+  "target_definition": "(J(K)-Jstar)/(J(K0)-Jstar) <= .1",
+  "primary_output": "PI fixed stage 8; NPG fixed stage 80; CE fixed declared data prefix",
+  "system_family": "dense_scaling.system coupled_unstable isotropic 981113; A varies with rank",
+  "pi": {
+    "system_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "sampling_seeds": [
+      0
+    ],
+    "methods": [
+      "dense",
+      "known_rank",
+      "adaptive"
+    ],
+    "blocks_per_update": [
+      32768,
+      131072,
+      524288
+    ],
+    "eta": 0.25,
+    "updates": 8,
+    "burn": 512,
+    "horizon": 16,
+    "sigma": 1.0,
+    "threshold_multiplier": 1.0,
+    "joint_block_weights": [
+      1.0,
+      1.0
+    ]
+  },
+  "npg": {
+    "system_seeds": [
+      0,
+      1
+    ],
+    "methods": [
+      "dense",
+      "known_rank"
+    ],
+    "batch_schedule": [
+      16384,
+      16384,
+      16384,
+      16384,
+      16384,
+      16384,
+      16384,
+      16384,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      65536,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      262144,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576,
+      1048576
+    ],
+    "burn": 1024,
+    "horizon": 16,
+    "sigma": 1.0,
+    "step_multiplier": 2.0
+  },
+  "ce": {
+    "system_seeds": [
+      0,
+      1
+    ],
+    "methods": [
+      "dense",
+      "known_rank"
+    ],
+    "budgets": [
+      512,
+      2048,
+      8192,
+      32768,
+      131072,
+      524288,
+      2097152
+    ],
+    "burn_actual": 512,
+    "sigma": 1.0
+  },
+  "tasks": [
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 0
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 1
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 2
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 3
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 4
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 5
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 6
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 7
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 8
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 9
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 10
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 11
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 12
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 13
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 14
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 15
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 16
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 17
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 18
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 19
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 20
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 21
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 22
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 1,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 23
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 24
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 25
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 26
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 27
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 28
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 29
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 30
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 31
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 32
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 33
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 34
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 35
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 36
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 37
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 38
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 39
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 40
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 41
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 42
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 43
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 44
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 45
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 46
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 2,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 47
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 48
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 49
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 50
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 51
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 52
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 53
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 54
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 55
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 56
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 57
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 58
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 59
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 60
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 61
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 62
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 63
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 64
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 65
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 66
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 67
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 68
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 69
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 70
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 8,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 71
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 72
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 73
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 74
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 75
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 76
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 77
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 78
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 79
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 80
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 81
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 82
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 83
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 84
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 85
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 86
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 87
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 88
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 89
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 90
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 91
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 92
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 93
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 94
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 16,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 95
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 96
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 97
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 98
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 99
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 100
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 101
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 102
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 103
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 104
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 105
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 106
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 107
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 108
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 109
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 110
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 111
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 112
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 113
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 114
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 115
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 116
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 117
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 118
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 32,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 119
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 120
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 121
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 122
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 123
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 124
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 125
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 126
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 127
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 128
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 129
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 130
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 131
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 132
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 133
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 134
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 135
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 136
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 137
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 138
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 139
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 140
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 141
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 142
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 1,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 143
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 144
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 145
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 146
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 147
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 148
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 149
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 150
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 151
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 152
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 153
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 154
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 155
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 156
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 157
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 158
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 159
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 160
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 161
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 162
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 163
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 164
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 165
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 166
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 2,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 167
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 168
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 169
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 170
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 171
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 172
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 173
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 174
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 175
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 176
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 177
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 178
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 179
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 180
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 181
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 182
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 183
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 184
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 185
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 186
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 187
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 188
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 189
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 190
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 4,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 191
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 192
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 193
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 194
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 195
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 196
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 197
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 198
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 199
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 200
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 201
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 202
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 203
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 204
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 205
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 206
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 207
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 208
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 209
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 210
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 211
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 212
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 213
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 214
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 8,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 215
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 216
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 217
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 218
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 219
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 220
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 221
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 222
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 223
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 224
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 225
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 226
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 227
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 228
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 229
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 230
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 231
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 232
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 233
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 234
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 235
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 236
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 237
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 238
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 16,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 239
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 240
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 241
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 101,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 242
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 243
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 244
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 102,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 245
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 246
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 247
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 103,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 248
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 249
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 250
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 104,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 251
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 252
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 253
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 105,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 254
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 255
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 256
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 106,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 257
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 258
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 259
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 107,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 260
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 32768,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 12595584,
+      "id": 261
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 131072,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 50344320,
+      "id": 262
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 100,
+      "r": 32,
+      "system_seed": 108,
+      "sampling_seed": 0,
+      "blocks": 524288,
+      "methods": [
+        "dense",
+        "known_rank",
+        "adaptive"
+      ],
+      "updates": 8,
+      "eta": 0.25,
+      "planned_transitions": 201339264,
+      "id": 263
+    },
+    {
+      "algorithm": "CE",
+      "n": 50,
+      "r": 32,
+      "system_seed": 0,
+      "sampling_seed": 0,
+      "methods": [
+        "dense",
+        "known_rank"
+      ],
+      "planned_transitions": 2097664,
+      "id": 264
+    },
+    {
+      "algorithm": "CE",
+      "n": 50,
+      "r": 32,
+      "system_seed": 1,
+      "sampling_seed": 0,
+      "methods": [
+        "dense",
+        "known_rank"
+      ],
+      "planned_transitions": 2097664,
+      "id": 265
+    },
+    {
+      "algorithm": "CE",
+      "n": 100,
+      "r": 32,
+      "system_seed": 0,
+      "sampling_seed": 0,
+      "methods": [
+        "dense",
+        "known_rank"
+      ],
+      "planned_transitions": 2097664,
+      "id": 266
+    },
+    {
+      "algorithm": "CE",
+      "n": 100,
+      "r": 32,
+      "system_seed": 1,
+      "sampling_seed": 0,
+      "methods": [
+        "dense",
+        "known_rank"
+      ],
+      "planned_transitions": 2097664,
+      "id": 267
+    },
+    {
+      "algorithm": "NPG",
+      "n": 50,
+      "r": 32,
+      "system_seed": 0,
+      "sampling_seed": 0,
+      "methods": [
+        "dense",
+        "known_rank"
+      ],
+      "planned_transitions": 1312983552,
+      "id": 268
+    },
+    {
+      "algorithm": "NPG",
+      "n": 50,
+      "r": 32,
+      "system_seed": 1,
+      "sampling_seed": 0,
+      "methods": [
+        "dense",
+        "known_rank"
+      ],
+      "planned_transitions": 1312983552,
+      "id": 269
+    },
+    {
+      "algorithm": "NPG",
+      "n": 100,
+      "r": 32,
+      "system_seed": 0,
+      "sampling_seed": 0,
+      "methods": [
+        "dense",
+        "known_rank"
+      ],
+      "planned_transitions": 1312983552,
+      "id": 270
+    },
+    {
+      "algorithm": "NPG",
+      "n": 100,
+      "r": 32,
+      "system_seed": 1,
+      "sampling_seed": 0,
+      "methods": [
+        "dense",
+        "known_rank"
+      ],
+      "planned_transitions": 1312983552,
+      "id": 271
+    }
+  ],
+  "reused_pi": [
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 32768,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b32768-dense.json",
+      "sha256": "ed5b9d2cc5d98f6157eee05eeabda15a48aca0f391342393ade21611a4b6898f"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 32768,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b32768-known_rank.json",
+      "sha256": "59fbc5881cf4e53023af638c2bcb4ee7b7c1590633be5f7042869aa49d651335"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 32768,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b32768-adaptive.json",
+      "sha256": "b4d784b8e67d168cd836a1d55f93efa29ee7c989f9de7b974804927213cf1d72"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 131072,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b131072-dense.json",
+      "sha256": "313675afd911edf97579f1ed9f6ad3beb4ab1024cb0fafaeccdea3d14c70f881"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 131072,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b131072-known_rank.json",
+      "sha256": "862f14193f65af257434f360dd8a8e4c1a8a38d573508ef108eee585d137ab2c"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 131072,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b131072-adaptive.json",
+      "sha256": "dae9457ff5acccd8b5e4dd648139472585f513a520f1d315febb246cecf5764d"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 524288,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b524288-dense.json",
+      "sha256": "2af8d37067563e71ec1a6c317e49ad1d889253db8b5841ed874843cf54412161"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 524288,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b524288-known_rank.json",
+      "sha256": "1fc9cd5b0ceff47994177ef6cb0ccb203f0c8331d350cb556fd786f2dbd35d7f"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 101,
+      "blocks": 524288,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s101-d0-b524288-adaptive.json",
+      "sha256": "c4a2a4c17d429ce61adb38f7f8e89415477785923989e1d8850f96d8bbb9f99e"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 32768,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b32768-dense.json",
+      "sha256": "6a37807f7747d72bb52ab8c53228fc9d4726f62071efa56943d88739f458904f"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 32768,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b32768-known_rank.json",
+      "sha256": "3e80839ffde5e8c338fd1fdfc5a394b675de140de84b56e03c0c26f2566aa6a6"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 32768,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b32768-adaptive.json",
+      "sha256": "8aa14d5eaf4da07e044a6db57367a562fb3533faff1681f29448df243b3bd03a"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 131072,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b131072-dense.json",
+      "sha256": "e88679ae44d7fd0aa818f6849ac8849e41af860a164b396c11b290e3319f9a03"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 131072,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b131072-known_rank.json",
+      "sha256": "655395434661c206127376d0d3f27a7792f6f19b8b23ba88274a32ee9e4a9d95"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 131072,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b131072-adaptive.json",
+      "sha256": "27ae265fa30df7f5d45994fc402d13b9c3be2a5dd98417ea5f02188cae4f71e3"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 524288,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b524288-dense.json",
+      "sha256": "be0cf74413744b9036dc56cc222dbfdc5f24e6f04ceff4da4937510cf26d0e92"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 524288,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b524288-known_rank.json",
+      "sha256": "5bb91da645450874da07a998ca7e3a83dd4151b14b636339904338fce1a857ad"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 102,
+      "blocks": 524288,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s102-d0-b524288-adaptive.json",
+      "sha256": "1a48f037522896d28a5774ca4b22db0e77cc93d1d7488bac356e64f42167c55f"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 32768,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b32768-dense.json",
+      "sha256": "187b14568e553b811d619bcdc80b85d2add1b59a624a8f0e0c9b725d7d35033f"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 32768,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b32768-known_rank.json",
+      "sha256": "93b0c19428bb83bada1e6d9f3d69b48186cebbfae21d1db033b74345c6836925"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 32768,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b32768-adaptive.json",
+      "sha256": "4eb81eab3d64308bd8241fdfc053a36e00540e9d679c29c5ceb69eaa2358efcf"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 131072,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b131072-dense.json",
+      "sha256": "d750fc24cab49a6fc0f97bedab08462fd9c04bf2229e50833295d3bd7938e120"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 131072,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b131072-known_rank.json",
+      "sha256": "7e65f56a708ec5247f629d966f90aae82e3975096a8942d151c8391f53253cba"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 131072,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b131072-adaptive.json",
+      "sha256": "f3a077ceec8919b785a1226181fccd52a5fad9e6b62732dbd6fe56256cac11cf"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 524288,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b524288-dense.json",
+      "sha256": "26191c98ba306ef380892b3fa1d65d2a43e9452c3a7a80037a14eca942a3c4c6"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 524288,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b524288-known_rank.json",
+      "sha256": "07ebf9726e11f166bc7115a82daa9106e44760fd6d14e8cb683d1cca34205fc6"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 103,
+      "blocks": 524288,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s103-d0-b524288-adaptive.json",
+      "sha256": "30e6f861081ad6cf09db4b9fb7b429c8a5aeece9ab118832433dbfc2a7104028"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 32768,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b32768-dense.json",
+      "sha256": "2984a892c2a8a7501cabe7d6d56e036275163e34e00e4c06124dcb6a8db82830"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 32768,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b32768-known_rank.json",
+      "sha256": "ed44be8bec6e4609b37d31328d4720d239390f85fd874ec140751e1c1656df4b"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 32768,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b32768-adaptive.json",
+      "sha256": "a2155e31af5b26fc3c981517c5d74330d650cdd85aa1866d35acb34ae8673c43"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 131072,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b131072-dense.json",
+      "sha256": "4045f4e594cddac1e4206e5856d5304373338a2fd7b6c0d65addea9dbdb9f592"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 131072,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b131072-known_rank.json",
+      "sha256": "a1a2974d636eccc0f17b846906242a7d10b74ce3db782059c64bae0e8bbef161"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 131072,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b131072-adaptive.json",
+      "sha256": "d07f0c889acb9e2cc0e6ecdf0b1afa02a06e1b6246b4e878200a269acfd70d37"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 524288,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b524288-dense.json",
+      "sha256": "a1583e1a63f6072a3de8b2bbff767be76cd5340cdf2a8f8630b4ac03ef58989f"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 524288,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b524288-known_rank.json",
+      "sha256": "77dc4befdffa7050c97e50197edd5939619fa28d09d301b1464cb6f8d68a14b7"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 104,
+      "blocks": 524288,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s104-d0-b524288-adaptive.json",
+      "sha256": "cd0003a9f00d9fd400f68e96c8fffb8063a957e79a8e802187c96768174690a7"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 32768,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b32768-dense.json",
+      "sha256": "b2aaf2fe964088f3c47ccb7382d6ff5b377c71ffd61e5cc274b9dc40000a0dec"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 32768,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b32768-known_rank.json",
+      "sha256": "10e42139a8f94bd10467c855f335cfba9982bb83d4c483d8dd02dfc622b9fd6a"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 32768,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b32768-adaptive.json",
+      "sha256": "4d6d59a2575b0eed053ea9c3f7d859d8fb84bd671502f17632e17cfef0c6a393"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 131072,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b131072-dense.json",
+      "sha256": "670c5e2806ba51b3f4a870958061a1f443afbcebca9ce9a91f4156aeecb36bd2"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 131072,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b131072-known_rank.json",
+      "sha256": "8cba296b55fcef47dcc73da768090581885e40f644176976a11ef89e466a0f84"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 131072,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b131072-adaptive.json",
+      "sha256": "0e5368294d58127c7929d512844f6585692cf8c1dff29fbf32e0172907144e39"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 524288,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b524288-dense.json",
+      "sha256": "f285c703c4707b848cd70c4a3dd48c30f8234b38f87f6cde59557cd9efdf22d1"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 524288,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b524288-known_rank.json",
+      "sha256": "c05a4783ce9caea282a251c152705a9ed066016503ae8f50c24cc12e65e0a294"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 105,
+      "blocks": 524288,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s105-d0-b524288-adaptive.json",
+      "sha256": "c4195c08468ebe65c1321a6947dd9e96f4ba15c4eed825a0c81fc48e6b55e297"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 32768,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b32768-dense.json",
+      "sha256": "69a1434286acaf296d08c2662c183c00705770ca98d10a526d902f556efb0097"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 32768,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b32768-known_rank.json",
+      "sha256": "1f1940ccf5add0f7cdf1dedf71a75c4462beeeb770ac3de5c934cb7f91a75582"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 32768,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b32768-adaptive.json",
+      "sha256": "f45670e39d4fd4ce5842dccdade675d6a0aee2d90922240c47b7ceeff12bd3b9"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 131072,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b131072-dense.json",
+      "sha256": "7b23d3a63b7a90e6a096ad5099ae0d2603abeedcf87d0ca44249be8ee736a8cc"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 131072,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b131072-known_rank.json",
+      "sha256": "49648f4fb133edd400b26a2f16e094a519c04d0296617d850e15f1ea99c71bbb"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 131072,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b131072-adaptive.json",
+      "sha256": "33b2fb6380b5b77a49e8ae858e0b71825bd5940588c65c3e748bbe4ade4807a7"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 524288,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b524288-dense.json",
+      "sha256": "1e1ce471e1ff268863e7628bb8c17b45e088cd795745b06ef5b429c7a61a1c4d"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 524288,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b524288-known_rank.json",
+      "sha256": "03690de987ae01f3b799cc29a8cea1b5d1bf54673274247b2d8c295d9b2edc37"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 106,
+      "blocks": 524288,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s106-d0-b524288-adaptive.json",
+      "sha256": "a7fcc41d54090fdbe0d0a3c575909c05f0497cababbf070affc25182b52f1eda"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 32768,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b32768-dense.json",
+      "sha256": "1851393c49d235ae76a575d0eb3c0f490f293f9bacbe1db7775f28f2176226fa"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 32768,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b32768-known_rank.json",
+      "sha256": "df98333ea61e3774215e28754765d789a1f013cd00a85b80b38189358b7fe739"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 32768,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b32768-adaptive.json",
+      "sha256": "7d716b19e9eebad0513f742e652dc672daa4897ebe500cf5a76199ef897e934e"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 131072,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b131072-dense.json",
+      "sha256": "2c93d75cb76b7a1a290caf072444db482cc8da601c597a7294792d52f07fb6a0"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 131072,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b131072-known_rank.json",
+      "sha256": "9be36e1de403fd26c2a019d94373a22dc0a18a74d4dfb4b6afd20739d82450db"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 131072,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b131072-adaptive.json",
+      "sha256": "8f68b739902c94581aa017854a357617f7c317ff522c50bdf2712c2262175c75"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 524288,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b524288-dense.json",
+      "sha256": "c7254069c2c5d4482015e3d3b82d3e686b58620ee333313166ea3be7360a5b98"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 524288,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b524288-known_rank.json",
+      "sha256": "c91db2aeb1b3f4441440fe999b8e13ced2990fb6455b6c37b0c6d83ae0f35822"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 107,
+      "blocks": 524288,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s107-d0-b524288-adaptive.json",
+      "sha256": "d08fd1cff71c8f1374d14b76104705b72f038a9a9958d5569398344990ea6805"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 32768,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b32768-dense.json",
+      "sha256": "40a22cd37203cbb0807d9bc79cde52ae35e4812a2f999099ac106620b129269b"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 32768,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b32768-known_rank.json",
+      "sha256": "b648a12f699c9116038f40afafd4969d54fb53f8b7487d8e234ff54d84942ec3"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 32768,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b32768-adaptive.json",
+      "sha256": "5f3fc3a3113bd5c702ca0c2b65a21a5482e211ba8b5ce75c537cdb6db78e7c1f"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 131072,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b131072-dense.json",
+      "sha256": "c45b9e3521d33b73a2776509be5a08e8bd5334649b856892fcdca4e6ab289e81"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 131072,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b131072-known_rank.json",
+      "sha256": "586b4c2fa59131e9e03c45c5c21751fb831e53d3a729092212376b3a989139f7"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 131072,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b131072-adaptive.json",
+      "sha256": "295f4208dd4b9b8288c2736fd34e074fdde2447414c56a3758eb362fb19a5fdd"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 524288,
+      "method": "dense",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b524288-dense.json",
+      "sha256": "f68f0028d0d02828f126eca368795c97d396063a519fe8a1007cb9612231a0ce"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 524288,
+      "method": "known_rank",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b524288-known_rank.json",
+      "sha256": "6676523b548d88d43f934ca7af6d766de9a7c88875684d655f11ad9573ec492f"
+    },
+    {
+      "algorithm": "Direct_Stein_PI",
+      "n": 50,
+      "r": 4,
+      "system_seed": 108,
+      "blocks": 524288,
+      "method": "adaptive",
+      "path": "E:\\ChatGPT\\Results\\LQR_experiments\\final-round-20261014\\core\\n50-r4-s108-d0-b524288-adaptive.json",
+      "sha256": "2c6d0c407463148a0729696a71145fda6bf408dd39518325b07f9be3afac6080"
+    }
+  ],
+  "planned_new_transitions": 28516891648,
+  "new_pi_trajectories": 792,
+  "new_npg_trajectories": 8,
+  "new_ce_shared_prefix_datasets": 4,
+  "budget": {
+    "production_SU_ceiling": 200.0,
+    "benchmark_SU_ceiling": 2.0,
+    "report_SU_ceiling": 1.0,
+    "automatic_retries": 0,
+    "production_requires": "Grace verification PASS, measured full-path runtime/RSS, current allocation and queue, a reviewed per-task reservation plan within the whole-campaign ceiling"
+  },
+  "comparison": "Within-method rank gains; CE/NPG seed0/1 reuse, PI seed101..108 reuse. Same generator and criterion, but different seed cohorts and schedules: no paired cross-algorithm claim.",
+  "known_gaps": "Adaptive NPG only available at n100 r1..16; CE adaptive absent in this historical cohort. Do not imply three-arm coverage for CE or NPG.",
+  "state": "PREPARED_NOT_SUBMITTED",
+  "sources": {
+    "dense_scaling.py": "2e846ca15eda11a4e73d7d5cb6ac0d171ae5e7ccd27856273bc5a9d3393ba1d3",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "scripts/npg_batched_collector.py": "3d192b2e0176269fe5ffcab67c131300d8522cbf3e171f04223e29d537b4d86b",
+    "scripts/direct_stein_final.py": "486f1012ecc9763fcdf3615d94c83a097acb039c6bc898f3b0cae8916fdeb890",
+    "scripts/final_round.py": "773b8665dbba7ede9393dbb3f47a0d690a7bd3769b235b3bb53943671deec506",
+    "scripts/final_npg_audit.py": "40cb58d7a3749ef9bd7f424ef222b05cbb1188f5af9d7aaa8a4ccec6fbea14cb",
+    "scripts/adaptive_rank.py": "16d7ae86202c338ec19e6944e70530d4556b5abaa90940db760b0fd7de07ef6d",
+    "scripts/adaptive_rank_run.py": "c52fd200e1a447204808860aab53d509181b27a6fb9f04e7c87c9aa9e12cf9d9",
+    "scripts/full_lstd.py": "d0f438ff95832ec54452009c3c6cb8a38d74fd05613371dfc767dc87fdf2cfbe",
+    "scripts/npg_precision_audit.py": "4887528ef299a183087b01fedb05c33c8c0db746a50495ff7f5892dfdac33d5a",
+    "scripts/test_direct_stein_final.py": "26e60b15ad2e3b2db8dea48ed5c3b377536004fb4d2037b47c8a6c8c5caf279d",
+    "scripts/test_final_failure_paths.py": "cf8d24f68d01a2dfcb7374df19ee9a54039feaeabe67ec487e5bf0656c30c0e7",
+    "scripts/aligned_extension.py": "e335686b1f2651f81735793fa33d487503c4e80b5cbffd341b18104bd984d5dd",
+    "slurm/aligned_extension.sbatch": "11db705b2d2f1e7617210a66fa8b1fed799559c474264b209a4f7a5f0c3103ac",
+    "scripts/prepare_aligned_extension.py": "fa4d65c3cbe9744898d6270c58a7dc4cb7f045e581bea658cfc5fda72ddec99e",
+    "docs/ALIGNED_EXTENSION_PROTOCOL_20261015.md": "40c786b154044531c85a46a6387dce0fcb50247841fba76644205f5f2fe4f876"
+  },
+  "release": "b41df7278218861f"
+}

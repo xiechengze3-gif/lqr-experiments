@@ -1,0 +1,37 @@
+{
+  "status": "FIRST_COMPLETE_FORMAL_WAVE_RAW_VERIFIED_ON_E",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "paired_paths": 40,
+  "arms": 80,
+  "primitive_transitions": 16200146944,
+  "copies": [
+    {
+      "label": "formal-g00-t0-v1",
+      "files": 364,
+      "archive_bytes": 35109825,
+      "archive_sha256": "755b27a1288064a0cb6e197e0a03c489a319aa66772b4b6cbebc328e87e5d673"
+    },
+    {
+      "label": "formal-g00-t1-2-3-4-5-6-7-v1",
+      "files": 2333,
+      "archive_bytes": 245582767,
+      "archive_sha256": "2d28ce0f3c21b11984ddcc846f2e0e59b77d245bbf4f61bdd9855b5c5d6803da"
+    }
+  ],
+  "no_performance_readout": true,
+  "formal_complete": false,
+  "review_sha256": "2c35aad9dbee1abc9d1724991885850fde943062215914b1e49c02669cccd8ed",
+  "prior_bytes": 399829,
+  "appended_bytes": 1703,
+  "prior_preserved": true,
+  "progress_sha256": "b1e8a758575642e1200269948b4aba9e686841b9e171ad4b4b29f655c6774a8d"
+}

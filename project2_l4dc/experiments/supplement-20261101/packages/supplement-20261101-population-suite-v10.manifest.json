@@ -1,0 +1,20 @@
+{
+  "name": "supplement-20261101-population-suite-v10",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-population-suite-v10.tar.gz",
+  "archive_sha256": "c04f5dc6b33353a409e305c1acd0b7145ec6842e21f0c28881256d901149d115",
+  "plan": {
+    "id": "supplement-20261101-population-suite-v10",
+    "stage": "PILOT",
+    "experiment": "X2_X3",
+    "scope": "NPG_POPULATION_R1_R2",
+    "wall_minutes": 10
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "population_suite.py": "f58f9fdc7dbe0e49357d13be950cb4ed3c858fb285c481606b377582db980a55",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_aux_remote.py": "eec808911acb07cb737038d48381ec4ee000326943a41c197edaccbef11cd657",
+    "job_plan.json": "573e2f570e15b2ede0f35a5b8b9ae18691ad569126d678a416cdc729e08dbf09",
+    "slurm/run.sbatch": "c21caf3513880ff0b7b0f34a05fc94dafb744d902613457da97a12257cf06d09"
+  }
+}

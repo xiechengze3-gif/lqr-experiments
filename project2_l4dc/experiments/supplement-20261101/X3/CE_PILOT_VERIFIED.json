@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "CE_ONLY",
+  "trajectories": 24,
+  "outputs": 5184,
+  "unstable_outputs": 700,
+  "failures_by_mode": {
+    "k0": 432,
+    "k1": 78,
+    "k2": 23,
+    "k3": 12,
+    "k6": 17,
+    "k8": 18,
+    "dense": 18,
+    "k12": 18,
+    "k4": 14,
+    "k16": 7,
+    "k24": 7,
+    "adaptive_paper": 40,
+    "adaptive_split": 16
+  },
+  "config_sha256": "99f60251f41ad2e1adcfc9b15f45e67f9d89335699d85fa5ef5f9d208a2ecfa1"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "supplement-20261101-x2-npg-n12-pilot-v15",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x2-npg-n12-pilot-v15.tar.gz",
+  "archive_sha256": "4c0dad12a9ff6e47f78e26d322247848ea19103ae94d8389b47dd9f20d0a7917",
+  "plan": {
+    "id": "supplement-20261101-x2-npg-n12-pilot-v15",
+    "stage": "PILOT",
+    "scope": "DENSE_ONLY_NPG_QUALIFICATION",
+    "experiment": "X2",
+    "config": "configs/X2_NPG_pilot_n12_base2048_v1.json",
+    "bundles": 4,
+    "wall_minutes": 5,
+    "resource_proof": "budget/NPG_resource_pilot_v1.json"
+  },
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "npg_multi.py": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+    "npg_pilot_suite.py": "d9e37e85c27a50d044b8711a2c19a6079c5bdba618b1b4b8def9ee448d92798b",
+    "configs/X2_NPG_pilot_n12_base2048_v1.json": "41123fafc30ddce5cbf9b77f32c75081ae29242ae87634b0c52a54142b73ff90",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_npg_pilot_v15.py": "9327fbb03ccf7601b847e8e01726b26e7dabc6b3223e6befaf05c0ed27c83998",
+    "job_plan.json": "acb8a5bd14f4c0eb2a3da07c082d5111f82dd56b67e5c5028ec5686f49b2484a",
+    "slurm/run.sbatch": "e938268671af3c5adcaea523435c9d9e1cce0f0c2a9a7fcbb388ac3980211e53"
+  }
+}

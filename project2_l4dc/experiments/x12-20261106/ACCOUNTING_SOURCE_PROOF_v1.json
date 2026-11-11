@@ -1,0 +1,8 @@
+{
+  "status": "OWN_ACCOUNTING_METADATA_ADAPTER_PREPARED",
+  "original_sha256": "aa774028fcb954155a8d307f57eefb448ccd4718f4da44602ab5c6906f451f46",
+  "new_sha256": "9ad6990d2d9d5d75d341289bdf8485bfe25280962e3e28e275f2e4efd065b6b8",
+  "new_jobs": 0,
+  "new_training_transitions": 0,
+  "changes": "X12 namespace/caps and immutable versioned ledger selector; accepted sacct/own-AMS parsing and overlapping-charge treatment unchanged."
+}

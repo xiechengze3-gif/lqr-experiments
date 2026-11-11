@@ -1,0 +1,576 @@
+{
+  "status": "PASS_saved_rows_reaggregated",
+  "timestamp_utc": "2026-10-23T19:58:27.347760+00:00",
+  "pilot_rows": [
+    {
+      "rank": 2,
+      "ols_samples": 65536,
+      "primitive_transitions": 65792,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        62.35580918463836,
+        37.86635434835682
+      ],
+      "truncated_gaps": [
+        0.3725189937921414,
+        0.11607851300470884
+      ],
+      "dense_B_fro2_median": 0.9699385842663588,
+      "truncated_B_fro2_median": 0.007594225672682947,
+      "A_fro2_median": 3.4789945927979247,
+      "truncated_N_times_gap_median": 16010.363102719188
+    },
+    {
+      "rank": 2,
+      "ols_samples": 131072,
+      "primitive_transitions": 131328,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        18.15728874746094,
+        17.084631689027447
+      ],
+      "truncated_gaps": [
+        0.2151702015880801,
+        0.06314142883093155
+      ],
+      "dense_B_fro2_median": 0.4799755479982846,
+      "truncated_B_fro2_median": 0.003713800043167911,
+      "A_fro2_median": 1.7283173986077363,
+      "truncated_N_times_gap_median": 18239.431011140347
+    },
+    {
+      "rank": 2,
+      "ols_samples": 262144,
+      "primitive_transitions": 262400,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        7.938225993960259,
+        7.495135325966089
+      ],
+      "truncated_gaps": [
+        0.08255751064552896,
+        0.037870669512926725
+      ],
+      "dense_B_fro2_median": 0.23883016507431482,
+      "truncated_B_fro2_median": 0.0019113305007748623,
+      "A_fro2_median": 0.8627842192921074,
+      "truncated_N_times_gap_median": 15784.762429729104
+    },
+    {
+      "rank": 2,
+      "ols_samples": 1048576,
+      "primitive_transitions": 1048832,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        1.5481224400933797,
+        1.7689641494130228
+      ],
+      "truncated_gaps": [
+        0.007774540415880438,
+        0.008318583021150516
+      ],
+      "dense_B_fro2_median": 0.059765158292550864,
+      "truncated_B_fro2_median": 0.000507616278163486,
+      "A_fro2_median": 0.21495135604111998,
+      "truncated_N_times_gap_median": 8437.431500554085
+    },
+    {
+      "rank": 2,
+      "ols_samples": 2097152,
+      "primitive_transitions": 2097408,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.7967181623745319,
+        0.752867692396535
+      ],
+      "truncated_gaps": [
+        0.004044733116302268,
+        0.007012372533722555
+      ],
+      "dense_B_fro2_median": 0.029831856431571088,
+      "truncated_B_fro2_median": 0.0002546542367206278,
+      "A_fro2_median": 0.10726392821295486,
+      "truncated_N_times_gap_median": 11594.215614080429
+    },
+    {
+      "rank": 4,
+      "ols_samples": 65536,
+      "primitive_transitions": 65792,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        22.630193650669526,
+        16.0390443035144
+      ],
+      "truncated_gaps": [
+        0.23899961549489035,
+        0.12365141949169356
+      ],
+      "dense_B_fro2_median": 0.9699302712224944,
+      "truncated_B_fro2_median": 0.015209278888751173,
+      "A_fro2_median": 3.4638016580043627,
+      "truncated_N_times_gap_median": 11883.349114440382
+    },
+    {
+      "rank": 4,
+      "ols_samples": 131072,
+      "primitive_transitions": 131328,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        8.163241984581646,
+        7.687946989085617
+      ],
+      "truncated_gaps": [
+        0.14322243770322984,
+        0.06157942840980013
+      ],
+      "dense_B_fro2_median": 0.47998046434813346,
+      "truncated_B_fro2_median": 0.007582652526781343,
+      "A_fro2_median": 1.7205952256492973,
+      "truncated_N_times_gap_median": 13421.895097583532
+    },
+    {
+      "rank": 4,
+      "ols_samples": 262144,
+      "primitive_transitions": 262400,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        3.823174104055056,
+        3.5886262751320146
+      ],
+      "truncated_gaps": [
+        0.06680564125224464,
+        0.0424674965580607
+      ],
+      "dense_B_fro2_median": 0.23883146975040065,
+      "truncated_B_fro2_median": 0.0038330531283454934,
+      "A_fro2_median": 0.8589102862322489,
+      "truncated_N_times_gap_median": 14322.648719072342
+    },
+    {
+      "rank": 4,
+      "ols_samples": 1048576,
+      "primitive_transitions": 1048832,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.7843570694757318,
+        0.8860442702133469
+      ],
+      "truncated_gaps": [
+        0.009050285517446355,
+        0.00783382817292022
+      ],
+      "dense_B_fro2_median": 0.05976548256051489,
+      "truncated_B_fro2_median": 0.0009886095969696468,
+      "A_fro2_median": 0.2140004659470341,
+      "truncated_N_times_gap_median": 8852.138198494911
+    },
+    {
+      "rank": 4,
+      "ols_samples": 2097152,
+      "primitive_transitions": 2097408,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.40375627992989394,
+        0.3830741954517407
+      ],
+      "truncated_gaps": [
+        0.00421757853246163,
+        0.005428809685099623
+      ],
+      "dense_B_fro2_median": 0.029831930739081487,
+      "truncated_B_fro2_median": 0.0004930416292433033,
+      "A_fro2_median": 0.10681362434463337,
+      "truncated_N_times_gap_median": 10114.971171617508
+    },
+    {
+      "rank": 8,
+      "ols_samples": 65536,
+      "primitive_transitions": 65792,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        6.437305857340107,
+        5.32885406715468
+      ],
+      "truncated_gaps": [
+        0.2121336576374233,
+        0.15873716999783483
+      ],
+      "dense_B_fro2_median": 0.969953027308122,
+      "truncated_B_fro2_median": 0.030689736925644147,
+      "A_fro2_median": 3.435360029227529,
+      "truncated_N_times_gap_median": 12152.695279952139
+    },
+    {
+      "rank": 8,
+      "ols_samples": 131072,
+      "primitive_transitions": 131328,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        2.681703873521201,
+        2.6351312949177554
+      ],
+      "truncated_gaps": [
+        0.09511500928567784,
+        0.06632516594800109
+      ],
+      "dense_B_fro2_median": 0.4799963109099668,
+      "truncated_B_fro2_median": 0.015342965882066545,
+      "A_fro2_median": 1.7065262389645304,
+      "truncated_N_times_gap_median": 10580.143324114382
+    },
+    {
+      "rank": 8,
+      "ols_samples": 262144,
+      "primitive_transitions": 262400,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        1.331511539030771,
+        1.269766766703583
+      ],
+      "truncated_gaps": [
+        0.0350161779440441,
+        0.03222703991855269
+      ],
+      "dense_B_fro2_median": 0.23883741085416615,
+      "truncated_B_fro2_median": 0.007648362318729887,
+      "A_fro2_median": 0.8518488979115653,
+      "truncated_N_times_gap_median": 8813.703051686287
+    },
+    {
+      "rank": 8,
+      "ols_samples": 1048576,
+      "primitive_transitions": 1048832,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.28452381765623613,
+        0.3246509585230797
+      ],
+      "truncated_gaps": [
+        0.010404497075569452,
+        0.0114683570257057
+      ],
+      "dense_B_fro2_median": 0.05976589553751293,
+      "truncated_B_fro2_median": 0.0019130113217563098,
+      "A_fro2_median": 0.21233709055158756,
+      "truncated_N_times_gap_median": 11467.674931049347
+    },
+    {
+      "rank": 8,
+      "ols_samples": 2097152,
+      "primitive_transitions": 2097408,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.14701298532486362,
+        0.14452410989838427
+      ],
+      "truncated_gaps": [
+        0.0037402652014861815,
+        0.008191934464889528
+      ],
+      "dense_B_fro2_median": 0.02983217414889815,
+      "truncated_B_fro2_median": 0.00096825550037755,
+      "A_fro2_median": 0.10594719837860339,
+      "truncated_N_times_gap_median": 12511.818197369576
+    },
+    {
+      "rank": 32,
+      "ols_samples": 65536,
+      "primitive_transitions": 65792,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.7385614314150644,
+        0.714158198824066
+      ],
+      "truncated_gaps": [
+        0.1882541440344312,
+        0.19875226470094276
+      ],
+      "dense_B_fro2_median": 0.9697772715652723,
+      "truncated_B_fro2_median": 0.1208367591420155,
+      "A_fro2_median": 3.2644552545810104,
+      "truncated_N_times_gap_median": 12681.426001440734
+    },
+    {
+      "rank": 32,
+      "ols_samples": 131072,
+      "primitive_transitions": 131328,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.3429451010418916,
+        0.34797902345394505
+      ],
+      "truncated_gaps": [
+        0.09629457032974642,
+        0.0902898929781486
+      ],
+      "dense_B_fro2_median": 0.48001541160404315,
+      "truncated_B_fro2_median": 0.06043376311493212,
+      "A_fro2_median": 1.62059588097716,
+      "truncated_N_times_gap_median": 12227.999387346208
+    },
+    {
+      "rank": 32,
+      "ols_samples": 262144,
+      "primitive_transitions": 262400,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.17448231164098615,
+        0.17231631281333648
+      ],
+      "truncated_gaps": [
+        0.04733565541732787,
+        0.045782654140452905
+      ],
+      "dense_B_fro2_median": 0.23884093102230963,
+      "truncated_B_fro2_median": 0.029905008976721034,
+      "A_fro2_median": 0.8096169710385683,
+      "truncated_N_times_gap_median": 12205.203070357442
+    },
+    {
+      "rank": 32,
+      "ols_samples": 1048576,
+      "primitive_transitions": 1048832,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.04060758424134292,
+        0.04325404683754641
+      ],
+      "truncated_gaps": [
+        0.011193241934051912,
+        0.011002361131318139
+      ],
+      "dense_B_fro2_median": 0.05976562417535447,
+      "truncated_B_fro2_median": 0.007415518505903183,
+      "A_fro2_median": 0.20167909552759977,
+      "truncated_N_times_gap_median": 11636.888339936733
+    },
+    {
+      "rank": 32,
+      "ols_samples": 2097152,
+      "primitive_transitions": 2097408,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.020501781688381016,
+        0.02049314861676521
+      ],
+      "truncated_gaps": [
+        0.005566757727706317,
+        0.005678140223949413
+      ],
+      "dense_B_fro2_median": 0.029831860964244186,
+      "truncated_B_fro2_median": 0.0037288759426111337,
+      "A_fro2_median": 0.1006071327409618,
+      "truncated_N_times_gap_median": 11791.130114555359
+    },
+    {
+      "rank": 500,
+      "ols_samples": 65536,
+      "primitive_transitions": 65792,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.4188104213438919,
+        0.41879190431450297
+      ],
+      "truncated_gaps": [
+        0.4188104213438919,
+        0.41879190431450297
+      ],
+      "dense_B_fro2_median": 0.969737046528544,
+      "truncated_B_fro2_median": 0.969737046528544,
+      "A_fro2_median": 0.7062638161738057,
+      "truncated_N_times_gap_median": 27446.553007174283
+    },
+    {
+      "rank": 500,
+      "ols_samples": 131072,
+      "primitive_transitions": 131328,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.20674906810302218,
+        0.20780217485639696
+      ],
+      "truncated_gaps": [
+        0.20674906810302218,
+        0.20780217485639696
+      ],
+      "dense_B_fro2_median": 0.4801672309770072,
+      "truncated_B_fro2_median": 0.4801672309770072,
+      "A_fro2_median": 0.34956341082177655,
+      "truncated_N_times_gap_median": 27168.030258588493
+    },
+    {
+      "rank": 500,
+      "ols_samples": 262144,
+      "primitive_transitions": 262400,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.10341468891203931,
+        0.10374389638820958
+      ],
+      "truncated_gaps": [
+        0.10341468891203931,
+        0.10374389638820958
+      ],
+      "dense_B_fro2_median": 0.23877901348337033,
+      "truncated_B_fro2_median": 0.23877901348337033,
+      "A_fro2_median": 0.1743744643954746,
+      "truncated_N_times_gap_median": 27152.690092474222
+    },
+    {
+      "rank": 500,
+      "ols_samples": 1048576,
+      "primitive_transitions": 1048832,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.025829024989661775,
+        0.025763602154711407
+      ],
+      "truncated_gaps": [
+        0.025829024989661775,
+        0.025763602154711407
+      ],
+      "dense_B_fro2_median": 0.05976260785205437,
+      "truncated_B_fro2_median": 0.05976260785205437,
+      "A_fro2_median": 0.043476433525505606,
+      "truncated_N_times_gap_median": 27049.395300269127
+    },
+    {
+      "rank": 500,
+      "ols_samples": 2097152,
+      "primitive_transitions": 2097408,
+      "pilot_seeds": [
+        700,
+        701
+      ],
+      "dense_gaps": [
+        0.012880818185294629,
+        0.012860880719699708
+      ],
+      "truncated_gaps": [
+        0.012880818185294629,
+        0.012860880719699708
+      ],
+      "dense_B_fro2_median": 0.029832243236496254,
+      "truncated_B_fro2_median": 0.029832243236496254,
+      "A_fro2_median": 0.02168061577554733,
+      "truncated_N_times_gap_median": 26992.12767100334
+    }
+  ],
+  "formal_seed800_observation": {
+    "ols_samples": 131072,
+    "primitive_transitions": 131328,
+    "seed": 800,
+    "truncated_gaps": {
+      "2": 0.14785575453754518,
+      "4": 0.12847453657832375,
+      "8": 0.14877522764709283,
+      "32": 0.0984183298141943,
+      "500": 0.20781110294808514
+    },
+    "source": "Grace read-only query of raw/ce-r*-s0800.json on 2026-10-23 about 19:42 UTC",
+    "full_files_downloaded": false,
+    "independent_policy_audit_for_these_rows": "not yet downloaded/completed"
+  },
+  "findings": [
+    "The pilot 90% rule with two seeds requires both seeds to pass.",
+    "At N=131072, pilot seed701 has rank2 gap below rank8 gap; seed700 determines the crossing reversal.",
+    "Formal seed800 rank8 fails epsilon=.1 at N=131072, so the pilot rank8 crossing has not persisted across all new seeds.",
+    "At the largest N, truncated N*median(gap) is about 10-12.5k for ranks2/4/8/32, rather than proportional to rank.",
+    "The common certificate bounds do not equalize stationary excitation or local Riccati sensitivity."
+  ],
+  "geometric_dimension_comparison": [
+    {
+      "rank": 70,
+      "dense_B_parameters": 250000,
+      "rank_r_tangent_dimension": 65100,
+      "isotropic_B_noise_dimension_ratio": 3.8402457757296466
+    },
+    {
+      "rank": 150,
+      "dense_B_parameters": 250000,
+      "rank_r_tangent_dimension": 127500,
+      "isotropic_B_noise_dimension_ratio": 1.9607843137254901
+    },
+    {
+      "rank": 300,
+      "dense_B_parameters": 250000,
+      "rank_r_tangent_dimension": 210000,
+      "isotropic_B_noise_dimension_ratio": 1.1904761904761905
+    }
+  ],
+  "dimension_comparison_scope": "Tangent-space Frobenius noise under isotropic entry noise; not a control-gap or sample-gain prediction.",
+  "new_rank_extension_status": "frozen locally; not uploaded or submitted because existing Grace session became unavailable",
+  "new_rank_mechanism_diagnostic_status": "implemented and frozen; not executed"
+}

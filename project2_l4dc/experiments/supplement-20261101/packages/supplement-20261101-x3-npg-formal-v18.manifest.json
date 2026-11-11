@@ -1,0 +1,27 @@
+{
+  "name": "supplement-20261101-x3-npg-formal-v18",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x3-npg-formal-v18.tar.gz",
+  "archive_sha256": "3d66431059699fa05fdedccf551f366823a5b801f10da702ff9916c7147e8036",
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "npg_multi.py": "e8848d49650f728e15a6af4433687753a9172106bc4fe0029e7f412a0be05ee2",
+    "npg_formal_suite.py": "0dc2089e7961dd0919dccebb60e14e8aa85eecdec7cf6a717ff610649976ef52",
+    "configs/X3_NPG_formal_v1.json": "09205402ffb4dcb420d0289197056ec0934477ef353a41841948cf88f208b78d",
+    "X3/ACCEPTED_NPG.json": "3300af2e3a70c8ad290707924bbecbba1f40a18899997392a1e67793eca523f5",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_npg_formal.py": "dec57e2bcdb5a4491188fc66aa8c7bef5904efc50c57212ebe06f0497b15a5d7",
+    "job_plan.json": "3d23b90ef431ba972a4735d6598c8c9d2db479426b209a1c51a569a445aa32f6",
+    "slurm/run.sbatch": "9002d455a18b940b6af6a70951384c906efb0eff136f92a88cc826902f0ceb66"
+  },
+  "plan": {
+    "id": "supplement-20261101-x3-npg-formal-v18",
+    "experiment": "X3",
+    "stage": "FORMAL",
+    "scope": "NPG",
+    "config": "configs/X3_NPG_formal_v1.json",
+    "bundles": 32,
+    "wall_minutes": 225,
+    "partition": "medium",
+    "concurrency": 32
+  }
+}

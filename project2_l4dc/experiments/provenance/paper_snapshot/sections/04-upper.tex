@@ -1,0 +1,151 @@
+% !TeX root = ../main.tex
+%====================================================================
+\section{Truncated learning under mild access}\label{sec:upper}
+%====================================================================
+
+Section~\ref{sec:geometry} shows that the low-rank structure is shared by
+CE, PI, and NPG. We now develop learning guarantees for CE and NPG, which
+represent the model-based and the model-free routes, and treat PI, whose
+analysis parallels that of NPG, in Remark~\ref{rem:pi-upper}. The
+analysis requires only operator-norm accuracy of the estimates, and the
+estimates are formed from a single trajectory without resets.
+
+Proposition~\ref{prop:geometry} indicates where truncation helps. A dense
+estimate of $B$ or $Z_{K_t}$ with operator-norm error $a$ has, in
+general, squared Frobenius error of order $\min\{n,m\}a^2$, since the
+estimation noise is retained in every direction, including the weak
+directions of $B$. By \eqref{eq:gap}, this error enters the gap through
+the gain. Truncation to rank $r$ discards all but $r$ directions, and
+since the unknown quantity is close to a rank-$r$ matrix, the truncated
+estimate has squared Frobenius error of order $ra^2+\tau_r^2$. Hence
+truncation removes the noise in the weak directions at the price of the
+spectral tail $\tau_r^2$. In the exact-rank case, the noise retained by
+a dense estimate produces gain components along $\ker B$, which increase
+the stage cost $u^\top Ru$ without affecting the state.
+
+\paragraph{Algorithms.}
+For $1\le r\le\min\{n,m\}$, recall that $\Tr(\cdot)$ denotes the best
+rank-$r$ approximation. Truncated CE and truncated NPG compute
+\begin{align}
+ \text{(CE)}\qquad \widehat K&=\LQR\bigl(\widehat A,\Tr(\widehat B)\bigr),
+ \label{eq:tce}\\
+ \text{(NPG)}\qquad K_{t+1}&=K_t-\eta\bigl(RK_t+\Tr(\widehat Z_t)\bigr),
+ \label{eq:tnpg}
+\end{align}
+with $\eta=(\mu_++2\|B\|^2p_0)^{-1}$. The estimates use one continuous
+trajectory of \eqref{eq:system} from a given initial state $x_0$, with
+Gaussian exploration inputs $\xi\sim N(0,\nu^2I_m)$, $\nu>0$, that are
+independent of the process noise. We write $d=n+m$, and the sample cost $M$ counts
+every transition. For CE, $(\widehat A,\widehat B)$ is the least-squares
+estimate from $N$ transitions under $u_t=-K_0x_t+\xi_t$, collected
+after a short burn-in (Appendix~\ref{app:ls}). For NPG,
+$\widehat Z_t$ is a Stein estimate of $Z_{K_t}$. The trajectory under
+$K_t$ is divided into blocks of length $H$, and a pulse $\xi_j$ is added
+to the input at the first state $X_j=x_{t_j}$ of block $j$. Let
+$\Delta_j=\mathcal G_j-\mathcal G_{j-1}$, where
+$\mathcal G_j=\sum_{s=1}^Hx_{t_j+s}^\top(Q+K_t^\top RK_t)x_{t_j+s}$. Then
+\begin{equation}\label{eq:stein}
+ \widehat Z_t=-\Bigl(\sum_{j=1}^N\dfrac{\xi_j\Delta_jX_j^\top}{2\nu^2}\Bigr)
+ \Bigl(\sum_{j=1}^NX_jX_j^\top\Bigr)^{-1}.
+\end{equation}
+Indeed, given the history before $\xi_j$, the part of
+$\EE[\Delta_j\given X_j,\xi_j]$ that is linear in $\xi_j$ equals
+$-2\xi_j^\top Z_{K_t}X_j$, up to an error that decays geometrically in
+$H$. Each stage starts with a burn-in and a baseline block
+(Appendix~\ref{app:stein}). The dense versions use $\widehat B$ and $\widehat Z_t$
+without truncation.
+
+\begin{theorem}[Single-trajectory learning with truncation]\label{thm:e2e}
+Suppose Assumption~\ref{ass:standing} holds and $\beta_r\le c_1$.
+\begin{itemize}
+\item[(a)] \emph{(CE.)} If
+$N\ge C_2\bigl(r(d+\log(1/\delta))/\eps+d+\log(1/\delta)\bigr)$, then
+with probability at least $1-\delta$, $\widehat K$ is stabilizing,
+$P_{\widehat K}\preceq4P_{K_0}$, $\rank\widehat K\le r$, and
+$g(\widehat K)\le\eps+C_3\tau_r^2$.
+\item[(b)] \emph{(NPG.)} With the batch schedule of Appendix~\ref{app:schedule}, after
+at most $C_4\log(C_4n/\eps)$ iterations and
+$M=\widetilde O_{\sys}(rnd/\eps)$ transitions, with probability at least
+$1-\delta$, every iterate is stabilizing with $P_{K_t}\preceq2P_{K_0}$,
+and the final iterate satisfies $g(K_T)\le\eps+C_3\tau_r^2$.
+\end{itemize}
+The dense versions satisfy the same conclusions, except the rank bound
+in (a), with $r$ replaced by $\min\{n,m\}$, for which $\beta_r=\tau_r=0$.
+\end{theorem}
+
+We are ready to express the sample cost in terms of the effective
+actuation rank.
+
+\begin{corollary}[Sample cost in terms of effective actuation rank]\label{cor:effective-rank}
+Suppose Assumption~\ref{ass:standing} holds and $\ceff$ in Definition~\ref{def:effective-rank} is sufficiently small.
+Let $k=\max\{k_\eps(B),1\}$. With $r=k$ and $\eps$ replaced by $\eps/2$
+in Theorem~\ref{thm:e2e}, truncated CE and truncated NPG return, with
+probability at least $1-\delta$, stabilizing gains with gap at most
+$\eps$, using $\widetilde O_{\sys}(kd/\eps)$ and
+$\widetilde O_{\sys}(knd/\eps)$ transitions, respectively.
+\end{corollary}
+
+Indeed, since $\tau_j$ is nonincreasing in $j$, one has
+$\beta_k\le\tau_k\le\sqrt{\ceff\eps}$, and a small $\ceff$ ensures
+$\beta_k\le c_1$ and $C_3\tau_k^2\le\eps/2$, with $c_1$ and $C_3$ from
+Theorem~\ref{thm:e2e}. In view of
+Corollary~\ref{cor:effective-rank}, the sample cost is governed by the
+number of strong input directions. The factor $\min\{n,m\}$ in the
+sample-cost bounds for the dense estimators is replaced by $k_\eps(B)$,
+which can be much smaller even when $B$ has full rank.
+
+\paragraph{Unknown effective rank.}
+Corollary~\ref{cor:effective-rank} uses $k_\eps(B)$, which is unknown in
+general. For CE, this is avoided by hard thresholding. Let $\check B$
+retain the singular values of $\widehat B$ larger than
+$C_5\sqrt{(d+\log(1/\delta))/N}$, where $C_5$ is a sufficiently large
+multiple of the constant in the least-squares error bound, and let
+$\check K=\LQR(\widehat A,\check B)$.
+
+\begin{corollary}[Adaptive truncation for CE]\label{cor:adaptive-rate}
+Suppose Assumption~\ref{ass:standing} holds, $\ceff$ in
+Definition~\ref{def:effective-rank} is sufficiently small, and
+$k=\max\{k_\eps(B),1\}$. If
+$N\ge C_6k(d+\log(1/\delta))/\eps$, then with probability at least
+$1-\delta$, $\check K$ is stabilizing and $g(\check K)\le\eps$.
+\end{corollary}
+
+The proof establishes the oracle inequality
+$g(\check K)\le C_7\min_{0\le j\le\min\{n,m\}}\{j(d+\log(1/\delta))/N+\tau_j^2\}$
+for every $N\ge C_6(d+\log(1/\delta))$, without any gap between the
+singular values of $B$ (Appendix~\ref{app:cor}).
+
+\paragraph{Proof sketch of Theorem~\ref{thm:e2e}.}
+The proof separates a deterministic transfer from a statistical step.
+Suppose the estimates of $A$ and $B$ have operator-norm error at most
+$a\le c_1$, and that of $Z_{K_t}$ at most $a_t\le c_1$. By
+Proposition~\ref{prop:geometry} and a perturbation inequality for
+truncated singular value decompositions, $\Tr(\widehat B)$ and
+$\Tr(\widehat Z_t)$ have squared Frobenius errors
+$\lesssim ra^2+\tau_r^2$ and $\lesssim ra_t^2+\tau_r^2$, respectively. For CE, a perturbation
+bound for the Riccati equation transfers this error to
+$\|\widehat K-K^\star\|_F^2$, and hence to $g(\widehat K)$ by
+\eqref{eq:gap}. For NPG, the Bellman identity and the monotonicity of
+the Riccati map show that $\{K:P_K\preceq2P_{K_0}\}$ is invariant under
+\eqref{eq:tnpg}, and gradient domination on this set gives
+\begin{equation}\label{eq:transfer}
+ g(K_{t+1})\le(1-c_2)\,g(K_t)+C_8\bigl(r\,a_t^2+\tau_r^2\bigr).
+\end{equation}
+This step requires neither unbiasedness nor independence of the
+estimates. In the statistical step, least squares attains
+$a^2\lesssim(d+\log(1/\delta))/N$. At a stage with
+$P_{K_t}\preceq2P_{K_0}$, \eqref{eq:stein} with $N$ blocks of length $H$
+attains $a_t^2\lesssim Hnd\ell^3/N$, where $\ell=\log(CNd/\delta)$, up to
+a bias that decays geometrically in $H$. The schedule keeps $ra_t^2$
+below a multiple of an envelope that contracts at rate $1-c_2/2$, more
+slowly than \eqref{eq:transfer}, so that the error terms are absorbed.
+A first-failure argument over the stages gives one event of probability
+at least $1-\delta$ (Appendices~\ref{app:transfer} and~\ref{app:stat}).
+
+\begin{remark}\label{rem:pi-upper}
+Truncated PI additionally clips its curvature estimate to the positive
+semidefinite cone and truncates the joint estimate of $M_{K_t}$. It
+attains the guarantee of Theorem~\ref{thm:e2e}(b) with possibly
+different constants, and in addition
+$\rank K_t\le r$ for every $t\ge1$ (Appendix~\ref{app:pi}).
+\end{remark}

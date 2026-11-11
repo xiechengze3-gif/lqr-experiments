@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "scope": "CE_ONLY",
+  "experiment": "X2",
+  "outputs": 9408,
+  "failed_outputs": 1100,
+  "candidate_policies_independently_checked": 9408,
+  "max_normalized_gap_identity_error": 3.927397756549409e-11,
+  "max_radius_error": 0.0,
+  "new_training_transitions": 0,
+  "source_sha256": "683951ef6c2864a11651707a7b785d4ece9b47592e95d9077e4e7550e636b343",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "full_failure_denominators": 32,
+  "bootstrap_seed": 2026110299,
+  "bootstrap_scope": "paired ratios for both experiments, X2 epsilon budgets; all four seeds stay inside resampled system clusters",
+  "job": "20359387"
+}

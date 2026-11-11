@@ -1,0 +1,19 @@
+algorithm,n,m,null_scale,spectrum,budget_multiplier,mode,finite_pairs,full_denominator,paired_ratio_median,bootstrap95_low,bootstrap95_high,bootstrap_valid,bootstrap_total,independent_systems,bootstrap_seed,interpretation
+NPG,12,2,0.0,exact,1,truncated,32,32,1.0,1.0,1.0,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,12,4,0.0,exact,1,truncated,32,32,1.0217084716334315,0.8850185713756616,1.229292266147005,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,12,4,0.25,exact,1,truncated,32,32,1.0529472091605854,0.8585735038246326,1.2619051458592399,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,12,6,0.0,exact,1,truncated,32,32,1.0961666454718886,0.748244363307869,1.40243865730943,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,12,6,0.25,exact,1,truncated,32,32,1.1259492777353262,0.79106141863488,1.375026846516976,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,12,9,0.0,exact,1,truncated,32,32,1.2248439244651468,0.7981768402815135,1.5738420201101009,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,12,9,0.25,exact,1,truncated,32,32,1.1998543881621706,0.8593846170432087,1.5552116593806447,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,12,12,0.0,exact,1,truncated,32,32,1.4945454419275874,0.8592479167484433,1.7987454436165915,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+NPG,12,12,0.25,exact,1,truncated,32,32,1.4365277346860705,0.8819875853528907,1.7723695864008975,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,2,0.0,exact,1,truncated,22,32,1.0,1.0,1.0,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,4,0.0,exact,1,truncated,20,32,3.205845732429389,2.5707101943264976,3.8056257020040096,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,4,0.25,exact,1,truncated,20,32,3.1964361165833326,2.5707099450502717,3.7498678852197624,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,6,0.0,exact,1,truncated,20,32,4.757381877162426,4.562037396090845,4.965515166705336,1999,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,6,0.25,exact,1,truncated,20,32,4.757422141567121,4.562037481003241,4.965507027017381,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,9,0.0,exact,1,truncated,17,32,7.486735272608761,6.861190748192298,7.843127127409682,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,9,0.25,exact,1,truncated,17,32,7.595966713996938,7.123814448053294,7.959279313341067,1999,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,12,0.0,exact,1,truncated,18,32,9.846375882095334,9.071069550164257,10.119930444911612,1999,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately
+PI,12,12,0.25,exact,1,truncated,18,32,9.846867063490484,8.947641739129613,10.11993548527246,2000,2000,8,2026110199,finite paired ratios only; full-denominator failures and padding retained separately

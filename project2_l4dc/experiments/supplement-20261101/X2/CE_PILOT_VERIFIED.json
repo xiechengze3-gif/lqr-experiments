@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "CE_ONLY",
+  "trajectories": 28,
+  "outputs": 1008,
+  "unstable_outputs": 96,
+  "failures_by_mode": {
+    "dense": 67,
+    "truncated": 29
+  },
+  "config_sha256": "1fc7046754e9bfebf7d10b7e6804ec48700cf142fcdb0155fd40bc2942532ba6"
+}

@@ -1,0 +1,168 @@
+{
+  "status": "OWN_X10B_ACCOUNTING_VERIFIED",
+  "checked_utc": "2026-11-06T12:15:00.239601+00:00",
+  "cap_requested_SU": 200,
+  "actual_forecast_cap_SU": 160,
+  "measured_forecast_actual_SU": null,
+  "cumulative_requested_SU": 8.333333333333332,
+  "Slurm_elapsed_billing_SU": 0.14,
+  "AMS_settled_walltime_slots_SU": 0.015833333333333335,
+  "AMS_displayed_rounded_SU_sum": 0.02,
+  "AMS_own_settled_rows": 1,
+  "Slurm_allocation_rows": 6,
+  "allocations": [
+    {
+      "job": "20415057_0",
+      "physical_job_id": "20415057",
+      "state": "FAILED",
+      "elapsed_seconds": 57,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.015833333333333335
+    },
+    {
+      "job": "20415058_0",
+      "physical_job_id": "20415058",
+      "state": "CANCELLED",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20415059_0",
+      "physical_job_id": "20415059",
+      "state": "CANCELLED",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20416116_0",
+      "physical_job_id": "20416116",
+      "state": "COMPLETED",
+      "elapsed_seconds": 41,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.01138888888888889
+    },
+    {
+      "job": "20416117_0",
+      "physical_job_id": "20416117",
+      "state": "RUNNING",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05638888888888889
+    },
+    {
+      "job": "20416118_0",
+      "physical_job_id": "20416118",
+      "state": "RUNNING",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1",
+      "billing_cores": 1.0,
+      "elapsed_billing_SU": 0.05638888888888889
+    }
+  ],
+  "steps": [
+    {
+      "job": "20415057_0.batch",
+      "physical_job_id": "20415057.batch",
+      "state": "FAILED",
+      "elapsed_seconds": 57,
+      "cpus": 1,
+      "max_RSS": "67512K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20415057_0.extern",
+      "physical_job_id": "20415057.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 57,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20416116_0.batch",
+      "physical_job_id": "20416116.batch",
+      "state": "COMPLETED",
+      "elapsed_seconds": 41,
+      "cpus": 1,
+      "max_RSS": "88604K",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20416116_0.extern",
+      "physical_job_id": "20416116.extern",
+      "state": "COMPLETED",
+      "elapsed_seconds": 41,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20416117_0.batch",
+      "physical_job_id": "20416117.batch",
+      "state": "RUNNING",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20416117_0.extern",
+      "physical_job_id": "20416117.extern",
+      "state": "RUNNING",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20416118_0.batch",
+      "physical_job_id": "20416118.batch",
+      "state": "RUNNING",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "cpu=1,mem=2G,node=1"
+    },
+    {
+      "job": "20416118_0.extern",
+      "physical_job_id": "20416118.extern",
+      "state": "RUNNING",
+      "elapsed_seconds": 203,
+      "cpus": 1,
+      "max_RSS": "",
+      "allocated_TRES": "billing=1,cpu=1,mem=2G,node=1"
+    }
+  ],
+  "settled_records": [
+    {
+      "job": "20415057",
+      "array_index": "0",
+      "elapsed_seconds": 57,
+      "slots": 1.0,
+      "displayed_rounded_SU": 0.02
+    }
+  ],
+  "unknown_Slurm_billing_jobs": [],
+  "unparsed_own_AMS_rows": [],
+  "account_summary_line": "|132685389143|  2027|        Y|    20000.00|          15676.13|     4323.87|Li, Yan             |",
+  "source_sha256": "aa774028fcb954155a8d307f57eefb448ccd4718f4da44602ab5c6906f451f46",
+  "note": "Slurm and AMS are overlapping views, never added. Used & Pending includes reservations; current account balance is not X10b spend. Only own-X10b records retained.",
+  "snapshot_path": "/scratch/user/changze/lqr_experiments/results/x10-20261106/X10b/budget/accounting-1793967300240053451.json"
+}

@@ -1,0 +1,10 @@
+algorithm,scale,finite_pairs,full_denominator,independent_systems,paired_ratio_median,bootstrap95_low,bootstrap95_high,bootstrap_valid,bootstrap_total,bootstrap_seed,interpretation
+CE,0.25,317,320,8,1.1447084896057347,1.1184065912663783,1.1786281706093802,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster
+CE,0.5,315,320,8,1.0741351476041923,1.0458082629463739,1.1329012787250998,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster
+CE,1.0,303,320,8,1.0447708950456331,1.0158487100953149,1.0973271704267806,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster
+NPG,0.25,320,320,8,1.0356318692624824,0.9773845580417597,1.105098022443838,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster
+NPG,0.5,319,320,8,1.0199784098756666,0.9980796189448836,1.084777761564193,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster
+NPG,1.0,308,320,8,1.023920517876925,1.0076166818730268,1.0777735505934793,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster
+PI,0.25,180,320,8,1.8814116571197292,1.7397387908710735,2.069662632973108,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster
+PI,0.5,180,320,8,1.3704397235368375,1.3435066964872102,1.4771364249545176,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster
+PI,1.0,179,320,8,1.2974447196965087,1.244169735494467,1.4416656771592464,2000,2000,2026110499,same system/seed/direction/perturbation; whole-system bootstrap includes all40 observations per selected cluster

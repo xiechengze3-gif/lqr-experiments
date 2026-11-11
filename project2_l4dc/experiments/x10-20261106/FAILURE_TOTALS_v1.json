@@ -1,0 +1,25 @@
+{
+  "status": "FORMATTED_VERIFIED_SAVED_COUNTS",
+  "totals": [
+    {
+      "algorithm": "NPG",
+      "total_per_arm": 1152,
+      "dense_failed": 256,
+      "truncated_failed": 13
+    },
+    {
+      "algorithm": "PI",
+      "total_per_arm": 1152,
+      "dense_failed": 582,
+      "truncated_failed": 0
+    }
+  ],
+  "sources": {
+    "failure_counts_by_cell.csv": "5f6c8d8546aa9d50fe01b867cb102435f3325f99263cc5e7870b192fec14a292",
+    "failures.csv": "833beccb759a6bd8f3e6c66bb91efd3eba057159079832e812cb86a5b6c4ba69",
+    "transitions_saved_derived.csv": "0a1f827b37ff6a56da1d44b8f0e43570fe08cd9ecf251f0b14c4eaf5810cd39a"
+  },
+  "new_training_transitions": 0,
+  "new_bootstrap": 0,
+  "numerical_model_reanalysis": false
+}

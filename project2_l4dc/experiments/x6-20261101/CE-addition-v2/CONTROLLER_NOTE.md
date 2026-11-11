@@ -1,0 +1,1 @@
+v2 corrects the pre-submission single-field sacct State parser (parsable2 has no trailing delimiter). Scientific source, config, protocol and analysis are byte-identical to v1. The unused v6 package was never submitted and reserved0SU.

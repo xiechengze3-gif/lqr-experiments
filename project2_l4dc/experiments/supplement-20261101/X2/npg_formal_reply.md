@@ -1,0 +1,3 @@
+Scope: **X2 NPG FORMAL complete**, n12/24,base2048,all32 system/seed bundles.64 paired runs=128 continuous actor trajectories;30,848 recorded outputs,0 unstable outputs,0 hard numerical failures. All actual per-arm primitive counts match the independently instrumented pulse calls exactly; no absorbing-failure padding was needed.
+
+Verified receipt `X2/FORMAL_NPG_COMPLETE.json`; config SHA256 `a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933`; approval `X2/ACCEPTED_NPG.json`; formal job20359410. Source/coverage/all candidate archive hashes verified; independent Lyapunov cost check is the pending REPORT stage. This is full-endpoint relative comparison, not an epsilon attainment claim.

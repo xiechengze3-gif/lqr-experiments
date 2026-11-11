@@ -1,0 +1,248 @@
+{
+  "state": "COMPLETE_RETRIEVED_SHA256_VERIFIED",
+  "release": "e17e48ad7af70efd",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\packages\\ce-adaptive-zoom-e17e48ad7af70efd.tar.gz",
+  "archive_sha256": "b0b7ac39c673cb8b49088df6b86305e6bc5e12170d4d25cc6af21fd7141612b5",
+  "prefix_count": 180,
+  "new_physical_transitions": 4198400,
+  "maximum_reserved_SU": 0.8333333333333334,
+  "campaign_SU_ceiling": 1.0,
+  "remote_result": "/scratch/user/changze/lqr_experiments/results/ce-adaptive-zoom-e17e48ad7af70efd",
+  "grace_account": "132685389143",
+  "fiscal_year": 2027,
+  "balance_before_SU": 9356.04,
+  "verification_job": "20164471",
+  "report_job": "20164477",
+  "verification_status": "PASS",
+  "manifest_sha256": "d692f4ac8d6de84e6957955d48c4561e580c21fcd58d362ee616a1c7663fc230",
+  "array_job": "20164474",
+  "accounting_note": "Sum of elapsed times multiplied by allocated CPUs, separate from AMS settlement",
+  "measured_elapsed_core_hours": 0.16361111111111112,
+  "jobs": [
+    {
+      "id": "20164471",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 45,
+      "cores": 1
+    },
+    {
+      "id": "20164474_0",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 71,
+      "cores": 1
+    },
+    {
+      "id": "20164474_1",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 68,
+      "cores": 1
+    },
+    {
+      "id": "20164474_2",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 70,
+      "cores": 1
+    },
+    {
+      "id": "20164474_3",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 67,
+      "cores": 1
+    },
+    {
+      "id": "20164474_4",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 61,
+      "cores": 1
+    },
+    {
+      "id": "20164474_5",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 63,
+      "cores": 1
+    },
+    {
+      "id": "20164474_6",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 62,
+      "cores": 1
+    },
+    {
+      "id": "20164474_7",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 62,
+      "cores": 1
+    },
+    {
+      "id": "20164477",
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "elapsed_seconds": 20,
+      "cores": 1
+    }
+  ],
+  "result_directory": "E:\\ChatGPT\\Results\\LQR_experiments\\grace-ce-adaptive-zoom-e17e48ad7af70efd\\results\\ce-adaptive-zoom-e17e48ad7af70efd",
+  "retrieved_UTC": "2026-10-16T04:17:07.3630833Z",
+  "final_archive_sha256": "8f4d33df57f1938411e9113fdaac964b1e8c08263f9ef0ad8bd6a89ea4b0f3b2",
+  "summary": {
+    "status": "COMPLETE",
+    "datasets": 8,
+    "prefixes": 180,
+    "records": 4320,
+    "adaptive_records": 1440,
+    "historical_replay_checks": 2880,
+    "unstable_records": 8,
+    "adaptive_unstable_records": 8,
+    "first_equals_sustained": true,
+    "crossings": [
+      {
+        "rank": 16,
+        "method": "raw",
+        "first_tested_budget": 141824,
+        "previous_tested_budget": 139776,
+        "sustained_tested_budget": 141824,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": null
+      },
+      {
+        "rank": 16,
+        "method": "truncated",
+        "first_tested_budget": 64000,
+        "previous_tested_budget": 61952,
+        "sustained_tested_budget": 64000,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": null
+      },
+      {
+        "rank": 16,
+        "method": "adaptive",
+        "first_tested_budget": 64000,
+        "previous_tested_budget": 61952,
+        "sustained_tested_budget": 64000,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": [
+          16,
+          16
+        ]
+      },
+      {
+        "rank": 32,
+        "method": "raw",
+        "first_tested_budget": 160256,
+        "previous_tested_budget": 158208,
+        "sustained_tested_budget": 160256,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": null
+      },
+      {
+        "rank": 32,
+        "method": "truncated",
+        "first_tested_budget": 113152,
+        "previous_tested_budget": 111104,
+        "sustained_tested_budget": 113152,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": null
+      },
+      {
+        "rank": 32,
+        "method": "adaptive",
+        "first_tested_budget": 113152,
+        "previous_tested_budget": 111104,
+        "sustained_tested_budget": 113152,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": [
+          32,
+          32
+        ]
+      },
+      {
+        "rank": 64,
+        "method": "raw",
+        "first_tested_budget": 184832,
+        "previous_tested_budget": 182784,
+        "sustained_tested_budget": 184832,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": null
+      },
+      {
+        "rank": 64,
+        "method": "truncated",
+        "first_tested_budget": 170496,
+        "previous_tested_budget": 168448,
+        "sustained_tested_budget": 170496,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": null
+      },
+      {
+        "rank": 64,
+        "method": "adaptive",
+        "first_tested_budget": 170496,
+        "previous_tested_budget": 168448,
+        "sustained_tested_budget": 170496,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": [
+          64,
+          64
+        ]
+      },
+      {
+        "rank": 100,
+        "method": "raw",
+        "first_tested_budget": 156160,
+        "previous_tested_budget": 154112,
+        "sustained_tested_budget": 156160,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": null
+      },
+      {
+        "rank": 100,
+        "method": "truncated",
+        "first_tested_budget": 156160,
+        "previous_tested_budget": 154112,
+        "sustained_tested_budget": 156160,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": null
+      },
+      {
+        "rank": 100,
+        "method": "adaptive",
+        "first_tested_budget": 156160,
+        "previous_tested_budget": 154112,
+        "sustained_tested_budget": 156160,
+        "right_censored": false,
+        "epsilon": 0.1,
+        "retained_ranks_at_first_hit": [
+          100,
+          100
+        ]
+      }
+    ],
+    "new_physical_transitions": 4198400,
+    "slurm_job_id": "20164477"
+  },
+  "production_physical_transitions": 4198400,
+  "findings": "E:\\ChatGPT\\Projects\\LQR_experiments\\docs\\CE_ADAPTIVE_ZOOM_FINDINGS.md",
+  "verification_physical_transitions": 4608,
+  "figures_visually_reviewed": true,
+  "total_physical_transitions_including_verification": 4203008
+}

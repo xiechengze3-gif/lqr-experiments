@@ -1,0 +1,695 @@
+{
+  "status": "X12_READONLY_METADATA_STATUS",
+  "checked_utc": "2026-11-06T19:10:19.138326-06:00",
+  "ledger_path": "/scratch/user/changze/lqr_experiments/results/x12-20261106/budget/LEDGER_v10.json",
+  "ledger_sha256": "741ad36e5e8827460e9ec9c5f423d1f5b9e2830cfd9e90f3b4b5c8971d763d13",
+  "allocations": [
+    {
+      "job": "20423996",
+      "role": "calibration",
+      "rows": [
+        {
+          "job": "20423996_0",
+          "state": "COMPLETED",
+          "seconds": 164,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20423996_1",
+          "state": "COMPLETED",
+          "seconds": 162,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20423996_2",
+          "state": "COMPLETED",
+          "seconds": 162,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20423996_3",
+          "state": "COMPLETED",
+          "seconds": 162,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20423996_4",
+          "state": "COMPLETED",
+          "seconds": 163,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20423996_5",
+          "state": "COMPLETED",
+          "seconds": 162,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20423996_6",
+          "state": "COMPLETED",
+          "seconds": 163,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20423996_7",
+          "state": "COMPLETED",
+          "seconds": 163,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        }
+      ]
+    },
+    {
+      "job": "20423998",
+      "role": "resolution",
+      "rows": [
+        {
+          "job": "20423998",
+          "state": "COMPLETED",
+          "seconds": 25,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        }
+      ]
+    },
+    {
+      "job": "20424078",
+      "role": "NPG",
+      "rows": [
+        {
+          "job": "20424078",
+          "state": "COMPLETED",
+          "seconds": 5243,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        }
+      ]
+    },
+    {
+      "job": "20424079",
+      "role": "PI",
+      "rows": [
+        {
+          "job": "20424079",
+          "state": "COMPLETED",
+          "seconds": 4886,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        }
+      ]
+    },
+    {
+      "job": "20424504",
+      "role": "models",
+      "rows": [
+        {
+          "job": "20424504",
+          "state": "COMPLETED",
+          "seconds": 56,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        }
+      ]
+    },
+    {
+      "job": "20424516",
+      "role": "NPG",
+      "rows": [
+        {
+          "job": "20424516_0",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_1",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_2",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_3",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_4",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_5",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_6",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_7",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_8",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_9",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_10",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_11",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_12",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_13",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_14",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_15",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_16",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_17",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_18",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_19",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_20",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_21",
+          "state": "RUNNING",
+          "seconds": 497,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_22",
+          "state": "RUNNING",
+          "seconds": 496,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_23",
+          "state": "RUNNING",
+          "seconds": 496,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_24",
+          "state": "RUNNING",
+          "seconds": 496,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_25",
+          "state": "RUNNING",
+          "seconds": 496,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_26",
+          "state": "RUNNING",
+          "seconds": 496,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_27",
+          "state": "RUNNING",
+          "seconds": 496,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_28",
+          "state": "RUNNING",
+          "seconds": 496,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_29",
+          "state": "RUNNING",
+          "seconds": 496,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_30",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424516_31",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        }
+      ]
+    },
+    {
+      "job": "20424517",
+      "role": "PI",
+      "rows": [
+        {
+          "job": "20424517_0",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_1",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_2",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_3",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_4",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_5",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_6",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_7",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_8",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_9",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_10",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_11",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_12",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_13",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_14",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_15",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_16",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_17",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_18",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_19",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_20",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_21",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_22",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_23",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_24",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_25",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_26",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_27",
+          "state": "RUNNING",
+          "seconds": 464,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_28",
+          "state": "RUNNING",
+          "seconds": 431,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_29",
+          "state": "RUNNING",
+          "seconds": 431,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_30",
+          "state": "RUNNING",
+          "seconds": 431,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        },
+        {
+          "job": "20424517_31",
+          "state": "RUNNING",
+          "seconds": 431,
+          "tres": "billing=1,cpu=1,mem=2G,node=1",
+          "billing": 1.0
+        }
+      ]
+    }
+  ],
+  "uncertain_reservations": [],
+  "Slurm_elapsed_SU": 11.682500000000001,
+  "requested_upper_SU": 169.89999999999998,
+  "report_reserved_SU": 8,
+  "own_queue": [
+    "20424517_28|RUNNING|x12-formal-v1-PI",
+    "20424517_29|RUNNING|x12-formal-v1-PI",
+    "20424517_30|RUNNING|x12-formal-v1-PI",
+    "20424517_31|RUNNING|x12-formal-v1-PI",
+    "20424517_0|RUNNING|x12-formal-v1-PI",
+    "20424516_30|RUNNING|x12-formal-v1-NPG",
+    "20424516_31|RUNNING|x12-formal-v1-NPG",
+    "20424517_1|RUNNING|x12-formal-v1-PI",
+    "20424517_2|RUNNING|x12-formal-v1-PI",
+    "20424517_3|RUNNING|x12-formal-v1-PI",
+    "20424517_4|RUNNING|x12-formal-v1-PI",
+    "20424517_5|RUNNING|x12-formal-v1-PI",
+    "20424517_6|RUNNING|x12-formal-v1-PI",
+    "20424517_7|RUNNING|x12-formal-v1-PI",
+    "20424517_8|RUNNING|x12-formal-v1-PI",
+    "20424517_9|RUNNING|x12-formal-v1-PI",
+    "20424517_10|RUNNING|x12-formal-v1-PI",
+    "20424517_11|RUNNING|x12-formal-v1-PI",
+    "20424517_12|RUNNING|x12-formal-v1-PI",
+    "20424517_13|RUNNING|x12-formal-v1-PI",
+    "20424517_14|RUNNING|x12-formal-v1-PI",
+    "20424517_15|RUNNING|x12-formal-v1-PI",
+    "20424517_16|RUNNING|x12-formal-v1-PI",
+    "20424517_17|RUNNING|x12-formal-v1-PI",
+    "20424517_18|RUNNING|x12-formal-v1-PI",
+    "20424517_19|RUNNING|x12-formal-v1-PI",
+    "20424517_20|RUNNING|x12-formal-v1-PI",
+    "20424517_21|RUNNING|x12-formal-v1-PI",
+    "20424517_22|RUNNING|x12-formal-v1-PI",
+    "20424517_23|RUNNING|x12-formal-v1-PI",
+    "20424517_24|RUNNING|x12-formal-v1-PI",
+    "20424517_25|RUNNING|x12-formal-v1-PI",
+    "20424517_26|RUNNING|x12-formal-v1-PI",
+    "20424517_27|RUNNING|x12-formal-v1-PI",
+    "20424516_22|RUNNING|x12-formal-v1-NPG",
+    "20424516_23|RUNNING|x12-formal-v1-NPG",
+    "20424516_24|RUNNING|x12-formal-v1-NPG",
+    "20424516_25|RUNNING|x12-formal-v1-NPG",
+    "20424516_26|RUNNING|x12-formal-v1-NPG",
+    "20424516_27|RUNNING|x12-formal-v1-NPG",
+    "20424516_28|RUNNING|x12-formal-v1-NPG",
+    "20424516_29|RUNNING|x12-formal-v1-NPG",
+    "20424516_0|RUNNING|x12-formal-v1-NPG",
+    "20424516_1|RUNNING|x12-formal-v1-NPG",
+    "20424516_2|RUNNING|x12-formal-v1-NPG",
+    "20424516_3|RUNNING|x12-formal-v1-NPG",
+    "20424516_4|RUNNING|x12-formal-v1-NPG",
+    "20424516_5|RUNNING|x12-formal-v1-NPG",
+    "20424516_6|RUNNING|x12-formal-v1-NPG",
+    "20424516_7|RUNNING|x12-formal-v1-NPG",
+    "20424516_8|RUNNING|x12-formal-v1-NPG",
+    "20424516_9|RUNNING|x12-formal-v1-NPG",
+    "20424516_10|RUNNING|x12-formal-v1-NPG",
+    "20424516_11|RUNNING|x12-formal-v1-NPG",
+    "20424516_12|RUNNING|x12-formal-v1-NPG",
+    "20424516_13|RUNNING|x12-formal-v1-NPG",
+    "20424516_14|RUNNING|x12-formal-v1-NPG",
+    "20424516_15|RUNNING|x12-formal-v1-NPG",
+    "20424516_16|RUNNING|x12-formal-v1-NPG",
+    "20424516_17|RUNNING|x12-formal-v1-NPG",
+    "20424516_18|RUNNING|x12-formal-v1-NPG",
+    "20424516_19|RUNNING|x12-formal-v1-NPG",
+    "20424516_20|RUNNING|x12-formal-v1-NPG",
+    "20424516_21|RUNNING|x12-formal-v1-NPG"
+  ],
+  "own_running": 64,
+  "formal_groups": {
+    "NPG": {
+      "complete": [],
+      "hard_failures": []
+    },
+    "PI": {
+      "complete": [],
+      "hard_failures": []
+    }
+  },
+  "model_registry_done": true,
+  "no_performance_readout": true,
+  "resource_progress": [
+    {
+      "group": "n60-nine-NPG",
+      "algorithm": "NPG",
+      "task_states": {
+        "RUNNING": 32
+      },
+      "complete_tasks": [],
+      "hard_failures": [],
+      "started_tasks": 32,
+      "complete_paired_paths": 157,
+      "min_rungs_per_task": 4,
+      "max_rungs_per_task": 5
+    },
+    {
+      "group": "n60-nine-PI",
+      "algorithm": "PI",
+      "task_states": {
+        "RUNNING": 32
+      },
+      "complete_tasks": [],
+      "hard_failures": [],
+      "started_tasks": 32,
+      "complete_paired_paths": 106,
+      "min_rungs_per_task": 3,
+      "max_rungs_per_task": 4
+    }
+  ],
+  "new_outcome_analysis": false,
+  "review_sha256": "7abc1d31d3c9afaf1407bf2d7e8777058bb10f374a53f6824b71ac2b29500cbf"
+}

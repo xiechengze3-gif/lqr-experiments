@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "scope": "X3_NPG_FIXED_ORDER_ENVELOPE_AND_B_TAIL_DIAGNOSTIC",
+  "envelope_rows": 18,
+  "spectral_rows": 312,
+  "source_statistics_sha256": "2daa3d50b9f7b7ec83d52a76c09e801c555ac5b65ec77c6d36add714224fd20c",
+  "source_report_sha256": "ce9f21eec4e6f4611260f0806f53c6ade2a98810a93899643fa15adb89793bee",
+  "source_sha256": "ca2fa808f0d7d95e5aefe57308ee34d646b375bc1e2f9a9b70c3c15224d02fe4",
+  "new_training_transitions": 0,
+  "new_learning_runs": 0,
+  "truth_used_for_evaluation_only": true,
+  "limitation": "True B tail is not every current-policy Z_K tail; no adaptive NPG was run",
+  "job": "20359906"
+}

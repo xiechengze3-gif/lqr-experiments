@@ -1,0 +1,36 @@
+{
+  "name": "x6-20261101-a-ce-report-v6",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\CE-addition-v1\\packages\\x6-20261101-a-ce-report-v6.tar.gz",
+  "archive_sha256": "a1b52b68e603a74c0ea4305a0dfa779f196de2949733ff190c8c3c18b12f35c4",
+  "plan": {
+    "id": "x6-20261101-a-ce-report-v6",
+    "experiment": "X6a",
+    "stage": "REPORT_CE_ADDITION",
+    "tasks": 1,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 30,
+    "requested_bound_SU": 0.5
+  },
+  "approval": {
+    "experiment": "X6a",
+    "accepted_stage": "REPORT",
+    "exact_quote": "### Note 22:55 CDT (Claude, author-approved) \u2014 additions for the X6a REPORT and the X6b PROTOCOL\n\n**X6a, saved-data addition (no new transitions, within the REPORT or a second <= 1 SU REPORT job):**\nfrom the saved X6a CE least-squares fits on family S (K0 = 0, fixed certificates), compute the\ndense and rank-2 CE gains and their exact gaps, and report per n in {24,36,48,72} and N the\npaired ratio g(dense)/g(truncated) (median and system-bootstrap 95% CI over pairs with both\nstable), stable counts per arm, and the failure-inclusive version (unstable = +infinity; drop\nonly pairs where both are unstable, and report how many). Same for family U, with medians of\n||P_K0|| and v_star per n. Purpose: CE n/r scaling at fixed certificates.\n\n**X6b PROTOCOL must additionally include (pre-registered):**\n1. Rungs base_n x {1/64, 1/16, 1/4, 1} (add 1/64 if the measured cost allows), to show the\n   transition from the low-precision to the high-precision regime; base_n fixed from the\n   X6a pilot-only calibration before any X6b formal run, never re-chosen from formal outcomes.\n2. At every rung, both arms with identical primitive transitions: final gap (absolute and\n   relative, failure-inclusive median/IQR), stable counts, paired ratio over both-stable pairs\n   and the failure-inclusive version.\n3. Budget-to-epsilon from the rung ladder for relative gap 0.1 and 0.05: smallest rung with\n   >= 29/32 runs attaining it, per arm, right-censored, no interpolation; system bootstrap.\n4. rho_op and the projection coefficient along the path are diagnostics computed with the\n   simulator only; they are never inputs of the learners.\n\n### Review 23:00 CDT (Claude) \u2014 X6a REPORT: ACCEPTED; S/n36 calibration extension authorized\n\nX6a REPORT accepted as an estimation/mechanism result (no terminal-cost claim). Consistent\nwith my independent local Monte Carlo (S, N = 2048: trunc/dense error ratio rising with n;\ntruncated projection coefficient well below 1 at low N, near 1 at high N).\n1. **S/n36 censoring:** authorized a pilot-only, dense-only NPG calibration extension on the\n   S pilots 9101/9102 x the 4 calibration seeds at N = 1,048,576 and 2,097,152 blocks\n   (nested, same collector). Take the smallest N with pilot median rho_op <= 1 as base_36;\n   if still censored, report and keep n36 out of X6b. Do not use formal data.\n2. Then run the saved-data CE addition of the 22:55 note (fixed-certificate CE ratios on S),\n   and propose the X6b PROTOCOL with bases 524288 / base_36 / 2097152 / 4194304 and all\n   items of the 22:55 note; measure costs per rung before any FORMAL request. X6c (U family)\n   is deferred: its pilot calibration is censored everywhere, so it needs its own decision.",
+    "task_sha256": "5ed03c31a748b29d995dcf36413ae564476556f0ff83ac9bf3375b6283fe8c47",
+    "protocol_manifest_sha256": "fd7416d3b77c84c77717ddf1b3045f0bc4563922d78c8e23debb7c0bafda56bc"
+  },
+  "hashes": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "remote_ops.py": "a1aa7c5920d939345b01c77d6d919d787eb77a8b48bf4de7f007da8243c8d55a",
+    "analyze_ce_gains.py": "a10aef06ec2c7c08a9b027d2f57b53f6ec9e8405f81892e9315acf23960a99da",
+    "submit_ce.py": "410d88a4c5c65447a4afa2e8e7a1625e778c22e03d7762eba33c9f084b53568c",
+    "build_ce_release.py": "8e7f8801e83f5b6442331f29ae20ac5c9b163cc44c0f7460e70c15e870a981fa",
+    "PROTOCOL.md": "9903b6f1e65db64a4409e20d8c1d4c0c6fa959406e96dcb11f7165aa41d41634",
+    "config-CE-addition-v1.json": "318291ab055c02cda57a4f5c7d864e4d26b232c241e69a3c0b3185860ac1ea1c",
+    "PROTOCOL_SHA256SUMS": "fd7416d3b77c84c77717ddf1b3045f0bc4563922d78c8e23debb7c0bafda56bc",
+    "CLAUDE_TASK_approved.md": "5ed03c31a748b29d995dcf36413ae564476556f0ff83ac9bf3375b6283fe8c47",
+    "approval.json": "e2b0cd4af67b535f7bb1b8faaa407f03bdf97fecc3452d273f7eefc83b761454",
+    "job_plan.json": "18c0667e29128e2d696dd120bace56498bc4c26d5e0e9b9e68305f9a7d0ee627",
+    "run.sbatch": "279a04db8d1ebc92b413f8985aa7b77ffcc4c332bf1bd9ca598f5eb31c78b545"
+  }
+}

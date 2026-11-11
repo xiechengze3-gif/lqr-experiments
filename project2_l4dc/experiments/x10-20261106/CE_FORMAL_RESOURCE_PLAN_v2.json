@@ -1,0 +1,19 @@
+{
+  "status": "FIXED_CE_PILOT_PASS_FORMAL_AUTOMATICALLY_AUTHORIZED",
+  "pilot_proof_sha256": "c00c2f88b050b4c1b321b5cbec5db7f01a65b60564000f707ca62ed57ce0b767",
+  "source_config_sha256": "0c3181d6f30e15ea714f221cd286a9226d918373e5b19a47475f892593ad58ce",
+  "formal_paths": 672,
+  "formal_primitive_transitions": 236797952,
+  "formal_body_seconds_conservative": 14828.480000004172,
+  "formal_guarded_seconds": 18466.176000005005,
+  "local_workers": 1,
+  "numerical_threads": 1,
+  "Grace_requested_SU": 0,
+  "Grace_elapsed_SU": 0,
+  "failed_v1_preserved": true,
+  "reused_X8_pilot": true,
+  "additional_v2_complete_validation_transitions": 2115584,
+  "completed_validation_transitions_including_reused_X8": 2378240,
+  "incomplete_v1_S_work": "UNMEASURED_PARTIAL_SOURCE_PREFIX_FAILURE_RETAINED",
+  "conditional_estimated_formal_finish_utc": "2026-11-06T11:46:20.263363+00:00"
+}

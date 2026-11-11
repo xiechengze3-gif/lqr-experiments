@@ -1,0 +1,13 @@
+alpha,tau2_sq,algorithm,n,N_cal,dense_gap_at_N_cal,truncated_N_to_match,left_censored,right_censored,unbracketed,target_identified,factor,interpretation
+0.0,0.0,NPG,24,189475712.0,0.057937461366330066,65522708.43499965,False,False,False,True,2.8917564082071663,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.0,0.0,PI,24,189475712.0,0.12374510977589216,8378108.6433208,False,False,False,True,22.615571135026272,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.02,0.0088,NPG,24,189475712.0,0.0578859556371428,68429757.36085327,False,False,False,True,2.768908137447141,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.02,0.0088,PI,24,189475712.0,0.12371109310622891,8633042.922799477,False,False,False,True,21.94773195203318,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.05,0.05500000000000001,NPG,24,189475712.0,0.05766563205212151,90000166.61102328,False,False,False,True,2.105281791520516,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.05,0.05500000000000001,PI,24,189475712.0,0.12343138983364962,10310698.085584965,False,False,False,True,18.376613341525296,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.1,0.22000000000000003,NPG,24,189475712.0,0.05693854196601408,nan,False,True,False,True,nan,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.1,0.22000000000000003,PI,24,189475712.0,0.12223630351139522,28976641.122305352,False,False,False,True,6.538912194835007,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.2,0.8800000000000001,NPG,24,189475712.0,0.054407990119493044,nan,False,True,False,True,nan,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.2,0.8800000000000001,PI,24,189475712.0,0.11655401811167332,nan,False,True,False,True,nan,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.4,3.5200000000000005,NPG,24,189475712.0,0.04817014013121594,nan,False,True,False,True,nan,Descriptive median-curve interpolation; no epsilon/probability guarantee
+0.4,3.5200000000000005,PI,24,189475712.0,0.09223851128298856,nan,False,True,False,True,nan,Descriptive median-curve interpolation; no epsilon/probability guarantee

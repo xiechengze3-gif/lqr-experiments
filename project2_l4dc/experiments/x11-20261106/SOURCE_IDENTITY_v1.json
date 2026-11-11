@@ -1,0 +1,25 @@
+{
+  "original_core_sha256": "85708c342bd6b4229324e10688681b7be615460adf4fe77404a7f6f31c329465",
+  "extracted_functions": [
+    "sha",
+    "save_new",
+    "peak_memory_bytes",
+    "save_model",
+    "run_shared_ce",
+    "equivalence"
+  ],
+  "all_functions_literal_identity_except_receipt_execution_label": true,
+  "original_constructor_sha256": "3e9aedc9e91cf1fadb237b43c43286e2be9ee0af6de3e8c6ad1ac89e73289c21",
+  "rectangular_edits": {
+    "def model(family, n, system):": "def model(family, n, system, m=None):\n    m=n if m is None else m\n    assert family==\"S\" and min(n,m)>=2",
+    "v = e.haar(e.rng(3, n, n, system), n)": "v = e.haar(e.rng(3, n, m, system), m)",
+    "eye = np.eye(n)": "eye = np.eye(n)\n    eye_m = np.eye(m)",
+    "k0 = np.zeros((n, n))": "k0 = np.zeros((m, n))",
+    "ps = solve_discrete_are(a, b, eye, eye)": "ps = solve_discrete_are(a, b, eye, eye_m)",
+    "ks = np.linalg.solve(eye +": "ks = np.linalg.solve(eye_m +",
+    "cert = dict(family='S', n=n, m=n,": "cert = dict(family='S', n=n, m=m,",
+    "return dict(A=a, B=b, Q=eye, R=eye,": "return dict(A=a, B=b, Q=eye, R=eye_m,"
+  },
+  "unchanged_prefix_collector": true,
+  "unchanged_engine": true
+}

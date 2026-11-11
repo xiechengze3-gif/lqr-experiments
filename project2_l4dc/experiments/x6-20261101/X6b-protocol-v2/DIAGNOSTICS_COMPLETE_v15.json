@@ -1,0 +1,149 @@
+{
+  "checked_utc": "2026-11-02T14:25:32.578086+00:00",
+  "rows": [
+    {
+      "component": "diagnostics-n24",
+      "job": "20367321",
+      "state": [
+        "COMPLETED",
+        "341",
+        ""
+      ],
+      "verification": {
+        "status": "COMPLETE",
+        "n": 24,
+        "job": "20367321",
+        "zero_new_transitions": true,
+        "training_primitive_transitions": 32212396032,
+        "endpoint_rows": 512,
+        "stage_rows": 6656,
+        "diagnostic_rows": 13902,
+        "verified_artifacts": 9216,
+        "max_K_continuity_error": 0,
+        "max_update_relative_error": 0,
+        "source_sha256": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469",
+        "config_sha256": "6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d",
+        "seconds": 311.7856469228864,
+        "files": {
+          "stages.csv": "564468ac026bb8a0a862ba5fc10c81d44f2722edf7f9c0a5b27c98ea118aabd8",
+          "endpoints.csv": "ffc2a299b7bb59ca4fd78ddf0fb145dbadf20948e348dbb8085ef6e3939c161d",
+          "diagnostics.csv": "b90196b844f3e02b8fa5b415e133c8dd2aab43fd0a4f5b958554f4127214b9fc"
+        }
+      },
+      "csv_files": [
+        "stages.csv",
+        "endpoints.csv",
+        "diagnostics.csv"
+      ],
+      "log_tail": "{\"status\": \"COMPLETE\", \"n\": 24, \"job\": \"20367321\", \"zero_new_transitions\": true, \"training_primitive_transitions\": 32212396032, \"endpoint_rows\": 512, \"stage_rows\": 6656, \"diagnostic_rows\": 13902, \"verified_artifacts\": 9216, \"max_K_continuity_error\": 0.0, \"max_update_relative_error\": 0.0, \"source_sha256\": \"ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469\", \"config_sha256\": \"6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d\", \"seconds\": 311.7856469228864, \"files\": {\"stages.csv\": \"564468ac026bb8a0a862ba5fc10c81d44f2722edf7f9c0a5b27c98ea118aabd8\", \"endpoints.csv\": \"ffc2a299b7bb59ca4fd78ddf0fb145dbadf20948e348dbb8085ef6e3939c161d\", \"diagnostics.csv\": \"b90196b844f3e02b8fa5b415e133c8dd2aab43fd0a4f5b958554f4127214b9fc\"}}\n"
+    },
+    {
+      "component": "diagnostics-n36",
+      "job": "20367322",
+      "state": [
+        "COMPLETED",
+        "377",
+        ""
+      ],
+      "verification": {
+        "status": "COMPLETE",
+        "n": 36,
+        "job": "20367322",
+        "zero_new_transitions": true,
+        "training_primitive_transitions": 64422502400,
+        "endpoint_rows": 512,
+        "stage_rows": 6656,
+        "diagnostic_rows": 13918,
+        "verified_artifacts": 9216,
+        "max_K_continuity_error": 0,
+        "max_update_relative_error": 0,
+        "source_sha256": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469",
+        "config_sha256": "6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d",
+        "seconds": 349.4227857608348,
+        "files": {
+          "stages.csv": "0bd509fa1fae791429bd5425fdc3892479128f136c55e78fd86c955d52db0a7a",
+          "endpoints.csv": "8b6656f6d39d12c2ead7be8497395d0e3e13d53b7a3e97174b632d5be98b880d",
+          "diagnostics.csv": "e54868673adba2ee8408ed11dcb205c28d360acfb21fabe57467d02bfdfc9555"
+        }
+      },
+      "csv_files": [
+        "stages.csv",
+        "endpoints.csv",
+        "diagnostics.csv"
+      ],
+      "log_tail": "{\"status\": \"COMPLETE\", \"n\": 36, \"job\": \"20367322\", \"zero_new_transitions\": true, \"training_primitive_transitions\": 64422502400, \"endpoint_rows\": 512, \"stage_rows\": 6656, \"diagnostic_rows\": 13918, \"verified_artifacts\": 9216, \"max_K_continuity_error\": 0.0, \"max_update_relative_error\": 0.0, \"source_sha256\": \"ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469\", \"config_sha256\": \"6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d\", \"seconds\": 349.4227857608348, \"files\": {\"stages.csv\": \"0bd509fa1fae791429bd5425fdc3892479128f136c55e78fd86c955d52db0a7a\", \"endpoints.csv\": \"8b6656f6d39d12c2ead7be8497395d0e3e13d53b7a3e97174b632d5be98b880d\", \"diagnostics.csv\": \"e54868673adba2ee8408ed11dcb205c28d360acfb21fabe57467d02bfdfc9555\"}}\n"
+    },
+    {
+      "component": "diagnostics-n48",
+      "job": "20367323",
+      "state": [
+        "COMPLETED",
+        "386",
+        ""
+      ],
+      "verification": {
+        "status": "COMPLETE",
+        "n": 48,
+        "job": "20367323",
+        "zero_new_transitions": true,
+        "training_primitive_transitions": 128842719232,
+        "endpoint_rows": 512,
+        "stage_rows": 6656,
+        "diagnostic_rows": 14008,
+        "verified_artifacts": 9216,
+        "max_K_continuity_error": 0,
+        "max_update_relative_error": 0,
+        "source_sha256": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469",
+        "config_sha256": "6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d",
+        "seconds": 357.0346286818385,
+        "files": {
+          "stages.csv": "8c1fdc60736e7fd3ae0fe8758aa3a677a9b16e29580e20ca80701a30bdf47bc5",
+          "endpoints.csv": "1ce7445332d785fada4089121e0fc3fbd6aa54c4e7cfecba3f44ccabd3bfb006",
+          "diagnostics.csv": "0744d53987d6ab857abb010f1f160e32f850d896fdbc203ec5cd0ec295a8e686"
+        }
+      },
+      "csv_files": [
+        "stages.csv",
+        "endpoints.csv",
+        "diagnostics.csv"
+      ],
+      "log_tail": "{\"status\": \"COMPLETE\", \"n\": 48, \"job\": \"20367323\", \"zero_new_transitions\": true, \"training_primitive_transitions\": 128842719232, \"endpoint_rows\": 512, \"stage_rows\": 6656, \"diagnostic_rows\": 14008, \"verified_artifacts\": 9216, \"max_K_continuity_error\": 0.0, \"max_update_relative_error\": 0.0, \"source_sha256\": \"ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469\", \"config_sha256\": \"6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d\", \"seconds\": 357.0346286818385, \"files\": {\"stages.csv\": \"8c1fdc60736e7fd3ae0fe8758aa3a677a9b16e29580e20ca80701a30bdf47bc5\", \"endpoints.csv\": \"1ce7445332d785fada4089121e0fc3fbd6aa54c4e7cfecba3f44ccabd3bfb006\", \"diagnostics.csv\": \"0744d53987d6ab857abb010f1f160e32f850d896fdbc203ec5cd0ec295a8e686\"}}\n"
+    },
+    {
+      "component": "diagnostics-n72",
+      "job": "20367324",
+      "state": [
+        "COMPLETED",
+        "366",
+        ""
+      ],
+      "verification": {
+        "status": "COMPLETE",
+        "n": 72,
+        "job": "20367324",
+        "zero_new_transitions": true,
+        "training_primitive_transitions": 257683159040,
+        "endpoint_rows": 512,
+        "stage_rows": 6656,
+        "diagnostic_rows": 13980,
+        "verified_artifacts": 9216,
+        "max_K_continuity_error": 0,
+        "max_update_relative_error": 0,
+        "source_sha256": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469",
+        "config_sha256": "6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d",
+        "seconds": 364.3779370896518,
+        "files": {
+          "stages.csv": "a93a492945b88a57aef85344d89c587dfc4056a06d4a8214f9e147ef8672a4a2",
+          "endpoints.csv": "1ef1b57055080d59991e3aea9b3bdf5f27c94394a39dd61bcfc7a14819dfc2da",
+          "diagnostics.csv": "e835b2bca69d94e5dae770f96be3e6f4c9aa9c4e9db239c03e31410cf56f8bd7"
+        }
+      },
+      "csv_files": [
+        "stages.csv",
+        "endpoints.csv",
+        "diagnostics.csv"
+      ],
+      "log_tail": "{\"status\": \"COMPLETE\", \"n\": 72, \"job\": \"20367324\", \"zero_new_transitions\": true, \"training_primitive_transitions\": 257683159040, \"endpoint_rows\": 512, \"stage_rows\": 6656, \"diagnostic_rows\": 13980, \"verified_artifacts\": 9216, \"max_K_continuity_error\": 0.0, \"max_update_relative_error\": 0.0, \"source_sha256\": \"ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469\", \"config_sha256\": \"6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d\", \"seconds\": 364.3779370896518, \"files\": {\"stages.csv\": \"a93a492945b88a57aef85344d89c587dfc4056a06d4a8214f9e147ef8672a4a2\", \"endpoints.csv\": \"1ef1b57055080d59991e3aea9b3bdf5f27c94394a39dd61bcfc7a14819dfc2da\", \"diagnostics.csv\": \"e835b2bca69d94e5dae770f96be3e6f4c9aa9c4e9db239c03e31410cf56f8bd7\"}}\n"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "rows": 96600,
+  "NPG_trajectories_checked": 1608,
+  "absorbed_failures_verified": true,
+  "failure_inclusive_medians_verified": true,
+  "maximum_relative_decomposition_residual": 2.3512636595332124e-12,
+  "maximum_relative_gap_decomposition_residual": 2.3513158050109767e-12,
+  "NPG_paths_with_any_stable_region_violation": 498,
+  "failure_counts": {
+    "('exact', 'dense')": 163,
+    "('exact', 'truncated')": 65
+  },
+  "allocated_core_hours": 5.870833333333334,
+  "all_billing_one": true
+}

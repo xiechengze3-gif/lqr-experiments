@@ -1,0 +1,30 @@
+{
+  "status": "MERGED_SAVED_STATISTICS_BASELINE_BYTES_PRESERVED",
+  "config_sha256": "cf3bc5ff72cf62ff5469008805ddf93a64623d043858074be76e20e9a9c9152b",
+  "source_sha256": "8c3a737b9cc4d3c68456935f6bf4541b567775b96deaa98b7830613a5ea68aaf",
+  "job": "20422515",
+  "new_summary_rows": 80,
+  "baseline_summary_rows": 64,
+  "merged_summary_rows": 144,
+  "new_endpoint_rows": 2560,
+  "baseline_endpoint_rows": 2048,
+  "failures": 851,
+  "four_rung_reference_comparison": "PASS_ALL_EIGHT_CELLS",
+  "preservation": {
+    "summary.csv": {
+      "baseline_sha256": "794eec74aba99e4efa196fb0d6b3bafa397d9bfb62a541e77e9bc18428177f3f",
+      "baseline_bytes": 58743,
+      "merged_sha256": "fe4dde75b9f78f5e56c3bfe37b375d118ad8d89ae2e6ee29163c56dc37bfa281",
+      "baseline_prefix_byte_identical": true
+    }
+  },
+  "no_new_training_transitions": true,
+  "files": {
+    "failure_counts_by_cell.csv": "5f6c8d8546aa9d50fe01b867cb102435f3325f99263cc5e7870b192fec14a292",
+    "summary_merged_nine_rungs.csv": "fe4dde75b9f78f5e56c3bfe37b375d118ad8d89ae2e6ee29163c56dc37bfa281",
+    "failures.csv": "833beccb759a6bd8f3e6c66bb91efd3eba057159079832e812cb86a5b6c4ba69",
+    "transitions_saved_original_four_recomputed.csv": "e6de27ba9a0a01943ed32c41b2b0b774b23a87fe85b72698fd5ef4403f33a31a",
+    "transitions_saved_original_four_paper.csv": "23458dc5a83aa06b998f188dc697e2788851f4796be53f4a9444a31365a088cb",
+    "transitions_saved_derived.csv": "0a1f827b37ff6a56da1d44b8f0e43570fe08cd9ecf251f0b14c4eaf5810cd39a"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "REPORT_P1_P2_FOLLOWUP",
+  "source": "Review04:05 CDT",
+  "task_sha256": "0034b073ca3f53b6a1d0c896ec1ad7c439400d14d7071e578996dfa21bc966b8",
+  "bootstrap_seed": 2026110501,
+  "bootstrap_resamples": 2000,
+  "source_X1_config_sha256": "611a168228198aa5d6e279b0895fc7a3a494bb4f47042c64ae5854eca3c38c99",
+  "source_X2_config_sha256": "a9e852d530069ec192c047988692e2b664a5e7883b790ece0b752f5f53ba1933",
+  "new_training_transitions": 0,
+  "new_sampled_learning_trajectories": 0,
+  "population_physical_models": 88,
+  "observed_iterates": 86720,
+  "phases": [
+    "endpoint",
+    "pre_last_update",
+    "last16_updates",
+    "last_quarter_updates"
+  ],
+  "eta_T_recalibrated": false,
+  "U_definition": "orthonormal input basis of ker(B), R=I",
+  "population_reference": "exact objective gradient at original frozen eta/T, formal saved models"
+}

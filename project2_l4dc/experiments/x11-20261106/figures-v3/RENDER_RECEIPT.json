@@ -1,0 +1,18 @@
+{
+  "status": "LAYOUT_ONLY_NO_STATS_NO_TRAINING",
+  "new_training_transitions": 0,
+  "numerical_reanalysis": false,
+  "Grace_SU": 0,
+  "source_csv_hashes": {
+    "merged_X6a_sample_cost_derived.csv": "fe69590738e4d1c1911034b450e2ad21f1e1b7934f573bfe990c6bb15f025d20",
+    "paired_gap_ratios_by_N.csv": "daee7b97ef6796f7387a4dba481860efef38208d2702bd73855057203244b666"
+  },
+  "files": {
+    "paired_gap_ratios.png": "1d31873acdbad6df7a871660da96bdb81c04f42821443d4829fa765c26c1866d",
+    "paired_gap_ratios.svg": "28bbc789f712e359b436039f10df6097a606e1105e46108aae58899c678a80ad",
+    "RENDER_RECEIPT.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sample_cost.png": "1df798ea661314dc152bf73f6cd09f750281c3746cfc34b0621ca1a338167bbf",
+    "sample_cost.svg": "c88b525e7dfa1441310abab5353736028ee7ee9b315a7518dad1a695cb5137d5"
+  },
+  "source_sha256": "136d5bff05a4996a524f953367de71bb4eb24a4ecfdc8f9d6b9492c7b5be32e9"
+}

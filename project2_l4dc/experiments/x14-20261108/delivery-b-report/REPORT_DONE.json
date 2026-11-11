@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_SAVED_DATA_REPORT",
+  "item": "b",
+  "job": "20443073",
+  "source_sha256": "435dbcaa5e184e1f452d43adb6a17d7c6f471c76c702d7b9b1a8e684cd7316eb",
+  "frozen_analyzer_sha256": "7eafc31a73ab8e3f8924561d4892682e8bf73f57b06b5c321018494792a773bd",
+  "new_endpoints": 2560,
+  "new_stages": 33280,
+  "new_summary_rows": 80,
+  "new_observation_transitions": 0,
+  "files": {
+    "X9_summary_merged_nine_rungs.csv": "f21b1223cde4519a7b2e7bdd26fcfbd5c9b4ba458d1534947ccc1e70ebef4a1a",
+    "X9_transitions_saved_merged_nine_rungs.csv": "0634b716cd8721067c9af817ac6a1f80dff0077cf7650034d1989301ed812dba",
+    "endpoints.csv": "e7cd263e9736651536449307621660136e8e459cc64352109c95c5fcb679c467",
+    "failures.csv": "3acba02db112e83b670374746aa211dda7dc3cd4ceec73317899fe581a74498c",
+    "new_paired_endpoints.csv": "da3a945b2ee9054c1f9ba5b0c7e37ff47be45c6ff537689b2e3dd1033e867eb8",
+    "new_stages.csv": "10bd10b20f8f24a25ca1daf053076d8b0c9d4b1b89b975c70a4dae87be408f2a",
+    "summary.csv": "b6cef486c13225118af0093ad6b307605490d6ea26c4d12c4dcf3a5eff8da14d"
+  }
+}

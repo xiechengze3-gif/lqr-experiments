@@ -1,0 +1,24 @@
+{
+  "status": "VISUALLY_REVIEWED_PASS",
+  "final_directory": "figures-v4",
+  "source": "../X6b-protocol-v2/plot_saved_actor_v4.py",
+  "source_sha256": "36cc1ad2c879d0b2854c610ff061479e093dfd415639c3d59e38353722f7fea2",
+  "method": "PNG visual inspection; first two final PNGs byte-identical to inspected v3; final epsilon PNG separately opened and inspected.",
+  "checks": [
+    "Stable counts and full32 denominator explained in every figure; tick labels do not overlap.",
+    "All registered dimensions/rungs retained; failed endpoints stay infinity.",
+    "Infinity/zero arrows and right-censored triangle marks explained.",
+    "Censor markers occur at each cell actual maximum tested budget.",
+    "n24 truncated NPG epsilon0.1 infinite upper bootstrap bound remains visible.",
+    "Final epsilon legend does not obscure the n24 observed point.",
+    "Original accepted numeric analysis and plotting script preserved; only CSV presentation changed."
+  ],
+  "checked_png_sha256": {
+    "paired-ratio-vs-dimension.png": "299b7f662d705f611f5e065657cca7d6bc2d8df1ad98dff9758d42c157f6bd66",
+    "relative-gap-vs-budget.png": "23ee8bf32f3e060d2bd97960c4d41307818f627147592a619e31119f7dd604a6",
+    "observed-budget-to-epsilon.png": "4091e999f908ec9cdce7d3e40213aa9d5355254f39fba3edccaed9ecff117105"
+  },
+  "intermediate_presentations_preserved": ["figures-v2", "figures-v3"],
+  "statistical_recomputation": false,
+  "model_computation_local": false
+}

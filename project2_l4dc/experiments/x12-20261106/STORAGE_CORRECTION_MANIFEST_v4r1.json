@@ -1,0 +1,23 @@
+{
+  "status": "STORAGE_CORRECTION_V4R1_FROZEN_NOT_SUBMITTED",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x12-20261106\\x12-storage-correction-v4r1.tar.gz",
+  "archive_sha256": "1df527b69c011cf9886f6478a77b9c3a36d7fd08e83047fda9d80006976d4155",
+  "manifest_sha256": "9890ee770c2309b39a79490a04d20fc06ec9cf6dfe0a1ec95902766084748120",
+  "review_sha256": "d541fa0d3f8e505c52b92c4792a525cefaeeaab1b717bcccaf95f881758051ca",
+  "remote_root": "/home/changze/lqr-x12-storage-correction-20261107-v4",
+  "files": {
+    "virtual_task_store_v2.py": "73fb86e75df141b4ce89c901f9b450b1cccb71dcb33db2aad8e926addc91250c",
+    "pilot_virtual_store_v4.py": "fd4e72cde181ea9bfffff4fbe356706550759a705f9390b694dbd33c3c9c363a",
+    "submit_storage_correction_v4.py": "a6d5285849e68fd7ee8a89ac1ef9d313c4ad2a05840f13c4f5166aacefc92b20",
+    "pilot-plan-v4.json": "da693b5b20d2033b6c66dd1d58a97fb4aba558a29baaf70b13392c2a3d1d2c11",
+    "CLAUDE_TASK_authorized.md": "d541fa0d3f8e505c52b92c4792a525cefaeeaab1b717bcccaf95f881758051ca",
+    "pilot.sbatch": "c6fd69da05a7e8c3ddf92b919d35d2050dcdc7aaf7623bff0f68abe22089fd93"
+  },
+  "requested_SU": 0.08333333333333333,
+  "new_training_transitions": 0,
+  "existing_cluster_files_unchanged": true,
+  "changes": [
+    "guard actual output path",
+    "historical request book includes both I/O attempts"
+  ]
+}

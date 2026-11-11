@@ -1,0 +1,48 @@
+{
+  "status": "DELIVERY_PASS",
+  "checked_utc": "2026-11-02T23:59:26.410522+00:00",
+  "csv_counts": {
+    "all_records.csv": 10752,
+    "summary.csv": 336,
+    "paired_ratios.csv": 624,
+    "paired_records.csv": 9984,
+    "adaptive_orders.csv": 96,
+    "posthoc_best_fixed.csv": 24,
+    "log_slopes.csv": 224,
+    "model_certificates.csv": 32,
+    "spectral_tails.csv": 1184
+  },
+  "stable_outputs": 10752,
+  "failed_outputs": 0,
+  "registered_summary_cells": 336,
+  "ratio_rows": 624,
+  "all_pair_counts": 32,
+  "bootstrap_repetitions": 5000,
+  "empty_ratio_draws_per_row": 0,
+  "unidentified_slope_draws_per_row": 0,
+  "completed_allocations": 41,
+  "automatic_retries": 0,
+  "new_report_transitions": 0,
+  "formal_physical_transitions": 37814272,
+  "requested_bound_SU": 4.6000000000000005,
+  "slurm_elapsed_billing_SU": 0.37277777777777765,
+  "ams_settled_walltime_slots_SU": 0.33666666666666656,
+  "accounting_utc": "2026-11-02T23:53:43.817071+00:00",
+  "accounting_views_are_not_additive": true,
+  "sealed_deliveries": {
+    "formal": {
+      "manifest_sha256": "06ba044e2df13ddcb638c9d18379e3844014d07b54d670ccbf74c1d22f5bb873",
+      "archive_sha256": "3cd3565a558315a5a92de4d6365f2d2ccfc891d9e19bc9830300534f75b48dfb",
+      "verified_members": 2049,
+      "receipt_sha256": "57f3985e2d73638debf39af14fb1dd6f90ebbeafb36f8d41622cacd100391868"
+    },
+    "report": {
+      "manifest_sha256": "cd9961c176a1cd9ff915123c698a901a87e863a0130e0c0aa85f4ed62b11e8a7",
+      "archive_sha256": "c7a38acb3809f317abfbd650233bbbf0e6c207a0587368c91c42222c687fbfdf",
+      "verified_members": 77,
+      "receipt_sha256": "bf2309d3441818533e57815817fdd874dbdb7bfd7e58f8cb2e3cd97de47f5537"
+    }
+  },
+  "visual_qa": "VISUAL_QA_v1.md",
+  "scope": "Saved-field consistency, coverage and hashes only; no local numerical analysis"
+}

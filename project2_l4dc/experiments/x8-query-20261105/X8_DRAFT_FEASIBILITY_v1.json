@@ -1,0 +1,80 @@
+{
+  "status": "DRAFT_ONLY_NO_GO_NO_SUBMISSION",
+  "scope": "Planning arithmetic based on existing X7 resource measurements; no new benchmark.",
+  "n": 48,
+  "m": 48,
+  "rank_cells": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    48
+  ],
+  "spectrum_ratios": [
+    0.3,
+    0.5,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "prefixes": [
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144
+  ],
+  "systems_per_cell": 8,
+  "seeds_per_system": 4,
+  "new_system_ids": "not assigned/frozen until X8 GO protocol",
+  "paths": 416,
+  "primitive_transitions": 109264896,
+  "full_prefix_fits": 4160,
+  "output_rows_if_both_labels_kept": 96640,
+  "distinct_policy_evaluations": 96320,
+  "timing_basis": {
+    "path": "../x7-20261102/RESOURCE_COMPLETE_v1.json",
+    "job": "20375552",
+    "case": "n48-geometric",
+    "worst_complete_path_seconds": 14.642719211056828,
+    "peak_RSS_KiB": 141180,
+    "old_max_N": 393216,
+    "old_prefixes": 6,
+    "minimum_distinct_fixed_orders_per_prefix": 11,
+    "minimum_old_policy_evaluations": 66,
+    "new_spectrum_policy_evaluations_per_path": 480
+  },
+  "extrapolation": {
+    "b_path_seconds": 14.642719211056828,
+    "c_path_seconds": 106.49250335314058,
+    "bundle_seconds": 741.4540545962412,
+    "bundle_definition": "one (system,seed) across all seven ranks and all six spectra, each path still independent and internally nested",
+    "margin": "ceil((1.3*projected_bundle_seconds+60)/60) minutes",
+    "bundle_wall_minutes": 18,
+    "bundles": 32,
+    "cpus_per_bundle": 1,
+    "memory_MiB": 2048,
+    "formal_requested_SU": 9.6,
+    "pilot_requested_SU_reserve": 1,
+    "report_requested_SU_reserve": 2,
+    "total_draft_requested_SU": 12.6,
+    "concurrency": 8,
+    "formal_running_time_bound_minutes": 72
+  },
+  "limitations": [
+    "Extrapolation, not measured X8 runtime or a certified hard bound.",
+    "Existing one-effective-core billing at 1 CPU/2 GiB is the basis; confirm current billing and RSS before any production plan.",
+    "New rank/spectrum paths and all 48 ranks can alter solver timing; resource pilot needs the largest workload and relevant spectra.",
+    "No queue-wait forecast. Formal requested running time excludes pilot, report and queue.",
+    "No new job is authorized until X8 GO and stage gates; cap is only a proposal.",
+    "No result-driven stopping, grid cuts, seed reduction, calibration, or retry is proposed."
+  ]
+}

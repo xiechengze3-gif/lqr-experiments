@@ -1,0 +1,53 @@
+{
+  "status": "OWN_X10B_ACCOUNTING_VERIFIED",
+  "checked_utc": "2026-11-06T08:30:18.817525+00:00",
+  "cap_requested_SU": 200,
+  "actual_forecast_cap_SU": 160,
+  "measured_forecast_actual_SU": null,
+  "cumulative_requested_SU": 4.166666666666666,
+  "Slurm_elapsed_billing_SU": 0.0,
+  "AMS_settled_walltime_slots_SU": 0,
+  "AMS_displayed_rounded_SU_sum": 0,
+  "AMS_own_settled_rows": 0,
+  "Slurm_allocation_rows": 3,
+  "allocations": [
+    {
+      "job": "20415057_0",
+      "physical_job_id": "20415057",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20415058_0",
+      "physical_job_id": "20415058",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    },
+    {
+      "job": "20415059_0",
+      "physical_job_id": "20415059",
+      "state": "PENDING",
+      "elapsed_seconds": 0,
+      "cpus": 0,
+      "max_RSS": "",
+      "allocated_TRES": "",
+      "elapsed_billing_SU": 0.0
+    }
+  ],
+  "steps": [],
+  "settled_records": [],
+  "unknown_Slurm_billing_jobs": [],
+  "unparsed_own_AMS_rows": [],
+  "account_summary_line": "|132685389143|  2027|        Y|    20000.00|          15669.35|     4330.65|Li, Yan             |",
+  "source_sha256": "aa774028fcb954155a8d307f57eefb448ccd4718f4da44602ab5c6906f451f46",
+  "note": "Slurm and AMS are overlapping views, never added. Used & Pending includes reservations; current account balance is not X10b spend. Only own-X10b records retained.",
+  "snapshot_path": "/scratch/user/changze/lqr_experiments/results/x10-20261106/X10b/budget/accounting-1793953818817998966.json"
+}

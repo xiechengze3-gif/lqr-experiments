@@ -1,0 +1,576 @@
+{
+  "status": "LIVE_STORAGE_COST_ADMISSION_PASS",
+  "quota": {
+    "utc": "2026-11-06T22:08:14.054832-06:00",
+    "project": 231181,
+    "mdt": 1,
+    "raw_quota": "Disk quotas for prj 231181 (pid 231181):\n      Filesystem  kbytes   bquota  blimit  bgrace   files   iquota  ilimit  igrace\n/scratch/user/changze 700855552  1073741824 1073741824       -  230029   250000  250000       -\n    fs01-MDT0000   35096        - 3756356       -  131572        -  131572       -\n    fs01-MDT0001   37356        - 3721180       -   98457        -   98972       -\n    fs01-OST0064       0        -       0       -       -        -       -       -\n    fs01-OST0065       0        -       0       -       -        -       -       -\n    fs01-OST00c8 62276244        - 64873392       -       -        -       -       -\n    fs01-OST00c9 63408224        - 66440236       -       -        -       -       -\n    fs01-OST00ca 55547320        - 58254360       -       -        -       -       -\n    fs01-OST00cb 55910152        - 56488224       -       -        -       -       -\n    fs01-OST00cc 56332336        - 59707796       -       -        -       -       -\n    fs01-OST00cd 53703460        - 55714804       -       -        -       -       -\n    fs01-OST00ce 58931992        - 61475184       -       -        -       -       -\n    fs01-OST00cf 62360952        - 65372520       -       -        -       -       -\n    fs01-OST00d0 58702880        - 61200460       -       -        -       -       -\n    fs01-OST00d1 58155124        - 61055704       -       -        -       -       -\n    fs01-OST00d2 55573040        - 58077208       -       -        -       -       -\n    fs01-OST00d3 59881376        - 63940252       -       -        -       -       -\nTotal allocated inode limit: 230544, total allocated block limit: 732600140\n",
+    "quota_aware_df_bytes": "       Avail\n381835542528\n",
+    "quota_aware_df_files": "IFree\n19971\n",
+    "effective_free_files": 515,
+    "effective_free_bytes": 381835542528,
+    "MDT1_free_files": 515,
+    "MDT1_free_metadata_bytes": 3772235776,
+    "required_files": 252,
+    "required_bytes": 3215972352
+  },
+  "accounting": {
+    "all_settled_before_recovery_SU": 13.844999999999999,
+    "forecast_actual_SU": 155.88516027238546,
+    "exposure_SU": 183.97833333333332,
+    "historical_requests_SU": 170.06666666666666,
+    "historical_requests_if_all_submitted_SU": 340.2,
+    "actual_cap_SU": 230,
+    "exposure_cap_SU": 300,
+    "reserved_report_SU": 8,
+    "historical_allocation_rows": [
+      {
+        "job": "20423996_0",
+        "state": "COMPLETED",
+        "elapsed_seconds": 164,
+        "actual_SU": 0.04555555555555556,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20423996_1",
+        "state": "COMPLETED",
+        "elapsed_seconds": 162,
+        "actual_SU": 0.045,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20423996_2",
+        "state": "COMPLETED",
+        "elapsed_seconds": 162,
+        "actual_SU": 0.045,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20423996_3",
+        "state": "COMPLETED",
+        "elapsed_seconds": 162,
+        "actual_SU": 0.045,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20423996_4",
+        "state": "COMPLETED",
+        "elapsed_seconds": 163,
+        "actual_SU": 0.04527777777777778,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20423996_5",
+        "state": "COMPLETED",
+        "elapsed_seconds": 162,
+        "actual_SU": 0.045,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20423996_6",
+        "state": "COMPLETED",
+        "elapsed_seconds": 163,
+        "actual_SU": 0.04527777777777778,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20423996_7",
+        "state": "COMPLETED",
+        "elapsed_seconds": 163,
+        "actual_SU": 0.04527777777777778,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20423998",
+        "state": "COMPLETED",
+        "elapsed_seconds": 25,
+        "actual_SU": 0.006944444444444444,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20424078",
+        "state": "COMPLETED",
+        "elapsed_seconds": 5243,
+        "actual_SU": 1.456388888888889,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20424079",
+        "state": "COMPLETED",
+        "elapsed_seconds": 4886,
+        "actual_SU": 1.3572222222222223,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20424504",
+        "state": "COMPLETED",
+        "elapsed_seconds": 56,
+        "actual_SU": 0.015555555555555555,
+        "exitcode": "0:0"
+      },
+      {
+        "job": "20424516_0",
+        "state": "FAILED",
+        "elapsed_seconds": 603,
+        "actual_SU": 0.1675,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_1",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_2",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_3",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_4",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_5",
+        "state": "FAILED",
+        "elapsed_seconds": 600,
+        "actual_SU": 0.16666666666666666,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_6",
+        "state": "FAILED",
+        "elapsed_seconds": 600,
+        "actual_SU": 0.16666666666666666,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_7",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_8",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_9",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_10",
+        "state": "FAILED",
+        "elapsed_seconds": 605,
+        "actual_SU": 0.16805555555555557,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_11",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_12",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_13",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_14",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_15",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_16",
+        "state": "FAILED",
+        "elapsed_seconds": 605,
+        "actual_SU": 0.16805555555555557,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_17",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_18",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_19",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_20",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_21",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_22",
+        "state": "FAILED",
+        "elapsed_seconds": 605,
+        "actual_SU": 0.16805555555555557,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_23",
+        "state": "FAILED",
+        "elapsed_seconds": 603,
+        "actual_SU": 0.1675,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_24",
+        "state": "FAILED",
+        "elapsed_seconds": 598,
+        "actual_SU": 0.1661111111111111,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_25",
+        "state": "FAILED",
+        "elapsed_seconds": 605,
+        "actual_SU": 0.16805555555555557,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_26",
+        "state": "FAILED",
+        "elapsed_seconds": 598,
+        "actual_SU": 0.1661111111111111,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_27",
+        "state": "FAILED",
+        "elapsed_seconds": 599,
+        "actual_SU": 0.1663888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_28",
+        "state": "FAILED",
+        "elapsed_seconds": 602,
+        "actual_SU": 0.16722222222222222,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_29",
+        "state": "FAILED",
+        "elapsed_seconds": 603,
+        "actual_SU": 0.1675,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_30",
+        "state": "FAILED",
+        "elapsed_seconds": 566,
+        "actual_SU": 0.15722222222222224,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424516_31",
+        "state": "FAILED",
+        "elapsed_seconds": 566,
+        "actual_SU": 0.15722222222222224,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_0",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_1",
+        "state": "FAILED",
+        "elapsed_seconds": 590,
+        "actual_SU": 0.1638888888888889,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_2",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_3",
+        "state": "FAILED",
+        "elapsed_seconds": 604,
+        "actual_SU": 0.16777777777777778,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_4",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_5",
+        "state": "FAILED",
+        "elapsed_seconds": 604,
+        "actual_SU": 0.16777777777777778,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_6",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_7",
+        "state": "FAILED",
+        "elapsed_seconds": 603,
+        "actual_SU": 0.1675,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_8",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_9",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_10",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_11",
+        "state": "FAILED",
+        "elapsed_seconds": 589,
+        "actual_SU": 0.16361111111111112,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_12",
+        "state": "FAILED",
+        "elapsed_seconds": 589,
+        "actual_SU": 0.16361111111111112,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_13",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_14",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_15",
+        "state": "FAILED",
+        "elapsed_seconds": 592,
+        "actual_SU": 0.16444444444444445,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_16",
+        "state": "FAILED",
+        "elapsed_seconds": 592,
+        "actual_SU": 0.16444444444444445,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_17",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_18",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_19",
+        "state": "FAILED",
+        "elapsed_seconds": 589,
+        "actual_SU": 0.16361111111111112,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_20",
+        "state": "FAILED",
+        "elapsed_seconds": 594,
+        "actual_SU": 0.165,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_21",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_22",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_23",
+        "state": "FAILED",
+        "elapsed_seconds": 592,
+        "actual_SU": 0.16444444444444445,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_24",
+        "state": "FAILED",
+        "elapsed_seconds": 592,
+        "actual_SU": 0.16444444444444445,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_25",
+        "state": "FAILED",
+        "elapsed_seconds": 615,
+        "actual_SU": 0.17083333333333334,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_26",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_27",
+        "state": "FAILED",
+        "elapsed_seconds": 606,
+        "actual_SU": 0.16833333333333333,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_28",
+        "state": "FAILED",
+        "elapsed_seconds": 573,
+        "actual_SU": 0.15916666666666668,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_29",
+        "state": "FAILED",
+        "elapsed_seconds": 573,
+        "actual_SU": 0.15916666666666668,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_30",
+        "state": "FAILED",
+        "elapsed_seconds": 573,
+        "actual_SU": 0.15916666666666668,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424517_31",
+        "state": "FAILED",
+        "elapsed_seconds": 573,
+        "actual_SU": 0.15916666666666668,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20424737",
+        "state": "FAILED",
+        "elapsed_seconds": 16,
+        "actual_SU": 0.0044444444444444444,
+        "exitcode": "1:0"
+      },
+      {
+        "job": "20425346",
+        "state": "COMPLETED",
+        "elapsed_seconds": 12,
+        "actual_SU": 0.0033333333333333335,
+        "exitcode": "0:0"
+      }
+    ],
+    "balance_snapshot": "|132685389143|  2027|        Y|    20000.00|          15809.46|     4190.54|Li, Yan             |"
+  }
+}

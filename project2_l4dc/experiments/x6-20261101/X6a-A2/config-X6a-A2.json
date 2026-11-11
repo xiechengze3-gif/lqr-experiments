@@ -1,0 +1,31 @@
+{
+  "experiment": "X6a_A2",
+  "family": "S",
+  "n": 36,
+  "n36_extension_grid": [
+    1048576,
+    2097152
+  ],
+  "pilot_systems": [
+    9101,
+    9102
+  ],
+  "sampling_seeds": [
+    9601,
+    9602,
+    9603,
+    9604
+  ],
+  "nu": 1.0,
+  "H": 16,
+  "X6a_config_sha256": "3f0e7c9decb95e39e3a1c6fd26d1c617f329f41484ca07473f564cc3f1b3ecd2",
+  "prior_prefix_N": 524288,
+  "resource_request": {
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 10,
+    "SU": 0.16666666666666666
+  },
+  "population_R2": false,
+  "truncated_readout": false
+}

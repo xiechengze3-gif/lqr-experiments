@@ -1,0 +1,2982 @@
+{
+  "checked_utc": "2026-11-06T04:02:01.739113+00:00",
+  "status": "SAVED_METADATA_IDENTITY_PASS_NO_MODEL_EXECUTION",
+  "config": {
+    "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\formal-config.json",
+    "sha256": "6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d"
+  },
+  "engine_fields": {
+    "family": "S",
+    "eta": 0.2,
+    "nu": 1.0,
+    "H": 16,
+    "burn_blocks": 16,
+    "baseline_blocks": 1,
+    "formal_systems": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308
+    ],
+    "formal_sampling_seeds": [
+      1701,
+      1702,
+      1703,
+      1704
+    ],
+    "selected_NPG_T": 16,
+    "selected_PI_T": 8,
+    "p0_class_bound": 2
+  },
+  "sources": [
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\frozen_engine.py",
+      "sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\actor_paths.py",
+      "sha256": "d32e410a64c78a927c2e4b1f9c5ea929c3942c856f393b77b2ab2479ea33a8dc"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\formal_driver.py",
+      "sha256": "d30fc3dbf703f17ac37ee2ad7573b7e36589057cbb5d76b572e4375975f54b25"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\analyze_actor.py",
+      "sha256": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\plot_saved_actor.py",
+      "sha256": "33759f577ab645e67e1ebba53f8b6228c4528d2e635f57da1634dd6243807835"
+    }
+  ],
+  "models": [
+    {
+      "system": 301,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\models\\n24-s301.npz",
+      "sha256": "1d1ebb713a052e81f4d198bb7c21c96761303b1ac56c3c669e887120f13b66cd"
+    },
+    {
+      "system": 302,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\models\\n24-s302.npz",
+      "sha256": "6bc89f4d1c89333384b4b6d2bdbfe92e494a1a9f208f95f05cc737e606d7a32c"
+    },
+    {
+      "system": 303,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\models\\n24-s303.npz",
+      "sha256": "a11f872619b81d9c9f8f90db77193e478ec2eaea5f5c90389059ec69a98e7e7e"
+    },
+    {
+      "system": 304,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\models\\n24-s304.npz",
+      "sha256": "7aec6a961ad511ed872ed32a92ad61c5378628ba8803b34eda9fccda27d7e440"
+    },
+    {
+      "system": 305,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\models\\n24-s305.npz",
+      "sha256": "a8b4fd80e65fd454519361258a8477fd2db9afdf10d5128fa4fa7dc50e76dbf8"
+    },
+    {
+      "system": 306,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\models\\n24-s306.npz",
+      "sha256": "5425178173cdeec663d9e655cb50e7920b741b840b6a3591ff36701a6eee2136"
+    },
+    {
+      "system": 307,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\models\\n24-s307.npz",
+      "sha256": "1eb2745567d505165c3fc69d9af7c3752b54c1cdb08827090d3eff67b1bff128"
+    },
+    {
+      "system": 308,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\prepared-formal-v1\\models\\n24-s308.npz",
+      "sha256": "03688ddba13382d94ffb718de224949df10e3f429d70d6f94d7e3dbf5296fe29"
+    }
+  ],
+  "schedules": [
+    {
+      "n": 24,
+      "rung": 0.015625,
+      "batches": {
+        "NPG": [
+          8192,
+          8555,
+          8934,
+          9329,
+          9742,
+          10174,
+          10624,
+          11095,
+          11586,
+          12099,
+          12634,
+          13194,
+          13778,
+          14388,
+          15025,
+          15690
+        ],
+        "PI": [
+          5113,
+          7232,
+          10227,
+          14463,
+          20454,
+          28926,
+          40908,
+          57852
+        ]
+      },
+      "primitive_per_arm_per_algorithm": 2964976
+    },
+    {
+      "n": 24,
+      "rung": 0.0625,
+      "batches": {
+        "NPG": [
+          32768,
+          34219,
+          35734,
+          37316,
+          38968,
+          40694,
+          42495,
+          44377,
+          46341,
+          48393,
+          50536,
+          52773,
+          55109,
+          57549,
+          60097,
+          62758
+        ],
+        "PI": [
+          20442,
+          28909,
+          40884,
+          57818,
+          81767,
+          115636,
+          163534,
+          231273
+        ]
+      },
+      "primitive_per_arm_per_algorithm": 11846384
+    },
+    {
+      "n": 24,
+      "rung": 0.25,
+      "batches": {
+        "NPG": [
+          131072,
+          136876,
+          142936,
+          149264,
+          155872,
+          162773,
+          169980,
+          177505,
+          185364,
+          193571,
+          202141,
+          211091,
+          220436,
+          230196,
+          240388,
+          251030
+        ],
+        "PI": [
+          81756,
+          115620,
+          163511,
+          231240,
+          327022,
+          462479,
+          654044,
+          924959
+        ]
+      },
+      "primitive_per_arm_per_algorithm": 47372272
+    },
+    {
+      "n": 24,
+      "rung": 1.0,
+      "batches": {
+        "NPG": [
+          524288,
+          547501,
+          571741,
+          597054,
+          623488,
+          651092,
+          679918,
+          710020,
+          741456,
+          774283,
+          808563,
+          844361,
+          881744,
+          920782,
+          961549,
+          1004120
+        ],
+        "PI": [
+          327010,
+          462463,
+          654021,
+          924925,
+          1308042,
+          1849850,
+          2616084,
+          3699701
+        ]
+      },
+      "primitive_per_arm_per_algorithm": 189475712
+    }
+  ],
+  "paired_paths": [
+    {
+      "system": 301,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-0\\NPG-r0015625\\DONE.json",
+      "sha256": "c70ab3c09f4919c1b03ddc5307aa3d2bcae685eb706655d8873fdde09f9ab1d9",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 301,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-0\\PI-r0015625\\DONE.json",
+      "sha256": "4129575caad624482dee4cee81738e418c73c65aee0b67a952c2524ed094bafc",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 301,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-0\\NPG-r00625\\DONE.json",
+      "sha256": "affabd33502a79d93362d4c28e8b5d8a4e4cb0bc66307403f9301c3f5e3e99eb",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 301,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-0\\PI-r00625\\DONE.json",
+      "sha256": "fb35fc2f33d63991e20f334b6e5731d20f950606ce3774cf0b1abb93f2e483a0",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 301,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-0\\NPG-r025\\DONE.json",
+      "sha256": "1e36b2bee93fe7992b091e2bda12ac5e381ecbd5da811b1964fa3bc76354b975",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 301,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-0\\PI-r025\\DONE.json",
+      "sha256": "effa611752178f9115117814ff493ea12a85169c1428ac81d4e4b0fbd479b1c7",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 301,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-1\\NPG-r0015625\\DONE.json",
+      "sha256": "c50afa030f93120c981edaf370a48acd950d39f5c8194330e0508fc8cb85b14f",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 301,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-1\\PI-r0015625\\DONE.json",
+      "sha256": "e948f61616309bf01632a1647f381dce4f90887acdfd016e62e73082843f9f19",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 301,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-1\\NPG-r00625\\DONE.json",
+      "sha256": "dbf4fd36c27befafc08fec4c686b667f5df2766142cd787d1066e07f9000dc75",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 301,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-1\\PI-r00625\\DONE.json",
+      "sha256": "6f58e953973a50e9eac00ccff6909b5976f8015c2b2992dd3e6155128b06640a",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 301,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-1\\NPG-r025\\DONE.json",
+      "sha256": "8f65ee9489dead752d635eae6cb4482b0777e971eabbd0c4001019a9a22de2e9",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 301,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-1\\PI-r025\\DONE.json",
+      "sha256": "fac1b12b52a23e5b3d39d082883c4d1014e0a382d75f8494db736b9cc999130d",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 301,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-2\\NPG-r0015625\\DONE.json",
+      "sha256": "36457b449406e53a3be223180548144043414363ffaf1ec81304f19ec479d3ec",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 301,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-2\\PI-r0015625\\DONE.json",
+      "sha256": "9424a02a15d213961b95a7df0466951bba56fe54da04e5c8b3c3496252640be2",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 301,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-2\\NPG-r00625\\DONE.json",
+      "sha256": "4fd8b0a3e2a00c5a6cbc0379e0a3e621da9b63805207082ded005bf74a116c43",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 301,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-2\\PI-r00625\\DONE.json",
+      "sha256": "dfe3ba4054b6a4cac4b7e175ee6dbf2c4d3e62111cfb85d3523458ee4276a5a6",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 301,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-2\\NPG-r025\\DONE.json",
+      "sha256": "15af344b72c096cbe4ec16e73d1d1ec972d6bf343e590f07fb2c9423a09559a4",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 301,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-2\\PI-r025\\DONE.json",
+      "sha256": "69f8bba07f0459907a42f8aa103a4e16f8768974d265570006c4f9e603f2c1d8",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 301,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-3\\NPG-r0015625\\DONE.json",
+      "sha256": "5bd46d2035d0c940903da2525b2382a915ae59f174332066ff3fdceb51322869",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 301,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-3\\PI-r0015625\\DONE.json",
+      "sha256": "08908d8537fc086a20583f87142aa03cc3016ccf408d1f295f40b40569db1d34",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 301,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-3\\NPG-r00625\\DONE.json",
+      "sha256": "7b1d475f953b097ac63a1aac3111ee74dd0245884db4297c368b12598a04a702",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 301,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-3\\PI-r00625\\DONE.json",
+      "sha256": "0330e02263edfe31c423e9a6556286595e1bf05f7f2ca9165fea2ce06a558ac9",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 301,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-3\\NPG-r025\\DONE.json",
+      "sha256": "0cd248fd92dd93fe03176230b619aa9806c16dcabc9a803482bcc9aa69555b76",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 301,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-3\\PI-r025\\DONE.json",
+      "sha256": "f9323b09c82195dacf8dc7c8a998a0e7305742bfe26d20f148a30febf4229a1d",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 302,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-4\\NPG-r0015625\\DONE.json",
+      "sha256": "692591ddfd63d120d2300dab0322742ad1fb88d82e98cf4d4dbb6ec419045efe",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 302,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-4\\PI-r0015625\\DONE.json",
+      "sha256": "ac31b4d6f7cdd07fe709d784631d3c2ad3de4cb3fbf182692e935fd73d771a10",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 302,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-4\\NPG-r00625\\DONE.json",
+      "sha256": "08acbba66f4bd965eb6bf323bf2ec7686d15191f938367e7ef33eaa0e3aa10c5",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 302,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-4\\PI-r00625\\DONE.json",
+      "sha256": "6db3eafabeac9260e03392bf915b39f5f5bf65f1ace8db955274bce25001e560",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 302,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-4\\NPG-r025\\DONE.json",
+      "sha256": "d430d50315aa9ecdcc37ef3d29df38f598e467e4b2716e599ad095ffecf3d4ea",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 302,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-4\\PI-r025\\DONE.json",
+      "sha256": "8563bcc5bb628663f5b6dd8114741f45bc58ffa1dbd28d0d906ec4b4991a7f00",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 302,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-5\\NPG-r0015625\\DONE.json",
+      "sha256": "08839b3f0347727277a47f622cd319509c4ff505bd3949c8581701fe74066ded",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 302,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-5\\PI-r0015625\\DONE.json",
+      "sha256": "b6940ec6306760fc8aa888f25a685fe3b052ae7f935580a33b0a5601872c2026",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 302,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-5\\NPG-r00625\\DONE.json",
+      "sha256": "1d4d4fef721096eef9ab89feef6b24040567de8a5ee0b1d137b4a4ee392d375d",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 302,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-5\\PI-r00625\\DONE.json",
+      "sha256": "302eb9596be6e5c33bb793e1dccce98195efe9fb8be9c8320b25ea78b849faec",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 302,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-5\\NPG-r025\\DONE.json",
+      "sha256": "6eb8cdd1a4e0fbd69d8d75b326cedb12bd6306d813273ae53b28a3cf20b5e2f0",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 302,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-5\\PI-r025\\DONE.json",
+      "sha256": "070f0215188b1073197ffe23c681eaada67107fcbadd8c800185ff3ecb66f5c3",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 302,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-6\\NPG-r0015625\\DONE.json",
+      "sha256": "519582cdc7e7a3725e8155fc094b433bb6830a27dba1b8b0d1b50897af0c9ab4",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 302,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-6\\PI-r0015625\\DONE.json",
+      "sha256": "5992ef3c6044374f5039df542e705f7d792105ca086f07a49886691b78ae2d29",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 302,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-6\\NPG-r00625\\DONE.json",
+      "sha256": "ed4f437238298a4508bf9877f5198fe53cdfa6cb4649a81424233bc087aa1225",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 302,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-6\\PI-r00625\\DONE.json",
+      "sha256": "deec9ce666466f3bb33a0a5862c8fbfefc7a64cb1fb66f6327b8c092fcd74725",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 302,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-6\\NPG-r025\\DONE.json",
+      "sha256": "6cd794859039b190325e4b56b64d85b0e3b6c2ce4a62569319bf5971d2487e2a",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 302,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-6\\PI-r025\\DONE.json",
+      "sha256": "cf9abdd523fca023ec8e96ae004378bd4669c99fb49890e88ac3960ee9309261",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 302,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-7\\NPG-r0015625\\DONE.json",
+      "sha256": "838afc8fb59d623951c932d03538fd0b11195be1630bfa3e550623bffc405e7c",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 302,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-7\\PI-r0015625\\DONE.json",
+      "sha256": "6bacca82967f0378b16643f043a602f30d690a64447e2848691873fa88e29b15",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 302,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-7\\NPG-r00625\\DONE.json",
+      "sha256": "c344bf97720230f1e28661e635a21942910f2398f0b6bd41068a43d6f7a48ec7",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 302,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-7\\PI-r00625\\DONE.json",
+      "sha256": "02549ea6f9aebd6a56e7694fe98780a131c681ad8180c2c8e7d4ee86ba162eb4",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 302,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-7\\NPG-r025\\DONE.json",
+      "sha256": "e143a41e681bbdc10850035fb5b9db9a61ba67dd8fa2e0431f3db192587e4cac",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 302,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-7\\PI-r025\\DONE.json",
+      "sha256": "b6464c6b25b02f4fd44234d610f0299d630db5821868a61800adf38aedb75109",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 303,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-8\\NPG-r0015625\\DONE.json",
+      "sha256": "0c90da3c1ba9ea7f101d9e199936bdf441e7a8f37da798d846cbbe4c44aa46e9",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 303,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-8\\PI-r0015625\\DONE.json",
+      "sha256": "cf020eb30c89f59aa6329467fc83c2c2b2c7582d1828b71c11a918b86cddc07f",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 303,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-8\\NPG-r00625\\DONE.json",
+      "sha256": "99f3a4500c863a4fbcd2af977da9565e4f712a750b876f31453efd370a0e832d",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 303,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-8\\PI-r00625\\DONE.json",
+      "sha256": "92fea6c3783e5380313868a6543ffdb34c30c9d79b26b1e4395cf1912a4ad0ef",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 303,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-8\\NPG-r025\\DONE.json",
+      "sha256": "880b3005dc96ae1a4a605fdae8a99f1f2984ce69da69831851c01dccc4933786",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 303,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-8\\PI-r025\\DONE.json",
+      "sha256": "e34d96611849c249bdc46ba95a2a8192c1121de88d57e3de7653225f247653c4",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 303,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-9\\NPG-r0015625\\DONE.json",
+      "sha256": "fc81f80c9dd118aa5fd273a40bbf52f1658e85c2a8c18c69a3b71c529e1c5a07",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 303,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-9\\PI-r0015625\\DONE.json",
+      "sha256": "5f9929f9bab4b97f5956c68b07ca808bb876a6b5d9ad4a2828d96ab0f313a67b",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 303,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-9\\NPG-r00625\\DONE.json",
+      "sha256": "b0360b887a2ddca443765767247b9c1e5225e87fb64351571f010c3888d08019",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 303,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-9\\PI-r00625\\DONE.json",
+      "sha256": "14759a35859fd1788d16f63c5688bfe133ec34e39ef0c975f2319d875f78865d",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 303,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-9\\NPG-r025\\DONE.json",
+      "sha256": "e22de26852f589fe87c4305f09293e7fcd884ce2dc421ac44179a3344d88992b",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 303,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-9\\PI-r025\\DONE.json",
+      "sha256": "967ba3a40e9d5989d608ef62576d52b4878da7438477bb89e8ac59f45bd6a0ac",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 303,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-10\\NPG-r0015625\\DONE.json",
+      "sha256": "323bc8fa4d80236b28dad05e7f08de1c77f847801ad5ffc776a97e256f23a715",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 303,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-10\\PI-r0015625\\DONE.json",
+      "sha256": "748f106619d739cc54626e656fb609f3c44296409072b54cff61b94ec3221902",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 303,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-10\\NPG-r00625\\DONE.json",
+      "sha256": "539f5607e1617e62155e023c18fe28ae4d1b97880e0b9fe495c2eb79b63e90e4",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 303,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-10\\PI-r00625\\DONE.json",
+      "sha256": "0972eb24aa8ce9625bd1eb8b1d2c99ed9211e4d96658b35375871dc3efc18991",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 303,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-10\\NPG-r025\\DONE.json",
+      "sha256": "edf587400968899016ab9d12cb37869bb06a792c7452def83def2c651a22dce1",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 303,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-10\\PI-r025\\DONE.json",
+      "sha256": "9bc8b1a3df8f88cf281dd7314cc14108b832069ee841e0b5e0d77105c6bf5b9f",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 303,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-11\\NPG-r0015625\\DONE.json",
+      "sha256": "a1315219b2a0859dd346fffbd0924c6aaf48a11b1b5d7973c54a863013a8c18a",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 303,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-11\\PI-r0015625\\DONE.json",
+      "sha256": "08fb5c3515901032ed1d26a39a83b6f2d1eaa738e409ab5dd53b4630cc6a07a2",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 303,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-11\\NPG-r00625\\DONE.json",
+      "sha256": "d6d0c37d2b68e7d7abc499b21d7a4ee8463e8aa24000290a54010b5b69435518",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 303,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-11\\PI-r00625\\DONE.json",
+      "sha256": "1a225d1e4cf33ff0f5b5c0f052f675f8a296f8a9a7b594cd8348ba58a3a59ec4",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 303,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-11\\NPG-r025\\DONE.json",
+      "sha256": "5ac54037ac1775454541cffb891b601c1c7a01d30f162f54469c7161ad69882a",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 303,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-11\\PI-r025\\DONE.json",
+      "sha256": "cd448fe75aa133e3e1f87e36c01693cc61c27819e215d3635bad95eefcea2661",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 304,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-12\\NPG-r0015625\\DONE.json",
+      "sha256": "435889fc8cc5d8bd086b7447419bd76034c8ba7b6d06626fc4e7f63deeb203cc",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 304,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-12\\PI-r0015625\\DONE.json",
+      "sha256": "3db86b47885dcc383de3d8142ab014d426d59a0451893f91f8354fc52412b11b",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 304,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-12\\NPG-r00625\\DONE.json",
+      "sha256": "bd6d7f388efd18775562bb73fb9573bce8c250a45c5cd841b430108cbfdd9dda",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 304,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-12\\PI-r00625\\DONE.json",
+      "sha256": "5625183bf0f20154ff211aa85aef91af4714959792f8e7223fd40458910cf3a4",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 304,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-12\\NPG-r025\\DONE.json",
+      "sha256": "db7594daeb73325d31eaa56388862916a315f9ccaf7e05a0875bfd5ca2791bf8",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 304,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-12\\PI-r025\\DONE.json",
+      "sha256": "4bdb44bb3d2bd0b49cec1e8444bc0769aeda3205d0a925b8715c843d9b5a9c8a",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 304,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-13\\NPG-r0015625\\DONE.json",
+      "sha256": "43633bf8d31efe48256cb5b534f01691651b352bdf98ad9332df3dce34c95ad3",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 304,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-13\\PI-r0015625\\DONE.json",
+      "sha256": "7f753516ef82f717daa81102b15c4113ee5dbf153f4c5a368fb3bdf300068612",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 304,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-13\\NPG-r00625\\DONE.json",
+      "sha256": "688d0a7f5f3bedeae2173315a10cbf99def470e29591f46bc85ba6c083d355bc",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 304,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-13\\PI-r00625\\DONE.json",
+      "sha256": "24e6a6afa7afe6fc6f6a94ce806b297e8775c4f3d60fac29c75358fbb4c75315",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 304,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-13\\NPG-r025\\DONE.json",
+      "sha256": "55761b674bd757ba7a0379dae3e7da495ce7e8ccaecdaa25c8b65aec6300c143",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 304,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-13\\PI-r025\\DONE.json",
+      "sha256": "1333021d1b2208e8f963005dc72f52a3bdbc0712fed9099925abbd342fe46251",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 304,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-14\\NPG-r0015625\\DONE.json",
+      "sha256": "edf916adf31304f8985f7ce14b49f16b422193f90a559b951b967e653d2a4a2c",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 304,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-14\\PI-r0015625\\DONE.json",
+      "sha256": "5340218565dca0ed7420a23f5c9dea6f3a89ae084f9dcdf0c5b0d3bc2ecb7175",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 304,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-14\\NPG-r00625\\DONE.json",
+      "sha256": "4f7b6eae2c24654cda4e6e386313dec63820a08a201e52e63c17c850ced4f408",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 304,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-14\\PI-r00625\\DONE.json",
+      "sha256": "4dcae4ec4fc212397c3e3c40ca49c20b5fb8c867b63c482024f6bde36e4a8e90",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 304,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-14\\NPG-r025\\DONE.json",
+      "sha256": "61613a78d0247dd7ec2943cc4d416b30149fb380c4b96be38d6e387d7c2186d8",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 304,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-14\\PI-r025\\DONE.json",
+      "sha256": "a501e6be4448aaec1694144141ddf2534bd0456c949447db7a5b313149c0a719",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 304,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-15\\NPG-r0015625\\DONE.json",
+      "sha256": "0b0265340bbc808e487864f6e1affcaae4de78f5ccb751482cd6a0cb4faba220",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 304,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-15\\PI-r0015625\\DONE.json",
+      "sha256": "af22d724a0f6c94b17a1898fe0cf3f2e5e67083c349c0d6ed2a5d1375b769410",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 304,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-15\\NPG-r00625\\DONE.json",
+      "sha256": "c596687ac28c18c1f518328654ba18d53b1c9d7d71e5a7ad01306f1c206d5d0e",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 304,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-15\\PI-r00625\\DONE.json",
+      "sha256": "beeda2234b02743062199bc957f6821020483d9886e90e962933d1ad2b6ebf82",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 304,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-15\\NPG-r025\\DONE.json",
+      "sha256": "9b13a35cfa747537b4dbafcc2592407df74409e0962537e74493f4133a9a980b",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 304,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-15\\PI-r025\\DONE.json",
+      "sha256": "28ad1a2625f5aa79ba36de048a24d05092635b4de7693710448b634fe60cb9c0",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 305,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-16\\NPG-r0015625\\DONE.json",
+      "sha256": "c176cc171cfb3526471208754ea2d6e7f14199afe7d32ab37630c4f6cd3acb66",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 305,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-16\\PI-r0015625\\DONE.json",
+      "sha256": "6ffe964ec5c1dfeb714c07e0290a7bfc95ede30562acccfb7420c721a429db3b",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 305,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-16\\NPG-r00625\\DONE.json",
+      "sha256": "6064049bced474173c6d737de2e2d37ff5fd0f8b3942c5e4fefa442ef384d4e3",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 305,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-16\\PI-r00625\\DONE.json",
+      "sha256": "2ceb91816df53c68f051028596fab719fdcd43a382c2facaedd85f16ce2f5721",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 305,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-16\\NPG-r025\\DONE.json",
+      "sha256": "86e6c4a885169c0c144f5061f8cb2ec3c105046c4c3208487f3a0772852753a8",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 305,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-16\\PI-r025\\DONE.json",
+      "sha256": "e25de920921e6d4d7736225427bcdf35651e1d837163fc9c1ad2f9026c16e1c4",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 305,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-17\\NPG-r0015625\\DONE.json",
+      "sha256": "ed1396dc49b8824b56d19affc0a31c42aea4cfee1826e586ce6d0387af8ab018",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 305,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-17\\PI-r0015625\\DONE.json",
+      "sha256": "9cb09c275083973f0c7bd138abe5295708cd82934fc30181ddd96bd429d73cee",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 305,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-17\\NPG-r00625\\DONE.json",
+      "sha256": "9fcce8e839fbbe17c6227aa48e23b55d687efb4d7c8c4c012c1a3b59ca41f500",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 305,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-17\\PI-r00625\\DONE.json",
+      "sha256": "b69221b321c8c5af536e2ca8e7e193777ea15fff68a640621c14e26eab3c0624",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 305,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-17\\NPG-r025\\DONE.json",
+      "sha256": "ade8119bf7e9442f1004f6721f9beb4b9bf17055ce3dcb4647f24212b19957b4",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 305,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-17\\PI-r025\\DONE.json",
+      "sha256": "ea408752b5cb45425e4fb0a99df44ee93a6116bedb7742fdeaef7a2853f2c0e5",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 305,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-18\\NPG-r0015625\\DONE.json",
+      "sha256": "4f89489ee019614faf7411b6ba540c64d2c8ab218e89d097313305ff6c022357",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 305,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-18\\PI-r0015625\\DONE.json",
+      "sha256": "acb86246bb67fc4bb8b6d52a08b7dc8b58348b4a9c2255e7cc11c842f29156ce",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 305,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-18\\NPG-r00625\\DONE.json",
+      "sha256": "454644fee0e6f06198bd1517221a3311ef4b6133d64f6ff3bde90e8a5fd14d63",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 305,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-18\\PI-r00625\\DONE.json",
+      "sha256": "0156185453ae79af7d4535b714465e88b14ad7a93a51bbfdcf8853fdce51f6f3",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 305,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-18\\NPG-r025\\DONE.json",
+      "sha256": "c44adb4b46c121eb99f7c4a6978f8a166d8d0ace67096028c730c0ad7e6bbfe5",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 305,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-18\\PI-r025\\DONE.json",
+      "sha256": "a36723fc3e59699f61c9e6bbe880088a0ef7002e12e6685e73b890d2986c03b7",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 305,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-19\\NPG-r0015625\\DONE.json",
+      "sha256": "065ad5c42f91bf3fb947a4ad654838e51e0ddc6bba5f5eba16c905b0b86514ea",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 305,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-19\\PI-r0015625\\DONE.json",
+      "sha256": "871ab065276027a7ad4735d48fc0de6d9ebb1c5d9f649e533503227e41c65fb6",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 305,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-19\\NPG-r00625\\DONE.json",
+      "sha256": "b6f88ec5f15b03f19672dca3886001c29372dec30abcebb33b9e12e431d905af",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 305,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-19\\PI-r00625\\DONE.json",
+      "sha256": "c4adadbcea6f3d9e671438be53a0e2b70055e1ce5b277d92e2defa5be3846967",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 305,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-19\\NPG-r025\\DONE.json",
+      "sha256": "0375bdf1f4de276d410d15e8d3c11224f4cda5e47ce1d7d989ea8111b507a0ef",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 305,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-19\\PI-r025\\DONE.json",
+      "sha256": "e55c6d6f23b4a0cbf08b9cf047c2bc9c31aaf03e2c4e6a7a0a0031134426c9d3",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 306,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-20\\NPG-r0015625\\DONE.json",
+      "sha256": "e1d59a31b9a1765bcc9cfbb1a1801af7e82ee6f3541bb8736f9076d23bb53038",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 306,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-20\\PI-r0015625\\DONE.json",
+      "sha256": "1bb6a58088c727980c907c445caaa44e0aa6a03eee20bdbce6f1d69c34c3c477",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 306,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-20\\NPG-r00625\\DONE.json",
+      "sha256": "2c600e301a7618caaf3e425aba7500f509f32a69fd0325a5f222c4dead2ec585",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 306,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-20\\PI-r00625\\DONE.json",
+      "sha256": "317efe970407ae85111bd08cb7c8123d38893a7e2a52155a96978f7f4912bb95",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 306,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-20\\NPG-r025\\DONE.json",
+      "sha256": "bde0928af585df2bf89a5bd5c165e0eb6f03fbbbdc40b91cafde23ce08252901",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 306,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-20\\PI-r025\\DONE.json",
+      "sha256": "b41cd56c584800834c0bb17939874a791ba3e5f3a006dcf7c492f6fba3c7ab32",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 306,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-21\\NPG-r0015625\\DONE.json",
+      "sha256": "61f9792119881d9ea02ff67a8609b5b7a32a2cd287a395a80bef97011f9cec29",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 306,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-21\\PI-r0015625\\DONE.json",
+      "sha256": "fa3879504d570d8e956a33ae8f6062a0f42bf7b5712daa4f094018f45548abdb",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 306,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-21\\NPG-r00625\\DONE.json",
+      "sha256": "176eb164119d9686154b5837c34b82dd775d4ddd6e4b1ae648cd1cd1bc9248ae",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 306,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-21\\PI-r00625\\DONE.json",
+      "sha256": "fa9d39538f9f358329a9e78c4e7ac8c344cac5ccbcccda33d173bb55a30aa431",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 306,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-21\\NPG-r025\\DONE.json",
+      "sha256": "638174fdefd39f984e53998553cdb6938437b395d92279f2ba98e3571985338d",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 306,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-21\\PI-r025\\DONE.json",
+      "sha256": "ef128f68bb0d31abba06b15285a8e3e1339e035bbfa9c725ab3e403314134eea",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 306,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-22\\NPG-r0015625\\DONE.json",
+      "sha256": "a693ed216137177dd19c72313cb39802c34cb7c15528c80abd32fc156a19b80b",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 306,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-22\\PI-r0015625\\DONE.json",
+      "sha256": "18883a20a239fc75104060d436df2f064dee0a04462f2b425abf5bab103c8272",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 306,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-22\\NPG-r00625\\DONE.json",
+      "sha256": "a4ec33100bfd9a916eebd264dfa59b1f38bf9ab19c0781fbf0d7d470bddcc105",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 306,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-22\\PI-r00625\\DONE.json",
+      "sha256": "2f65408db1eb37bd60543aaf1fae3d342875fc20d44239c985c6c22b0b932bd7",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 306,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-22\\NPG-r025\\DONE.json",
+      "sha256": "bd1c6f23365096b7f787fa3532c658a3e91378b8b7c9b4ffff4b89ac8dfd82f2",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 306,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-22\\PI-r025\\DONE.json",
+      "sha256": "266236f878c3fdfeb79bbc31fd8fd221d80bfb549ad8952420ef2b3698b6dd67",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 306,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-23\\NPG-r0015625\\DONE.json",
+      "sha256": "ecabb6508ac5a2d6ebdac98eb11c928d36d9b0375b00ebbdf1d2e883f249ad0f",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 306,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-23\\PI-r0015625\\DONE.json",
+      "sha256": "f1a45ebe2c55a61cfdadd6f35c4f8e8d159b1b769d87471d7ed082aa7cdc373e",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 306,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-23\\NPG-r00625\\DONE.json",
+      "sha256": "a9762bdeb60b52e0571c4aa6de3952be7e5c421b70af39baa8b62fea8b82dba2",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 306,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-23\\PI-r00625\\DONE.json",
+      "sha256": "5ec516c62cd9c0c1c757a94b9df11f29c3e5b6c00c5bf64dc3764ee4423b4b6e",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 306,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-23\\NPG-r025\\DONE.json",
+      "sha256": "81ddd154b7e1a930e4a232fa4817cfdddc02092ef2969039331477a2ee2de78c",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 306,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-23\\PI-r025\\DONE.json",
+      "sha256": "acad7ae794e702ad5594ae9aea3e1a3cb4c0369029be61bd1f17a3fa502c2c5f",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 307,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-24\\NPG-r0015625\\DONE.json",
+      "sha256": "4a7f5c41a6f59a238daa8cad75852549033fb2629907e5b89197b3de7f8cda15",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 307,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-24\\PI-r0015625\\DONE.json",
+      "sha256": "7ea881d52a2d5fd46e8f9185e03a6b990565a33b17d47fc06ae9613a25f1ffdb",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 307,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-24\\NPG-r00625\\DONE.json",
+      "sha256": "4450546e94f2b67fec6ea90eb0ef0ab4e8ce5a58aae5e4baa399361842d3b5b5",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 307,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-24\\PI-r00625\\DONE.json",
+      "sha256": "0d6f30e67d97c1f981b916125483ec170e881efea682ec621ee08fb25eb9f16c",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 307,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-24\\NPG-r025\\DONE.json",
+      "sha256": "fd956a5d741c51cea3e4dc9973ac8afdd0edee502b0c977569c8ce141bbb8612",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 307,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-24\\PI-r025\\DONE.json",
+      "sha256": "2495c01ff2c7bc85cdb5ade442614958fac5237b7a9a05521bc30a6f0bcb6366",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 307,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-25\\NPG-r0015625\\DONE.json",
+      "sha256": "95ec12b1f536b7967d3018b15cff7307297a076308118cccc9f604487aec0db1",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 307,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-25\\PI-r0015625\\DONE.json",
+      "sha256": "7b00ba00266396a9cc297ca2a6145b1c200b083bd1d409b714c8121f8f81e0e1",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 307,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-25\\NPG-r00625\\DONE.json",
+      "sha256": "477165a5c84026be5d9c477c1b3730581db5a3ecea3ff5238135414e78ca481d",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 307,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-25\\PI-r00625\\DONE.json",
+      "sha256": "7845a64fda673c6352855e76f64fb33bd5799ce760d9ee889f347e0d566b79be",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 307,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-25\\NPG-r025\\DONE.json",
+      "sha256": "7519dde8469a9a410d96752960172371f72e00e42b0cb4475c06883985f00fd6",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 307,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-25\\PI-r025\\DONE.json",
+      "sha256": "23851f56f79d980843893c88983d553bc41ca833c31e1005fd5fb45613a2dc25",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 307,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-26\\NPG-r0015625\\DONE.json",
+      "sha256": "471f8fd6452b6f415630cd786f3bdb604ee71aab0ea1e186db42d2f5d7f36cce",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 307,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-26\\PI-r0015625\\DONE.json",
+      "sha256": "1e877b853b4b47341af2e3c3f211bd637fe126bf6e46ff1ffe3c8a44164d52b3",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 307,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-26\\NPG-r00625\\DONE.json",
+      "sha256": "0de1c40751d1a009f4508170d23527cd2321a7298763ca5aebf19564a42ddb3d",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 307,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-26\\PI-r00625\\DONE.json",
+      "sha256": "b34380c3843219ca74c078f7eebcff4a426337feafc55798331f1ef98174e9d2",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 307,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-26\\NPG-r025\\DONE.json",
+      "sha256": "32a9d53824dd0552d5c55fba4ea287b0c4d98c911a077d16c233618ab293ddd7",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 307,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-26\\PI-r025\\DONE.json",
+      "sha256": "de13d78df96dc72b57a53ddafc4ea4e194afcf0dcc39fd6874a574f8419edd26",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 307,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-27\\NPG-r0015625\\DONE.json",
+      "sha256": "bd05e4c00a18b1214a9cff8b90ff4a1a244eca9e5755d22aea2588ef822648a3",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 307,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-27\\PI-r0015625\\DONE.json",
+      "sha256": "bca15786266d5a321523ee56cbc08817b12c2626cd1c2f805b0819d1e875aa82",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 307,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-27\\NPG-r00625\\DONE.json",
+      "sha256": "9a424d02d844ec1280c062d2ee6ca8ebb09e870b7b6439ca753f24eea69cc0bb",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 307,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-27\\PI-r00625\\DONE.json",
+      "sha256": "704cd32043b37bf6b99e012b740eadd6f5e6d9ed5e96c6c316f69fbd1c640790",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 307,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-27\\NPG-r025\\DONE.json",
+      "sha256": "987086056c9a2613a3aa1fb1f732d0e2ebd49b8673245b6b55aea8ef26707968",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 307,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-27\\PI-r025\\DONE.json",
+      "sha256": "ce622bfbfa2581d199671d9990b9348529f22e2b58b6fd235ee9955fdd16548d",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 308,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-28\\NPG-r0015625\\DONE.json",
+      "sha256": "796e8146eac2117e941631aba835fc731cff15a447bfdb73ce28d8e8de058420",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 308,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-28\\PI-r0015625\\DONE.json",
+      "sha256": "9794b10c944a3f3c7d69712d4d1f075ebb1b12aea02e680069874a41bfafed7b",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 308,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-28\\NPG-r00625\\DONE.json",
+      "sha256": "147f7784df9f0bbb146158da0c5102091c74d1223da61c882880122fe1d929de",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 308,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-28\\PI-r00625\\DONE.json",
+      "sha256": "60e9240af37d82b7eac149b3f2ac2e9d020fd0d069f105646edb9bc92a4648f1",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 308,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-28\\NPG-r025\\DONE.json",
+      "sha256": "9a06d561222de879ba094c640e2787988c141bacb4ab85e7a7c4c7cbb2a134b3",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 308,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-28\\PI-r025\\DONE.json",
+      "sha256": "3bbd9a4eca7e1e936cd735dbd812e7005a30f5ceeb8dd678b50674078bc7f77b",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 308,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-29\\NPG-r0015625\\DONE.json",
+      "sha256": "384f413ab9dd7e346d13b9f4dd6523f7f4a05578a6a5f0260ae2a8ec3c317cd6",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 308,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-29\\PI-r0015625\\DONE.json",
+      "sha256": "cd7bc5ff29f7b59a7a6316aab3f5c29c1a23cb6a250efe215a57b7abf1d0e662",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 308,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-29\\NPG-r00625\\DONE.json",
+      "sha256": "db3fd1266871092e4cb2c513eb6287a5f2b9293056b8c1b368791b14fd67d448",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 308,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-29\\PI-r00625\\DONE.json",
+      "sha256": "931ca80d51b8404b831f61429809f01c1d97dcb2539e2dc1a95ac0f4f3e2ff1f",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 308,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-29\\NPG-r025\\DONE.json",
+      "sha256": "f2c5e6a6487b682226635985b23d61ee07f61e0185c7432db086c93f67e7be46",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 308,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-29\\PI-r025\\DONE.json",
+      "sha256": "38716d4f238ad4823009f3dbbaab3fa0d8f4b60200469cc5ec1fbc82688642af",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 308,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-30\\NPG-r0015625\\DONE.json",
+      "sha256": "aa1fc941c2773e93060a3f7f24b614d7f39594fb02d6458fcfe48ae7e91e5cd9",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 308,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-30\\PI-r0015625\\DONE.json",
+      "sha256": "55ed438784f76b55aef2caae65ee4765232b26c77de0f930dfd4e8a3e4f858f8",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 308,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-30\\NPG-r00625\\DONE.json",
+      "sha256": "0e940c74261f779d0fd1540537212d301909cf7cf4ba5a64ec9f7c457d680f79",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 308,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-30\\PI-r00625\\DONE.json",
+      "sha256": "047ad657b99dc6241c58d3d673c4779b988c86202fc7ad93175b5ef6e925a359",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 308,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-30\\NPG-r025\\DONE.json",
+      "sha256": "e303a5d2412a0aac23d5cc40fa669eae9bc77f2347aad2ced35f1cbfa596e8da",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 308,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-30\\PI-r025\\DONE.json",
+      "sha256": "3957a3b4b8ff130b9636c03ae6d2f546b745c45f8010e150e8e2b350f492fb77",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 308,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-31\\NPG-r0015625\\DONE.json",
+      "sha256": "3ad5efee73fee34b4a6488d2a181949a820796bd36367e287dd3b8d7b99d6d57",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 308,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.015625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-31\\PI-r0015625\\DONE.json",
+      "sha256": "fab6878b6193bfd13d7c074827f174a1256d174eef1cee7a3c86ba20bae1b68a",
+      "primitive_per_arm": 2964976
+    },
+    {
+      "system": 308,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-31\\NPG-r00625\\DONE.json",
+      "sha256": "1929f71d351d8dfaf8f74b0ec2c9c63310a8e78489c71afed155f8b016a3e93a",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 308,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.0625,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-31\\PI-r00625\\DONE.json",
+      "sha256": "cdbe7827168f1211c4e87061f48f1240844555ad8d697212dc1702e4aaec0ee4",
+      "primitive_per_arm": 11846384
+    },
+    {
+      "system": 308,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-31\\NPG-r025\\DONE.json",
+      "sha256": "f2aedf24b5912df0505bf98718bc4631490e84282455984442752a3d773fcc81",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 308,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 0.25,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-low-three\\task-31\\PI-r025\\DONE.json",
+      "sha256": "b3fa0c82d155812fdea18ba68e18601ae7329f1564e1b547ffdbadfb0329e081",
+      "primitive_per_arm": 47372272
+    },
+    {
+      "system": 301,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-0\\NPG-r1\\DONE.json",
+      "sha256": "4bc543ecabf6da25d96b5a719cc10eaed925a61da4bb360319def64e302efa28",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 301,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-1\\NPG-r1\\DONE.json",
+      "sha256": "9cea408eddfa604c4319e478b04180ea6f132122b2689ff979bbad62fb23edca",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 301,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-2\\NPG-r1\\DONE.json",
+      "sha256": "9418559a926c669ddd7c4406d124a8418c11f989b16677edac6e4f1804288631",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 301,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-3\\NPG-r1\\DONE.json",
+      "sha256": "40a0d5b13bff05620de59a2b4fe10882b8067044215345b6702f5ea6e761dbe1",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 302,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-4\\NPG-r1\\DONE.json",
+      "sha256": "2ebee42ef2478b1b7822893be9ec09a594f3e818616ee608923fc2c2fccea5f3",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 302,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-5\\NPG-r1\\DONE.json",
+      "sha256": "169270b0788ed32874c7de2c3c2f181091ae3bc0fbe86f7198ec4804fd30bf1d",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 302,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-6\\NPG-r1\\DONE.json",
+      "sha256": "612782be089d5af0cfbf9d8a0ab76eab7c98ed7719a38e84d57f609a7eee02c8",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 302,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-7\\NPG-r1\\DONE.json",
+      "sha256": "593396c793bfe4d9bf9283c24dd04d6ba014e37182d25ba503d4b77030decf56",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 303,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-8\\NPG-r1\\DONE.json",
+      "sha256": "e9bd5b73a6bac225026777adfa8f48a001ae1b3e9fd02f00bea18300793a2aae",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 303,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-9\\NPG-r1\\DONE.json",
+      "sha256": "680e6811910f7a3cc7fcf6738e167f325ebe1d2c354adfaa66db778a94f47bda",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 303,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-10\\NPG-r1\\DONE.json",
+      "sha256": "7e2e778b22cbcfe4818d9cc8207a6afbedb087213ae2fc165396d40645f2f9c3",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 303,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-11\\NPG-r1\\DONE.json",
+      "sha256": "650d41afded92379e4d1a0e9a7098b392544140db7bcab3977e58830022de27c",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 304,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-12\\NPG-r1\\DONE.json",
+      "sha256": "6f3fc4ddac40f03e15759ba2474c91dd8bb2c0e8f17e69d0a13613aa23f6c2e0",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 304,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-13\\NPG-r1\\DONE.json",
+      "sha256": "2725c0b33e425ca5211cff4cd11a0091c4a62761e82d9f9e5d0111bca99e6aac",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 304,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-14\\NPG-r1\\DONE.json",
+      "sha256": "de857fde7d8885ac43c04283b27029db163b6a5b9fece2ffeb9fb51494346962",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 304,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-15\\NPG-r1\\DONE.json",
+      "sha256": "0cc09cba63d5cbef8308775177b21e7b3c17978641999ec878eb8894de46f4ec",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 305,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-16\\NPG-r1\\DONE.json",
+      "sha256": "165308a283918cc8940012c05c28d1cdb2cd42a6154c13eec0247d48fbb783a3",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 305,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-17\\NPG-r1\\DONE.json",
+      "sha256": "ffeda1e2664b07d86c311658a6505e2d521b10331929ac378aca112bee040a05",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 305,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-18\\NPG-r1\\DONE.json",
+      "sha256": "3ec1cf48cc14e1f66fae57a006afc8854eac6f94136294f993a4abd7cdc2dbe8",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 305,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-19\\NPG-r1\\DONE.json",
+      "sha256": "00c7c3272bd33c92a4e793dc6478538d5bc1225012dcd36e7fb838042636912c",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 306,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-20\\NPG-r1\\DONE.json",
+      "sha256": "280e71298466cf18c19ba32a1bd0827dcdf312963e7f0ffc333ded623944dda9",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 306,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-21\\NPG-r1\\DONE.json",
+      "sha256": "efb599406ed15238ac7645fb5254f7fe6be5da6076b75a59d681bd2ba36a4203",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 306,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-22\\NPG-r1\\DONE.json",
+      "sha256": "36dbbf5e8b880120ec39f23e46f6ba9fcd5484bae46779eb247b10c222df65fe",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 306,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-23\\NPG-r1\\DONE.json",
+      "sha256": "a2c6b6ec762f083c23798cbba4c8d544bfb2e25f9fe11f596d6a27148de3d5c5",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 307,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-24\\NPG-r1\\DONE.json",
+      "sha256": "666d40e28fc08932370d19285b97e7376092264ca1f22ce767b3831ff9db6da0",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 307,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-25\\NPG-r1\\DONE.json",
+      "sha256": "2016113246c633fb6edbc700aaa2e5adc5f5fb24d47fcbfc0903bdefafd56681",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 307,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-26\\NPG-r1\\DONE.json",
+      "sha256": "dc7799a822013ebda780778e9250c10dc763928e8a53c4a59d85de433f796d66",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 307,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-27\\NPG-r1\\DONE.json",
+      "sha256": "727d1adc6fabc12ca876115fb58000a682241fa9ab52322b7967c17fc8384552",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 308,
+      "seed": 1701,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-28\\NPG-r1\\DONE.json",
+      "sha256": "d2ada393146397dbf0756d3c3cebb61beef0b7e93b977b9097256e3e35e89a1f",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 308,
+      "seed": 1702,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-29\\NPG-r1\\DONE.json",
+      "sha256": "e6ced5f6c1430b3395bde2f2089e88c8845102ac28e2c5cc70c8cda18da870c2",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 308,
+      "seed": 1703,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-30\\NPG-r1\\DONE.json",
+      "sha256": "6ff33c26258105f77bf6950e264bb906fa9048cc18cfdb28f96c050ed04ab0e4",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 308,
+      "seed": 1704,
+      "algorithm": "NPG",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-NPG\\task-31\\NPG-r1\\DONE.json",
+      "sha256": "4939ec780b936a1b55b968611fc915403814d4678f75bacc716fe8a022c47f74",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 301,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-0\\PI-r1\\DONE.json",
+      "sha256": "4397a2877711afc9c9465c0c72a1b7693eded344e03b753a64e249004151751c",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 301,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-1\\PI-r1\\DONE.json",
+      "sha256": "02c1ab81c133e2d554481e0d7307c51703026bdcf8de38028c7e2e79690c3906",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 301,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-2\\PI-r1\\DONE.json",
+      "sha256": "d2d6d3f27681762de67bac175ae24a08ee2763b9c5bc10ec62dd9c1a6a6b8e2f",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 301,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-3\\PI-r1\\DONE.json",
+      "sha256": "3a42af90ffc6eb25673f57e1a7830eba929fc67e0a0f58ab289a14bb5fc5dc7e",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 302,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-4\\PI-r1\\DONE.json",
+      "sha256": "9aa242641e175149c577437ddf667767a498d58d2bd339dbf598a832a727bb95",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 302,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-5\\PI-r1\\DONE.json",
+      "sha256": "6b482071af5f8b617bbbb1306807a4bb33cff97bec05bbba5c588115e221548d",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 302,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-6\\PI-r1\\DONE.json",
+      "sha256": "f28c052115d9d640b339f35ff5d29cbb3b32eb2f3b5adff1202347dcc61955f9",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 302,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-7\\PI-r1\\DONE.json",
+      "sha256": "e1114cc0bacfb41a14993a66917889db7bf17ae48f2a3591ef530a30dbe4dba7",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 303,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-8\\PI-r1\\DONE.json",
+      "sha256": "caa3c11814a33ec9a01c863df3691ba699a6344ecd62475700685fb43a7183fa",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 303,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-9\\PI-r1\\DONE.json",
+      "sha256": "17c7c8c2532996f7eae0513b56c509e0535a0f05c2072bd2d7d88c30a92a01d2",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 303,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-10\\PI-r1\\DONE.json",
+      "sha256": "e4f8250447517fa2ddd38ecd45823c0e6981c0c2a7cc03e856b863def98d2cda",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 303,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-11\\PI-r1\\DONE.json",
+      "sha256": "a93b6a30d38a3a05fe7a49e99a28702e6bac93a59c24711e026213bb03ae5922",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 304,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-12\\PI-r1\\DONE.json",
+      "sha256": "056add39cce1b6f381969591e49bb2ad450df51c0a9c3d4d0d5ea1cba81856c7",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 304,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-13\\PI-r1\\DONE.json",
+      "sha256": "5ea3a1be6f9f72cffcb54a4d9c59e61f60f54d7a52dd7abb39a3d88505f143d6",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 304,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-14\\PI-r1\\DONE.json",
+      "sha256": "b2bd17247cb8a381206e00a46efc38f42b707bcbf7ff3d2a7082dd07515a872b",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 304,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-15\\PI-r1\\DONE.json",
+      "sha256": "eae8a604bdb5b313f3da28a3f48bd17c1606886a1d6f699e762932c1df2d4502",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 305,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-16\\PI-r1\\DONE.json",
+      "sha256": "2002070efcb2d171750cce1a633d83b7314ea0ced8c35886910af27e698d965f",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 305,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-17\\PI-r1\\DONE.json",
+      "sha256": "eff988ddfa87726e3fee7dac926383984f9b28430730a9b2084c8236b12f623d",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 305,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-18\\PI-r1\\DONE.json",
+      "sha256": "48047eecf216b6373f93b85001e23894b7deb69f1f7b4bca79c613c05fff896f",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 305,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-19\\PI-r1\\DONE.json",
+      "sha256": "048ecad6794e881b33832eff2e060299d12de60e4299ad899c678a42b293274a",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 306,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-20\\PI-r1\\DONE.json",
+      "sha256": "f69da6698d6efb50c9728a03a8a157b7e58d7c6c6c16a31f17d6af6fb1fa38cc",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 306,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-21\\PI-r1\\DONE.json",
+      "sha256": "875bc845f5ccd8436bcaf24353b7bbd2238977a84b1e46ddb682ddc4f079c0ed",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 306,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-22\\PI-r1\\DONE.json",
+      "sha256": "bcde20645958c72c65682e7f984223059263d602ee792f79f449b2bc99edcf8e",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 306,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-23\\PI-r1\\DONE.json",
+      "sha256": "c0bd0932b55c2c8a90e69f3d89fc50df173979b62a011479dc586545381091dd",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 307,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-24\\PI-r1\\DONE.json",
+      "sha256": "52b5bcd705a75c9d2c6154b75c121aeb6a5ec4a034c077f1db2ae5aeab8ab307",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 307,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-25\\PI-r1\\DONE.json",
+      "sha256": "f4540265233c02c6a0eba90d598612ea5870662e88921c98fa0f97588014ec98",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 307,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-26\\PI-r1\\DONE.json",
+      "sha256": "eeec807e54f0ff270c7b1d3541a206b5964ee712f0c82cdf15250d84e6d3b9e2",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 307,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-27\\PI-r1\\DONE.json",
+      "sha256": "b0ccbcb6a1cd0e0c9444b68b9def3c46e54ccc026fe492335272713bb2054323",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 308,
+      "seed": 1701,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-28\\PI-r1\\DONE.json",
+      "sha256": "881608ae9ae9b1e56c938110d18808cab19c6ea938a54e57feee6d58b7ef0caa",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 308,
+      "seed": 1702,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-29\\PI-r1\\DONE.json",
+      "sha256": "e941dd362a23e2e975d2b73f2e81d57b734429c947c2952cb36636568cfde40f",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 308,
+      "seed": 1703,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-30\\PI-r1\\DONE.json",
+      "sha256": "60129bfcdf20851d7f17e275057e8d34274ad8cb8d84ffbf6824ead1a35b38b4",
+      "primitive_per_arm": 189475712
+    },
+    {
+      "system": 308,
+      "seed": 1704,
+      "algorithm": "PI",
+      "rung": 1.0,
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\X6b-protocol-v2\\deliveries\\formal-v1\\X6b\\formal-v1\\n24-full-PI\\task-31\\PI-r1\\DONE.json",
+      "sha256": "8808fdb66051df215dacd105ac449e63e168fced486c82787e3b6e3af9f6b034",
+      "primitive_per_arm": 189475712
+    }
+  ],
+  "existing_n24_summaries": [
+    {
+      "n": "24",
+      "algorithm": "NPG",
+      "rung": "0.015625",
+      "primitive_per_arm": "2964976",
+      "full_pairs": "32",
+      "dense_stable": "32",
+      "truncated_stable": "32",
+      "both_stable": "32",
+      "both_failed": "0",
+      "dense_only_failed": "0",
+      "truncated_only_failed": "0",
+      "structural_factor": "5.5",
+      "dense_padding_transitions_total": "0.0",
+      "dense_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "dense_gap_median": "6.028591306388881",
+      "dense_gap_q25": "5.443791707482729",
+      "dense_gap_q75": "6.505545154573467",
+      "dense_relative_gap_median": "22.873258675783653",
+      "dense_relative_gap_q25": "21.1524797083801",
+      "dense_relative_gap_q75": "25.854981009646142",
+      "dense_D_eligible": "32",
+      "dense_D_median": "5.4301394314598115",
+      "dense_action_gap_eligible": "32",
+      "dense_action_gap_median": "0.5156058073144455",
+      "dense_D_over_gap_eligible": "32",
+      "dense_D_over_gap_median": "0.9174556108512251",
+      "dense_action_error_fro_eligible": "32",
+      "dense_action_error_fro_median": "0.45463480706836434",
+      "truncated_padding_transitions_total": "0.0",
+      "truncated_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "truncated_gap_median": "1.2807057777644026",
+      "truncated_gap_q25": "1.1827870206261362",
+      "truncated_gap_q75": "1.4569856439750608",
+      "truncated_relative_gap_median": "5.157994370942482",
+      "truncated_relative_gap_q25": "4.526389608353087",
+      "truncated_relative_gap_q75": "5.582220848465529",
+      "truncated_D_eligible": "32",
+      "truncated_D_median": "1.03469438611701",
+      "truncated_action_gap_eligible": "32",
+      "truncated_action_gap_median": "0.2437530759982798",
+      "truncated_D_over_gap_eligible": "32",
+      "truncated_D_over_gap_median": "0.799652306657987",
+      "truncated_action_error_fro_eligible": "32",
+      "truncated_action_error_fro_median": "0.3078088036408914",
+      "ratio_kind": "both_stable",
+      "ratio_pairs": "32",
+      "paired_ratio_median": "4.509376495527089",
+      "ci_low": "4.371882108763803",
+      "ci_high": "4.862141538084494",
+      "bootstrap_invalid": "0",
+      "bootstrap_valid": "5000",
+      "bootstrap_repetitions": "5000"
+    },
+    {
+      "n": "24",
+      "algorithm": "NPG",
+      "rung": "0.0625",
+      "primitive_per_arm": "11846384",
+      "full_pairs": "32",
+      "dense_stable": "32",
+      "truncated_stable": "32",
+      "both_stable": "32",
+      "both_failed": "0",
+      "dense_only_failed": "0",
+      "truncated_only_failed": "0",
+      "structural_factor": "5.5",
+      "dense_padding_transitions_total": "0.0",
+      "dense_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "dense_gap_median": "1.001148038279354",
+      "dense_gap_q25": "0.9305524406930805",
+      "dense_gap_q75": "1.0962103055766506",
+      "dense_relative_gap_median": "3.8422229381444493",
+      "dense_relative_gap_q25": "3.55536082583876",
+      "dense_relative_gap_q75": "4.334127313018971",
+      "dense_D_eligible": "32",
+      "dense_D_median": "0.9113947562116297",
+      "dense_action_gap_eligible": "32",
+      "dense_action_gap_median": "0.0942564163090695",
+      "dense_D_over_gap_eligible": "32",
+      "dense_D_over_gap_median": "0.9125687302040388",
+      "dense_action_error_fro_eligible": "32",
+      "dense_action_error_fro_median": "0.19335171812558766",
+      "truncated_padding_transitions_total": "0.0",
+      "truncated_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "truncated_gap_median": "0.31175438281029955",
+      "truncated_gap_q25": "0.2971353339460424",
+      "truncated_gap_q75": "0.34924961297475426",
+      "truncated_relative_gap_median": "1.2639783683711001",
+      "truncated_relative_gap_q25": "1.1398137926575425",
+      "truncated_relative_gap_q75": "1.4083179760321378",
+      "truncated_D_eligible": "32",
+      "truncated_D_median": "0.21769069109971925",
+      "truncated_action_gap_eligible": "32",
+      "truncated_action_gap_median": "0.10473037830602702",
+      "truncated_D_over_gap_eligible": "32",
+      "truncated_D_over_gap_median": "0.6822545150919392",
+      "truncated_action_error_fro_eligible": "32",
+      "truncated_action_error_fro_median": "0.20168474092052022",
+      "ratio_kind": "both_stable",
+      "ratio_pairs": "32",
+      "paired_ratio_median": "3.158287357976951",
+      "ci_low": "3.0572992639488077",
+      "ci_high": "3.236512057977781",
+      "bootstrap_invalid": "0",
+      "bootstrap_valid": "5000",
+      "bootstrap_repetitions": "5000"
+    },
+    {
+      "n": "24",
+      "algorithm": "NPG",
+      "rung": "0.25",
+      "primitive_per_arm": "47372272",
+      "full_pairs": "32",
+      "dense_stable": "32",
+      "truncated_stable": "32",
+      "both_stable": "32",
+      "both_failed": "0",
+      "dense_only_failed": "0",
+      "truncated_only_failed": "0",
+      "structural_factor": "5.5",
+      "dense_padding_transitions_total": "0.0",
+      "dense_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "dense_gap_median": "0.23078751678859144",
+      "dense_gap_q25": "0.21266404005548628",
+      "dense_gap_q75": "0.25972148770621745",
+      "dense_relative_gap_median": "0.9043991269984514",
+      "dense_relative_gap_q25": "0.8334093511914157",
+      "dense_relative_gap_q75": "1.0674396142185987",
+      "dense_D_eligible": "32",
+      "dense_D_median": "0.2144118472398678",
+      "dense_action_gap_eligible": "32",
+      "dense_action_gap_median": "0.021103224787298508",
+      "dense_D_over_gap_eligible": "32",
+      "dense_D_over_gap_median": "0.9128965193303421",
+      "dense_action_error_fro_eligible": "32",
+      "dense_action_error_fro_median": "0.09195514876885935",
+      "truncated_padding_transitions_total": "0.0",
+      "truncated_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "truncated_gap_median": "0.08324432160187126",
+      "truncated_gap_q25": "0.07621960665752175",
+      "truncated_gap_q75": "0.08896673964237478",
+      "truncated_relative_gap_median": "0.32282025437409745",
+      "truncated_relative_gap_q25": "0.286139217528618",
+      "truncated_relative_gap_q75": "0.3761927079903936",
+      "truncated_D_eligible": "32",
+      "truncated_D_median": "0.0478223998237219",
+      "truncated_action_gap_eligible": "32",
+      "truncated_action_gap_median": "0.03727297481344866",
+      "truncated_D_over_gap_eligible": "32",
+      "truncated_D_over_gap_median": "0.5634046639075072",
+      "truncated_action_error_fro_eligible": "32",
+      "truncated_action_error_fro_median": "0.12273746941539702",
+      "ratio_kind": "both_stable",
+      "ratio_pairs": "32",
+      "paired_ratio_median": "2.845479603033741",
+      "ci_low": "2.703429187029327",
+      "ci_high": "2.9717546414746057",
+      "bootstrap_invalid": "0",
+      "bootstrap_valid": "5000",
+      "bootstrap_repetitions": "5000"
+    },
+    {
+      "n": "24",
+      "algorithm": "NPG",
+      "rung": "1.0",
+      "primitive_per_arm": "189475712",
+      "full_pairs": "32",
+      "dense_stable": "32",
+      "truncated_stable": "32",
+      "both_stable": "32",
+      "both_failed": "0",
+      "dense_only_failed": "0",
+      "truncated_only_failed": "0",
+      "structural_factor": "5.5",
+      "dense_padding_transitions_total": "0.0",
+      "dense_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "dense_gap_median": "0.057937461366330066",
+      "dense_gap_q25": "0.0537633085212911",
+      "dense_gap_q75": "0.06255808417502882",
+      "dense_relative_gap_median": "0.21811669146225815",
+      "dense_relative_gap_q25": "0.203161131185986",
+      "dense_relative_gap_q75": "0.25069842923301566",
+      "dense_D_eligible": "32",
+      "dense_D_median": "0.053028432052775895",
+      "dense_action_gap_eligible": "32",
+      "dense_action_gap_median": "0.00483443622169172",
+      "dense_D_over_gap_eligible": "32",
+      "dense_D_over_gap_median": "0.9185448299248806",
+      "dense_action_error_fro_eligible": "32",
+      "dense_action_error_fro_median": "0.044241306275260024",
+      "truncated_padding_transitions_total": "0.0",
+      "truncated_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "truncated_gap_median": "0.014874713816261025",
+      "truncated_gap_q25": "0.01347629113224976",
+      "truncated_gap_q75": "0.016889479214101867",
+      "truncated_relative_gap_median": "0.057925087980833526",
+      "truncated_relative_gap_q25": "0.04829261352617754",
+      "truncated_relative_gap_q75": "0.06795742643332439",
+      "truncated_D_eligible": "32",
+      "truncated_D_median": "0.007722938869599825",
+      "truncated_action_gap_eligible": "32",
+      "truncated_action_gap_median": "0.006902402449761877",
+      "truncated_D_over_gap_eligible": "32",
+      "truncated_D_over_gap_median": "0.5456818552320783",
+      "truncated_action_error_fro_eligible": "32",
+      "truncated_action_error_fro_median": "0.05274994722186428",
+      "ratio_kind": "both_stable",
+      "ratio_pairs": "32",
+      "paired_ratio_median": "3.9751898285679426",
+      "ci_low": "3.642128805093554",
+      "ci_high": "4.401825520753722",
+      "bootstrap_invalid": "0",
+      "bootstrap_valid": "5000",
+      "bootstrap_repetitions": "5000"
+    },
+    {
+      "n": "24",
+      "algorithm": "PI",
+      "rung": "0.015625",
+      "primitive_per_arm": "2964976",
+      "full_pairs": "32",
+      "dense_stable": "0",
+      "truncated_stable": "32",
+      "both_stable": "0",
+      "both_failed": "0",
+      "dense_only_failed": "32",
+      "truncated_only_failed": "0",
+      "structural_factor": "5.5",
+      "dense_padding_transitions_total": "85754816.0",
+      "dense_first_failure_stages": "[3.0, 3.0, 3.0, 2.0, 3.0, 2.0, 2.0, 3.0, 3.0, 3.0, 3.0, 2.0, 2.0, 2.0, 2.0, 3.0, 2.0, 2.0, 3.0, 2.0, 3.0, 2.0, 3.0, 3.0, 2.0, 3.0, 3.0, 2.0, 2.0, 3.0, 2.0, 3.0]",
+      "dense_gap_median": "inf",
+      "dense_gap_q25": "inf",
+      "dense_gap_q75": "inf",
+      "dense_relative_gap_median": "inf",
+      "dense_relative_gap_q25": "inf",
+      "dense_relative_gap_q75": "inf",
+      "dense_D_eligible": "0",
+      "dense_D_median": "",
+      "dense_action_gap_eligible": "0",
+      "dense_action_gap_median": "",
+      "dense_D_over_gap_eligible": "0",
+      "dense_D_over_gap_median": "",
+      "dense_action_error_fro_eligible": "0",
+      "dense_action_error_fro_median": "",
+      "truncated_padding_transitions_total": "0.0",
+      "truncated_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "truncated_gap_median": "0.36278256524485986",
+      "truncated_gap_q25": "0.28514166809032276",
+      "truncated_gap_q75": "0.4003163656752017",
+      "truncated_relative_gap_median": "1.307181105419947",
+      "truncated_relative_gap_q25": "1.1624477024017947",
+      "truncated_relative_gap_q75": "1.609997862904431",
+      "truncated_D_eligible": "32",
+      "truncated_D_median": "0.06331157301141",
+      "truncated_action_gap_eligible": "32",
+      "truncated_action_gap_median": "0.2872551957810792",
+      "truncated_D_over_gap_eligible": "32",
+      "truncated_D_over_gap_median": "0.17660504932764784",
+      "truncated_action_error_fro_eligible": "32",
+      "truncated_action_error_fro_median": "0.333109238936844",
+      "ratio_kind": "both_stable",
+      "ratio_pairs": "0",
+      "paired_ratio_median": "",
+      "ci_low": "",
+      "ci_high": "",
+      "bootstrap_invalid": "5000",
+      "bootstrap_valid": "0",
+      "bootstrap_repetitions": "5000"
+    },
+    {
+      "n": "24",
+      "algorithm": "PI",
+      "rung": "0.0625",
+      "primitive_per_arm": "11846384",
+      "full_pairs": "32",
+      "dense_stable": "13",
+      "truncated_stable": "32",
+      "both_stable": "13",
+      "both_failed": "0",
+      "dense_only_failed": "19",
+      "truncated_only_failed": "0",
+      "structural_factor": "5.5",
+      "dense_padding_transitions_total": "124592448.0",
+      "dense_first_failure_stages": "[null, null, null, null, 6.0, 5.0, null, 6.0, 6.0, 4.0, 7.0, 5.0, null, 5.0, 7.0, null, 5.0, 6.0, 6.0, 6.0, null, null, null, null, null, null, 7.0, 6.0, 6.0, 6.0, 6.0, 5.0]",
+      "dense_gap_median": "inf",
+      "dense_gap_q25": "43.30825574831333",
+      "dense_gap_q75": "inf",
+      "dense_relative_gap_median": "inf",
+      "dense_relative_gap_q25": "197.74419567589985",
+      "dense_relative_gap_q75": "inf",
+      "dense_D_eligible": "13",
+      "dense_D_median": "13.586406591429563",
+      "dense_action_gap_eligible": "13",
+      "dense_action_gap_median": "1.017422681776973",
+      "dense_D_over_gap_eligible": "13",
+      "dense_D_over_gap_median": "0.9286789929306232",
+      "dense_action_error_fro_eligible": "13",
+      "dense_action_error_fro_median": "0.6166452655958801",
+      "truncated_padding_transitions_total": "0.0",
+      "truncated_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "truncated_gap_median": "0.08714761299768405",
+      "truncated_gap_q25": "0.0788287573973631",
+      "truncated_gap_q75": "0.11164933094347204",
+      "truncated_relative_gap_median": "0.3655379563428772",
+      "truncated_relative_gap_q25": "0.27678684419323035",
+      "truncated_relative_gap_q75": "0.5102036006147338",
+      "truncated_D_eligible": "32",
+      "truncated_D_median": "0.008499279890734707",
+      "truncated_action_gap_eligible": "32",
+      "truncated_action_gap_median": "0.07904299345721649",
+      "truncated_D_over_gap_eligible": "32",
+      "truncated_D_over_gap_median": "0.09388175232141463",
+      "truncated_action_error_fro_eligible": "32",
+      "truncated_action_error_fro_median": "0.18074393330556565",
+      "ratio_kind": "both_stable",
+      "ratio_pairs": "13",
+      "paired_ratio_median": "171.96496340609252",
+      "ci_low": "86.82146696067215",
+      "ci_high": "5595.259391865809",
+      "bootstrap_invalid": "3",
+      "bootstrap_valid": "4997",
+      "bootstrap_repetitions": "5000"
+    },
+    {
+      "n": "24",
+      "algorithm": "PI",
+      "rung": "0.25",
+      "primitive_per_arm": "47372272",
+      "full_pairs": "32",
+      "dense_stable": "32",
+      "truncated_stable": "32",
+      "both_stable": "32",
+      "both_failed": "0",
+      "dense_only_failed": "0",
+      "truncated_only_failed": "0",
+      "structural_factor": "5.5",
+      "dense_padding_transitions_total": "0.0",
+      "dense_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "dense_gap_median": "0.49153697072987756",
+      "dense_gap_q25": "0.4622913705793154",
+      "dense_gap_q75": "0.5167231813986243",
+      "dense_relative_gap_median": "1.8693550597236204",
+      "dense_relative_gap_q25": "1.679541855135503",
+      "dense_relative_gap_q75": "2.075200167229796",
+      "dense_D_eligible": "32",
+      "dense_D_median": "0.467926360844226",
+      "dense_action_gap_eligible": "32",
+      "dense_action_gap_median": "0.023775604771631022",
+      "dense_D_over_gap_eligible": "32",
+      "dense_D_over_gap_median": "0.9522666359113829",
+      "dense_action_error_fro_eligible": "32",
+      "dense_action_error_fro_median": "0.09708287411147232",
+      "truncated_padding_transitions_total": "0.0",
+      "truncated_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "truncated_gap_median": "0.023854079323546037",
+      "truncated_gap_q25": "0.01951537868404068",
+      "truncated_gap_q75": "0.026706196785349464",
+      "truncated_relative_gap_median": "0.09304180896401798",
+      "truncated_relative_gap_q25": "0.0788092720354075",
+      "truncated_relative_gap_q75": "0.0987307222169797",
+      "truncated_D_eligible": "32",
+      "truncated_D_median": "0.0015884155828354975",
+      "truncated_action_gap_eligible": "32",
+      "truncated_action_gap_median": "0.022380254432573052",
+      "truncated_D_over_gap_eligible": "32",
+      "truncated_D_over_gap_median": "0.07770860760550038",
+      "truncated_action_error_fro_eligible": "32",
+      "truncated_action_error_fro_median": "0.09353938700406488",
+      "ratio_kind": "both_stable",
+      "ratio_pairs": "32",
+      "paired_ratio_median": "21.101035730704936",
+      "ci_low": "19.914270145067874",
+      "ci_high": "22.259406479402298",
+      "bootstrap_invalid": "0",
+      "bootstrap_valid": "5000",
+      "bootstrap_repetitions": "5000"
+    },
+    {
+      "n": "24",
+      "algorithm": "PI",
+      "rung": "1.0",
+      "primitive_per_arm": "189475712",
+      "full_pairs": "32",
+      "dense_stable": "32",
+      "truncated_stable": "32",
+      "both_stable": "32",
+      "both_failed": "0",
+      "dense_only_failed": "0",
+      "truncated_only_failed": "0",
+      "structural_factor": "5.5",
+      "dense_padding_transitions_total": "0.0",
+      "dense_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "dense_gap_median": "0.12374510977589216",
+      "dense_gap_q25": "0.11215013686229282",
+      "dense_gap_q75": "0.1329664633966806",
+      "dense_relative_gap_median": "0.4656591501777393",
+      "dense_relative_gap_q25": "0.4279223417602728",
+      "dense_relative_gap_q75": "0.517953254596788",
+      "dense_D_eligible": "32",
+      "dense_D_median": "0.11768038935450519",
+      "dense_action_gap_eligible": "32",
+      "dense_action_gap_median": "0.005355023025359762",
+      "dense_D_over_gap_eligible": "32",
+      "dense_D_over_gap_median": "0.9567095230542975",
+      "dense_action_error_fro_eligible": "32",
+      "dense_action_error_fro_median": "0.046763342860287334",
+      "truncated_padding_transitions_total": "0.0",
+      "truncated_first_failure_stages": "[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]",
+      "truncated_gap_median": "0.005751476096565832",
+      "truncated_gap_q25": "0.004767246742710914",
+      "truncated_gap_q75": "0.006385698048775898",
+      "truncated_relative_gap_median": "0.022062468532557403",
+      "truncated_relative_gap_q25": "0.018363114045716493",
+      "truncated_relative_gap_q75": "0.0267473462753307",
+      "truncated_D_eligible": "32",
+      "truncated_D_median": "0.00037889806344791675",
+      "truncated_action_gap_eligible": "32",
+      "truncated_action_gap_median": "0.0052459306290806385",
+      "truncated_D_over_gap_eligible": "32",
+      "truncated_D_over_gap_median": "0.06669200978293871",
+      "truncated_action_error_fro_eligible": "32",
+      "truncated_action_error_fro_median": "0.04539205666183445",
+      "ratio_kind": "both_stable",
+      "ratio_pairs": "32",
+      "paired_ratio_median": "21.613536103427677",
+      "ci_low": "20.01774650609739",
+      "ci_high": "23.19519806376365",
+      "bootstrap_invalid": "0",
+      "bootstrap_valid": "5000",
+      "bootstrap_repetitions": "5000"
+    }
+  ],
+  "limits": "Checks existing model/receipt bytes and counts only; no new alpha model, numeric equivalence trajectory, solve, bootstrap or re-analysis."
+}

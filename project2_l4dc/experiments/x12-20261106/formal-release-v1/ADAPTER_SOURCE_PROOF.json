@@ -1,0 +1,16 @@
+{
+  "status": "PREPARED_NOT_EXECUTED_NOT_SUBMITTED",
+  "formal_metadata_edits_only": true,
+  "analyzer_all_functions_literal_identity": true,
+  "summary_schema_exact_original": true,
+  "statistic_changes": 0,
+  "raw_transfer_scope_adapted_to_X12": true,
+  "unpack_function_literal_identity": true,
+  "files": {
+    "analyze_actor.py": "0e6e8291c573a6f3a6f491d135d91ddcfef1b7144f125004ad2d6bdb63d14b72",
+    "formal_driver.py": "6cc2dc7547b3262ad64b208c5c7ced742c45f40495cbdb6e5614d24b6b9e0f7b",
+    "paper_cross.py": "d07e548f861e7edf4191c9735015553706d012dfca2077adc7b5d212ea9e5a8e",
+    "raw_delivery_v1.py": "5ef5e6f7731b3c1194b0be21cbadc0a9f84d0dec945f05dc626889d5521fbbb0"
+  },
+  "new_training_transitions": 0
+}

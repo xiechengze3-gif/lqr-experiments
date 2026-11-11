@@ -1,0 +1,32 @@
+{
+  "archive_sha256": "4ed35bc55bdd33ece61ce829958baab956a31a1729ff636e01fec1f790e54475",
+  "files": {
+    "frozen-f-v1/actor_paths.py": "094cf07bb8b2534b97a34648cab20176304ad9dbdd3ffa25c17cf61a61e1a098",
+    "frozen-f-v1/frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "frozen-f-v1/estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "frozen-f-v1/analyze_actor.py": "0e6e8291c573a6f3a6f491d135d91ddcfef1b7144f125004ad2d6bdb63d14b72",
+    "frozen-f-v1/paper_cross.py": "d07e548f861e7edf4191c9735015553706d012dfca2077adc7b5d212ea9e5a8e",
+    "frozen-f-v1/report_products_v1.py": "256cbb43b6c3ab191a7ce76f43ab726cf97f72346e03866be8522865679286d4",
+    "frozen-f-v1/X12_formal_config_readonly.json": "194f34ba2af8bd822396a9ae1e2317219ee5beb2da4f9a54df1d3eb479097d14",
+    "frozen-f-v1/virtual_task_store_v2.py": "73fb86e75df141b4ce89c901f9b450b1cccb71dcb33db2aad8e926addc91250c",
+    "frozen-f-v1/run_actor_x14f.py": "dffeb1ef27ca1ceab87258a2e6e4e85f3705c715a9b1e3dffdab54f924db331f",
+    "frozen-f-v1/x14f_ops.py": "35524575d23e1538f9f87fbd8ad12c0fb96c62e586e2948334a2ee1572316a4b",
+    "frozen-f-v1/report_x14f.py": "86edcf3e2149ec0950336c185eae1877c7d7459bda8fca7bfe03d0c7435f56b7",
+    "frozen-f-v1/RESOURCE_HISTORY_FLOOR_X12.json": "9564f443985a1429aa254602f24db8e776d194dcc81765f9f4bde09e40b6f6e1",
+    "frozen-f-v1/X12_n60_nine_rungs_summary.csv": "a5fcc7ecc5e68c4723389e6c9672252c57fe11b9443bcf63b5eef8bfce32c5bf",
+    "frozen-f-v1/models/n60-s301.npz": "8ebff4e831737f959ae379d822330708bd6dd5dd789b80e5e2daea44200435fe",
+    "frozen-f-v1/models/n60-s302.npz": "a3f45c5562def56b691183f6aa9bcce673af36162d38345fb771bb5a2ae240a0",
+    "frozen-f-v1/models/n60-s303.npz": "f306503edff37249b016b2dd2133953430c0979c1f1e52fd0180d6dbe8805f4e",
+    "frozen-f-v1/models/n60-s304.npz": "7566deacf8b9df08b0317ff28809ae1f0f0b0809983d50a1c08e5e79b397b665",
+    "frozen-f-v1/models/n60-s305.npz": "0b19771bbe269fc42ba790eb7689e6ef2c42783cd06807943b53f12cecfdbb1d",
+    "frozen-f-v1/models/n60-s306.npz": "c65dec66545bbafb7cd4e4d831dcd3c4603e231202a55a1d0e81b924b9e4ff49",
+    "frozen-f-v1/models/n60-s307.npz": "d8ad3ca2da6f448f302cc38f395d1fa42891f071946454b22eb7c91c4ee73bba",
+    "frozen-f-v1/models/n60-s308.npz": "872549e42d2b754bd8285f61b6343341330a09c4a84656d2b55460b256ca52ef",
+    "frozen-f-v1/config-x14f-v1.json": "c565732ef7447c5a70d5d9f18fcee048f2278207cfd8e0d59c2739c1613a8637",
+    "frozen-f-v1/PROTOCOL_X14f_v1.md": "8165b82060732608deff28c60da7f62dbde1b1661f107476cea57b58f6dfda34",
+    "frozen-f-v1/f-pilot.sbatch": "d88e0c63c59834223b4a07c7499cda17e3a19441a00c89fa24feb1c2ee69ff0d",
+    "frozen-f-v1/f-formal.sbatch": "34bdfc91325621ecdbb116ae8f56fc3813e4c4639dd3299defcfb8dacedc33c9",
+    "frozen-f-v1/f-report.sbatch": "04695bcc70f91c166cd3f1d552a642b664c2aa969b50b48e30cb53d5b42890f1",
+    "frozen-f-v1/SHA256SUMS": "7d12a4357845bc4ccffbd54d0613941af48dd5d3c9c1636c1dd714e6a641d5dd"
+  }
+}

@@ -1,0 +1,19 @@
+study,rank,method,target_metric,epsilon,first_tested_total_transitions,previous_tested_total_transitions,right_censored,success_requirement,successes_at_first_hit,denominator,physical_systems_per_rank,instabilities_at_first_hit,numerical_failures_at_first_hit,burn_included,source
+CE100_matched_initial_gap,2,dense,absolute gap; requested initial gap=1,0.1,14592.0,,False,at least 27/30 sampling seeds,30,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,2,truncated,absolute gap; requested initial gap=1,0.1,3328.0,,False,at least 27/30 sampling seeds,29,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,8,dense,absolute gap; requested initial gap=1,0.1,16640.0,,False,at least 27/30 sampling seeds,30,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,8,truncated,absolute gap; requested initial gap=1,0.1,8448.0,,False,at least 27/30 sampling seeds,30,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,32,dense,absolute gap; requested initial gap=1,0.1,24832.0,,False,at least 27/30 sampling seeds,30,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,32,truncated,absolute gap; requested initial gap=1,0.1,16640.0,,False,at least 27/30 sampling seeds,27,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,64,dense,absolute gap; requested initial gap=1,0.1,20736.0,,False,at least 27/30 sampling seeds,30,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,64,truncated,absolute gap; requested initial gap=1,0.1,20736.0,,False,at least 27/30 sampling seeds,30,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,100,dense,absolute gap; requested initial gap=1,0.1,14592.0,,False,at least 27/30 sampling seeds,30,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_matched_initial_gap,100,truncated,absolute gap; requested initial gap=1,0.1,14592.0,,False,at least 27/30 sampling seeds,30,30,1,0,0,256,data/matched_ce/sample_complexity.csv + success_by_budget.csv
+CE100_high_rank_precision_zoom,16,dense,absolute gap,0.1,141824.0,139776,False,both 2 systems,2,2,2,0,0,512,data/precision_ce/sample_to_accuracy.csv + endpoints.csv
+CE100_high_rank_precision_zoom,16,truncated,absolute gap,0.1,64000.0,61952,False,both 2 systems,2,2,2,0,0,512,data/precision_ce/sample_to_accuracy.csv + endpoints.csv
+CE100_high_rank_precision_zoom,32,dense,absolute gap,0.1,160256.0,158208,False,both 2 systems,2,2,2,0,0,512,data/precision_ce/sample_to_accuracy.csv + endpoints.csv
+CE100_high_rank_precision_zoom,32,truncated,absolute gap,0.1,113152.0,111104,False,both 2 systems,2,2,2,0,0,512,data/precision_ce/sample_to_accuracy.csv + endpoints.csv
+CE100_high_rank_precision_zoom,64,dense,absolute gap,0.1,184832.0,182784,False,both 2 systems,2,2,2,0,0,512,data/precision_ce/sample_to_accuracy.csv + endpoints.csv
+CE100_high_rank_precision_zoom,64,truncated,absolute gap,0.1,170496.0,168448,False,both 2 systems,2,2,2,0,0,512,data/precision_ce/sample_to_accuracy.csv + endpoints.csv
+CE100_high_rank_precision_zoom,100,dense,absolute gap,0.1,156160.0,154112,False,both 2 systems,2,2,2,0,0,512,data/precision_ce/sample_to_accuracy.csv + endpoints.csv
+CE100_high_rank_precision_zoom,100,truncated,absolute gap,0.1,156160.0,154112,False,both 2 systems,2,2,2,0,0,512,data/precision_ce/sample_to_accuracy.csv + endpoints.csv

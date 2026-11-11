@@ -1,0 +1,13 @@
+algorithm,A_family,spectrum,n,r,mode,N,transitions,stage,metric,count,failure_count,stable_count,failure_rate,median,q25,q75,median_definition
+NPG,scalar,exact,24,2,dense,,24732,1,gap,24,0,24,0.0,3.5110837261746823,3.3161064579798554,3.6032004313144093,linear quantile; failed outputs = +inf
+NPG,scalar,exact,24,2,dense,,24732,1,redundant_cost,24,0,24,0.0,2.6474193715592187,2.5686612108338727,2.7494652662870216,linear quantile; failed outputs = +inf
+NPG,scalar,exact,24,2,dense,,24732,1,Z_error_fro2,24,0,24,0.0,174.70426310851434,170.4296960469663,179.5150530663894,linear quantile; failed outputs = +inf
+NPG,scalar,exact,24,2,truncated,,24732,1,gap,24,0,24,0.0,1.241031983848682,1.1941481592942225,1.3117519481169468,linear quantile; failed outputs = +inf
+NPG,scalar,exact,24,2,truncated,,24732,1,redundant_cost,24,0,24,0.0,0.7115780585728568,0.6729322129348442,0.7830272168371057,linear quantile; failed outputs = +inf
+NPG,scalar,exact,24,2,truncated,,24732,1,Z_error_fro2,24,0,24,0.0,49.915819186003894,47.46715972788097,52.55756112238444,linear quantile; failed outputs = +inf
+NPG,dense,exact,24,2,dense,,24732,1,gap,24,0,24,0.0,3.4502232314419388,3.320146915175865,3.593443801071423,linear quantile; failed outputs = +inf
+NPG,dense,exact,24,2,dense,,24732,1,redundant_cost,24,0,24,0.0,2.6726637880996384,2.544158728331097,2.7918058541934814,linear quantile; failed outputs = +inf
+NPG,dense,exact,24,2,dense,,24732,1,Z_error_fro2,24,0,24,0.0,177.47227099217588,169.56950977556954,184.49445703163312,linear quantile; failed outputs = +inf
+NPG,dense,exact,24,2,truncated,,24732,1,gap,24,0,24,0.0,1.3798135712263644,1.2626974662457062,1.4863981437282927,linear quantile; failed outputs = +inf
+NPG,dense,exact,24,2,truncated,,24732,1,redundant_cost,24,0,24,0.0,0.7162811862414225,0.6756670664673471,0.7880134277682076,linear quantile; failed outputs = +inf
+NPG,dense,exact,24,2,truncated,,24732,1,Z_error_fro2,24,0,24,0.0,50.11369921915093,48.08055731464812,53.34015834620075,linear quantile; failed outputs = +inf

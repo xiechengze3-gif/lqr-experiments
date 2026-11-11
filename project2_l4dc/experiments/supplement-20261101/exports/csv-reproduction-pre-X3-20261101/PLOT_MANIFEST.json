@@ -1,0 +1,79 @@
+{
+  "status": "COMPLETE_AVAILABLE_SAVED_CSV_PLOTS",
+  "sources": {
+    "X1/report-ce-v2/normalized_statistics.csv": "f7130a51c4cc09bffc11d06c53491080b8a750133a15a2dc3a3d8e05541043e7",
+    "X2/report-ce/fixed_budget_ratios.csv": "9ff0b2b00e95cd23c94ae9e1443a7b0a674a2e1657815396c76128bf090a86dd",
+    "X3/report-ce/fixed_k_envelope.csv": "0111e8ca55474f1a141bb355d46e3a9a16610c88ebf70e38d0ae56edf0def265",
+    "X1/report-actors/endpoint_statistics.csv": "d83e7720d167af1421ad95aa8754d88dd44ca1e4187d4efdf5c7bb1fc6b6d2e0",
+    "X2/report-actors/endpoint_statistics.csv": "5b8aac213b6c33e877fdd9f4d6ac71c1f3442a5c0493543185e69e1112d9bd42",
+    "analysis-P1-P2-v1/decomposition_statistics.csv": "d0b43cce833be594b33b6216049010b03ea051deec98f053b46d8c1f5bd88a0f",
+    "X4/report/robustness_statistics.csv": "f9dc8e4a708664a711bb4a6cf1bc198c3d96782ad1cafe6db8a7b903b72abd72"
+  },
+  "figures": [
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X1_CE_normalized.png",
+      "sha256": "443993d3130ba6abb3fe949f02d67c6559cb5321d2c4a117b9a0256e469d970f"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X1_CE_normalized.svg",
+      "sha256": "59381ecccced634ff02201a015f5e9afc9c8266740a9c6f05ffa990f5b4c095c"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X2_CE_fixed_budget_ratios.png",
+      "sha256": "8692477d195b5fc658eba93c3d27c3dbb5618a88ee56b691352ceb283b4922bc"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X2_CE_fixed_budget_ratios.svg",
+      "sha256": "1ce3fb6c68193a63dd3355f47f1c1c824972f6f687b2e7948b1db07e6257ffdd"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X3_CE_best_fixed_order.png",
+      "sha256": "b5ed07178e762284129a388646dfb1a8397b5ca0fd4693c9cb6605e40e1eeb85"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X3_CE_best_fixed_order.svg",
+      "sha256": "fb7c1046c401fddc14a13c0981a4bb367d4ca52c5199fa03f9639067bfdbdbc1"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X1_actor_failure_rates.png",
+      "sha256": "bfa762ed2beb49362cd12a32dc57908cb9ae27d0ddd71695bf02b6f19bd033bc"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X1_actor_failure_rates.svg",
+      "sha256": "080d4fef6e8790d79a50880943b7069639bcf1c9db6bbf621a6444bac511d1a9"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X2_NPG_mixed_endpoints.png",
+      "sha256": "f144982308a052eeb04350a922d2b7a09ac216238efed271d50d3bee415ab190"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X2_NPG_mixed_endpoints.svg",
+      "sha256": "9824231a46f0fc1f1cd3f8b073e4b4f075621f7175df79f791afd63aefab9f1a"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\P1_NPG_components.png",
+      "sha256": "8f46e7d6004a29d63cdddd5a90b7b79b93363e6a1ade8d678f1d9eb2ac65f1ad"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\P1_NPG_components.svg",
+      "sha256": "9da9b4cd07dd21c56396f9695b8b3d4cc0eae593fe95feed363fa274b927c8d8"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X4_robustness_stability.png",
+      "sha256": "c8e92106016ea8c89be2f4545424c5fa56442bca61d1792aac33aae9f1909c40"
+    },
+    {
+      "path": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\exports\\csv-reproduction-pre-X3-20261101\\X4_robustness_stability.svg",
+      "sha256": "226faa56f1a719dcb4b9950fcf3f4738534d0de1e5730a2ee1c2b95b16958fed"
+    }
+  ],
+  "pending": [
+    "X3 NPG final order report not yet available; no partial result substituted"
+  ],
+  "script_sha256": "42b1d58ba75b47ce1df214f159db2abda113340e1f1d7035ff24a34c851711a0",
+  "policy_evaluations": 0,
+  "new_training_transitions": 0,
+  "provenance": "Local CSV-only plotting; no model solver, estimator, data collection or Slurm job",
+  "cache": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\.runtime\\csv-only-plots\\matplotlib",
+  "temp": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\.runtime\\csv-only-plots\\tmp"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_ALL_ACTOR_CELLS",
+  "summary_rows": 216,
+  "endpoint_rows": 6912,
+  "stage_rows": 89856,
+  "failure_rows": 1405,
+  "x9_summary_exact_prefix": true,
+  "baseline_stage_fields": "Available X6b/X10b fields retained; unknown X9 fields left empty.",
+  "files": {
+    "X9_summary_merged_nine_rungs.csv": "f21b1223cde4519a7b2e7bdd26fcfbd5c9b4ba458d1534947ccc1e70ebef4a1a",
+    "X9_transitions_saved_merged_nine_rungs.csv": "0634b716cd8721067c9af817ac6a1f80dff0077cf7650034d1989301ed812dba",
+    "endpoints.csv": "4af380321da83e41f599aeb8980917b434619f6bba39936e46022077c50338a0",
+    "stages.csv": "80a138ab92aef4801871e91c791d9160ac205ced518330860abbaff998f1c13a",
+    "failures.csv": "645fc060e7525ed4e85c986d9c32297f626c08614b9d2a1eb8b7aa55a9e85681"
+  }
+}

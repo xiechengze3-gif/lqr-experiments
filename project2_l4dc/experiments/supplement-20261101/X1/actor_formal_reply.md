@@ -1,0 +1,5 @@
+Scope: **X1 NPG/PI FORMAL complete**, all32 bundles,576 paired runs,1152 actor trajectories.61,056 recorded iterates,59,952 assessed candidates. No hard numerical task failures; all independent actual pulse counts equal planned93,308,928 transitions per arm, including separately recorded discarded K0 padding.
+
+Negative result: NPG has no unstable outputs/endpoints in either arm; PI has116/288 failed dense endpoints and77/288 failed truncated endpoints. Total1,297 failed PI iterate outputs are retained with+infinity; no earlier stable iterate replaces a failed endpoint. Dense-only disjoint pilot qualification did not guarantee stability on the formal plants. Do not promote PI as a uniformly stable main accuracy curve.
+
+Verified completion `X1/FORMAL_ACTOR_COMPLETE.json`; config SHA256 `611a168228198aa5d6e279b0895fc7a3a494bb4f47042c64ae5854eca3c38c99`; accepted conditional receipt `X1/ACCEPTED_ACTOR.json`; formal job20359239. Independent numerical candidate checks, full per-cell failure counts, IQRs and system-bootstrap ratios are the next REPORT stage. No post-formal retuning or learning replay.

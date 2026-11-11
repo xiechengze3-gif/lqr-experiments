@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE_SAVED_DATA_REPORT",
+  "item": "f-full",
+  "job": "20450646",
+  "config_sha256": "907abd5605cd3061bae0229f8069d4f3c0288f4d1f5618c323141068fe8e5596",
+  "new_observation_transitions": 0,
+  "summary_rows": 36,
+  "endpoint_rows": 1152,
+  "stage_rows": 14976,
+  "reused_top_rung_endpoints": 128,
+  "exact_non60_summary_rows": 144,
+  "exact_non60_cross_rows": 8,
+  "files": {
+    "endpoints.csv": "f0fe50401b74e577df87ce57255ff90e707f8ca7b28f5d50d406091c6a8dcee5",
+    "paired_endpoints.csv": "1427393b824f9669ece060abd22966325c89e856e61d9ee9b1695cb03f0ed01c",
+    "X12_summary_merged_B60.csv": "4e69528957249c3b499ca0b722c2ab606fe6c9228eb1d0fd78754d6bc82d1ee3",
+    "X12_transitions_saved_merged_B60.csv": "deab57711e536c2664c601479c70c231dfd6dae5bfea4976e07ba42917b388f3",
+    "failure_counts_by_cell.csv": "dda482aa630d199b33b7c8fe66fcb267ab7247d0378b5b210d8b1160bb7b0f06",
+    "B60_summary.csv": "507596f9049de13d422c3d396cce68c545ea95654eb4907ec678e4efc435b4ba",
+    "failures.csv": "13b58a4bf7def295842c142e03da5ad8d5bca8b85efabee549bcb3f5e3ab45b1",
+    "stages.csv": "3b260ae99fcb15eeefc2d1138bfad640564342b9b4f4eb053344ebbc0feb2e1f",
+    "B60_transitions_saved.csv": "56cb691101b8a79f5ff00856095664935ebbfb11a9469d61de0163b5776fbfd9"
+  }
+}

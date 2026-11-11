@@ -1,0 +1,102 @@
+{
+  "experiment": "X6b",
+  "version": 2,
+  "status": "PROTOCOL_PROPOSAL_NO_JOBS",
+  "family": "S",
+  "n_values": [
+    24,
+    36,
+    48,
+    72
+  ],
+  "rank": 2,
+  "eta": 0.2,
+  "p0_class_bound": 2,
+  "nu": 1.0,
+  "H": 16,
+  "burn_blocks": 16,
+  "baseline_blocks": 1,
+  "formal_systems": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308
+  ],
+  "formal_sampling_seeds": [
+    1701,
+    1702,
+    1703,
+    1704
+  ],
+  "pilot_systems": [
+    9101,
+    9102
+  ],
+  "resource_sampling_seed": 9801,
+  "equivalence_seed": 9802,
+  "npg_bases": {
+    "24": 524288,
+    "36": 1048576,
+    "48": 2097152,
+    "72": 4194304
+  },
+  "population_NPG_T_grid": [
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "population_PI_T_grid": [
+    8,
+    12
+  ],
+  "selected_NPG_T": null,
+  "selected_PI_T": null,
+  "rungs": [
+    0.015625,
+    0.0625,
+    0.25,
+    1.0
+  ],
+  "lowest_rung_conditional_on_measured_cost": true,
+  "NPG_schedule": "ceil(base_n*rung*2**(t/16)), t=0..T-1",
+  "PI_schedule": "weights2**(4*t/T_PI); exact primitive parity by largest-fraction integer rounding",
+  "bootstrap_repetitions": 5000,
+  "bootstrap_tag": 621,
+  "bootstrap_common_system_draws_across_rungs_and_ratio_kinds": true,
+  "relative_epsilons": [
+    0.1,
+    0.05
+  ],
+  "required_successes": 29,
+  "full_denominator": 32,
+  "no_interpolation": true,
+  "population_job": {
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 5,
+    "requested_bound_SU": 0.08333333333333333
+  },
+  "provisional_resource_pilot_cap_SU": 4,
+  "provisional_T16_resource_minutes": {
+    "24": 10,
+    "36": 15,
+    "48": 25,
+    "72": 60,
+    "equivalence": 5
+  },
+  "prior_X6_cumulative_requested_SU": 17.0,
+  "X6_requested_cap_SU": 400,
+  "automatic_retry_count": 0,
+  "resource_only_pilot_retained": true,
+  "required_exception": "explicit acceptance of zero-sample R2 as protocol resolution before resource-only PILOT",
+  "no_noisy_actor_before_PILOT_ACCEPTED": true,
+  "X6c": "DEFERRED_BY_23:00_REVIEW",
+  "resource_warmup_seed": 9803,
+  "resource_warmup_blocks": 256
+}

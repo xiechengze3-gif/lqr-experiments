@@ -1,0 +1,22 @@
+{
+  "status": "STORAGE_IO_PILOT_FROZEN_NOT_SUBMITTED",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x12-20261106\\x12-storage-pilot-v2.tar.gz",
+  "archive_sha256": "96f90bad92e05d191827d0530a4b0af4f7285fbca1554db67c62b23f175992a3",
+  "files": {
+    "virtual_task_store_v2.py": "73fb86e75df141b4ce89c901f9b450b1cccb71dcb33db2aad8e926addc91250c",
+    "pilot_virtual_store_v3.py": "e807979df9c0e97d081966a5e2b45d54a7264c2cb0f26c12442ff729a578d8c5",
+    "submit_storage_pilot_v2.py": "e5c494f63f71b5c3d2a206ebadf36aca2b63de294728f25ec7b3c93ded7de1a8",
+    "fixtures/x12-raw-timing-NPG-v1.tar.gz": "eed1bb78d274776cef56b4f736ec1595c5dac75a9a9f23b03ceedc6ec8ffa76c",
+    "fixtures/x12-raw-timing-NPG-v1.tar.json": "9eae320e034d214b1fb199b508431e958a3a904dbbd25abed76359607fad86ff",
+    "fixtures/x12-raw-timing-PI-v1.tar.gz": "77d6ca90df217bd9cd81e2e270b46113f6afe72eace4cf8cc25d7a15e0fa06d2",
+    "fixtures/x12-raw-timing-PI-v1.tar.json": "189ab97c7bf4e9c17b8ba2ffddb0bb8604b8ef553f48015618d007effc4973ed",
+    "pilot-plan-v2.json": "4f29f5435f93643c5e19695a81fb6a0b601203a33536d43aef6cccfd28e514a0",
+    "CLAUDE_TASK_authorized.md": "b26a36751277b18041a4663b4f167f0d848640642dda4f1125711ea7e6b5429a",
+    "RECOVERY_PROTOCOL_DRAFT_v2.md": "e3515ab1b2ceb5a27693fdcbd7354518936b27be0e830bc144498a4b440cb48f",
+    "pilot.sbatch": "b9e39536c505268fc54728201774e7afe7494f3f203f368379cd9f13ce0030e7"
+  },
+  "source_manifest_sha256": "cbc6affb87114149d9972467efa3fea8c30461eb34b554f6858c3aff55965455",
+  "review_sha256": "b26a36751277b18041a4663b4f167f0d848640642dda4f1125711ea7e6b5429a",
+  "requested_SU": 0.08333333333333333,
+  "new_training_transitions": 0
+}

@@ -1,0 +1,17 @@
+{
+  "profiles": [
+    "ce",
+    "pi-32768",
+    "pi-131072",
+    "pi-524288",
+    "npg-4096",
+    "npg-16384",
+    "npg-65536",
+    "npg-262144",
+    "npg-1048576"
+  ],
+  "tasks_per_profile": 36,
+  "exact_cells": 24,
+  "approximate_cells": 12,
+  "engine_release": "7f5c6de07fb244ab"
+}

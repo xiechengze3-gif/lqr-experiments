@@ -1,0 +1,13 @@
+{
+  "status": "PASS_ACTUAL_VISUAL_INSPECTION",
+  "note": "BOTH_PNGS_INSPECTED_LEGENDS_AXES_LABELS_NO_OVERLAP",
+  "selected_figures": {
+    "sample_cost.png": "1df798ea661314dc152bf73f6cd09f750281c3746cfc34b0621ca1a338167bbf",
+    "paired_gap_ratios.png": "1d31873acdbad6df7a871660da96bdb81c04f42821443d4829fa765c26c1866d"
+  },
+  "earlier_layout_preserved": true,
+  "layout_only": true,
+  "new_transitions": 0,
+  "original_render_receipt_sha256": "da626d6e5f5b496f37cba2843a38546b4a966f75369161d98131b840d3b55bc3",
+  "receipt_self_hash_note": "Original rendering receipt accidentally included its empty self; all four actual PNG/SVG hashes and input CSV hashes verified separately. Original receipt retained unchanged."
+}

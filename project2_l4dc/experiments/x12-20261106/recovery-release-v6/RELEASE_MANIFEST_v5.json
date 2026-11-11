@@ -1,0 +1,49 @@
+{
+  "status": "LOCAL_RECOVERY_RELEASE_READY_NOT_SUBMITTED",
+  "config_sha256": "1daea4cd21d5839297005bd99eab3a97cbee4df228523e253efe5f0822bb3bed",
+  "bundle_sha256": "28d034973dafe33d1127a10f1dbc8b87f9c6cbacbbcef64925b088a937af8c27",
+  "files": {
+    "recovery_driver_v5.py": "e7c7a9feac21a89ba08852f7d5e6952fb3c46eff24222825e0982200a7cbaef4",
+    "recovery_archive_reader_v5.py": "84afa6563e5ce018077d41dcad3ad6c52acb8fe0b09488e4c565f775eb2d9e64",
+    "reconstruct_reuse_for_report_v5.py": "f5b3678567ac5fb96a8480dd7d290fb385ff1a68a4e05cedb3420e0ad81b1bdc",
+    "recovery_report_v5.py": "eaf9586acf5e841ebf557813aac0211a9785003959593fd0c2472c27259e0b3d",
+    "virtual_task_store_v2.py": "73fb86e75df141b4ce89c901f9b450b1cccb71dcb33db2aad8e926addc91250c",
+    "report_products_v1.py": "256cbb43b6c3ab191a7ce76f43ab726cf97f72346e03866be8522865679286d4",
+    "report_render_v3.py": "fcab9fef52e4d3027415b81e5bed0d6d8d397ec3c80fa5f814e614621b993524",
+    "REUSED_COMPLETE_PATHS_v2.json": "14155b6031b8a2d3dac38a71b200ae2c9be16feaa8d17a701bd57ce8e52f22a1",
+    "analyze_actor.py": "0e6e8291c573a6f3a6f491d135d91ddcfef1b7144f125004ad2d6bdb63d14b72",
+    "paper_cross.py": "d07e548f861e7edf4191c9735015553706d012dfca2077adc7b5d212ea9e5a8e",
+    "recovery-membership.json": "6c9a64b6bed918625f91ad03221924d6dd2875afd4e678341c9ffee61bf48952",
+    "CLAUDE_TASK_authorized.md": "331cdbf97f9cec6c923fe5b2e043f036b8ca7f940459215b481d220b9c78048d",
+    "baseline/summary.csv": "fe4dde75b9f78f5e56c3bfe37b375d118ad8d89ae2e6ee29163c56dc37bfa281",
+    "baseline/transitions_saved_derived.csv": "0a1f827b37ff6a56da1d44b8f0e43570fe08cd9ecf251f0b14c4eaf5810cd39a",
+    "baseline/failures.csv": "833beccb759a6bd8f3e6c66bb91efd3eba057159079832e812cb86a5b6c4ba69",
+    "baseline/failure_counts_by_cell.csv": "5f6c8d8546aa9d50fe01b867cb102435f3325f99263cc5e7870b192fec14a292",
+    "baseline/MANIFEST_v1.json": "93a2e95d40e86863869043c25c2be7e95b5d70bc84034c867e58b14fbbfa1208",
+    "__main__.py": "960027e89af3f5cf713f5f6c92bc721a503daa69373badbaa42448bed123b0c5"
+  },
+  "remote_root": "/scratch/user/changze/lqr_experiments/tmp/x12-storage-recovery-20261107-v6",
+  "review_sha256": "331cdbf97f9cec6c923fe5b2e043f036b8ca7f940459215b481d220b9c78048d",
+  "predicted_new_storage_objects": 252,
+  "conservative_storage_byte_bound": 3215972352,
+  "groups": [
+    {
+      "id": "n60-nine-NPG",
+      "algorithm": "NPG",
+      "body_seconds": 7589.06625613383,
+      "tasks": 32,
+      "wall_minutes": 153,
+      "cpus": 1,
+      "memory_MiB": 2048
+    },
+    {
+      "id": "n60-nine-PI",
+      "algorithm": "PI",
+      "body_seconds": 7490.451774509534,
+      "tasks": 32,
+      "wall_minutes": 151,
+      "cpus": 1,
+      "memory_MiB": 2048
+    }
+  ]
+}

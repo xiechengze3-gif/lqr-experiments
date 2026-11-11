@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "kind": "plot-only correction",
+  "source_sha256": "b2a1be2e61e9615831cc739bbe4c2416154b5e8ee0fcf0ad9ea1493c8c83a426",
+  "aggregate_sha256": "27100fdcfd52d9e023e06cbb78ca552a35b87fb1b4ea830292c7c926545336d2",
+  "corrected_scan_limits": true,
+  "tail_xscale": "log",
+  "numerical_data_unchanged": true,
+  "regenerated_files": [
+    "appendix_figure1_learning_dimension.png",
+    "appendix_figure1_learning_dimension.svg",
+    "appendix_tail_strength.png",
+    "appendix_tail_strength.svg",
+    "figure1_learning_dimension.png",
+    "figure1_learning_dimension.svg"
+  ],
+  "learning_replayed": false
+}

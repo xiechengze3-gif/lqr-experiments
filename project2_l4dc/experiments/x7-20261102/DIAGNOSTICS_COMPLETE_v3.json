@@ -1,0 +1,141 @@
+{
+  "checked_utc": "2026-11-02T23:50:07.640896+00:00",
+  "rows": [
+    {
+      "component": "diagnostics-n24-geometric",
+      "job": "20375654",
+      "state": [
+        "COMPLETED",
+        "46"
+      ],
+      "proof": {
+        "status": "COMPLETE",
+        "scope": "SAVED_DATA_ONLY_ZERO_NEW_TRANSITIONS",
+        "n": 24,
+        "spectrum": "geometric",
+        "config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d",
+        "source_sha256": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+        "core_sha256": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+        "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+        "records": 2496,
+        "models": 8,
+        "verified_fit_policy_archives": 192,
+        "physical_training_transitions": 6307840,
+        "max_fit_relative_error": 0,
+        "max_policy_relative_error": 0,
+        "max_cost_identity_error": 6.158962229108056e-14,
+        "zero_new_transitions": true,
+        "job": "20375654",
+        "seconds": 43.44332228042185,
+        "files": {
+          "records.csv": "9c1be7617bde3d0df11d454ab2971e2f96d2e8bec2a96e3f7e2713d95d3cf982",
+          "models.csv": "37e95c1dda83fb3f95cd1d78fdce2a2890e3aa12e888af88496e906c3ee03ef0",
+          "tails.csv": "6688d11ae3b488a70b01f0beacdf472458d3d5ccc7088f207900f1ab156038f6"
+        }
+      },
+      "error_log": null
+    },
+    {
+      "component": "diagnostics-n24-polynomial",
+      "job": "20375656",
+      "state": [
+        "COMPLETED",
+        "36"
+      ],
+      "proof": {
+        "status": "COMPLETE",
+        "scope": "SAVED_DATA_ONLY_ZERO_NEW_TRANSITIONS",
+        "n": 24,
+        "spectrum": "polynomial",
+        "config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d",
+        "source_sha256": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+        "core_sha256": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+        "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+        "records": 2496,
+        "models": 8,
+        "verified_fit_policy_archives": 192,
+        "physical_training_transitions": 6307840,
+        "max_fit_relative_error": 0,
+        "max_policy_relative_error": 0,
+        "max_cost_identity_error": 5.3079068917938343e-14,
+        "zero_new_transitions": true,
+        "job": "20375656",
+        "seconds": 34.08666027523577,
+        "files": {
+          "records.csv": "136392ca0353bb97fc8a7ffd779cb9178d40646f1536be00a83862ac548631ed",
+          "tails.csv": "2c2201de2492a7d5a12c0a1855eb5875ccdb6942212e5c2fcd53128f7e177914",
+          "models.csv": "a30b5e53af643be8536be802d9b262d5d63415659ecb4a2fd4842c4d6429dcc8"
+        }
+      },
+      "error_log": null
+    },
+    {
+      "component": "diagnostics-n48-geometric",
+      "job": "20375658",
+      "state": [
+        "COMPLETED",
+        "76"
+      ],
+      "proof": {
+        "status": "COMPLETE",
+        "scope": "SAVED_DATA_ONLY_ZERO_NEW_TRANSITIONS",
+        "n": 48,
+        "spectrum": "geometric",
+        "config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d",
+        "source_sha256": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+        "core_sha256": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+        "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+        "records": 2880,
+        "models": 8,
+        "verified_fit_policy_archives": 192,
+        "physical_training_transitions": 12599296,
+        "max_fit_relative_error": 0,
+        "max_policy_relative_error": 0,
+        "max_cost_identity_error": 1.0296624664007936e-13,
+        "zero_new_transitions": true,
+        "job": "20375658",
+        "seconds": 74.11556811258197,
+        "files": {
+          "records.csv": "8e7ff890f7411f199b9c51db9c0d6cc11ce554d5ab645694318e670b71c32d12",
+          "tails.csv": "d7275cc75622d1d7f2a967ff6bf448c22e3907e8ab768be8b81024b6706b10ea",
+          "models.csv": "da41d71ad35db8f3d422447ce24d4216c0def281375ad4cd693e75c4c566eadb"
+        }
+      },
+      "error_log": null
+    },
+    {
+      "component": "diagnostics-n48-polynomial",
+      "job": "20375665",
+      "state": [
+        "COMPLETED",
+        "74"
+      ],
+      "proof": {
+        "status": "COMPLETE",
+        "scope": "SAVED_DATA_ONLY_ZERO_NEW_TRANSITIONS",
+        "n": 48,
+        "spectrum": "polynomial",
+        "config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d",
+        "source_sha256": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+        "core_sha256": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+        "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+        "records": 2880,
+        "models": 8,
+        "verified_fit_policy_archives": 192,
+        "physical_training_transitions": 12599296,
+        "max_fit_relative_error": 0,
+        "max_policy_relative_error": 0,
+        "max_cost_identity_error": 1.1363132657038477e-13,
+        "zero_new_transitions": true,
+        "job": "20375665",
+        "seconds": 72.16277845390141,
+        "files": {
+          "records.csv": "ed6dea8c41e866bf87e141c6e6d3d8ccdec0abc197c270f7fe87936659d56ce8",
+          "models.csv": "39328501c81663c1d680d2e84fe1c0c1ec3584c22a04c5369c4e9eea34b384b9",
+          "tails.csv": "dbf9929dbc8b21202bc0f67d5d5949a144c9eebf6d4a5e6df2e9d6d9de6a0b86"
+        }
+      },
+      "error_log": null
+    }
+  ]
+}

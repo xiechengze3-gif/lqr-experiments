@@ -1,0 +1,795 @@
+{
+  "status": "COMPLETE",
+  "scope": "SAVED_DATA_ONLY_ZERO_NEW_TRANSITIONS",
+  "n": 48,
+  "spectrum": "polynomial",
+  "config_sha256": "22711b80c3ff8c353d255eeb6d5fd314a2c78decf84864dcb3a037b1892db09d",
+  "source_sha256": "5f195e95ae91c5b5d9a8580e7f067783572f2376f368179abb7c2feda9525763",
+  "core_sha256": "8354be2fa64874c811dffe1aa3c367f78e125389d53f357c59a453b734af5fc4",
+  "engine_sha256": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+  "records": 2880,
+  "models": 8,
+  "verified_fit_policy_archives": 192,
+  "physical_training_transitions": 12599296,
+  "max_fit_relative_error": 0.0,
+  "max_policy_relative_error": 0.0,
+  "max_cost_identity_error": 1.1363132657038477e-13,
+  "zero_new_transitions": true,
+  "job": "20375665",
+  "seconds": 72.16277845390141,
+  "files": {
+    "records.csv": "ed6dea8c41e866bf87e141c6e6d3d8ccdec0abc197c270f7fe87936659d56ce8",
+    "models.csv": "39328501c81663c1d680d2e84fe1c0c1ec3584c22a04c5369c4e9eea34b384b9",
+    "tails.csv": "dbf9929dbc8b21202bc0f67d5d5949a144c9eebf6d4a5e6df2e9d6d9de6a0b86"
+  },
+  "artifact_digests": [
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n48-polynomial/prefix-000000384.npz",
+      "sha256": "ec95184231568b24bee8b8d8b79234e75c422acba677812aa39736e327531042"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n48-polynomial/prefix-000001536.npz",
+      "sha256": "bd66a1e10338c3bc19f4abd2467187fdcc82d502001911cd6dfb0d961f700a7f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n48-polynomial/prefix-000006144.npz",
+      "sha256": "b3cae72822ab63aa64ba82dbf9f587108eec2e8be773b9fca032f08fd4ebac85"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n48-polynomial/prefix-000024576.npz",
+      "sha256": "b2c8b41b39ab76fc4f73395a2872dac18be25609c171857766995d0991a7c2a8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n48-polynomial/prefix-000098304.npz",
+      "sha256": "988a7b1fb6614e8b06cc09c87608b1bb8378bdfd731f60ae9850c2963352533c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-0/n48-polynomial/prefix-000393216.npz",
+      "sha256": "217a4342d3dad337af2ef7bffaefc97058c05ce314dadb89a002ed52368fcfcf"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n48-polynomial/prefix-000000384.npz",
+      "sha256": "7b2fbbb010ee42c37c87cb2d537f8899e1c0003d967c4ad25d94900d2f038742"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n48-polynomial/prefix-000001536.npz",
+      "sha256": "824fa92ba60c5f76bddddc47d3826fdb2f414069ef6bbc711ceed458edd4ff45"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n48-polynomial/prefix-000006144.npz",
+      "sha256": "475839ea4d6af2ef36a57d2506193e08b04879d7471a23bf9482118f68f3fe97"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n48-polynomial/prefix-000024576.npz",
+      "sha256": "0ba7f4e947caeb5cb7b980691e2c59120faefe7ab5ce4d95f3f422bd858efea7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n48-polynomial/prefix-000098304.npz",
+      "sha256": "564797ebd9d9d03fc4347902f47884abff0968593722afb3b048ca2966e724af"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-1/n48-polynomial/prefix-000393216.npz",
+      "sha256": "f0211830da7494604a0d3da3ed121c61db9ebfb401e317fb2f49aa80883aac69"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n48-polynomial/prefix-000000384.npz",
+      "sha256": "079f116c2a68825700beac34e6e3f471406861c035e93be9cf33350ba25c1975"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n48-polynomial/prefix-000001536.npz",
+      "sha256": "7168f0b97896dcb1f0cf881fad80ecac10dcf5a26847162c3249536c6e608a1f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n48-polynomial/prefix-000006144.npz",
+      "sha256": "d92c961681ec38eddb55baf76389b7eed5d2bb193243d368352fa063281c3040"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n48-polynomial/prefix-000024576.npz",
+      "sha256": "035642d0042234f5f3bcbc8d52f047c3806df5cf7a1c19e83a9286a8215ef1d9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n48-polynomial/prefix-000098304.npz",
+      "sha256": "e248dfff2125ad15bcca4bcf8249d8525c394087b831000ab28ca3a6a1ee6fdb"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-2/n48-polynomial/prefix-000393216.npz",
+      "sha256": "2fc5755b86253b27e61a9781bb57fa95cad0f4ce71f9e02ef72d5943df229dce"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n48-polynomial/prefix-000000384.npz",
+      "sha256": "6a71a1ec5b2c7b274badbfb04d0030be5c63f9fb281e5415732fe812673bc0f1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n48-polynomial/prefix-000001536.npz",
+      "sha256": "f0c1c9fba33a4f8af5be07c88cc129480686e5af4d4da23f6ec8ec4be18cd806"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n48-polynomial/prefix-000006144.npz",
+      "sha256": "872f7f215045aadc7c72bf3d41d40f442e1428fa3af9b2c8226cf4fbd4edecc7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n48-polynomial/prefix-000024576.npz",
+      "sha256": "07538274127dad669798e93193516d9e52e95202334059b1d42b887fa6dc3921"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n48-polynomial/prefix-000098304.npz",
+      "sha256": "c91feaef486fd2025c9d5f2251ada438986ff5c8e6de22a6cda3a56db17d62aa"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-3/n48-polynomial/prefix-000393216.npz",
+      "sha256": "e469674288c731936e707ca8d84af07bb3faa37710ff1dff2bc057195626d6d0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n48-polynomial/prefix-000000384.npz",
+      "sha256": "83f8288fee82133c21f988ba58112d8b49ab3ffa726d96446121967c1515eaf1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n48-polynomial/prefix-000001536.npz",
+      "sha256": "2c15f906efbccc8441eb196005e8e7f2a228e6ca947b602bc7227b8ee18bcb83"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n48-polynomial/prefix-000006144.npz",
+      "sha256": "37ef81d25cd07eb54b9e7b7994cf19572cbe52c5e325b80928075ee513778843"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n48-polynomial/prefix-000024576.npz",
+      "sha256": "6a0c3c62d1ccb69f96cef50a79ad852210559a7cf6e6098a58f45bbcb1a47783"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n48-polynomial/prefix-000098304.npz",
+      "sha256": "bdf2ab122082b1f31a073e525108d831b78caf07d7cb8f8ac314e77ef445ff99"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-4/n48-polynomial/prefix-000393216.npz",
+      "sha256": "993fe2768d8e17310ed0af82766a7357b870a18cd88fed5ea97805b77df6fa09"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n48-polynomial/prefix-000000384.npz",
+      "sha256": "30a9b09b5ab4cffa98d61c69feb1add1b4be7ee71845e4d0837b44f03debbd42"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n48-polynomial/prefix-000001536.npz",
+      "sha256": "98db43b193c951d44219057dd80a73121ff4dbd73c287b4bc17edd4ee2799174"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n48-polynomial/prefix-000006144.npz",
+      "sha256": "2ba22386b6a970519eea5ac3a2ec4f5a2d7617b0bc411c9ddcfe2b7721917253"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n48-polynomial/prefix-000024576.npz",
+      "sha256": "dd64969c0655128a089f073b105ce802fb8334153a5d5879f640e3e348b2e034"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n48-polynomial/prefix-000098304.npz",
+      "sha256": "2ab55261c4d87c341652b6d5978e31edc6523c7a376e73ca4028cffd0a3cc7d7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-5/n48-polynomial/prefix-000393216.npz",
+      "sha256": "9265d348d985d1bb4675a93ea72b38f9051e4b5ea92ca8b77866fe60f09ba835"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n48-polynomial/prefix-000000384.npz",
+      "sha256": "7a7d4870fc60ee205c663313c70668e8b0bd2601fad7983fe5a333d5996ebd9c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n48-polynomial/prefix-000001536.npz",
+      "sha256": "b83a748b0c61d376a0924603ae038b680d5978671c17aaf0da0d0ada7b86c851"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n48-polynomial/prefix-000006144.npz",
+      "sha256": "446dbbe14f5d006386c70ff54ac55da17746b1a6ec526e81fd73d9674074571f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n48-polynomial/prefix-000024576.npz",
+      "sha256": "96913618d6723e7716ef4c5ed234c68dc82c0355d25b2194267000fc71aff620"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n48-polynomial/prefix-000098304.npz",
+      "sha256": "828ec39ff77eaf455ed4911a7eef80f1fe7d2a8cc8a3cc2c3285b7ddf9820501"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-6/n48-polynomial/prefix-000393216.npz",
+      "sha256": "8f7097baefb283de543232c3712d5ec453a72609bdb6840a8f097490699c45df"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n48-polynomial/prefix-000000384.npz",
+      "sha256": "fe10644a5186b46ba72c96c72c6673873a511ff34ff72cd40024b915f2f46599"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n48-polynomial/prefix-000001536.npz",
+      "sha256": "cce74bb5d86f3580a2babb3dc6076722755ee099b055e3174b3a5c07434d2d17"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n48-polynomial/prefix-000006144.npz",
+      "sha256": "a5099c74bcc8c28b389ff9a2caf023476323d4390e61f9717c236db5ca48a5e3"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n48-polynomial/prefix-000024576.npz",
+      "sha256": "727fc96000e787e75aca91d05f3ac6a366c7a8d65edaeac2b050a6ef6be4ca01"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n48-polynomial/prefix-000098304.npz",
+      "sha256": "2679dc7c4ad9535e81a8b6c22de61310278aa9c907f87f84bdcd92daa4966505"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-7/n48-polynomial/prefix-000393216.npz",
+      "sha256": "76f9d56ab98278f3a452534dd06b1d12eb6484e6f301e7bcc4ad34a1ec72eb6d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n48-polynomial/prefix-000000384.npz",
+      "sha256": "99736c5c096d892892ec8279e36deece873dd7a749b2feb262a28c75003e4bca"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n48-polynomial/prefix-000001536.npz",
+      "sha256": "1652d9bc246320abd4c945d2169ed998d80afaa3ffb6850a69a16446aed3e765"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n48-polynomial/prefix-000006144.npz",
+      "sha256": "8f8ef44a5ba3e0640eb790c5cdee1a391da346e6f3d27781f6a0bec796736a40"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n48-polynomial/prefix-000024576.npz",
+      "sha256": "75e3d57e2cbf8b2a6855e6b8594ddd18fd809cdd2b4cdd90ee3d76d881a26b0a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n48-polynomial/prefix-000098304.npz",
+      "sha256": "feabe4ed9133e1983cf0ee70f0b0aaebf0b7d5b4ccaa0f581b645c2da8556bfe"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-8/n48-polynomial/prefix-000393216.npz",
+      "sha256": "68f0da6c81429c6d7c740127d4ee99ea386af808144cebcbedebe12d6a5d2513"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n48-polynomial/prefix-000000384.npz",
+      "sha256": "28340e61d951ea73f13e553dc57f32e2546ea70f40cabb021633004ba7b710a7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n48-polynomial/prefix-000001536.npz",
+      "sha256": "4321b9e3a176fdb7c8004f7216fe81bbf2facffca786dae52fcbcb11895b7d73"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n48-polynomial/prefix-000006144.npz",
+      "sha256": "2c81faf079e982cdf624da1591a59fdab2040039561bdf99424c41866e443049"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n48-polynomial/prefix-000024576.npz",
+      "sha256": "ada7072d33828d8b73d6185c4b80af426728bb699084f1a04e3900d4c1f9cfc7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n48-polynomial/prefix-000098304.npz",
+      "sha256": "fbea2aaf9ba08d128f204ec154b978b4729e53e73e71595b2a2611dfe51eb8fe"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-9/n48-polynomial/prefix-000393216.npz",
+      "sha256": "23527150a6bbf1160dcb553e98c88af80ab6eaa823342213af3a4762e0a29fd9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n48-polynomial/prefix-000000384.npz",
+      "sha256": "0f698bbeb81c7bb27eb2cd061ad2326e4f2ca6df688beb668b78dfcfb1b24c37"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n48-polynomial/prefix-000001536.npz",
+      "sha256": "0eb02a9fdece296181e77a316e31b34e856502213cad4d0be32e72c596f280de"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n48-polynomial/prefix-000006144.npz",
+      "sha256": "77d29e2467e00733bbe92bf9c54c52fc50cdffa77f79ba6fdddbb910b5bb107c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n48-polynomial/prefix-000024576.npz",
+      "sha256": "01ce017582e6b2337130e16a9168158313e8131745bcfdc5110e7530d1ca9af2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n48-polynomial/prefix-000098304.npz",
+      "sha256": "d1cfae62a473ac9aeff899456f1aaf83875d148a95c8035970e9bc08ff1d6825"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-10/n48-polynomial/prefix-000393216.npz",
+      "sha256": "402bb176d3c97624d4120348a9ac942fdb9778a180e0232b228102284f7ce0cc"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n48-polynomial/prefix-000000384.npz",
+      "sha256": "d1c4f2ea3a5fdc1beb879d2095d0c1375da1ec14219d631549a785b26376a952"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n48-polynomial/prefix-000001536.npz",
+      "sha256": "a02e0b30c5e79c2c560a7de1094727b1341f0201a61980454e11c91340e29e32"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n48-polynomial/prefix-000006144.npz",
+      "sha256": "44ea8bb893d34fe2194b07a60ac8fdc189b149a4118104693024a7f2891ccc2c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n48-polynomial/prefix-000024576.npz",
+      "sha256": "2deaa430ae51b44d3593dbfce576df66b8fcdeeecae05b2e1bb337d13597203d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n48-polynomial/prefix-000098304.npz",
+      "sha256": "e5f520304a32c76b9072058ddceffdb1350b5a891cd292a210edbc206287b63c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-11/n48-polynomial/prefix-000393216.npz",
+      "sha256": "4015a6e94b57c964d5f5c21c05d4334211a978063e25d946b4f93bec1bfb1451"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n48-polynomial/prefix-000000384.npz",
+      "sha256": "2c05f7aff06470014ee8103001991af3a03faed49ff7d30ba6bfc32977629119"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n48-polynomial/prefix-000001536.npz",
+      "sha256": "2ad369fd2d7181e0326a82d8dbabc3104c3e4d9a925657613b5859b993c7beb6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n48-polynomial/prefix-000006144.npz",
+      "sha256": "14000f0c8bace069297e70fecfd02c12d9129990fa9421de94497ff69ab3cb76"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n48-polynomial/prefix-000024576.npz",
+      "sha256": "aea9a445c6742295aeaf4089adf0c313b661557dc476fe521bc35281f356103c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n48-polynomial/prefix-000098304.npz",
+      "sha256": "77e3c2d4a9aac1d5975c04cea1b4e8b18dad13cfece14ebcd5111be737d8f032"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-12/n48-polynomial/prefix-000393216.npz",
+      "sha256": "61bbb68f73ffec88c15979f353f673ae7d3f9bd6a9c44f34f6db1daab8be34ec"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n48-polynomial/prefix-000000384.npz",
+      "sha256": "70f138e2c1cd2f8b0b5331ddc83a8ae592fa51391547102a9d4dfe2a9b8356f7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n48-polynomial/prefix-000001536.npz",
+      "sha256": "b78c21741b0e59240bb673c44744f527e5c54f8791504fb822397846867a86ee"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n48-polynomial/prefix-000006144.npz",
+      "sha256": "4cfd2a43aa9880a45247b3ae191a55d104297112bf02c2609eaae1694ec04ac9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n48-polynomial/prefix-000024576.npz",
+      "sha256": "7066a3264da10263f558ddeb7230dc38286af2b80e734bcba0193bfffeb74d64"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n48-polynomial/prefix-000098304.npz",
+      "sha256": "94f754eab3c217fc78d6f87c26917eff079a5c31b9fbdc2028ab99f114f2b193"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-13/n48-polynomial/prefix-000393216.npz",
+      "sha256": "6b524beb971340883b783521862b91fc8af2c3f5e39ce5fa0d0565e5e932cab8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n48-polynomial/prefix-000000384.npz",
+      "sha256": "0a47601b28c242545857f66daaf16144bd114fda121216dcd55d30ff947bd141"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n48-polynomial/prefix-000001536.npz",
+      "sha256": "50d8a29fcb641141c301a509d741a0b6b6b30f5d99f84344aa8cd1203ae44d2c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n48-polynomial/prefix-000006144.npz",
+      "sha256": "0f9d2273028381c7d73e314284d4ea38e431fb58acd0b3c5b3113f50ed5ecd39"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n48-polynomial/prefix-000024576.npz",
+      "sha256": "afb53975b86cf6b67ff685ef54690f1d9f3840f2790a4deae80a7e7e87e3949c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n48-polynomial/prefix-000098304.npz",
+      "sha256": "8b7ef90127234037272547e1b773fbefcce459b70737274756caa00bc0c11aee"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-14/n48-polynomial/prefix-000393216.npz",
+      "sha256": "82bb09b47dd40a28b045a606f5e0b00a14da2d02271d0699f2c245c4d3b78857"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n48-polynomial/prefix-000000384.npz",
+      "sha256": "26f4f77bd50b8b0ea04649ef0952f0bbda5bf90460ca874c105cd394c743d835"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n48-polynomial/prefix-000001536.npz",
+      "sha256": "f88df737f94df7bc022637c91ebc5bb0bb0c925b16444fdb56f945aa134e6481"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n48-polynomial/prefix-000006144.npz",
+      "sha256": "dc0ef73c1d8c7f7269de8fafa110fff3abf70018a6ed37afd80f2c9d49eec1b3"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n48-polynomial/prefix-000024576.npz",
+      "sha256": "aeeb5e075d070f6f9e2b8f168744732f5b6e137cdf4992fcbbc573d32e592401"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n48-polynomial/prefix-000098304.npz",
+      "sha256": "99fb7d007635bdfb2ee3e20c560ec0350d903836a923cc2a31537744560b3807"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-15/n48-polynomial/prefix-000393216.npz",
+      "sha256": "8e5baf0aae044a219fff8bbb479e598384aad4e7a42c066cb90bfa5298321f95"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n48-polynomial/prefix-000000384.npz",
+      "sha256": "f5e6c8718b7f626e4be29b1dee20dbae90b285636221c465b43b71ffafceca07"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n48-polynomial/prefix-000001536.npz",
+      "sha256": "a6b83099a66f02548eb158098d6c04071564c563762491695b8067e20846e836"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n48-polynomial/prefix-000006144.npz",
+      "sha256": "f3b4467d4b384d5cd30531390dd9986138105f368a784c1cb243d8466a19a1aa"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n48-polynomial/prefix-000024576.npz",
+      "sha256": "ef0b782e5c08259b42fe0f559e8bfb80ea53dd909e2d675c1742da858841879b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n48-polynomial/prefix-000098304.npz",
+      "sha256": "c7027665ea89dfe3c6834d290b04003d3cad4d50dee472f8610a3c254f0d58cb"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-16/n48-polynomial/prefix-000393216.npz",
+      "sha256": "3f7c13f6440ef57e6429a1dbc1609e452080c5476c1fe8fad21b8fadba855c3f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n48-polynomial/prefix-000000384.npz",
+      "sha256": "44e8a1b05eddb75d4b95b4bbb92a75106074ff4b9008ca0e190de87b9a8562ff"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n48-polynomial/prefix-000001536.npz",
+      "sha256": "95999bb4734f22a8dfdc9fa574b7d66f927188b9467e431acb331a5ff71161d2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n48-polynomial/prefix-000006144.npz",
+      "sha256": "20334855abbab9f9fbbc6b0b32f0185b9492759ad8c75b0b5daea681626092f3"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n48-polynomial/prefix-000024576.npz",
+      "sha256": "d9fbf768a2fd6e8439a4b687c263560cdbea83b6aba7d306f7daff3eea2e9a2b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n48-polynomial/prefix-000098304.npz",
+      "sha256": "0f63d964d8bd1ae1fb11969c4f3b5c319274cfd94b5aa73d05fa7d7e82caa354"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-17/n48-polynomial/prefix-000393216.npz",
+      "sha256": "26fee372846aadae52548d9b2659a25eb2fc636274e903e22a6365a511cbc729"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n48-polynomial/prefix-000000384.npz",
+      "sha256": "3028cd0658cf005b5d8d0c8fcb83ef38602eae38a06e0369966e045b42cea7a2"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n48-polynomial/prefix-000001536.npz",
+      "sha256": "01206351e1c4178d507c490a7c94fbc62c791f76816770f473995202f1231e16"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n48-polynomial/prefix-000006144.npz",
+      "sha256": "073639ab494fc4543fb46b9c89d5f8d8ec5ad54a72c3077441d9f22a3685b6fc"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n48-polynomial/prefix-000024576.npz",
+      "sha256": "795893308508f18c535158e3d92f699df8f5337ca25831317ee698b3453f8d23"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n48-polynomial/prefix-000098304.npz",
+      "sha256": "ae3cd3577ff28c03b1859e91186dceaf23ce3e8aecc7a1dfe124746d9d9332cb"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-18/n48-polynomial/prefix-000393216.npz",
+      "sha256": "e9dfe55c888b4e9af5206041fd4e6e2bab19f5b85e4ecdcb890188fab1a0b6bf"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n48-polynomial/prefix-000000384.npz",
+      "sha256": "6da9c46d7bf635bb2221d5a573c88bb4aa0ca43fbccba9c7f850409c7190cfc0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n48-polynomial/prefix-000001536.npz",
+      "sha256": "0fe30ee1be4b34ba4812b34ed8d0cb91d4028417d4f8cabbd9c3d6b007f2b144"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n48-polynomial/prefix-000006144.npz",
+      "sha256": "71a5935c8e336d95a7efd5496b3f8f9afb066e4fb5f22b0baaeceb4b98a1616a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n48-polynomial/prefix-000024576.npz",
+      "sha256": "a114cb8347bb858b6f63db9c9e4096ca81086533a33f047821f78d0b52d27b2f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n48-polynomial/prefix-000098304.npz",
+      "sha256": "d0dd974e34d6e4d28de418d1998c98da08760412b4a0438f473bd0f222deb74a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-19/n48-polynomial/prefix-000393216.npz",
+      "sha256": "a0fa4272adb1c5e452de793f878be13b472991e9a16f2bf01954a6a1002be9ce"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n48-polynomial/prefix-000000384.npz",
+      "sha256": "cee1648365ab3bccaf048b7c45243e73b3744b52aa187329f5ca4af9d8aa3249"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n48-polynomial/prefix-000001536.npz",
+      "sha256": "64c473ab602d0d218dd9466f77383fa352bab6dc6fc6b37f56eb006a29b861f7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n48-polynomial/prefix-000006144.npz",
+      "sha256": "7b63eb0904dd18e708f2edd302f30075ff7e1574beafc4288224f21ff0339b45"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n48-polynomial/prefix-000024576.npz",
+      "sha256": "b6b2798bd2901d05894c14d0ce68ee351100db34db8fe7f202f6e7fdccfd2af5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n48-polynomial/prefix-000098304.npz",
+      "sha256": "0f90f5517a2aaf55a4d46b7051f093b1df6b8aee9b2f9de526b556564e8ac162"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-20/n48-polynomial/prefix-000393216.npz",
+      "sha256": "59be90ff98c508a1ca36a0b3803a193a2c7c2d9937eb7e8daa8be884b6ed497e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n48-polynomial/prefix-000000384.npz",
+      "sha256": "46f2d90691d04c6998f9ecfb564f294bbd2ea74c8260e5fa1d7afb253f742fa1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n48-polynomial/prefix-000001536.npz",
+      "sha256": "9258e74609ad4c37a7e2db430c414d7d2ca929ceb6baa71ef3afa3ccdd156d07"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n48-polynomial/prefix-000006144.npz",
+      "sha256": "904b5c0fff017bcd3b60c2dc4ef0015afe7482dd1b872dac1487475d141bf613"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n48-polynomial/prefix-000024576.npz",
+      "sha256": "ee75e4bb7e882899ad480b019971531bcf197b46f4d75444d0e4bbd31301bf4b"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n48-polynomial/prefix-000098304.npz",
+      "sha256": "ce6e9f3e292e59f9cfcb6408636570e54f96342401daaebcbf111879cc516820"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-21/n48-polynomial/prefix-000393216.npz",
+      "sha256": "3903ae8372f80a480ceef5c2423b50310e7189b41711e694679c57e611f22c8c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n48-polynomial/prefix-000000384.npz",
+      "sha256": "ebcf3a663d9b985962aef7b187c0bce40677e79cb77acee8f352a590dca03e9a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n48-polynomial/prefix-000001536.npz",
+      "sha256": "0950a7fb4c605ac11169df89a6e006e4a9fe3b60f61513e79f8b09b37bf7d841"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n48-polynomial/prefix-000006144.npz",
+      "sha256": "1b2fd7f5db5d2038c0ce6c77fb24ef851a7488237512be6f02324384a974613c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n48-polynomial/prefix-000024576.npz",
+      "sha256": "e2b0c1ad8e1bd24538a486e52f2cdbcd3433b2c0205653f92e0d9f9e0d324762"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n48-polynomial/prefix-000098304.npz",
+      "sha256": "8700f8b5571732bd63bee0bd9094f2c6444bbd3ecbdf1f05320033692b09bca0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-22/n48-polynomial/prefix-000393216.npz",
+      "sha256": "00b33bf9e69ad2a02f58621746251e482ffa6424e3ba43b884d55566d4f6a564"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n48-polynomial/prefix-000000384.npz",
+      "sha256": "d756c7d33de77676e76a27f989e32c0ac548628e0c287394cd3b0005e2095f45"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n48-polynomial/prefix-000001536.npz",
+      "sha256": "2477e5e495d69c551a5a794d195006101fd6e1cdd4776e5ea2df4a6469c3a9c8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n48-polynomial/prefix-000006144.npz",
+      "sha256": "901ee4d79e16ff1d7cf968fdc395a443038fab0167b2b30cc34646f4c6666b53"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n48-polynomial/prefix-000024576.npz",
+      "sha256": "07cfff1b6be1d6ef4b54e892b6e9a3ab0296683ffdf78451998b1554f88bb755"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n48-polynomial/prefix-000098304.npz",
+      "sha256": "6364a370099e54f0688ef9a9089a92a8c08760555e97b1f34512a41e34000886"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-23/n48-polynomial/prefix-000393216.npz",
+      "sha256": "a4c4606d40046eb1063a58069094e653b841c9b859f3d248cb35c73a5826929c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n48-polynomial/prefix-000000384.npz",
+      "sha256": "6e437cf8f72fd3d0d350986afe41285527918c661f4b16784830f101495e0d87"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n48-polynomial/prefix-000001536.npz",
+      "sha256": "a6c58eef99e7ad9f9b77060c4de54c9ae0def4a531c4e75715cf5b9c89cc03f4"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n48-polynomial/prefix-000006144.npz",
+      "sha256": "fd60795aabb483e79fe5ec4f5c202eabb74d538176d87f0eace9df44cecf6676"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n48-polynomial/prefix-000024576.npz",
+      "sha256": "e94254afdc851338cfb5856a4fec074971f1bd7a7f2307fd69a5782eba4f43d1"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n48-polynomial/prefix-000098304.npz",
+      "sha256": "1072ef8c53dc5ab3db7cb41b5233e36c88681f8e7662c0e036e5fb97e5f5a48c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-24/n48-polynomial/prefix-000393216.npz",
+      "sha256": "cabc4944c6168c1bee33376932e9773e5c05cba54df0fe286be1e78fa4798e1c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n48-polynomial/prefix-000000384.npz",
+      "sha256": "afe4aa8ce75f1a0a45acbdbce98c2b26df50c06310287f8e41375a530050900c"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n48-polynomial/prefix-000001536.npz",
+      "sha256": "93a87de9d41a3cb7dcc2866e980c01c950bcac070da1994314efb9772315d70a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n48-polynomial/prefix-000006144.npz",
+      "sha256": "331761b3dcfdad11c6b84e568d1186b8dec7322003b5b4f14c738e689f65a0b3"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n48-polynomial/prefix-000024576.npz",
+      "sha256": "c81b230f9dfb7e6ab2e5e225803c52394e555d7dc9d763b50f758a50ec6c5161"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n48-polynomial/prefix-000098304.npz",
+      "sha256": "93ab004cbf123e5b3d124bd9bb056995b6c7fd910f27bf02fb8fa812ee3d0551"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-25/n48-polynomial/prefix-000393216.npz",
+      "sha256": "90044db53cb74339186f30f4909d01753d40a7a293abd2e8a839249259f02fe6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n48-polynomial/prefix-000000384.npz",
+      "sha256": "3106bbf333406632bd65a62fe3c564877141b7b29e456874ed5e33e21c6d5fbb"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n48-polynomial/prefix-000001536.npz",
+      "sha256": "a483df5764094ba0cc0dc3d9a2bd43de56583e267f6a6fc57c3cb0ec8377a372"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n48-polynomial/prefix-000006144.npz",
+      "sha256": "ff4ee7df71f6d09a426ac1be3333d3cb9c5a4b61c6b35b3f5f39a5c4e7033032"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n48-polynomial/prefix-000024576.npz",
+      "sha256": "ef04e8d2e07afff13d9d8054fac262a4d83f9060f379392ebe81bd2f6123ca7e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n48-polynomial/prefix-000098304.npz",
+      "sha256": "47e4342042fb194aa96704a7d89f7e20e1f2c253e03f9df8c07ae1433243a4f9"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-26/n48-polynomial/prefix-000393216.npz",
+      "sha256": "72418bb8d457662da4e2b0a79460972296ef9a0117c3885ba284fbd564442b63"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n48-polynomial/prefix-000000384.npz",
+      "sha256": "939bfa8d5f262330112194b735ad65fa1dbe828f6640d0e9d550e244071b0357"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n48-polynomial/prefix-000001536.npz",
+      "sha256": "b05a5cf4bfd9c4ead2d92ddf42b7bac13e6475b3f42e1290a95cadbcf8ed9962"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n48-polynomial/prefix-000006144.npz",
+      "sha256": "a5f8e984b11f2ccadc2ad5daf70e6447f8083ea8402ae31ed5a75a99cccada17"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n48-polynomial/prefix-000024576.npz",
+      "sha256": "4dfbb2ecf42dec9c9e487297e7fde607548cbfc723bc88bb86590b6b6c8364b5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n48-polynomial/prefix-000098304.npz",
+      "sha256": "92958f017105922a960a9d01de5a1f1f7ed36673c6781624bd0ad0abc5f763e0"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-27/n48-polynomial/prefix-000393216.npz",
+      "sha256": "6c660cd3bdd03c379a6b2b9dab419dfef7ab95a1dcfdb19da4dde4d261301b37"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n48-polynomial/prefix-000000384.npz",
+      "sha256": "319013b0c18df1debf0a61609cd46da52e3a5e087fc37b49d4d998caec94dda7"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n48-polynomial/prefix-000001536.npz",
+      "sha256": "88fe66e9feed3fbd284dbd76c996df84042df092665fab979f14cd5edefd8e11"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n48-polynomial/prefix-000006144.npz",
+      "sha256": "602086fc37f02dfe42f21930b6c0ab309373a7671ceefbfb3aeaa8c0788c0951"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n48-polynomial/prefix-000024576.npz",
+      "sha256": "c575e97ee70c8957ee131420e8ce15702f943f30f7bc5fa8c7b4f6b64837171f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n48-polynomial/prefix-000098304.npz",
+      "sha256": "d246c73009bcda873f765d76d30616d5cc07c659985fdb9cff9e05eaafe4e1ea"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-28/n48-polynomial/prefix-000393216.npz",
+      "sha256": "f1400aa132f3bc6066cc38f2e2452e004185d55f3a34ad4e7102d5f2f0ce60d8"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n48-polynomial/prefix-000000384.npz",
+      "sha256": "718c44fe3963846ef5573f8edfca2583af2c8cb8d2d56fc9aa8de1f922712496"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n48-polynomial/prefix-000001536.npz",
+      "sha256": "67f3abdfc1ce39e259497f023158e159ea9f7804124540b7a13532961abada90"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n48-polynomial/prefix-000006144.npz",
+      "sha256": "cfa1d53b056c9ec01ac48e89a789b6f8923dcf513693f4246c45bf4bc87420a5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n48-polynomial/prefix-000024576.npz",
+      "sha256": "5d1a68d77c306b7e140dfcc5fc364fba048f028689746272883394c99ce56c8f"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n48-polynomial/prefix-000098304.npz",
+      "sha256": "ffc4e9779368ee4774f037ac48bb5aaa01eba4facd2af26bacfca3ef93c018f3"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-29/n48-polynomial/prefix-000393216.npz",
+      "sha256": "926bd92e800de7ec5b3aa1320054f4fc0f771c93a5e6cc05c1cb5b30ff65b82e"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n48-polynomial/prefix-000000384.npz",
+      "sha256": "288ca7b67232931809ed688e5d57f1e306831c882f617def3f4a11d06363e871"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n48-polynomial/prefix-000001536.npz",
+      "sha256": "8e3e4c1042013963fc7f7d01d80c66630cde3eb4eae9fbe1699d291eabe16296"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n48-polynomial/prefix-000006144.npz",
+      "sha256": "db43205bec8a6f75c9602ad05dc9b4c5874a446ba4e45794565f21087acb4cde"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n48-polynomial/prefix-000024576.npz",
+      "sha256": "9eb0553539d1266d3148858c4c41c8e094c469cb3b1951fd4876f2fc1aecd47d"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n48-polynomial/prefix-000098304.npz",
+      "sha256": "2be0449b2020404002e89b3c8ed59b40e681c03cdfed0096c7f08d0305b65bed"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-30/n48-polynomial/prefix-000393216.npz",
+      "sha256": "4720bfd26b687e3063f9f291bfb1f80098785452b95da430c4ffdbe81ef1d1d6"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n48-polynomial/prefix-000000384.npz",
+      "sha256": "b818a58f7a7a3dee3053fdc6e22ba50a9d13859e3b4c6e7dbaf8dbd2b562f9e5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n48-polynomial/prefix-000001536.npz",
+      "sha256": "e293f39b7624cf841d69567dbbcfe8eda5f635ab274d3b6e6ca5b8791751723a"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n48-polynomial/prefix-000006144.npz",
+      "sha256": "5e459c1e74567bd33f866e7919471804e96c4db7f35442ed328cae22a12d46c5"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n48-polynomial/prefix-000024576.npz",
+      "sha256": "6c45c11d4606317c0a1eacdaa3d70d1280e289adfba05609fb8fe45ab32b01ea"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n48-polynomial/prefix-000098304.npz",
+      "sha256": "f83ebac033116533885ed79055e8bce4ab2cbd3a099c05fe1c5365e19ece4758"
+    },
+    {
+      "path": "/scratch/user/changze/lqr_experiments/results/x7-20261102/formal-v1/task-31/n48-polynomial/prefix-000393216.npz",
+      "sha256": "75a556291d933c47a7b44f972654009201e9a45e9c15a05807ca2f558d62f1cd"
+    }
+  ]
+}

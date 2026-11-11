@@ -1,0 +1,40 @@
+{
+  "status": "REPORT_GENERATED_VISUAL_QA_PENDING",
+  "new_paths": 352,
+  "new_records": 3520,
+  "new_cells": 11,
+  "reused_cells": 2,
+  "raw_archive_hash_checks": 1760,
+  "failures": 0,
+  "old_square_crosses_reproduced_from_original_inputs": true,
+  "legacy_rounding_disclosed": true,
+  "reused_sources": {
+    "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\CE-addition-v2\\deliveries\\ce-20365253-v7\\X6a\\CE-addition-v1\\observations.csv": "a9f37905f002a5b7f337092dbb2bc328b9d569d5161f0b95a99ab71b3d420bca",
+    "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\ce-report-v3\\new_dimension_records.csv": "641b8d016059854713e5748f8372ca58857fcedca11bc5c5240babd7bddba0dc",
+    "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x10-20261106\\ce-report-v3\\merged_X6a_sample_cost_derived.csv": "baa204210bcad918511d24d5c213299a32a87b5d460353cd64d90255464c09b5",
+    "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x11-20261106\\paper-rounded-X6a_CE_full_gaps.csv": "4c1a6988cadc9227fbd1232628b0b891932fad12a36643106b79706c07b9ecd7"
+  },
+  "formal_receipt_sha256": "23ca9ac33b41eecff1a63bacc628399164b5118318a2a2b485b56619d8eed7c4",
+  "analysis_source_sha256": "7d409f6a56cf70a7e153d34d07c3e0e0f11ec1ac1771778d558a7bed4a105186",
+  "original_arithmetic_functions_literal": true,
+  "arithmetic_source_sha256": "f3651489091ddda0b545af4bc8c149d27c2b5dfdfc072fc7d5101d061b3fc3f8",
+  "new_training_transitions": 0,
+  "Grace_SU": 0,
+  "Slurm_job_id": null,
+  "files": {
+    "censoring_flags.csv": "96622a0fefaf12a0407b0f2b92f5327549a85cb028cef5341c74e64c2cec3981",
+    "failures.csv": "03cbe7b50075ef4f3c14d9a52a4f069c23f9cad66fc53b88b7c78f69b42047f8",
+    "legacy_rounding_audit.csv": "3b174c18f4a8b086cf700f402b539f2ebdc9a2997d6eb83c1d5933e665c200d9",
+    "merged_X6a_sample_cost_derived.csv": "fe69590738e4d1c1911034b450e2ad21f1e1b7934f573bfe990c6bb15f025d20",
+    "new_records.csv": "1ab7b1babe282122d2739f6371ee63c67788ff1c6c5104c2f91632d668dacba1",
+    "new_X6a_sample_cost_derived.csv": "9d354dd31ba3562243c277c4938e8c3f149c83b043563718d67018a85f97bae8",
+    "paired_gap_ratios.png": "d99a5b5e7701b8b367ca190e1657a920eb38a7561298753ccb0bc487d1b28ddf",
+    "paired_gap_ratios.svg": "c7bf1030717f77610a5f97c205557cece56ab43e8833785d5c2b5160b5c07d33",
+    "paired_gap_ratios_by_N.csv": "daee7b97ef6796f7387a4dba481860efef38208d2702bd73855057203244b666",
+    "REPORT.md": "406d84e11b0b52f5f5e684e352bb3e8ab7e94077ba041046d472d4d5eb182289",
+    "reused_records.csv": "c9bd6dea341578c5241ea0aa69a7a9bdd9ed04db400f1c9da9d0f53656e82597",
+    "sample_cost.png": "bb4736422b4fd10392f23a35dd9d5be4f2e7d7c73189cd163bfae53b3ca03f6a",
+    "sample_cost.svg": "37f3a83b2e0c8d3e4c62b37f01d61f49827d2bc2c531aa2a2ea8c8c741dcfcb4",
+    "stability_by_N.csv": "38841135f4c92c239d4ab997a36875e978b61001a001c3ee284eaa30b62fa03c"
+  }
+}

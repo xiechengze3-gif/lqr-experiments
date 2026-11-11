@@ -1,0 +1,42 @@
+{
+  "status": "STATIC_AST_GLOBAL_DEPENDENCIES_PASS",
+  "files": [
+    {
+      "file": "render_report.py",
+      "sha256": "af0aec8c4cec8256be6101d6fa6772f1f0053b5ca2dc042a46a2c86067314a86",
+      "unresolved": []
+    },
+    {
+      "file": "transfer_report.py",
+      "sha256": "801c01de69efb6afd4800b99f2639ee175935753d67217dd95b387285b140333",
+      "unresolved": []
+    },
+    {
+      "file": "audit_formal_x9.py",
+      "sha256": "c638f3aabbb97daafb5d79e5c69dc552c081c464c9065b291e133fd9ba8b2a43",
+      "unresolved": []
+    },
+    {
+      "file": "copy_report_provenance.py",
+      "sha256": "422419f476f95d35ccfe5adfd89da2e4b4a22d9e778e670100f14674e6bcfda4",
+      "unresolved": []
+    },
+    {
+      "file": "submit_report_x9.py",
+      "sha256": "843826a6183027106f7e22a746d796f76a53421bdb7c7a2282b4615453649f80",
+      "unresolved": []
+    },
+    {
+      "file": "build_report_release.py",
+      "sha256": "1fb515c55c5590cdb19639c8c954413e938bc95ea445978211183f2aa5b1e5a9",
+      "unresolved": []
+    },
+    {
+      "file": "accounting_x9.py",
+      "sha256": "86cb1357dbe051e1009f98bb56baf56588553deac51d5e2fa1be9023f8f1275a",
+      "unresolved": []
+    }
+  ],
+  "numerical_execution": false,
+  "new_jobs": 0
+}

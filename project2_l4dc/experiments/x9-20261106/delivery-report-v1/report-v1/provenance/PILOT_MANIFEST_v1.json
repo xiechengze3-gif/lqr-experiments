@@ -1,0 +1,21 @@
+{
+  "status": "RESOURCE_CHECKS_PASS_WAITING_CLAUDE_PILOT_ACCEPTED",
+  "created_utc": "2026-11-06T04:51:25.968554+00:00",
+  "review_sha256": "fa9c096667a147ed70a135eb9fcc415e9e6e00f3e71f0c0957f00f825352201a",
+  "files": {
+    "PILOT_REPORT_v1.md": "3cb786f90ad28197325a8a281e9aef57b8f34e01267781979f2ceb40687b2c49",
+    "prepared-formal-v1\\formal-config.json": "580561a73a44a652a3e909b10fd60fb68aab7b79c4e900eee7b7f86b5e8a3dcd",
+    "prepared-formal-v1\\formal-plan.json": "fd9736c5ac66bf32d628cda396812b1e35e8c4dbb81efd89372d2c201ce9546e",
+    "PILOT_ACCOUNTING_v1.json": "03d5a86d4bc1e9660abdda1fa9646f178e9e66688aa3e170344651f878e33bfc",
+    "PILOT_DELIVERY_VERIFIED_v1.json": "9d215f437de99fe17cc2bff809c954dcbb791a68db0a1a649bc6591f504c6e5a",
+    "pilot-progress-20261106T0448457145298.json": "cbe990d5f752952f1250a65c711ad0a06a9a99114347da1657e940420acaaa48"
+  },
+  "pilot_archive_sha256": "7fbeacad829a7478ec3ffcc003bdacfd5c31f47dff501e56a40933b73f1ce27e",
+  "scientific_sources": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "actor_paths.py": "905ebe819c50c860249dc11836eb9f356b97b6ea8d4ebe22e34d5a0e4f7deb3b",
+    "x9_core.py": "e62b82f5617179791e362189ab5900b3c29dbf7ad2d2785813376fc02884c050",
+    "analyze_x9.py": "7eafc31a73ab8e3f8924561d4892682e8bf73f57b06b5c321018494792a773bd"
+  }
+}

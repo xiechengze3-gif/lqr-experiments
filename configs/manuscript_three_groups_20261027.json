@@ -1,0 +1,78 @@
+{
+  "exact_dims": [
+    12,
+    24,
+    48,
+    96
+  ],
+  "rank": 2,
+  "approximate_n": 16,
+  "factors": [
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "ce_budgets": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    16384,
+    65536
+  ],
+  "ranks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "A_families": [
+    "scalar",
+    "dense"
+  ],
+  "spectra": [
+    "exact",
+    "gapped",
+    "smooth"
+  ],
+  "systems": [
+    101,
+    102,
+    103
+  ],
+  "trials": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "threshold_multiplier": 1.0,
+  "H": 12,
+  "burn_blocks": 12,
+  "ce_burn": 144,
+  "actor_n": 12,
+  "eta": 0.1111111111111111,
+  "actor_blocks": [
+    2048,
+    8192,
+    32768,
+    131072
+  ],
+  "stages_per_budget": 12,
+  "SU_cap": 12.0,
+  "seed_namespace": 27102026
+}

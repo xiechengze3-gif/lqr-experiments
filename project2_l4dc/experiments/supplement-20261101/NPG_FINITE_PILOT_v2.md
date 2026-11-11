@@ -1,0 +1,7 @@
+Scope: finite-data dense-only NPG calibration for primary X2 n12/24 and X3 n12.
+
+Resource/equivalence pilot completed, bitwise multi-order equality and independent transition counts PASS. Largest-batch timings at n12/24/48 are.337196/2.321298/20.013511s; peak observed RSS134404KiB. At n24, the frozen T384 schedule predicts about301s per dense trajectory by measured collector rate; request10min/1core2GiB per pilot bundle. n12 X2 and three-spectrum X3 request5min per bundle. Each array has4 disjoint system/seed bundles; global added upper.333333+.666667+.333333=1.333333SU. Dense-only base2048(X2)/512(X3), criterion unchanged: all paths stable plus median relative endpoint<=.5 in every included dimension. Truncation is not inspected for calibration.
+
+A first X2 pilot scheduler call was rejected with Job dependency problem after the successful resource job had left the live scheduler. No job ID and no science outputs were created; its receipt and.333333SU conservative reservation remain. New frozen v15 dispatch verifies the completed hashed resource proof directly, with no stale dependency. This is a documented submission correction, not replay of a learning trajectory.
+
+The optional n48 full plan is not committed yet: resource timing predicts roughly1.45h per dense arm and requires a longer paired-formal partition plus full checkpoint preservation. Its pilot/formal reservation will follow after mandatory X3 cost is budgeted, as Review02:25 prioritizes.

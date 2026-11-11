@@ -1,0 +1,14 @@
+{
+  "status": "PASS_HASH_AST_MODEL_HEADERS_ONLY",
+  "models": 32,
+  "groups": 12,
+  "formal_config_sha256": "6c0c63610119ef895cda3af4174589bcbd7cf06ab0e7c26d99df3d5bdec7398d",
+  "scientific_sources": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "actor_paths.py": "d32e410a64c78a927c2e4b1f9c5ea929c3942c856f393b77b2ab2479ea33a8dc",
+    "formal_driver.py": "d30fc3dbf703f17ac37ee2ad7573b7e36589057cbb5d76b572e4375975f54b25",
+    "analyze_actor.py": "ec27555202189295f5d46db3c4d51684e1344db58ffea44eb3acd9965bb55469",
+    "plot_saved_actor.py": "33759f577ab645e67e1ebba53f8b6228c4528d2e635f57da1634dd6243807835"
+  },
+  "no_local_model_solve": true
+}

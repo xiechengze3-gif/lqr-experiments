@@ -1,0 +1,29 @@
+{
+  "scope": "User-directed retention exclusions for this session and any future LQR cleanup I prepare or execute. No deletion guard/service has been installed.",
+  "rule": "Never delete, move, or archive-then-delete any folder holding X0-X7 records, fits, policies, checkpoints, frozen sources or releases. Archive copies do not remove this exclusion.",
+  "remote_excluded_roots": [
+    "/scratch/user/changze/lqr_experiments/results",
+    "/scratch/user/changze/lqr_experiments/releases",
+    "/scratch/user/changze/lqr_experiments/local-archives",
+    "/scratch/user/changze/lqr_experiments/analysis"
+  ],
+  "local_excluded_roots": [
+    "E:/ChatGPT/Projects/LQR_experiments/project2_l4dc/experiments"
+  ],
+  "unknown_provenance": "Do not classify as disposable; leave in place.",
+  "query_actions": {
+    "new_jobs": 0,
+    "new_transitions": 0,
+    "scientific_refits": 0,
+    "moved_files": 0,
+    "deleted_files": 0
+  },
+  "queue_check": {
+    "checked_utc": "2026-11-05T06:00Z approximate; raw tool receipt available in chat",
+    "command": "squeue -h -u changze -o %A|%j|%T",
+    "exit_code": 0,
+    "output": "",
+    "interpretation": "No queued/running jobs for the current user at this snapshot. This is not a global guarantee about other sessions or future site retention."
+  },
+  "historical_receipts": "Oct 25 cleanup-plan/cleanup-complete describe completed local-to-Grace migration, not a new remote deletion authorization. Old receipts/scripts were not changed or rerun."
+}

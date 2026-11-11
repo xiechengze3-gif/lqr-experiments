@@ -1,0 +1,25 @@
+{
+  "name": "supplement-20261101-x2-ce-formal-v13",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\supplement-20261101\\packages\\supplement-20261101-x2-ce-formal-v13.tar.gz",
+  "archive_sha256": "1d1ee7593b6309696a7b34efff2ac22ce763c172984782ed81b03bbb27b13cf6",
+  "source_hashes": {
+    "engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "formal_driver.py": "3ed88761dcb3f949b20aef66e8da73ffa7390f68c1530adfb5a7a4cba49b1a61",
+    "ce_suite.py": "1ad29095ca75409702915fc3eef124e68f91beb0ee47e5c3c87f5b8586a8476d",
+    "configs/X2_CE_resolved_v2.json": "56b432e62fd51edb6fe82b3c3c26373db3b837e9b8faa94df0a339218e226900",
+    "X2/ACCEPTED_CE.json": "1fd509d0e28983f02f67ec75482ce69ba2daa60f669c198b64a6c6268ab945f9",
+    "tools/submit_pilot_remote.py": "e35171a9136e386b4015adb29400aa33ff838ac3d17e78f3a82e8ed0d8b6749b",
+    "tools/submit_ce_suite_formal.py": "23771ac373e211dcd8b1019d03ee9650b07470a94d3b3fb16e3bb0d8335b6758",
+    "job_plan.json": "d88483b6bfd2fddac83ebb20913316857af64bbf0916469e6a0c3f2b4ac4946b",
+    "slurm/run.sbatch": "8f026ce14392a74429e7ba7b0d9f765a3b8977047e1814a49e75e239c5a6621f"
+  },
+  "plan": {
+    "id": "supplement-20261101-x2-ce-formal-v13",
+    "experiment": "X2",
+    "stage": "FORMAL",
+    "scope": "CE_ONLY",
+    "bundles": 32,
+    "wall_minutes": 2,
+    "config": "configs/X2_CE_resolved_v2.json"
+  }
+}

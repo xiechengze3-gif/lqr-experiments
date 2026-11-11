@@ -1,0 +1,41 @@
+{
+  "name": "x6-20261101-a-report-v4",
+  "archive": "E:\\ChatGPT\\Projects\\LQR_experiments\\project2_l4dc\\experiments\\x6-20261101\\amendment-A1\\packages\\x6-20261101-a-report-v4.tar.gz",
+  "archive_sha256": "71cded094c144159ffe99d61b3d2fd6bd9842ce703c4b1f257d8565fe2666b0b",
+  "plan": {
+    "id": "x6-20261101-a-report-v4",
+    "experiment": "X6a",
+    "stage": "REPORT",
+    "tasks": 1,
+    "concurrency": 1,
+    "cpus": 1,
+    "memory_MiB": 2048,
+    "wall_minutes": 60,
+    "requested_bound_SU": 1.0
+  },
+  "approval": {
+    "experiment": "X6a",
+    "accepted_stage": "FORMAL",
+    "exact_quote": "### Review 21:50 CDT (Claude) \u2014 X6a PILOT: ACCEPTED; X6a FORMAL authorized\n\nResource-only pilot accepted: 8/8 cells complete, frozen-engine bitwise/rtol 1e-11\nequivalence passed, exact M counts verified, no accuracy/gap/truncated readout. The measured\nFORMAL plan (40 bundles = 32 formal + 8 calibration, all 8 systems x 4 seeds, A1 grid kept,\n20 min/bundle, 13.33 SU requested; X6a cumulative request 16.33/400 SU) is ACCEPTED.\nSubmit X6a FORMAL with the analysis frozen as stated (SHA 0962905f...). After it completes,\nrun the REPORT (<= 1 SU) and deliver: the per-(family, n, N) tables of relative errors\n(dense vs truncated, all three estimators), rho_op, sin-theta, projection coefficients,\nand the pilot-only calibration N for rho_op <= 1 (with right censoring flagged). Then\npropose the X6b PROTOCOL (S family, n in {24,36,48,72}) using those calibrated N.",
+    "protocol_exact_quote": "### Review 20:20 CDT (Claude) \u2014 X6a PROTOCOL v1: ACCEPTED with one amendment",
+    "task_sha256": "fd1ea51944921f2dc5cc66097b1aff4b6ddc5c759f296b1d2b6fb43e34b256e6",
+    "protocol_manifest_sha256": "037b05ce3114fe395e0a369911069974295f918120e29f62be41fbfbcfc4b070"
+  },
+  "hashes": {
+    "frozen_engine.py": "9915fc38593be00eaa2e62718a0b527d9f95d2b190be39f6af8acd3827bea989",
+    "estimation.py": "f587bd48993288dbf9160dd4cc1e62542f15ee5794bda37590ec48dc672c9c59",
+    "config-X6a-v2.json": "3f0e7c9decb95e39e3a1c6fd26d1c617f329f41484ca07473f564cc3f1b3ecd2",
+    "PROTOCOL_X6a_A1.md": "9ca6a27c6d6effbf96d35e963f626f3bd0e9920f36f4954b825d362bae76eac0",
+    "remote_ops.py": "cb722c3f471a81139553248fdf36949b499e647b996ce05f7244cb7da5a94416",
+    "accounting.py": "3b1b217acc1b28d2fd5808ef9d7316b783a4ce74408d1ab45b76e6dd3f779010",
+    "analyze_saved.py": "0962905f641e9f75eb16f16c47fcfb160c73614234c23cc269db21c9ebaa0cda",
+    "plot_saved.py": "5706de7f3dd0ac85f2ec0a30c7a435ffa6e3ba9e4cbd183885f06d360e89f8e8",
+    "verify_saved.py": "41a29acde337c4aa686f8ef256a9af012e371b857678c3a940a083f3eaf84fe7",
+    "PROTOCOL_SHA256SUMS": "037b05ce3114fe395e0a369911069974295f918120e29f62be41fbfbcfc4b070",
+    "CLAUDE_TASK_approved.md": "fd1ea51944921f2dc5cc66097b1aff4b6ddc5c759f296b1d2b6fb43e34b256e6",
+    "resource_plan.json": "3e1c023d48f142697c7a6649aa07e757e3a4a03de23bd8ff98dbbaa18b77f1a4",
+    "approval.json": "40c3aedc81a11958d4d59e7aa3ed699577bb3dba686e2aa2579219b828a6bcda",
+    "job_plan.json": "b325ad7324b5a5712964b29bb3811fbcca1c6baa50e19b96b423c5c88e665121",
+    "run.sbatch": "1cfcccb7c95a848d7770af9280d1a2e7c226a5cdd86110bac35d64e6230782f4"
+  }
+}
